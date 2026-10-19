@@ -1,0 +1,2279 @@
+{
+ "id": "wa-motorcycle-3w",
+ "name": "Washington motorcycle knowledge test (3-wheel)",
+ "description": "Questions from the Washington DOL Motorcycle Operator Manual for the three-wheel (trike, reverse trike and sidecar) knowledge test. A 3-wheel endorsement takes two tests at a DOL partner training school: the knowledge test (25 multiple-choice questions, pass with 80%), which gets you a permit, then a skills test. DOL does not publish its test questions, so these are written from the manual.",
+ "source": {
+  "name": "Washington State Department of Licensing, Motorcycle Operator Manual",
+  "url": "https://dol.wa.gov/driver-licenses-and-permits/motorcycle/motorcycle-endorsement-training-and-testing/motorcycle-operator-manual"
+ },
+ "updated": "2026-10-19",
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "What do you need to ride a motorcycle legally on Washington roads?",
+   "answers": [
+    "A motorcycle instruction permit or endorsement"
+   ],
+   "wrong": [
+    "A regular driver license and motorcycle insurance",
+    "A safety course certificate and a helmet",
+    "A motorcycle registration in your own name"
+   ],
+   "explanation": "A permit or endorsement is required on public roads, on top of your driver license.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "What can happen to your motorcycle if you ride it on public roads without the required permit or endorsement?",
+   "answers": [
+    "It may be impounded"
+   ],
+   "wrong": [
+    "Nothing, if you have insurance",
+    "It gets a warning sticker",
+    "Its registration is cancelled"
+   ],
+   "explanation": "Riding without a permit or endorsement can get the motorcycle impounded, and the minimum fine is $389.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "What is the minimum fine for riding without a motorcycle endorsement?",
+   "answers": [
+    "$389"
+   ],
+   "wrong": [
+    "$50",
+    "$124",
+    "$1,000"
+   ],
+   "explanation": "The manual gives $389 as the current minimum fine.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "What is the minimum age for a motorcycle instruction permit?",
+   "answers": [
+    "16"
+   ],
+   "wrong": [
+    "15",
+    "17",
+    "18"
+   ],
+   "explanation": "You must be at least 16 and hold a current Washington driver license.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q5",
+   "prompt": "Who may ride as a passenger with a motorcycle instruction permit holder?",
+   "answers": [
+    "Nobody, permit holders may not carry passengers"
+   ],
+   "wrong": [
+    "Anyone wearing a DOT-compliant helmet",
+    "Only a rider with a full endorsement",
+    "Only family members over 16"
+   ],
+   "explanation": "A permit allows no passengers and no riding at night.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q6",
+   "prompt": "When may a motorcycle instruction permit holder ride?",
+   "answers": [
+    "Only in daylight, not at night"
+   ],
+   "wrong": [
+    "Any time",
+    "Only on weekends",
+    "Only with an endorsed rider following"
+   ],
+   "explanation": "Permit holders may not ride at night or carry passengers.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q7",
+   "prompt": "How long is a motorcycle instruction permit valid?",
+   "answers": [
+    "180 days"
+   ],
+   "wrong": [
+    "30 days",
+    "90 days",
+    "1 year"
+   ],
+   "explanation": "A permit lasts 180 days and can be renewed once before it expires.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q8",
+   "prompt": "How many times can you renew a motorcycle instruction permit?",
+   "answers": [
+    "Once, before it expires"
+   ],
+   "wrong": [
+    "Never, you must retest",
+    "Twice, within 5 years",
+    "As often as you like"
+   ],
+   "explanation": "You can renew once before it expires; if it lapses, you retest for a second permit. You may hold only 2 permits in 5 years.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q9",
+   "prompt": "How many motorcycle instruction permits may you hold within 5 years?",
+   "answers": [
+    "2"
+   ],
+   "wrong": [
+    "1",
+    "3",
+    "No limit"
+   ],
+   "explanation": "Only 2 permits in a 5-year period.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q10",
+   "prompt": "What must riders under 18 do before applying for a motorcycle endorsement?",
+   "answers": [
+    "Complete an approved safety course, with a parent’s permission"
+   ],
+   "wrong": [
+    "Hold a permit for a full year with no tickets",
+    "Ride with an endorsed adult for 50 hours",
+    "Pass the skills test twice in a row"
+   ],
+   "explanation": "Under-18 riders need an approved safety course and parental permission for the course and the endorsement.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q11",
+   "prompt": "Do you have to take a training course to take the motorcycle permit or endorsement tests (if you are 18 or older)?",
+   "answers": [
+    "No, training is not required"
+   ],
+   "wrong": [
+    "Yes, always",
+    "Only for the endorsement",
+    "Only for the permit"
+   ],
+   "explanation": "Training is optional for adults, though the tests are taken at a DOL partner training school.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q12",
+   "prompt": "Where do you take Washington motorcycle permit and endorsement tests?",
+   "answers": [
+    "At a DOL partner training school"
+   ],
+   "wrong": [
+    "At any police station",
+    "Online at home",
+    "At the motorcycle dealer"
+   ],
+   "explanation": "All the tests are given through DOL partner training schools.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q13",
+   "prompt": "After passing the required tests, how long must you wait before adding the endorsement at a licensing office?",
+   "answers": [
+    "3 business days"
+   ],
+   "wrong": [
+    "No wait",
+    "1 week",
+    "30 days"
+   ],
+   "explanation": "There is a 3-business-day wait. Passing results are good for 180 days.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q14",
+   "prompt": "Do 2-wheel and 3-wheel motorcycles need separate endorsements in Washington?",
+   "answers": [
+    "Yes, each has its own tests and endorsement"
+   ],
+   "wrong": [
+    "No, one endorsement covers every motorcycle",
+    "Only for sidecar rigs, not trikes",
+    "Only if the engine is over 150 cc"
+   ],
+   "explanation": "A 2-wheel and a 3-wheel endorsement are separate.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q15",
+   "prompt": "Is liability insurance required for motorcycles in Washington?",
+   "answers": [
+    "Yes, it is mandatory"
+   ],
+   "wrong": [
+    "No, it is optional",
+    "Only for passengers",
+    "Only for bikes over 500 cc"
+   ],
+   "explanation": "Liability insurance is mandatory for all motorcycles (RCW 46.30.020).",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q16",
+   "prompt": "When may motorcycles use HOV (diamond) lanes in Washington?",
+   "answers": [
+    "At any time"
+   ],
+   "wrong": [
+    "Never",
+    "Only at rush hour",
+    "Only with a passenger"
+   ],
+   "explanation": "Motorcycles may use HOV lanes at any time.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q17",
+   "prompt": "Is lane splitting (riding between lanes of traffic) legal in Washington?",
+   "answers": [
+    "No, it is against the law"
+   ],
+   "wrong": [
+    "Yes, below 25 mph",
+    "Yes, in stopped traffic",
+    "Yes, on freeways"
+   ],
+   "explanation": "Riding between lanes and riding on the shoulder are both illegal.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q18",
+   "prompt": "Is riding on the shoulder to get past traffic legal in Washington?",
+   "answers": [
+    "No, it is against the law"
+   ],
+   "wrong": [
+    "Yes, in stopped traffic",
+    "Yes, below 10 mph",
+    "Yes, on freeways only"
+   ],
+   "explanation": "Shoulder riding and lane splitting are both illegal.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q19",
+   "prompt": "Can two motorcycles legally ride side by side in one lane in Washington?",
+   "answers": [
+    "Yes, but it leaves no room to maneuver"
+   ],
+   "wrong": [
+    "No, never",
+    "Only on freeways",
+    "Only in a group of three or more"
+   ],
+   "explanation": "It is legal, but the manual advises caution because it limits space and escape paths.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q20",
+   "prompt": "What kind of helmet does Washington law require on a motorcycle?",
+   "answers": [
+    "A DOT-compliant helmet"
+   ],
+   "wrong": [
+    "Any helmet",
+    "A Snell-certified helmet",
+    "None for riders over 18"
+   ],
+   "explanation": "A DOT-compliant helmet is the legal minimum. Snell and ECE are optional extras.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q21",
+   "prompt": "Where do you find the label showing a helmet meets the DOT standard?",
+   "answers": [
+    "On the back of the outside and on the inside"
+   ],
+   "wrong": [
+    "On the chin strap buckle only",
+    "Only on the box it came in",
+    "On the visor and the front of the shell"
+   ],
+   "explanation": "DOT labels are on the helmet’s rear exterior and its interior.",
+   "tags": [
+    "Protective gear"
+   ]
+  },
+  {
+   "id": "q22",
+   "prompt": "May you wear a novelty helmet on public roads?",
+   "answers": [
+    "No, they are not DOT-compliant"
+   ],
+   "wrong": [
+    "Yes, any helmet meets the law",
+    "Yes, but only below 35 mph",
+    "Yes, but only on a 3-wheeler"
+   ],
+   "explanation": "Novelty helmets do not meet the DOT standard and are not legal on 2- or 3-wheel motorcycles.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q23",
+   "prompt": "When does Washington law require eye protection?",
+   "answers": [
+    "Whenever the motorcycle has no windshield"
+   ],
+   "wrong": [
+    "Only when riding after dark",
+    "Only on freeways and highways",
+    "Only for riders under 18"
+   ],
+   "explanation": "Eye protection is required unless the motorcycle has a windshield.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q24",
+   "prompt": "Are in-ear speakers (earbuds) legal while riding in Washington?",
+   "answers": [
+    "No, earbuds are not legal"
+   ],
+   "wrong": [
+    "Yes",
+    "Only in one ear",
+    "Only for GPS directions"
+   ],
+   "explanation": "Earplugs for hearing protection are legal; earbuds with speakers are not.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q25",
+   "prompt": "Are earplugs for hearing protection legal while riding in Washington?",
+   "answers": [
+    "Yes"
+   ],
+   "wrong": [
+    "No",
+    "Only in one ear",
+    "Only on freeways"
+   ],
+   "explanation": "In-ear hearing protection is legal; in-ear speakers are not.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q26",
+   "prompt": "Which type of helmet gives the most protection?",
+   "answers": [
+    "Full-face"
+   ],
+   "wrong": [
+    "Half shell",
+    "3/4 shell",
+    "Novelty helmet"
+   ],
+   "explanation": "A full-face helmet protects the chin and face too. Half and 3/4 shells do not.",
+   "tags": [
+    "Protective gear"
+   ]
+  },
+  {
+   "id": "q27",
+   "prompt": "What does a 3/4 or half shell helmet not protect in a crash?",
+   "answers": [
+    "Your chin and face"
+   ],
+   "wrong": [
+    "Your skull",
+    "Your ears",
+    "The back of your head"
+   ],
+   "explanation": "Only full-face (and modular) helmets cover the chin and face.",
+   "tags": [
+    "Protective gear"
+   ]
+  },
+  {
+   "id": "q28",
+   "prompt": "What is the inner liner of a DOT helmet usually made of?",
+   "answers": [
+    "Expanded polystyrene (EPS) foam"
+   ],
+   "wrong": [
+    "Padded leather over steel mesh",
+    "Solid molded rubber",
+    "Layered cotton and gel padding"
+   ],
+   "explanation": "A DOT helmet has a hard outer shell, an impact-absorbing EPS liner, comfort padding and a retention strap.",
+   "tags": [
+    "Protective gear"
+   ]
+  },
+  {
+   "id": "q29",
+   "prompt": "When should you replace a helmet?",
+   "answers": [
+    "After a crash, or if it is cracked or its straps are frayed"
+   ],
+   "wrong": [
+    "Only when it no longer fits your head",
+    "Every year, whether or not it is damaged",
+    "Never, as long as it still looks fine"
+   ],
+   "explanation": "Replace it after any crash or defect; many makers also recommend replacing it every 5 years.",
+   "tags": [
+    "Protective gear"
+   ]
+  },
+  {
+   "id": "q30",
+   "prompt": "How often do many manufacturers recommend replacing a helmet?",
+   "answers": [
+    "Every 5 years"
+   ],
+   "wrong": [
+    "Every year",
+    "Every 10 years",
+    "Never"
+   ],
+   "explanation": "Even without a crash, many makers say every 5 years.",
+   "tags": [
+    "Protective gear"
+   ]
+  },
+  {
+   "id": "q31",
+   "prompt": "How should a helmet fit?",
+   "answers": [
+    "Snug all the way around, without moving or causing pain"
+   ],
+   "wrong": [
+    "Loose enough to move so air can circulate",
+    "Tight enough that it leaves a headache",
+    "Tipped back so it does not block your view"
+   ],
+   "explanation": "It should not move or lift off while riding, cause pain, or block your vision or hearing.",
+   "tags": [
+    "Protective gear"
+   ]
+  },
+  {
+   "id": "q32",
+   "prompt": "What gives the most protection for your eyes and face?",
+   "answers": [
+    "A helmet with a shatter-resistant face shield"
+   ],
+   "wrong": [
+    "Shatter-resistant sunglasses",
+    "A tall windshield on its own",
+    "Regular prescription eyeglasses"
+   ],
+   "explanation": "Glasses are usually not shatter-resistant and can blow off; a windshield does not fully protect either.",
+   "tags": [
+    "Protective gear"
+   ]
+  },
+  {
+   "id": "q33",
+   "prompt": "Why are ordinary eyeglasses or sunglasses not enough eye protection?",
+   "answers": [
+    "Most are not shatter-resistant and can blow off at speed"
+   ],
+   "wrong": [
+    "They are too dark for most daylight riding",
+    "Washington law bans them while riding",
+    "They fog up quickly in the sun and heat"
+   ],
+   "explanation": "Use goggles or a face shield instead.",
+   "tags": [
+    "Protective gear"
+   ]
+  },
+  {
+   "id": "q34",
+   "prompt": "When should you not wear tinted eye protection?",
+   "answers": [
+    "In low light, such as dusk, fog or rain"
+   ],
+   "wrong": [
+    "On bright, sunny afternoons",
+    "On freeways at high speed",
+    "Whenever it is hot out"
+   ],
+   "explanation": "Tints cut what little light there is.",
+   "tags": [
+    "Protective gear"
+   ]
+  },
+  {
+   "id": "q35",
+   "prompt": "Which of these is something a face shield should do?",
+   "answers": [
+    "Let air through to reduce fogging"
+   ],
+   "wrong": [
+    "Be tinted for night riding",
+    "Seal completely against air",
+    "Cover only the eyes"
+   ],
+   "explanation": "It should be scratch-free, penetration-resistant, give a clear view ahead and to the sides, fasten securely, vent, and leave room for glasses.",
+   "tags": [
+    "Protective gear"
+   ]
+  },
+  {
+   "id": "q36",
+   "prompt": "Which material gives the best protection in a jacket or pants?",
+   "answers": [
+    "Leather or sturdy abrasion-resistant material"
+   ],
+   "wrong": [
+    "Heavy denim",
+    "Thick cotton",
+    "A nylon windbreaker"
+   ],
+   "explanation": "Denim does not give significant abrasion protection.",
+   "tags": [
+    "Protective gear"
+   ]
+  },
+  {
+   "id": "q37",
+   "prompt": "Where should riding gear have body armor?",
+   "answers": [
+    "Knees, elbows, shoulders, hips and back"
+   ],
+   "wrong": [
+    "Only the chest and the stomach",
+    "Only the wrists and the ankles",
+    "Only the neck and the head"
+   ],
+   "explanation": "Armor inserts at the impact points.",
+   "tags": [
+    "Protective gear"
+   ]
+  },
+  {
+   "id": "q38",
+   "prompt": "What kind of boots should you ride in?",
+   "answers": [
+    "Sturdy boots that cover your ankles"
+   ],
+   "wrong": [
+    "Light sneakers with long laces",
+    "Any shoes with high heels",
+    "Low shoes that leave the ankles free"
+   ],
+   "explanation": "They should be reinforced at the ankle, shin, toe and heel, with laces tucked in.",
+   "tags": [
+    "Protective gear"
+   ]
+  },
+  {
+   "id": "q39",
+   "prompt": "Why should you tuck in your boot laces?",
+   "answers": [
+    "So they do not catch on the motorcycle"
+   ],
+   "wrong": [
+    "So they stay dry in the rain",
+    "So the boots look neater",
+    "Because the law requires it"
+   ],
+   "explanation": "Loose laces can catch on pegs and controls.",
+   "tags": [
+    "Protective gear"
+   ]
+  },
+  {
+   "id": "q40",
+   "prompt": "Which gear colors help other drivers see you?",
+   "answers": [
+    "Bright or light colors, with retroreflective strips"
+   ],
+   "wrong": [
+    "Black, so you look like a serious rider",
+    "Dark blue or gray, so you match traffic",
+    "Camouflage or earth tones"
+   ],
+   "explanation": "If you like black gear, wear a high-visibility reflective vest over it.",
+   "tags": [
+    "Protective gear"
+   ]
+  },
+  {
+   "id": "q41",
+   "prompt": "Why should you wear hearing protection, even with a full-face helmet?",
+   "answers": [
+    "Wind and road noise can permanently damage your hearing"
+   ],
+   "wrong": [
+    "Washington law requires it on freeways",
+    "So you cannot hear sirens and horns",
+    "So you can play music over the noise"
+   ],
+   "explanation": "Pick protection that cuts harmful noise but still lets you hear horns and sirens.",
+   "tags": [
+    "Protective gear"
+   ]
+  },
+  {
+   "id": "q42",
+   "prompt": "Why dress in layers?",
+   "answers": [
+    "So you can add or remove them as the weather changes"
+   ],
+   "wrong": [
+    "To look bigger to other drivers",
+    "Because the law requires it",
+    "To pad yourself instead of armor"
+   ],
+   "explanation": "Cold brings fatigue and hypothermia; heat brings sunstroke and dehydration.",
+   "tags": [
+    "Protective gear"
+   ]
+  },
+  {
+   "id": "q43",
+   "prompt": "What is the legal minimum protective gear in Washington?",
+   "answers": [
+    "A DOT helmet, and eye protection without a windshield"
+   ],
+   "wrong": [
+    "A helmet only, and nothing else",
+    "A helmet, a jacket and gloves",
+    "Nothing at all for riders over 18"
+   ],
+   "explanation": "The manual says to wear the most protective gear possible at all times.",
+   "tags": [
+    "Protective gear"
+   ]
+  },
+  {
+   "id": "q44",
+   "prompt": "In the T-CLOCS pre-ride inspection, what does the T stand for?",
+   "answers": [
+    "Tires and wheels"
+   ],
+   "wrong": [
+    "Throttle",
+    "Turn signals",
+    "Tools"
+   ],
+   "explanation": "Check air pressure, tread, sidewalls, wheels and spokes.",
+   "tags": [
+    "Pre-ride inspection"
+   ]
+  },
+  {
+   "id": "q45",
+   "prompt": "In the T-CLOCS pre-ride inspection, what does the O stand for?",
+   "answers": [
+    "Oil and other fluids"
+   ],
+   "wrong": [
+    "Odometer",
+    "Operator",
+    "Overall frame"
+   ],
+   "explanation": "Check levels and look for leaks.",
+   "tags": [
+    "Pre-ride inspection"
+   ]
+  },
+  {
+   "id": "q46",
+   "prompt": "In the T-CLOCS pre-ride inspection, what does the first L stand for?",
+   "answers": [
+    "Levers and controls"
+   ],
+   "wrong": [
+    "Lights and signals",
+    "Locks and keys",
+    "Luggage and racks"
+   ],
+   "explanation": "Levers, pedals, cables, hoses and the throttle. The second L is Lights.",
+   "tags": [
+    "Pre-ride inspection"
+   ]
+  },
+  {
+   "id": "q47",
+   "prompt": "In the T-CLOCS pre-ride inspection, what does the second L stand for?",
+   "answers": [
+    "Lights"
+   ],
+   "wrong": [
+    "Levers",
+    "Leaks",
+    "Locks"
+   ],
+   "explanation": "Headlight, taillight and brake lights, turn signals and switches.",
+   "tags": [
+    "Pre-ride inspection"
+   ]
+  },
+  {
+   "id": "q48",
+   "prompt": "In the T-CLOCS pre-ride inspection, what does the first S stand for?",
+   "answers": [
+    "Suspension and drivetrain"
+   ],
+   "wrong": [
+    "Seat and saddlebags",
+    "Speedometer and gauges",
+    "Spark plugs and starter"
+   ],
+   "explanation": "Suspension, and the chain, belt or drive shaft. The last S is Stands.",
+   "tags": [
+    "Pre-ride inspection"
+   ]
+  },
+  {
+   "id": "q49",
+   "prompt": "In the T-CLOCS pre-ride inspection, what does the last S stand for?",
+   "answers": [
+    "Stands"
+   ],
+   "wrong": [
+    "Spokes",
+    "Steering",
+    "Signals"
+   ],
+   "explanation": "The kickstand, and the center stand if there is one.",
+   "tags": [
+    "Pre-ride inspection"
+   ]
+  },
+  {
+   "id": "q50",
+   "prompt": "When checking tires before a ride, what do you look at?",
+   "answers": [
+    "Air pressure, tread, and sidewall or wheel damage"
+   ],
+   "wrong": [
+    "Only the tread depth",
+    "Only the brand and size",
+    "Only how warm they feel"
+   ],
+   "explanation": "Also look for loose spokes.",
+   "tags": [
+    "Pre-ride inspection"
+   ]
+  },
+  {
+   "id": "q51",
+   "prompt": "Which of these is part of checking the Lights in T-CLOCS?",
+   "answers": [
+    "Turn signals and switches"
+   ],
+   "wrong": [
+    "Brake fluid level",
+    "Chain slack",
+    "Tire pressure"
+   ],
+   "explanation": "Headlight, tail and brake lights, turn signals and switches.",
+   "tags": [
+    "Pre-ride inspection"
+   ]
+  },
+  {
+   "id": "q52",
+   "prompt": "What are the three main kinds of 3-wheel motorcycles?",
+   "answers": [
+    "Sidecar rigs, trikes and reverse trikes"
+   ],
+   "wrong": [
+    "Mopeds, scooters and trikes",
+    "Cruisers, tourers and trikes",
+    "ATVs, side-by-sides and trikes"
+   ],
+   "explanation": "The manual calls them rigs.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q53",
+   "prompt": "What is a trike?",
+   "answers": [
+    "One wheel in front and two in back"
+   ],
+   "wrong": [
+    "Two wheels in front and one in back",
+    "A motorcycle with a sidecar attached",
+    "A three-seat scooter"
+   ],
+   "explanation": "A reverse trike has two wheels in front and one in back.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q54",
+   "prompt": "What is a reverse trike?",
+   "answers": [
+    "Two wheels in front and one in back"
+   ],
+   "wrong": [
+    "One wheel in front and two in back",
+    "A motorcycle with a sidecar",
+    "A trike ridden backwards"
+   ],
+   "explanation": "A regular trike is one in front and two in back.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q55",
+   "prompt": "What tests do you need for a 3-wheel endorsement?",
+   "answers": [
+    "A knowledge test and a skills test"
+   ],
+   "wrong": [
+    "Only a knowledge test",
+    "Only a skills test",
+    "Four tests, like a 2-wheel endorsement"
+   ],
+   "explanation": "Passing the knowledge test gets you a 3-wheel permit; the skills test completes the endorsement.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q56",
+   "prompt": "What does passing the 3-wheel knowledge test alone qualify you for?",
+   "answers": [
+    "A 3-wheel instruction permit"
+   ],
+   "wrong": [
+    "A full 3-wheel endorsement",
+    "A 2-wheel endorsement",
+    "Nothing until training"
+   ],
+   "explanation": "The skills test then completes the endorsement.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q57",
+   "prompt": "You move to Washington with an out-of-state motorcycle endorsement. When will you get a 3-wheel endorsement?",
+   "answers": [
+    "Only with proof you passed a separate 3-wheel test"
+   ],
+   "wrong": [
+    "Always, it transfers along with the 2-wheel one",
+    "Never, everyone has to retest in Washington",
+    "Only if you already own a 3-wheeler"
+   ],
+   "explanation": "Without that proof you are offered only a 2-wheel endorsement.",
+   "tags": [
+    "Licensing and law"
+   ]
+  },
+  {
+   "id": "q58",
+   "prompt": "How do you steer a trike or sidecar rig?",
+   "answers": [
+    "Turn the bars the way you want to go"
+   ],
+   "wrong": [
+    "Countersteer, like a 2-wheeler",
+    "Lean your body, not the bars",
+    "Turn the bars the opposite way"
+   ],
+   "explanation": "A 3-wheeler does not lean like a 2-wheeler.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q59",
+   "prompt": "What is steering reversion on a sidecar rig?",
+   "answers": [
+    "On two wheels, steering switches to countersteering"
+   ],
+   "wrong": [
+    "The bars return to center by themselves",
+    "The sidecar wheel steers the rig itself",
+    "Steering gets heavier in reverse gear"
+   ],
+   "explanation": "This is why flying the sidecar on public roads is not recommended.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q60",
+   "prompt": "What is a tip-over line?",
+   "answers": [
+    "A line between any two wheels that acts like a hinge"
+   ],
+   "wrong": [
+    "A painted line on the road you should not cross",
+    "The edge of your lane in a curve",
+    "The steepest lean angle before a fall"
+   ],
+   "explanation": "Weight or cornering force outside a tip-over line can lift a wheel, and in extremes roll the rig.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q61",
+   "prompt": "Where should you keep loads and passengers on a 3-wheeler?",
+   "answers": [
+    "Inside the tip-over lines, low and centered"
+   ],
+   "wrong": [
+    "High up, where they are easy to reach",
+    "Outside the tip-over lines",
+    "All the way at the rear"
+   ],
+   "explanation": "Lower, centered loads make the rig more stable.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q62",
+   "prompt": "On which kind of 3-wheeler do tip-over lines matter most?",
+   "answers": [
+    "A sidecar rig"
+   ],
+   "wrong": [
+    "A trike",
+    "A reverse trike",
+    "They matter equally on all"
+   ],
+   "explanation": "A shift in weight or cornering force can easily lift the sidecar wheel.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q63",
+   "prompt": "As a sidecar rig pulls away from a stop, which way does it pull?",
+   "answers": [
+    "To the right, toward the sidecar"
+   ],
+   "wrong": [
+    "To the left",
+    "Straight ahead",
+    "It lifts the front wheel"
+   ],
+   "explanation": "Steer slightly left to stay in your lane.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q64",
+   "prompt": "When braking a sidecar rig, which way does it tend to pull?",
+   "answers": [
+    "To the left"
+   ],
+   "wrong": [
+    "To the right",
+    "Straight ahead",
+    "It lifts the rear wheel"
+   ],
+   "explanation": "Especially if the sidecar wheel has no brake. Steer slightly right to compensate.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q65",
+   "prompt": "In which turn is a sidecar rig’s sidecar wheel most likely to lift?",
+   "answers": [
+    "A right turn"
+   ],
+   "wrong": [
+    "A left turn",
+    "Both equally",
+    "Neither"
+   ],
+   "explanation": "Especially with an empty or lightly loaded sidecar. Lean into right turns.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q66",
+   "prompt": "What can happen to a sidecar rig in a hard left turn?",
+   "answers": [
+    "Weight shifts onto the sidecar, and its nose can dig in"
+   ],
+   "wrong": [
+    "The sidecar wheel lifts off the ground",
+    "Nothing, left turns are always safe",
+    "The front wheel lifts off the ground"
+   ],
+   "explanation": "Too much weight transfer also reduces steering traction.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q67",
+   "prompt": "Do trikes handle differently in left and right turns?",
+   "answers": [
+    "No, most handle about the same"
+   ],
+   "wrong": [
+    "Yes, left turns lift a wheel",
+    "Yes, right turns lift a wheel",
+    "Only reverse trikes are the same"
+   ],
+   "explanation": "Their weight is nearly the same on each side. Sidecar rigs are the ones that differ.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q68",
+   "prompt": "What are the five steps for cornering on a 3-wheeler?",
+   "answers": [
+    "Reduce, look, lean, point, roll"
+   ],
+   "wrong": [
+    "Slow, look, press, roll",
+    "Brake, swerve, lean, go",
+    "Look, press, roll, brake, stop"
+   ],
+   "explanation": "Reduce speed, look through the turn, lean your upper body in, point the front wheel(s), roll on the throttle.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q69",
+   "prompt": "How should you position your body in a turn on a 3-wheeler?",
+   "answers": [
+    "Shift your weight toward the turn"
+   ],
+   "wrong": [
+    "Lean away from the turn",
+    "Sit perfectly still and upright",
+    "Stand up on the footrests"
+   ],
+   "explanation": "This keeps the inside wheel down, which matters most in a sidecar rig’s right turns.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q70",
+   "prompt": "A wheel of your sidecar rig starts to lift. What can you do?",
+   "answers": [
+    "Lean into the lift or roll off the throttle slightly"
+   ],
+   "wrong": [
+    "Accelerate hard to push it down",
+    "Lean away from the lift",
+    "Turn the bars more sharply"
+   ],
+   "explanation": "Any of these brings the wheel down.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q71",
+   "prompt": "Is “flying the sidecar” (riding on two wheels) recommended on public roads?",
+   "answers": [
+    "No"
+   ],
+   "wrong": [
+    "Yes, it improves cornering",
+    "Yes, at low speed",
+    "Only with a passenger"
+   ],
+   "explanation": "It can be practiced in a safe, controlled place, with training.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q72",
+   "prompt": "How should you brake a 3-wheeler in a straight line?",
+   "answers": [
+    "All brakes at once, smoothly, without skidding"
+   ],
+   "wrong": [
+    "Only the rear brake, firmly",
+    "Grab the front brake hard",
+    "Pump the rear brake quickly"
+   ],
+   "explanation": "A 3-wheeler can brake harder than a 2-wheeler and still keep traction.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q73",
+   "prompt": "On a sidecar rig or reverse trike, which brake is most powerful?",
+   "answers": [
+    "The front brake"
+   ],
+   "wrong": [
+    "The rear brake",
+    "The sidecar brake",
+    "They are equal"
+   ],
+   "explanation": "Weight shifts forward as you slow down.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q74",
+   "prompt": "During a quick stop, which way does a sidecar rig tend to yaw?",
+   "answers": [
+    "To the left"
+   ],
+   "wrong": [
+    "To the right",
+    "It does not yaw",
+    "It nose-dives straight"
+   ],
+   "explanation": "Keep your knees on the tank and eyes up.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q75",
+   "prompt": "Why can swerving be riskier on a 3-wheeler than on a 2-wheeler?",
+   "answers": [
+    "Side loads can upset the suspension and tip it"
+   ],
+   "wrong": [
+    "A 3-wheeler cannot turn quickly at all",
+    "Swerving is illegal on a 3-wheeler",
+    "The brakes lock when you swerve"
+   ],
+   "explanation": "There is also less room to swerve. A quick stop may be safer.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q76",
+   "prompt": "If you must swerve a 3-wheeler, what should you do with your weight?",
+   "answers": [
+    "Shift it into each change of direction"
+   ],
+   "wrong": [
+    "Lean away from each turn",
+    "Stand up on the footrests",
+    "Keep perfectly still"
+   ],
+   "explanation": "This keeps all the wheels on the ground.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q77",
+   "prompt": "Going uphill on a 3-wheeler, what happens to the front wheel(s)?",
+   "answers": [
+    "They get lighter, so steering and traction drop"
+   ],
+   "wrong": [
+    "They get heavier, so steering improves",
+    "Nothing changes at all",
+    "They lock up under power"
+   ],
+   "explanation": "Weight shifts to the rear going up.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q78",
+   "prompt": "Going downhill on a 3-wheeler, what should you do?",
+   "answers": [
+    "Start slowing earlier and brake more gently"
+   ],
+   "wrong": [
+    "Brake later and harder",
+    "Use only the rear brake",
+    "Speed up before corners"
+   ],
+   "explanation": "Weight shifts forward and the front tire can slide under heavy braking.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q79",
+   "prompt": "Which turn is riskiest on a sidecar rig?",
+   "answers": [
+    "A downhill right turn"
+   ],
+   "wrong": [
+    "An uphill left turn",
+    "A downhill left turn",
+    "A flat left turn"
+   ],
+   "explanation": "Cornering force and gravity both push the rig outward and can lift the sidecar.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q80",
+   "prompt": "What is drifting on a 3-wheeler?",
+   "answers": [
+    "Sliding the rear tire(s) slightly outward in a curve"
+   ],
+   "wrong": [
+    "Coasting with the clutch pulled in",
+    "Wandering slowly across the lane",
+    "Riding with the sidecar wheel up"
+   ],
+   "explanation": "It spreads side loads and keeps all wheels down. Learn it in a 3-wheel course.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q81",
+   "prompt": "With one passenger on a sidecar rig, where should they ride?",
+   "answers": [
+    "In the sidecar"
+   ],
+   "wrong": [
+    "On the rear seat",
+    "Either is the same",
+    "Standing on the footboards"
+   ],
+   "explanation": "With two passengers, put the larger one in the sidecar.",
+   "tags": [
+    "Passengers and cargo"
+   ]
+  },
+  {
+   "id": "q82",
+   "prompt": "With two passengers on a sidecar rig, who goes in the sidecar?",
+   "answers": [
+    "The larger passenger"
+   ],
+   "wrong": [
+    "The smaller passenger",
+    "Whoever is older",
+    "Nobody, both ride behind"
+   ],
+   "explanation": "More weight in the sidecar means less lift in right turns.",
+   "tags": [
+    "Passengers and cargo"
+   ]
+  },
+  {
+   "id": "q83",
+   "prompt": "Why is a 3-wheeler less able to change lane position than a 2-wheeler?",
+   "answers": [
+    "It is wider, so there is less room in the lane"
+   ],
+   "wrong": [
+    "The law says it must stay centered",
+    "It is slower than other traffic",
+    "Its mirrors show less of the road"
+   ],
+   "explanation": "Even small moves still help you see around traffic and be seen.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q84",
+   "prompt": "What is one advantage of a 3-wheeler over a 2-wheeler?",
+   "answers": [
+    "You do not have to hold it up at a stop"
+   ],
+   "wrong": [
+    "It stops in a shorter distance",
+    "It is easier to swerve",
+    "It uses less fuel"
+   ],
+   "explanation": "It is also more stable, more visible and carries more.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q85",
+   "prompt": "What is one disadvantage of a 3-wheeler?",
+   "answers": [
+    "It is less maneuverable and slower to stop"
+   ],
+   "wrong": [
+    "It is harder for drivers to see",
+    "It cannot carry a passenger",
+    "It does not need inspection"
+   ],
+   "explanation": "It also uses more fuel and wears its tires faster.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q86",
+   "prompt": "What extra items should you check on a sidecar rig before you ride?",
+   "answers": [
+    "The sidecar connections and its brake"
+   ],
+   "wrong": [
+    "The sidecar’s paint and trim",
+    "The sidecar’s seat belt",
+    "Nothing beyond T-CLOCS"
+   ],
+   "explanation": "Along with the usual T-CLOCS checks.",
+   "tags": [
+    "Pre-ride inspection"
+   ]
+  },
+  {
+   "id": "q87",
+   "prompt": "What should you do with your feet while riding a 3-wheeler?",
+   "answers": [
+    "Keep them on the footrests"
+   ],
+   "wrong": [
+    "Put them down at low speed",
+    "Drag them through turns",
+    "Rest them on the sidecar"
+   ],
+   "explanation": "A 3-wheeler does not need your feet to balance.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q88",
+   "prompt": "Which skill does the manual call fundamental for slow-speed control on a manual 3-wheeler?",
+   "answers": [
+    "Slipping the clutch"
+   ],
+   "wrong": [
+    "Riding the rear brake",
+    "Revving the engine",
+    "Shifting into neutral"
+   ],
+   "explanation": "Most manual rigs have a wet clutch that can be slipped.",
+   "tags": [
+    "Handling a 3-wheeler"
+   ]
+  },
+  {
+   "id": "q89",
+   "prompt": "How far ahead should you look while riding?",
+   "answers": [
+    "At least 12 seconds"
+   ],
+   "wrong": [
+    "2 seconds",
+    "4 seconds",
+    "Just past the vehicle in front"
+   ],
+   "explanation": "Looking well ahead gives you time to spot hazards and plan.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q90",
+   "prompt": "What is the recommended minimum following distance in ideal conditions?",
+   "answers": [
+    "3 seconds"
+   ],
+   "wrong": [
+    "1 second",
+    "2 seconds",
+    "1 bike length per 10 mph"
+   ],
+   "explanation": "3 seconds is the minimum for 2- and 3-wheelers; add more for bad weather, poor surfaces, traffic, fatigue and night.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q91",
+   "prompt": "When should you increase your following distance?",
+   "answers": [
+    "In bad weather, heavy traffic, at night or when tired"
+   ],
+   "wrong": [
+    "Only on freeways above 60 mph",
+    "Only when a car is tailgating you",
+    "Never, 3 seconds is always enough"
+   ],
+   "explanation": "3 seconds is the minimum in ideal conditions.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q92",
+   "prompt": "What are the three parts of total stopping distance?",
+   "answers": [
+    "Perception, reaction and execution"
+   ],
+   "wrong": [
+    "Speed, weight and brakes",
+    "Look, lean and roll",
+    "Search, signal and stop"
+   ],
+   "explanation": "At 60 mph (90 feet a second) a rider covers about 360 feet seeing, reacting to and stopping for a deer.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q93",
+   "prompt": "At 60 mph, how far do you travel each second?",
+   "answers": [
+    "About 90 feet"
+   ],
+   "wrong": [
+    "About 30 feet",
+    "About 60 feet",
+    "About 200 feet"
+   ],
+   "explanation": "That is why it takes about 360 feet to perceive, react and stop.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q94",
+   "prompt": "Where do most collisions between motorcycles and other vehicles happen?",
+   "answers": [
+    "At intersections"
+   ],
+   "wrong": [
+    "On freeways",
+    "In parking lots",
+    "On rural curves"
+   ],
+   "explanation": "The most common is a car turning left across the motorcycle’s path.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q95",
+   "prompt": "What is the most common type of motorcycle-car crash?",
+   "answers": [
+    "A car turning left in front of the motorcycle"
+   ],
+   "wrong": [
+    "A car rear-ending a stopped motorcycle",
+    "A car changing lanes into the motorcycle",
+    "A car backing out of a driveway"
+   ],
+   "explanation": "It happens at intersections. If a car is waiting at a green light, expect it to turn.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q96",
+   "prompt": "A car is waiting to turn at a green light as you approach. What should you expect?",
+   "answers": [
+    "That it may turn across your path"
+   ],
+   "wrong": [
+    "That it will wait for you",
+    "That it will back up",
+    "Nothing, you have the right of way"
+   ],
+   "explanation": "Cover your controls, look for an escape path and make sure it has stopped before you go.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q97",
+   "prompt": "What does it mean to “cover” your controls?",
+   "answers": [
+    "Keep your fingers and foot ready on the brake and clutch"
+   ],
+   "wrong": [
+    "Keep the brakes lightly on all the time",
+    "Put a weatherproof cover over the grips",
+    "Hold the throttle steady in one spot"
+   ],
+   "explanation": "Covering the controls cuts your reaction time at intersections and hazards.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q98",
+   "prompt": "What gear should you stay in when stopped at an intersection?",
+   "answers": [
+    "First gear"
+   ],
+   "wrong": [
+    "Neutral",
+    "Second gear",
+    "The highest gear"
+   ],
+   "explanation": "So you can move away quickly if a vehicle behind you does not stop. Check your mirrors often.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q99",
+   "prompt": "Someone is tailgating you. What should you do?",
+   "answers": [
+    "Gradually slow down to make more space ahead"
+   ],
+   "wrong": [
+    "Speed up to get away from them",
+    "Brake hard to warn them off",
+    "Wave them past onto the shoulder"
+   ],
+   "explanation": "Speeding up can trap you between two vehicles.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q100",
+   "prompt": "Before changing lanes, what should you do besides checking your mirrors?",
+   "answers": [
+    "Look over your shoulder for vehicles in your blind spot"
+   ],
+   "wrong": [
+    "Sound your horn to warn other drivers",
+    "Flash your headlight at the car ahead",
+    "Speed up so you can merge faster"
+   ],
+   "explanation": "Mirrors do not show your blind spots.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q101",
+   "prompt": "What is the first step in passing another vehicle?",
+   "answers": [
+    "Move to the left side of your lane to see farther ahead"
+   ],
+   "wrong": [
+    "Close up right behind it to get a run",
+    "Sound your horn so the driver knows",
+    "Move onto the shoulder to see ahead"
+   ],
+   "explanation": "Then check it is not turning and you are in a passing zone, signal, check your blind spot, change lanes, and cancel the signal.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q102",
+   "prompt": "What is one advantage of riding in the left part of your lane?",
+   "answers": [
+    "You can see around the vehicle ahead and be seen in its mirror"
+   ],
+   "wrong": [
+    "It keeps you far from oncoming traffic and wind blast",
+    "It is the part of the lane with the most traction",
+    "Washington law requires motorcycles to ride there"
+   ],
+   "explanation": "The trade-off is being closer to oncoming traffic and its wind blast.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q103",
+   "prompt": "How many lane positions does each traffic lane have?",
+   "answers": [
+    "Three: outside, middle and inside"
+   ],
+   "wrong": [
+    "One: the middle",
+    "Two: left and right",
+    "Four: two per wheel track"
+   ],
+   "explanation": "Your position changes with each new hazard or change in traffic.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q104",
+   "prompt": "When using engine braking to slow down, what should you do so drivers behind you know?",
+   "answers": [
+    "Flash your brake light a few times"
+   ],
+   "wrong": [
+    "Nothing, the brake light comes on by itself",
+    "Use your horn",
+    "Turn on your hazard lights"
+   ],
+   "explanation": "Engine braking does not turn on the brake light.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q105",
+   "prompt": "Which of these makes you more visible to other drivers?",
+   "answers": [
+    "Bright gear, extra lights and a good lane position"
+   ],
+   "wrong": [
+    "Riding in a vehicle’s blind spot",
+    "Dark gear and a tinted visor",
+    "Riding close to the curb"
+   ],
+   "explanation": "Choose a lane position where you can be seen, and move out of blind spots.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q106",
+   "prompt": "How should you change your riding at night?",
+   "answers": [
+    "Slow down and increase your following distance"
+   ],
+   "wrong": [
+    "Ride faster to spend less time on the road",
+    "Follow closer to use their lights",
+    "Use only your high beam and keep the same speed"
+   ],
+   "explanation": "Use every light source, including the vehicle ahead’s headlights and brake lights, and the fog line.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q107",
+   "prompt": "When are animals most active on the road?",
+   "answers": [
+    "Between dusk and dawn"
+   ],
+   "wrong": [
+    "At noon",
+    "Only in winter",
+    "Only on weekends"
+   ],
+   "explanation": "Watch for wildlife, especially in corners.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q108",
+   "prompt": "What is target fixation?",
+   "answers": [
+    "Staring at a hazard so you steer toward it"
+   ],
+   "wrong": [
+    "Aiming for the apex of a curve",
+    "Looking at your instruments",
+    "Focusing on the car ahead to follow it"
+   ],
+   "explanation": "Look where you want to go, not at the hazard.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q109",
+   "prompt": "What do time and space give you in traffic?",
+   "answers": [
+    "Time to plan for a hazard, and room to act"
+   ],
+   "wrong": [
+    "A faster trip through heavy traffic",
+    "Better fuel economy on the highway",
+    "The right of way at intersections"
+   ],
+   "explanation": "Always know where your escape path is.",
+   "tags": [
+    "Street strategies"
+   ]
+  },
+  {
+   "id": "q110",
+   "prompt": "Which of these surfaces is slippery for a motorcycle?",
+   "answers": [
+    "Painted lines and manhole covers"
+   ],
+   "wrong": [
+    "Dry, clean asphalt",
+    "Dry, brushed concrete",
+    "Fresh, dry chip seal"
+   ],
+   "explanation": "Also leaves, oil spots, drainage grates and gravel.",
+   "tags": [
+    "Hazards and surfaces"
+   ]
+  },
+  {
+   "id": "q111",
+   "prompt": "Where in a lane do oil drips and leaves tend to collect?",
+   "answers": [
+    "Near the middle"
+   ],
+   "wrong": [
+    "At the outside edge",
+    "At the inside edge",
+    "Evenly everywhere"
+   ],
+   "explanation": "Oil drips from cars down the center of the lane.",
+   "tags": [
+    "Hazards and surfaces"
+   ]
+  },
+  {
+   "id": "q112",
+   "prompt": "When are roads especially slippery?",
+   "answers": [
+    "After the first rain of the season"
+   ],
+   "wrong": [
+    "On hot, dry days",
+    "Late at night when dry",
+    "After a long dry spell, before it rains"
+   ],
+   "explanation": "Oil that built up while it was dry comes to the surface.",
+   "tags": [
+    "Hazards and surfaces"
+   ]
+  },
+  {
+   "id": "q113",
+   "prompt": "When should you change speed or direction around a slippery surface?",
+   "answers": [
+    "Before you reach it, not on it"
+   ],
+   "wrong": [
+    "While you are on it",
+    "Right after you leave it",
+    "It does not matter"
+   ],
+   "explanation": "Over the slippery patch, handle the controls gently and keep your eyes up.",
+   "tags": [
+    "Hazards and surfaces"
+   ]
+  },
+  {
+   "id": "q114",
+   "prompt": "At what angle should you cross railroad tracks or a speed bump?",
+   "answers": [
+    "As close to 90 degrees as you can"
+   ],
+   "wrong": [
+    "At about 30 degrees",
+    "At about 45 degrees",
+    "Parallel to the tracks"
+   ],
+   "explanation": "A shallow angle can catch your tire.",
+   "tags": [
+    "Hazards and surfaces"
+   ]
+  },
+  {
+   "id": "q115",
+   "prompt": "How should you ride over an obstacle you cannot avoid?",
+   "answers": [
+    "Rise slightly off the seat, eyes up, a bit of throttle"
+   ],
+   "wrong": [
+    "Sit down hard and brake on top of it",
+    "Look down at it and coast across",
+    "Swerve around it at the last moment"
+   ],
+   "explanation": "Your legs absorb the shock and your weight goes onto the footpegs; roll off as the tire crosses.",
+   "tags": [
+    "Hazards and surfaces"
+   ]
+  },
+  {
+   "id": "q116",
+   "prompt": "Where should you look when riding over a slippery patch or obstacle?",
+   "answers": [
+    "Ahead, up the road"
+   ],
+   "wrong": [
+    "Down at the hazard",
+    "At your front tire",
+    "In your mirrors"
+   ],
+   "explanation": "You go where you look.",
+   "tags": [
+    "Hazards and surfaces"
+   ]
+  },
+  {
+   "id": "q117",
+   "prompt": "How old must a motorcycle passenger be?",
+   "answers": [
+    "At least 5 years old"
+   ],
+   "wrong": [
+    "At least 3",
+    "At least 8",
+    "At least 12"
+   ],
+   "explanation": "They also need a passenger seat, footrests and a DOT-compliant helmet.",
+   "tags": [
+    "Passengers and cargo"
+   ]
+  },
+  {
+   "id": "q118",
+   "prompt": "What equipment does a motorcycle passenger need?",
+   "answers": [
+    "A seat, footrests and a DOT helmet"
+   ],
+   "wrong": [
+    "Just a DOT helmet",
+    "Just a passenger seat",
+    "A backrest and a seat belt"
+   ],
+   "explanation": "And they must be at least 5 years old.",
+   "tags": [
+    "Passengers and cargo"
+   ]
+  },
+  {
+   "id": "q119",
+   "prompt": "Where should a passenger keep their feet?",
+   "answers": [
+    "On the footrests at all times"
+   ],
+   "wrong": [
+    "On the ground at stops",
+    "Wherever is comfortable",
+    "On the exhaust"
+   ],
+   "explanation": "Even when the motorcycle is stopped.",
+   "tags": [
+    "Passengers and cargo"
+   ]
+  },
+  {
+   "id": "q120",
+   "prompt": "When should you adjust your mirrors when carrying a passenger?",
+   "answers": [
+    "After the passenger is seated"
+   ],
+   "wrong": [
+    "Before they get on",
+    "Never",
+    "Halfway through the ride"
+   ],
+   "explanation": "The extra weight changes the bike’s angle.",
+   "tags": [
+    "Passengers and cargo"
+   ]
+  },
+  {
+   "id": "q121",
+   "prompt": "How should you load cargo?",
+   "answers": [
+    "Strapped down, centered and as low as possible"
+   ],
+   "wrong": [
+    "Stacked high on the rear rack",
+    "All on one side, in a saddlebag",
+    "In a bag hung from the handlebars"
+   ],
+   "explanation": "It must not get in the way of the controls. Check the owner’s manual for weight limits.",
+   "tags": [
+    "Passengers and cargo"
+   ]
+  },
+  {
+   "id": "q122",
+   "prompt": "Where do you find your motorcycle’s maximum load?",
+   "answers": [
+    "In the owner’s manual"
+   ],
+   "wrong": [
+    "On the license plate",
+    "In the DOL manual",
+    "On the fuel cap"
+   ],
+   "explanation": "Passengers and cargo change how it accelerates, stops and handles.",
+   "tags": [
+    "Passengers and cargo"
+   ]
+  },
+  {
+   "id": "q123",
+   "prompt": "What formation should a group usually ride in?",
+   "answers": [
+    "Staggered"
+   ],
+   "wrong": [
+    "Side by side",
+    "Single file all the time",
+    "In a tight pack"
+   ],
+   "explanation": "Switch to single file in curves, where you cannot see far, or where you need more time and space.",
+   "tags": [
+    "Group riding"
+   ]
+  },
+  {
+   "id": "q124",
+   "prompt": "When should a group switch to single file?",
+   "answers": [
+    "In curves, where visibility is limited, or where more space is needed"
+   ],
+   "wrong": [
+    "On long, straight freeways",
+    "At every stop sign and signal",
+    "Never, staggered is always safer"
+   ],
+   "explanation": "Single file in right-hand curves keeps the outside riders off the centerline.",
+   "tags": [
+    "Group riding"
+   ]
+  },
+  {
+   "id": "q125",
+   "prompt": "What following distance should you keep behind the rider ahead in a group?",
+   "answers": [
+    "At least 3 seconds"
+   ],
+   "wrong": [
+    "1 second",
+    "2 seconds",
+    "Half a second"
+   ],
+   "explanation": "The same minimum as riding alone.",
+   "tags": [
+    "Group riding"
+   ]
+  },
+  {
+   "id": "q126",
+   "prompt": "Who should wait before riding in a group?",
+   "answers": [
+    "Newer riders, until they have experience"
+   ],
+   "wrong": [
+    "Riders on large touring bikes",
+    "Riders carrying a passenger",
+    "Nobody, groups are safest for new riders"
+   ],
+   "explanation": "Group rides bring peer pressure to ride beyond your skill.",
+   "tags": [
+    "Group riding"
+   ]
+  },
+  {
+   "id": "q127",
+   "prompt": "When does alcohol start to affect your riding?",
+   "answers": [
+    "With the first drink"
+   ],
+   "wrong": [
+    "After 3 drinks",
+    "Only above 0.08% BAC",
+    "Only on an empty stomach"
+   ],
+   "explanation": "It affects judgment, vision, attention and fine motor skills.",
+   "tags": [
+    "Alcohol, drugs and fatigue"
+   ]
+  },
+  {
+   "id": "q128",
+   "prompt": "What blood alcohol concentration (BAC) counts as intoxicated for riders 21 and over?",
+   "answers": [
+    "0.08%"
+   ],
+   "wrong": [
+    "0.02%",
+    "0.05%",
+    "0.10%"
+   ],
+   "explanation": "Riders under 21 have a lower limit of 0.02%.",
+   "tags": [
+    "Alcohol, drugs and fatigue"
+   ]
+  },
+  {
+   "id": "q129",
+   "prompt": "What is the BAC limit for riders under 21?",
+   "answers": [
+    "0.02%"
+   ],
+   "wrong": [
+    "0.00%",
+    "0.05%",
+    "0.08%"
+   ],
+   "explanation": "Adults 21 and over are intoxicated at 0.08%.",
+   "tags": [
+    "Alcohol, drugs and fatigue"
+   ]
+  },
+  {
+   "id": "q130",
+   "prompt": "On average, how long does your body take to get rid of one drink?",
+   "answers": [
+    "About one hour"
+   ],
+   "wrong": [
+    "About 10 minutes",
+    "About 30 minutes",
+    "About 4 hours"
+   ],
+   "explanation": "More drinks in an hour take longer still.",
+   "tags": [
+    "Alcohol, drugs and fatigue"
+   ]
+  },
+  {
+   "id": "q131",
+   "prompt": "Which of these lowers your blood alcohol level?",
+   "answers": [
+    "Only time"
+   ],
+   "wrong": [
+    "Coffee",
+    "A cold shower",
+    "Eating a big meal"
+   ],
+   "explanation": "Nothing else removes alcohol from the body.",
+   "tags": [
+    "Alcohol, drugs and fatigue"
+   ]
+  },
+  {
+   "id": "q132",
+   "prompt": "Which of these is one standard drink?",
+   "answers": [
+    "A 12 oz. beer"
+   ],
+   "wrong": [
+    "A 24 oz. beer",
+    "A 12 oz. glass of wine",
+    "4 oz. of hard liquor"
+   ],
+   "explanation": "One drink is a 12 oz. beer, a 5 oz. glass of wine or 1½ oz. of hard alcohol.",
+   "tags": [
+    "Alcohol, drugs and fatigue"
+   ]
+  },
+  {
+   "id": "q133",
+   "prompt": "How much wine is one standard drink?",
+   "answers": [
+    "5 oz."
+   ],
+   "wrong": [
+    "2 oz.",
+    "8 oz.",
+    "12 oz."
+   ],
+   "explanation": "Same as a 12 oz. beer or 1½ oz. of hard alcohol.",
+   "tags": [
+    "Alcohol, drugs and fatigue"
+   ]
+  },
+  {
+   "id": "q134",
+   "prompt": "How much hard alcohol is one standard drink?",
+   "answers": [
+    "1½ oz."
+   ],
+   "wrong": [
+    "½ oz.",
+    "3 oz.",
+    "5 oz."
+   ],
+   "explanation": "Same as a 12 oz. beer or a 5 oz. glass of wine.",
+   "tags": [
+    "Alcohol, drugs and fatigue"
+   ]
+  },
+  {
+   "id": "q135",
+   "prompt": "Can over-the-counter medicines such as cold or allergy remedies affect your riding?",
+   "answers": [
+    "Yes, some impair you as much as alcohol"
+   ],
+   "wrong": [
+    "No, only prescription drugs do",
+    "Only if taken with coffee",
+    "No, they are always safe"
+   ],
+   "explanation": "Combined with even one drink, their effect is much stronger.",
+   "tags": [
+    "Alcohol, drugs and fatigue"
+   ]
+  },
+  {
+   "id": "q136",
+   "prompt": "For adults 21 and over, what blood THC level counts as impaired?",
+   "answers": [
+    "5 nanograms"
+   ],
+   "wrong": [
+    "0.08 nanograms",
+    "1 nanogram",
+    "10 nanograms"
+   ],
+   "explanation": "Marijuana slows reactions and distorts your sense of time and distance.",
+   "tags": [
+    "Alcohol, drugs and fatigue"
+   ]
+  },
+  {
+   "id": "q137",
+   "prompt": "What happens if you refuse a breath test?",
+   "answers": [
+    "Your license is suspended"
+   ],
+   "wrong": [
+    "Nothing, it is optional",
+    "You get a warning",
+    "You must retake the knowledge test"
+   ],
+   "explanation": "Suspension is mandatory for a DUI conviction, an arrest, or refusing a breath test.",
+   "tags": [
+    "Alcohol, drugs and fatigue"
+   ]
+  },
+  {
+   "id": "q138",
+   "prompt": "What is the best way to avoid riding impaired?",
+   "answers": [
+    "Choose to drink or to ride, not both"
+   ],
+   "wrong": [
+    "Ride slower after drinking",
+    "Drink coffee before riding",
+    "Wait 15 minutes after your last drink"
+   ],
+   "explanation": "Plan other transportation for yourself or an impaired friend.",
+   "tags": [
+    "Alcohol, drugs and fatigue"
+   ]
+  },
+  {
+   "id": "q139",
+   "prompt": "Besides alcohol and drugs, what can impair your riding?",
+   "answers": [
+    "Fatigue, strong emotions and distractions"
+   ],
+   "wrong": [
+    "Wearing bright, reflective gear",
+    "Riding with a full tank of fuel",
+    "Using both brakes at every stop"
+   ],
+   "explanation": "Ask yourself before every ride whether you are tired, upset, distracted, or have had a drink or medicine.",
+   "tags": [
+    "Alcohol, drugs and fatigue"
+   ]
+  },
+  {
+   "id": "q140",
+   "prompt": "Your friends want you to keep up with them on a fast group ride. What should you do?",
+   "answers": [
+    "Ride at your own skill level"
+   ],
+   "wrong": [
+    "Keep up so the group stays together",
+    "Pass them to lead",
+    "Ride closer behind to draft"
+   ],
+   "explanation": "Resist peer pressure; talk about experience and comfort before the ride.",
+   "tags": [
+    "Alcohol, drugs and fatigue"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "3-wheel knowledge test",
+   "count": 25,
+   "pass": 80,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "end",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Like the 3-wheel permit or endorsement knowledge test: 25 multiple-choice questions, and you pass with 20 right (no more than 5 wrong)."
+  },
+  {
+   "name": "Handling a 3-wheeler",
+   "count": 0,
+   "pass": 80,
+   "pick": "weakest",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Handling a 3-wheeler"
+   ],
+   "why": "Every question on what is different about trikes and sidecar rigs, weakest first, with the answer after each one."
+  }
+ ]
+}
