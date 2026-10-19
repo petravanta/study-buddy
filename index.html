@@ -1,0 +1,1439 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Study Buddy</title>
+<meta name="description" content="Practise flash-card style knowledge tests, like the U.S. citizenship civics test or a driving theory test, with a history of every answer.">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#172129" media="(prefers-color-scheme: dark)">
+<script>try{var t=localStorage.getItem('petravanta.theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* ===== Shared look: petravanta's apps =====
+   Canonical copy of the tokens, type and components used by Fitness Coach and Skating Mentor (and this hub).
+   Apps currently inline this block between "Shared look" and "end shared look"; update both when it changes.
+   Each app only overrides the --accent values after this block. */
+:root{
+  --bg:#eef2f4; --surface:#ffffff; --sunk:#e3e9ec; --line:#cdd6db; --ink:#14212a; --muted:#566771; --faint:#8a99a2;
+  --lv-new:#9aa8b0; --lv-learn:#c07a00; --lv-dev:#2f6fd0; --lv-conf:#11897a; --lv-solid:#0c5e3e;
+  --lv-learn-bg:#fbefd9; --lv-dev-bg:#e1ebfa; --lv-conf-bg:#d9f1ec; --lv-solid-bg:#d5eadf;
+  --danger:#b3261e; --danger-soft:#fbe3e1;
+  --f-display:"Unbounded","Arial Rounded MT Bold",system-ui,sans-serif;
+  --f-body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,monospace;
+  --r:10px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f161b; --surface:#172129; --sunk:#111a20; --line:#2a3842; --ink:#e4ecf0; --muted:#9fb0ba; --faint:#6b7d88;
+  --lv-new:#64757f; --lv-learn:#e6a33a; --lv-dev:#6ea0f0; --lv-conf:#3cc3ad; --lv-solid:#6fd39a;
+  --lv-learn-bg:#3a2a10; --lv-dev-bg:#182a45; --lv-conf-bg:#0f3530; --lv-solid-bg:#143224;
+  --danger:#ff8a80; --danger-soft:#3d1c1a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f161b; --surface:#172129; --sunk:#111a20; --line:#2a3842; --ink:#e4ecf0; --muted:#9fb0ba; --faint:#6b7d88;
+  --lv-new:#64757f; --lv-learn:#e6a33a; --lv-dev:#6ea0f0; --lv-conf:#3cc3ad; --lv-solid:#6fd39a;
+  --lv-learn-bg:#3a2a10; --lv-dev-bg:#182a45; --lv-conf-bg:#0f3530; --lv-solid-bg:#143224;
+  --danger:#ff8a80; --danger-soft:#3d1c1a; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--surface)}
+[hidden]{display:none!important}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--surface);border-bottom:1px solid var(--line)}
+.topbar{display:flex;align-items:center;gap:16px;padding-block:12px 0;flex-wrap:wrap}
+.brand{font-family:var(--f-display);font-weight:700;font-size:18px;letter-spacing:-.01em;display:flex;align-items:center;gap:10px}
+.brand svg{width:26px;height:26px;flex:none}
+.save-state{margin-left:auto;font-size:12px;color:var(--muted);font-family:var(--f-mono)}
+nav.tabs{display:flex;gap:4px;overflow-x:auto;padding-top:8px;scrollbar-width:none}
+nav.tabs button{background:none;border:0;border-bottom:3px solid transparent;padding:8px 12px 9px;font-weight:600;color:var(--muted);white-space:nowrap}
+nav.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+main{padding-block:20px 80px}
+h2{font-family:var(--f-display);font-weight:500;font-size:20px;letter-spacing:-.01em;margin:0;text-wrap:balance}
+h3{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0;font-weight:600}
+p{margin:0}
+.muted{color:var(--muted)}
+.small{font-size:13px}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.stack{display:flex;flex-direction:column;gap:16px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 14px;font-weight:600;font-size:14px}
+.btn:hover{border-color:var(--muted)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn.ghost{background:none}
+.btn.danger{color:var(--danger)}
+.btn.sm{padding:4px 10px;font-size:13px}
+.btn.big{padding:12px 22px;font-size:16px}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:600;color:var(--muted)}
+.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+label.field{display:flex;flex-direction:column;gap:4px;font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+select,input[type=text],input[type=number],textarea{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:15px;text-transform:none;letter-spacing:0;font-weight:500;min-width:0}
+textarea{resize:vertical}
+.ctx{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;align-items:end}
+@media (max-width:720px){.ctx{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.ctx-note{font-size:13px;color:var(--muted);margin-top:10px}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:2px 9px;font-size:12px;font-weight:700;white-space:nowrap;background:var(--sunk);color:var(--muted)}
+.pill.l1{background:var(--lv-learn-bg);color:var(--lv-learn)}
+.pill.l2{background:var(--lv-dev-bg);color:var(--lv-dev)}
+.pill.l3{background:var(--lv-conf-bg);color:var(--lv-conf)}
+.pill.l4{background:var(--lv-solid-bg);color:var(--lv-solid)}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+@media (max-width:720px){.two{grid-template-columns:minmax(0,1fr)}}
+.banner{background:var(--accent-soft);border-radius:var(--r);padding:12px 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.banner p{flex:1 1 260px}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+@media (max-width:620px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.stat b{display:block;font-family:var(--f-mono);font-size:24px;font-weight:500}
+.stat span{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.meter{height:8px;border-radius:4px;background:var(--sunk);overflow:hidden}
+.meter i{display:block;height:100%;border-radius:4px;background:var(--accent)}
+.scrim{position:fixed;inset:0;background:rgba(10,16,20,.35);z-index:40}
+.drawer{position:fixed;z-index:41;top:0;right:0;bottom:0;width:min(440px,100%);background:var(--surface);border-left:1px solid var(--line);overflow-y:auto;
+  padding:calc(env(safe-area-inset-top,0px) + 18px) max(18px,env(safe-area-inset-right,0px)) calc(env(safe-area-inset-bottom,0px) + 24px) 18px;display:flex;flex-direction:column;gap:16px}
+@media (max-width:640px){.drawer{top:auto;left:0;width:100%;max-height:86vh;border-left:0;border-top:1px solid var(--line);border-radius:16px 16px 0 0;padding-left:max(18px,env(safe-area-inset-left,0px))}}
+.drawer .x{position:absolute;top:calc(env(safe-area-inset-top,0px) + 12px);right:max(12px,env(safe-area-inset-right,0px));background:var(--sunk);border:0;border-radius:999px;width:32px;height:32px;font-size:18px;line-height:1}
+@media (max-width:640px){.drawer .x{top:12px}}
+.drawer h2{padding-right:40px}
+.drawer ul,.cues{margin:0;padding-left:18px}
+.checks{display:flex;flex-wrap:wrap;gap:6px}
+.checks label{display:inline-flex;align-items:center;gap:5px;font-size:13px;border:1px solid var(--line);border-radius:6px;padding:3px 8px;background:var(--sunk)}
+.entry{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;padding:8px 0;border-top:1px solid var(--line)}
+.entry .meta{font-size:12px;color:var(--muted)}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(env(safe-area-inset-bottom,0px) + 18px);background:var(--ink);color:var(--bg);padding:9px 16px;border-radius:999px;font-size:14px;font-weight:600;z-index:60;max-width:calc(100% - 32px)}
+.empty{padding:28px 16px;text-align:center;color:var(--muted)}
+@media (prefers-reduced-motion:no-preference){.drawer{animation:slide .18s ease-out}@keyframes slide{from{transform:translateX(24px);opacity:.4}}}
+/* ===== end shared look ===== */
+/* Study Buddy accent: cyan */
+:root{--accent:#0b7285;--accent-ink:#ffffff;--accent-soft:#d7eef2}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--accent:#5fd0e4;--accent-ink:#04242a;--accent-soft:#0f2f36}}
+:root[data-theme="dark"]{--accent:#5fd0e4;--accent-ink:#04242a;--accent-soft:#0f2f36}
+
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.picker{display:flex;align-items:center;gap:8px;min-width:0}
+.picker select{padding:5px 10px;font-size:14px;border-radius:999px;max-width:240px}
+nav.tabs .end{margin-left:auto}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.toolbar .grow{flex:1 1 0}
+.hero{display:flex;flex-direction:column;gap:12px}
+.hero p{max-width:62ch}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.card{display:flex;flex-direction:column;gap:8px}
+.card h2{font-size:17px}
+.card .row:last-child{margin-top:auto;padding-top:4px}
+.card.add{border-style:dashed;background:none;align-items:flex-start;justify-content:center}
+.sub{font-size:13px;color:var(--muted)}
+.why{font-size:13px;color:var(--muted);font-style:italic}
+.lvbar{display:flex;height:10px;border-radius:5px;overflow:hidden;background:var(--sunk)}
+.lvbar i{display:block;height:100%}
+.lv-mastered{background:var(--lv-solid)}.lv-confident{background:var(--lv-conf)}.lv-getting{background:var(--lv-dev)}.lv-learning{background:var(--lv-learn)}.lv-new{background:var(--lv-new)}
+.lvkey{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--muted);margin-top:8px}
+.lvkey span{display:inline-flex;align-items:center;gap:5px}
+.lvkey i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.pill.pass{background:var(--lv-solid-bg);color:var(--lv-solid)}
+.pill.fail{background:var(--danger-soft);color:var(--danger)}
+.qlist{display:flex;flex-direction:column}
+.qrow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:start;padding:10px 4px;border:0;border-top:1px solid var(--line);background:none;text-align:left;width:100%}
+.qrow:first-child{border-top:0}
+.qrow:hover .qp{color:var(--accent)}
+.qrow .qp{font-weight:600}
+.qrow .qa{font-size:13px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.qrow .side{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.dots{display:inline-flex;gap:3px;align-items:center}
+.dots i{width:8px;height:8px;border-radius:50%;background:var(--lv-conf)}
+.dots i.x{background:var(--danger)}
+.search{flex:1 1 200px}
+.search input{width:100%}
+.study{max-width:700px;margin:0 auto;width:100%}
+.runbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.runbar .grow{flex:1 1 0}
+.flash{display:flex;flex-direction:column;gap:16px;padding:24px 22px;min-height:260px}
+.flash .meta{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+.flash .prompt{font-size:22px;font-weight:600;line-height:1.35;text-wrap:balance}
+@media (max-width:520px){.flash{padding:18px 16px}.flash .prompt{font-size:19px}}
+.need{font-size:14px;color:var(--accent);font-weight:600}
+.ans{border-top:1px solid var(--line);padding-top:14px;display:flex;flex-direction:column;gap:8px}
+.ans .one{font-size:19px;font-weight:600}
+.ans ul{margin:0;padding-left:20px}
+.ans .note{font-size:13px;background:var(--lv-learn-bg);color:var(--ink);border-radius:8px;padding:8px 10px}
+.opts{display:grid;gap:8px}
+.opt{text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:var(--r);padding:12px 14px;font-weight:500;display:flex;gap:12px;align-items:baseline}
+.opt:hover:not(:disabled){border-color:var(--accent)}
+.opt:disabled{cursor:default}
+.opt .k{font-family:var(--f-mono);color:var(--faint);font-size:13px}
+.opt.right{border-color:var(--lv-solid);background:var(--lv-solid-bg)}
+.opt.wrong{border-color:var(--danger);background:var(--danger-soft)}
+.mark{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.mark .btn{padding:14px 10px;font-size:16px}
+.btn.ok{background:var(--lv-solid);border-color:var(--lv-solid);color:var(--surface)}
+.btn.no{background:var(--danger);border-color:var(--danger);color:var(--surface)}
+.verdict{font-weight:700;font-size:17px}
+.verdict.ok{color:var(--lv-solid)}
+.verdict.no{color:var(--danger)}
+.typed{display:flex;gap:8px;flex-wrap:wrap}
+.typed input{flex:1 1 220px;font-size:17px;padding:10px 12px}
+.kbd{font-size:12px;color:var(--faint)}
+@media (pointer:coarse){.kbd{display:none}}
+.score{font-family:var(--f-mono);font-size:44px;line-height:1.1}
+.review .entry b{font-weight:600}
+.ok-t{color:var(--lv-solid);font-weight:700}
+.no-t{color:var(--danger);font-weight:700}
+.form{display:flex;flex-direction:column;gap:12px}
+.form .two-col{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.form textarea{min-height:70px}
+.form .check{display:flex;gap:8px;align-items:center;font-size:14px}
+.hint{font-size:13px;color:var(--muted)}
+.lib{display:flex;flex-direction:column;gap:8px}
+.lib button{text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:var(--r);padding:12px 14px;display:flex;flex-direction:column;gap:2px}
+.lib button:hover{border-color:var(--accent)}
+.lib button b{font-weight:600}
+.lib button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.preview{max-height:220px;overflow:auto;background:var(--sunk);border-radius:8px;padding:8px 12px;font-size:13px}
+.preview ol{margin:0;padding-left:20px}
+.countdown{font-family:var(--f-mono)}
+input[type=date]{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:7px 10px;font-size:15px;text-transform:none;letter-spacing:0;font-weight:500;min-width:0}
+.ctx.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:620px){.ctx.three{grid-template-columns:minmax(0,1fr)}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="topbar">
+      <a data-hub-link href="https://petravanta.github.io/general/">All apps</a>
+      <div class="brand">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="9" y="3" width="18" height="22" rx="3" fill="var(--accent)" opacity=".45" transform="rotate(10 18 14)"/><rect x="5" y="7" width="18" height="22" rx="3" fill="var(--accent)"/><path d="M9.5 18.5l3.5 3.5 6.5-7.5" fill="none" stroke="var(--surface)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Study Buddy
+      </div>
+      <div class="picker">
+        <label class="sr-only" for="progPick">Study programme</label>
+        <select id="progPick"></select>
+      </div>
+      <span class="save-state" id="saveState">Saved in this browser</span>
+    </div>
+    <nav class="tabs" id="tabs" aria-label="Sections">
+      <button type="button" data-tab="practice">Practice</button>
+      <button type="button" data-tab="questions">Questions</button>
+      <button type="button" data-tab="history">History</button>
+      <button type="button" data-tab="sets">Sets</button>
+      <button type="button" class="end" id="settingsBtn">Settings</button>
+    </nav>
+  </div>
+</header>
+<main class="wrap stack" id="main"></main>
+<div id="layer"></div>
+<input type="file" id="fileIn" accept=".json,.csv,.tsv,.txt,application/json,text/csv,text/plain" hidden>
+<script>
+'use strict';
+/* Study Buddy. A programme is what you are studying for: some question sets, the practice tests you set up for it and
+   an exam date. Every answer you give is an attempt record (set, question, right or wrong, when), so each question
+   keeps its whole history across programmes, and qstat() works out how well you know it from that history.
+   Built-in sets are data in data/sets/; sets you import or write are records in your own document.
+   User data follows the "User data" section of petravanta/general STANDARDS.md. */
+
+/* Google Drive sync: the shared OAuth client for petravanta.github.io (see README). Leave empty to turn Drive off. */
+const GOOGLE_CLIENT_ID = '326863468616-4hf2conk0ks0s4qdva9tphphdo7ht7eh.apps.googleusercontent.com';
+const KEY = 'studyBuddy.data', CUR_KEY = 'studyBuddy.current', TAB_KEY = 'studyBuddy.tab';
+const LISTS = ['programmes', 'sets', 'testTypes', 'tests', 'attempts'];
+const LEVELS = {
+  mastered: { label: 'Mastered', cls: 'l4', hint: 'right the last 4 times or more' },
+  confident: { label: 'Confident', cls: 'l3', hint: 'right the last 2 or 3 times' },
+  getting: { label: 'Getting there', cls: 'l2', hint: 'right last time' },
+  learning: { label: 'Learning', cls: 'l1', hint: 'missed last time' },
+  new: { label: 'New', cls: '', hint: 'not answered yet' }
+};
+const PICKS = { weakest: 'Weakest first', random: 'Random', unseen: 'New ones first', missed: 'Only ones I missed last time', inorder: 'In order' };
+const ANSWER_MODES = { self: 'Flip the card and mark yourself', choice: 'Multiple choice', typed: 'Type the answer' };
+const FEEDBACK = { each: 'After each question', end: 'Only at the end' };
+const NEW_TEST = { name: 'Practice test', count: 20, pass: 80, pick: 'random', answer: 'choice', feedback: 'each', stopEarly: false, timeLimit: 0, tags: [] };
+const QUICK = { count: 20, pick: 'weakest', answer: 'self' };
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const uid = () => (crypto.randomUUID ? crypto.randomUUID() : Date.now().toString(36) + Math.random().toString(36).slice(2));
+const qid = () => Math.random().toString(36).slice(2, 10);
+const now = () => new Date().toISOString();
+const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+const plural = (n, w, ws) => `${n} ${n === 1 ? w : (ws || w + 's')}`;
+function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+function lsGet(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } }
+function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); return true; } catch (e) { return false; } }
+const pad = n => String(n).padStart(2, '0');
+const localDay = d => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+const dn = s => { const m = /^(\d{4})-(\d\d)-(\d\d)$/.exec(s || ''); return m ? Math.round(Date.UTC(+m[1], m[2] - 1, +m[3]) / 864e5) : NaN; };
+const fmtDay = s => { const n = dn(s); return isNaN(n) ? '' : new Date(n * 864e5).toLocaleDateString([], { timeZone: 'UTC', weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' }); };
+const fmtWhen = iso => { const d = new Date(iso); return isNaN(d) ? '' : d.toLocaleDateString([], { day: 'numeric', month: 'short', year: 'numeric' }) + ' · ' + d.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }); };
+
+/* ---------- The document ---------- */
+function blankDoc() { return { version: 1, settings: { updatedAt: now() }, programmes: [], sets: [], testTypes: [], tests: [], attempts: [], deleted: [] }; }
+function upgrade(d) {
+  if (!d || typeof d !== 'object') return blankDoc();
+  const out = { version: 1, settings: d.settings && typeof d.settings === 'object' ? d.settings : { updatedAt: '' }, deleted: Array.isArray(d.deleted) ? d.deleted.filter(x => typeof x === 'string') : [] };
+  for (const L of LISTS) out[L] = Array.isArray(d[L]) ? d[L].filter(r => r && typeof r === 'object' && r.id) : [];
+  for (const p of out.programmes) { if (!Array.isArray(p.sets)) p.sets = []; }
+  for (const s of out.sets) { if (!Array.isArray(s.questions)) s.questions = []; }
+  return out;
+}
+// Records combine by id, the newer `u` wins; anything either side deleted stays deleted; newer settings win
+function mergeDocs(a, b) {
+  a = upgrade(a); b = upgrade(b);
+  const del = new Set([...a.deleted, ...b.deleted]);
+  const out = { version: 1, settings: (a.settings.updatedAt || '') >= (b.settings.updatedAt || '') ? a.settings : b.settings, deleted: [...del] };
+  for (const L of LISTS) {
+    const m = new Map();
+    for (const r of [...a[L], ...b[L]]) { const o = m.get(r.id); if (!o || (r.u || '') > (o.u || '')) m.set(r.id, r); }
+    out[L] = [...m.values()].filter(r => !del.has(r.id));
+  }
+  out.attempts.sort((x, y) => x.at < y.at ? -1 : x.at > y.at ? 1 : 0);
+  return out;
+}
+
+let doc = upgrade(lsGet(KEY));
+let curId = lsGet(CUR_KEY);
+let tab = lsGet(TAB_KEY) || 'practice';
+let rev = 0;
+let run = null;   // the flashcard round or test in progress
+const BUILTIN = new Map();
+let builtinIds = [], builtinFailed = false;
+
+function save() {
+  rev++;
+  if (!lsSet(KEY, doc)) toast('This browser’s storage is full. Export a backup in Settings, or connect Google Drive.', 6000);
+  if (store.known) store.save(doc);
+  showSaveState();
+}
+function changed() { save(); render(); }
+function touch(r) { r.u = now(); return r; }
+function removeRecord(list, id) { doc[list] = doc[list].filter(r => r.id !== id); if (!doc.deleted.includes(id)) doc.deleted.push(id); }
+
+async function loadBuiltin() {
+  try {
+    builtinIds = await (await fetch('data/sets.json')).json();
+    const sets = await Promise.all(builtinIds.map(id => fetch(`data/sets/${id}.json`).then(r => r.json())));
+    sets.forEach(s => BUILTIN.set(s.id, s));
+  } catch (e) { builtinFailed = true; builtinIds = []; }
+}
+const setById = id => doc.sets.find(s => s.id === id) || BUILTIN.get(id);
+const isBuiltin = id => BUILTIN.has(id) && !doc.sets.some(s => s.id === id);
+function cur() {
+  const ps = doc.programmes;
+  return ps.find(p => p.id === curId) || ps.find(p => !p.archived) || ps[0] || null;
+}
+function setCurrent(id) { curId = id; lsSet(CUR_KEY, id); }
+const testTypesOf = p => doc.testTypes.filter(t => t.p === p.id).sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
+const testsOf = p => doc.tests.filter(t => t.p === p.id).sort((a, b) => a.at < b.at ? 1 : -1);
+
+/* ---------- What you know: each question's history ---------- */
+let histCache = { rev: -1, map: null };
+function hist() {
+  if (histCache.rev === rev) return histCache.map;
+  const m = new Map();
+  for (const a of doc.attempts) { const k = a.s + '/' + a.q; if (!m.has(k)) m.set(k, []); m.get(k).push(a); }
+  histCache = { rev, map: m };
+  return m;
+}
+function qstat(key) {
+  const h = hist().get(key) || [];
+  let streak = 0;
+  for (let i = h.length - 1; i >= 0 && h[i].ok; i--) streak++;
+  const last = h[h.length - 1];
+  const level = !h.length ? 'new' : !last.ok ? 'learning' : streak >= 4 ? 'mastered' : streak >= 2 ? 'confident' : 'getting';
+  return { h, n: h.length, ok: h.filter(a => a.ok).length, streak, last, level };
+}
+// Every question in the programme's sets, optionally only those with one of `tags`
+function pool(p, tags) {
+  const out = [];
+  for (const sid of p.sets) {
+    const s = setById(sid);
+    if (!s) continue;
+    for (const q of s.questions) if (!tags || !tags.length || (q.tags || []).some(t => tags.includes(t))) out.push({ s, q, key: s.id + '/' + q.id });
+  }
+  return out;
+}
+function levelCounts(items) {
+  const c = { mastered: 0, confident: 0, getting: 0, learning: 0, new: 0 };
+  items.forEach(it => c[qstat(it.key).level]++);
+  return c;
+}
+// The order questions are asked in
+function order(items, pick) {
+  const xs = items.map((it, i) => ({ it, i, st: qstat(it.key), r: Math.random() }));
+  const seen = x => x.st.last ? x.st.last.at : '';
+  if (pick === 'inorder') return items.slice();
+  if (pick === 'random') return shuffle(items);
+  if (pick === 'missed') return shuffle(xs.filter(x => x.st.level === 'learning')).map(x => x.it);
+  const rank = pick === 'unseen' ? ['new', 'learning', 'getting', 'confident', 'mastered'] : ['learning', 'new', 'getting', 'confident', 'mastered'];
+  // weakest level first; within a level, the one you saw longest ago
+  return xs.sort((a, b) => rank.indexOf(a.st.level) - rank.indexOf(b.st.level) || (seen(a) < seen(b) ? -1 : seen(a) > seen(b) ? 1 : 0) || a.r - b.r).map(x => x.it);
+}
+const allTags = items => [...new Set(items.flatMap(it => it.q.tags || []))];
+
+/* ---------- Checking typed answers. Words in (brackets) are optional; small typos are forgiven ---------- */
+const STOP = new Set(['the', 'a', 'an', 'to', 'of', 'is', 'are']);
+const norm = s => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[’'`.]/g, '').replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, ' ').trim();
+const core = s => norm(s).split(' ').filter(w => w && !STOP.has(w)).join(' ');
+function variants(ans) {
+  const v = [core(ans.replace(/[()]/g, ' ')), core(ans.replace(/\([^)]*\)/g, ' '))];
+  (ans.match(/\(([^)]*)\)/g) || []).forEach(b => { if (/^\(\s*\d[\d,.\s]*\)$/.test(b)) v.push(core(b)); });   // "twenty-seven (27)" also takes "27"
+  return [...new Set(v.filter(Boolean))];
+}
+function lev(a, b) {   // edit distance, a swapped pair of letters counting as one
+  if (Math.abs(a.length - b.length) > 3) return 99;
+  const d = Array.from({ length: a.length + 1 }, (_, i) => [i]);
+  for (let j = 1; j <= b.length; j++) d[0][j] = j;
+  for (let i = 1; i <= a.length; i++) for (let j = 1; j <= b.length; j++) {
+    d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+    if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) d[i][j] = Math.min(d[i][j], d[i - 2][j - 2] + 1);
+  }
+  return d[a.length][b.length];
+}
+// Numbers must match exactly; longer words may have a typo or two
+const sameWord = (x, w) => x === w || (!/\d/.test(w) && w.length >= 4 && lev(x, w) <= Math.floor(w.length / 4));
+// Right when the input has the answer's numbers and at least three quarters of its words
+function near(input, v) {
+  if (input === v) return true;
+  const iw = input.split(' '), vw = v.split(' ');
+  if (!vw.filter(w => /\d/.test(w)).every(w => iw.includes(w))) return false;
+  return vw.filter(w => iw.some(x => sameWord(x, w))).length >= Math.ceil(vw.length * 0.75);
+}
+function checkTyped(q, text) {
+  const need = q.need || 1;
+  const parts = need > 1 ? String(text).split(/[,;\n]|\band\b/i) : [String(text)];
+  const hit = new Set();
+  for (const part of parts) {
+    const c = core(part);
+    if (!c) continue;
+    const i = q.answers.findIndex((a, i) => !hit.has(i) && variants(a).some(v => near(c, v)));
+    if (i >= 0) hit.add(i);
+  }
+  return hit.size >= need;
+}
+
+/* ---------- A round of questions ---------- */
+let timerT = null;
+function startRun(p, cfg, testType, fixed) {
+  let items = fixed || order(pool(p, cfg.tags), cfg.pick);
+  if (!items.length) return toast(cfg.pick === 'missed' ? 'Nothing was missed last time.' : 'There are no questions to ask yet. Add a set first.');
+  if (!fixed && cfg.count > 0) items = items.slice(0, cfg.count);
+  run = {
+    id: uid(), p: p.id, cfg: { feedback: 'each', ...cfg }, test: !!testType, type: testType ? testType.id : null, name: testType ? testType.name : 'Flashcards',
+    started: now(), deadline: cfg.timeLimit ? Date.now() + cfg.timeLimit * 60000 : 0, all: pool(p),
+    items: items.map(it => ({ ...it, ok: null, given: '' })), i: 0, phase: 'ask', done: false
+  };
+  prepare();
+  clearInterval(timerT);
+  if (run.deadline) timerT = setInterval(tick, 1000);
+  closeDrawer();
+  render();
+  scrollTo(0, 0);
+}
+function prepare() {
+  const it = run.items[run.i];
+  run.phase = 'ask';
+  if (run.cfg.answer === 'choice' && !it.opts) it.opts = options(it, run.all);
+}
+const needed = r => r.cfg.pass > 0 ? Math.ceil(r.items.length * r.cfg.pass / 100) : 0;
+const rightSoFar = () => run.items.filter(i => i.ok).length;
+function options(it, all) {
+  const q = it.q, need = q.need || 1;
+  const pickN = arr => shuffle(arr).slice(0, need).join(', ');
+  const taken = new Set(q.answers.map(core)), opts = [];
+  const add = t => { const c = core(t); if (t && c && !taken.has(c)) { taken.add(c); opts.push(t); } };
+  shuffle(q.wrong || []).forEach(w => { if (opts.length < 3) add(w); });
+  if (opts.length < 3) {
+    // borrow answers from other questions, preferring the same set and topic
+    const topic = (q.tags || []).slice(-1)[0];
+    const digits = t => /\d/.test(t), shape = digits(q.answers.join(' '));   // a date or number gets other dates and numbers
+    const score = o => (o.s.id === it.s.id ? 2 : 0) + (topic && (o.q.tags || []).includes(topic) ? 1 : 0) + (digits(o.q.answers.join(' ')) === shape ? 3 : 0);
+    const others = shuffle(all.filter(o => o.key !== it.key)).sort((a, b) => score(b) - score(a));
+    for (const o of others) { if (opts.length >= 3) break; if (!o.q.answers.some(x => taken.has(core(x)))) add(pickN(o.q.answers)); }
+  }
+  return shuffle([{ t: pickN(q.answers), ok: true }, ...opts.map(t => ({ t, ok: false }))]);
+}
+function record(ok, given) {
+  const it = run.items[run.i], t = now();
+  it.ok = ok; it.given = given || '';
+  const a = { id: uid(), u: t, at: t, s: it.s.id, q: it.q.id, ok, p: run.p, m: run.cfg.answer };
+  if (run.test) a.t = run.id;
+  if (given) a.g = String(given).slice(0, 200);
+  it.att = a.id;
+  doc.attempts.push(a);
+  save();
+}
+// After a wrong call on a typed answer: count it the other way
+function overrule() {
+  const it = run.items[run.i], a = doc.attempts.find(x => x.id === it.att);
+  it.ok = !it.ok;
+  if (a) { a.ok = it.ok; touch(a); save(); }
+  render();
+}
+function afterAnswer() {
+  if (run.cfg.feedback === 'end' && run.cfg.answer !== 'self') next(); else { run.phase = 'feedback'; render(); }
+}
+function next() {
+  run.i++;
+  const N = run.items.length, need = needed(run), right = rightSoFar();
+  if (run.test && run.cfg.stopEarly && need > 0 && (right >= need || right + (N - run.i) < need)) return finish();
+  if (run.i >= N) return finish();
+  prepare(); render();
+  const f = $('#typedIn'); if (f) f.focus();
+}
+function tick() {
+  if (!run || run.done) return clearInterval(timerT);
+  const left = run.deadline - Date.now(), el = $('#timer');
+  if (left <= 0) { toast('Time’s up'); return finish(true); }
+  if (el) el.textContent = clockText(left);
+}
+const clockText = ms => { const s = Math.ceil(ms / 1000); return `${Math.floor(s / 60)}:${pad(s % 60)}`; };
+function finish(timeUp) {
+  clearInterval(timerT);
+  run.done = true; run.timeUp = !!timeUp; run.ended = now();
+  const asked = run.items.filter(i => i.ok !== null);
+  if (run.test && asked.length) {
+    const right = rightSoFar();
+    doc.tests.push({ id: run.id, u: run.ended, p: run.p, type: run.type, name: run.name, at: run.started, end: run.ended,
+      total: run.items.length, asked: asked.length, right, pass: run.cfg.pass, passed: right >= needed(run), stopped: !!run.stopped, timeUp: !!timeUp });
+    save();
+  }
+  if (!asked.length) { run = null; }
+  render(); scrollTo(0, 0);
+}
+
+/* ---------- Drawing ---------- */
+function render() {
+  renderPicker();
+  const p = cur();
+  $('#tabs').hidden = !!run || !p;
+  document.querySelectorAll('#tabs [data-tab]').forEach(b => b.setAttribute('aria-selected', String(b.dataset.tab === tab)));
+  const m = $('#main');
+  if (run) m.innerHTML = run.done ? renderResult() : renderRun();
+  else if (!p) m.innerHTML = renderWelcome();
+  else m.innerHTML = { practice: renderPractice, questions: renderQuestions, history: renderHistory, sets: renderSets }[tab](p);
+  if (!run && p && tab === 'questions') drawQList(p);
+}
+function renderPicker() {
+  const sel = $('#progPick'), p = cur(), ps = doc.programmes;
+  const opt = x => `<option value="${esc(x.id)}"${p && x.id === p.id ? ' selected' : ''}>${esc(x.name)}</option>`;
+  const live = ps.filter(x => !x.archived), old = ps.filter(x => x.archived);
+  sel.innerHTML = live.map(opt).join('') + (old.length ? `<optgroup label="Archived">${old.map(opt).join('')}</optgroup>` : '') + '<option value="+">+ New programme…</option>';
+  sel.parentElement.hidden = !ps.length || !!run;
+}
+function levelBar(c, total) {
+  if (!total) return '';
+  return `<div class="lvbar" role="img" aria-label="${Object.keys(LEVELS).map(k => `${c[k]} ${LEVELS[k].label.toLowerCase()}`).join(', ')}">${Object.keys(LEVELS).map(k => c[k] ? `<i class="lv-${k}" style="width:${c[k] / total * 100}%"></i>` : '').join('')}</div>`;
+}
+const levelKey = c => `<div class="lvkey">${Object.keys(LEVELS).map(k => `<span title="${esc(LEVELS[k].hint)}"><i class="lv-${k}"></i>${LEVELS[k].label} ${c[k]}</span>`).join('')}</div>`;
+const pill = level => `<span class="pill ${LEVELS[level].cls}">${LEVELS[level].label}</span>`;
+const dots = h => `<span class="dots" aria-label="Last answers: ${h.slice(-8).map(a => a.ok ? 'right' : 'wrong').join(', ')}">${h.slice(-8).map(a => `<i class="${a.ok ? '' : 'x'}"></i>`).join('')}</span>`;
+function testSummary(t) {
+  const n = t.count > 0 ? plural(t.count, 'question') : 'Every question';
+  const bits = [n, t.pass > 0 ? `pass with ${t.pass}%` + (t.count > 0 ? ` (${Math.ceil(t.count * t.pass / 100)} right)` : '') : 'no pass mark', PICKS[t.pick].toLowerCase(), ANSWER_MODES[t.answer].toLowerCase()];
+  if (t.stopEarly) bits.push('ends once passed or out of reach');
+  if (t.timeLimit) bits.push(`${t.timeLimit} min`);
+  if (t.tags && t.tags.length) bits.push('only ' + t.tags.join(', '));
+  return bits.join(' · ');
+}
+function daysTo(p) {
+  if (!p.exam) return '';
+  const d = dn(p.exam) - dn(localDay(new Date()));
+  if (isNaN(d)) return '';
+  const when = d > 1 ? `in <b class="countdown">${d}</b> days` : d === 1 ? '<b>tomorrow</b>' : d === 0 ? '<b>today</b>' : `was ${plural(-d, 'day')} ago`;
+  return `<p class="sub">Exam ${when} · ${esc(fmtDay(p.exam))}</p>`;
+}
+
+function renderWelcome() {
+  const lib = builtinIds.map(id => BUILTIN.get(id)).filter(Boolean);
+  return `<section class="panel hero">
+    <h2>Study for a knowledge test, one card at a time</h2>
+    <p>Make a study programme for each test you are preparing for, like the U.S. citizenship civics test or a driving theory test. Practise with flashcards, set up practice tests that work like the real one, and see every answer you have ever given to each question.</p>
+    <p class="small muted">Everything stays in this browser, with optional Google Drive sync in Settings.</p>
+  </section>
+  <h3>Start a programme</h3>
+  <div class="cards">
+    ${lib.map(s => `<section class="panel card"><h2>${esc(s.name)}</h2><p class="sub">${plural(s.questions.length, 'question')}</p><p class="small">${esc(s.description || '')}</p>
+      <div class="row"><button class="btn primary" type="button" data-start="${esc(s.id)}">Study this</button></div></section>`).join('')}
+    <section class="panel card"><h2>Your own questions</h2><p class="small">Import a set from a CSV or JSON file (a Quizlet export works too), paste questions in, or write them yourself.</p>
+      <div class="row"><button class="btn primary" type="button" data-act="newProg">Start from scratch</button></div></section>
+  </div>
+  ${builtinFailed ? '<p class="small muted">The built-in question sets couldn’t load. Open the app from petravanta.github.io/study-buddy to get them.</p>' : ''}
+  <div class="row"><button class="btn ghost" type="button" data-act="settings">Settings, backups and Google Drive</button></div>`;
+}
+
+function renderPractice(p) {
+  const items = pool(p), c = levelCounts(items), tts = testTypesOf(p), tests = testsOf(p);
+  const today = localDay(new Date()), ids = new Set(p.sets);
+  const todayN = doc.attempts.filter(a => ids.has(a.s) && localDay(new Date(a.at)) === today).length;
+  const passed = tests.filter(t => t.passed).length, q = { ...QUICK, ...(p.quick || {}) };
+  if (!items.length) return `<section class="panel hero"><h2>${esc(p.name)}</h2>${daysTo(p)}<p>This programme has no questions yet. Add a built-in set, import your own or write some.</p>
+    <div class="row"><button class="btn primary" type="button" data-act="addSet">Add questions</button></div></section>`;
+  const last = id => tests.find(t => t.type === id);
+  return `<section class="panel stack">
+    <div class="row" style="justify-content:space-between"><div><h2>${esc(p.name)}</h2>${daysTo(p)}</div></div>
+    <div class="stats">
+      <div class="stat"><b>${c.mastered}<small class="muted" style="font-size:14px"> / ${items.length}</small></b><span>Mastered</span></div>
+      <div class="stat"><b>${items.length - c.new}</b><span>Seen</span></div>
+      <div class="stat"><b>${todayN}</b><span>Answered today</span></div>
+      <div class="stat"><b>${passed}<small class="muted" style="font-size:14px"> / ${tests.length}</small></b><span>Tests passed</span></div>
+    </div>
+    <div>${levelBar(c, items.length)}${levelKey(c)}</div>
+  </section>
+  <section class="panel stack">
+    <div><h2>Flashcards</h2><p class="sub">Go through cards at your own pace. Every answer counts toward each question’s history.</p></div>
+    <div class="ctx three">
+      <label class="field">Cards<select data-quick="count">${[10, 20, 50, 0].map(n => `<option value="${n}"${q.count === n ? ' selected' : ''}>${n || 'All ' + items.length}</option>`).join('')}</select></label>
+      <label class="field">Which<select data-quick="pick">${Object.entries(PICKS).map(([k, v]) => `<option value="${k}"${q.pick === k ? ' selected' : ''}>${v}</option>`).join('')}</select></label>
+      <label class="field">Answer by<select data-quick="answer">${Object.entries(ANSWER_MODES).map(([k, v]) => `<option value="${k}"${q.answer === k ? ' selected' : ''}>${v}</option>`).join('')}</select></label>
+    </div>
+    <div class="row"><button class="btn primary big" type="button" data-act="flash">Start flashcards</button>
+      ${c.learning ? `<button class="btn" type="button" data-act="flashMissed">Just the ${c.learning} I missed</button>` : ''}</div>
+  </section>
+  <h3>Practice tests</h3>
+  <div class="cards">
+    ${tts.map(t => { const l = last(t.id); return `<section class="panel card"><h2>${esc(t.name)}</h2><p class="sub">${esc(testSummary(t))}</p>
+      ${t.why ? `<p class="why">${esc(t.why)}</p>` : ''}
+      ${l ? `<p class="small">Last: ${l.right} of ${l.total} ${l.passed ? '<span class="pill pass">Passed</span>' : '<span class="pill fail">Not yet</span>'} <span class="muted">${esc(fmtWhen(l.at))}</span></p>` : '<p class="small muted">Not taken yet</p>'}
+      <div class="row"><button class="btn primary" type="button" data-test="${esc(t.id)}">Start</button><button class="btn ghost" type="button" data-edit-test="${esc(t.id)}">Edit</button></div></section>`; }).join('')}
+    <section class="panel card add"><p class="small">Set how many questions, the pass mark, which questions and how you answer.</p><button class="btn" type="button" data-act="newTest">+ New practice test</button></section>
+  </div>`;
+}
+
+let qFilter = { level: 'all', text: '', set: '', tag: '' };
+function renderQuestions(p) {
+  const items = pool(p), c = levelCounts(items), sets = p.sets.map(setById).filter(Boolean), tags = allTags(items);
+  if (!items.length) return `<section class="panel empty">No questions yet. <button class="btn sm" type="button" data-act="addSet">Add questions</button></section>`;
+  const chip = (k, label, n) => `<button class="chip" type="button" data-level="${k}" aria-pressed="${qFilter.level === k}">${label} ${n}</button>`;
+  return `<div class="toolbar">
+      <label class="search"><span class="sr-only">Search questions</span><input type="text" id="qSearch" placeholder="Search questions and answers" value="${esc(qFilter.text)}"></label>
+      ${sets.length > 1 ? `<select id="qSet" aria-label="Set"><option value="">All sets</option>${sets.map(s => `<option value="${esc(s.id)}"${qFilter.set === s.id ? ' selected' : ''}>${esc(s.name)}</option>`).join('')}</select>` : ''}
+      ${tags.length ? `<select id="qTag" aria-label="Topic"><option value="">All topics</option>${tags.map(t => `<option${qFilter.tag === t ? ' selected' : ''}>${esc(t)}</option>`).join('')}</select>` : ''}
+    </div>
+    <div class="chips">${chip('all', 'All', items.length)}${Object.keys(LEVELS).map(k => chip(k, LEVELS[k].label, c[k])).join('')}</div>
+    <section class="panel"><div class="qlist" id="qlist"></div></section>`;
+}
+function drawQList(p) {
+  const box = $('#qlist');
+  if (!box) return;
+  const t = core(qFilter.text);
+  const rows = pool(p).filter(it => {
+    if (qFilter.set && it.s.id !== qFilter.set) return false;
+    if (qFilter.tag && !(it.q.tags || []).includes(qFilter.tag)) return false;
+    if (t && !core(it.q.prompt + ' ' + it.q.answers.join(' ')).includes(t)) return false;
+    return qFilter.level === 'all' || qstat(it.key).level === qFilter.level;
+  });
+  box.innerHTML = rows.length ? rows.map(it => {
+    const st = qstat(it.key);
+    return `<button class="qrow" type="button" data-q="${esc(it.key)}"><span><span class="qp">${esc(it.q.prompt)}</span><br><span class="qa">${esc(it.q.answers.join(' · '))}</span></span>
+      <span class="side">${pill(st.level)}${st.n ? `<span class="small mono muted">${st.ok}/${st.n}</span>${dots(st.h)}` : ''}</span></button>`;
+  }).join('') : '<p class="empty">No questions match.</p>';
+}
+
+function renderHistory(p) {
+  const tests = testsOf(p), ids = new Set(p.sets);
+  const mine = doc.attempts.filter(a => ids.has(a.s));
+  const days = [...new Set(mine.map(a => localDay(new Date(a.at))))].length;
+  const rate = mine.length ? Math.round(mine.filter(a => a.ok).length / mine.length * 100) : 0;
+  return `<section class="panel stats">
+      <div class="stat"><b>${mine.length}</b><span>Answers given</span></div>
+      <div class="stat"><b>${rate}%</b><span>Right overall</span></div>
+      <div class="stat"><b>${days}</b><span>Days studied</span></div>
+      <div class="stat"><b>${tests.filter(t => t.passed).length} / ${tests.length}</b><span>Tests passed</span></div>
+    </section>
+    <div class="toolbar"><h3 class="grow">Practice tests taken</h3><button class="btn sm" type="button" data-act="exportAnswers"${mine.length ? '' : ' disabled'}>Export answers (CSV)</button></div>
+    ${tests.length ? `<section class="panel"><div class="qlist">${tests.map(t => `<button class="qrow" type="button" data-review="${esc(t.id)}">
+        <span><span class="qp">${esc(t.name)}</span><br><span class="qa">${esc(fmtWhen(t.at))}${t.stopped ? ' · ended early' : ''}${t.timeUp ? ' · time ran out' : ''}${t.asked < t.total && !t.stopped && !t.timeUp ? ` · ${t.asked} of ${t.total} asked` : ''}</span></span>
+        <span class="side"><span class="pill ${t.passed ? 'pass' : 'fail'}">${t.passed ? 'Passed' : 'Not yet'}</span><span class="small mono">${t.right} / ${t.total}</span></span></button>`).join('')}</div></section>`
+      : '<section class="panel empty">No practice tests yet. Start one from Practice.</section>'}
+    <p class="small muted">Tap a question in Questions to see every answer you’ve given to it, flashcards included.</p>`;
+}
+
+function renderSets(p) {
+  const sets = p.sets.map(setById).filter(Boolean), missing = p.sets.length - sets.length;
+  return `<div class="toolbar"><h3 class="grow">Question sets in ${esc(p.name)}</h3><button class="btn primary" type="button" data-act="addSet">+ Add a set</button></div>
+    <div class="cards">${sets.map(s => {
+      const items = s.questions.map(q => ({ s, q, key: s.id + '/' + q.id })), c = levelCounts(items);
+      return `<section class="panel card"><h2>${esc(s.name)}</h2><p class="sub">${plural(s.questions.length, 'question')}${isBuiltin(s.id) ? ' · built in' : ' · your own'}</p>
+        ${s.description ? `<p class="small">${esc(s.description)}</p>` : ''}
+        ${levelBar(c, items.length)}
+        <div class="row"><button class="btn" type="button" data-open-set="${esc(s.id)}">${isBuiltin(s.id) ? 'View' : 'Edit'}</button>
+        <button class="btn ghost" type="button" data-share="${esc(s.id)}">Export</button>
+        <button class="btn ghost danger" type="button" data-unlink="${esc(s.id)}">Remove</button></div></section>`;
+    }).join('') || '<section class="panel empty">No sets yet.</section>'}</div>
+    ${missing ? `<p class="small muted">${plural(missing, 'set')} in this programme couldn’t be found${builtinFailed ? ' (built-in sets didn’t load)' : ''}.</p>` : ''}`;
+}
+
+/* ---------- The round on screen ---------- */
+function answerBlock(q) {
+  const need = q.need || 1, many = q.answers.length > 1;
+  return `<div class="ans">
+    ${many ? `<p class="small muted">${need > 1 ? `Any ${need} of these:` : 'Any of these:'}</p><ul>${q.answers.map(a => `<li>${esc(a)}</li>`).join('')}</ul>` : `<p class="one">${esc(q.answers[0])}</p>`}
+    ${q.explanation ? `<p class="small">${esc(q.explanation)}</p>` : ''}
+    ${q.note ? `<p class="note">${esc(q.note)}</p>` : ''}
+  </div>`;
+}
+function renderRun() {
+  const it = run.items[run.i], q = it.q, N = run.items.length, mode = run.cfg.answer, showScore = run.cfg.feedback !== 'end' || mode === 'self';
+  const multi = cur() && cur().sets.length > 1;
+  const meta = [multi ? it.s.name : '', (q.tags || []).slice(-1)[0]].filter(Boolean).join(' · ');
+  let body = '';
+  if (mode === 'self') {
+    body = run.phase === 'ask'
+      ? `<button class="btn primary big" type="button" data-run="reveal">Show answer</button><span class="kbd">Space</span>`
+      : `${answerBlock(q)}<div class="mark"><button class="btn ok" type="button" data-run="knew">I knew it</button><button class="btn no" type="button" data-run="missed">I didn’t</button></div><span class="kbd">Y or 1 · N or 2</span>`;
+  } else if (mode === 'choice') {
+    const fb = run.phase === 'feedback';
+    body = `<div class="opts">${it.opts.map((o, i) => `<button class="opt${fb && o.ok ? ' right' : ''}${fb && !o.ok && it.given === o.t ? ' wrong' : ''}" type="button" data-opt="${i}"${fb ? ' disabled' : ''}><span class="k">${i + 1}</span><span>${esc(o.t)}</span></button>`).join('')}</div>
+      ${fb ? `<p class="verdict ${it.ok ? 'ok' : 'no'}">${it.ok ? 'Right' : 'Not quite'}</p>${answerBlock(q)}<div class="row"><button class="btn primary big" type="button" data-run="next">Next</button><span class="kbd">Enter</span></div>` : '<span class="kbd">Keys 1 to ' + it.opts.length + '</span>'}`;
+  } else {
+    body = run.phase === 'ask'
+      ? `<form class="typed" id="typedForm"><label class="sr-only" for="typedIn">Your answer</label><input type="text" id="typedIn" autocomplete="off" autocapitalize="off" placeholder="${(q.need || 1) > 1 ? 'Separate answers with commas' : 'Your answer'}"><button class="btn primary" type="submit">Check</button><button class="btn ghost" type="button" data-run="dunno">I don’t know</button></form>`
+      : `<p class="verdict ${it.ok ? 'ok' : 'no'}">${it.ok ? 'Right' : 'Not quite'}</p>${it.given ? `<p class="small">You wrote: <b>${esc(it.given)}</b></p>` : ''}${answerBlock(q)}
+        <div class="row"><button class="btn primary big" type="button" data-run="next">Next</button>${it.given ? `<button class="btn ghost" type="button" data-run="overrule">${it.ok ? 'Actually, count it wrong' : 'I was right, count it'}</button>` : ''}<span class="kbd">Enter</span></div>`;
+  }
+  return `<div class="study stack">
+    <div class="runbar"><b>${esc(run.name)}</b><span class="muted small mono">${run.i + 1} / ${N}</span>
+      ${showScore ? `<span class="small mono"><span class="ok-t">${rightSoFar()}</span> right${run.test && needed(run) ? ` · need ${needed(run)}` : ''}</span>` : ''}
+      ${run.deadline ? `<span class="small mono" id="timer">${clockText(run.deadline - Date.now())}</span>` : ''}
+      <span class="grow"></span><button class="btn sm ghost" type="button" data-run="end">End</button></div>
+    <div class="meter"><i style="width:${run.i / N * 100}%"></i></div>
+    <section class="panel flash">
+      ${meta ? `<p class="meta">${esc(meta)}</p>` : ''}
+      <p class="prompt">${esc(q.prompt)}</p>
+      ${(q.need || 1) > 1 ? `<p class="need">Give ${q.need} answers.</p>` : ''}
+      ${body}
+    </section></div>`;
+}
+function renderResult() {
+  const asked = run.items.filter(i => i.ok !== null), right = rightSoFar(), missed = asked.filter(i => !i.ok), need = needed(run);
+  const passed = right >= need;
+  return `<div class="study stack">
+    <section class="panel stack">
+      <h3>${esc(run.name)}</h3>
+      <div class="row" style="align-items:baseline;gap:14px"><span class="score">${right} / ${run.test ? run.items.length : asked.length}</span>
+        ${run.test && need ? `<span class="pill ${passed ? 'pass' : 'fail'}" style="font-size:14px">${passed ? 'Passed' : 'Not passed yet'}</span>` : ''}</div>
+      <p class="small muted">${run.test && need ? `You needed ${need} right. ` : ''}${asked.length < run.items.length ? `${plural(asked.length, 'question')} asked of ${run.items.length}${run.timeUp ? ', then time ran out' : run.stopped ? ', then you ended it' : run.cfg.stopEarly ? ', which settled it' : ''}.` : ''}</p>
+      <div class="row">${missed.length ? `<button class="btn primary" type="button" data-run="redoMissed">Practise the ${plural(missed.length, 'one')} I missed</button>` : ''}
+        <button class="btn" type="button" data-run="again">${run.test ? 'Take it again' : 'Another round'}</button>
+        <button class="btn ghost" type="button" data-run="close">Done</button></div>
+    </section>
+    <section class="panel review"><h3>Answers</h3>${asked.map(it => `<div class="entry"><div><b>${esc(it.q.prompt)}</b><div class="meta">${it.given ? `You: ${esc(it.given)} · ` : ''}${esc(it.q.answers.slice(0, 4).join(' · '))}${it.q.answers.length > 4 ? ' …' : ''}</div></div><span class="${it.ok ? 'ok-t' : 'no-t'}">${it.ok ? '✓' : '✗'}</span></div>`).join('')}</section>
+  </div>`;
+}
+
+/* ---------- Drawers ---------- */
+function openDrawer(title, inner, wire) {
+  $('#layer').innerHTML = `<div class="scrim" data-close></div><aside class="drawer" role="dialog" aria-modal="true" aria-label="${esc(title)}"><button class="x" type="button" data-close aria-label="Close">×</button><h2>${esc(title)}</h2>${inner}</aside>`;
+  $('#layer').querySelectorAll('[data-close]').forEach(b => b.onclick = closeDrawer);
+  const d = $('#layer .drawer');
+  if (wire) wire(d);
+  const f = d.querySelector('input,textarea,select'); if (f && matchMedia('(pointer:fine)').matches) f.focus();
+}
+function closeDrawer() { $('#layer').innerHTML = ''; }
+// A delete button that asks for a second tap
+function wireDelete(btn, label, onDelete) {
+  if (!btn) return;
+  btn.onclick = () => {
+    if (btn.dataset.armed) return onDelete();
+    btn.dataset.armed = '1'; btn.textContent = label;
+    setTimeout(() => { if (btn.isConnected) { delete btn.dataset.armed; btn.textContent = btn.dataset.label; } }, 4000);
+  };
+  btn.dataset.label = btn.textContent;
+}
+const lines = s => String(s || '').split('\n').map(x => x.trim()).filter(Boolean);
+
+function questionDrawer(key) {
+  const [sid, id] = [key.slice(0, key.lastIndexOf('/')), key.slice(key.lastIndexOf('/') + 1)];
+  const s = setById(sid), q = s && s.questions.find(x => x.id === id);
+  if (!q) return;
+  const st = qstat(key), progs = new Map(doc.programmes.map(p => [p.id, p.name]));
+  openDrawer('Question', `<p class="prompt" style="font-size:18px;font-weight:600">${esc(q.prompt)}</p>${answerBlock(q)}
+    <div class="row">${pill(st.level)}${st.n ? `<span class="small">Right ${st.ok} of ${plural(st.n, 'time')}${st.streak > 1 ? `, the last ${st.streak} in a row` : ''}</span>` : '<span class="small muted">Not answered yet</span>'}</div>
+    ${st.n ? `<h3>Every answer</h3><div>${st.h.slice().reverse().map(a => `<div class="entry"><div>${esc(fmtWhen(a.at))}<div class="meta">${a.t ? 'Test' : 'Flashcards'} · ${esc(ANSWER_MODES[a.m] || '')}${progs.size > 1 && progs.get(a.p) ? ' · ' + esc(progs.get(a.p)) : ''}${a.g ? ' · “' + esc(a.g) + '”' : ''}</div></div><span class="${a.ok ? 'ok-t' : 'no-t'}">${a.ok ? '✓' : '✗'}</span></div>`).join('')}</div>` : ''}
+    <p class="small muted">${esc(s.name)}${(q.tags || []).length ? ' · ' + esc(q.tags.join(' · ')) : ''}</p>
+    ${isBuiltin(s.id) ? '' : `<div class="row"><button class="btn" type="button" id="editQ">Edit question</button></div>`}`,
+    d => { const b = d.querySelector('#editQ'); if (b) b.onclick = () => editQuestion(s, q.id); });
+}
+
+function reviewDrawer(id) {
+  const t = doc.tests.find(x => x.id === id);
+  if (!t) return;
+  const as = doc.attempts.filter(a => a.t === id);
+  const prompt = a => { const s = setById(a.s), q = s && s.questions.find(x => x.id === a.q); return q ? q.prompt : '(question no longer in its set)'; };
+  openDrawer(t.name, `<p class="small muted">${esc(fmtWhen(t.at))}</p>
+    <div class="row" style="align-items:baseline;gap:14px"><span class="score" style="font-size:32px">${t.right} / ${t.total}</span><span class="pill ${t.passed ? 'pass' : 'fail'}">${t.passed ? 'Passed' : 'Not yet'}</span></div>
+    <p class="small muted">Pass mark ${t.pass}%${t.asked < t.total ? ` · ${t.asked} of ${t.total} asked` : ''}${t.stopped ? ' · ended early' : ''}${t.timeUp ? ' · time ran out' : ''}</p>
+    <div>${as.map(a => `<button class="entry qrow" type="button" data-q="${esc(a.s + '/' + a.q)}" style="border-top:1px solid var(--line)"><div>${esc(prompt(a))}${a.g ? `<div class="meta">You: ${esc(a.g)}</div>` : ''}</div><span class="${a.ok ? 'ok-t' : 'no-t'}">${a.ok ? '✓' : '✗'}</span></button>`).join('')}</div>
+    <div class="row"><button class="btn ghost danger" type="button" id="delTest">Delete this result</button></div>`,
+    d => {
+      d.querySelectorAll('[data-q]').forEach(b => b.onclick = () => questionDrawer(b.dataset.q));
+      wireDelete(d.querySelector('#delTest'), 'Tap again to delete', () => { removeRecord('tests', id); closeDrawer(); changed(); toast('Result deleted. The answers stay in each question’s history.'); });
+    });
+}
+
+function testDrawer(p, id) {
+  const t = id ? doc.testTypes.find(x => x.id === id) : null, v = { ...NEW_TEST, ...(t || {}) };
+  const tags = allTags(pool(p));
+  const sel = (name, map) => `<select name="${name}">${Object.entries(map).map(([k, l]) => `<option value="${k}"${v[name] === k ? ' selected' : ''}>${l}</option>`).join('')}</select>`;
+  openDrawer(t ? 'Edit practice test' : 'New practice test', `<form class="form" id="tf">
+    <label class="field">Name<input type="text" name="name" value="${esc(v.name)}" required></label>
+    <div class="two-col">
+      <label class="field">Questions<input type="number" name="count" min="0" step="1" value="${v.count}"></label>
+      <label class="field">Pass mark %<input type="number" name="pass" min="0" max="100" step="1" value="${v.pass}"></label>
+    </div>
+    <p class="hint" id="passHint"></p>
+    <label class="field">Which questions${sel('pick', PICKS)}</label>
+    <label class="field">Answer by${sel('answer', ANSWER_MODES)}</label>
+    <label class="field">Show right or wrong${sel('feedback', FEEDBACK)}</label>
+    <label class="field">Time limit in minutes<input type="number" name="timeLimit" min="0" step="1" value="${v.timeLimit || 0}"></label>
+    <label class="check"><input type="checkbox" name="stopEarly"${v.stopEarly ? ' checked' : ''}> End as soon as I’ve passed, or can no longer pass</label>
+    ${tags.length ? `<div class="field">Only these topics<div class="checks">${tags.map(g => `<label><input type="checkbox" name="tags" value="${esc(g)}"${(v.tags || []).includes(g) ? ' checked' : ''}>${esc(g)}</label>`).join('')}</div><span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400">None ticked asks from every topic.</span></div>` : ''}
+    <label class="field">Why it works this way (optional)<textarea name="why" rows="2">${esc(v.why || '')}</textarea></label>
+    <div class="row"><button class="btn primary" type="submit">${t ? 'Save' : 'Add test'}</button>${t ? '<button class="btn ghost danger" type="button" id="delT">Delete</button>' : ''}</div>
+  </form>`, d => {
+    const f = d.querySelector('#tf');
+    const hint = () => {
+      const n = +f.count.value || pool(p, [...f.querySelectorAll('[name=tags]:checked')].map(x => x.value)).length, pc = clamp(+f.pass.value || 0, 0, 100);
+      d.querySelector('#passHint').textContent = pc ? `Pass with ${Math.ceil(n * pc / 100)} of ${n} right${+f.count.value ? '' : ' (every question)'}.` : 'No pass mark: it just counts what you get right.';
+    };
+    f.oninput = hint; hint();
+    f.onsubmit = e => {
+      e.preventDefault();
+      const r = t || { id: uid(), p: p.id, order: testTypesOf(p).length };
+      Object.assign(r, { name: f.name.value.trim() || 'Practice test', count: Math.max(0, Math.round(+f.count.value || 0)), pass: clamp(Math.round(+f.pass.value || 0), 0, 100),
+        pick: f.pick.value, answer: f.answer.value, feedback: f.feedback.value, timeLimit: Math.max(0, Math.round(+f.timeLimit.value || 0)), stopEarly: f.stopEarly.checked,
+        tags: [...f.querySelectorAll('[name=tags]:checked')].map(x => x.value), why: f.why.value.trim() });
+      if (!r.why) delete r.why;
+      touch(r);
+      if (!t) doc.testTypes.push(r);
+      closeDrawer(); changed();
+    };
+    wireDelete(d.querySelector('#delT'), 'Tap again to delete', () => { removeRecord('testTypes', t.id); closeDrawer(); changed(); });
+  });
+}
+
+function addSetDrawer(p) {
+  const lib = [...builtinIds.map(id => BUILTIN.get(id)).filter(Boolean), ...doc.sets].filter(s => !p.sets.includes(s.id));
+  openDrawer('Add a set', `${lib.length ? `<h3>Ready to add</h3><div class="lib">${lib.map(s => `<button type="button" data-link="${esc(s.id)}"><b>${esc(s.name)}</b><span class="sub">${plural(s.questions.length, 'question')} · ${isBuiltin(s.id) ? 'built in' : 'your own'}</span></button>`).join('')}</div>` : ''}
+    <h3>Bring your own</h3>
+    <div class="lib">
+      <button type="button" id="impFile"><b>Import a file</b><span class="sub">CSV, tab-separated text (a Quizlet export) or a Study Buddy set (.json)</span></button>
+      <button type="button" id="impPaste"><b>Paste questions</b><span class="sub">One per line: question, a tab or comma, then the answer</span></button>
+      <button type="button" id="newSet"><b>Write a new set</b><span class="sub">Start empty and add questions one by one</span></button>
+    </div>
+    <p class="small muted">CSV columns: <span class="mono">question, answer, need, wrong, explanation, note, tags</span>. Only the first two are required; separate several answers with <span class="mono">|</span>. <button class="btn sm ghost" type="button" id="tpl">Download a template</button></p>`, d => {
+    d.querySelectorAll('[data-link]').forEach(b => b.onclick = () => { linkSet(p, setById(b.dataset.link)); closeDrawer(); changed(); toast('Set added'); });
+    d.querySelector('#impFile').onclick = () => $('#fileIn').click();
+    d.querySelector('#impPaste').onclick = pasteDrawer;
+    d.querySelector('#newSet').onclick = () => { const s = touch({ id: uid(), name: 'New set', description: '', questions: [] }); doc.sets.push(s); linkSet(p, s); changed(); setDrawer(s.id); };
+    d.querySelector('#tpl').onclick = () => download(new Blob([toCSV([['question', 'answer', 'need', 'wrong', 'explanation', 'note', 'tags'],
+      ['What does a red octagonal sign mean?', 'Stop', '', 'Yield|No entry|Slow down', 'Come to a full stop at the line.', '', 'Signs'],
+      ['Name two primary colours.', 'red|blue|yellow', '2', '', '', '', 'Colours']])], { type: 'text/csv' }), 'Study Buddy template.csv');
+  });
+}
+// Add a set to a programme, and the practice tests it suggests that the programme doesn't have yet
+function linkSet(p, s) {
+  if (!s || p.sets.includes(s.id)) return;
+  p.sets.push(s.id); touch(p);
+  const names = new Set(testTypesOf(p).map(t => t.name));
+  let n = testTypesOf(p).length;
+  for (const t of s.tests || []) if (!names.has(t.name)) doc.testTypes.push(touch({ ...NEW_TEST, ...t, id: uid(), p: p.id, order: n++ }));
+}
+function pasteDrawer() {
+  openDrawer('Paste questions', `<p class="small">One question per line: the question, then a tab or a comma, then the answer. Several answers that all count go with <span class="mono">|</span> between them. A first line naming the columns (as in the CSV template) is fine too.</p>
+    <textarea id="pasteIn" rows="10" placeholder="What is the supreme law of the land?	the Constitution"></textarea>
+    <div class="row"><button class="btn primary" type="button" id="pasteGo">Next</button></div>`, d => {
+    d.querySelector('#pasteGo').onclick = () => {
+      const r = parseTable(d.querySelector('#pasteIn').value);
+      if (!r.questions.length) return toast('No questions found. Put a tab or a comma between each question and its answer.');
+      importPreview({ name: 'Pasted questions', questions: r.questions }, r.skipped);
+    };
+  });
+}
+
+function setDrawer(id) {
+  const s = setById(id);
+  if (!s) return;
+  const own = !isBuiltin(id), p = cur();
+  openDrawer(own ? 'Edit set' : s.name, `${own ? `<div class="form">
+      <label class="field">Name<input type="text" id="sName" value="${esc(s.name)}"></label>
+      <label class="field">Description<textarea id="sDesc" rows="2">${esc(s.description || '')}</textarea></label></div>`
+      : `<p class="small">${esc(s.description || '')}</p>${s.source ? `<p class="small muted">Source: ${s.source.url ? `<a href="${esc(s.source.url)}" target="_blank" rel="noopener">${esc(s.source.name)}</a>` : esc(s.source.name)}${s.updated ? ` · checked ${esc(fmtDay(s.updated))}` : ''}</p>` : ''}`}
+    <div class="row"><h3 class="grow" style="flex:1">${plural(s.questions.length, 'question')}</h3>${own ? '<button class="btn sm primary" type="button" id="addQ">+ Question</button>' : ''}</div>
+    <div class="qlist">${s.questions.map(q => `<button class="qrow" type="button" data-qe="${esc(q.id)}"><span><span class="qp">${esc(q.prompt)}</span><br><span class="qa">${esc(q.answers.join(' · '))}</span></span><span class="side">${pill(qstat(s.id + '/' + q.id).level)}</span></button>`).join('')}</div>
+    <div class="row">${own ? '' : '<button class="btn" type="button" id="copySet">Make an editable copy</button>'}
+      ${own ? '<button class="btn ghost danger" type="button" id="delSet">Delete set</button>' : ''}</div>
+    ${own ? `<p class="small muted">Deleting removes it from every programme. Its answer history stays in your backup but no longer shows.</p>` : '<p class="small muted">A copy starts with no history: answers are tracked per set.</p>'}`, d => {
+    if (own) {
+      const nm = d.querySelector('#sName'), ds = d.querySelector('#sDesc');
+      nm.onchange = () => { s.name = nm.value.trim() || 'Untitled set'; touch(s); changed(); };
+      ds.onchange = () => { s.description = ds.value.trim(); touch(s); changed(); };
+      d.querySelector('#addQ').onclick = () => editQuestion(s, null);
+      d.querySelectorAll('[data-qe]').forEach(b => b.onclick = () => editQuestion(s, b.dataset.qe));
+      wireDelete(d.querySelector('#delSet'), 'Tap again to delete the set', () => {
+        removeRecord('sets', s.id);
+        doc.programmes.forEach(x => { if (x.sets.includes(s.id)) { x.sets = x.sets.filter(y => y !== s.id); touch(x); } });
+        closeDrawer(); changed();
+      });
+    } else {
+      d.querySelectorAll('[data-qe]').forEach(b => b.onclick = () => questionDrawer(s.id + '/' + b.dataset.qe));
+      d.querySelector('#copySet').onclick = () => {
+        const c = touch({ id: uid(), name: s.name + ' (my copy)', description: s.description || '', questions: JSON.parse(JSON.stringify(s.questions)) });
+        doc.sets.push(c);
+        if (p) { p.sets = p.sets.map(x => x === s.id ? c.id : x); touch(p); }
+        changed(); setDrawer(c.id); toast('Copy made and swapped into this programme');
+      };
+    }
+  });
+}
+function editQuestion(s, id) {
+  const q = id ? s.questions.find(x => x.id === id) : null, v = q || { prompt: '', answers: [], tags: [] };
+  openDrawer(q ? 'Edit question' : 'New question', `<form class="form" id="qf">
+    <label class="field">Question<textarea name="prompt" rows="3" required>${esc(v.prompt)}</textarea></label>
+    <label class="field">Answers that count, one per line<textarea name="answers" rows="3" required>${esc((v.answers || []).join('\n'))}</textarea></label>
+    <p class="hint">Words in (brackets) are optional when typing the answer.</p>
+    <label class="field">How many answers you must give<input type="number" name="need" min="1" step="1" value="${v.need || 1}"></label>
+    <label class="field">Wrong answers for multiple choice, one per line (optional)<textarea name="wrong" rows="3">${esc((v.wrong || []).join('\n'))}</textarea></label>
+    <label class="field">Explanation (optional)<textarea name="explanation" rows="2">${esc(v.explanation || '')}</textarea></label>
+    <label class="field">Note (optional)<input type="text" name="note" value="${esc(v.note || '')}"></label>
+    <label class="field">Topics, separated by commas (optional)<input type="text" name="tags" value="${esc((v.tags || []).join(', '))}"></label>
+    <div class="row"><button class="btn primary" type="submit">Save</button><button class="btn ghost" type="button" id="backQ">Back to the set</button>${q ? '<button class="btn ghost danger" type="button" id="delQ">Delete</button>' : ''}</div>
+  </form>`, d => {
+    const f = d.querySelector('#qf');
+    d.querySelector('#backQ').onclick = () => setDrawer(s.id);
+    f.onsubmit = e => {
+      e.preventDefault();
+      const answers = lines(f.answers.value);
+      if (!f.prompt.value.trim() || !answers.length) return toast('A question needs its text and at least one answer.');
+      const r = cleanQuestion({ id: q ? q.id : uniqueId(s), prompt: f.prompt.value, answers, need: +f.need.value, wrong: lines(f.wrong.value), explanation: f.explanation.value, note: f.note.value, tags: f.tags.value.split(',') });
+      if (q) s.questions[s.questions.indexOf(q)] = r; else s.questions.push(r);
+      touch(s); changed(); setDrawer(s.id);
+    };
+    wireDelete(d.querySelector('#delQ'), 'Tap again to delete', () => { s.questions = s.questions.filter(x => x !== q); touch(s); changed(); setDrawer(s.id); });
+  });
+}
+function uniqueId(s) { let id; do id = qid(); while (s.questions.some(x => x.id === id)); return id; }
+
+function newProgDrawer(startWith) {
+  const lib = [...builtinIds.map(id => BUILTIN.get(id)).filter(Boolean), ...doc.sets];
+  let pick = startWith || '';
+  openDrawer('New study programme', `<form class="form" id="pf">
+    <label class="field">What are you studying for?<input type="text" name="name" required placeholder="e.g. Citizenship interview, Driving theory test" value="${esc(startWith && setById(startWith) ? setById(startWith).name : '')}"></label>
+    <label class="field">Exam date (optional)<input type="date" name="exam"></label>
+    ${lib.length ? `<div class="field">Start with<div class="lib" id="pl">${lib.map(s => `<button type="button" data-pick="${esc(s.id)}" aria-pressed="${pick === s.id}"><b>${esc(s.name)}</b><span class="sub">${plural(s.questions.length, 'question')}</span></button>`).join('')}
+      <button type="button" data-pick="" aria-pressed="${!pick}"><b>Nothing yet</b><span class="sub">Import or write questions next</span></button></div></div>` : ''}
+    <div class="row"><button class="btn primary" type="submit">Create programme</button></div>
+  </form>`, d => {
+    const f = d.querySelector('#pf');
+    d.querySelectorAll('[data-pick]').forEach(b => b.onclick = () => {
+      pick = b.dataset.pick;
+      d.querySelectorAll('[data-pick]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+      if (pick && !f.name.dataset.typed) f.name.value = setById(pick).name;
+    });
+    f.name.oninput = () => { f.name.dataset.typed = '1'; };
+    f.onsubmit = e => {
+      e.preventDefault();
+      const p = touch({ id: uid(), name: f.name.value.trim() || 'My programme', exam: f.exam.value || '', sets: [], created: now(), quick: { ...QUICK } });
+      doc.programmes.push(p);
+      if (pick) linkSet(p, setById(pick));
+      if (!testTypesOf(p).length) doc.testTypes.push(touch({ ...NEW_TEST, id: uid(), p: p.id, order: 0 }));
+      setCurrent(p.id); tab = 'practice'; lsSet(TAB_KEY, tab);
+      closeDrawer(); changed();
+      if (!pick) addSetDrawer(p);
+    };
+  });
+}
+
+function settingsDrawer() {
+  const p = cur();
+  openDrawer('Settings', `${p ? `<h3>This programme</h3><form class="form" id="sf">
+      <label class="field">Name<input type="text" name="name" value="${esc(p.name)}"></label>
+      <label class="field">Exam date<input type="date" name="exam" value="${esc(p.exam || '')}"></label>
+      <div class="row"><button class="btn" type="button" id="arch">${p.archived ? 'Bring back from the archive' : 'Archive it'}</button><button class="btn ghost danger" type="button" id="delP">Delete programme</button></div>
+      <p class="hint">Archived programmes keep their history and move to the bottom of the list. Deleting removes the programme, its practice tests and their results; each question’s answer history stays.</p>
+    </form>
+    <div class="row"><button class="btn" type="button" id="newP">+ New programme</button></div>` : ''}
+    <h3>Backup</h3>
+    <p class="small">Download everything (programmes, your sets and every answer) as one file, or merge a backup back in.</p>
+    <div class="row"><button class="btn" type="button" id="exp">Export backup</button><button class="btn" type="button" id="imp">Import backup</button></div>
+    <h3>Google Drive</h3>
+    <div id="drivePanel">${drivePanel()}</div>
+    <p class="small muted">Nothing is uploaded anywhere else. Study Buddy follows the <a href="https://github.com/petravanta/general/blob/main/STANDARDS.md#user-data" target="_blank" rel="noopener">shared standards</a> for your data.</p>`, d => {
+    if (p) {
+      const f = d.querySelector('#sf');
+      f.name.onchange = () => { p.name = f.name.value.trim() || p.name; touch(p); changed(); };
+      f.exam.onchange = () => { p.exam = f.exam.value || ''; touch(p); changed(); };
+      d.querySelector('#arch').onclick = () => { p.archived = !p.archived; touch(p); if (p.archived) { const o = doc.programmes.find(x => !x.archived && x.id !== p.id); if (o) setCurrent(o.id); } closeDrawer(); changed(); };
+      d.querySelector('#newP').onclick = () => newProgDrawer();
+      wireDelete(d.querySelector('#delP'), 'Tap again to delete it', () => {
+        testTypesOf(p).forEach(t => removeRecord('testTypes', t.id));
+        testsOf(p).forEach(t => removeRecord('tests', t.id));
+        removeRecord('programmes', p.id);
+        closeDrawer(); changed(); toast('Programme deleted');
+      });
+    }
+    d.querySelector('#exp').onclick = exportBackup;
+    d.querySelector('#imp').onclick = () => $('#fileIn').click();
+    wireDrive(d);
+  });
+}
+
+/* ---------- Import and export ---------- */
+function download(blob, name) {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob); a.download = name;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+}
+const csvCell = v => { const s = String(v ?? ''); return /[",\n\r]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; };
+const toCSV = rows => rows.map(r => r.map(csvCell).join(',')).join('\r\n') + '\r\n';
+// CSV or tab-separated rows, with quoted cells
+function parseRows(text) {
+  text = String(text).replace(/^﻿/, '');
+  const first = text.split('\n')[0] || '', sep = first.includes('\t') ? '\t' : ',';
+  const rows = []; let row = [], cell = '', quoted = false;
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (quoted) {
+      if (ch === '"') { if (text[i + 1] === '"') { cell += '"'; i++; } else quoted = false; } else cell += ch;
+    } else if (ch === '"' && cell === '') quoted = true;
+    else if (ch === sep) { row.push(cell); cell = ''; }
+    else if (ch === '\n' || ch === '\r') { if (ch === '\r' && text[i + 1] === '\n') i++; row.push(cell); rows.push(row); row = []; cell = ''; }
+    else cell += ch;
+  }
+  if (cell !== '' || row.length) { row.push(cell); rows.push(row); }
+  return rows.filter(r => r.some(c => c.trim()));
+}
+const COLS = { prompt: ['question', 'prompt', 'term', 'front', 'q'], answers: ['answer', 'answers', 'definition', 'back', 'a'], need: ['need'], wrong: ['wrong', 'distractors', 'choices'], explanation: ['explanation', 'why'], note: ['note'], tags: ['tags', 'tag', 'topic', 'topics', 'category'] };
+function parseTable(text) {
+  const rows = parseRows(text);
+  let map = { prompt: 0, answers: 1 }, start = 0;
+  const head = (rows[0] || []).map(c => c.trim().toLowerCase());
+  if (head.some(h => COLS.prompt.includes(h))) {
+    map = {}; start = 1;
+    for (const [k, names] of Object.entries(COLS)) { const i = head.findIndex(h => names.includes(h)); if (i >= 0) map[k] = i; }
+  }
+  const split = v => String(v || '').split('|').map(x => x.trim()).filter(Boolean);
+  const questions = []; let skipped = 0;
+  for (const r of rows.slice(start)) {
+    const get = k => map[k] == null ? '' : (r[map[k]] || '').trim();
+    const q = cleanQuestion({ prompt: get('prompt'), answers: split(get('answers')), need: +get('need') || 1, wrong: split(get('wrong')), explanation: get('explanation'), note: get('note'), tags: split(get('tags')) });
+    if (q) questions.push(q); else skipped++;
+  }
+  return { questions, skipped };
+}
+// Keep only the fields a question has, tidied; null when it has no prompt or answer
+function cleanQuestion(x) {
+  if (!x || typeof x !== 'object') return null;
+  const str = v => typeof v === 'string' ? v.trim() : v == null ? '' : String(v).trim();
+  const arr = v => (Array.isArray(v) ? v : v == null || v === '' ? [] : [v]).map(str).filter(Boolean);
+  const prompt = str(x.prompt ?? x.question ?? x.term ?? x.front);
+  const answers = arr(x.answers ?? x.answer ?? x.definition ?? x.back);
+  if (!prompt || !answers.length) return null;
+  const q = { id: /^[a-z0-9-]+$/.test(str(x.id)) ? str(x.id) : '', prompt, answers };
+  const need = Math.round(+x.need || 1);
+  if (need > 1) q.need = Math.min(need, answers.length);
+  const wrong = arr(x.wrong); if (wrong.length) q.wrong = wrong;
+  if (str(x.explanation)) q.explanation = str(x.explanation);
+  if (str(x.note)) q.note = str(x.note);
+  const tags = arr(x.tags); if (tags.length) q.tags = [...new Set(tags)];
+  return q;
+}
+function cleanTest(t) {
+  const r = { ...NEW_TEST };
+  if (!t || typeof t !== 'object') return null;
+  r.name = String(t.name || 'Practice test').trim();
+  r.count = Math.max(0, Math.round(+t.count || 0)); r.pass = clamp(Math.round(+t.pass || 0), 0, 100);
+  if (PICKS[t.pick]) r.pick = t.pick; if (ANSWER_MODES[t.answer]) r.answer = t.answer; if (FEEDBACK[t.feedback]) r.feedback = t.feedback;
+  r.stopEarly = !!t.stopEarly; r.timeLimit = Math.max(0, Math.round(+t.timeLimit || 0));
+  r.tags = Array.isArray(t.tags) ? t.tags.map(String) : [];
+  if (t.why) r.why = String(t.why);
+  return r;
+}
+$('#fileIn').onchange = async e => {
+  const file = e.target.files[0];
+  e.target.value = '';
+  if (!file) return;
+  const text = await file.text(), base = file.name.replace(/\.[^.]+$/, '');
+  if (/^\s*[{[]/.test(text)) {
+    let data;
+    try { data = JSON.parse(text); } catch (err) { return toast('That file isn’t valid JSON.'); }
+    if (data && !Array.isArray(data) && (data.app === 'study-buddy' || Array.isArray(data.programmes))) {
+      doc = mergeDocs(doc, data); closeDrawer(); changed(); return toast('Backup merged in');
+    }
+    const set = data && data.format === 'study-buddy-set' ? data.set : Array.isArray(data) ? { name: base, questions: data } : data;
+    if (!set || !Array.isArray(set.questions)) return toast('That file isn’t a Study Buddy set or backup.');
+    const qs = set.questions.map(cleanQuestion);
+    return importPreview({ ...set, name: set.name || base, questions: qs.filter(Boolean) }, qs.filter(x => !x).length);
+  }
+  const r = parseTable(text);
+  if (!r.questions.length) return toast('No questions found in that file. It needs a question and an answer on each line.');
+  importPreview({ name: base, questions: r.questions }, r.skipped);
+};
+function importPreview(set, skipped) {
+  const p = cur(), same = doc.sets.find(s => s.id === set.id), tests = (set.tests || []).map(cleanTest).filter(Boolean);
+  openDrawer('Import questions', `<form class="form" id="if">
+    <label class="field">Set name<input type="text" name="name" value="${esc(same ? same.name : set.name)}"></label>
+    <p class="small"><b>${plural(set.questions.length, 'question')}</b>${skipped ? `, and ${plural(skipped, 'line')} skipped for having no question or answer` : ''}.${tests.length ? ` Comes with ${plural(tests.length, 'practice test')}.` : ''}</p>
+    <div class="preview"><ol>${set.questions.slice(0, 30).map(q => `<li>${esc(q.prompt)} <span class="muted">→ ${esc(q.answers.join(' | '))}</span></li>`).join('')}</ol>${set.questions.length > 30 ? `<p class="muted">…and ${set.questions.length - 30} more</p>` : ''}</div>
+    ${same ? `<label class="check"><input type="checkbox" name="replace" checked> Update my set “${esc(same.name)}” with these (its history is kept)</label>` : ''}
+    ${p ? `<label class="check"><input type="checkbox" name="link" checked> Add it to ${esc(p.name)}</label>` : ''}
+    <div class="row"><button class="btn primary" type="submit">Import</button></div>
+  </form>`, d => {
+    const f = d.querySelector('#if');
+    f.onsubmit = e => {
+      e.preventDefault();
+      const ids = new Set();
+      const questions = set.questions.map(q => { const c = { ...q }; if (!c.id || ids.has(c.id)) c.id = (() => { let x; do x = qid(); while (ids.has(x)); return x; })(); ids.add(c.id); return c; });
+      let s;
+      if (same && f.replace && f.replace.checked) { s = same; Object.assign(s, { name: f.name.value.trim() || s.name, questions }); if (set.description != null) s.description = set.description; }
+      else {
+        s = { id: uid(), name: f.name.value.trim() || 'Imported set', description: String(set.description || ''), questions };
+        if (set.source && set.source.name) s.source = { name: String(set.source.name), ...(set.source.url ? { url: String(set.source.url) } : {}) };
+        doc.sets.push(s);
+      }
+      if (tests.length) s.tests = tests;
+      touch(s);
+      if (p && f.link && f.link.checked) linkSet(p, s);
+      closeDrawer(); changed(); toast(`Imported ${plural(questions.length, 'question')}`);
+    };
+  });
+}
+// A set as a file to share: only the questions and the practice tests, never your answers
+function shareSet(s, p) {
+  const tests = p ? testTypesOf(p).filter(t => !t.tags || !t.tags.length || s.questions.some(q => (q.tags || []).some(g => t.tags.includes(g)))) : [];
+  const clean = { id: isBuiltin(s.id) ? s.id : s.id.toLowerCase(), name: s.name };
+  if (s.description) clean.description = s.description;
+  if (s.source) clean.source = s.source;
+  if (s.updated) clean.updated = s.updated;
+  clean.questions = s.questions.map(q => { const c = cleanQuestion(q); c.id = q.id; return c; });
+  const ts = tests.map(t => { const c = cleanTest(t); if (!c.tags.length) delete c.tags; return c; });
+  if (ts.length) clean.tests = ts;
+  openDrawer('Export set', `<p class="small">This file holds the questions${ts.length ? ' and the practice tests below' : ''}, nothing about your answers. Check it before you share it.</p>
+    <div class="preview"><p><b>${esc(clean.name)}</b>${clean.description ? '<br>' + esc(clean.description) : ''}</p><ol>${clean.questions.map(q => `<li>${esc(q.prompt)} <span class="muted">→ ${esc(q.answers.join(' | '))}${q.explanation ? ' · ' + esc(q.explanation) : ''}${q.note ? ' · ' + esc(q.note) : ''}</span></li>`).join('')}</ol>
+    ${ts.length ? `<p><b>Practice tests</b></p><ul>${ts.map(t => `<li>${esc(t.name)}: ${esc(testSummary(t))}${t.why ? ' · ' + esc(t.why) : ''}</li>`).join('')}</ul>` : ''}</div>
+    <div class="row"><button class="btn primary" type="button" id="xJson">Download JSON</button><button class="btn" type="button" id="xCsv">Download CSV</button></div>
+    <p class="small muted">JSON keeps everything and can be imported back with its history matched. CSV opens in a spreadsheet and leaves out the practice tests.</p>`, d => {
+    d.querySelector('#xJson').onclick = () => { download(new Blob([JSON.stringify({ format: 'study-buddy-set', formatVersion: 1, set: clean }, null, 1)], { type: 'application/json' }), `${clean.name}.json`); toast('Set exported'); };
+    d.querySelector('#xCsv').onclick = () => {
+      const rows = [['question', 'answer', 'need', 'wrong', 'explanation', 'note', 'tags'], ...clean.questions.map(q => [q.prompt, q.answers.join('|'), q.need || '', (q.wrong || []).join('|'), q.explanation || '', q.note || '', (q.tags || []).join('|')])];
+      download(new Blob([toCSV(rows)], { type: 'text/csv' }), `${clean.name}.csv`); toast('Set exported');
+    };
+  });
+}
+function exportAnswers(p) {
+  const ids = new Set(p.sets), tests = new Map(doc.tests.map(t => [t.id, t.name]));
+  const rows = [['date', 'time', 'set', 'question', 'result', 'answered by', 'test', 'your answer']];
+  for (const a of doc.attempts) {
+    if (!ids.has(a.s)) continue;
+    const s = setById(a.s), q = s && s.questions.find(x => x.id === a.q), d = new Date(a.at);
+    rows.push([localDay(d), `${pad(d.getHours())}:${pad(d.getMinutes())}`, s ? s.name : a.s, q ? q.prompt : a.q, a.ok ? 'right' : 'wrong', ANSWER_MODES[a.m] || '', a.t ? tests.get(a.t) || 'test' : 'flashcards', a.g || '']);
+  }
+  download(new Blob([toCSV(rows)], { type: 'text/csv' }), `${p.name} answers ${localDay(new Date())}.csv`);
+}
+function exportBackup() {
+  download(new Blob([JSON.stringify({ app: 'study-buddy', ...doc }, null, 1)], { type: 'application/json' }), `Study Buddy backup ${localDay(new Date())}.json`);
+  toast('Backup saved');
+}
+
+/* ---------- Google Drive sync (optional) ---------- */
+/* ===== Google sign-in shared by petravanta's apps =====
+   Canonical copy: https://github.com/petravanta/general/blob/main/shared/google-token.js (see STANDARDS.md, "Staying connected to Google Drive").
+   Every app lives on petravanta.github.io and uses the same OAuth client, so a Drive token one app gets works in all of them.
+   This keeps that token where every app can see it (localStorage key petravanta.google), one per Google account, so
+   reconnecting in one app reconnects them all, and an app only ever uses the token of the account it connected with.
+   Google gives a static site no refresh token: a token lasts an hour, and getting a new one opens Google's window,
+   which browsers only allow right after a tap. With the account's email as a hint, that window closes by itself. */
+const GoogleToken=(()=>{
+  const KEY='petravanta.google', SCOPE='https://www.googleapis.com/auth/drive.file';
+  const read=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'null')||{}}catch(e){return {}}};
+  const write=v=>{try{localStorage.setItem(KEY,JSON.stringify(v))}catch(e){}};
+  const subs=[];
+  // Another tab or app on this site got a token: let this one pick it up without a tap
+  window.addEventListener('storage',e=>{if(e.key===KEY) subs.forEach(f=>{try{f()}catch(_){}})});
+  function gis(){return new Promise((res,rej)=>{
+    if(window.google&&google.accounts&&google.accounts.oauth2) return res();
+    const s=document.createElement('script'); s.src='https://accounts.google.com/gsi/client'; s.onload=res; s.onerror=()=>rej({code:'offline'}); document.head.appendChild(s)})}
+  // A token for this account with time left on it, or null
+  function get(email){const t=email&&(read().tokens||{})[email]; return t&&t.exp>Date.now()?t:null}
+  // o: {clientId, hint:'email to suggest', prompt:'' | 'select_account' | 'consent'}. Call from a tap. Resolves {token, exp, email}.
+  function request(o){return new Promise(async(res,rej)=>{
+    try{await gis()}catch(e){return rej(e)}
+    google.accounts.oauth2.initTokenClient({client_id:o.clientId,scope:SCOPE,login_hint:o.hint||undefined,error_callback:rej,
+      callback:async r=>{
+        if(r.error) return rej(r);
+        const t={token:r.access_token,exp:Date.now()+(Number(r.expires_in||3600)-60)*1000};
+        // Which account it is, so the token is filed under the right one
+        let email='';
+        try{const j=await (await fetch('https://www.googleapis.com/drive/v3/about?fields=user(emailAddress)',{headers:{Authorization:'Bearer '+t.token}})).json(); email=(j.user&&j.user.emailAddress)||''}catch(e){}
+        if(!email) email=o.hint||'';
+        if(email){
+          const v=read(), now=Date.now(); v.tokens=v.tokens||{};
+          for(const k in v.tokens) if(!(v.tokens[k].exp>now)) delete v.tokens[k];
+          v.tokens[email]=t; v.last=email; write(v);
+        }
+        res({...t,email});
+      }
+    }).requestAccessToken({prompt:o.prompt||''});
+  })}
+  // Signing out on this browser. Google's permission stays, since the other apps and devices still use it.
+  function forget(email){const v=read(); if(v.tokens&&email) delete v.tokens[email]; write(v)}
+  return {get,request,forget,gis,onChange:f=>subs.push(f),get lastEmail(){return read().last||''}};
+})();
+/* ===== end Google sign-in ===== */
+/* ===== Drive store: petravanta's apps =====
+   Canonical copy: https://github.com/petravanta/general/blob/main/shared/drive-store.js (see STANDARDS.md, "Data lives in Google Drive").
+   Needs GoogleToken (shared/google-token.js) inlined above it.
+   Keeps an app's data in one JSON file in the user's Google Drive (drive.file scope: the app only sees files it created).
+   The browser keeps a copy of the last data, so the app opens straight away even when the hour-long Google sign-in has run out,
+   and changes that haven't reached Drive yet (for example while offline). The first tap after that reconnects, merges with
+   Drive's copy and saves. */
+function DriveStore(o){
+  // o: {clientId, file:'App data.json', app:'app-id', key:'localStorage prefix', empty:()=>data, merge:(remote,local)=>data,
+  //     onChange:()=>{}, onRemote:data=>{} (Drive's copy changed what the app shows)}
+  const API='https://www.googleapis.com';
+  const get=k=>{try{return JSON.parse(localStorage.getItem(o.key+'.'+k)||'null')}catch(e){return null}};
+  const put=(k,v)=>{try{v==null?localStorage.removeItem(o.key+'.'+k):localStorage.setItem(o.key+'.'+k,JSON.stringify(v));return true}catch(e){return false}};
+  const S={token:null,exp:0,email:get('email')||'',fileId:get('file'),known:!!get('known'),data:null,stale:false,busy:false,err:null,last:null,timer:null,ask:0};
+  // The app's own token from before tokens were shared; good until it runs out
+  const t=get('token'); if(t&&t.exp>Date.now()){S.token=t.token;S.exp=t.exp} put('token',null);
+  if(S.known){const c=get('copy')||get('pending'); if(c){S.data=c; S.stale=true}}
+  // Load Google's script now: if it only starts loading on the tap, the browser may block its window
+  if(o.clientId&&S.known) GoogleToken.gis().catch(()=>{});
+  const live=()=>{
+    const g=GoogleToken.get(S.email); if(g&&g.exp>S.exp){S.token=g.token;S.exp=g.exp}
+    return !!S.token&&Date.now()<S.exp;
+  };
+  const note=()=>{try{o.onChange&&o.onChange()}catch(e){}};
+  // Opens Google's window, so call this from a tap. For an account that already agreed, the window closes by itself.
+  // A first connect suggests the account the other apps use; after that, the account this app connected with.
+  async function signIn(){
+    const r=await GoogleToken.request({clientId:o.clientId,hint:S.email||(S.known?'':GoogleToken.lastEmail),prompt:S.known||GoogleToken.lastEmail?'':'consent'});
+    S.token=r.token; S.exp=r.exp; S.known=true; put('known',true);
+    if(r.email&&r.email!==S.email){S.email=r.email; put('email',r.email)}
+  }
+  async function call(path,opt={}){
+    if(!live()) throw {code:'expired'};
+    let r; try{r=await fetch(API+path,{...opt,headers:{...(opt.headers||{}),Authorization:'Bearer '+S.token}})}catch(e){throw {code:'offline'}}
+    if(r.status===401){S.token=null; S.exp=0; GoogleToken.forget(S.email); throw {code:'expired'}}
+    if(!r.ok) throw {code:'http',status:r.status};
+    return r;
+  }
+  async function find(){
+    if(S.fileId){try{const j=await (await call(`/drive/v3/files/${S.fileId}?fields=id,trashed`)).json(); if(!j.trashed) return S.fileId}catch(e){if(e.code!=='http') throw e}}
+    const q=encodeURIComponent(`name='${o.file.replace(/'/g,"\\'")}' and trashed=false`);
+    const j=await (await call(`/drive/v3/files?q=${q}&orderBy=modifiedTime desc&fields=files(id)`)).json();
+    S.fileId=j.files&&j.files[0]?j.files[0].id:null; put('file',S.fileId); return S.fileId;
+  }
+  async function read(){const id=await find(); return id?(await call(`/drive/v3/files/${id}?alt=media`)).json():null}
+  async function write(data){
+    const body=JSON.stringify({app:o.app,saved:new Date().toISOString(),...data}), id=await find();
+    if(id){await call(`/upload/drive/v3/files/${id}?uploadType=media`,{method:'PATCH',headers:{'Content-Type':'application/json'},body});return}
+    const b='b'+Math.random().toString(36).slice(2), meta=JSON.stringify({name:o.file,mimeType:'application/json'});
+    const j=await (await call('/upload/drive/v3/files?uploadType=multipart&fields=id',{method:'POST',headers:{'Content-Type':'multipart/related; boundary='+b},
+      body:`--${b}\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n${meta}\r\n--${b}\r\nContent-Type: application/json\r\n\r\n${body}\r\n--${b}--`})).json();
+    S.fileId=j.id; put('file',j.id);
+  }
+  // Data opened from this browser's copy may be behind Drive's: merge Drive's in before writing over it
+  async function catchUp(){
+    if(!S.stale) return;
+    const remote=await read(); S.stale=false;
+    if(!remote) return;
+    const before=JSON.stringify(S.data); S.data=o.merge(remote,S.data); put('copy',S.data);
+    if(JSON.stringify(S.data)!==before) try{o.onRemote&&o.onRemote(S.data)}catch(e){}
+  }
+  async function flush(){
+    clearTimeout(S.timer); if(!S.data||S.busy) return;
+    if(!live()){note();return}
+    S.busy=true; note();
+    try{await catchUp(); await write(S.data); S.err=null; S.last=new Date(); put('pending',null)}
+    catch(e){S.err=e.code==='expired'?null:e.code==='offline'?'offline':'error'}
+    finally{S.busy=false; note()}
+  }
+  // Load: Drive's copy, merged with any changes this browser hadn't saved yet. Creates the file on first use.
+  async function load(interactive){
+    if(!live()){ if(!interactive) throw {code:'expired'}; await signIn() }
+    S.busy=true; note();
+    const pending=get('pending');
+    try{
+      const remote=await read();
+      let data=remote?o.merge(remote,o.empty()):o.empty();
+      if(pending) data=o.merge(pending,data);
+      S.data=data; S.stale=false; S.err=null; S.last=new Date(); put('copy',data);
+      if(!remote||pending){await write(data); put('pending',null)}
+      return data;
+    }catch(e){
+      // offline with unsaved changes: carry on from them; they go to Drive once the connection is back
+      if(e.code==='offline'&&pending){S.data=o.merge(pending,o.empty()); S.stale=true; S.err='offline'; return S.data}
+      S.err=e.code==='offline'?'offline':e.code==='expired'?null:'error'; throw e;
+    }finally{S.busy=false; note()}
+  }
+  // Pick up changes made on another device
+  async function refresh(){
+    if(!live()||S.busy||!S.data) return false;
+    try{const r=await read(); if(!r) return false; const before=JSON.stringify(S.data); S.data=o.merge(r,S.data); S.stale=false; put('copy',S.data); return JSON.stringify(S.data)!==before}
+    catch(e){return false}
+  }
+  function save(data){S.data=data; put('copy',data); if(!put('pending',data)) {/* storage full or blocked: Drive still gets it */} clearTimeout(S.timer); S.timer=setTimeout(flush,1500); note()}
+  function signOut(){
+    GoogleToken.forget(S.email);
+    S.token=null; S.exp=0; S.data=null; S.stale=false; S.email=''; ['known','file','pending','copy','email'].forEach(k=>put(k,null)); S.known=false; note();
+  }
+  // Tokens last an hour. Renew on a tap when it is close to running out or gone, then save anything waiting.
+  document.addEventListener('click',e=>{
+    if(!o.clientId||!S.known||e.target.closest('[data-drive]')) return;
+    live(); if(S.exp-Date.now()>10*60000||Date.now()-S.ask<60000) return;
+    S.ask=Date.now(); signIn().then(flush).catch(()=>note());
+  },true);
+  // Another app or tab reconnected this account: carry on with its token
+  GoogleToken.onChange(()=>{if(S.known&&S.data&&live()) flush(); else note()});
+  document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden') flush()});
+  window.addEventListener('online',()=>flush());
+  function status(){
+    if(!S.data) return '';
+    if(S.busy) return 'Saving to Google Drive…';
+    const waiting=!!get('pending');
+    if(S.err==='offline') return 'Offline · changes save to Drive when you’re back online';
+    if(S.err) return 'Couldn’t reach Google Drive · will retry';
+    if(!live()) return waiting?'Tap anywhere to save to Google Drive':'Tap anywhere to reconnect Google Drive';
+    if(waiting) return 'Saving to Google Drive…';
+    return 'Saved to Google Drive'+(S.last?' · '+S.last.toLocaleTimeString([],{hour:'numeric',minute:'2-digit'}):'');
+  }
+  return {load,save,flush,refresh,signIn,signOut,status,live,
+    get data(){return S.data}, get known(){return S.known}, get configured(){return !!o.clientId}, get file(){return o.file},
+    get needsTap(){return !!S.data&&!live()}};
+}
+/* ===== end Drive store ===== */
+const store = DriveStore({
+  clientId: GOOGLE_CLIENT_ID, file: 'Study Buddy data.json', app: 'study-buddy', key: 'studyBuddy.drive',
+  empty: blankDoc, merge: (remote, local) => mergeDocs(local, remote),
+  onChange: () => { showSaveState(); const dp = $('#drivePanel'); if (dp) { dp.innerHTML = drivePanel(); wireDrive(dp); } },
+  onRemote: data => { doc = mergeDocs(doc, data); rev++; lsSet(KEY, doc); if (!run) render(); }
+});
+function showSaveState() { $('#saveState').textContent = store.known ? store.status() || 'Saved in this browser' : 'Saved in this browser'; }
+function drivePanel() {
+  if (!store.configured) return '<p class="small muted">Drive sync is turned off in this copy of the app.</p>';
+  if (!store.known) return `<p class="small">Keep a copy in your own Google Drive, in <b>${esc(store.file)}</b>, and use the same data on your phone and computer. The app can only see files it created there.</p><div class="row"><button class="btn primary" type="button" data-drive="on">Connect Google Drive</button></div>`;
+  return `<p class="small">${esc(store.status())}. Everything goes to <b>${esc(store.file)}</b> in your Drive a moment after each change.</p>
+    <div class="row">${store.live() ? '' : '<button class="btn primary" type="button" data-drive="on">Reconnect</button>'}<button class="btn ghost" type="button" data-drive="off">Disconnect</button></div>`;
+}
+function wireDrive(el) {
+  el.querySelectorAll('[data-drive]').forEach(b => b.onclick = async () => {
+    if (b.dataset.drive === 'off') { store.signOut(); showSaveState(); const dp = $('#drivePanel'); if (dp) { dp.innerHTML = drivePanel(); wireDrive(dp); } return toast('Disconnected. Your data stays in this browser.'); }
+    try { const remote = await store.load(true); doc = mergeDocs(doc, remote); changed(); toast('Connected to Google Drive'); }
+    catch (e) { toast(e && e.code === 'offline' ? 'You seem to be offline.' : 'Couldn’t connect to Google Drive.'); }
+  });
+}
+
+/* ---------- Toast ---------- */
+let toastTimer;
+function toast(msg, ms = 2600) {
+  clearTimeout(toastTimer);
+  let t = $('.toast');
+  if (!t) { t = document.createElement('div'); t.className = 'toast'; t.setAttribute('role', 'status'); document.body.appendChild(t); }
+  t.textContent = msg;
+  toastTimer = setTimeout(() => t.remove(), ms);
+}
+
+/* ---------- Taps and keys ---------- */
+$('#tabs').onclick = e => {
+  const b = e.target.closest('[data-tab]');
+  if (!b) return;
+  tab = b.dataset.tab; lsSet(TAB_KEY, tab); render();
+};
+$('#settingsBtn').onclick = settingsDrawer;
+$('#progPick').onchange = e => {
+  if (e.target.value === '+') { renderPicker(); return newProgDrawer(); }
+  setCurrent(e.target.value); render();
+};
+$('#main').addEventListener('click', e => {
+  const b = e.target.closest('button');
+  if (!b) return;
+  const p = cur(), d = b.dataset;
+  if (d.start) return newProgDrawer(d.start);
+  if (d.test) { const t = doc.testTypes.find(x => x.id === d.test); return t && startRun(p, t, t); }
+  if (d.editTest) return testDrawer(p, d.editTest);
+  if (d.q) return questionDrawer(d.q);
+  if (d.review) return reviewDrawer(d.review);
+  if (d.openSet) return setDrawer(d.openSet);
+  if (d.share) return shareSet(setById(d.share), p);
+  if (d.unlink) { p.sets = p.sets.filter(x => x !== d.unlink); touch(p); changed(); return toast('Removed from this programme. Its history is kept.'); }
+  if (d.level) { qFilter.level = d.level; document.querySelectorAll('[data-level]').forEach(x => x.setAttribute('aria-pressed', String(x === b))); return drawQList(p); }
+  if (d.opt != null && run && run.phase === 'ask') { const o = run.items[run.i].opts[+d.opt]; record(o.ok, o.t); return afterAnswer(); }
+  if (d.run) return runAction(d.run);
+  switch (d.act) {
+    case 'newProg': return newProgDrawer();
+    case 'settings': return settingsDrawer();
+    case 'addSet': return addSetDrawer(p);
+    case 'newTest': return testDrawer(p);
+    case 'flash': return startRun(p, { ...QUICK, ...(p.quick || {}), feedback: 'each' });
+    case 'flashMissed': return startRun(p, { ...QUICK, ...(p.quick || {}), pick: 'missed', count: 0, feedback: 'each' });
+    case 'exportAnswers': return exportAnswers(p);
+  }
+});
+$('#main').addEventListener('change', e => {
+  const p = cur(), t = e.target;
+  if (t.dataset.quick) { p.quick = { ...QUICK, ...(p.quick || {}), [t.dataset.quick]: t.dataset.quick === 'count' ? +t.value : t.value }; touch(p); save(); }
+  if (t.id === 'qSet') { qFilter.set = t.value; drawQList(p); }
+  if (t.id === 'qTag') { qFilter.tag = t.value; drawQList(p); }
+});
+$('#main').addEventListener('input', e => { if (e.target.id === 'qSearch') { qFilter.text = e.target.value; drawQList(cur()); } });
+$('#main').addEventListener('submit', e => {
+  if (e.target.id !== 'typedForm') return;
+  e.preventDefault();
+  const v = $('#typedIn').value.trim();
+  if (!v) return;
+  record(checkTyped(run.items[run.i].q, v), v); afterAnswer();
+});
+function runAction(a) {
+  const p = cur();
+  switch (a) {
+    case 'reveal': run.phase = 'reveal'; return render();
+    case 'knew': record(true); return next();
+    case 'missed': record(false); return next();
+    case 'dunno': record(false, ''); return afterAnswer();
+    case 'next': return next();
+    case 'overrule': return overrule();
+    case 'end': run.stopped = true; return finish();
+    case 'again': { const r = run; run = null; const t = r.type && doc.testTypes.find(x => x.id === r.type); return startRun(p, r.cfg, t || null); }
+    case 'redoMissed': { const missed = run.items.filter(i => i.ok === false).map(({ s, q, key }) => ({ s, q, key })); run = null; return startRun(p, { ...QUICK, ...(p.quick || {}), feedback: 'each', pick: 'inorder', count: 0 }, null, missed); }
+    case 'close': run = null; return render();
+  }
+}
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && $('#layer').innerHTML) return closeDrawer();
+  if (!run || run.done || $('#layer').innerHTML || e.ctrlKey || e.metaKey || e.altKey) return;
+  const inField = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName), mode = run.cfg.answer, k = e.key.toLowerCase();
+  if (run.phase === 'ask' && mode === 'self' && (k === ' ' || k === 'enter') && !inField) { e.preventDefault(); return runAction('reveal'); }
+  if (run.phase === 'reveal' && (k === 'y' || k === '1')) return runAction('knew');
+  if (run.phase === 'reveal' && (k === 'n' || k === '2')) return runAction('missed');
+  if (run.phase === 'ask' && mode === 'choice' && /^[1-9]$/.test(k)) { const o = run.items[run.i].opts[+k - 1]; if (o) { record(o.ok, o.t); afterAnswer(); } return; }
+  if (run.phase === 'feedback' && (k === 'enter' || (k === ' ' && !inField))) { e.preventDefault(); return next(); }
+});
+addEventListener('storage', e => { if (e.key === KEY) { doc = upgrade(lsGet(KEY)); rev++; if (!run) render(); } });
+document.addEventListener('visibilitychange', async () => {
+  if (document.visibilityState === 'visible' && store.known && store.live() && await store.refresh()) { doc = mergeDocs(doc, store.data); rev++; lsSet(KEY, doc); if (!run) render(); }
+});
+
+/* ---------- Start ---------- */
+(async () => {
+  if (store.known && store.data) doc = mergeDocs(doc, store.data);
+  render();
+  showSaveState();
+  await loadBuiltin();
+  render();
+  if (store.known && store.live()) {
+    try { doc = mergeDocs(doc, await store.load(false)); rev++; lsSet(KEY, doc); store.save(doc); if (!run) render(); } catch (e) { showSaveState(); }
+  }
+})();
+</script>
+<script src="https://petravanta.github.io/general/shared/hub-link.js" defer></script>
+<script src="https://petravanta.github.io/general/shared/theme-switch.js" defer></script>
+<script>if('serviceWorker' in navigator&&/^(petravanta\.github\.io|localhost|127\.0\.0\.1)$/.test(location.hostname))navigator.serviceWorker.register('sw.js').catch(function(){})</script>
+</body>
+</html>
