@@ -1,0 +1,6824 @@
+{
+ "id": "ham-general-2023",
+ "name": "Amateur radio General exam (2023–2027 pool)",
+ "description": "Every question in the official question pool for the General class amateur radio licence exam (Element 3), with its three wrong answers. The pool is used for exams until June 30, 2027. The exam asks 35 multiple-choice questions, one from each topic group, and you pass with 26 right. You need a Technician licence (or to pass that exam the same day) to upgrade.",
+ "source": {
+  "name": "NCVEC Question Pool Committee, 2023–2027 General Class Question Pool (with the 6th errata of February 4, 2026)",
+  "url": "https://www.ncvec.org/"
+ },
+ "updated": "2026-10-19",
+ "questions": [
+  {
+   "id": "g1a01",
+   "prompt": "On which HF and/or MF amateur bands are there portions where General class licensees cannot transmit?",
+   "answers": [
+    "80 meters, 40 meters, 20 meters, and 15 meters"
+   ],
+   "wrong": [
+    "60 meters, 30 meters, 17 meters, and 12 meters",
+    "160 meters, 60 meters, 15 meters, and 12 meters",
+    "80 meters, 20 meters, 15 meters, and 10 meters"
+   ],
+   "explanation": "Pool question G1A01, from FCC rules §97.301(d).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1a02",
+   "prompt": "On which of the following bands is phone operation prohibited?",
+   "answers": [
+    "30 meters"
+   ],
+   "wrong": [
+    "160 meters",
+    "17 meters",
+    "12 meters"
+   ],
+   "explanation": "Pool question G1A02, from FCC rules §97.305.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1a03",
+   "prompt": "On which of the following bands is image transmission prohibited?",
+   "answers": [
+    "30 meters"
+   ],
+   "wrong": [
+    "160 meters",
+    "20 meters",
+    "12 meters"
+   ],
+   "explanation": "Pool question G1A03, from FCC rules §97.305.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1a05",
+   "prompt": "On which of the following frequencies are General class licensees prohibited from operating as control operator?",
+   "answers": [
+    "7.125 MHz to 7.175 MHz"
+   ],
+   "wrong": [
+    "28.000 MHz to 28.025 MHz",
+    "21.275 MHz to 21.300 MHz",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G1A05, from FCC rules §97.301(d).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1a06",
+   "prompt": "Which of the following applies when the FCC rules designate the amateur service as a secondary user on a band?",
+   "answers": [
+    "Amateur stations must not cause harmful interference to primary users and must accept interference from primary users"
+   ],
+   "wrong": [
+    "Amateur stations must record the call sign of the primary service station before operating on a frequency assigned to that station",
+    "Amateur stations may use the band only during emergencies",
+    "Amateur stations may only operate during specific hours of the day, while primary users are permitted 24-hour use of the band"
+   ],
+   "explanation": "Pool question G1A06, from FCC rules §97.303.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1a07",
+   "prompt": "On which amateur frequencies in the 10-meter band may stations with a General class control operator transmit CW emissions?",
+   "answers": [
+    "The entire band"
+   ],
+   "wrong": [
+    "28.000 MHz to 28.025 MHz only",
+    "28.000 MHz to 28.300 MHz only",
+    "28.025 MHz to 28.300 MHz only"
+   ],
+   "explanation": "Pool question G1A07, from FCC rules §97.305(a).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1a08",
+   "prompt": "Which HF bands have segments exclusively allocated to Amateur Extra licensees?",
+   "answers": [
+    "80 meters, 40 meters, 20 meters, and 15 meters"
+   ],
+   "wrong": [
+    "All HF bands",
+    "All HF bands except 160 meters and 10 meters",
+    "60 meters, 30 meters, 17 meters, and 12 meters"
+   ],
+   "explanation": "Pool question G1A08, from FCC rules §97.301(b).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1a09",
+   "prompt": "Which of the following frequencies is within the General class portion of the 15-meter band?",
+   "answers": [
+    "21300 kHz"
+   ],
+   "wrong": [
+    "14250 kHz",
+    "18155 kHz",
+    "24900 kHz"
+   ],
+   "explanation": "Pool question G1A09, from FCC rules §97.301(d).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1a10",
+   "prompt": "What portion of the 10-meter band is available for repeater use?",
+   "answers": [
+    "The portion above 29.5 MHz"
+   ],
+   "wrong": [
+    "The entire band",
+    "The portion between 28.1 MHz and 28.2 MHz",
+    "The portion between 28.3 MHz and 28.5 MHz"
+   ],
+   "explanation": "Pool question G1A10, from FCC rules §97.205(b).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1a11",
+   "prompt": "When General class licensees are not permitted to use the entire voice portion of a band, which portion of the voice segment is available to them?",
+   "answers": [
+    "The upper frequency portion"
+   ],
+   "wrong": [
+    "The lower frequency portion",
+    "The lower frequency portion on frequencies below 7.3 MHz, and the upper portion on frequencies above 14.150 MHz",
+    "The upper frequency portion on frequencies below 7.3 MHz, and the lower portion on frequencies above 14.150 MHz"
+   ],
+   "explanation": "Pool question G1A11, from FCC rules §97.301.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1b01",
+   "prompt": "What is the maximum height above ground for an antenna structure not near a public use airport without requiring notification to the FAA and registration with the FCC?",
+   "answers": [
+    "200 feet"
+   ],
+   "wrong": [
+    "50 feet",
+    "100 feet",
+    "250 feet"
+   ],
+   "explanation": "Pool question G1B01, from FCC rules §97.15(a).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1b02",
+   "prompt": "With which of the following conditions must beacon stations comply?",
+   "answers": [
+    "No more than one beacon station may transmit in the same band from the same station location"
+   ],
+   "wrong": [
+    "The frequency must be coordinated with the National Beacon Organization",
+    "The frequency must be posted on the internet or published in a national periodical",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G1B02, from FCC rules §97.203(b).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1b03",
+   "prompt": "Which of the following is a purpose of a beacon station as identified in the FCC rules?",
+   "answers": [
+    "Observation of propagation and reception"
+   ],
+   "wrong": [
+    "Automatic identification of repeaters",
+    "Transmission of bulletins of general interest to amateur radio licensees",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G1B03, from FCC rules §97.3(a)(9).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1b04",
+   "prompt": "Which of the following transmissions is permitted for all amateur stations?",
+   "answers": [
+    "Occasional retransmission of weather and propagation forecast information from US government stations"
+   ],
+   "wrong": [
+    "Unidentified transmissions of less than 10 seconds duration for test purposes only",
+    "Automatic retransmission of other amateur signals by any amateur station",
+    "Encrypted messages, if not intended to facilitate a criminal act"
+   ],
+   "explanation": "Pool question G1B04, from FCC rules §97.113(c).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1b05",
+   "prompt": "Which of the following one-way transmissions are permitted?",
+   "answers": [
+    "Transmissions to assist with learning the International Morse code"
+   ],
+   "wrong": [
+    "Unidentified test transmissions of less than 10 seconds in duration",
+    "Regular transmissions offering equipment for sale, if intended for amateur radio use",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G1B05, from FCC rules §97.111((5)(b).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1b06",
+   "prompt": "Under what conditions are state and local governments permitted to regulate amateur radio antenna structures?",
+   "answers": [
+    "Amateur Service communications must be reasonably accommodated, and regulations must constitute the minimum practical to accommodate a legitimate purpose of the state or local entity"
+   ],
+   "wrong": [
+    "Under no circumstances, FCC rules take priority",
+    "At any time and to any extent necessary to accomplish a legitimate purpose of the state or local entity, provided that proper filings are made with the FCC",
+    "Only when such structures exceed 50 feet in height and are clearly visible 1,000 feet from the structure"
+   ],
+   "explanation": "Pool question G1B06, from FCC rules §97.15(b), §PRB-1, §101 FCC 2d 952 (1985).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1b07",
+   "prompt": "What are the restrictions on the use of abbreviations or procedural signals in the amateur service?",
+   "answers": [
+    "They may be used if they do not obscure the meaning of a message"
+   ],
+   "wrong": [
+    "Only “Q” signals are permitted",
+    "They are not permitted",
+    "They are limited to those expressly listed in Part 97 of the FCC rules"
+   ],
+   "explanation": "Pool question G1B07, from FCC rules §97.113(a)(4).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1b08",
+   "prompt": "When is it permissible to communicate with amateur stations in countries outside the areas administered by the Federal Communications Commission?",
+   "answers": [
+    "When the contact is with amateurs in any country except those whose administrations have notified the ITU that they object to such communications"
+   ],
+   "wrong": [
+    "Only when the foreign country has a formal third-party agreement filed with the FCC",
+    "Only when the contact is with amateurs licensed by a country which is a member of the United Nations, or by a territory possessed by such a country",
+    "Only when the contact is with amateurs licensed by a country which is a member of the International Amateur Radio Union, or by a territory possessed by such a country"
+   ],
+   "explanation": "Pool question G1B08, from FCC rules §97.111(a)(1).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1b09",
+   "prompt": "On what HF frequencies are automatically controlled beacons permitted?",
+   "answers": [
+    "28.20 MHz to 28.30 MHz"
+   ],
+   "wrong": [
+    "On any frequency if power is less than 1 watt",
+    "On any frequency if transmissions are in Morse code",
+    "21.08 MHz to 21.09 MHz"
+   ],
+   "explanation": "Pool question G1B09, from FCC rules §97.203(d).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1b10",
+   "prompt": "What is the power limit for beacon stations?",
+   "answers": [
+    "100 watts PEP output"
+   ],
+   "wrong": [
+    "10 watts PEP output",
+    "20 watts PEP output",
+    "200 watts PEP output"
+   ],
+   "explanation": "Pool question G1B10, from FCC rules §97.203(c).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1b11",
+   "prompt": "Who or what determines “good engineering and good amateur practice,” as applied to the operation of an amateur station in all respects not covered by the Part 97 rules?",
+   "answers": [
+    "The FCC"
+   ],
+   "wrong": [
+    "The control operator",
+    "The IEEE",
+    "The ITU"
+   ],
+   "explanation": "Pool question G1B11, from FCC rules §97.101(a).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1c01",
+   "prompt": "What is the maximum transmitter power an amateur station may use on 10.140 MHz?",
+   "answers": [
+    "200 watts PEP output"
+   ],
+   "wrong": [
+    "1000 watts PEP output",
+    "1500 watts PEP output",
+    "2000 watts PEP output"
+   ],
+   "explanation": "Pool question G1C01, from FCC rules §97.313(c)(1).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1c02",
+   "prompt": "What is the maximum transmitter power an amateur station may use on the 12-meter band?",
+   "answers": [
+    "1500 watts PEP output"
+   ],
+   "wrong": [
+    "50 watts PEP output",
+    "200 watts PEP output",
+    "An effective radiated power equivalent to 100 watts from a half-wave dipole"
+   ],
+   "explanation": "Pool question G1C02, from FCC rules §97.313.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1c03",
+   "prompt": "What is the maximum bandwidth permitted by FCC rules for amateur radio stations transmitting on USB frequencies in the 60-meter band?",
+   "answers": [
+    "2.8 kHz"
+   ],
+   "wrong": [
+    "5.6 kHz",
+    "1.8 kHz",
+    "3 kHz"
+   ],
+   "explanation": "Pool question G1C03, from FCC rules §97.303(h)(1).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1c04",
+   "prompt": "Which of the following is required by the FCC rules when operating in the 60-meter band?",
+   "answers": [
+    "If you are using an antenna other than a dipole, you must keep a record of the gain of your antenna"
+   ],
+   "wrong": [
+    "You must keep a record of the date, time, frequency, power level, and stations worked",
+    "You must keep a record of all third-party traffic",
+    "You must keep a record of the manufacturer of your equipment and the antenna used"
+   ],
+   "explanation": "Pool question G1C04, from FCC rules §97.303(i).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1c05",
+   "prompt": "What is the limit for transmitter power on the 28 MHz band for a General Class control operator?",
+   "answers": [
+    "1500 watts PEP output"
+   ],
+   "wrong": [
+    "100 watts PEP output",
+    "1000 watts PEP output",
+    "2000 watts PEP output"
+   ],
+   "explanation": "Pool question G1C05, from FCC rules §97.313.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1c06",
+   "prompt": "What is the limit for transmitter power on the 1.8 MHz band?",
+   "answers": [
+    "1500 watts PEP output"
+   ],
+   "wrong": [
+    "200 watts PEP output",
+    "1000 watts PEP output",
+    "1200 watts PEP output"
+   ],
+   "explanation": "Pool question G1C06, from FCC rules §97.313.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1c07",
+   "prompt": "What must be done before using a new digital protocol on the air?",
+   "answers": [
+    "Publicly document the technical characteristics of the protocol"
+   ],
+   "wrong": [
+    "Type-certify equipment to FCC standards",
+    "Obtain an experimental license from the FCC",
+    "Submit a rule-making proposal to the FCC describing the codes and methods of the technique"
+   ],
+   "explanation": "Pool question G1C07, from FCC rules §97.309(a)(4).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1c11",
+   "prompt": "What measurement is specified by FCC rules that regulate maximum power?",
+   "answers": [
+    "PEP output from the transmitter"
+   ],
+   "wrong": [
+    "RMS output from the transmitter",
+    "RMS input to the antenna",
+    "PEP input to the antenna"
+   ],
+   "explanation": "Pool question G1C11, from FCC rules §97.313.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1d01",
+   "prompt": "Who may receive partial credit for the elements represented by an expired amateur radio license?",
+   "answers": [
+    "Any person who can demonstrate that they once held an FCC-issued General, Advanced, or Amateur Extra class license that was not revoked by the FCC"
+   ],
+   "wrong": [
+    "Anyone who held an FCC-issued amateur radio license that expired not less than 5 and not more than 15 years ago",
+    "Any person who previously held an amateur license issued by another country, but only if that country has a current reciprocal licensing agreement with the FCC",
+    "Only persons who once held an FCC issued Novice, Technician, or Technician Plus license"
+   ],
+   "explanation": "Pool question G1D01, from FCC rules §97.501, §97.505(a).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1d02",
+   "prompt": "What license examinations may you administer as an accredited Volunteer Examiner holding a General class operator license?",
+   "answers": [
+    "Technician only"
+   ],
+   "wrong": [
+    "General and Technician",
+    "None, only Amateur Extra class licensees may be accredited",
+    "Amateur Extra, General, and Technician"
+   ],
+   "explanation": "Pool question G1D02, from FCC rules §97.509(b)(3)(i).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1d03",
+   "prompt": "On which of the following band segments may you operate if you are a Technician class operator and have an unexpired Certificate of Successful Completion of Examination (CSCE) for General class privileges?",
+   "answers": [
+    "On any General or Technician class band segment"
+   ],
+   "wrong": [
+    "Only the Technician band segments until your upgrade is posted in the FCC database",
+    "Only on the Technician band segments until you have a receipt for the FCC application fee payment",
+    "On any General or Technician class band segment except 30 meters and 60 meters"
+   ],
+   "explanation": "Pool question G1D03, from FCC rules §97.9(b).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1d04",
+   "prompt": "Who must observe the administration of a Technician class license examination?",
+   "answers": [
+    "At least three Volunteer Examiners of General class or higher"
+   ],
+   "wrong": [
+    "At least two Volunteer Examiners of General class or higher",
+    "At least two Volunteer Examiners of Technician class or higher",
+    "At least three Volunteer Examiners of Technician class"
+   ],
+   "explanation": "Pool question G1D04, from FCC rules §97.509(3)(i)(c).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1d05",
+   "prompt": "When operating a US station by remote control from outside the country, what license is required of the control operator?",
+   "answers": [
+    "A US operator/primary station license"
+   ],
+   "wrong": [
+    "Only an appropriate US operator/primary license and a special remote station permit from the FCC",
+    "Only a license from the foreign country, as long as the call sign includes identification of portable operation in the US",
+    "A license from the foreign country and a special remote station permit from the FCC"
+   ],
+   "explanation": "Pool question G1D05, from FCC rules §97.7.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1d06",
+   "prompt": "Until an upgrade to General class is shown in the FCC database, when must a Technician licensee identify with “AG” after their call sign?",
+   "answers": [
+    "Whenever they operate using General class frequency privileges"
+   ],
+   "wrong": [
+    "Whenever they operate on any amateur frequency",
+    "Whenever they operate using Technician frequency privileges",
+    "A special identifier is not required if their General class license application has been filed with the FCC"
+   ],
+   "explanation": "Pool question G1D06, from FCC rules §97.119(f)(2).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1d07",
+   "prompt": "Volunteer Examiners are accredited by what organization?",
+   "answers": [
+    "A Volunteer Examiner Coordinator"
+   ],
+   "wrong": [
+    "The Federal Communications Commission",
+    "The Universal Licensing System",
+    "The Wireless Telecommunications Bureau"
+   ],
+   "explanation": "Pool question G1D07, from FCC rules §97.509(b)(1).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1d08",
+   "prompt": "Which of the following criteria must be met for a non-US citizen to be an accredited Volunteer Examiner?",
+   "answers": [
+    "The person must hold an FCC granted amateur radio license of General class or above"
+   ],
+   "wrong": [
+    "The person must be a resident of the US for a minimum of 5 years",
+    "The person’s home citizenship must be in ITU region 2",
+    "None of these choices is correct; a non-US citizen cannot be a Volunteer Examiner"
+   ],
+   "explanation": "Pool question G1D08, from FCC rules §97.509(b)(3).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1d09",
+   "prompt": "How long is a Certificate of Successful Completion of Examination (CSCE) valid for exam element credit?",
+   "answers": [
+    "365 days"
+   ],
+   "wrong": [
+    "30 days",
+    "180 days",
+    "For as long as your current license is valid"
+   ],
+   "explanation": "Pool question G1D09, from FCC rules §97.9(b).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1d10",
+   "prompt": "What is the minimum age that one must be to qualify as an accredited Volunteer Examiner?",
+   "answers": [
+    "18 years"
+   ],
+   "wrong": [
+    "16 years",
+    "21 years",
+    "There is no age limit"
+   ],
+   "explanation": "Pool question G1D10, from FCC rules §97.509(b)(2).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1d11",
+   "prompt": "What action is required to obtain a new General class license after a previously held license has expired and the two-year grace period has passed?",
+   "answers": [
+    "The applicant must show proof of the appropriate expired license grant and pass the current Element 2 exam"
+   ],
+   "wrong": [
+    "They must have a letter from the FCC showing they once held an amateur or commercial license",
+    "There are no requirements other than being able to show a copy of the expired license",
+    "Contact the FCC to have the license reinstated"
+   ],
+   "explanation": "Pool question G1D11, from FCC rules §97.505.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1d12",
+   "prompt": "When operating a station in South America by remote control over the internet from the US, what regulations apply?",
+   "answers": [
+    "Only those of the remote station’s country"
+   ],
+   "wrong": [
+    "Those of both the remote station’s country and the FCC",
+    "Those of the remote station’s country and the FCC’s third-party regulations",
+    "Only those of the FCC"
+   ],
+   "explanation": "Pool question G1D12, from FCC rules §97.507.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1e01",
+   "prompt": "Which of the following would disqualify a third party from participating in sending a message via an amateur station?",
+   "answers": [
+    "The third party’s amateur license has been revoked and not reinstated"
+   ],
+   "wrong": [
+    "The third party is not a US citizen",
+    "The third party is speaking in a language other than English",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G1E01, from FCC rules §97.115(b)(2).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1e02",
+   "prompt": "When may a 10-meter repeater retransmit the 2-meter signal from a station that has a Technician class control operator?",
+   "answers": [
+    "Only if the 10-meter repeater control operator holds at least a General class license"
+   ],
+   "wrong": [
+    "Under no circumstances",
+    "Only if the station on 10-meters is operating under a Special Temporary Authorization allowing such retransmission",
+    "Only during an FCC-declared general state of communications emergency"
+   ],
+   "explanation": "Pool question G1E02, from FCC rules §97.205(b).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1e03",
+   "prompt": "What is required to conduct communications with a digital station operating under automatic control outside the automatic control band segments?",
+   "answers": [
+    "The station initiating the contact must be under local or remote control"
+   ],
+   "wrong": [
+    "The interrogating transmission must be made by another automatically controlled station",
+    "No third-party traffic may be transmitted",
+    "The control operator of the interrogating station must hold an Amateur Extra class license"
+   ],
+   "explanation": "Pool question G1E03, from FCC rules §97.221.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1e04",
+   "prompt": "Which of the following conditions require a licensed amateur radio operator to take specific steps to avoid harmful interference to other users or facilities?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "When operating within one mile of an FCC Monitoring Station",
+    "When using a band where the Amateur Service is secondary",
+    "When a station is transmitting spread spectrum emissions"
+   ],
+   "explanation": "All three are right: when operating within one mile of an FCC Monitoring Station; when using a band where the Amateur Service is secondary; when a station is transmitting spread spectrum emissions. Pool question G1E04, from FCC rules §97.13(b), §97.303, §97.311(b).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1e05",
+   "prompt": "What are the restrictions on messages sent to a third party in a country with which there is a Third-Party Agreement?",
+   "answers": [
+    "They must relate to amateur radio, or remarks of a personal character, or messages relating to emergencies or disaster relief"
+   ],
+   "wrong": [
+    "They must relate to emergencies or disaster relief",
+    "They must be for other licensed amateurs",
+    "The message must be limited to no longer than 1 minute in duration and the name of the third party must be recorded in the station log"
+   ],
+   "explanation": "Pool question G1E05, from FCC rules §97.115(a)(2), §97.117.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1e06",
+   "prompt": "The frequency allocations of which ITU region apply to radio amateurs operating in North and South America?",
+   "answers": [
+    "Region 2"
+   ],
+   "wrong": [
+    "Region 4",
+    "Region 3",
+    "Region 1"
+   ],
+   "explanation": "Pool question G1E06, from FCC rules §97.301, §ITU Radio Regulations.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1e07",
+   "prompt": "In what part of the 2.4 GHz band may an amateur station communicate with non-licensed Wi-Fi stations?",
+   "answers": [
+    "No part"
+   ],
+   "wrong": [
+    "Anywhere in the band",
+    "Channels 1 through 4",
+    "Channels 42 through 45"
+   ],
+   "explanation": "Pool question G1E07, from FCC rules §97.111.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1e08",
+   "prompt": "What is the maximum PEP output allowed for spread spectrum transmissions?",
+   "answers": [
+    "10 watts"
+   ],
+   "wrong": [
+    "100 milliwatts",
+    "100 watts",
+    "1500 watts"
+   ],
+   "explanation": "Pool question G1E08, from FCC rules §97.313(j).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1e10",
+   "prompt": "Why should an amateur operator normally avoid transmitting on 14.100, 18.110, 21.150, 24.930 and 28.200 MHz?",
+   "answers": [
+    "A system of propagation beacon stations operates on those frequencies"
+   ],
+   "wrong": [
+    "A system of automatic digital stations operates on those frequencies",
+    "These frequencies are set aside for emergency operations",
+    "These frequencies are set aside for bulletins from the FCC"
+   ],
+   "explanation": "Pool question G1E10, from FCC rules §97.101.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1e11",
+   "prompt": "On what bands may automatically controlled stations transmitting RTTY or data emissions communicate with other automatically controlled digital stations?",
+   "answers": [
+    "Anywhere in the 6-meter or shorter wavelength bands, and in limited segments of some of the HF bands"
+   ],
+   "wrong": [
+    "On any band segment where digital operation is permitted",
+    "Anywhere in the non-phone segments of the 10-meter or shorter wavelength bands",
+    "Only in the non-phone Extra Class segments of the bands"
+   ],
+   "explanation": "Pool question G1E11, from FCC rules §97.221, §97.305.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g1e12",
+   "prompt": "When may third-party messages be transmitted via remote control?",
+   "answers": [
+    "Under any circumstances in which third party messages are permitted by FCC rules"
+   ],
+   "wrong": [
+    "Under no circumstances except for emergencies",
+    "Only when the message is intended for licensed radio amateurs",
+    "Only when the message is intended for third parties in areas where licensing is controlled by the FCC"
+   ],
+   "explanation": "Pool question G1E12, from FCC rules §97.115.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "g2a01",
+   "prompt": "Which mode is most commonly used for voice communications on frequencies of 14 MHz or higher?",
+   "answers": [
+    "Upper sideband"
+   ],
+   "wrong": [
+    "Lower sideband",
+    "Suppressed sideband",
+    "Double sideband"
+   ],
+   "explanation": "Pool question G2A01.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2a02",
+   "prompt": "Which mode is most commonly used for voice communications on the 160-, 75-, and 40-meter bands?",
+   "answers": [
+    "Lower sideband"
+   ],
+   "wrong": [
+    "Upper sideband",
+    "Suppressed sideband",
+    "Double sideband"
+   ],
+   "explanation": "Pool question G2A02.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2a03",
+   "prompt": "Which mode is most commonly used for SSB voice communications in the VHF and UHF bands?",
+   "answers": [
+    "Upper sideband"
+   ],
+   "wrong": [
+    "Lower sideband",
+    "Suppressed sideband",
+    "Double sideband"
+   ],
+   "explanation": "Pool question G2A03.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2a04",
+   "prompt": "Which mode is most commonly used for voice communications on the 17- and 12-meter bands?",
+   "answers": [
+    "Upper sideband"
+   ],
+   "wrong": [
+    "Lower sideband",
+    "Suppressed sideband",
+    "Double sideband"
+   ],
+   "explanation": "Pool question G2A04.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2a05",
+   "prompt": "Which mode of voice communication is most commonly used on the HF amateur bands?",
+   "answers": [
+    "Single sideband"
+   ],
+   "wrong": [
+    "Frequency modulation",
+    "Double sideband",
+    "Single phase modulation"
+   ],
+   "explanation": "Pool question G2A05.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2a06",
+   "prompt": "Which of the following is an advantage of using single sideband, as compared to other analog voice modes on the HF amateur bands?",
+   "answers": [
+    "Less bandwidth used and greater power efficiency"
+   ],
+   "wrong": [
+    "Very high-fidelity voice modulation",
+    "Less subject to interference from atmospheric static crashes",
+    "Ease of tuning on receive and immunity to impulse noise"
+   ],
+   "explanation": "Pool question G2A06.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2a07",
+   "prompt": "Which of the following statements is true of single sideband (SSB)?",
+   "answers": [
+    "Only one sideband is transmitted; the other sideband and carrier are suppressed"
+   ],
+   "wrong": [
+    "Only one sideband and the carrier are transmitted; the other sideband is suppressed",
+    "SSB is the only voice mode authorized on the 20-, 15-, and 10-meter amateur bands",
+    "SSB is the only voice mode authorized on the 160-, 75-, and 40-meter amateur bands"
+   ],
+   "explanation": "Pool question G2A07.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2a08",
+   "prompt": "What is the recommended way to break into a phone contact?",
+   "answers": [
+    "Say your call sign once"
+   ],
+   "wrong": [
+    "Say “QRZ” several times, followed by your call sign",
+    "Say “Breaker Breaker”",
+    "Say “CQ” followed by the call sign of either station"
+   ],
+   "explanation": "Pool question G2A08.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2a09",
+   "prompt": "Why do most amateur stations use lower sideband on the 160-, 75-, and 40-meter bands?",
+   "answers": [
+    "It is commonly accepted amateur practice"
+   ],
+   "wrong": [
+    "Lower sideband is more efficient than upper sideband at these frequencies",
+    "Lower sideband is the only sideband legal on these frequency bands",
+    "Because it is fully compatible with an AM detector"
+   ],
+   "explanation": "Pool question G2A09.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2a10",
+   "prompt": "Which of the following statements is true of VOX operation versus PTT operation?",
+   "answers": [
+    "It allows “hands free” operation"
+   ],
+   "wrong": [
+    "The received signal is more natural sounding",
+    "It occupies less bandwidth",
+    "It provides more power output"
+   ],
+   "explanation": "Pool question G2A10.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2a11",
+   "prompt": "Generally, who should respond to a station in the contiguous 48 states calling “CQ DX”?",
+   "answers": [
+    "Any stations outside the lower 48 states"
+   ],
+   "wrong": [
+    "Any caller is welcome to respond",
+    "Only stations in Germany",
+    "Only contest stations"
+   ],
+   "explanation": "Pool question G2A11.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2a12",
+   "prompt": "What control is typically adjusted for proper ALC setting on a single sideband transceiver?",
+   "answers": [
+    "Transmit audio or microphone gain"
+   ],
+   "wrong": [
+    "RF clipping level",
+    "Antenna inductance or capacitance",
+    "Attenuator level"
+   ],
+   "explanation": "Pool question G2A12.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2b01",
+   "prompt": "Which of the following is true concerning access to frequencies?",
+   "answers": [
+    "Except during emergencies, no amateur station has priority access to any frequency"
+   ],
+   "wrong": [
+    "Nets have priority",
+    "QSOs in progress have priority",
+    "Contest operations should yield to non-contest use of frequencies"
+   ],
+   "explanation": "Pool question G2B01, from FCC rules §97.101(b), §(c).",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2b02",
+   "prompt": "What is the first thing you should do if you are communicating with another amateur station and hear a station in distress break in?",
+   "answers": [
+    "Acknowledge the station in distress and determine what assistance may be needed"
+   ],
+   "wrong": [
+    "Inform your local emergency coordinator",
+    "Immediately decrease power to avoid interfering with the station in distress",
+    "Immediately cease all transmissions"
+   ],
+   "explanation": "Pool question G2B02.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2b03",
+   "prompt": "What is good amateur practice if propagation changes during a contact creating interference from other stations using the frequency?",
+   "answers": [
+    "Attempt to resolve the interference problem with the other stations in a mutually acceptable manner"
+   ],
+   "wrong": [
+    "Advise the interfering stations that you are on the frequency and that you have priority",
+    "Decrease power and continue to transmit",
+    "Switch to the opposite sideband"
+   ],
+   "explanation": "Pool question G2B03.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2b04",
+   "prompt": "When selecting a CW transmitting frequency, what minimum separation from other stations should be used to minimize interference to stations on adjacent frequencies?",
+   "answers": [
+    "150 Hz to 500 Hz"
+   ],
+   "wrong": [
+    "5 Hz to 50 Hz",
+    "1 kHz to 3 kHz",
+    "3 kHz to 6 kHz"
+   ],
+   "explanation": "Pool question G2B04.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2b05",
+   "prompt": "When selecting an SSB transmitting frequency, what minimum separation should be used to minimize interference to stations on adjacent frequencies?",
+   "answers": [
+    "2 kHz to 3 kHz"
+   ],
+   "wrong": [
+    "5 Hz to 50 Hz",
+    "150 Hz to 500 Hz",
+    "Approximately 6 kHz"
+   ],
+   "explanation": "Pool question G2B05.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2b06",
+   "prompt": "How can you avoid harmful interference on an apparently clear frequency before calling CQ on CW or phone?",
+   "answers": [
+    "Send “QRL?” on CW, followed by your call sign; or, if using phone, ask if the frequency is in use, followed by your call sign"
+   ],
+   "wrong": [
+    "Listen for 2 minutes before calling CQ",
+    "Send the letter “V” in Morse code several times and listen for a response, or say “test” several times and listen for a response",
+    "Send “QSY” on CW or if using phone, announce “the frequency is in use,” then give your call sign and listen for a response"
+   ],
+   "explanation": "Pool question G2B06.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2b07",
+   "prompt": "Which of the following complies with commonly accepted amateur practice when choosing a frequency on which to initiate a call?",
+   "answers": [
+    "Follow the voluntary band plan"
+   ],
+   "wrong": [
+    "Listen on the frequency for at least two minutes to be sure it is clear",
+    "Identify your station by transmitting your call sign at least 3 times",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G2B07.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2b08",
+   "prompt": "What is the voluntary band plan restriction for US stations transmitting within the 48 contiguous states in the 50.1 MHz to 50.125 MHz band segment?",
+   "answers": [
+    "Only contacts with stations not within the 48 contiguous states"
+   ],
+   "wrong": [
+    "Only contacts with other stations within the 48 contiguous states",
+    "Only digital contacts",
+    "Only SSTV contacts"
+   ],
+   "explanation": "Pool question G2B08.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2b09",
+   "prompt": "Who may be the control operator of an amateur station transmitting in RACES to assist relief operations during a disaster?",
+   "answers": [
+    "Only a person holding an FCC-issued amateur operator license"
+   ],
+   "wrong": [
+    "Only a RACES net control operator",
+    "A person holding an FCC-issued amateur operator license or an appropriate government official",
+    "Any control operator when normal communication systems are operational"
+   ],
+   "explanation": "Pool question G2B09, from FCC rules §97.407(a).",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2b10",
+   "prompt": "Which of the following is good amateur practice for net management?",
+   "answers": [
+    "Have a backup frequency in case of interference or poor conditions"
+   ],
+   "wrong": [
+    "Always use multiple sets of phonetics during check-in",
+    "Transmit the full net roster at the beginning of every session",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G2B10.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2b11",
+   "prompt": "How often may RACES training drills and tests be routinely conducted without special authorization?",
+   "answers": [
+    "No more than 1 hour per week"
+   ],
+   "wrong": [
+    "No more than 1 hour per month",
+    "No more than 2 hours per month",
+    "No more than 2 hours per week"
+   ],
+   "explanation": "Pool question G2B11, from FCC rules §97.407(d)(4).",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2c01",
+   "prompt": "Which of the following describes full break-in CW operation (QSK)?",
+   "answers": [
+    "Transmitting stations can receive between code characters and elements"
+   ],
+   "wrong": [
+    "Breaking stations send the Morse code prosign “BK”",
+    "Automatic keyers, instead of hand keys, are used to send Morse code",
+    "An operator must activate a manual send/receive switch before and after every transmission"
+   ],
+   "explanation": "Pool question G2C01.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2c02",
+   "prompt": "What should you do if a CW station sends “QRS?”",
+   "answers": [
+    "Send slower"
+   ],
+   "wrong": [
+    "Change frequency",
+    "Increase your power",
+    "Repeat everything twice"
+   ],
+   "explanation": "Pool question G2C02.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2c03",
+   "prompt": "What does it mean when a CW operator sends “KN” at the end of a transmission?",
+   "answers": [
+    "Listening only for a specific station or stations"
+   ],
+   "wrong": [
+    "No US stations should call",
+    "Operating full break-in",
+    "Closing station now"
+   ],
+   "explanation": "Pool question G2C03.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2c04",
+   "prompt": "What does the Q signal “QRL?” mean?",
+   "answers": [
+    "“Are you busy?” or “Is this frequency in use?”"
+   ],
+   "wrong": [
+    "“Will you keep the frequency clear?”",
+    "“Are you operating full break-in?” or “Can you operate full break-in?”",
+    "“Are you listening only for a specific station?”"
+   ],
+   "explanation": "Pool question G2C04.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2c05",
+   "prompt": "What is the best speed to use when answering a CQ in Morse code?",
+   "answers": [
+    "The fastest speed at which you are comfortable copying, but no faster than the CQ"
+   ],
+   "wrong": [
+    "The fastest speed at which you are comfortable copying, but no slower than the CQ",
+    "At the standard calling speed of 10 wpm",
+    "At the standard calling speed of 5 wpm"
+   ],
+   "explanation": "Pool question G2C05.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2c06",
+   "prompt": "What does the term “zero beat” mean in CW operation?",
+   "answers": [
+    "Matching the transmit frequency to the frequency of a received signal"
+   ],
+   "wrong": [
+    "Matching the speed of the transmitting station",
+    "Operating split to avoid interference on frequency",
+    "Sending without error"
+   ],
+   "explanation": "Pool question G2C06.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2c07",
+   "prompt": "When sending CW, what does a “C” mean when added to the RST report?",
+   "answers": [
+    "Chirpy or unstable signal"
+   ],
+   "wrong": [
+    "Report was read from an S meter rather than estimated",
+    "100 percent copy",
+    "Key clicks"
+   ],
+   "explanation": "Pool question G2C07.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2c08",
+   "prompt": "What prosign is sent to indicate the end of a formal message when using CW?",
+   "answers": [
+    "AR"
+   ],
+   "wrong": [
+    "SK",
+    "BK",
+    "KN"
+   ],
+   "explanation": "Pool question G2C08.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2c09",
+   "prompt": "What does the Q signal “QSL” mean?",
+   "answers": [
+    "I have received and understood"
+   ],
+   "wrong": [
+    "Send slower",
+    "We have already confirmed the contact",
+    "We have worked before"
+   ],
+   "explanation": "Pool question G2C09.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2c10",
+   "prompt": "What does the Q signal “QRN” mean?",
+   "answers": [
+    "I am troubled by static"
+   ],
+   "wrong": [
+    "Send more slowly",
+    "Stop sending",
+    "Zero beat my signal"
+   ],
+   "explanation": "Pool question G2C10.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2c11",
+   "prompt": "What does the Q signal “QRV” mean?",
+   "answers": [
+    "I am ready to receive"
+   ],
+   "wrong": [
+    "You are sending too fast",
+    "There is interference on the frequency",
+    "I am quitting for the day"
+   ],
+   "explanation": "Pool question G2C11.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2d01",
+   "prompt": "What is the Volunteer Monitor Program?",
+   "answers": [
+    "Amateur volunteers who are formally enlisted to monitor the airwaves for rules violations"
+   ],
+   "wrong": [
+    "Amateur volunteers who conduct amateur licensing examinations",
+    "Amateur volunteers who conduct frequency coordination for amateur VHF repeaters",
+    "Amateur volunteers who use their station equipment to help civil defense organizations in times of emergency"
+   ],
+   "explanation": "Pool question G2D01.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2d02",
+   "prompt": "Which of the following are objectives of the Volunteer Monitor Program?",
+   "answers": [
+    "To encourage amateur radio operators to self-regulate and comply with the rules"
+   ],
+   "wrong": [
+    "To conduct efficient and orderly amateur licensing examinations",
+    "To provide emergency and public safety communications",
+    "To coordinate repeaters for efficient and orderly spectrum usage"
+   ],
+   "explanation": "Pool question G2D02.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2d03",
+   "prompt": "What procedure may be used by Volunteer Monitors to localize a station whose continuous carrier is holding a repeater on in their area?",
+   "answers": [
+    "Compare beam headings on the repeater input from their home locations with that of other Volunteer Monitors"
+   ],
+   "wrong": [
+    "Compare vertical and horizontal signal strengths on the input frequency",
+    "Compare signal strengths between the input and output of the repeater",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G2D03.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2d04",
+   "prompt": "Which of the following describes an azimuthal projection map?",
+   "answers": [
+    "A map that shows true bearings and distances from a specific location"
+   ],
+   "wrong": [
+    "A map that shows accurate land masses",
+    "A map that shows the angle at which an amateur satellite crosses the equator",
+    "A map that shows the number of degrees longitude that an amateur satellite appears to move westward at the equator with each orbit"
+   ],
+   "explanation": "Pool question G2D04.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2d05",
+   "prompt": "Which of the following indicates that you are looking for an HF contact with any station?",
+   "answers": [
+    "Repeat “CQ” a few times, followed by “this is,” then your call sign a few times, then pause to listen, repeat as necessary"
+   ],
+   "wrong": [
+    "Sign your call sign once, followed by the words “listening for a call” -- if no answer, change frequency and repeat",
+    "Say “QTC” followed by “this is” and your call sign -- if no answer, change frequency and repeat",
+    "Transmit an unmodulated carried for approximately 10 seconds, followed by “this is” and your call sign, and pause to listen -- repeat as necessary"
+   ],
+   "explanation": "Pool question G2D05.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2d06",
+   "prompt": "How is a directional antenna pointed when making a “long-path” contact with another station?",
+   "answers": [
+    "180 degrees from the station’s short-path heading"
+   ],
+   "wrong": [
+    "Toward the rising sun",
+    "Along the gray line",
+    "Toward the north"
+   ],
+   "explanation": "Pool question G2D06.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2d07",
+   "prompt": "Which of the following are examples of the NATO Phonetic Alphabet?",
+   "answers": [
+    "Alpha, Bravo, Charlie, Delta"
+   ],
+   "wrong": [
+    "Able, Baker, Charlie, Dog",
+    "Adam, Boy, Charles, David",
+    "America, Boston, Canada, Denmark"
+   ],
+   "explanation": "Pool question G2D07.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2d08",
+   "prompt": "Why do many amateurs keep a station log?",
+   "answers": [
+    "To help with a reply if the FCC requests information about your station"
+   ],
+   "wrong": [
+    "The FCC requires a log of all international contacts",
+    "The FCC requires a log of all international third-party traffic",
+    "The log provides evidence of operation needed to renew a license without retest"
+   ],
+   "explanation": "Pool question G2D08.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2d09",
+   "prompt": "Which of the following is required when participating in a contest on HF frequencies?",
+   "answers": [
+    "Identify your station according to normal FCC regulations"
+   ],
+   "wrong": [
+    "Submit a log to the contest sponsor",
+    "Send a QSL card to the stations worked, or QSL via Logbook of The World",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G2D09.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2d10",
+   "prompt": "What is QRP operation?",
+   "answers": [
+    "Low-power transmit operation"
+   ],
+   "wrong": [
+    "Remote piloted model control",
+    "Transmission using Quick Response Protocol",
+    "Traffic relay procedure net operation"
+   ],
+   "explanation": "Pool question G2D10.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2d11",
+   "prompt": "Why are signal reports typically exchanged at the beginning of an HF contact?",
+   "answers": [
+    "To allow each station to operate according to conditions"
+   ],
+   "wrong": [
+    "To be sure the contact will count for award programs",
+    "To follow standard radiogram structure",
+    "To allow each station to calibrate their frequency display"
+   ],
+   "explanation": "Pool question G2D11.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2e01",
+   "prompt": "Which mode is normally used when sending RTTY signals via AFSK with an SSB transmitter?",
+   "answers": [
+    "LSB"
+   ],
+   "wrong": [
+    "USB",
+    "DSB",
+    "CW"
+   ],
+   "explanation": "Pool question G2E01.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2e02",
+   "prompt": "What is VARA?",
+   "answers": [
+    "A digital protocol used with Winlink"
+   ],
+   "wrong": [
+    "A low signal-to-noise digital mode used for EME (moonbounce)",
+    "A radio direction finding system used on VHF and UHF",
+    "A DX spotting system using a network of software defined radios"
+   ],
+   "explanation": "Pool question G2E02.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2e03",
+   "prompt": "What symptoms may result from other signals interfering with a PACTOR or VARA transmission?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Frequent retries or timeouts",
+    "Long pauses in message transmission",
+    "Failure to establish a connection between stations"
+   ],
+   "explanation": "All three are right: frequent retries or timeouts; long pauses in message transmission; failure to establish a connection between stations. Pool question G2E03.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2e04",
+   "prompt": "Which of the following is good practice when choosing a transmitting frequency to answer a station calling CQ using FT8?",
+   "answers": [
+    "Find a clear frequency during the alternate time slot to the calling station"
+   ],
+   "wrong": [
+    "Always call on the station’s frequency",
+    "Call on any frequency in the waterfall except the station’s frequency",
+    "Find a clear frequency during the same time slot as the calling station"
+   ],
+   "explanation": "Pool question G2E04.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2e05",
+   "prompt": "What is the standard sideband for JT65, JT9, FT4, or FT8 digital signal when using AFSK?",
+   "answers": [
+    "USB"
+   ],
+   "wrong": [
+    "LSB",
+    "DSB",
+    "SSB"
+   ],
+   "explanation": "Pool question G2E05.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2e06",
+   "prompt": "What is the most common frequency shift for RTTY emissions in the amateur HF bands?",
+   "answers": [
+    "170 Hz"
+   ],
+   "wrong": [
+    "85 Hz",
+    "425 Hz",
+    "850 Hz"
+   ],
+   "explanation": "Pool question G2E06.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2e07",
+   "prompt": "Which of the following is required when using FT8?",
+   "answers": [
+    "Computer time accurate to within approximately 1 second"
+   ],
+   "wrong": [
+    "A special hardware modem",
+    "Receiver attenuator set to -12 dB",
+    "A vertically polarized antenna"
+   ],
+   "explanation": "Pool question G2E07.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2e08",
+   "prompt": "In what segment of the 20-meter band are most digital mode operations commonly found?",
+   "answers": [
+    "Between 14.070 MHz and 14.100 MHz"
+   ],
+   "wrong": [
+    "At the bottom of the slow-scan TV segment, near 14.230 MHz",
+    "At the top of the SSB phone segment, near 14.325 MHz",
+    "In the middle of the CW segment, near 14.100 MHz"
+   ],
+   "explanation": "Pool question G2E08.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2e09",
+   "prompt": "How do you join a contact between two stations using the PACTOR protocol?",
+   "answers": [
+    "Joining an existing contact is not possible, PACTOR connections are limited to two stations"
+   ],
+   "wrong": [
+    "Send broadcast packets containing your call sign while in MONITOR mode",
+    "Transmit a steady carrier until the PACTOR protocol times out and disconnects",
+    "Send a NAK code"
+   ],
+   "explanation": "Pool question G2E09.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2e10",
+   "prompt": "Which of the following is a way to establish contact with a digital messaging system gateway station?",
+   "answers": [
+    "Transmit a connect message on the station’s published frequency"
+   ],
+   "wrong": [
+    "Send an email to the system control operator",
+    "Send QRL in Morse code",
+    "Respond when the station broadcasts its SSID"
+   ],
+   "explanation": "Pool question G2E10.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2e11",
+   "prompt": "What is the primary purpose of an Amateur Radio Emergency Data Network (AREDN) mesh network?",
+   "answers": [
+    "To provide high-speed data services during an emergency or community event"
+   ],
+   "wrong": [
+    "To provide FM repeater coverage in remote areas",
+    "To provide real time propagation data by monitoring amateur radio transmissions worldwide",
+    "To provide DX spotting reports to aid contesters and DXers"
+   ],
+   "explanation": "Pool question G2E11.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2e12",
+   "prompt": "Which of the following describes Winlink?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "An amateur radio wireless network to send and receive email on the internet",
+    "A form of Packet Radio",
+    "A wireless network capable of both VHF and HF band operation"
+   ],
+   "explanation": "All three are right: an amateur radio wireless network to send and receive email on the internet; a form of Packet Radio; a wireless network capable of both VHF and HF band operation. Pool question G2E12.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2e13",
+   "prompt": "What is another name for a Winlink Remote Message Server?",
+   "answers": [
+    "Gateway"
+   ],
+   "wrong": [
+    "Terminal Node Controller",
+    "RJ-45",
+    "Printer/Server"
+   ],
+   "explanation": "Pool question G2E13.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2e14",
+   "prompt": "What could be wrong if you cannot decode an RTTY or other FSK signal even though it is apparently tuned in properly?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "The mark and space frequencies may be reversed",
+    "You may have selected the wrong baud rate",
+    "You may be listening on the wrong sideband"
+   ],
+   "explanation": "All three are right: the mark and space frequencies may be reversed; you may have selected the wrong baud rate; you may be listening on the wrong sideband. Pool question G2E14.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g2e15",
+   "prompt": "Which of the following is a common location for FT8?",
+   "answers": [
+    "Approximately 14.074 MHz to 14.077 MHz"
+   ],
+   "wrong": [
+    "Anywhere in the voice portion of the band",
+    "Anywhere in the CW portion of the band",
+    "Approximately 14.110 MHz to 14.113 MHz"
+   ],
+   "explanation": "Pool question G2E15.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "g3a01",
+   "prompt": "How does a higher sunspot number affect HF propagation?",
+   "answers": [
+    "Higher sunspot numbers generally indicate a greater probability of good propagation at higher frequencies"
+   ],
+   "wrong": [
+    "Lower sunspot numbers generally indicate greater probability of sporadic E propagation",
+    "A zero sunspot number indicates that radio propagation is not possible on any band",
+    "A zero sunspot number indicates undisturbed conditions"
+   ],
+   "explanation": "Pool question G3A01.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3a02",
+   "prompt": "What effect does a sudden ionospheric disturbance have on the daytime ionospheric propagation?",
+   "answers": [
+    "It disrupts signals on lower frequencies more than those on higher frequencies"
+   ],
+   "wrong": [
+    "It enhances propagation on all HF frequencies",
+    "It disrupts communications via satellite more than direct communications",
+    "None, because only areas on the night side of the Earth are affected"
+   ],
+   "explanation": "Pool question G3A02.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3a03",
+   "prompt": "Approximately how long does it take the increased ultraviolet and X-ray radiation from a solar flare to affect radio propagation on Earth?",
+   "answers": [
+    "8 minutes"
+   ],
+   "wrong": [
+    "28 days",
+    "1 to 2 hours",
+    "20 to 40 hours"
+   ],
+   "explanation": "Pool question G3A03.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3a04",
+   "prompt": "Which of the following are the least reliable bands for long-distance communications during periods of low solar activity?",
+   "answers": [
+    "15 meters, 12 meters, and 10 meters"
+   ],
+   "wrong": [
+    "80 meters and 160 meters",
+    "60 meters and 40 meters",
+    "30 meters and 20 meters"
+   ],
+   "explanation": "Pool question G3A04.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3a05",
+   "prompt": "What is the solar flux index?",
+   "answers": [
+    "A measure of solar radiation with a wavelength of 10.7 centimeters"
+   ],
+   "wrong": [
+    "A measure of the highest frequency that is useful for ionospheric propagation between two points on Earth",
+    "A count of sunspots that is adjusted for solar emissions",
+    "Another name for the American sunspot number"
+   ],
+   "explanation": "Pool question G3A05.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3a06",
+   "prompt": "What is a geomagnetic storm?",
+   "answers": [
+    "A temporary disturbance in Earth’s geomagnetic field"
+   ],
+   "wrong": [
+    "A sudden drop in the solar flux index",
+    "A thunderstorm that affects radio propagation",
+    "Ripples in the geomagnetic force"
+   ],
+   "explanation": "Pool question G3A06.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3a07",
+   "prompt": "At what point in the solar cycle does the 20-meter band usually support worldwide propagation during daylight hours?",
+   "answers": [
+    "At any point"
+   ],
+   "wrong": [
+    "At the summer solstice",
+    "Only at the maximum point",
+    "Only at the minimum point"
+   ],
+   "explanation": "Pool question G3A07.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3a08",
+   "prompt": "How can a geomagnetic storm affect HF propagation?",
+   "answers": [
+    "Degrade high-latitude HF propagation"
+   ],
+   "wrong": [
+    "Improve high-latitude HF propagation",
+    "Degrade ground wave propagation",
+    "Improve ground wave propagation"
+   ],
+   "explanation": "Pool question G3A08.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3a09",
+   "prompt": "How can high geomagnetic activity benefit radio communications?",
+   "answers": [
+    "Creates auroras that can reflect VHF signals"
+   ],
+   "wrong": [
+    "Increases signal strength for HF signals passing through the polar regions",
+    "Improve HF long path propagation",
+    "Reduce long delayed echoes"
+   ],
+   "explanation": "Pool question G3A09.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3a10",
+   "prompt": "What causes HF propagation conditions to vary periodically in a 26- to 28-day cycle?",
+   "answers": [
+    "Rotation of the Sun’s surface layers around its axis"
+   ],
+   "wrong": [
+    "Long term oscillations in the upper atmosphere",
+    "Cyclic variation in Earth’s radiation belts",
+    "The position of the Moon in its orbit"
+   ],
+   "explanation": "Pool question G3A10.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3a11",
+   "prompt": "How long does it take a coronal mass ejection to affect radio propagation on Earth?",
+   "answers": [
+    "15 hours to several days"
+   ],
+   "wrong": [
+    "28 days",
+    "14 days",
+    "4 to 8 minutes"
+   ],
+   "explanation": "Pool question G3A11.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3a12",
+   "prompt": "What does the K-index measure?",
+   "answers": [
+    "The short-term stability of Earth’s geomagnetic field"
+   ],
+   "wrong": [
+    "The relative position of sunspots on the surface of the Sun",
+    "The short-term stability of the Sun’s magnetic field",
+    "The solar radio flux at Boulder, Colorado"
+   ],
+   "explanation": "Pool question G3A12.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3a13",
+   "prompt": "What does the A-index measure?",
+   "answers": [
+    "The long-term stability of Earth’s geomagnetic field"
+   ],
+   "wrong": [
+    "The relative position of sunspots on the surface of the Sun",
+    "The amount of polarization of the Sun’s electric field",
+    "The solar radio flux at Boulder, Colorado"
+   ],
+   "explanation": "Pool question G3A13.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3a14",
+   "prompt": "How is long distance radio communication usually affected by the charged particles that reach Earth from solar coronal holes?",
+   "answers": [
+    "HF communication is disturbed"
+   ],
+   "wrong": [
+    "HF communication is improved",
+    "VHF/UHF ducting is improved",
+    "VHF/UHF ducting is disturbed"
+   ],
+   "explanation": "Pool question G3A14.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3b01",
+   "prompt": "What is a characteristic of skywave signals arriving at your location by both short-path and long-path propagation?",
+   "answers": [
+    "A slightly delayed echo might be heard"
+   ],
+   "wrong": [
+    "Periodic fading approximately every 10 seconds",
+    "Signal strength increased by 3 dB",
+    "The signal might be cancelled causing severe attenuation"
+   ],
+   "explanation": "Pool question G3B01.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3b02",
+   "prompt": "What factors affect the MUF?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Path distance and location",
+    "Time of day and season",
+    "Solar radiation and ionospheric disturbances"
+   ],
+   "explanation": "All three are right: path distance and location; time of day and season; solar radiation and ionospheric disturbances. Pool question G3B02.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3b03",
+   "prompt": "Which frequency will have the least attenuation for long-distance skip propagation?",
+   "answers": [
+    "Just below the MUF"
+   ],
+   "wrong": [
+    "Just above the LUF",
+    "Just below the critical frequency",
+    "Just above the critical frequency"
+   ],
+   "explanation": "Pool question G3B03.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3b04",
+   "prompt": "Which of the following is a way to determine current propagation on a desired band from your station?",
+   "answers": [
+    "Use a network of automated receiving stations on the internet to see where your transmissions are being received"
+   ],
+   "wrong": [
+    "Check the A-index",
+    "Send a series of dots and listen for echoes",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G3B04.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3b05",
+   "prompt": "How does the ionosphere affect radio waves with frequencies below the MUF and above the LUF?",
+   "answers": [
+    "They are refracted back to Earth"
+   ],
+   "wrong": [
+    "They pass through the ionosphere",
+    "They are amplified by interaction with the ionosphere",
+    "They are refracted and trapped in the ionosphere to circle Earth"
+   ],
+   "explanation": "Pool question G3B05.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3b06",
+   "prompt": "What usually happens to radio waves with frequencies below the LUF?",
+   "answers": [
+    "They are attenuated before reaching the destination"
+   ],
+   "wrong": [
+    "They are refracted back to Earth",
+    "They pass through the ionosphere",
+    "They are refracted and trapped in the ionosphere to circle Earth"
+   ],
+   "explanation": "Pool question G3B06.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3b07",
+   "prompt": "What does LUF stand for?",
+   "answers": [
+    "The Lowest Usable Frequency for communications between two specific points"
+   ],
+   "wrong": [
+    "The Lowest Usable Frequency for communications to any point outside a 100-mile radius",
+    "The Lowest Usable Frequency during a 24-hour period",
+    "The Lowest Usable Frequency during the past 60 minutes"
+   ],
+   "explanation": "Pool question G3B07.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3b08",
+   "prompt": "What does MUF stand for?",
+   "answers": [
+    "The Maximum Usable Frequency for communications between two points"
+   ],
+   "wrong": [
+    "The Minimum Usable Frequency for communications between two points",
+    "The Minimum Usable Frequency during a 24-hour period",
+    "The Maximum Usable Frequency during a 24-hour period"
+   ],
+   "explanation": "Pool question G3B08.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3b09",
+   "prompt": "What is the approximate maximum distance along the Earth’s surface normally covered in one hop using the F2 region?",
+   "answers": [
+    "2,500 miles"
+   ],
+   "wrong": [
+    "180 miles",
+    "1,200 miles",
+    "12,000 miles"
+   ],
+   "explanation": "Pool question G3B09.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3b10",
+   "prompt": "What is the approximate maximum distance along the Earth’s surface normally covered in one hop using the E region?",
+   "answers": [
+    "1,200 miles"
+   ],
+   "wrong": [
+    "180 miles",
+    "2,500 miles",
+    "12,000 miles"
+   ],
+   "explanation": "Pool question G3B10.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3b11",
+   "prompt": "What happens to HF propagation when the LUF exceeds the MUF?",
+   "answers": [
+    "Propagation via ordinary skywave communications is not possible over that path"
+   ],
+   "wrong": [
+    "HF communications over the path are enhanced",
+    "Double-hop propagation along the path is more common",
+    "Propagation over the path on all HF frequencies is enhanced"
+   ],
+   "explanation": "Pool question G3B11.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3b12",
+   "prompt": "Which of the following is typical of the lower HF frequencies during the summer?",
+   "answers": [
+    "High levels of atmospheric noise or static"
+   ],
+   "wrong": [
+    "Poor propagation at any time of day",
+    "World-wide propagation during daylight hours",
+    "Heavy distortion on signals due to photon absorption"
+   ],
+   "explanation": "Pool question G3B12.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3c01",
+   "prompt": "Which ionospheric region is closest to the surface of Earth?",
+   "answers": [
+    "The D region"
+   ],
+   "wrong": [
+    "The E region",
+    "The F1 region",
+    "The F2 region"
+   ],
+   "explanation": "Pool question G3C01.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3c02",
+   "prompt": "What is meant by the term “critical frequency” at a given incidence angle?",
+   "answers": [
+    "The highest frequency which is refracted back to Earth"
+   ],
+   "wrong": [
+    "The lowest frequency which is refracted back to Earth",
+    "The frequency at which the signal-to-noise ratio approaches unity",
+    "The frequency at which the signal-to-noise ratio is 6 dB"
+   ],
+   "explanation": "Pool question G3C02.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3c03",
+   "prompt": "Why is skip propagation via the F2 region longer than that via the other ionospheric regions?",
+   "answers": [
+    "Because it is the highest"
+   ],
+   "wrong": [
+    "Because it is the densest",
+    "Because of the Doppler effect",
+    "Because of temperature inversions"
+   ],
+   "explanation": "Pool question G3C03.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3c04",
+   "prompt": "What does the term “critical angle” mean, as applied to radio wave propagation?",
+   "answers": [
+    "The highest takeoff angle that will return a radio wave to Earth under specific ionospheric conditions"
+   ],
+   "wrong": [
+    "The long path azimuth of a distant station",
+    "The short path azimuth of a distant station",
+    "The lowest takeoff angle that will return a radio wave to Earth under specific ionospheric conditions"
+   ],
+   "explanation": "Pool question G3C04.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3c05",
+   "prompt": "Why is long-distance communication on the 40-, 60-, 80-, and 160-meter bands more difficult during the day?",
+   "answers": [
+    "The D region absorbs signals at these frequencies during daylight hours"
+   ],
+   "wrong": [
+    "The F region absorbs signals at these frequencies during daylight hours",
+    "The F region is unstable during daylight hours",
+    "The E region is unstable during daylight hours"
+   ],
+   "explanation": "Pool question G3C05.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3c06",
+   "prompt": "What is a characteristic of HF scatter?",
+   "answers": [
+    "Signals have a fluttering sound"
+   ],
+   "wrong": [
+    "Phone signals have high intelligibility",
+    "There are very large, sudden swings in signal strength",
+    "Scatter propagation occurs only at night"
+   ],
+   "explanation": "Pool question G3C06.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3c07",
+   "prompt": "What makes HF scatter signals often sound distorted?",
+   "answers": [
+    "Energy is scattered into the skip zone through several different paths"
+   ],
+   "wrong": [
+    "The ionospheric region involved is unstable",
+    "Ground waves are absorbing much of the signal",
+    "The E region is not present"
+   ],
+   "explanation": "Pool question G3C07.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3c08",
+   "prompt": "Why are HF scatter signals in the skip zone usually weak?",
+   "answers": [
+    "Only a small part of the signal energy is scattered into the skip zone"
+   ],
+   "wrong": [
+    "Signals are scattered from the magnetosphere, which is not a good reflector",
+    "Propagation is via ground waves, which absorb most of the signal energy",
+    "Propagation is via ducts in the F region, which absorb most of the energy"
+   ],
+   "explanation": "Pool question G3C08.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3c09",
+   "prompt": "What type of propagation allows signals to be heard in the transmitting station’s skip zone?",
+   "answers": [
+    "Scatter"
+   ],
+   "wrong": [
+    "Faraday rotation",
+    "Chordal hop",
+    "Short-path"
+   ],
+   "explanation": "Pool question G3C09.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3c10",
+   "prompt": "What is near vertical incidence skywave (NVIS) propagation?",
+   "answers": [
+    "Short distance MF or HF propagation at high elevation angles"
+   ],
+   "wrong": [
+    "Propagation near the MUF",
+    "Long path HF propagation at sunrise and sunset",
+    "Double hop propagation near the LUF"
+   ],
+   "explanation": "Pool question G3C10.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g3c11",
+   "prompt": "Which ionospheric region is the most absorbent of signals below 10 MHz during daylight hours?",
+   "answers": [
+    "The D region"
+   ],
+   "wrong": [
+    "The F2 region",
+    "The F1 region",
+    "The E region"
+   ],
+   "explanation": "Pool question G3C11.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "g4a01",
+   "prompt": "What is the purpose of the notch filter found on many HF transceivers?",
+   "answers": [
+    "To reduce interference from carriers in the receiver passband"
+   ],
+   "wrong": [
+    "To restrict the transmitter voice bandwidth",
+    "To eliminate receiver interference from impulse noise sources",
+    "To remove interfering splatter generated by signals on adjacent frequencies"
+   ],
+   "explanation": "Pool question G4A01.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4a02",
+   "prompt": "What is the benefit of using the opposite or “reverse” sideband when receiving CW?",
+   "answers": [
+    "It may be possible to reduce or eliminate interference from other signals"
+   ],
+   "wrong": [
+    "Interference from impulse noise will be eliminated",
+    "More stations can be accommodated within a given signal passband",
+    "Accidental out-of-band operation can be prevented"
+   ],
+   "explanation": "Pool question G4A02.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4a03",
+   "prompt": "How does a noise blanker work?",
+   "answers": [
+    "By reducing receiver gain during a noise pulse"
+   ],
+   "wrong": [
+    "By temporarily increasing received bandwidth",
+    "By redirecting noise pulses into a filter capacitor",
+    "By clipping noise peaks"
+   ],
+   "explanation": "Pool question G4A03.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4a04",
+   "prompt": "What is the effect on plate current of the correct setting of a vacuum-tube RF power amplifier’s TUNE control?",
+   "answers": [
+    "A pronounced dip"
+   ],
+   "wrong": [
+    "A pronounced peak",
+    "No change will be observed",
+    "A slow, rhythmic oscillation"
+   ],
+   "explanation": "Pool question G4A04.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4a05",
+   "prompt": "Why is automatic level control (ALC) used with an RF power amplifier?",
+   "answers": [
+    "To prevent excessive drive"
+   ],
+   "wrong": [
+    "To balance the transmitter audio frequency response",
+    "To reduce harmonic radiation",
+    "To increase overall efficiency"
+   ],
+   "explanation": "Pool question G4A05.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4a06",
+   "prompt": "What is the purpose of an antenna tuner?",
+   "answers": [
+    "Increase power transfer from the transmitter to the feed line"
+   ],
+   "wrong": [
+    "Reduce the SWR in the feed line to the antenna",
+    "Reduce the power dissipation in the feedline to the antenna",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G4A06.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4a07",
+   "prompt": "What happens as a receiver’s noise reduction control level is increased?",
+   "answers": [
+    "Received signals may become distorted"
+   ],
+   "wrong": [
+    "Received frequency may become unstable",
+    "CW signals may become severely attenuated",
+    "Received frequency may shift several kHz"
+   ],
+   "explanation": "Pool question G4A07.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4a08",
+   "prompt": "What is the correct adjustment for the LOAD or COUPLING control of a vacuum tube RF power amplifier?",
+   "answers": [
+    "Desired power output without exceeding maximum allowable plate current"
+   ],
+   "wrong": [
+    "Minimum SWR on the antenna",
+    "Minimum plate current without exceeding maximum allowable grid current",
+    "Highest plate voltage while minimizing grid current"
+   ],
+   "explanation": "Pool question G4A08.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4a09",
+   "prompt": "What is the purpose of delaying RF output after activating a transmitter’s keying line to an external amplifier?",
+   "answers": [
+    "To allow time for the amplifier to switch the antenna between the transceiver and the amplifier output"
+   ],
+   "wrong": [
+    "To prevent key clicks on CW",
+    "To prevent transient overmodulation",
+    "To allow time for the amplifier power supply to reach operating level"
+   ],
+   "explanation": "Pool question G4A09.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4a10",
+   "prompt": "What is the function of an electronic keyer?",
+   "answers": [
+    "Automatic generation of dots and dashes for CW operation"
+   ],
+   "wrong": [
+    "Automatic transmit/receive switching",
+    "To allow time for switching the antenna from the receiver to the transmitter",
+    "Computer interface for PSK and RTTY operation"
+   ],
+   "explanation": "Pool question G4A10.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4a11",
+   "prompt": "Why should the ALC system be inactive when transmitting AFSK data signals?",
+   "answers": [
+    "The ALC action distorts the signal"
+   ],
+   "wrong": [
+    "ALC will invert the modulation of the AFSK mode",
+    "When using digital modes, too much ALC activity can cause the transmitter to overheat",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G4A11.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4a12",
+   "prompt": "Which of the following is a common use of the dual-VFO feature on a transceiver?",
+   "answers": [
+    "To transmit on one frequency and listen on another"
+   ],
+   "wrong": [
+    "To allow transmitting on two frequencies at once",
+    "To permit full duplex operation -- that is, transmitting and receiving at the same time",
+    "To improve frequency accuracy by allowing variable frequency output (VFO) operation"
+   ],
+   "explanation": "Pool question G4A12.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4a13",
+   "prompt": "What is the purpose of using a receive attenuator?",
+   "answers": [
+    "To prevent receiver overload from strong incoming signals"
+   ],
+   "wrong": [
+    "To reduce the transmitter power when driving a linear amplifier",
+    "To reduce power consumption when operating from batteries",
+    "To reduce excessive audio level on strong signals"
+   ],
+   "explanation": "Pool question G4A13.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4b01",
+   "prompt": "What item of test equipment contains horizontal and vertical channel amplifiers?",
+   "answers": [
+    "An oscilloscope"
+   ],
+   "wrong": [
+    "An ohmmeter",
+    "A signal generator",
+    "An ammeter"
+   ],
+   "explanation": "Pool question G4B01.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4b02",
+   "prompt": "Which of the following is an advantage of an oscilloscope versus a digital voltmeter?",
+   "answers": [
+    "Complex waveforms can be measured"
+   ],
+   "wrong": [
+    "An oscilloscope uses less power",
+    "Complex impedances can be easily measured",
+    "Greater precision"
+   ],
+   "explanation": "Pool question G4B02.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4b03",
+   "prompt": "Which of the following is the best instrument to use for checking the keying waveform of a CW transmitter?",
+   "answers": [
+    "An oscilloscope"
+   ],
+   "wrong": [
+    "A field strength meter",
+    "A sidetone monitor",
+    "A wavemeter"
+   ],
+   "explanation": "Pool question G4B03.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4b04",
+   "prompt": "What signal source is connected to the vertical input of an oscilloscope when checking the RF envelope pattern of a transmitted signal?",
+   "answers": [
+    "The attenuated RF output of the transmitter"
+   ],
+   "wrong": [
+    "The local oscillator of the transmitter",
+    "An external RF oscillator",
+    "The transmitter balanced mixer output"
+   ],
+   "explanation": "Pool question G4B04.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4b05",
+   "prompt": "Why do voltmeters have high input impedance?",
+   "answers": [
+    "It decreases the loading on circuits being measured"
+   ],
+   "wrong": [
+    "It improves the frequency response",
+    "It allows for higher voltages to be safely measured",
+    "It improves the resolution of the readings"
+   ],
+   "explanation": "Pool question G4B05.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4b06",
+   "prompt": "What is an advantage of a digital multimeter as compared to an analog multimeter?",
+   "answers": [
+    "Higher precision"
+   ],
+   "wrong": [
+    "Better for measuring computer circuits",
+    "Less prone to overload",
+    "Faster response"
+   ],
+   "explanation": "Pool question G4B06.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4b07",
+   "prompt": "What signals are used to conduct a two-tone test?",
+   "answers": [
+    "Two non-harmonically related audio signals"
+   ],
+   "wrong": [
+    "Two audio signals of the same frequency shifted 90 degrees",
+    "Two swept frequency tones",
+    "Two audio frequency range square wave signals of equal amplitude"
+   ],
+   "explanation": "Pool question G4B07.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4b08",
+   "prompt": "What transmitter performance parameter does a two-tone test analyze?",
+   "answers": [
+    "Linearity"
+   ],
+   "wrong": [
+    "Percentage of suppression of the carrier and undesired sideband for SSB",
+    "Percentage of frequency modulation",
+    "Percentage of carrier phase shift"
+   ],
+   "explanation": "Pool question G4B08.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4b09",
+   "prompt": "When is an analog multimeter preferred to a digital multimeter?",
+   "answers": [
+    "When adjusting circuits for maximum or minimum values"
+   ],
+   "wrong": [
+    "When testing logic circuits",
+    "When high precision is desired",
+    "When measuring the frequency of an oscillator"
+   ],
+   "explanation": "Pool question G4B09.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4b10",
+   "prompt": "Which of the following can be determined with a directional wattmeter?",
+   "answers": [
+    "Standing wave ratio"
+   ],
+   "wrong": [
+    "Antenna front-to-back ratio",
+    "RF interference",
+    "Radio wave propagation"
+   ],
+   "explanation": "Pool question G4B10.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4b11",
+   "prompt": "Which of the following must be connected to an antenna analyzer when it is being used for SWR measurements?",
+   "answers": [
+    "Antenna and feed line"
+   ],
+   "wrong": [
+    "Receiver",
+    "Transmitter",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G4B11.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4b12",
+   "prompt": "What effect can strong signals from nearby transmitters have on an antenna analyzer?",
+   "answers": [
+    "Received power that interferes with SWR readings"
+   ],
+   "wrong": [
+    "Desensitization which can cause intermodulation products which interfere with impedance readings",
+    "Generation of harmonics which interfere with frequency readings",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G4B12.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4b13",
+   "prompt": "Which of the following can be measured with an antenna analyzer?",
+   "answers": [
+    "Impedance of coaxial cable"
+   ],
+   "wrong": [
+    "Front-to-back ratio of an antenna",
+    "Power output from a transmitter",
+    "Gain of a directional antenna"
+   ],
+   "explanation": "Pool question G4B13.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4c01",
+   "prompt": "Which of the following might be useful in reducing RF interference to audio frequency circuits?",
+   "answers": [
+    "Bypass capacitor"
+   ],
+   "wrong": [
+    "Bypass inductor",
+    "Forward-biased diode",
+    "Reverse-biased diode"
+   ],
+   "explanation": "Pool question G4C01.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4c02",
+   "prompt": "Which of the following could be a cause of interference covering a wide range of frequencies?",
+   "answers": [
+    "Arcing at a poor electrical connection"
+   ],
+   "wrong": [
+    "Not using a balun or line isolator to feed balanced antennas",
+    "Lack of rectification of the transmitter’s signal in power conductors",
+    "Using a balun to feed an unbalanced antenna"
+   ],
+   "explanation": "Pool question G4C02.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4c03",
+   "prompt": "What sound is heard from an audio device experiencing RF interference from a single sideband phone transmitter?",
+   "answers": [
+    "Distorted speech"
+   ],
+   "wrong": [
+    "A steady hum whenever the transmitter is on the air",
+    "On-and-off humming or clicking",
+    "Clearly audible speech"
+   ],
+   "explanation": "Pool question G4C03.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4c04",
+   "prompt": "What sound is heard from an audio device experiencing RF interference from a CW transmitter?",
+   "answers": [
+    "On-and-off humming or clicking"
+   ],
+   "wrong": [
+    "A CW signal at a nearly pure audio frequency",
+    "A chirpy CW signal",
+    "Severely distorted audio"
+   ],
+   "explanation": "Pool question G4C04.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4c05",
+   "prompt": "What is a possible cause of high voltages that produce RF burns?",
+   "answers": [
+    "The ground wire has high impedance on that frequency"
+   ],
+   "wrong": [
+    "Flat braid rather than round wire has been used for the ground wire",
+    "Insulated wire has been used for the ground wire",
+    "The ground rod is resonant"
+   ],
+   "explanation": "Pool question G4C05.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4c06",
+   "prompt": "What is a possible effect of a resonant ground connection?",
+   "answers": [
+    "High RF voltages on the enclosures of station equipment"
+   ],
+   "wrong": [
+    "Overheating of ground straps",
+    "Corrosion of the ground rod",
+    "A ground loop"
+   ],
+   "explanation": "Pool question G4C06.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4c07",
+   "prompt": "Why should soldered joints not be used in lightning protection ground connections?",
+   "answers": [
+    "A soldered joint will likely be destroyed by the heat of a lightning strike"
+   ],
+   "wrong": [
+    "Solder flux will prevent a low conductivity connection",
+    "Solder has too high a dielectric constant to provide adequate lightning protection",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G4C07.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4c08",
+   "prompt": "Which of the following would reduce RF interference caused by common-mode current on an audio cable?",
+   "answers": [
+    "Place a ferrite choke on the cable"
+   ],
+   "wrong": [
+    "Connect the center conductor to the shield of all cables to short circuit the RFI signal",
+    "Ground the center conductor of the audio cable causing the interference",
+    "Add an additional insulating jacket to the cable"
+   ],
+   "explanation": "Pool question G4C08.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4c09",
+   "prompt": "How can the effects of ground loops be minimized?",
+   "answers": [
+    "Bond equipment enclosures together"
+   ],
+   "wrong": [
+    "Connect all ground conductors in series",
+    "Connect the AC neutral conductor to the ground wire",
+    "Avoid using lock washers and star washers when making ground connections"
+   ],
+   "explanation": "Pool question G4C09.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4c10",
+   "prompt": "What could be a symptom caused by a ground loop in your station’s audio connections?",
+   "answers": [
+    "You receive reports of “hum” on your station’s transmitted signal"
+   ],
+   "wrong": [
+    "The SWR reading for one or more antennas is suddenly very high",
+    "An item of station equipment starts to draw excessive amounts of current",
+    "You receive reports of harmonic interference from your station"
+   ],
+   "explanation": "Pool question G4C10.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4c11",
+   "prompt": "What technique helps to minimize RF “hot spots” in an amateur station?",
+   "answers": [
+    "Bonding all equipment enclosures together"
+   ],
+   "wrong": [
+    "Building all equipment in a metal enclosure",
+    "Using surge suppressor power outlets",
+    "Placing low-pass filters on all feed lines"
+   ],
+   "explanation": "Pool question G4C11.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4c12",
+   "prompt": "Why must all metal enclosures of station equipment be grounded?",
+   "answers": [
+    "It ensures that hazardous voltages cannot appear on the chassis"
+   ],
+   "wrong": [
+    "It prevents a blown fuse in the event of an internal short circuit",
+    "It prevents signal overload",
+    "It ensures that the neutral wire is grounded"
+   ],
+   "explanation": "Pool question G4C12.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4d01",
+   "prompt": "What is the purpose of a speech processor in a transceiver?",
+   "answers": [
+    "Increase the apparent loudness of transmitted voice signals"
+   ],
+   "wrong": [
+    "Increase transmitter bass response for more natural-sounding SSB signals",
+    "Prevent distortion of voice signals",
+    "Decrease high-frequency voice output to prevent out-of-band operation"
+   ],
+   "explanation": "Pool question G4D01.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4d02",
+   "prompt": "How does a speech processor affect a single sideband phone signal?",
+   "answers": [
+    "It increases average power"
+   ],
+   "wrong": [
+    "It increases peak power",
+    "It reduces harmonic distortion",
+    "It reduces intermodulation distortion"
+   ],
+   "explanation": "Pool question G4D02.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4d03",
+   "prompt": "What is the effect of an incorrectly adjusted speech processor?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Distorted speech",
+    "Excess intermodulation products",
+    "Excessive background noise"
+   ],
+   "explanation": "All three are right: distorted speech; excess intermodulation products; excessive background noise. Pool question G4D03.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4d04",
+   "prompt": "What does an S meter measure?",
+   "answers": [
+    "Received signal strength"
+   ],
+   "wrong": [
+    "Carrier suppression",
+    "Impedance",
+    "Transmitter power output"
+   ],
+   "explanation": "Pool question G4D04.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4d05",
+   "prompt": "How does a signal that reads 20 dB over S9 compare to one that reads S9 on a receiver, assuming a properly calibrated S meter?",
+   "answers": [
+    "It is 100 times more powerful"
+   ],
+   "wrong": [
+    "It is 10 times less powerful",
+    "It is 20 times less powerful",
+    "It is 20 times more powerful"
+   ],
+   "explanation": "Pool question G4D05.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4d06",
+   "prompt": "How much change in signal strength is typically represented by one S unit?",
+   "answers": [
+    "6 dB"
+   ],
+   "wrong": [
+    "12 dB",
+    "15 dB",
+    "18 dB"
+   ],
+   "explanation": "Pool question G4D06.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4d07",
+   "prompt": "How much must the power output of a transmitter be raised to change the S meter reading on a distant receiver from S8 to S9?",
+   "answers": [
+    "Approximately 4 times"
+   ],
+   "wrong": [
+    "Approximately 1.5 times",
+    "Approximately 2 times",
+    "Approximately 8 times"
+   ],
+   "explanation": "Pool question G4D07.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4d08",
+   "prompt": "What frequency range is occupied by a 3 kHz LSB signal when the displayed carrier frequency is set to 7.178 MHz?",
+   "answers": [
+    "7.175 MHz to 7.178 MHz"
+   ],
+   "wrong": [
+    "7.178 MHz to 7.181 MHz",
+    "7.178 MHz to 7.184 MHz",
+    "7.1765 MHz to 7.1795 MHz"
+   ],
+   "explanation": "Pool question G4D08.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4d09",
+   "prompt": "What frequency range is occupied by a 3 kHz USB signal with the displayed carrier frequency set to 14.347 MHz?",
+   "answers": [
+    "14.347 MHz to 14.350 MHz"
+   ],
+   "wrong": [
+    "14.347 MHz to 14.647 MHz",
+    "14.344 MHz to 14.347 MHz",
+    "14.3455 MHz to 14.3485 MHz"
+   ],
+   "explanation": "Pool question G4D09.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4d10",
+   "prompt": "How close to the lower edge of a band’s phone segment should your displayed carrier frequency be when using 3 kHz wide LSB?",
+   "answers": [
+    "At least 3 kHz above the edge of the segment"
+   ],
+   "wrong": [
+    "At least 3 kHz below the edge of the segment",
+    "At least 1 kHz below the edge of the segment",
+    "At least 1 kHz above the edge of the segment"
+   ],
+   "explanation": "Pool question G4D10.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4d11",
+   "prompt": "How close to the upper edge of a band’s phone segment should your displayed carrier frequency be when using 3 kHz wide USB?",
+   "answers": [
+    "At least 3 kHz below the edge of the band"
+   ],
+   "wrong": [
+    "At least 3 kHz above the edge of the band",
+    "At least 1 kHz above the edge of the segment",
+    "At least 1 kHz below the edge of the segment"
+   ],
+   "explanation": "Pool question G4D11.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4e01",
+   "prompt": "What is the purpose of a capacitance hat on a mobile antenna?",
+   "answers": [
+    "To electrically lengthen a physically short antenna"
+   ],
+   "wrong": [
+    "To increase the power handling capacity of a whip antenna",
+    "To reduce radiation resistance",
+    "To lower the radiation angle"
+   ],
+   "explanation": "Pool question G4E01.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4e02",
+   "prompt": "What is the purpose of a corona ball on an HF mobile antenna?",
+   "answers": [
+    "To reduce RF voltage discharge from the tip of the antenna while transmitting"
+   ],
+   "wrong": [
+    "To narrow the operating bandwidth of the antenna",
+    "To increase the “Q” of the antenna",
+    "To reduce the chance of damage if the antenna should strike an object"
+   ],
+   "explanation": "Pool question G4E02.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4e03",
+   "prompt": "Which of the following direct, fused power connections would be the best for a 100-watt HF mobile installation?",
+   "answers": [
+    "To the battery using heavy-gauge wire"
+   ],
+   "wrong": [
+    "To the alternator or generator using heavy-gauge wire",
+    "To the battery using insulated heavy duty balanced transmission line",
+    "To the alternator or generator using insulated heavy duty balanced transmission line"
+   ],
+   "explanation": "Pool question G4E03.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4e04",
+   "prompt": "Why should DC power for a 100-watt HF transceiver not be supplied by a vehicle’s auxiliary power socket?",
+   "answers": [
+    "The socket’s wiring may be inadequate for the current drawn by the transceiver"
+   ],
+   "wrong": [
+    "The socket is not wired with an RF-shielded power cable",
+    "The DC polarity of the socket is reversed from the polarity of modern HF transceivers",
+    "Drawing more than 50 watts from this socket could cause the engine to overheat"
+   ],
+   "explanation": "Pool question G4E04.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4e05",
+   "prompt": "Which of the following most limits an HF mobile installation?",
+   "answers": [
+    "Efficiency of the electrically short antenna"
+   ],
+   "wrong": [
+    "“Picket fencing”",
+    "The wire gauge of the DC power line to the transceiver",
+    "FCC rules limiting mobile output power on the 75-meter band"
+   ],
+   "explanation": "Pool question G4E05.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4e06",
+   "prompt": "What is one disadvantage of using a shortened mobile antenna as opposed to a full-size antenna?",
+   "answers": [
+    "Operating bandwidth may be very limited"
+   ],
+   "wrong": [
+    "Short antennas are more likely to cause distortion of transmitted signals",
+    "Q of the antenna will be very low",
+    "Harmonic radiation may increase"
+   ],
+   "explanation": "Pool question G4E06.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4e07",
+   "prompt": "Which of the following may cause receive interference to an HF transceiver installed in a vehicle?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "The battery charging system",
+    "The fuel delivery system",
+    "The control computers"
+   ],
+   "explanation": "All three are right: the battery charging system; the fuel delivery system; the control computers. Pool question G4E07.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4e08",
+   "prompt": "In what configuration are the individual cells in a solar panel connected together?",
+   "answers": [
+    "Series-parallel"
+   ],
+   "wrong": [
+    "Shunt",
+    "Bypass",
+    "Full-wave bridge"
+   ],
+   "explanation": "Pool question G4E08.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4e09",
+   "prompt": "What is the approximate open-circuit voltage from a fully illuminated silicon photovoltaic cell?",
+   "answers": [
+    "0.5 VDC"
+   ],
+   "wrong": [
+    "0.02 VDC",
+    "0.2 VDC",
+    "1.38 VDC"
+   ],
+   "explanation": "Pool question G4E09.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4e10",
+   "prompt": "Why should a series diode be connected between a solar panel and a storage battery that is being charged by the panel?",
+   "answers": [
+    "To prevent discharge of the battery through the panel during times of low or no illumination"
+   ],
+   "wrong": [
+    "To prevent overload by regulating the charging voltage",
+    "To limit the current flowing from the panel to a safe value",
+    "To prevent damage to the battery due to excessive voltage at high illumination levels"
+   ],
+   "explanation": "Pool question G4E10.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g4e11",
+   "prompt": "What precaution should be taken when connecting a solar panel to a lithium iron phosphate battery?",
+   "answers": [
+    "The solar panel must have a charge controller"
+   ],
+   "wrong": [
+    "Ground the solar panel outer metal framework",
+    "Ensure the battery is placed terminals-up",
+    "A series resistor must be in place"
+   ],
+   "explanation": "Pool question G4E11.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "g5a01",
+   "prompt": "What happens when inductive and capacitive reactance are equal in a series LC circuit?",
+   "answers": [
+    "Resonance causes impedance to be very low"
+   ],
+   "wrong": [
+    "Resonance causes impedance to be very high",
+    "Impedance is equal to the geometric mean of the inductance and capacitance",
+    "Impedance is equal to the arithmetic mean of the inductance and capacitance"
+   ],
+   "explanation": "Pool question G5A01.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5a02",
+   "prompt": "What is reactance?",
+   "answers": [
+    "Opposition to the flow of alternating current caused by capacitance or inductance"
+   ],
+   "wrong": [
+    "Opposition to the flow of direct current caused by resistance",
+    "Reinforcement of the flow of direct current caused by resistance",
+    "Reinforcement of the flow of alternating current caused by capacitance or inductance"
+   ],
+   "explanation": "Pool question G5A02.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5a03",
+   "prompt": "Which of the following is opposition to the flow of alternating current in an inductor?",
+   "answers": [
+    "Reactance"
+   ],
+   "wrong": [
+    "Conductance",
+    "Reluctance",
+    "Admittance"
+   ],
+   "explanation": "Pool question G5A03.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5a04",
+   "prompt": "Which of the following is opposition to the flow of alternating current in a capacitor?",
+   "answers": [
+    "Reactance"
+   ],
+   "wrong": [
+    "Conductance",
+    "Reluctance",
+    "Admittance"
+   ],
+   "explanation": "Pool question G5A04.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5a05",
+   "prompt": "How does an inductor react to AC?",
+   "answers": [
+    "As the frequency of the applied AC increases, the reactance increases"
+   ],
+   "wrong": [
+    "As the frequency of the applied AC increases, the reactance decreases",
+    "As the amplitude of the applied AC increases, the reactance increases",
+    "As the amplitude of the applied AC increases, the reactance decreases"
+   ],
+   "explanation": "Pool question G5A05.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5a06",
+   "prompt": "How does a capacitor react to AC?",
+   "answers": [
+    "As the frequency of the applied AC increases, the reactance decreases"
+   ],
+   "wrong": [
+    "As the frequency of the applied AC increases, the reactance increases",
+    "As the amplitude of the applied AC increases, the reactance increases",
+    "As the amplitude of the applied AC increases, the reactance decreases"
+   ],
+   "explanation": "Pool question G5A06.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5a07",
+   "prompt": "What is the term for the inverse of impedance?",
+   "answers": [
+    "Admittance"
+   ],
+   "wrong": [
+    "Conductance",
+    "Susceptance",
+    "Reluctance"
+   ],
+   "explanation": "Pool question G5A07.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5a08",
+   "prompt": "What is impedance?",
+   "answers": [
+    "The ratio of voltage to current"
+   ],
+   "wrong": [
+    "The ratio of current to voltage",
+    "The product of current and voltage",
+    "The product of current and reactance"
+   ],
+   "explanation": "Pool question G5A08.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5a09",
+   "prompt": "What unit is used to measure reactance?",
+   "answers": [
+    "Ohm"
+   ],
+   "wrong": [
+    "Farad",
+    "Ampere",
+    "Siemens"
+   ],
+   "explanation": "Pool question G5A09.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5a10",
+   "prompt": "Which of the following devices can be used for impedance matching at radio frequencies?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "A transformer",
+    "A Pi-network",
+    "A length of transmission line"
+   ],
+   "explanation": "All three are right: a transformer; a Pi-network; a length of transmission line. Pool question G5A10.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5a11",
+   "prompt": "What letter is used to represent reactance?",
+   "answers": [
+    "X"
+   ],
+   "wrong": [
+    "Z",
+    "B",
+    "Y"
+   ],
+   "explanation": "Pool question G5A11.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5a12",
+   "prompt": "What occurs in an LC circuit at resonance?",
+   "answers": [
+    "Inductive reactance and capacitive reactance cancel"
+   ],
+   "wrong": [
+    "Current and voltage are equal",
+    "Resistance is cancelled",
+    "The circuit radiates all its energy in the form of radio waves"
+   ],
+   "explanation": "Pool question G5A12.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5b01",
+   "prompt": "What dB change represents a factor of two increase or decrease in power?",
+   "answers": [
+    "Approximately 3 dB"
+   ],
+   "wrong": [
+    "Approximately 2 dB",
+    "Approximately 6 dB",
+    "Approximately 9 dB"
+   ],
+   "explanation": "Pool question G5B01.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5b02",
+   "prompt": "How does the total current relate to the individual currents in a circuit of parallel resistors?",
+   "answers": [
+    "It equals the sum of the currents through each branch"
+   ],
+   "wrong": [
+    "It equals the average of the branch currents",
+    "It decreases as more parallel branches are added to the circuit",
+    "It is the sum of the reciprocal of each individual voltage drop"
+   ],
+   "explanation": "Pool question G5B02.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5b03",
+   "prompt": "How many watts of electrical power are consumed if 400 VDC is supplied to an 800-ohm load?",
+   "answers": [
+    "200 watts"
+   ],
+   "wrong": [
+    "0.5 watts",
+    "400 watts",
+    "3200 watts"
+   ],
+   "explanation": "Pool question G5B03.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5b04",
+   "prompt": "How many watts of electrical power are consumed by a 12 VDC light bulb that draws 0.2 amperes?",
+   "answers": [
+    "2.4 watts"
+   ],
+   "wrong": [
+    "24 watts",
+    "6 watts",
+    "60 watts"
+   ],
+   "explanation": "Pool question G5B04.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5b05",
+   "prompt": "How many watts are consumed when a current of 7.0 milliamperes flows through a 1,250-ohm resistance?",
+   "answers": [
+    "Approximately 61 milliwatts"
+   ],
+   "wrong": [
+    "Approximately 61 watts",
+    "Approximately 11 milliwatts",
+    "Approximately 11 watts"
+   ],
+   "explanation": "Pool question G5B05.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5b06",
+   "prompt": "What is the PEP produced by 200 volts peak-to-peak across a 50-ohm dummy load?",
+   "answers": [
+    "100 watts"
+   ],
+   "wrong": [
+    "1.4 watts",
+    "353.5 watts",
+    "400 watts"
+   ],
+   "explanation": "Pool question G5B06.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5b07",
+   "prompt": "What value of an AC signal produces the same power dissipation in a resistor as a DC voltage of the same value?",
+   "answers": [
+    "The RMS value"
+   ],
+   "wrong": [
+    "The peak-to-peak value",
+    "The peak value",
+    "The reciprocal of the RMS value"
+   ],
+   "explanation": "Pool question G5B07.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5b08",
+   "prompt": "What is the peak-to-peak voltage of a sine wave with an RMS voltage of 120 volts?",
+   "answers": [
+    "339.4 volts"
+   ],
+   "wrong": [
+    "84.8 volts",
+    "169.7 volts",
+    "240.0 volts"
+   ],
+   "explanation": "Pool question G5B08.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5b09",
+   "prompt": "What is the RMS voltage of a sine wave with a value of 17 volts peak?",
+   "answers": [
+    "12 volts"
+   ],
+   "wrong": [
+    "8.5 volts",
+    "24 volts",
+    "34 volts"
+   ],
+   "explanation": "Pool question G5B09.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5b10",
+   "prompt": "What percentage of power loss is equivalent to a loss of 1 dB?",
+   "answers": [
+    "20.6 percent"
+   ],
+   "wrong": [
+    "10.9 percent",
+    "12.2 percent",
+    "25.9 percent"
+   ],
+   "explanation": "Pool question G5B10.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5b11",
+   "prompt": "What is the ratio of PEP to average power for an unmodulated carrier?",
+   "answers": [
+    "1.00"
+   ],
+   "wrong": [
+    "0.707",
+    "1.414",
+    "2.00"
+   ],
+   "explanation": "Pool question G5B11.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5b12",
+   "prompt": "What is the RMS voltage across a 50-ohm dummy load dissipating 1200 watts?",
+   "answers": [
+    "245 volts"
+   ],
+   "wrong": [
+    "173 volts",
+    "346 volts",
+    "692 volts"
+   ],
+   "explanation": "Pool question G5B12.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5b13",
+   "prompt": "What is the output PEP of an unmodulated carrier if the average power is 1060 watts?",
+   "answers": [
+    "1060 watts"
+   ],
+   "wrong": [
+    "530 watts",
+    "1500 watts",
+    "2120 watts"
+   ],
+   "explanation": "Pool question G5B13.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5b14",
+   "prompt": "What is the output PEP of 500 volts peak-to-peak across a 50-ohm load?",
+   "answers": [
+    "625 watts"
+   ],
+   "wrong": [
+    "8.75 watts",
+    "2500 watts",
+    "5000 watts"
+   ],
+   "explanation": "Pool question G5B14.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5c01",
+   "prompt": "What causes a voltage to appear across the secondary winding of a transformer when an AC voltage source is connected across its primary winding?",
+   "answers": [
+    "Mutual inductance"
+   ],
+   "wrong": [
+    "Capacitive coupling",
+    "Displacement current coupling",
+    "Mutual capacitance"
+   ],
+   "explanation": "Pool question G5C01.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5c02",
+   "prompt": "What is the output voltage if an input signal is applied to the secondary winding of a 4:1 voltage step-down transformer instead of the primary winding?",
+   "answers": [
+    "The input voltage is multiplied by 4"
+   ],
+   "wrong": [
+    "The input voltage is divided by 4",
+    "Additional resistance must be added in series with the primary to prevent overload",
+    "Additional resistance must be added in parallel with the secondary to prevent overload"
+   ],
+   "explanation": "Pool question G5C02.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5c03",
+   "prompt": "What is the total resistance of a 10-, a 20-, and a 50-ohm resistor connected in parallel?",
+   "answers": [
+    "5.9 ohms"
+   ],
+   "wrong": [
+    "0.17 ohms",
+    "17 ohms",
+    "80 ohms"
+   ],
+   "explanation": "Pool question G5C03.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5c04",
+   "prompt": "What is the approximate total resistance of a 100- and a 200-ohm resistor in parallel?",
+   "answers": [
+    "67 ohms"
+   ],
+   "wrong": [
+    "300 ohms",
+    "150 ohms",
+    "75 ohms"
+   ],
+   "explanation": "Pool question G5C04.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5c05",
+   "prompt": "Why is the primary winding wire of a voltage step-up transformer usually a larger size than that of the secondary winding?",
+   "answers": [
+    "To accommodate the higher current of the primary"
+   ],
+   "wrong": [
+    "To improve the coupling between the primary and secondary",
+    "To prevent parasitic oscillations due to resistive losses in the primary",
+    "To ensure that the volume of the primary winding is equal to the volume of the secondary winding"
+   ],
+   "explanation": "Pool question G5C05.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5c06",
+   "prompt": "What is the voltage output of a transformer with a 500-turn primary and a 1500-turn secondary when 120 VAC is applied to the primary?",
+   "answers": [
+    "360 volts"
+   ],
+   "wrong": [
+    "120 volts",
+    "40 volts",
+    "25.5 volts"
+   ],
+   "explanation": "Pool question G5C06.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5c07",
+   "prompt": "What transformer turns ratio matches an antenna’s 600-ohm feed point impedance to a 50-ohm coaxial cable?",
+   "answers": [
+    "3.5 to 1"
+   ],
+   "wrong": [
+    "12 to 1",
+    "24 to 1",
+    "144 to 1"
+   ],
+   "explanation": "Pool question G5C07.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5c08",
+   "prompt": "What is the equivalent capacitance of two 5.0-nanofarad capacitors and one 750-picofarad capacitor connected in parallel?",
+   "answers": [
+    "10.750 nanofarads"
+   ],
+   "wrong": [
+    "576.9 nanofarads",
+    "1,733 picofarads",
+    "3,583 picofarads"
+   ],
+   "explanation": "Pool question G5C08.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5c09",
+   "prompt": "What is the capacitance of three 100-microfarad capacitors connected in series?",
+   "answers": [
+    "33.3 microfarads"
+   ],
+   "wrong": [
+    "0.33 microfarads",
+    "3.0 microfarads",
+    "300 microfarads"
+   ],
+   "explanation": "Pool question G5C09.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5c10",
+   "prompt": "What is the inductance of three 10-millihenry inductors connected in parallel?",
+   "answers": [
+    "3.3 millihenries"
+   ],
+   "wrong": [
+    "0.30 henries",
+    "3.3 henries",
+    "30 millihenries"
+   ],
+   "explanation": "Pool question G5C10.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5c11",
+   "prompt": "What is the inductance of a circuit with a 20-millihenry inductor connected in series with a 50-millihenry inductor?",
+   "answers": [
+    "70 millihenries"
+   ],
+   "wrong": [
+    "7 millihenries",
+    "14.3 millihenries",
+    "1,000 millihenries"
+   ],
+   "explanation": "Pool question G5C11.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5c12",
+   "prompt": "What is the capacitance of a 20-microfarad capacitor connected in series with a 50-microfarad capacitor?",
+   "answers": [
+    "14.3 microfarads"
+   ],
+   "wrong": [
+    "0.07 microfarads",
+    "70 microfarads",
+    "1,000 microfarads"
+   ],
+   "explanation": "Pool question G5C12.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5c13",
+   "prompt": "Which of the following components should be added to a capacitor to increase the capacitance?",
+   "answers": [
+    "A capacitor in parallel"
+   ],
+   "wrong": [
+    "An inductor in series",
+    "An inductor in parallel",
+    "A capacitor in series"
+   ],
+   "explanation": "Pool question G5C13.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g5c14",
+   "prompt": "Which of the following components should be added to an inductor to increase the inductance?",
+   "answers": [
+    "An inductor in series"
+   ],
+   "wrong": [
+    "A capacitor in series",
+    "A capacitor in parallel",
+    "An inductor in parallel"
+   ],
+   "explanation": "Pool question G5C14.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "g6a01",
+   "prompt": "What is the minimum allowable discharge voltage for maximum life of a standard 12-volt lead-acid battery?",
+   "answers": [
+    "10.5 volts"
+   ],
+   "wrong": [
+    "6 volts",
+    "8.5 volts",
+    "12 volts"
+   ],
+   "explanation": "Pool question G6A01.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6a02",
+   "prompt": "What is an advantage of batteries with low internal resistance?",
+   "answers": [
+    "High discharge current"
+   ],
+   "wrong": [
+    "Long life",
+    "High voltage",
+    "Rapid recharge"
+   ],
+   "explanation": "Pool question G6A02.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6a03",
+   "prompt": "What is the approximate forward threshold voltage of a germanium diode?",
+   "answers": [
+    "0.3 volts"
+   ],
+   "wrong": [
+    "0.1 volt",
+    "0.7 volts",
+    "1.0 volts"
+   ],
+   "explanation": "Pool question G6A03.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6a04",
+   "prompt": "Which of the following is characteristic of an electrolytic capacitor?",
+   "answers": [
+    "High capacitance for a given volume"
+   ],
+   "wrong": [
+    "Tight tolerance",
+    "Much less leakage than any other type",
+    "Inexpensive RF capacitor"
+   ],
+   "explanation": "Pool question G6A04.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6a05",
+   "prompt": "What is the approximate forward threshold voltage of a silicon junction diode?",
+   "answers": [
+    "0.7 volts"
+   ],
+   "wrong": [
+    "0.1 volt",
+    "0.3 volts",
+    "1.0 volts"
+   ],
+   "explanation": "Pool question G6A05.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6a06",
+   "prompt": "Why should wire-wound resistors not be used in RF circuits?",
+   "answers": [
+    "The resistor’s inductance could make circuit performance unpredictable"
+   ],
+   "wrong": [
+    "The resistor’s tolerance value would not be adequate",
+    "The resistor could overheat",
+    "The resistor’s internal capacitance would detune the circuit"
+   ],
+   "explanation": "Pool question G6A06.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6a07",
+   "prompt": "What are the operating points for a bipolar transistor used as a switch?",
+   "answers": [
+    "Saturation and cutoff"
+   ],
+   "wrong": [
+    "The active region (between cutoff and saturation)",
+    "Peak and valley current points",
+    "Enhancement and depletion modes"
+   ],
+   "explanation": "Pool question G6A07.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6a08",
+   "prompt": "Which of the following is characteristic of low voltage ceramic capacitors?",
+   "answers": [
+    "Comparatively low cost"
+   ],
+   "wrong": [
+    "Tight tolerance",
+    "High stability",
+    "High capacitance for given volume"
+   ],
+   "explanation": "Pool question G6A08.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6a09",
+   "prompt": "Which of the following describes MOSFET construction?",
+   "answers": [
+    "The gate is separated from the channel by a thin insulating layer"
+   ],
+   "wrong": [
+    "The gate is formed by a back-biased junction",
+    "The source is separated from the drain by a thin insulating layer",
+    "The source is formed by depositing metal on silicon"
+   ],
+   "explanation": "Pool question G6A09.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6a10",
+   "prompt": "Which element of a vacuum tube regulates the flow of electrons between cathode and plate?",
+   "answers": [
+    "Control grid"
+   ],
+   "wrong": [
+    "Suppressor grid",
+    "Screen grid",
+    "Trigger electrode"
+   ],
+   "explanation": "Pool question G6A10.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6a11",
+   "prompt": "What happens when an inductor is operated above its self-resonant frequency?",
+   "answers": [
+    "It becomes capacitive"
+   ],
+   "wrong": [
+    "Its reactance increases",
+    "Harmonics are generated",
+    "Catastrophic failure is likely"
+   ],
+   "explanation": "Pool question G6A11.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6a12",
+   "prompt": "What is the primary purpose of a screen grid in a vacuum tube?",
+   "answers": [
+    "To reduce grid-to-plate capacitance"
+   ],
+   "wrong": [
+    "To increase efficiency",
+    "To increase the control grid resistance",
+    "To decrease plate resistance"
+   ],
+   "explanation": "Pool question G6A12.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6b01",
+   "prompt": "What determines the performance of a ferrite core at different frequencies?",
+   "answers": [
+    "The composition, or “mix,” of materials used"
+   ],
+   "wrong": [
+    "Its conductivity",
+    "Its thickness",
+    "The ratio of outer diameter to inner diameter"
+   ],
+   "explanation": "Pool question G6B01.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6b02",
+   "prompt": "What is meant by the term MMIC?",
+   "answers": [
+    "Monolithic Microwave Integrated Circuit"
+   ],
+   "wrong": [
+    "Multi-Mode Integrated Circuit",
+    "Metal Monolayer Integrated Circuit",
+    "Mode Modulated Integrated Circuit"
+   ],
+   "explanation": "Pool question G6B02.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6b03",
+   "prompt": "Which of the following is an advantage of CMOS integrated circuits compared to TTL integrated circuits?",
+   "answers": [
+    "Low power consumption"
+   ],
+   "wrong": [
+    "High power handling capability",
+    "Better suited for RF amplification",
+    "Better suited for power supply regulation"
+   ],
+   "explanation": "Pool question G6B03.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6b04",
+   "prompt": "What is a typical upper frequency limit for low SWR operation of 50-ohm BNC connectors?",
+   "answers": [
+    "4 GHz"
+   ],
+   "wrong": [
+    "50 MHz",
+    "500 MHz",
+    "40 GHz"
+   ],
+   "explanation": "Pool question G6B04.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6b05",
+   "prompt": "What is an advantage of using a ferrite core toroidal inductor?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Large values of inductance may be obtained",
+    "The magnetic properties of the core may be optimized for a specific range of frequencies",
+    "Most of the magnetic field is contained in the core"
+   ],
+   "explanation": "All three are right: large values of inductance may be obtained; the magnetic properties of the core may be optimized for a specific range of frequencies; most of the magnetic field is contained in the core. Pool question G6B05.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6b06",
+   "prompt": "What kind of device is an integrated circuit operational amplifier?",
+   "answers": [
+    "Analog"
+   ],
+   "wrong": [
+    "Digital",
+    "MMIC",
+    "Programmable Logic"
+   ],
+   "explanation": "Pool question G6B06.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6b07",
+   "prompt": "Which of the following describes a type N connector?",
+   "answers": [
+    "A moisture-resistant RF connector useful to 10 GHz"
+   ],
+   "wrong": [
+    "A small bayonet connector used for data circuits",
+    "A low noise figure VHF connector",
+    "A nickel plated version of the PL-259"
+   ],
+   "explanation": "Pool question G6B07.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6b08",
+   "prompt": "How is an LED biased when emitting light?",
+   "answers": [
+    "Forward biased"
+   ],
+   "wrong": [
+    "In the tunnel-effect region",
+    "At the Zener voltage",
+    "Reverse biased"
+   ],
+   "explanation": "Pool question G6B08.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6b10",
+   "prompt": "How does a ferrite bead or core reduce common-mode RF current on the shield of a coaxial cable?",
+   "answers": [
+    "By creating an impedance in the current’s path"
+   ],
+   "wrong": [
+    "It converts common-mode current to differential mode current",
+    "By creating an out-of-phase current to cancel the common-mode current",
+    "Ferrites expel magnetic fields"
+   ],
+   "explanation": "Pool question G6B10.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6b11",
+   "prompt": "What is an SMA connector?",
+   "answers": [
+    "A small threaded connector suitable for signals up to several GHz"
+   ],
+   "wrong": [
+    "A type-S to type-M adaptor",
+    "A connector designed for serial multiple access signals",
+    "A type of push-on connector intended for high-voltage applications"
+   ],
+   "explanation": "Pool question G6B11.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g6b12",
+   "prompt": "Which of these connector types is commonly used for low frequency or dc signal connections to a transceiver?",
+   "answers": [
+    "RCA Phono"
+   ],
+   "wrong": [
+    "PL-259",
+    "BNC",
+    "Type N"
+   ],
+   "explanation": "Pool question G6B12.",
+   "tags": [
+    "Circuit components"
+   ]
+  },
+  {
+   "id": "g7a01",
+   "prompt": "What is the function of a power supply bleeder resistor?",
+   "answers": [
+    "It discharges the filter capacitors when power is removed"
+   ],
+   "wrong": [
+    "It acts as a fuse for excess voltage",
+    "It removes shock hazards from the induction coils",
+    "It eliminates ground loop current"
+   ],
+   "explanation": "Pool question G7A01.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7a02",
+   "prompt": "Which of the following components are used in a power supply filter network?",
+   "answers": [
+    "Capacitors and inductors"
+   ],
+   "wrong": [
+    "Diodes",
+    "Transformers and transducers",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G7A02.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7a03",
+   "prompt": "Which type of rectifier circuit uses two diodes and a center-tapped transformer?",
+   "answers": [
+    "Full-wave"
+   ],
+   "wrong": [
+    "Full-wave bridge",
+    "Half-wave",
+    "Synchronous"
+   ],
+   "explanation": "Pool question G7A03.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7a04",
+   "prompt": "What is characteristic of a half-wave rectifier in a power supply?",
+   "answers": [
+    "Only one diode is required"
+   ],
+   "wrong": [
+    "The ripple frequency is twice that of a full-wave rectifier",
+    "More current can be drawn from the half-wave rectifier",
+    "The output voltage is two times the peak input voltage"
+   ],
+   "explanation": "Pool question G7A04.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7a05",
+   "prompt": "What portion of the AC cycle is converted to DC by a half-wave rectifier?",
+   "answers": [
+    "180 degrees"
+   ],
+   "wrong": [
+    "90 degrees",
+    "270 degrees",
+    "360 degrees"
+   ],
+   "explanation": "Pool question G7A05.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7a06",
+   "prompt": "What portion of the AC cycle is converted to DC by a full-wave rectifier?",
+   "answers": [
+    "360 degrees"
+   ],
+   "wrong": [
+    "90 degrees",
+    "180 degrees",
+    "270 degrees"
+   ],
+   "explanation": "Pool question G7A06.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7a07",
+   "prompt": "What is the output waveform of an unfiltered full-wave rectifier connected to a resistive load?",
+   "answers": [
+    "A series of DC pulses at twice the frequency of the AC input"
+   ],
+   "wrong": [
+    "A series of DC pulses at the same frequency as the AC input",
+    "A sine wave at half the frequency of the AC input",
+    "A steady DC voltage"
+   ],
+   "explanation": "Pool question G7A07.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7a08",
+   "prompt": "Which of the following is characteristic of a switchmode power supply as compared to a linear power supply?",
+   "answers": [
+    "High-frequency operation allows the use of smaller components"
+   ],
+   "wrong": [
+    "Faster switching time makes higher output voltage possible",
+    "Fewer circuit components are required",
+    "Inherently more stable"
+   ],
+   "explanation": "Pool question G7A08.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7a09",
+   "prompt": "Which symbol in figure G7-1 represents a field effect transistor?",
+   "answers": [
+    "Symbol 1"
+   ],
+   "wrong": [
+    "Symbol 2",
+    "Symbol 5",
+    "Symbol 4"
+   ],
+   "explanation": "Pool question G7A09.",
+   "figure": {
+    "src": "data/figures/g7-1.png",
+    "alt": "Figure G7-1 from the question pool"
+   },
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7a10",
+   "prompt": "Which symbol in figure G7-1 represents a Zener diode?",
+   "answers": [
+    "Symbol 5"
+   ],
+   "wrong": [
+    "Symbol 4",
+    "Symbol 1",
+    "Symbol 11"
+   ],
+   "explanation": "Pool question G7A10.",
+   "figure": {
+    "src": "data/figures/g7-1.png",
+    "alt": "Figure G7-1 from the question pool"
+   },
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7a11",
+   "prompt": "Which symbol in figure G7-1 represents an NPN junction transistor?",
+   "answers": [
+    "Symbol 2"
+   ],
+   "wrong": [
+    "Symbol 1",
+    "Symbol 7",
+    "Symbol 11"
+   ],
+   "explanation": "Pool question G7A11.",
+   "figure": {
+    "src": "data/figures/g7-1.png",
+    "alt": "Figure G7-1 from the question pool"
+   },
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7a12",
+   "prompt": "Which symbol in Figure G7-1 represents a solid core transformer?",
+   "answers": [
+    "Symbol 6"
+   ],
+   "wrong": [
+    "Symbol 4",
+    "Symbol 7",
+    "Symbol 1"
+   ],
+   "explanation": "Pool question G7A12.",
+   "figure": {
+    "src": "data/figures/g7-1.png",
+    "alt": "Figure G7-1 from the question pool"
+   },
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7a13",
+   "prompt": "Which symbol in Figure G7-1 represents a tapped inductor?",
+   "answers": [
+    "Symbol 7"
+   ],
+   "wrong": [
+    "Symbol 11",
+    "Symbol 6",
+    "Symbol 1"
+   ],
+   "explanation": "Pool question G7A13.",
+   "figure": {
+    "src": "data/figures/g7-1.png",
+    "alt": "Figure G7-1 from the question pool"
+   },
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7b01",
+   "prompt": "What is the purpose of neutralizing an amplifier?",
+   "answers": [
+    "To eliminate self-oscillations"
+   ],
+   "wrong": [
+    "To limit the modulation index",
+    "To cut off the final amplifier during standby periods",
+    "To keep the carrier on frequency"
+   ],
+   "explanation": "Pool question G7B01.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7b02",
+   "prompt": "Which of these classes of amplifiers has the highest efficiency?",
+   "answers": [
+    "Class C"
+   ],
+   "wrong": [
+    "Class A",
+    "Class B",
+    "Class AB"
+   ],
+   "explanation": "Pool question G7B02.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7b03",
+   "prompt": "Which of the following describes the function of a two-input AND gate?",
+   "answers": [
+    "Output is high only when both inputs are high"
+   ],
+   "wrong": [
+    "Output is high when either or both inputs are low",
+    "Output is low when either or both inputs are high",
+    "Output is low only when both inputs are high"
+   ],
+   "explanation": "Pool question G7B03.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7b04",
+   "prompt": "In a Class A amplifier, what percentage of the time does the amplifying device conduct?",
+   "answers": [
+    "100%"
+   ],
+   "wrong": [
+    "More than 50% but less than 100%",
+    "50%",
+    "Less than 50%"
+   ],
+   "explanation": "Pool question G7B04.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7b05",
+   "prompt": "How many states does a 3-bit binary counter have?",
+   "answers": [
+    "8"
+   ],
+   "wrong": [
+    "3",
+    "6",
+    "16"
+   ],
+   "explanation": "Pool question G7B05.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7b06",
+   "prompt": "What is a shift register?",
+   "answers": [
+    "A clocked array of circuits that passes data in steps along the array"
+   ],
+   "wrong": [
+    "An array of operational amplifiers used for tri-state arithmetic operations",
+    "A digital mixer",
+    "An analog mixer"
+   ],
+   "explanation": "Pool question G7B06.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7b07",
+   "prompt": "Which of the following are basic components of a sine wave oscillator?",
+   "answers": [
+    "A filter and an amplifier operating in a feedback loop"
+   ],
+   "wrong": [
+    "An amplifier and a divider",
+    "A frequency multiplier and a mixer",
+    "A circulator and a filter operating in a feed-forward loop"
+   ],
+   "explanation": "Pool question G7B07.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7b08",
+   "prompt": "How is the efficiency of an RF power amplifier determined?",
+   "answers": [
+    "Divide the RF output power by the DC input power"
+   ],
+   "wrong": [
+    "Divide the DC input power by the DC output power",
+    "Multiply the RF input power by the reciprocal of the RF output power",
+    "Add the RF input power to the DC output power"
+   ],
+   "explanation": "Pool question G7B08.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7b09",
+   "prompt": "What determines the frequency of an LC oscillator?",
+   "answers": [
+    "The inductance and capacitance in the tank circuit"
+   ],
+   "wrong": [
+    "The number of stages in the counter",
+    "The number of stages in the divider",
+    "The time delay of the lag circuit"
+   ],
+   "explanation": "Pool question G7B09.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7b10",
+   "prompt": "Which of the following describes a linear amplifier?",
+   "answers": [
+    "An amplifier in which the output preserves the input waveform"
+   ],
+   "wrong": [
+    "Any RF power amplifier used in conjunction with an amateur transceiver",
+    "A Class C high efficiency amplifier",
+    "An amplifier used as a frequency multiplier"
+   ],
+   "explanation": "Pool question G7B10.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7b11",
+   "prompt": "For which of the following modes is a Class C power stage appropriate for amplifying a modulated signal?",
+   "answers": [
+    "FM"
+   ],
+   "wrong": [
+    "SSB",
+    "AM",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G7B11.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7c01",
+   "prompt": "What circuit is used to select one of the sidebands from a balanced modulator?",
+   "answers": [
+    "Filter"
+   ],
+   "wrong": [
+    "Carrier oscillator",
+    "IF amplifier",
+    "RF amplifier"
+   ],
+   "explanation": "Pool question G7C01.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7c02",
+   "prompt": "What output is produced by a balanced modulator?",
+   "answers": [
+    "Double-sideband modulated RF"
+   ],
+   "wrong": [
+    "Frequency modulated RF",
+    "Audio with equalized frequency response",
+    "Audio extracted from the modulation signal"
+   ],
+   "explanation": "Pool question G7C02.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7c03",
+   "prompt": "What is one reason to use an impedance matching transformer at a transmitter output?",
+   "answers": [
+    "To present the desired impedance to the transmitter and feed line"
+   ],
+   "wrong": [
+    "To minimize transmitter power output",
+    "To reduce power supply ripple",
+    "To minimize radiation resistance"
+   ],
+   "explanation": "Pool question G7C03.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7c04",
+   "prompt": "How is a product detector used?",
+   "answers": [
+    "Used in a single sideband receiver to extract the modulated signal"
+   ],
+   "wrong": [
+    "Used in test gear to detect spurious mixing products",
+    "Used in a transmitter to perform frequency multiplication",
+    "Used in an FM receiver to filter out unwanted sidebands"
+   ],
+   "explanation": "Pool question G7C04.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7c05",
+   "prompt": "Which of the following is characteristic of a direct digital synthesizer (DDS)?",
+   "answers": [
+    "Variable output frequency with the stability of a crystal oscillator"
+   ],
+   "wrong": [
+    "Extremely narrow tuning range",
+    "Relatively high-power output",
+    "Pure sine wave output"
+   ],
+   "explanation": "Pool question G7C05.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7c06",
+   "prompt": "Which of the following is an advantage of a digital signal processing (DSP) filter compared to an analog filter?",
+   "answers": [
+    "A wide range of filter bandwidths and shapes can be created"
+   ],
+   "wrong": [
+    "Fewer digital components are required",
+    "Mixing products are greatly reduced",
+    "The DSP filter is much more effective at VHF frequencies"
+   ],
+   "explanation": "Pool question G7C06.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7c07",
+   "prompt": "What term specifies a filter’s attenuation inside its passband?",
+   "answers": [
+    "Insertion loss"
+   ],
+   "wrong": [
+    "Return loss",
+    "Q",
+    "Ultimate rejection"
+   ],
+   "explanation": "Pool question G7C07.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7c08",
+   "prompt": "Which parameter affects receiver sensitivity?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Input amplifier gain",
+    "Demodulator stage bandwidth",
+    "Input amplifier noise figure"
+   ],
+   "explanation": "All three are right: input amplifier gain; demodulator stage bandwidth; input amplifier noise figure. Pool question G7C08.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7c09",
+   "prompt": "What is the phase difference between the I and Q RF signals that software-defined radio (SDR) equipment uses for modulation and demodulation?",
+   "answers": [
+    "90 degrees"
+   ],
+   "wrong": [
+    "Zero",
+    "180 degrees",
+    "45 degrees"
+   ],
+   "explanation": "Pool question G7C09.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7c10",
+   "prompt": "What is an advantage of using I-Q modulation with software-defined radios (SDRs)?",
+   "answers": [
+    "All types of modulation can be created with appropriate processing"
+   ],
+   "wrong": [
+    "The need for high resolution analog-to-digital converters is eliminated",
+    "Minimum detectible signal level is reduced",
+    "Automatic conversion of the signal from digital to analog"
+   ],
+   "explanation": "Pool question G7C10.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7c11",
+   "prompt": "Which of these functions is performed by software in a software-defined radio (SDR)?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Filtering",
+    "Detection",
+    "Modulation"
+   ],
+   "explanation": "All three are right: filtering; detection; modulation. Pool question G7C11.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7c12",
+   "prompt": "What is the frequency above which a low-pass filter’s output power is less than half the input power?",
+   "answers": [
+    "Cutoff frequency"
+   ],
+   "wrong": [
+    "Notch frequency",
+    "Neper frequency",
+    "Rolloff frequency"
+   ],
+   "explanation": "Pool question G7C12.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7c13",
+   "prompt": "What term specifies a filter’s maximum ability to reject signals outside its passband?",
+   "answers": [
+    "Ultimate rejection"
+   ],
+   "wrong": [
+    "Notch depth",
+    "Rolloff",
+    "Insertion loss"
+   ],
+   "explanation": "Pool question G7C13.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g7c14",
+   "prompt": "The bandwidth of a band-pass filter is measured between what two frequencies?",
+   "answers": [
+    "Upper and lower half-power"
+   ],
+   "wrong": [
+    "Cutoff and rolloff",
+    "Pole and zero",
+    "Image and harmonic"
+   ],
+   "explanation": "Pool question G7C14.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "g8a01",
+   "prompt": "How is direct binary FSK modulation generated?",
+   "answers": [
+    "By changing an oscillator’s frequency directly with a digital control signal"
+   ],
+   "wrong": [
+    "By keying an FM transmitter with a sub-audible tone",
+    "By using a transceiver’s computer data interface protocol to change frequencies",
+    "By reconfiguring the CW keying input to act as a tone generator"
+   ],
+   "explanation": "Pool question G8A01.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8a02",
+   "prompt": "What is the name of the process that changes the phase angle of an RF signal to convey information?",
+   "answers": [
+    "Phase modulation"
+   ],
+   "wrong": [
+    "Phase convolution",
+    "Phase transformation",
+    "Phase inversion"
+   ],
+   "explanation": "Pool question G8A02.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8a03",
+   "prompt": "What is the name of the process that changes the instantaneous frequency of an RF wave to convey information?",
+   "answers": [
+    "Frequency modulation"
+   ],
+   "wrong": [
+    "Frequency convolution",
+    "Frequency transformation",
+    "Frequency conversion"
+   ],
+   "explanation": "Pool question G8A03.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8a04",
+   "prompt": "What emission is produced by a reactance modulator connected to a transmitter RF amplifier stage?",
+   "answers": [
+    "Phase modulation"
+   ],
+   "wrong": [
+    "Multiplex modulation",
+    "Amplitude modulation",
+    "Pulse modulation"
+   ],
+   "explanation": "Pool question G8A04.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8a05",
+   "prompt": "What type of modulation varies the instantaneous power level of the RF signal?",
+   "answers": [
+    "Amplitude modulation"
+   ],
+   "wrong": [
+    "Power modulation",
+    "Phase modulation",
+    "Frequency modulation"
+   ],
+   "explanation": "Pool question G8A05.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8a06",
+   "prompt": "Which of the following is characteristic of QPSK31?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "It is sideband sensitive",
+    "Its encoding provides error correction",
+    "Its bandwidth is approximately the same as BPSK31"
+   ],
+   "explanation": "All three are right: it is sideband sensitive; its encoding provides error correction; its bandwidth is approximately the same as BPSK31. Pool question G8A06.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8a07",
+   "prompt": "Which of the following phone emissions uses the narrowest bandwidth?",
+   "answers": [
+    "Single sideband"
+   ],
+   "wrong": [
+    "Vestigial sideband",
+    "Phase modulation",
+    "Frequency modulation"
+   ],
+   "explanation": "Pool question G8A07.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8a08",
+   "prompt": "Which of the following is an effect of overmodulation?",
+   "answers": [
+    "Excessive bandwidth"
+   ],
+   "wrong": [
+    "Insufficient audio",
+    "Insufficient bandwidth",
+    "Frequency drift"
+   ],
+   "explanation": "Pool question G8A08.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8a09",
+   "prompt": "What type of modulation is used by FT8?",
+   "answers": [
+    "8-tone frequency shift keying"
+   ],
+   "wrong": [
+    "Vestigial sideband",
+    "Amplitude compressed AM",
+    "8-bit direct sequence spread spectrum"
+   ],
+   "explanation": "Pool question G8A09.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8a10",
+   "prompt": "What is meant by the term “flat-topping,” when referring to an amplitude-modulated phone signal?",
+   "answers": [
+    "Signal distortion caused by excessive drive or speech levels"
+   ],
+   "wrong": [
+    "Signal distortion caused by insufficient collector current",
+    "The transmitter’s automatic level control (ALC) is properly adjusted",
+    "The transmitter’s carrier is properly suppressed"
+   ],
+   "explanation": "Pool question G8A10.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8a11",
+   "prompt": "What is the modulation envelope of an AM signal?",
+   "answers": [
+    "The waveform created by connecting the peak values of the modulated signal"
+   ],
+   "wrong": [
+    "The carrier frequency that contains the signal",
+    "Spurious signals that envelop nearby frequencies",
+    "The bandwidth of the modulated signal"
+   ],
+   "explanation": "Pool question G8A11.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8a12",
+   "prompt": "What is QPSK modulation?",
+   "answers": [
+    "Modulation in which digital data is transmitted using 0-, 90-, 180- and 270-degrees phase shift to represent pairs of bits"
+   ],
+   "wrong": [
+    "Modulation using quasi-parallel to serial conversion to reduce bandwidth",
+    "Modulation using quadra-pole sideband keying to generate spread spectrum signals",
+    "Modulation using Fast Fourier Transforms to generate frequencies at the first, second, third, and fourth harmonics of the carrier frequency to improve noise immunity"
+   ],
+   "explanation": "Pool question G8A12.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8a13",
+   "prompt": "What is a link budget?",
+   "answers": [
+    "The sum of transmit power and antenna gains minus system losses as seen at the receiver"
+   ],
+   "wrong": [
+    "The financial costs associated with operating a radio link",
+    "The sum of antenna gains minus system losses",
+    "The difference between transmit power and receiver sensitivity"
+   ],
+   "explanation": "Pool question G8A13.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8a14",
+   "prompt": "What is link margin?",
+   "answers": [
+    "The difference between received power level and minimum required signal level at the input to the receiver"
+   ],
+   "wrong": [
+    "The opposite of fade margin",
+    "Transmit power minus receiver sensitivity",
+    "Receiver sensitivity plus 3 dB"
+   ],
+   "explanation": "Pool question G8A14.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8b01",
+   "prompt": "Which mixer input is varied or tuned to convert signals of different frequencies to an intermediate frequency (IF)?",
+   "answers": [
+    "Local oscillator"
+   ],
+   "wrong": [
+    "Image frequency",
+    "RF input",
+    "Beat frequency oscillator"
+   ],
+   "explanation": "Pool question G8B01.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8b02",
+   "prompt": "What is the term for interference from a signal at twice the IF frequency from the desired signal?",
+   "answers": [
+    "Image response"
+   ],
+   "wrong": [
+    "Quadrature response",
+    "Mixer interference",
+    "Intermediate interference"
+   ],
+   "explanation": "Pool question G8B02.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8b03",
+   "prompt": "What is another term for the mixing of two RF signals?",
+   "answers": [
+    "Heterodyning"
+   ],
+   "wrong": [
+    "Synthesizing",
+    "Frequency inversion",
+    "Phase inversion"
+   ],
+   "explanation": "Pool question G8B03.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8b04",
+   "prompt": "What is the stage in a VHF FM transmitter that generates a harmonic of a lower frequency signal to reach the desired operating frequency?",
+   "answers": [
+    "Multiplier"
+   ],
+   "wrong": [
+    "Mixer",
+    "Reactance modulator",
+    "Balanced converter"
+   ],
+   "explanation": "Pool question G8B04.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8b05",
+   "prompt": "Which intermodulation products are closest to the original signal frequencies?",
+   "answers": [
+    "Odd-order"
+   ],
+   "wrong": [
+    "Second harmonics",
+    "Even-order",
+    "Intercept point"
+   ],
+   "explanation": "Pool question G8B05.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8b06",
+   "prompt": "What is the total bandwidth of an FM phone transmission having 5 kHz deviation and 3 kHz modulating frequency?",
+   "answers": [
+    "16 kHz"
+   ],
+   "wrong": [
+    "3 kHz",
+    "5 kHz",
+    "8 kHz"
+   ],
+   "explanation": "Pool question G8B06.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8b07",
+   "prompt": "What is the frequency deviation for a 12.21 MHz reactance modulated oscillator in a 5 kHz deviation, 146.52 MHz FM phone transmitter?",
+   "answers": [
+    "416.7 Hz"
+   ],
+   "wrong": [
+    "101.75 Hz",
+    "5 kHz",
+    "60 kHz"
+   ],
+   "explanation": "Pool question G8B07.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8b08",
+   "prompt": "Why is it important to know the duty cycle of the mode you are using when transmitting?",
+   "answers": [
+    "Some modes have high duty cycles that could exceed the transmitter’s average power rating"
+   ],
+   "wrong": [
+    "To aid in tuning your transmitter",
+    "To allow time for the other station to break in during a transmission",
+    "To prevent overmodulation"
+   ],
+   "explanation": "Pool question G8B08.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8b09",
+   "prompt": "Why is it good to match receiver bandwidth to the bandwidth of the operating mode?",
+   "answers": [
+    "It results in the best signal-to-noise ratio"
+   ],
+   "wrong": [
+    "It is required by FCC rules",
+    "It minimizes power consumption in the receiver",
+    "It improves impedance matching of the antenna"
+   ],
+   "explanation": "Pool question G8B09.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8b10",
+   "prompt": "What is the relationship between transmitted symbol rate and bandwidth?",
+   "answers": [
+    "Higher symbol rates require wider bandwidth"
+   ],
+   "wrong": [
+    "Symbol rate and bandwidth are not related",
+    "Lower symbol rates require wider bandwidth",
+    "Bandwidth is half the symbol rate"
+   ],
+   "explanation": "Pool question G8B10.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8b11",
+   "prompt": "What combination of a mixer’s Local Oscillator (LO) and RF input frequencies is found in the output?",
+   "answers": [
+    "The sum and difference"
+   ],
+   "wrong": [
+    "The ratio",
+    "The average",
+    "The arithmetic product"
+   ],
+   "explanation": "Pool question G8B11.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8b12",
+   "prompt": "What process combines two signals in a non-linear circuit to produce unwanted spurious outputs?",
+   "answers": [
+    "Intermodulation"
+   ],
+   "wrong": [
+    "Heterodyning",
+    "Detection",
+    "Rolloff"
+   ],
+   "explanation": "Pool question G8B12.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8b13",
+   "prompt": "Which of the following is an odd-order intermodulation product of frequencies F1 and F2?",
+   "answers": [
+    "2F1-F2"
+   ],
+   "wrong": [
+    "5F1-3F2",
+    "3F1-F2",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G8B13.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8c02",
+   "prompt": "Which digital mode is used as a low-power beacon for assessing HF propagation?",
+   "answers": [
+    "WSPR"
+   ],
+   "wrong": [
+    "MFSK16",
+    "PSK31",
+    "SSB-SC"
+   ],
+   "explanation": "Pool question G8C02.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8c03",
+   "prompt": "What part of a packet radio frame contains the routing and handling information?",
+   "answers": [
+    "Header"
+   ],
+   "wrong": [
+    "Directory",
+    "Preamble",
+    "Trailer"
+   ],
+   "explanation": "Pool question G8C03.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8c04",
+   "prompt": "Which of the following describes Baudot code?",
+   "answers": [
+    "A 5-bit code with additional start and stop bits"
+   ],
+   "wrong": [
+    "A 7-bit code with start, stop, and parity bits",
+    "A code using error detection and correction",
+    "A code using SELCAL and LISTEN"
+   ],
+   "explanation": "Pool question G8C04.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8c05",
+   "prompt": "In an ARQ mode, what is meant by a NAK response to a transmitted packet?",
+   "answers": [
+    "Request retransmission of the packet"
+   ],
+   "wrong": [
+    "Packet was received without error",
+    "Receiving station connected and ready for transmissions",
+    "Entire file received correctly"
+   ],
+   "explanation": "Pool question G8C05.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8c06",
+   "prompt": "What action results from a failure to exchange information due to excessive transmission attempts when using an ARQ mode?",
+   "answers": [
+    "The connection is dropped"
+   ],
+   "wrong": [
+    "The checksum overflows",
+    "Packets will be routed incorrectly",
+    "Encoding reverts to the default character set"
+   ],
+   "explanation": "Pool question G8C06.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8c07",
+   "prompt": "Which of the following narrow-band digital modes can receive signals with very low signal-to-noise ratios?",
+   "answers": [
+    "FT8"
+   ],
+   "wrong": [
+    "MSK144",
+    "AMTOR",
+    "MFSK32"
+   ],
+   "explanation": "Pool question G8C07.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8c08",
+   "prompt": "Which of the following statements is true about PSK31?",
+   "answers": [
+    "Upper case letters use longer Varicode bit sequences and thus slow down transmission"
+   ],
+   "wrong": [
+    "Upper case letters are sent with more power",
+    "Error correction is used to ensure accurate message reception",
+    "Higher power is needed as compared to RTTY for similar error rates"
+   ],
+   "explanation": "Pool question G8C08.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8c09",
+   "prompt": "Which is true of mesh network microwave nodes?",
+   "answers": [
+    "If one node fails, a packet may still reach its target station via an alternate node"
+   ],
+   "wrong": [
+    "Having more nodes increases signal strengths",
+    "Links between two nodes in a network may have different frequencies and bandwidths",
+    "More nodes reduce overall microwave out of band interference"
+   ],
+   "explanation": "Pool question G8C09.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8c10",
+   "prompt": "How does forward error correction (FEC) allow the receiver to correct data errors?",
+   "answers": [
+    "By transmitting redundant information with the data"
+   ],
+   "wrong": [
+    "By controlling transmitter output power for optimum signal strength",
+    "By using the Varicode character set",
+    "By using a parity bit with each character"
+   ],
+   "explanation": "Pool question G8C10.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8c11",
+   "prompt": "How are the two separate frequencies of a Frequency Shift Keyed (FSK) signal identified?",
+   "answers": [
+    "Mark and space"
+   ],
+   "wrong": [
+    "Dot and dash",
+    "On and off",
+    "High and low"
+   ],
+   "explanation": "Pool question G8C11.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8c12",
+   "prompt": "Which type of code is used for sending characters in a PSK31 signal?",
+   "answers": [
+    "Varicode"
+   ],
+   "wrong": [
+    "Viterbi",
+    "Volumetric",
+    "Binary"
+   ],
+   "explanation": "Pool question G8C12.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8c13",
+   "prompt": "What is indicated on a waterfall display by one or more vertical lines on either side of a data mode or RTTY signal?",
+   "answers": [
+    "Overmodulation"
+   ],
+   "wrong": [
+    "Long path propagation",
+    "Backscatter propagation",
+    "Insufficient modulation"
+   ],
+   "explanation": "Pool question G8C13.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8c14",
+   "prompt": "Which of the following describes a waterfall display?",
+   "answers": [
+    "Frequency is horizontal, signal strength is intensity, time is vertical"
+   ],
+   "wrong": [
+    "Frequency is horizontal, signal strength is vertical, time is intensity",
+    "Frequency is vertical, signal strength is intensity, time is horizontal",
+    "Frequency is vertical, signal strength is horizontal, time is intensity"
+   ],
+   "explanation": "Pool question G8C14.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8c15",
+   "prompt": "What does an FT8 signal report of +3 mean?",
+   "answers": [
+    "The signal-to-noise ratio is equivalent to +3dB in a 2.5 kHz bandwidth"
+   ],
+   "wrong": [
+    "The signal is 3 times the noise level of an equivalent SSB signal",
+    "The signal is S3 (weak signals)",
+    "The signal is 3 dB over S9"
+   ],
+   "explanation": "Pool question G8C15.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g8c16",
+   "prompt": "Which of the following provide digital voice modes?",
+   "answers": [
+    "DMR, D-STAR, and SystemFusion"
+   ],
+   "wrong": [
+    "WSPR, MFSK16, and EasyPAL",
+    "FT8, FT4, and FST4",
+    "Winlink, PACTOR II, and PACTOR III"
+   ],
+   "explanation": "Pool question G8C16.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "g9a01",
+   "prompt": "Which of the following factors determine the characteristic impedance of a parallel conductor feed line?",
+   "answers": [
+    "The distance between the centers of the conductors and the radius of the conductors"
+   ],
+   "wrong": [
+    "The distance between the centers of the conductors and the length of the line",
+    "The radius of the conductors and the frequency of the signal",
+    "The frequency of the signal and the length of the line"
+   ],
+   "explanation": "Pool question G9A01.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9a02",
+   "prompt": "What is the relationship between high standing wave ratio (SWR) and transmission line loss?",
+   "answers": [
+    "High SWR increases loss in a lossy transmission line"
+   ],
+   "wrong": [
+    "There is no relationship between transmission line loss and SWR",
+    "High SWR makes it difficult to measure transmission line loss",
+    "High SWR reduces the relative effect of transmission line loss"
+   ],
+   "explanation": "Pool question G9A02.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9a03",
+   "prompt": "What is the nominal characteristic impedance of “window line” transmission line?",
+   "answers": [
+    "450 ohms"
+   ],
+   "wrong": [
+    "50 ohms",
+    "75 ohms",
+    "100 ohms"
+   ],
+   "explanation": "Pool question G9A03.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9a04",
+   "prompt": "What causes reflected power at an antenna’s feed point?",
+   "answers": [
+    "A difference between feed line impedance and antenna feed point impedance"
+   ],
+   "wrong": [
+    "Operating an antenna at its resonant frequency",
+    "Using more transmitter power than the antenna can handle",
+    "Feeding the antenna with unbalanced feed line"
+   ],
+   "explanation": "Pool question G9A04.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9a05",
+   "prompt": "How does the attenuation of coaxial cable change with increasing frequency?",
+   "answers": [
+    "Attenuation increases"
+   ],
+   "wrong": [
+    "Attenuation is independent of frequency",
+    "Attenuation decreases",
+    "Attenuation follows Marconi’s Law of Attenuation"
+   ],
+   "explanation": "Pool question G9A05.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9a06",
+   "prompt": "In what units is RF feed line loss usually expressed?",
+   "answers": [
+    "Decibels per 100 feet"
+   ],
+   "wrong": [
+    "Ohms per 1,000 feet",
+    "Decibels per 1,000 feet",
+    "Ohms per 100 feet"
+   ],
+   "explanation": "Pool question G9A06.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9a07",
+   "prompt": "What must be done to prevent standing waves on a feed line connected to an antenna?",
+   "answers": [
+    "The antenna feed point impedance must be matched to the characteristic impedance of the feed line"
+   ],
+   "wrong": [
+    "The antenna feed point must be at DC ground potential",
+    "The feed line must be an odd number of electrical quarter wavelengths long",
+    "The feed line must be an even number of physical half wavelengths long"
+   ],
+   "explanation": "Pool question G9A07.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9a08",
+   "prompt": "If the SWR on an antenna feed line is 5:1, and a matching network at the transmitter end of the feed line is adjusted to present a 1:1 SWR to the transmitter, what is the resulting SWR on the feed line?",
+   "answers": [
+    "5:1"
+   ],
+   "wrong": [
+    "1:1",
+    "Between 1:1 and 5:1 depending on the characteristic impedance of the line",
+    "Between 1:1 and 5:1 depending on the reflected power at the transmitter"
+   ],
+   "explanation": "Pool question G9A08.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9a09",
+   "prompt": "What standing wave ratio results from connecting a 50-ohm feed line to a 200-ohm resistive load?",
+   "answers": [
+    "4:1"
+   ],
+   "wrong": [
+    "1:4",
+    "2:1",
+    "1:2"
+   ],
+   "explanation": "Pool question G9A09.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9a10",
+   "prompt": "What standing wave ratio results from connecting a 50-ohm feed line to a 10-ohm resistive load?",
+   "answers": [
+    "5:1"
+   ],
+   "wrong": [
+    "2:1",
+    "1:2",
+    "1:5"
+   ],
+   "explanation": "Pool question G9A10.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9a11",
+   "prompt": "What is the effect of transmission line loss on SWR measured at the input to the line?",
+   "answers": [
+    "Higher loss reduces SWR measured at the input to the line"
+   ],
+   "wrong": [
+    "Higher loss increases SWR measured at the input to the line",
+    "Higher loss increases the accuracy of SWR measured at the input to the line",
+    "Transmission line loss does not affect the SWR measurement"
+   ],
+   "explanation": "Pool question G9A11.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9b01",
+   "prompt": "What is a characteristic of a random-wire HF antenna connected directly to the transmitter?",
+   "answers": [
+    "Station equipment may carry significant RF current"
+   ],
+   "wrong": [
+    "It must be longer than 1 wavelength",
+    "It produces only vertically polarized radiation",
+    "It is more effective on the lower HF bands than on the higher bands"
+   ],
+   "explanation": "Pool question G9B01.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9b02",
+   "prompt": "Which of the following is a common way to adjust the feed point impedance of an elevated quarter-wave ground-plane vertical antenna to be approximately 50 ohms?",
+   "answers": [
+    "Slope the radials downward"
+   ],
+   "wrong": [
+    "Slope the radials upward",
+    "Lengthen the radials beyond one wavelength",
+    "Coil the radials"
+   ],
+   "explanation": "Pool question G9B02.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9b03",
+   "prompt": "Which of the following best describes the radiation pattern of a quarter-wave ground-plane vertical antenna?",
+   "answers": [
+    "Omnidirectional in azimuth"
+   ],
+   "wrong": [
+    "Bi-directional in azimuth",
+    "Isotropic",
+    "Hemispherical"
+   ],
+   "explanation": "Pool question G9B03.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9b04",
+   "prompt": "What is the radiation pattern of a dipole antenna in free space in a plane containing the conductor?",
+   "answers": [
+    "It is a figure-eight at right angles to the antenna"
+   ],
+   "wrong": [
+    "It is a figure-eight off both ends of the antenna",
+    "It is a circle (equal radiation in all directions)",
+    "It has a pair of lobes on one side of the antenna and a single lobe on the other side"
+   ],
+   "explanation": "Pool question G9B04.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9b05",
+   "prompt": "How does antenna height affect the azimuthal radiation pattern of a horizontal dipole HF antenna at elevation angles higher than about 45 degrees?",
+   "answers": [
+    "If the antenna is less than 1/2 wavelength high, the azimuthal pattern is almost omnidirectional"
+   ],
+   "wrong": [
+    "If the antenna is too high, the pattern becomes unpredictable",
+    "Antenna height has no effect on the pattern",
+    "If the antenna is less than 1/2 wavelength high, radiation off the ends of the wire is eliminated"
+   ],
+   "explanation": "Pool question G9B05.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9b06",
+   "prompt": "Where should the radial wires of a ground-mounted vertical antenna system be placed?",
+   "answers": [
+    "On the surface or buried a few inches below the ground"
+   ],
+   "wrong": [
+    "As high as possible above the ground",
+    "Parallel to the antenna element",
+    "At the center of the antenna"
+   ],
+   "explanation": "Pool question G9B06.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9b07",
+   "prompt": "How does the feed point impedance of a horizontal 1/2 wave dipole antenna change as the antenna height is reduced to 1/10 wavelength above ground?",
+   "answers": [
+    "It steadily decreases"
+   ],
+   "wrong": [
+    "It steadily increases",
+    "It peaks at about 1/8 wavelength above ground",
+    "It is unaffected by the height above ground"
+   ],
+   "explanation": "Pool question G9B07.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9b08",
+   "prompt": "How does the feed point impedance of a 1/2 wave dipole change as the feed point is moved from the center toward the ends?",
+   "answers": [
+    "It steadily increases"
+   ],
+   "wrong": [
+    "It steadily decreases",
+    "It peaks at about 1/8 wavelength from the end",
+    "It is unaffected by the location of the feed point"
+   ],
+   "explanation": "Pool question G9B08.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9b09",
+   "prompt": "Which of the following is an advantage of using a horizontally polarized as compared to a vertically polarized HF antenna?",
+   "answers": [
+    "Lower ground losses"
+   ],
+   "wrong": [
+    "Lower feed point impedance",
+    "Shorter radials",
+    "Lower radiation resistance"
+   ],
+   "explanation": "Pool question G9B09.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9b10",
+   "prompt": "What is the approximate length for a 1/2 wave dipole antenna cut for 14.250 MHz?",
+   "answers": [
+    "33 feet"
+   ],
+   "wrong": [
+    "8 feet",
+    "16 feet",
+    "24 feet"
+   ],
+   "explanation": "Pool question G9B10.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9b11",
+   "prompt": "What is the approximate length for a 1/2 wave dipole antenna cut for 3.550 MHz?",
+   "answers": [
+    "132 feet"
+   ],
+   "wrong": [
+    "42 feet",
+    "84 feet",
+    "263 feet"
+   ],
+   "explanation": "Pool question G9B11.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9b12",
+   "prompt": "What is the approximate length for a 1/4 wave monopole antenna cut for 28.5 MHz?",
+   "answers": [
+    "8 feet"
+   ],
+   "wrong": [
+    "11 feet",
+    "16 feet",
+    "21 feet"
+   ],
+   "explanation": "Pool question G9B12.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9c01",
+   "prompt": "Which of the following would increase the bandwidth of a Yagi antenna?",
+   "answers": [
+    "Larger-diameter elements"
+   ],
+   "wrong": [
+    "Closer element spacing",
+    "Loading coils in series with the element",
+    "Tapered-diameter elements"
+   ],
+   "explanation": "Pool question G9C01.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9c02",
+   "prompt": "What is the approximate length of the driven element of a Yagi antenna?",
+   "answers": [
+    "1/2 wavelength"
+   ],
+   "wrong": [
+    "1/4 wavelength",
+    "3/4 wavelength",
+    "1 wavelength"
+   ],
+   "explanation": "Pool question G9C02.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9c03",
+   "prompt": "How do the lengths of a three-element Yagi reflector and director compare to that of the driven element?",
+   "answers": [
+    "The reflector is longer, and the director is shorter"
+   ],
+   "wrong": [
+    "The reflector is shorter, and the director is longer",
+    "They are all the same length",
+    "Relative length depends on the frequency of operation"
+   ],
+   "explanation": "Pool question G9C03.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9c04",
+   "prompt": "How does antenna gain in dBi compare to gain stated in dBd for the same antenna?",
+   "answers": [
+    "Gain in dBi is 2.15 dB higher"
+   ],
+   "wrong": [
+    "Gain in dBi is 2.15 dB lower",
+    "Gain in dBd is 1.25 dBd lower",
+    "Gain in dBd is 1.25 dBd higher"
+   ],
+   "explanation": "Pool question G9C04.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9c05",
+   "prompt": "What is the primary effect of increasing boom length and adding directors to a Yagi antenna?",
+   "answers": [
+    "Gain increases"
+   ],
+   "wrong": [
+    "Beamwidth increases",
+    "Front-to-back ratio decreases",
+    "Resonant frequency is lower"
+   ],
+   "explanation": "Pool question G9C05.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9c07",
+   "prompt": "What does “front-to-back ratio” mean in reference to a Yagi antenna?",
+   "answers": [
+    "The power radiated in the major lobe compared to that in the opposite direction"
+   ],
+   "wrong": [
+    "The number of directors versus the number of reflectors",
+    "The relative position of the driven element with respect to the reflectors and directors",
+    "The ratio of forward gain to dipole gain"
+   ],
+   "explanation": "Pool question G9C07.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9c08",
+   "prompt": "What is meant by the “main lobe” of a directive antenna?",
+   "answers": [
+    "The direction of maximum radiated field strength from the antenna"
+   ],
+   "wrong": [
+    "The magnitude of the maximum vertical angle of radiation",
+    "The point of maximum current in a radiating antenna element",
+    "The maximum voltage standing wave point on a radiating element"
+   ],
+   "explanation": "Pool question G9C08.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9c09",
+   "prompt": "In free space, how does the gain of two three-element, horizontally polarized Yagi antennas spaced vertically 1/2 wavelength apart typically compare to the gain of a single three-element Yagi?",
+   "answers": [
+    "Approximately 3 dB higher"
+   ],
+   "wrong": [
+    "Approximately 1.5 dB higher",
+    "Approximately 6 dB higher",
+    "Approximately 9 dB higher"
+   ],
+   "explanation": "Pool question G9C09.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9c10",
+   "prompt": "Which of the following can be adjusted to optimize forward gain, front-to-back ratio, or SWR bandwidth of a Yagi antenna?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "The physical length of the boom",
+    "The number of elements on the boom",
+    "The spacing of each element along the boom"
+   ],
+   "explanation": "All three are right: the physical length of the boom; the number of elements on the boom; the spacing of each element along the boom. Pool question G9C10.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9c11",
+   "prompt": "What is a beta or hairpin match?",
+   "answers": [
+    "A shorted transmission line stub placed at the feed point of a Yagi antenna to provide impedance matching"
+   ],
+   "wrong": [
+    "A 1/4 wavelength section of 75-ohm coax in series with the feed point of a Yagi to provide impedance matching",
+    "A series capacitor selected to cancel the inductive reactance of a folded dipole antenna",
+    "A section of 300-ohm twin-lead transmission line used to match a folded dipole antenna"
+   ],
+   "explanation": "Pool question G9C11.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9c12",
+   "prompt": "Which of the following is a characteristic of using a gamma match with a Yagi antenna?",
+   "answers": [
+    "It does not require the driven element to be insulated from the boom"
+   ],
+   "wrong": [
+    "It does not require any inductors or capacitors",
+    "It is useful for matching multiband antennas",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G9C12.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9d01",
+   "prompt": "Which of the following antenna types will be most effective as a near vertical incidence skywave (NVIS) antenna for short-skip communications on 40 meters during the day?",
+   "answers": [
+    "A horizontal dipole placed between 1/10 and 1/4 wavelength above the ground"
+   ],
+   "wrong": [
+    "A vertical antenna placed between 1/4 and 1/2 wavelength above the ground",
+    "A horizontal dipole placed at approximately 1/2 wavelength above the ground",
+    "A vertical dipole placed at approximately 1/2 wavelength above the ground"
+   ],
+   "explanation": "Pool question G9D01.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9d02",
+   "prompt": "What is the feed point impedance of an end-fed half-wave antenna?",
+   "answers": [
+    "Very high"
+   ],
+   "wrong": [
+    "Very low",
+    "Approximately 50 ohms",
+    "Approximately 300 ohms"
+   ],
+   "explanation": "Pool question G9D02.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9d03",
+   "prompt": "In which direction is the maximum radiation from a VHF/UHF “halo” antenna?",
+   "answers": [
+    "Omnidirectional in the plane of the halo"
+   ],
+   "wrong": [
+    "Broadside to the plane of the halo",
+    "Opposite the feed point",
+    "On the same side as the feed point"
+   ],
+   "explanation": "Pool question G9D03.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9d04",
+   "prompt": "What is the primary function of antenna traps?",
+   "answers": [
+    "To enable multiband operation"
+   ],
+   "wrong": [
+    "To notch spurious frequencies",
+    "To provide balanced feed point impedance",
+    "To prevent out-of-band operation"
+   ],
+   "explanation": "Pool question G9D04.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9d05",
+   "prompt": "What is an advantage of vertically stacking horizontally polarized Yagi antennas?",
+   "answers": [
+    "It narrows the main lobe in elevation"
+   ],
+   "wrong": [
+    "It allows quick selection of vertical or horizontal polarization",
+    "It allows simultaneous vertical and horizontal polarization",
+    "It narrows the main lobe in azimuth"
+   ],
+   "explanation": "Pool question G9D05.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9d06",
+   "prompt": "Which of the following is an advantage of a log-periodic antenna?",
+   "answers": [
+    "Wide bandwidth"
+   ],
+   "wrong": [
+    "Higher gain per element than a Yagi antenna",
+    "Harmonic suppression",
+    "Polarization diversity"
+   ],
+   "explanation": "Pool question G9D06.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9d07",
+   "prompt": "Which of the following describes a log-periodic antenna?",
+   "answers": [
+    "Element length and spacing vary logarithmically along the boom"
+   ],
+   "wrong": [
+    "Impedance varies periodically as a function of frequency",
+    "Gain varies logarithmically as a function of frequency",
+    "SWR varies periodically as a function of boom length"
+   ],
+   "explanation": "Pool question G9D07.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9d08",
+   "prompt": "How does a “screwdriver” mobile antenna adjust its feed point impedance?",
+   "answers": [
+    "By varying the base loading inductance"
+   ],
+   "wrong": [
+    "By varying its body capacitance",
+    "By extending and retracting the whip",
+    "By deploying a capacitance hat"
+   ],
+   "explanation": "Pool question G9D08.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9d09",
+   "prompt": "What is the primary use of a Beverage antenna?",
+   "answers": [
+    "Directional receiving for MF and low HF bands"
+   ],
+   "wrong": [
+    "Directional transmitting for low HF bands",
+    "Portable direction finding at higher HF frequencies",
+    "Portable direction finding at lower HF frequencies"
+   ],
+   "explanation": "Pool question G9D09.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9d10",
+   "prompt": "In which direction or directions does an electrically small loop (less than 1/10 wavelength in circumference) have nulls in its radiation pattern?",
+   "answers": [
+    "Broadside to the loop"
+   ],
+   "wrong": [
+    "In the plane of the loop",
+    "Broadside and in the plane of the loop",
+    "Electrically small loops are omnidirectional"
+   ],
+   "explanation": "Pool question G9D10.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9d11",
+   "prompt": "Which of the following is a disadvantage of multiband antennas?",
+   "answers": [
+    "They have poor harmonic rejection"
+   ],
+   "wrong": [
+    "They present low impedance on all design frequencies",
+    "They must be used with an antenna tuner",
+    "They must be fed with open wire line"
+   ],
+   "explanation": "Pool question G9D11.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g9d12",
+   "prompt": "What is the common name of a dipole with a single central support?",
+   "answers": [
+    "Inverted V"
+   ],
+   "wrong": [
+    "Inverted L",
+    "Sloper",
+    "Lazy H"
+   ],
+   "explanation": "Pool question G9D12.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "g0a01",
+   "prompt": "What is one way that RF energy can affect human body tissue?",
+   "answers": [
+    "It heats body tissue"
+   ],
+   "wrong": [
+    "It causes radiation poisoning",
+    "It causes the blood count to reach a dangerously low level",
+    "It cools body tissue"
+   ],
+   "explanation": "Pool question G0A01.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0a02",
+   "prompt": "Which of the following is used to determine RF exposure from a transmitted signal?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Its duty cycle",
+    "Its frequency",
+    "Its power density"
+   ],
+   "explanation": "All three are right: its duty cycle; its frequency; its power density. Pool question G0A02.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0a03",
+   "prompt": "How can you determine that your station complies with FCC RF exposure regulations?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "By calculation based on FCC OET Bulletin 65",
+    "By calculation based on computer modeling",
+    "By measurement of field strength using calibrated equipment"
+   ],
+   "explanation": "All three are right: by calculation based on FCC OET Bulletin 65; by calculation based on computer modeling; by measurement of field strength using calibrated equipment. Pool question G0A03, from FCC rules §97.13(c)(1).",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0a04",
+   "prompt": "What does “time averaging” mean when evaluating RF radiation exposure?",
+   "answers": [
+    "The total RF exposure averaged over a certain period"
+   ],
+   "wrong": [
+    "The average amount of power developed by the transmitter over a specific 24-hour period",
+    "The average time it takes RF radiation to have any long-term effect on the body",
+    "The total time of the exposure"
+   ],
+   "explanation": "Pool question G0A04.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0a05",
+   "prompt": "What must you do if an evaluation of your station shows that the RF energy radiated by your station exceeds permissible limits for possible human absorption?",
+   "answers": [
+    "Take action to prevent human exposure to the excessive RF fields"
+   ],
+   "wrong": [
+    "File an Environmental Impact Statement (EIS-97) with the FCC",
+    "Secure written permission from your neighbors to operate above the controlled MPE limits",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G0A05, from FCC rules §97.13(c)(2), §1.1307(b).",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0a06",
+   "prompt": "What must you do if your station fails to meet the FCC RF exposure exemption criteria?",
+   "answers": [
+    "Perform an RF exposure evaluation in accordance with FCC OET Bulletin 65"
+   ],
+   "wrong": [
+    "Contact the FCC for permission to transmit",
+    "Perform an RF exposure evaluation in accordance with World Meteorological Organization guidelines",
+    "Use an FCC-approved band-pass filter"
+   ],
+   "explanation": "Pool question G0A06, from FCC rules §97.13(c)(2), §1.1307(1)(b)(3)(i).",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0a07",
+   "prompt": "What is the effect of modulation duty cycle on RF exposure?",
+   "answers": [
+    "A lower duty cycle permits greater power levels to be transmitted"
+   ],
+   "wrong": [
+    "A higher duty cycle permits greater power levels to be transmitted",
+    "Low duty cycle transmitters are exempt from RF exposure evaluation requirements",
+    "High duty cycle transmitters are exempt from RF exposure requirements"
+   ],
+   "explanation": "Pool question G0A07.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0a08",
+   "prompt": "Which of the following steps must an amateur operator take to ensure compliance with RF safety regulations?",
+   "answers": [
+    "Perform a routine RF exposure evaluation and prevent access to any identified high exposure areas"
+   ],
+   "wrong": [
+    "Post a copy of FCC Part 97.13 in the station",
+    "Notify neighbors within a 100-foot radius of the antenna of the existence of the station and power levels",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G0A08, from FCC rules §97.13(c)(2).",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0a09",
+   "prompt": "What type of instrument can be used to accurately measure an RF field strength?",
+   "answers": [
+    "A calibrated field strength meter with a calibrated antenna"
+   ],
+   "wrong": [
+    "A receiver with digital signal processing (DSP) noise reduction",
+    "An SWR meter with a peak-reading function",
+    "An oscilloscope with a high-stability crystal marker generator"
+   ],
+   "explanation": "Pool question G0A09.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0a10",
+   "prompt": "What should be done if evaluation shows that a neighbor might experience more than the allowable limit of RF exposure from the main lobe of a directional antenna?",
+   "answers": [
+    "Take precautions to ensure that the antenna cannot be pointed in their direction when they are present"
+   ],
+   "wrong": [
+    "Change to a non-polarized antenna with higher gain",
+    "Use an antenna with a higher front-to-back ratio",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G0A10.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0a11",
+   "prompt": "What precaution should be taken if you install an indoor transmitting antenna?",
+   "answers": [
+    "Make sure that MPE limits are not exceeded in occupied areas"
+   ],
+   "wrong": [
+    "Locate the antenna close to your operating position to minimize feed-line radiation",
+    "Position the antenna along the edge of a wall to reduce parasitic radiation",
+    "Make sure the antenna is properly shielded"
+   ],
+   "explanation": "Pool question G0A11.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0a12",
+   "prompt": "What stations are subject to the FCC rules on RF exposure?",
+   "answers": [
+    "All stations with a time-averaged transmission of more than one milliwatt"
+   ],
+   "wrong": [
+    "All commercial stations; amateur radio stations are exempt",
+    "Only stations with antennas lower than one wavelength above the ground",
+    "Only stations transmitting more than 500 watts PEP"
+   ],
+   "explanation": "Pool question G0A12, from FCC rules §1.1307(1)(b)(3)(i)(A).",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0b01",
+   "prompt": "Which wire or wires in a four-conductor 240 VAC circuit should be attached to fuses or circuit breakers?",
+   "answers": [
+    "Only the hot wires"
+   ],
+   "wrong": [
+    "Only the neutral wire",
+    "Only the ground wire",
+    "All wires"
+   ],
+   "explanation": "Pool question G0B01.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0b02",
+   "prompt": "According to the National Electrical Code, what is the minimum wire size that may be used safely for wiring with a 20-ampere circuit breaker?",
+   "answers": [
+    "AWG number 12"
+   ],
+   "wrong": [
+    "AWG number 20",
+    "AWG number 16",
+    "AWG number 8"
+   ],
+   "explanation": "Pool question G0B02.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0b03",
+   "prompt": "Which size of fuse or circuit breaker would be appropriate to use with a circuit that uses AWG number 14 wiring?",
+   "answers": [
+    "15 amperes"
+   ],
+   "wrong": [
+    "30 amperes",
+    "25 amperes",
+    "20 amperes"
+   ],
+   "explanation": "Pool question G0B03.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0b04",
+   "prompt": "Where should the station’s lightning protection ground system be located?",
+   "answers": [
+    "Outside the building"
+   ],
+   "wrong": [
+    "As close to the station equipment as possible",
+    "Next to the closest power pole",
+    "Parallel to the water supply line"
+   ],
+   "explanation": "Pool question G0B04.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0b05",
+   "prompt": "Which of the following conditions will cause a ground fault circuit interrupter (GFCI) to disconnect AC power?",
+   "answers": [
+    "Current flowing from one or more of the hot wires directly to ground"
+   ],
+   "wrong": [
+    "Current flowing from one or more of the hot wires to the neutral wire",
+    "Overvoltage on the hot wires",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G0B05.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0b06",
+   "prompt": "Which of the following is covered by the National Electrical Code?",
+   "answers": [
+    "Electrical safety of the station"
+   ],
+   "wrong": [
+    "Acceptable bandwidth limits",
+    "Acceptable modulation limits",
+    "RF exposure limits of the human body"
+   ],
+   "explanation": "Pool question G0B06.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0b07",
+   "prompt": "Which of these choices should be observed when climbing a tower using a safety harness?",
+   "answers": [
+    "Confirm that the harness is rated for the weight of the climber and that it is within its allowable service life"
+   ],
+   "wrong": [
+    "Always hold on to the tower with one hand",
+    "Ensure that all heavy tools are securely fastened to the harness",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G0B07.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0b08",
+   "prompt": "What should be done before climbing a tower that supports electrically powered devices?",
+   "answers": [
+    "Make sure all circuits that supply power to the tower are locked out and tagged"
+   ],
+   "wrong": [
+    "Notify the electric company that a person will be working on the tower",
+    "Unground the base of the tower",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G0B08.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0b09",
+   "prompt": "Which of the following is true of an emergency generator installation?",
+   "answers": [
+    "The generator should be operated in a well-ventilated area"
+   ],
+   "wrong": [
+    "The generator must be insulated from ground",
+    "Fuel should be stored near the generator for rapid refueling in case of an emergency",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question G0B09.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0b10",
+   "prompt": "Which of the following is a danger from lead-tin solder?",
+   "answers": [
+    "Lead can contaminate food if hands are not washed carefully after handling the solder"
+   ],
+   "wrong": [
+    "High voltages can cause lead-tin solder to disintegrate suddenly",
+    "Tin in the solder can “cold flow,” causing shorts in the circuit",
+    "RF energy can convert the lead into a poisonous gas"
+   ],
+   "explanation": "Pool question G0B10.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0b11",
+   "prompt": "Which of the following is required for lightning protection ground rods?",
+   "answers": [
+    "They must be bonded together with all other grounds"
+   ],
+   "wrong": [
+    "They must be bonded to all buried water and gas lines",
+    "Bends in ground wires must be made as close as possible to a right angle",
+    "Lightning grounds must be connected to all ungrounded wiring"
+   ],
+   "explanation": "Pool question G0B11.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0b12",
+   "prompt": "What is the purpose of a power supply interlock?",
+   "answers": [
+    "To ensure that dangerous voltages are removed if the cabinet is opened"
+   ],
+   "wrong": [
+    "To prevent unauthorized changes to the circuit that would void the manufacturer’s warranty",
+    "To shut down the unit if it becomes too hot",
+    "To shut off the power supply if too much voltage is produced"
+   ],
+   "explanation": "Pool question G0B12.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  },
+  {
+   "id": "g0b13",
+   "prompt": "Where should lightning arrestors be located?",
+   "answers": [
+    "Where the feed lines enter the building"
+   ],
+   "wrong": [
+    "On the antenna, opposite the feed point",
+    "In series with each ground lead",
+    "At the closest power pole ground electrode"
+   ],
+   "explanation": "Pool question G0B13.",
+   "tags": [
+    "Electrical and RF safety"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "General exam",
+   "count": 35,
+   "pass": 74,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "end",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Like the Element 3 exam: 35 multiple-choice questions, and you pass with 26 right. The real exam takes one question from each topic group; this one picks at random from the whole pool."
+  },
+  {
+   "name": "Weakest questions",
+   "count": 20,
+   "pass": 74,
+   "pick": "weakest",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Drill the questions you miss or haven’t seen yet, with the right answer after each one."
+  }
+ ]
+}

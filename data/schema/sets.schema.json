@@ -132,6 +132,25 @@
           "type": "string",
           "description": "A caution shown with the answer, e.g. that it changes after an election."
         },
+        "figure": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "src"
+          ],
+          "description": "A picture shown with the question, such as a circuit diagram it asks about.",
+          "properties": {
+            "src": {
+              "type": "string",
+              "pattern": "^(data/[A-Za-z0-9_./-]+|https://\\S+)$",
+              "description": "The image: a path in this app (data/figures/<file>) or an https link."
+            },
+            "alt": {
+              "type": "string",
+              "description": "Text that stands in for the picture."
+            }
+          }
+        },
         "tags": {
           "type": "array",
           "items": {
