@@ -1,0 +1,1335 @@
+{
+ "id": "us-civics-2008",
+ "name": "U.S. citizenship civics test (2008 version)",
+ "description": "The 100 civics questions USCIS asks from at the naturalization interview, with the answers it accepts. The officer asks up to 10 aloud and you pass with 6 right. This is the 2008 version of the test; people who filed their application on or after October 20, 2025 take the 2025 version instead, which you can import as your own set.",
+ "source": {
+  "name": "USCIS, Civics (History and Government) Questions for the Naturalization Test",
+  "url": "https://www.uscis.gov/citizenship/find-study-materials-and-resources/study-for-the-test"
+ },
+ "updated": "2026-10-19",
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "What is the supreme law of the land?",
+   "answers": [
+    "the Constitution"
+   ],
+   "tags": [
+    "American Government",
+    "Principles of American Democracy"
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "What does the Constitution do?",
+   "answers": [
+    "sets up the government",
+    "defines the government",
+    "protects basic rights of Americans"
+   ],
+   "tags": [
+    "American Government",
+    "Principles of American Democracy"
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+   "answers": [
+    "We the People"
+   ],
+   "tags": [
+    "American Government",
+    "Principles of American Democracy"
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "What is an amendment?",
+   "answers": [
+    "a change (to the Constitution)",
+    "an addition (to the Constitution)"
+   ],
+   "tags": [
+    "American Government",
+    "Principles of American Democracy"
+   ]
+  },
+  {
+   "id": "q5",
+   "prompt": "What do we call the first ten amendments to the Constitution?",
+   "answers": [
+    "the Bill of Rights"
+   ],
+   "tags": [
+    "American Government",
+    "Principles of American Democracy"
+   ]
+  },
+  {
+   "id": "q6",
+   "prompt": "What is one right or freedom from the First Amendment?",
+   "answers": [
+    "speech",
+    "religion",
+    "assembly",
+    "press",
+    "petition the government"
+   ],
+   "tags": [
+    "American Government",
+    "Principles of American Democracy"
+   ]
+  },
+  {
+   "id": "q7",
+   "prompt": "How many amendments does the Constitution have?",
+   "answers": [
+    "twenty-seven (27)"
+   ],
+   "tags": [
+    "American Government",
+    "Principles of American Democracy"
+   ]
+  },
+  {
+   "id": "q8",
+   "prompt": "What did the Declaration of Independence do?",
+   "answers": [
+    "announced our independence (from Great Britain)",
+    "declared our independence (from Great Britain)",
+    "said that the United States is free (from Great Britain)"
+   ],
+   "tags": [
+    "American Government",
+    "Principles of American Democracy"
+   ]
+  },
+  {
+   "id": "q9",
+   "prompt": "What are two rights in the Declaration of Independence?",
+   "answers": [
+    "life",
+    "liberty",
+    "pursuit of happiness"
+   ],
+   "need": 2,
+   "tags": [
+    "American Government",
+    "Principles of American Democracy"
+   ]
+  },
+  {
+   "id": "q10",
+   "prompt": "What is freedom of religion?",
+   "answers": [
+    "You can practice any religion, or not practice a religion."
+   ],
+   "tags": [
+    "American Government",
+    "Principles of American Democracy"
+   ]
+  },
+  {
+   "id": "q11",
+   "prompt": "What is the economic system in the United States?",
+   "answers": [
+    "capitalist economy",
+    "market economy"
+   ],
+   "tags": [
+    "American Government",
+    "Principles of American Democracy"
+   ]
+  },
+  {
+   "id": "q12",
+   "prompt": "What is the “rule of law”?",
+   "answers": [
+    "Everyone must follow the law.",
+    "Leaders must obey the law.",
+    "Government must obey the law.",
+    "No one is above the law."
+   ],
+   "tags": [
+    "American Government",
+    "Principles of American Democracy"
+   ]
+  },
+  {
+   "id": "q13",
+   "prompt": "Name one branch or part of the government.",
+   "answers": [
+    "Congress",
+    "legislative",
+    "President",
+    "executive",
+    "the courts",
+    "judicial"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q14",
+   "prompt": "What stops one branch of government from becoming too powerful?",
+   "answers": [
+    "checks and balances",
+    "separation of powers"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q15",
+   "prompt": "Who is in charge of the executive branch?",
+   "answers": [
+    "the President"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q16",
+   "prompt": "Who makes federal laws?",
+   "answers": [
+    "Congress",
+    "Senate and House (of Representatives)",
+    "(U.S. or national) legislature"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q17",
+   "prompt": "What are the two parts of the U.S. Congress?",
+   "answers": [
+    "the Senate and House (of Representatives)"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q18",
+   "prompt": "How many U.S. Senators are there?",
+   "answers": [
+    "one hundred (100)"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q19",
+   "prompt": "We elect a U.S. Senator for how many years?",
+   "answers": [
+    "six (6)"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q20",
+   "prompt": "Who is one of your state’s U.S. Senators now?",
+   "answers": [
+    "Answers will vary. (District of Columbia residents and residents of U.S. territories should answer that D.C. or the territory has no U.S. Senators.)"
+   ],
+   "note": "Your answer depends on where you live. Look it up for your state or district.",
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q21",
+   "prompt": "The House of Representatives has how many voting members?",
+   "answers": [
+    "four hundred thirty-five (435)"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q22",
+   "prompt": "We elect a U.S. Representative for how many years?",
+   "answers": [
+    "two (2)"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q23",
+   "prompt": "Name your U.S. Representative.",
+   "answers": [
+    "Answers will vary. (Residents of territories with nonvoting Delegates or Resident Commissioners may give that person’s name. Also acceptable: the territory has no voting Representatives in Congress.)"
+   ],
+   "note": "Your answer depends on where you live. Look it up for your state or district.",
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q24",
+   "prompt": "Who does a U.S. Senator represent?",
+   "answers": [
+    "all people of the state"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q25",
+   "prompt": "Why do some states have more Representatives than other states?",
+   "answers": [
+    "(because of) the state’s population",
+    "(because) they have more people",
+    "(because) some states have more people"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q26",
+   "prompt": "We elect a President for how many years?",
+   "answers": [
+    "four (4)"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q27",
+   "prompt": "In what month do we vote for President?",
+   "answers": [
+    "November"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q28",
+   "prompt": "What is the name of the President of the United States now?",
+   "answers": [
+    "Donald Trump",
+    "Trump"
+   ],
+   "note": "Check uscis.gov/citizenship/testupdates for the current answer before your interview.",
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q29",
+   "prompt": "What is the name of the Vice President of the United States now?",
+   "answers": [
+    "JD Vance",
+    "Vance"
+   ],
+   "note": "Check uscis.gov/citizenship/testupdates for the current answer before your interview.",
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q30",
+   "prompt": "If the President can no longer serve, who becomes President?",
+   "answers": [
+    "the Vice President"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q31",
+   "prompt": "If both the President and the Vice President can no longer serve, who becomes President?",
+   "answers": [
+    "the Speaker of the House"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q32",
+   "prompt": "Who is the Commander in Chief of the military?",
+   "answers": [
+    "the President"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q33",
+   "prompt": "Who signs bills to become laws?",
+   "answers": [
+    "the President"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q34",
+   "prompt": "Who vetoes bills?",
+   "answers": [
+    "the President"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q35",
+   "prompt": "What does the President’s Cabinet do?",
+   "answers": [
+    "advises the President"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q36",
+   "prompt": "What are two Cabinet-level positions?",
+   "answers": [
+    "Secretary of Agriculture",
+    "Secretary of Commerce",
+    "Secretary of Defense",
+    "Secretary of Education",
+    "Secretary of Energy",
+    "Secretary of Health and Human Services",
+    "Secretary of Homeland Security",
+    "Secretary of Housing and Urban Development",
+    "Secretary of the Interior",
+    "Secretary of Labor",
+    "Secretary of State",
+    "Secretary of Transportation",
+    "Secretary of the Treasury",
+    "Secretary of Veterans Affairs",
+    "Attorney General",
+    "Vice President"
+   ],
+   "need": 2,
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q37",
+   "prompt": "What does the judicial branch do?",
+   "answers": [
+    "reviews laws",
+    "explains laws",
+    "resolves disputes (disagreements)",
+    "decides if a law goes against the Constitution"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q38",
+   "prompt": "What is the highest court in the United States?",
+   "answers": [
+    "the Supreme Court"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q39",
+   "prompt": "How many justices are on the Supreme Court?",
+   "answers": [
+    "nine (9)"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q40",
+   "prompt": "Who is the Chief Justice of the United States now?",
+   "answers": [
+    "John Roberts (John G. Roberts, Jr.)"
+   ],
+   "note": "Check uscis.gov/citizenship/testupdates for the current answer before your interview.",
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q41",
+   "prompt": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+   "answers": [
+    "to print money",
+    "to declare war",
+    "to create an army",
+    "to make treaties"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q42",
+   "prompt": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+   "answers": [
+    "provide schooling and education",
+    "provide protection (police)",
+    "provide safety (fire departments)",
+    "give a driver’s license",
+    "approve zoning and land use"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q43",
+   "prompt": "Who is the Governor of your state now?",
+   "answers": [
+    "Answers will vary. (District of Columbia residents should answer that D.C. does not have a Governor.)"
+   ],
+   "note": "Your answer depends on where you live. Look it up for your state or district.",
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q44",
+   "prompt": "What is the capital of your state?",
+   "answers": [
+    "Answers will vary. (District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory.)"
+   ],
+   "note": "Your answer depends on where you live. Look it up for your state or district.",
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q45",
+   "prompt": "What are the two major political parties in the United States?",
+   "answers": [
+    "Democratic and Republican"
+   ],
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q46",
+   "prompt": "What is the political party of the President now?",
+   "answers": [
+    "Republican (Party)"
+   ],
+   "note": "Check uscis.gov/citizenship/testupdates for the current answer before your interview.",
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q47",
+   "prompt": "What is the name of the Speaker of the House of Representatives now?",
+   "answers": [
+    "Mike Johnson",
+    "Johnson"
+   ],
+   "note": "Check uscis.gov/citizenship/testupdates for the current answer before your interview.",
+   "tags": [
+    "American Government",
+    "System of Government"
+   ]
+  },
+  {
+   "id": "q48",
+   "prompt": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+   "answers": [
+    "Citizens eighteen (18) and older (can vote).",
+    "You don’t have to pay (a poll tax) to vote.",
+    "Any citizen can vote. (Women and men can vote.)",
+    "A male citizen of any race (can vote)."
+   ],
+   "tags": [
+    "American Government",
+    "Rights and Responsibilities"
+   ]
+  },
+  {
+   "id": "q49",
+   "prompt": "What is one responsibility that is only for United States citizens?",
+   "answers": [
+    "serve on a jury",
+    "vote in a federal election"
+   ],
+   "tags": [
+    "American Government",
+    "Rights and Responsibilities"
+   ]
+  },
+  {
+   "id": "q50",
+   "prompt": "Name one right only for United States citizens.",
+   "answers": [
+    "vote in a federal election",
+    "run for federal office"
+   ],
+   "tags": [
+    "American Government",
+    "Rights and Responsibilities"
+   ]
+  },
+  {
+   "id": "q51",
+   "prompt": "What are two rights of everyone living in the United States?",
+   "answers": [
+    "freedom of expression",
+    "freedom of speech",
+    "freedom of assembly",
+    "freedom to petition the government",
+    "freedom of religion",
+    "the right to bear arms"
+   ],
+   "need": 2,
+   "tags": [
+    "American Government",
+    "Rights and Responsibilities"
+   ]
+  },
+  {
+   "id": "q52",
+   "prompt": "What do we show loyalty to when we say the Pledge of Allegiance?",
+   "answers": [
+    "the United States",
+    "the flag"
+   ],
+   "tags": [
+    "American Government",
+    "Rights and Responsibilities"
+   ]
+  },
+  {
+   "id": "q53",
+   "prompt": "What is one promise you make when you become a United States citizen?",
+   "answers": [
+    "give up loyalty to other countries",
+    "defend the Constitution and laws of the United States",
+    "obey the laws of the United States",
+    "serve in the U.S. military (if needed)",
+    "serve (do important work for) the nation (if needed)",
+    "be loyal to the United States"
+   ],
+   "tags": [
+    "American Government",
+    "Rights and Responsibilities"
+   ]
+  },
+  {
+   "id": "q54",
+   "prompt": "How old do citizens have to be to vote for President?",
+   "answers": [
+    "eighteen (18) and older"
+   ],
+   "tags": [
+    "American Government",
+    "Rights and Responsibilities"
+   ]
+  },
+  {
+   "id": "q55",
+   "prompt": "What are two ways that Americans can participate in their democracy?",
+   "answers": [
+    "vote",
+    "join a political party",
+    "help with a campaign",
+    "join a civic group",
+    "join a community group",
+    "give an elected official your opinion on an issue",
+    "call Senators and Representatives",
+    "publicly support or oppose an issue or policy",
+    "run for office",
+    "write to a newspaper"
+   ],
+   "need": 2,
+   "tags": [
+    "American Government",
+    "Rights and Responsibilities"
+   ]
+  },
+  {
+   "id": "q56",
+   "prompt": "When is the last day you can send in federal income tax forms?",
+   "answers": [
+    "April 15"
+   ],
+   "tags": [
+    "American Government",
+    "Rights and Responsibilities"
+   ]
+  },
+  {
+   "id": "q57",
+   "prompt": "When must all men register for the Selective Service?",
+   "answers": [
+    "at age eighteen (18)",
+    "between eighteen (18) and twenty-six (26)"
+   ],
+   "tags": [
+    "American Government",
+    "Rights and Responsibilities"
+   ]
+  },
+  {
+   "id": "q58",
+   "prompt": "What is one reason colonists came to America?",
+   "answers": [
+    "freedom",
+    "political liberty",
+    "religious freedom",
+    "economic opportunity",
+    "practice their religion",
+    "escape persecution"
+   ],
+   "tags": [
+    "American History",
+    "Colonial Period and Independence"
+   ]
+  },
+  {
+   "id": "q59",
+   "prompt": "Who lived in America before the Europeans arrived?",
+   "answers": [
+    "American Indians",
+    "Native Americans"
+   ],
+   "tags": [
+    "American History",
+    "Colonial Period and Independence"
+   ]
+  },
+  {
+   "id": "q60",
+   "prompt": "What group of people was taken to America and sold as slaves?",
+   "answers": [
+    "Africans",
+    "people from Africa"
+   ],
+   "tags": [
+    "American History",
+    "Colonial Period and Independence"
+   ]
+  },
+  {
+   "id": "q61",
+   "prompt": "Why did the colonists fight the British?",
+   "answers": [
+    "because of high taxes (taxation without representation)",
+    "because the British army stayed in their houses (boarding, quartering)",
+    "because they didn’t have self-government"
+   ],
+   "tags": [
+    "American History",
+    "Colonial Period and Independence"
+   ]
+  },
+  {
+   "id": "q62",
+   "prompt": "Who wrote the Declaration of Independence?",
+   "answers": [
+    "(Thomas) Jefferson"
+   ],
+   "tags": [
+    "American History",
+    "Colonial Period and Independence"
+   ]
+  },
+  {
+   "id": "q63",
+   "prompt": "When was the Declaration of Independence adopted?",
+   "answers": [
+    "July 4, 1776"
+   ],
+   "tags": [
+    "American History",
+    "Colonial Period and Independence"
+   ]
+  },
+  {
+   "id": "q64",
+   "prompt": "There were 13 original states. Name three.",
+   "answers": [
+    "New Hampshire",
+    "Massachusetts",
+    "Rhode Island",
+    "Connecticut",
+    "New York",
+    "New Jersey",
+    "Pennsylvania",
+    "Delaware",
+    "Maryland",
+    "Virginia",
+    "North Carolina",
+    "South Carolina",
+    "Georgia"
+   ],
+   "need": 3,
+   "tags": [
+    "American History",
+    "Colonial Period and Independence"
+   ]
+  },
+  {
+   "id": "q65",
+   "prompt": "What happened at the Constitutional Convention?",
+   "answers": [
+    "The Constitution was written.",
+    "The Founding Fathers wrote the Constitution."
+   ],
+   "tags": [
+    "American History",
+    "Colonial Period and Independence"
+   ]
+  },
+  {
+   "id": "q66",
+   "prompt": "When was the Constitution written?",
+   "answers": [
+    "1787"
+   ],
+   "tags": [
+    "American History",
+    "Colonial Period and Independence"
+   ]
+  },
+  {
+   "id": "q67",
+   "prompt": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+   "answers": [
+    "(James) Madison",
+    "(Alexander) Hamilton",
+    "(John) Jay",
+    "Publius"
+   ],
+   "tags": [
+    "American History",
+    "Colonial Period and Independence"
+   ]
+  },
+  {
+   "id": "q68",
+   "prompt": "What is one thing Benjamin Franklin is famous for?",
+   "answers": [
+    "U.S. diplomat",
+    "oldest member of the Constitutional Convention",
+    "first Postmaster General of the United States",
+    "writer of “Poor Richard’s Almanac”",
+    "started the first free libraries"
+   ],
+   "tags": [
+    "American History",
+    "Colonial Period and Independence"
+   ]
+  },
+  {
+   "id": "q69",
+   "prompt": "Who is the “Father of Our Country”?",
+   "answers": [
+    "(George) Washington"
+   ],
+   "tags": [
+    "American History",
+    "Colonial Period and Independence"
+   ]
+  },
+  {
+   "id": "q70",
+   "prompt": "Who was the first President?",
+   "answers": [
+    "(George) Washington"
+   ],
+   "tags": [
+    "American History",
+    "Colonial Period and Independence"
+   ]
+  },
+  {
+   "id": "q71",
+   "prompt": "What territory did the United States buy from France in 1803?",
+   "answers": [
+    "the Louisiana Territory",
+    "Louisiana"
+   ],
+   "tags": [
+    "American History",
+    "1800s"
+   ]
+  },
+  {
+   "id": "q72",
+   "prompt": "Name one war fought by the United States in the 1800s.",
+   "answers": [
+    "War of 1812",
+    "Mexican-American War",
+    "Civil War",
+    "Spanish-American War"
+   ],
+   "tags": [
+    "American History",
+    "1800s"
+   ]
+  },
+  {
+   "id": "q73",
+   "prompt": "Name the U.S. war between the North and the South.",
+   "answers": [
+    "the Civil War",
+    "the War between the States"
+   ],
+   "tags": [
+    "American History",
+    "1800s"
+   ]
+  },
+  {
+   "id": "q74",
+   "prompt": "Name one problem that led to the Civil War.",
+   "answers": [
+    "slavery",
+    "economic reasons",
+    "states’ rights"
+   ],
+   "tags": [
+    "American History",
+    "1800s"
+   ]
+  },
+  {
+   "id": "q75",
+   "prompt": "What was one important thing that Abraham Lincoln did?",
+   "answers": [
+    "freed the slaves (Emancipation Proclamation)",
+    "saved (or preserved) the Union",
+    "led the United States during the Civil War"
+   ],
+   "tags": [
+    "American History",
+    "1800s"
+   ]
+  },
+  {
+   "id": "q76",
+   "prompt": "What did the Emancipation Proclamation do?",
+   "answers": [
+    "freed the slaves",
+    "freed slaves in the Confederacy",
+    "freed slaves in the Confederate states",
+    "freed slaves in most Southern states"
+   ],
+   "tags": [
+    "American History",
+    "1800s"
+   ]
+  },
+  {
+   "id": "q77",
+   "prompt": "What did Susan B. Anthony do?",
+   "answers": [
+    "fought for women’s rights",
+    "fought for civil rights"
+   ],
+   "tags": [
+    "American History",
+    "1800s"
+   ]
+  },
+  {
+   "id": "q78",
+   "prompt": "Name one war fought by the United States in the 1900s.",
+   "answers": [
+    "World War I",
+    "World War II",
+    "Korean War",
+    "Vietnam War",
+    "(Persian) Gulf War"
+   ],
+   "tags": [
+    "American History",
+    "Recent American History and Other Important Historical Information"
+   ]
+  },
+  {
+   "id": "q79",
+   "prompt": "Who was President during World War I?",
+   "answers": [
+    "(Woodrow) Wilson"
+   ],
+   "tags": [
+    "American History",
+    "Recent American History and Other Important Historical Information"
+   ]
+  },
+  {
+   "id": "q80",
+   "prompt": "Who was President during the Great Depression and World War II?",
+   "answers": [
+    "(Franklin) Roosevelt"
+   ],
+   "tags": [
+    "American History",
+    "Recent American History and Other Important Historical Information"
+   ]
+  },
+  {
+   "id": "q81",
+   "prompt": "Who did the United States fight in World War II?",
+   "answers": [
+    "Japan, Germany, and Italy"
+   ],
+   "tags": [
+    "American History",
+    "Recent American History and Other Important Historical Information"
+   ]
+  },
+  {
+   "id": "q82",
+   "prompt": "Before he was President, Eisenhower was a general. What war was he in?",
+   "answers": [
+    "World War II"
+   ],
+   "tags": [
+    "American History",
+    "Recent American History and Other Important Historical Information"
+   ]
+  },
+  {
+   "id": "q83",
+   "prompt": "During the Cold War, what was the main concern of the United States?",
+   "answers": [
+    "Communism"
+   ],
+   "tags": [
+    "American History",
+    "Recent American History and Other Important Historical Information"
+   ]
+  },
+  {
+   "id": "q84",
+   "prompt": "What movement tried to end racial discrimination?",
+   "answers": [
+    "civil rights (movement)"
+   ],
+   "tags": [
+    "American History",
+    "Recent American History and Other Important Historical Information"
+   ]
+  },
+  {
+   "id": "q85",
+   "prompt": "What did Martin Luther King, Jr. do?",
+   "answers": [
+    "fought for civil rights",
+    "worked for equality for all Americans"
+   ],
+   "tags": [
+    "American History",
+    "Recent American History and Other Important Historical Information"
+   ]
+  },
+  {
+   "id": "q86",
+   "prompt": "What major event happened on September 11, 2001, in the United States?",
+   "answers": [
+    "Terrorists attacked the United States."
+   ],
+   "tags": [
+    "American History",
+    "Recent American History and Other Important Historical Information"
+   ]
+  },
+  {
+   "id": "q87",
+   "prompt": "Name one American Indian tribe in the United States.",
+   "answers": [
+    "Cherokee",
+    "Navajo",
+    "Sioux",
+    "Chippewa",
+    "Choctaw",
+    "Pueblo",
+    "Apache",
+    "Iroquois",
+    "Creek",
+    "Blackfeet",
+    "Seminole",
+    "Cheyenne",
+    "Arawak",
+    "Shawnee",
+    "Mohegan",
+    "Huron",
+    "Oneida",
+    "Lakota",
+    "Crow",
+    "Teton",
+    "Hopi",
+    "Inuit"
+   ],
+   "tags": [
+    "American History",
+    "Recent American History and Other Important Historical Information"
+   ]
+  },
+  {
+   "id": "q88",
+   "prompt": "Name one of the two longest rivers in the United States.",
+   "answers": [
+    "Missouri (River)",
+    "Mississippi (River)"
+   ],
+   "tags": [
+    "Integrated Civics",
+    "Geography"
+   ]
+  },
+  {
+   "id": "q89",
+   "prompt": "What ocean is on the West Coast of the United States?",
+   "answers": [
+    "Pacific (Ocean)"
+   ],
+   "tags": [
+    "Integrated Civics",
+    "Geography"
+   ]
+  },
+  {
+   "id": "q90",
+   "prompt": "What ocean is on the East Coast of the United States?",
+   "answers": [
+    "Atlantic (Ocean)"
+   ],
+   "tags": [
+    "Integrated Civics",
+    "Geography"
+   ]
+  },
+  {
+   "id": "q91",
+   "prompt": "Name one U.S. territory.",
+   "answers": [
+    "Puerto Rico",
+    "U.S. Virgin Islands",
+    "American Samoa",
+    "Northern Mariana Islands",
+    "Guam"
+   ],
+   "tags": [
+    "Integrated Civics",
+    "Geography"
+   ]
+  },
+  {
+   "id": "q92",
+   "prompt": "Name one state that borders Canada.",
+   "answers": [
+    "Maine",
+    "New Hampshire",
+    "Vermont",
+    "New York",
+    "Pennsylvania",
+    "Ohio",
+    "Michigan",
+    "Minnesota",
+    "North Dakota",
+    "Montana",
+    "Idaho",
+    "Washington",
+    "Alaska"
+   ],
+   "tags": [
+    "Integrated Civics",
+    "Geography"
+   ]
+  },
+  {
+   "id": "q93",
+   "prompt": "Name one state that borders Mexico.",
+   "answers": [
+    "California",
+    "Arizona",
+    "New Mexico",
+    "Texas"
+   ],
+   "tags": [
+    "Integrated Civics",
+    "Geography"
+   ]
+  },
+  {
+   "id": "q94",
+   "prompt": "What is the capital of the United States?",
+   "answers": [
+    "Washington, D.C."
+   ],
+   "tags": [
+    "Integrated Civics",
+    "Geography"
+   ]
+  },
+  {
+   "id": "q95",
+   "prompt": "Where is the Statue of Liberty?",
+   "answers": [
+    "New York (Harbor)",
+    "Liberty Island",
+    "New Jersey",
+    "near New York City",
+    "on the Hudson (River)"
+   ],
+   "tags": [
+    "Integrated Civics",
+    "Geography"
+   ]
+  },
+  {
+   "id": "q96",
+   "prompt": "Why does the flag have 13 stripes?",
+   "answers": [
+    "because there were 13 original colonies",
+    "because the stripes represent the original colonies"
+   ],
+   "tags": [
+    "Integrated Civics",
+    "Symbols"
+   ]
+  },
+  {
+   "id": "q97",
+   "prompt": "Why does the flag have 50 stars?",
+   "answers": [
+    "because there is one star for each state",
+    "because each star represents a state",
+    "because there are 50 states"
+   ],
+   "tags": [
+    "Integrated Civics",
+    "Symbols"
+   ]
+  },
+  {
+   "id": "q98",
+   "prompt": "What is the name of the national anthem?",
+   "answers": [
+    "The Star-Spangled Banner"
+   ],
+   "tags": [
+    "Integrated Civics",
+    "Symbols"
+   ]
+  },
+  {
+   "id": "q99",
+   "prompt": "When do we celebrate Independence Day?",
+   "answers": [
+    "July 4"
+   ],
+   "tags": [
+    "Integrated Civics",
+    "Holidays"
+   ]
+  },
+  {
+   "id": "q100",
+   "prompt": "Name two national U.S. holidays.",
+   "answers": [
+    "New Year’s Day",
+    "Martin Luther King, Jr. Day",
+    "Presidents’ Day",
+    "Memorial Day",
+    "Juneteenth",
+    "Independence Day",
+    "Labor Day",
+    "Columbus Day",
+    "Veterans Day",
+    "Thanksgiving",
+    "Christmas"
+   ],
+   "need": 2,
+   "tags": [
+    "Integrated Civics",
+    "Holidays"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Civics interview",
+   "count": 10,
+   "pass": 60,
+   "pick": "random",
+   "answer": "self",
+   "feedback": "each",
+   "stopEarly": true,
+   "timeLimit": 0,
+   "why": "Like the real interview: up to 10 questions asked aloud, and it ends as soon as you have 6 right (or can no longer get there)."
+  },
+  {
+   "name": "All 100 questions",
+   "count": 0,
+   "pass": 60,
+   "pick": "inorder",
+   "answer": "self",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Go through the whole list once to see where you stand."
+  }
+ ]
+}
