@@ -241,7 +241,7 @@ input[type=date]{background:var(--surface);border:1px solid var(--line);border-r
 /* Google Drive sync: the shared OAuth client for petravanta.github.io (see README). Leave empty to turn Drive off. */
 const GOOGLE_CLIENT_ID = '326863468616-4hf2conk0ks0s4qdva9tphphdo7ht7eh.apps.googleusercontent.com';
 const KEY = 'studyBuddy.data', CUR_KEY = 'studyBuddy.current', TAB_KEY = 'studyBuddy.tab';
-const LISTS = ['programmes', 'sets', 'testTypes', 'tests', 'attempts'];
+const LISTS = ['programmes', 'sets', 'testTypes', 'tests', 'attempts', 'personal'];
 const LEVELS = {
   mastered: { label: 'Mastered', cls: 'l4', hint: 'right the last 4 times or more' },
   confident: { label: 'Confident', cls: 'l3', hint: 'right the last 2 or 3 times' },
@@ -272,7 +272,7 @@ const fmtDay = s => { const n = dn(s); return isNaN(n) ? '' : new Date(n * 864e5
 const fmtWhen = iso => { const d = new Date(iso); return isNaN(d) ? '' : d.toLocaleDateString([], { day: 'numeric', month: 'short', year: 'numeric' }) + ' · ' + d.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }); };
 
 /* ---------- The document ---------- */
-function blankDoc() { return { version: 1, settings: { updatedAt: now() }, programmes: [], sets: [], testTypes: [], tests: [], attempts: [], deleted: [] }; }
+function blankDoc() { return { version: 1, settings: { updatedAt: now() }, programmes: [], sets: [], testTypes: [], tests: [], attempts: [], personal: [], deleted: [] }; }
 function upgrade(d) {
   if (!d || typeof d !== 'object') return blankDoc();
   const out = { version: 1, settings: d.settings && typeof d.settings === 'object' ? d.settings : { updatedAt: '' }, deleted: Array.isArray(d.deleted) ? d.deleted.filter(x => typeof x === 'string') : [] };
@@ -317,7 +317,7 @@ async function loadBuiltin() {
   try {
     builtinIds = await (await fetch('data/sets.json')).json();
     const sets = await Promise.all(builtinIds.map(id => fetch(`data/sets/${id}.json`).then(r => r.json())));
-    sets.forEach(s => BUILTIN.set(s.id, s));
+    sets.forEach(s => { s.questions.forEach(q => { q.answers = q.answers || []; }); BUILTIN.set(s.id, s); });
   } catch (e) { builtinFailed = true; builtinIds = []; }
 }
 const setById = id => doc.sets.find(s => s.id === id) || BUILTIN.get(id);
@@ -347,15 +347,25 @@ function qstat(key) {
   const level = !h.length ? 'new' : !last.ok ? 'learning' : streak >= 4 ? 'mastered' : streak >= 2 ? 'confident' : 'getting';
   return { h, n: h.length, ok: h.filter(a => a.ok).length, streak, last, level };
 }
-// Every question in the programme's sets, optionally only those with one of `tags`
+// Every question in the programme's sets, optionally only those with one of `tags`. A question whose answer
+// depends on the person (`personal`) takes the answers they filled in, and is `blank` until they have.
 function pool(p, tags) {
   const out = [];
   for (const sid of p.sets) {
     const s = setById(sid);
     if (!s) continue;
-    for (const q of s.questions) if (!tags || !tags.length || (q.tags || []).some(t => tags.includes(t))) out.push({ s, q, key: s.id + '/' + q.id });
+    for (const q of s.questions) if (!tags || !tags.length || (q.tags || []).some(t => tags.includes(t))) {
+      const key = s.id + '/' + q.id, mine = q.personal ? myAnswers(key) : null;
+      out.push({ s, q: mine && mine.length ? { ...q, answers: mine } : q, key, blank: !!q.personal && !(mine && mine.length) });
+    }
   }
   return out;
+}
+const myAnswers = key => { const r = doc.personal.find(x => x.id === key); return r ? r.answers : null; };
+function setMyAnswers(key, answers) {
+  let r = doc.personal.find(x => x.id === key);
+  if (!r) { r = { id: key }; doc.personal.push(r); }
+  r.answers = answers; touch(r);
 }
 function levelCounts(items) {
   const c = { mastered: 0, confident: 0, getting: 0, learning: 0, new: 0 };
@@ -418,13 +428,16 @@ function checkTyped(q, text) {
 
 /* ---------- A round of questions ---------- */
 let timerT = null;
+let skipFill = false;   // "Not now" on the fill-in prompt lasts until the page reloads
 function startRun(p, cfg, testType, fixed) {
-  let items = fixed || order(pool(p, cfg.tags), cfg.pick);
+  const blank = fixed ? [] : pool(p, cfg.tags).filter(it => it.blank);
+  if (blank.length && !skipFill) return fillDrawer(blank, () => startRun(p, cfg, testType, fixed));
+  let items = fixed || order(pool(p, cfg.tags).filter(it => !it.blank), cfg.pick);
   if (!items.length) return toast(cfg.pick === 'missed' ? 'Nothing was missed last time.' : 'There are no questions to ask yet. Add a set first.');
   if (!fixed && cfg.count > 0) items = items.slice(0, cfg.count);
   run = {
     id: uid(), p: p.id, cfg: { feedback: 'each', ...cfg }, test: !!testType, type: testType ? testType.id : null, name: testType ? testType.name : 'Flashcards',
-    started: now(), deadline: cfg.timeLimit ? Date.now() + cfg.timeLimit * 60000 : 0, all: pool(p),
+    started: now(), deadline: cfg.timeLimit ? Date.now() + cfg.timeLimit * 60000 : 0, all: pool(p).filter(it => !it.blank),
     items: items.map(it => ({ ...it, ok: null, given: '' })), i: 0, phase: 'ask', done: false
   };
   prepare();
@@ -573,8 +586,9 @@ function renderPractice(p) {
   const passed = tests.filter(t => t.passed).length, q = { ...QUICK, ...(p.quick || {}) };
   if (!items.length) return `<section class="panel hero"><h2>${esc(p.name)}</h2>${daysTo(p)}<p>This programme has no questions yet. Add a built-in set, import your own or write some.</p>
     <div class="row"><button class="btn primary" type="button" data-act="addSet">Add questions</button></div></section>`;
-  const last = id => tests.find(t => t.type === id);
-  return `<section class="panel stack">
+  const last = id => tests.find(t => t.type === id), blank = items.filter(it => it.blank);
+  return `${blank.length ? `<div class="banner"><p><b>${plural(blank.length, 'question')} ${blank.length === 1 ? 'needs' : 'need'} your own answer</b>, because the right answer is different for everyone: ${esc(blank.map(it => it.q.personal.ask).join('; '))}.</p><button class="btn sm primary" type="button" data-act="fill">Fill them in</button></div>` : ''}
+  <section class="panel stack">
     <div class="row" style="justify-content:space-between"><div><h2>${esc(p.name)}</h2>${daysTo(p)}</div></div>
     <div class="stats">
       <div class="stat"><b>${c.mastered}<small class="muted" style="font-size:14px"> / ${items.length}</small></b><span>Mastered</span></div>
@@ -629,8 +643,8 @@ function drawQList(p) {
   });
   box.innerHTML = rows.length ? rows.map(it => {
     const st = qstat(it.key);
-    return `<button class="qrow" type="button" data-q="${esc(it.key)}"><span><span class="qp">${esc(it.q.prompt)}</span><br><span class="qa">${esc(it.q.answers.join(' · '))}</span></span>
-      <span class="side">${pill(st.level)}${st.n ? `<span class="small mono muted">${st.ok}/${st.n}</span>${dots(st.h)}` : ''}</span></button>`;
+    return `<button class="qrow" type="button" data-q="${esc(it.key)}"><span><span class="qp">${esc(it.q.prompt)}</span><br><span class="qa">${esc(it.blank ? it.q.personal.ask : it.q.answers.join(' · '))}</span></span>
+      <span class="side">${it.blank ? '<span class="pill fail">Needs your answer</span>' : pill(st.level)}${st.n ? `<span class="small mono muted">${st.ok}/${st.n}</span>${dots(st.h)}` : ''}</span></button>`;
   }).join('') : '<p class="empty">No questions match.</p>';
 }
 
@@ -671,6 +685,7 @@ function renderSets(p) {
 /* ---------- The round on screen ---------- */
 function answerBlock(q) {
   const need = q.need || 1, many = q.answers.length > 1;
+  if (!q.answers.length) return `<div class="ans"><p class="small muted">Your own answer: ${esc(q.personal ? q.personal.ask : '')}. Not filled in yet.</p></div>`;
   return `<div class="ans">
     ${many ? `<p class="small muted">${need > 1 ? `Any ${need} of these:` : 'Any of these:'}</p><ul>${q.answers.map(a => `<li>${esc(a)}</li>`).join('')}</ul>` : `<p class="one">${esc(q.answers[0])}</p>`}
     ${q.explanation ? `<p class="small">${esc(q.explanation)}</p>` : ''}
@@ -749,15 +764,35 @@ const lines = s => String(s || '').split('\n').map(x => x.trim()).filter(Boolean
 
 function questionDrawer(key) {
   const [sid, id] = [key.slice(0, key.lastIndexOf('/')), key.slice(key.lastIndexOf('/') + 1)];
-  const s = setById(sid), q = s && s.questions.find(x => x.id === id);
-  if (!q) return;
+  const s = setById(sid), raw = s && s.questions.find(x => x.id === id);
+  if (!raw) return;
+  const mine = raw.personal ? myAnswers(key) : null, q = mine && mine.length ? { ...raw, answers: mine } : raw;
   const st = qstat(key), progs = new Map(doc.programmes.map(p => [p.id, p.name]));
   openDrawer('Question', `<p class="prompt" style="font-size:18px;font-weight:600">${esc(q.prompt)}</p>${answerBlock(q)}
     <div class="row">${pill(st.level)}${st.n ? `<span class="small">Right ${st.ok} of ${plural(st.n, 'time')}${st.streak > 1 ? `, the last ${st.streak} in a row` : ''}</span>` : '<span class="small muted">Not answered yet</span>'}</div>
     ${st.n ? `<h3>Every answer</h3><div>${st.h.slice().reverse().map(a => `<div class="entry"><div>${esc(fmtWhen(a.at))}<div class="meta">${a.t ? 'Test' : 'Flashcards'} · ${esc(ANSWER_MODES[a.m] || '')}${progs.size > 1 && progs.get(a.p) ? ' · ' + esc(progs.get(a.p)) : ''}${a.g ? ' · “' + esc(a.g) + '”' : ''}</div></div><span class="${a.ok ? 'ok-t' : 'no-t'}">${a.ok ? '✓' : '✗'}</span></div>`).join('')}</div>` : ''}
     <p class="small muted">${esc(s.name)}${(q.tags || []).length ? ' · ' + esc(q.tags.join(' · ')) : ''}</p>
-    ${isBuiltin(s.id) ? '' : `<div class="row"><button class="btn" type="button" id="editQ">Edit question</button></div>`}`,
-    d => { const b = d.querySelector('#editQ'); if (b) b.onclick = () => editQuestion(s, q.id); });
+    ${raw.personal ? `<p class="small muted">${esc(raw.personal.hint || '')}</p>` : ''}
+    <div class="row">${raw.personal ? '<button class="btn" type="button" id="fillQ">Change my answer</button>' : ''}${isBuiltin(s.id) ? '' : '<button class="btn" type="button" id="editQ">Edit question</button>'}</div>`,
+    d => {
+      const b = d.querySelector('#editQ'); if (b) b.onclick = () => editQuestion(s, raw.id);
+      const f = d.querySelector('#fillQ'); if (f) f.onclick = () => fillDrawer([{ s, q: raw, key }], () => questionDrawer(key));
+    });
+}
+// Questions whose answer depends on the person (their Senators, their state capital): ask for their answers
+function fillDrawer(items, then) {
+  openDrawer('Your own answers', `<p class="small">These questions have a different answer for everyone, so fill in yours before practising. Put each answer that should count on its own line.</p>
+    <form class="form" id="ff">${items.map((it, i) => `<label class="field">${esc(it.q.prompt)}<textarea name="a${i}" rows="2" placeholder="${esc(it.q.personal.ask)}">${esc((myAnswers(it.key) || []).join('\n'))}</textarea></label>${it.q.personal.hint ? `<p class="hint">${esc(it.q.personal.hint)}</p>` : ''}`).join('')}
+    <div class="row"><button class="btn primary" type="submit">${then ? 'Save and start' : 'Save'}</button>${then ? '<button class="btn ghost" type="button" id="notNow">Not now, skip these</button>' : ''}</div></form>`, d => {
+    const f = d.querySelector('#ff');
+    f.onsubmit = e => {
+      e.preventDefault();
+      items.forEach((it, i) => setMyAnswers(it.key, lines(f['a' + i].value)));
+      save(); closeDrawer();
+      if (then) then(); else render();
+    };
+    const nn = d.querySelector('#notNow'); if (nn) nn.onclick = () => { skipFill = true; closeDrawer(); then(); };
+  });
 }
 
 function reviewDrawer(id) {
@@ -826,14 +861,15 @@ function addSetDrawer(p) {
       <button type="button" id="impPaste"><b>Paste questions</b><span class="sub">One per line: question, a tab or comma, then the answer</span></button>
       <button type="button" id="newSet"><b>Write a new set</b><span class="sub">Start empty and add questions one by one</span></button>
     </div>
-    <p class="small muted">CSV columns: <span class="mono">question, answer, need, wrong, explanation, note, tags</span>. Only the first two are required; separate several answers with <span class="mono">|</span>. <button class="btn sm ghost" type="button" id="tpl">Download a template</button></p>`, d => {
+    <p class="small muted">CSV columns: <span class="mono">question, answer, need, wrong, explanation, note, tags, personal</span>. Only the first two are required; separate several answers with <span class="mono">|</span>. Put what to ask for in <span class="mono">personal</span> (and leave <span class="mono">answer</span> empty) when everyone has their own answer. <button class="btn sm ghost" type="button" id="tpl">Download a template</button></p>`, d => {
     d.querySelectorAll('[data-link]').forEach(b => b.onclick = () => { linkSet(p, setById(b.dataset.link)); closeDrawer(); changed(); toast('Set added'); });
     d.querySelector('#impFile').onclick = () => $('#fileIn').click();
     d.querySelector('#impPaste').onclick = pasteDrawer;
     d.querySelector('#newSet').onclick = () => { const s = touch({ id: uid(), name: 'New set', description: '', questions: [] }); doc.sets.push(s); linkSet(p, s); changed(); setDrawer(s.id); };
-    d.querySelector('#tpl').onclick = () => download(new Blob([toCSV([['question', 'answer', 'need', 'wrong', 'explanation', 'note', 'tags'],
-      ['What does a red octagonal sign mean?', 'Stop', '', 'Yield|No entry|Slow down', 'Come to a full stop at the line.', '', 'Signs'],
-      ['Name two primary colours.', 'red|blue|yellow', '2', '', '', '', 'Colours']])], { type: 'text/csv' }), 'Study Buddy template.csv');
+    d.querySelector('#tpl').onclick = () => download(new Blob([toCSV([['question', 'answer', 'need', 'wrong', 'explanation', 'note', 'tags', 'personal'],
+      ['What does a red octagonal sign mean?', 'Stop', '', 'Yield|No entry|Slow down', 'Come to a full stop at the line.', '', 'Signs', ''],
+      ['Name two primary colours.', 'red|blue|yellow', '2', '', '', '', 'Colours', ''],
+      ['What is the speed limit on your street?', '', '', '', '', '', 'Local', 'The speed limit on your street']])], { type: 'text/csv' }), 'Study Buddy template.csv');
   });
 }
 // Add a set to a programme, and the practice tests it suggests that the programme doesn't have yet
@@ -865,7 +901,7 @@ function setDrawer(id) {
       <label class="field">Description<textarea id="sDesc" rows="2">${esc(s.description || '')}</textarea></label></div>`
       : `<p class="small">${esc(s.description || '')}</p>${s.source ? `<p class="small muted">Source: ${s.source.url ? `<a href="${esc(s.source.url)}" target="_blank" rel="noopener">${esc(s.source.name)}</a>` : esc(s.source.name)}${s.updated ? ` · checked ${esc(fmtDay(s.updated))}` : ''}</p>` : ''}`}
     <div class="row"><h3 class="grow" style="flex:1">${plural(s.questions.length, 'question')}</h3>${own ? '<button class="btn sm primary" type="button" id="addQ">+ Question</button>' : ''}</div>
-    <div class="qlist">${s.questions.map(q => `<button class="qrow" type="button" data-qe="${esc(q.id)}"><span><span class="qp">${esc(q.prompt)}</span><br><span class="qa">${esc(q.answers.join(' · '))}</span></span><span class="side">${pill(qstat(s.id + '/' + q.id).level)}</span></button>`).join('')}</div>
+    <div class="qlist">${s.questions.map(q => `<button class="qrow" type="button" data-qe="${esc(q.id)}"><span><span class="qp">${esc(q.prompt)}</span><br><span class="qa">${esc(q.personal ? 'Your own answer: ' + q.personal.ask : q.answers.join(' · '))}</span></span><span class="side">${pill(qstat(s.id + '/' + q.id).level)}</span></button>`).join('')}</div>
     <div class="row">${own ? '' : '<button class="btn" type="button" id="copySet">Make an editable copy</button>'}
       ${own ? '<button class="btn ghost danger" type="button" id="delSet">Delete set</button>' : ''}</div>
     ${own ? `<p class="small muted">Deleting removes it from every programme. Its answer history stays in your backup but no longer shows.</p>` : '<p class="small muted">A copy starts with no history: answers are tracked per set.</p>'}`, d => {
@@ -895,7 +931,12 @@ function editQuestion(s, id) {
   const q = id ? s.questions.find(x => x.id === id) : null, v = q || { prompt: '', answers: [], tags: [] };
   openDrawer(q ? 'Edit question' : 'New question', `<form class="form" id="qf">
     <label class="field">Question<textarea name="prompt" rows="3" required>${esc(v.prompt)}</textarea></label>
-    <label class="field">Answers that count, one per line<textarea name="answers" rows="3" required>${esc((v.answers || []).join('\n'))}</textarea></label>
+    <label class="check"><input type="checkbox" name="personal"${v.personal ? ' checked' : ''}> Everyone fills in their own answer (like “your state’s capital”)</label>
+    <div id="perso" class="form"${v.personal ? '' : ' hidden'}>
+      <label class="field">What to ask them for<input type="text" name="ask" value="${esc(v.personal ? v.personal.ask : '')}" placeholder="e.g. Your state’s capital"></label>
+      <label class="field">Where to find it (optional)<input type="text" name="phint" value="${esc(v.personal && v.personal.hint || '')}"></label>
+    </div>
+    <label class="field" id="ansF"${v.personal ? ' hidden' : ''}>Answers that count, one per line<textarea name="answers" rows="3">${esc((v.answers || []).join('\n'))}</textarea></label>
     <p class="hint">Words in (brackets) are optional when typing the answer.</p>
     <label class="field">How many answers you must give<input type="number" name="need" min="1" step="1" value="${v.need || 1}"></label>
     <label class="field">Wrong answers for multiple choice, one per line (optional)<textarea name="wrong" rows="3">${esc((v.wrong || []).join('\n'))}</textarea></label>
@@ -906,11 +947,13 @@ function editQuestion(s, id) {
   </form>`, d => {
     const f = d.querySelector('#qf');
     d.querySelector('#backQ').onclick = () => setDrawer(s.id);
+    f.personal.onchange = () => { d.querySelector('#perso').hidden = !f.personal.checked; d.querySelector('#ansF').hidden = f.personal.checked; };
     f.onsubmit = e => {
       e.preventDefault();
-      const answers = lines(f.answers.value);
-      if (!f.prompt.value.trim() || !answers.length) return toast('A question needs its text and at least one answer.');
-      const r = cleanQuestion({ id: q ? q.id : uniqueId(s), prompt: f.prompt.value, answers, need: +f.need.value, wrong: lines(f.wrong.value), explanation: f.explanation.value, note: f.note.value, tags: f.tags.value.split(',') });
+      const personal = f.personal.checked ? { ask: f.ask.value.trim() || 'Your answer', hint: f.phint.value.trim() } : null;
+      const answers = personal ? [] : lines(f.answers.value);
+      if (!f.prompt.value.trim() || (!personal && !answers.length)) return toast('A question needs its text and at least one answer.');
+      const r = cleanQuestion({ id: q ? q.id : uniqueId(s), prompt: f.prompt.value, answers, personal, need: +f.need.value, wrong: lines(f.wrong.value), explanation: f.explanation.value, note: f.note.value, tags: f.tags.value.split(',') });
       if (q) s.questions[s.questions.indexOf(q)] = r; else s.questions.push(r);
       touch(s); changed(); setDrawer(s.id);
     };
@@ -1009,7 +1052,7 @@ function parseRows(text) {
   if (cell !== '' || row.length) { row.push(cell); rows.push(row); }
   return rows.filter(r => r.some(c => c.trim()));
 }
-const COLS = { prompt: ['question', 'prompt', 'term', 'front', 'q'], answers: ['answer', 'answers', 'definition', 'back', 'a'], need: ['need'], wrong: ['wrong', 'distractors', 'choices'], explanation: ['explanation', 'why'], note: ['note'], tags: ['tags', 'tag', 'topic', 'topics', 'category'] };
+const COLS = { prompt: ['question', 'prompt', 'term', 'front', 'q'], answers: ['answer', 'answers', 'definition', 'back', 'a'], need: ['need'], wrong: ['wrong', 'distractors', 'choices'], explanation: ['explanation', 'why'], note: ['note'], personal: ['personal', 'your answer'], tags: ['tags', 'tag', 'topic', 'topics', 'category'] };
 function parseTable(text) {
   const rows = parseRows(text);
   let map = { prompt: 0, answers: 1 }, start = 0;
@@ -1022,7 +1065,7 @@ function parseTable(text) {
   const questions = []; let skipped = 0;
   for (const r of rows.slice(start)) {
     const get = k => map[k] == null ? '' : (r[map[k]] || '').trim();
-    const q = cleanQuestion({ prompt: get('prompt'), answers: split(get('answers')), need: +get('need') || 1, wrong: split(get('wrong')), explanation: get('explanation'), note: get('note'), tags: split(get('tags')) });
+    const q = cleanQuestion({ prompt: get('prompt'), answers: split(get('answers')), need: +get('need') || 1, wrong: split(get('wrong')), explanation: get('explanation'), note: get('note'), personal: get('personal'), tags: split(get('tags')) });
     if (q) questions.push(q); else skipped++;
   }
   return { questions, skipped };
@@ -1033,11 +1076,13 @@ function cleanQuestion(x) {
   const str = v => typeof v === 'string' ? v.trim() : v == null ? '' : String(v).trim();
   const arr = v => (Array.isArray(v) ? v : v == null || v === '' ? [] : [v]).map(str).filter(Boolean);
   const prompt = str(x.prompt ?? x.question ?? x.term ?? x.front);
-  const answers = arr(x.answers ?? x.answer ?? x.definition ?? x.back);
-  if (!prompt || !answers.length) return null;
+  const ask = str(x.personal && typeof x.personal === 'object' ? x.personal.ask : x.personal);
+  const answers = ask ? [] : arr(x.answers ?? x.answer ?? x.definition ?? x.back);
+  if (!prompt || (!ask && !answers.length)) return null;
   const q = { id: /^[a-z0-9-]+$/.test(str(x.id)) ? str(x.id) : '', prompt, answers };
+  if (ask) { q.personal = { ask }; const h = str(x.personal && x.personal.hint); if (h) q.personal.hint = h; }
   const need = Math.round(+x.need || 1);
-  if (need > 1) q.need = Math.min(need, answers.length);
+  if (need > 1) q.need = ask ? need : Math.min(need, answers.length);
   const wrong = arr(x.wrong); if (wrong.length) q.wrong = wrong;
   if (str(x.explanation)) q.explanation = str(x.explanation);
   if (str(x.note)) q.note = str(x.note);
@@ -1080,7 +1125,7 @@ function importPreview(set, skipped) {
   openDrawer('Import questions', `<form class="form" id="if">
     <label class="field">Set name<input type="text" name="name" value="${esc(same ? same.name : set.name)}"></label>
     <p class="small"><b>${plural(set.questions.length, 'question')}</b>${skipped ? `, and ${plural(skipped, 'line')} skipped for having no question or answer` : ''}.${tests.length ? ` Comes with ${plural(tests.length, 'practice test')}.` : ''}</p>
-    <div class="preview"><ol>${set.questions.slice(0, 30).map(q => `<li>${esc(q.prompt)} <span class="muted">→ ${esc(q.answers.join(' | '))}</span></li>`).join('')}</ol>${set.questions.length > 30 ? `<p class="muted">…and ${set.questions.length - 30} more</p>` : ''}</div>
+    <div class="preview"><ol>${set.questions.slice(0, 30).map(q => `<li>${esc(q.prompt)} <span class="muted">→ ${esc((q.personal ? 'each person’s own: ' + q.personal.ask : q.answers.join(' | ')))}</span></li>`).join('')}</ol>${set.questions.length > 30 ? `<p class="muted">…and ${set.questions.length - 30} more</p>` : ''}</div>
     ${same ? `<label class="check"><input type="checkbox" name="replace" checked> Update my set “${esc(same.name)}” with these (its history is kept)</label>` : ''}
     ${p ? `<label class="check"><input type="checkbox" name="link" checked> Add it to ${esc(p.name)}</label>` : ''}
     <div class="row"><button class="btn primary" type="submit">Import</button></div>
@@ -1111,17 +1156,17 @@ function shareSet(s, p) {
   if (s.description) clean.description = s.description;
   if (s.source) clean.source = s.source;
   if (s.updated) clean.updated = s.updated;
-  clean.questions = s.questions.map(q => { const c = cleanQuestion(q); c.id = q.id; return c; });
+  clean.questions = s.questions.map(q => { const c = cleanQuestion(q); c.id = q.id; if (!c.answers.length) delete c.answers; return c; });   // a personal question has no answers of its own
   const ts = tests.map(t => { const c = cleanTest(t); if (!c.tags.length) delete c.tags; return c; });
   if (ts.length) clean.tests = ts;
   openDrawer('Export set', `<p class="small">This file holds the questions${ts.length ? ' and the practice tests below' : ''}, nothing about your answers. Check it before you share it.</p>
-    <div class="preview"><p><b>${esc(clean.name)}</b>${clean.description ? '<br>' + esc(clean.description) : ''}</p><ol>${clean.questions.map(q => `<li>${esc(q.prompt)} <span class="muted">→ ${esc(q.answers.join(' | '))}${q.explanation ? ' · ' + esc(q.explanation) : ''}${q.note ? ' · ' + esc(q.note) : ''}</span></li>`).join('')}</ol>
+    <div class="preview"><p><b>${esc(clean.name)}</b>${clean.description ? '<br>' + esc(clean.description) : ''}</p><ol>${clean.questions.map(q => `<li>${esc(q.prompt)} <span class="muted">→ ${esc((q.personal ? 'each person’s own: ' + q.personal.ask : q.answers.join(' | ')))}${q.explanation ? ' · ' + esc(q.explanation) : ''}${q.note ? ' · ' + esc(q.note) : ''}</span></li>`).join('')}</ol>
     ${ts.length ? `<p><b>Practice tests</b></p><ul>${ts.map(t => `<li>${esc(t.name)}: ${esc(testSummary(t))}${t.why ? ' · ' + esc(t.why) : ''}</li>`).join('')}</ul>` : ''}</div>
     <div class="row"><button class="btn primary" type="button" id="xJson">Download JSON</button><button class="btn" type="button" id="xCsv">Download CSV</button></div>
     <p class="small muted">JSON keeps everything and can be imported back with its history matched. CSV opens in a spreadsheet and leaves out the practice tests.</p>`, d => {
     d.querySelector('#xJson').onclick = () => { download(new Blob([JSON.stringify({ format: 'study-buddy-set', formatVersion: 1, set: clean }, null, 1)], { type: 'application/json' }), `${clean.name}.json`); toast('Set exported'); };
     d.querySelector('#xCsv').onclick = () => {
-      const rows = [['question', 'answer', 'need', 'wrong', 'explanation', 'note', 'tags'], ...clean.questions.map(q => [q.prompt, q.answers.join('|'), q.need || '', (q.wrong || []).join('|'), q.explanation || '', q.note || '', (q.tags || []).join('|')])];
+      const rows = [['question', 'answer', 'need', 'wrong', 'explanation', 'note', 'tags', 'personal'], ...clean.questions.map(q => [q.prompt, (q.answers || []).join('|'), q.need || '', (q.wrong || []).join('|'), q.explanation || '', q.note || '', (q.tags || []).join('|'), q.personal ? q.personal.ask : ''])];
       download(new Blob([toCSV(rows)], { type: 'text/csv' }), `${clean.name}.csv`); toast('Set exported');
     };
   });
@@ -1371,6 +1416,7 @@ $('#main').addEventListener('click', e => {
     case 'settings': return settingsDrawer();
     case 'addSet': return addSetDrawer(p);
     case 'newTest': return testDrawer(p);
+    case 'fill': return fillDrawer(pool(p).filter(it => it.blank));
     case 'flash': return startRun(p, { ...QUICK, ...(p.quick || {}), feedback: 'each' });
     case 'flashMissed': return startRun(p, { ...QUICK, ...(p.quick || {}), pick: 'missed', count: 0, feedback: 'each' });
     case 'exportAnswers': return exportAnswers(p);

@@ -1,5 +1,5 @@
 // Checks what the JSON Schemas can't: every listed set has a file whose id matches its name, ids are unique,
-// and a question needing N answers has at least N. Run: node scripts/check-data.js
+// and a question needing N answers lists at least N (personal questions have none of their own). Run: node scripts/check-data.js
 const fs = require('fs'), path = require('path');
 const dir = path.join(__dirname, '..', 'data');
 const errors = [];
@@ -17,7 +17,7 @@ for (const id of list) {
   for (const q of set.questions || []) {
     if (seen.has(q.id)) errors.push(`${id}: question id ${q.id} is used twice`);
     seen.add(q.id);
-    if (q.need && q.need > q.answers.length) errors.push(`${id}/${q.id}: needs ${q.need} answers but lists ${q.answers.length}`);
+    if (q.answers && q.need && q.need > q.answers.length) errors.push(`${id}/${q.id}: needs ${q.need} answers but lists ${q.answers.length}`);
   }
   for (const t of set.tests || []) if (t.tags) for (const tag of t.tags)
     if (!(set.questions || []).some(q => (q.tags || []).includes(tag))) errors.push(`${id}: test "${t.name}" asks for tag "${tag}", which no question has`);
