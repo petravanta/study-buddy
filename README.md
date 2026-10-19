@@ -6,7 +6,7 @@ Study for flash-card style knowledge tests, like the U.S. citizenship civics tes
 
 **[Open Study Buddy → petravanta.github.io/study-buddy](https://petravanta.github.io/study-buddy/)**
 
-1. **Start a programme** for the test you're preparing for. Pick the built-in *U.S. citizenship civics test (2008 version)*, or start from scratch and bring your own questions. Add an exam date to see a countdown.
+1. **Start a programme** for the test you're preparing for. Pick a built-in set (the *U.S. citizenship civics test (2008 version)*, or the Washington State motorcycle knowledge tests for 2-wheel and 3-wheel endorsements), or start from scratch and bring your own questions. Add an exam date to see a countdown.
 2. **Practise with flashcards.** Choose how many cards, which ones (weakest first, random, new ones first, only the ones you missed, or in order) and how you answer: flip the card and mark yourself, pick from multiple choice, or type the answer.
 3. **Take practice tests.** Each programme has its own test types. The civics set comes with *Civics interview*: 10 questions, pass with 6, and it ends as soon as you've passed or can no longer pass, like the real interview.
 4. **See where you stand.** Every question shows how well you know it (New, Learning, Getting there, Confident, Mastered), how often you got it right and every answer you ever gave. *History* lists every practice test with its score and whether you passed.
@@ -68,6 +68,8 @@ Nothing is uploaded. Programmes, your own sets, test results and every answer ar
 [`CONTRIBUTING.md`](CONTRIBUTING.md) explains how to add a set. The `Check data` workflow validates every set against the schema and runs [`scripts/check-data.js`](scripts/check-data.js) on each pull request.
 
 The civics set is the USCIS 2008 civics test. The four questions about where you live (your Senators, Representative, Governor and state capital) are personal questions you fill in. Questions whose answer changes with elections or appointments carry a note to check [uscis.gov/citizenship/testupdates](https://www.uscis.gov/citizenship/testupdates) before the interview. People who filed on or after October 20, 2025 take the 2025 version of the test; it can be imported as your own set, or added here as a second built-in set.
+
+The two Washington motorcycle sets are written from the WA DOL [Motorcycle Operator Manual](https://dol.wa.gov/driver-licenses-and-permits/motorcycle/motorcycle-endorsement-training-and-testing/motorcycle-operator-manual), since DOL does not publish its test questions. Every question has three wrong answers for multiple choice. Their practice tests copy the format in the Washington Motorcycle Safety Program's Policies and Procedures Manual (v.2022): the 2-wheel permit knowledge test is 50 questions with 80% to pass (no more than 10 wrong), the 2-wheel endorsement knowledge test is 25 questions with 68% (no more than 8 wrong), and the 3-wheel permit or endorsement knowledge test is 25 questions with 80% (no more than 5 wrong). Both sets share the licensing, gear, inspection, road strategy, passenger, group riding and impairment questions; the 2-wheel set adds riding skills and the 3-wheel set adds trike and sidecar handling.
 
 ## Running it
 
