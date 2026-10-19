@@ -8,6 +8,7 @@ Built-in question sets are plain JSON files, so you can add one without touching
    - `id`: short and stable within the set (`q1`, `q2`, …). Never reuse or renumber one that has shipped.
    - `prompt`: the question as it is asked.
    - `answers`: every answer that counts as right. Words in (brackets) are optional when someone types the answer.
+   - `personal` (instead of `answers`), for a question whose answer is different for everyone, like “What is the capital of your state?”: `{ "ask": "Your state’s capital", "hint": "where to look it up, and special cases" }`. The app asks each person for their answer before they practise.
    - `need` (optional): how many answers someone must give, for "Name two…" questions.
    - `wrong` (optional): wrong answers for multiple choice. Plausible ones make the practice much better.
    - `explanation` and `note` (optional): why the answer is right, or a caution, such as an answer that changes after an election.
