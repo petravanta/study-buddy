@@ -244,10 +244,10 @@
   {
    "id": "q20",
    "prompt": "Who is one of your state’s U.S. Senators now?",
-   "answers": [
-    "Answers will vary. (District of Columbia residents and residents of U.S. territories should answer that D.C. or the territory has no U.S. Senators.)"
-   ],
-   "note": "Your answer depends on where you live. Look it up for your state or district.",
+   "personal": {
+    "ask": "Your state’s two U.S. Senators",
+    "hint": "Find them at senate.gov/senators. If you live in D.C. or a U.S. territory, write that it has no U.S. Senators."
+   },
    "tags": [
     "American Government",
     "System of Government"
@@ -278,10 +278,10 @@
   {
    "id": "q23",
    "prompt": "Name your U.S. Representative.",
-   "answers": [
-    "Answers will vary. (Residents of territories with nonvoting Delegates or Resident Commissioners may give that person’s name. Also acceptable: the territory has no voting Representatives in Congress.)"
-   ],
-   "note": "Your answer depends on where you live. Look it up for your state or district.",
+   "personal": {
+    "ask": "Your U.S. Representative",
+    "hint": "Find yours by ZIP code at house.gov/representatives/find-your-representative. Territory residents may name their nonvoting Delegate or Resident Commissioner, or say the territory has no voting Representative."
+   },
    "tags": [
     "American Government",
     "System of Government"
@@ -532,10 +532,10 @@
   {
    "id": "q43",
    "prompt": "Who is the Governor of your state now?",
-   "answers": [
-    "Answers will vary. (District of Columbia residents should answer that D.C. does not have a Governor.)"
-   ],
-   "note": "Your answer depends on where you live. Look it up for your state or district.",
+   "personal": {
+    "ask": "Your state’s Governor",
+    "hint": "If you live in D.C., write that D.C. does not have a Governor."
+   },
    "tags": [
     "American Government",
     "System of Government"
@@ -544,10 +544,10 @@
   {
    "id": "q44",
    "prompt": "What is the capital of your state?",
-   "answers": [
-    "Answers will vary. (District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory.)"
-   ],
-   "note": "Your answer depends on where you live. Look it up for your state or district.",
+   "personal": {
+    "ask": "Your state’s capital",
+    "hint": "If you live in D.C., write that D.C. is not a state and has no capital. Territory residents name the territory’s capital."
+   },
    "tags": [
     "American Government",
     "System of Government"

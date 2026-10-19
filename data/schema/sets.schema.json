@@ -5,77 +5,228 @@
   "description": "One question set: data/sets/<id>.json. The same shape is used inside a shared set file ({ \"format\": \"study-buddy-set\", \"formatVersion\": 1, \"set\": … }).",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "name", "questions"],
+  "required": [
+    "id",
+    "name",
+    "questions"
+  ],
   "properties": {
-    "id": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "Stable id, the same as the file name. Attempt history refers to it, so it is never renamed or reused." },
-    "name": { "type": "string", "minLength": 1, "description": "Name shown in the app, e.g. “U.S. citizenship civics test (2008 version)”." },
-    "description": { "type": "string", "description": "A sentence or two on what the set is for and how the real test works." },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Stable id, the same as the file name. Attempt history refers to it, so it is never renamed or reused."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Name shown in the app, e.g. “U.S. citizenship civics test (2008 version)”."
+    },
+    "description": {
+      "type": "string",
+      "description": "A sentence or two on what the set is for and how the real test works."
+    },
     "source": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["name"],
+      "required": [
+        "name"
+      ],
       "description": "Where the questions and answers come from.",
       "properties": {
-        "name": { "type": "string", "description": "Name of the source document." },
-        "url": { "type": "string", "description": "Link to the source." }
+        "name": {
+          "type": "string",
+          "description": "Name of the source document."
+        },
+        "url": {
+          "type": "string",
+          "description": "Link to the source."
+        }
       }
     },
-    "updated": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "Date the answers were last checked against the source (YYYY-MM-DD)." },
+    "updated": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "Date the answers were last checked against the source (YYYY-MM-DD)."
+    },
     "questions": {
       "type": "array",
       "minItems": 1,
       "description": "The questions, in the order the source lists them.",
-      "items": { "$ref": "#/definitions/question" }
+      "items": {
+        "$ref": "#/definitions/question"
+      }
     },
     "tests": {
       "type": "array",
       "description": "Practice tests suggested for this set. Starting a programme with the set adds these as its test types.",
-      "items": { "$ref": "#/definitions/testType" }
+      "items": {
+        "$ref": "#/definitions/testType"
+      }
     }
   },
   "definitions": {
     "question": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "prompt", "answers"],
+      "required": [
+        "id",
+        "prompt"
+      ],
       "properties": {
-        "id": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "Stable id within the set. Attempt history refers to it, so it is never renamed or reused." },
-        "prompt": { "type": "string", "minLength": 1, "description": "The question as it is asked." },
-        "answers": {
-          "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 },
-          "description": "Every answer that counts as right. Words in (brackets) are optional when typing an answer."
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "Stable id within the set. Attempt history refers to it, so it is never renamed or reused."
         },
-        "need": { "type": "integer", "minimum": 1, "description": "How many of the answers you have to give, for questions like “Name two…”. Leave out for one." },
+        "prompt": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The question as it is asked."
+        },
+        "answers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Every answer that counts as right. Words in (brackets) are optional when typing an answer. Left out for a personal question."
+        },
+        "personal": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "ask"
+          ],
+          "description": "Makes the answer the person’s own. The app asks them for it before they practise, and keeps it with their data, never in shared files.",
+          "properties": {
+            "ask": {
+              "type": "string",
+              "minLength": 1,
+              "description": "What to ask them for, e.g. “Your state’s Governor”."
+            },
+            "hint": {
+              "type": "string",
+              "description": "Where to find it, and what to answer in special cases."
+            }
+          }
+        },
+        "need": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "How many of the answers you have to give, for questions like “Name two…”. Leave out for one."
+        },
         "wrong": {
-          "type": "array", "items": { "type": "string", "minLength": 1 },
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
           "description": "Wrong answers to offer in multiple choice. Without them the app borrows answers from other questions in the set."
         },
-        "explanation": { "type": "string", "description": "Shown with the answer: why it is right, or a way to remember it." },
-        "note": { "type": "string", "description": "A caution shown with the answer, e.g. that it changes after an election." },
-        "tags": { "type": "array", "items": { "type": "string", "minLength": 1 }, "description": "Topics the question belongs to. Practice tests can be limited to some of them." }
-      }
+        "explanation": {
+          "type": "string",
+          "description": "Shown with the answer: why it is right, or a way to remember it."
+        },
+        "note": {
+          "type": "string",
+          "description": "A caution shown with the answer, e.g. that it changes after an election."
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Topics the question belongs to. Practice tests can be limited to some of them."
+        }
+      },
+      "oneOf": [
+        {
+          "required": [
+            "answers"
+          ]
+        },
+        {
+          "required": [
+            "personal"
+          ]
+        }
+      ],
+      "description": "A question with its answers, or (with `personal`) one whose answer is different for everyone, such as your state’s capital: each person fills theirs in before practising."
     },
     "testType": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["name", "count", "pass", "pick", "answer"],
+      "required": [
+        "name",
+        "count",
+        "pass",
+        "pick",
+        "answer"
+      ],
       "properties": {
-        "name": { "type": "string", "minLength": 1, "description": "Name shown on the test's card." },
-        "count": { "type": "integer", "minimum": 0, "description": "How many questions the test asks. 0 asks every question." },
-        "pass": { "type": "integer", "minimum": 0, "maximum": 100, "description": "Percent of the questions you need right to pass." },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Name shown on the test's card."
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "How many questions the test asks. 0 asks every question."
+        },
+        "pass": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Percent of the questions you need right to pass."
+        },
         "pick": {
-          "enum": ["random", "weakest", "unseen", "missed", "inorder"],
+          "enum": [
+            "random",
+            "weakest",
+            "unseen",
+            "missed",
+            "inorder"
+          ],
           "description": "Which questions it asks: random; weakest first (missed recently, then new, then least sure); new ones first; only ones missed last time; or in the set's order."
         },
         "answer": {
-          "enum": ["self", "choice", "typed"],
+          "enum": [
+            "self",
+            "choice",
+            "typed"
+          ],
           "description": "How you answer: flip the card and mark yourself; pick from multiple choice; or type the answer."
         },
-        "feedback": { "enum": ["each", "end"], "description": "Show whether you were right after each question, or only at the end." },
-        "stopEarly": { "type": "boolean", "description": "End the test as soon as you have passed, or can no longer pass, like the U.S. civics interview." },
-        "timeLimit": { "type": "integer", "minimum": 0, "description": "Minutes allowed. 0 for no limit." },
-        "tags": { "type": "array", "items": { "type": "string" }, "description": "Only ask questions with one of these tags. Empty or left out asks from all." },
-        "why": { "type": "string", "description": "Why this test is set up the way it is, shown on its card." }
+        "feedback": {
+          "enum": [
+            "each",
+            "end"
+          ],
+          "description": "Show whether you were right after each question, or only at the end."
+        },
+        "stopEarly": {
+          "type": "boolean",
+          "description": "End the test as soon as you have passed, or can no longer pass, like the U.S. civics interview."
+        },
+        "timeLimit": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Minutes allowed. 0 for no limit."
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Only ask questions with one of these tags. Empty or left out asks from all."
+        },
+        "why": {
+          "type": "string",
+          "description": "Why this test is set up the way it is, shown on its card."
+        }
       }
     }
   }
