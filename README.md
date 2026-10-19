@@ -6,7 +6,7 @@ Study for flash-card style knowledge tests, like the U.S. citizenship civics tes
 
 **[Open Study Buddy → petravanta.github.io/study-buddy](https://petravanta.github.io/study-buddy/)**
 
-1. **Start a programme** for the test you're preparing for. Pick a built-in set (the *U.S. citizenship civics test (2008 version)*, or the Washington State motorcycle knowledge tests for 2-wheel and 3-wheel endorsements), or start from scratch and bring your own questions. Add an exam date to see a countdown.
+1. **Start a programme** for the test you're preparing for. Pick a built-in set (the *U.S. citizenship civics test (2008 version)*, the Washington State motorcycle knowledge tests for 2-wheel and 3-wheel endorsements, or the official question pools for the amateur radio Technician, General and Extra licence exams), or start from scratch and bring your own questions. Add an exam date to see a countdown.
 2. **Practise with flashcards.** Choose how many cards, which ones (weakest first, random, new ones first, only the ones you missed, or in order) and how you answer: flip the card and mark yourself, pick from multiple choice, or type the answer.
 3. **Take practice tests.** Each programme has its own test types. The civics set comes with *Civics interview*: 10 questions, pass with 6, and it ends as soon as you've passed or can no longer pass, like the real interview.
 4. **See where you stand.** Every question shows how well you know it (New, Learning, Getting there, Confident, Mastered), how often you got it right and every answer you ever gave. *History* lists every practice test with its score and whether you passed.

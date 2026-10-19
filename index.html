@@ -157,6 +157,8 @@ nav.tabs .end{margin-left:auto}
 .flash{display:flex;flex-direction:column;gap:16px;padding:24px 22px;min-height:260px}
 .flash .meta{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
 .flash .prompt{font-size:22px;font-weight:600;line-height:1.35;text-wrap:balance}
+.figure{margin:0;align-self:flex-start;max-width:min(100%,520px);background:#fff;border-radius:8px;padding:6px}
+.figure img{display:block;width:100%;height:auto}
 @media (max-width:520px){.flash{padding:18px 16px}.flash .prompt{font-size:19px}}
 .need{font-size:14px;color:var(--accent);font-weight:600}
 .ans{border-top:1px solid var(--line);padding-top:14px;display:flex;flex-direction:column;gap:8px}
@@ -683,6 +685,8 @@ function renderSets(p) {
 }
 
 /* ---------- The round on screen ---------- */
+// A question's picture, such as a circuit diagram it asks about
+const figure = q => q.figure ? `<figure class="figure"><img src="${esc(q.figure.src)}" alt="${esc(q.figure.alt || '')}" loading="lazy"></figure>` : '';
 function answerBlock(q) {
   const need = q.need || 1, many = q.answers.length > 1;
   if (!q.answers.length) return `<div class="ans"><p class="small muted">Your own answer: ${esc(q.personal ? q.personal.ask : '')}. Not filled in yet.</p></div>`;
@@ -720,6 +724,7 @@ function renderRun() {
     <section class="panel flash">
       ${meta ? `<p class="meta">${esc(meta)}</p>` : ''}
       <p class="prompt">${esc(q.prompt)}</p>
+      ${figure(q)}
       ${(q.need || 1) > 1 ? `<p class="need">Give ${q.need} answers.</p>` : ''}
       ${body}
     </section></div>`;
@@ -768,7 +773,7 @@ function questionDrawer(key) {
   if (!raw) return;
   const mine = raw.personal ? myAnswers(key) : null, q = mine && mine.length ? { ...raw, answers: mine } : raw;
   const st = qstat(key), progs = new Map(doc.programmes.map(p => [p.id, p.name]));
-  openDrawer('Question', `<p class="prompt" style="font-size:18px;font-weight:600">${esc(q.prompt)}</p>${answerBlock(q)}
+  openDrawer('Question', `<p class="prompt" style="font-size:18px;font-weight:600">${esc(q.prompt)}</p>${figure(q)}${answerBlock(q)}
     <div class="row">${pill(st.level)}${st.n ? `<span class="small">Right ${st.ok} of ${plural(st.n, 'time')}${st.streak > 1 ? `, the last ${st.streak} in a row` : ''}</span>` : '<span class="small muted">Not answered yet</span>'}</div>
     ${st.n ? `<h3>Every answer</h3><div>${st.h.slice().reverse().map(a => `<div class="entry"><div>${esc(fmtWhen(a.at))}<div class="meta">${a.t ? 'Test' : 'Flashcards'} · ${esc(ANSWER_MODES[a.m] || '')}${progs.size > 1 && progs.get(a.p) ? ' · ' + esc(progs.get(a.p)) : ''}${a.g ? ' · “' + esc(a.g) + '”' : ''}</div></div><span class="${a.ok ? 'ok-t' : 'no-t'}">${a.ok ? '✓' : '✗'}</span></div>`).join('')}</div>` : ''}
     <p class="small muted">${esc(s.name)}${(q.tags || []).length ? ' · ' + esc(q.tags.join(' · ')) : ''}</p>
@@ -953,7 +958,7 @@ function editQuestion(s, id) {
       const personal = f.personal.checked ? { ask: f.ask.value.trim() || 'Your answer', hint: f.phint.value.trim() } : null;
       const answers = personal ? [] : lines(f.answers.value);
       if (!f.prompt.value.trim() || (!personal && !answers.length)) return toast('A question needs its text and at least one answer.');
-      const r = cleanQuestion({ id: q ? q.id : uniqueId(s), prompt: f.prompt.value, answers, personal, need: +f.need.value, wrong: lines(f.wrong.value), explanation: f.explanation.value, note: f.note.value, tags: f.tags.value.split(',') });
+      const r = cleanQuestion({ id: q ? q.id : uniqueId(s), prompt: f.prompt.value, answers, personal, need: +f.need.value, wrong: lines(f.wrong.value), explanation: f.explanation.value, note: f.note.value, figure: q && q.figure, tags: f.tags.value.split(',') });
       if (q) s.questions[s.questions.indexOf(q)] = r; else s.questions.push(r);
       touch(s); changed(); setDrawer(s.id);
     };
@@ -1086,6 +1091,8 @@ function cleanQuestion(x) {
   const wrong = arr(x.wrong); if (wrong.length) q.wrong = wrong;
   if (str(x.explanation)) q.explanation = str(x.explanation);
   if (str(x.note)) q.note = str(x.note);
+  const fig = x.figure && typeof x.figure === 'object' ? str(x.figure.src) : '';
+  if (/^(data\/[\w./-]+|https:\/\/\S+)$/.test(fig) && !fig.includes('..')) { q.figure = { src: fig }; if (str(x.figure.alt)) q.figure.alt = str(x.figure.alt); }
   const tags = arr(x.tags); if (tags.length) q.tags = [...new Set(tags)];
   return q;
 }
