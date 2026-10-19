@@ -1,0 +1,6628 @@
+{
+ "id": "ham-technician-2026",
+ "name": "Amateur radio Technician exam (2026–2030 pool)",
+ "description": "Every question in the official question pool for the Technician class amateur radio licence exam (Element 2), with its three wrong answers. The pool is used for exams from July 1, 2026 to June 30, 2030. The exam asks 35 multiple-choice questions, one from each topic group, and you pass with 26 right.",
+ "source": {
+  "name": "NCVEC Question Pool Committee, 2026–2030 Technician Class Question Pool (with the errata of February 19, 2026)",
+  "url": "https://www.ncvec.org/"
+ },
+ "updated": "2026-10-19",
+ "questions": [
+  {
+   "id": "t1a01",
+   "prompt": "Which of the following is part of the Basis and Purpose of the Amateur Radio Service?",
+   "answers": [
+    "Advancing skills in the technical and communication phases of the radio art"
+   ],
+   "wrong": [
+    "Providing personal radio communications for as many citizens as possible",
+    "Providing communications for international contesting",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T1A01, from FCC rules §97.1.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1a02",
+   "prompt": "Which agency regulates and enforces the rules for the Amateur Radio Service in the United States?",
+   "answers": [
+    "The FCC"
+   ],
+   "wrong": [
+    "ARRL",
+    "Homeland Security",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T1A02, from FCC rules §97.1.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1a03",
+   "prompt": "What do the FCC rules state regarding the use of a phonetic alphabet for station identification in the Amateur Radio Service?",
+   "answers": [
+    "It is encouraged when using phone emissions"
+   ],
+   "wrong": [
+    "It is required when transmitting emergency messages",
+    "It is required when in contact with foreign stations",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T1A03, from FCC rules §97.119(b)(2).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1a04",
+   "prompt": "How do you receive official notification of your new license and call sign after passing the exam?",
+   "answers": [
+    "Email from the FCC with a link to download the license grant"
+   ],
+   "wrong": [
+    "USPS First-Class Mail from the FCC",
+    "Email from the lead volunteer examiner",
+    "USPS First-Class Mail from the lead volunteer examiner"
+   ],
+   "explanation": "Pool question T1A04, from FCC rules §97.23.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1a05",
+   "prompt": "What proves that the FCC has issued an operator/primary license grant?",
+   "answers": [
+    "The license appears in the FCC ULS database"
+   ],
+   "wrong": [
+    "A printed copy of the certificate of successful completion of examination",
+    "An email notification from the NCVEC granting the license",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T1A05, from FCC rules §97.7.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1a06",
+   "prompt": "On which of the following HF frequencies can automatically controlled amateur propagation beacons be found?",
+   "answers": [
+    "On ten meters, between 28.200 MHz and 28.300 MHz"
+   ],
+   "wrong": [
+    "Anywhere in the Technician portion of 10 meters",
+    "Anywhere, if they are registered with the FCC",
+    "In a specific portion of each of the HF Technician bands"
+   ],
+   "explanation": "Pool question T1A06, from FCC rules §97.203(d).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1a07",
+   "prompt": "What is the FCC Part 97 definition of a space station?",
+   "answers": [
+    "An amateur station located more than 50 km above Earth's surface"
+   ],
+   "wrong": [
+    "Any satellite orbiting Earth",
+    "A manned satellite orbiting Earth",
+    "An amateur station using amateur radio satellites for relay of signals"
+   ],
+   "explanation": "Pool question T1A07, from FCC rules §97.3(a)(41).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1a08",
+   "prompt": "Who recommends transmit/receive channels for repeater and auxiliary stations?",
+   "answers": [
+    "A Volunteer Frequency Coordinator recognized by local amateurs"
+   ],
+   "wrong": [
+    "A Frequency Spectrum Manager appointed by the FCC",
+    "An FCC Regional Field Office",
+    "The International Telecommunication Union"
+   ],
+   "explanation": "Pool question T1A08, from FCC rules §97.3(a)(22).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1a09",
+   "prompt": "Who selects a Frequency Coordinator?",
+   "answers": [
+    "Amateur operators in a local or regional area whose stations are eligible to be repeater or auxiliary stations"
+   ],
+   "wrong": [
+    "The FCC Office of Spectrum Management and Coordination Policy",
+    "The local chapter of the Office of National Council of Independent Frequency Coordinators",
+    "The FCC Regional Field Office"
+   ],
+   "explanation": "Pool question T1A09, from FCC rules §97.3(a)(22).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1a10",
+   "prompt": "Besides an FCC-issued amateur operator license, what is required to be the control operator of a Radio Amateur Civil Emergency Service (RACES) Station?",
+   "answers": [
+    "Certification of current enrollment by a civil defense organization"
+   ],
+   "wrong": [
+    "A written recommendation by the local ARRL Emergency Coordinator",
+    "Membership in the Amateur Radio Emergency Service (ARES)",
+    "Nothing"
+   ],
+   "explanation": "Pool question T1A10, from FCC rules §97.407(a).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1a11",
+   "prompt": "Which of the following is prohibited?",
+   "answers": [
+    "Willful or malicious interference"
+   ],
+   "wrong": [
+    "International communications on VHF bands and higher frequencies",
+    "Third-party traffic using digital modes",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T1A11, from FCC rules §97.101(d).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1b01",
+   "prompt": "Which of the following frequency ranges are available for phone operation by Technician licensees?",
+   "answers": [
+    "28.300 MHz to 28.500 MHz"
+   ],
+   "wrong": [
+    "28.050 MHz to 28.150 MHz",
+    "28.100 MHz to 28.300 MHz",
+    "28.500 MHz to 28.600 MHz"
+   ],
+   "explanation": "Pool question T1B01, from FCC rules §97.301(e).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1b02",
+   "prompt": "Which of the following U.S. amateur radio operators are allowed to contact the International Space Station (ISS) on VHF bands?",
+   "answers": [
+    "Any amateur with a Technician class or higher license"
+   ],
+   "wrong": [
+    "Only amateurs with a General class or higher license",
+    "Only amateurs with a General class or higher license, and NASA approval",
+    "Any amateurs with a Technician class or higher license, and NASA approval"
+   ],
+   "explanation": "Pool question T1B02, from FCC rules §97.301, §97.207(c).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1b03",
+   "prompt": "Which frequency is in the 6-meter amateur band?",
+   "answers": [
+    "52.525 MHz"
+   ],
+   "wrong": [
+    "49.00 MHz",
+    "28.50 MHz",
+    "222.15 MHz"
+   ],
+   "explanation": "Pool question T1B03, from FCC rules §97.301(a).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1b04",
+   "prompt": "Which amateur band includes 146.52 MHz?",
+   "answers": [
+    "2 meters"
+   ],
+   "wrong": [
+    "6 meters",
+    "20 meters",
+    "70 centimeters"
+   ],
+   "explanation": "Pool question T1B04, from FCC rules §97.301(a).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1b05",
+   "prompt": "Which of the following bands include frequencies where Technicians are authorized to use digital modes such as FT8?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "10 meters",
+    "6 meters",
+    "2 meters"
+   ],
+   "explanation": "All three are right: 10 meters; 6 meters; 2 meters. Pool question T1B05, from FCC rules §97.301, §97.305.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1b06",
+   "prompt": "On which HF bands does a Technician class operator have phone privileges?",
+   "answers": [
+    "10-meter band only"
+   ],
+   "wrong": [
+    "None",
+    "80-meter, 40-meter, 15-meter, and 10-meter bands",
+    "30-meter band only"
+   ],
+   "explanation": "Pool question T1B06, from FCC rules §97.301(e), §97.305.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1b07",
+   "prompt": "Which of the following VHF/UHF band segments are limited to CW only?",
+   "answers": [
+    "50.0 MHz to 50.1 MHz and 144.0 MHz to 144.1 MHz"
+   ],
+   "wrong": [
+    "219 MHz to 220 MHz and 420.0 MHz to 420.1 MHz",
+    "902.0 MHz to 902.1 MHz",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T1B07, from FCC rules §97.305(a), §(c).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1b08",
+   "prompt": "How are US amateurs restricted in segments of bands where the Amateur Radio Service is secondary?",
+   "answers": [
+    "U.S. amateurs may find non-amateur stations in those segments, and must avoid interfering with them"
+   ],
+   "wrong": [
+    "U.S. amateurs must give foreign amateur stations priority in those segments",
+    "International communications are not permitted in those segments",
+    "Digital transmissions are not permitted in those segments"
+   ],
+   "explanation": "Pool question T1B08, from FCC rules §97.303.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1b09",
+   "prompt": "Why should you not set your transmit frequency to be exactly at the edge of an amateur band or sub-band?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "To allow for calibration error in the transmitter frequency display",
+    "So that modulation sidebands do not extend beyond the band edge",
+    "To allow for transmitter frequency drift"
+   ],
+   "explanation": "All three are right: to allow for calibration error in the transmitter frequency display; so that modulation sidebands do not extend beyond the band edge; to allow for transmitter frequency drift. Pool question T1B09, from FCC rules §97.101(a), §97.301(a-e).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1b10",
+   "prompt": "Where may SSB phone be used in amateur bands above 50 MHz?",
+   "answers": [
+    "In at least some segment of all these bands"
+   ],
+   "wrong": [
+    "Only in sub-bands allocated to General class or higher licensees",
+    "Only on repeaters",
+    "On any band if the power is limited to 25 watts"
+   ],
+   "explanation": "Pool question T1B10, from FCC rules §97.305(c).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1b11",
+   "prompt": "What is the maximum peak envelope power output for Technician class operators in their HF band segments?",
+   "answers": [
+    "200 watts"
+   ],
+   "wrong": [
+    "100 watts",
+    "50 watts",
+    "10 watts"
+   ],
+   "explanation": "Pool question T1B11, from FCC rules §97.313.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1b12",
+   "prompt": "Except for some specific restrictions, what is the maximum peak envelope power output for Technician class operators using frequencies above 30 MHz?",
+   "answers": [
+    "1500 watts"
+   ],
+   "wrong": [
+    "50 watts",
+    "100 watts",
+    "500 watts"
+   ],
+   "explanation": "Pool question T1B12, from FCC rules §97.313(b).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1c01",
+   "prompt": "For which classes of amateur radio licenses does the FCC currently issue new licenses?",
+   "answers": [
+    "Technician, General, Amateur Extra"
+   ],
+   "wrong": [
+    "Novice, Technician, General, Amateur Extra",
+    "Technician, Technician Plus, General, Amateur Extra",
+    "Novice, Technician Plus, General, Advanced"
+   ],
+   "explanation": "Pool question T1C01, from FCC rules §97.9(a), §97.17(a).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1c02",
+   "prompt": "Who may select a desired call sign under the vanity call sign rules?",
+   "answers": [
+    "Any licensed amateur"
+   ],
+   "wrong": [
+    "Only a licensed amateur with a General or Amateur Extra Class license",
+    "Only a licensed amateur with an Amateur Extra Class license",
+    "Only a licensed amateur who has been licensed continuously for more than 10 years"
+   ],
+   "explanation": "Pool question T1C02, from FCC rules §97.19.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1c03",
+   "prompt": "What types of international communications are FCC-licensed amateur radio stations permitted to make?",
+   "answers": [
+    "Communications incidental to the purposes of the Amateur Radio Service and remarks of a personal character"
+   ],
+   "wrong": [
+    "Communications incidental to conducting business or remarks of a personal nature",
+    "Only communications incidental to contest exchanges; all other communications are prohibited",
+    "Any communications that would be permitted by an international broadcast station"
+   ],
+   "explanation": "Pool question T1C03, from FCC rules §97.117.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1c04",
+   "prompt": "What may happen if the FCC is unable to reach you by email?",
+   "answers": [
+    "Revocation of the station license or suspension of the operator license"
+   ],
+   "wrong": [
+    "Fine and suspension of operator license",
+    "Revocation of access to the license record in the FCC system",
+    "Nothing; there is no such requirement"
+   ],
+   "explanation": "Pool question T1C04, from FCC rules §97.23.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1c05",
+   "prompt": "Which of the following is a valid Group D call sign format for Technician class?",
+   "answers": [
+    "KF1XXX"
+   ],
+   "wrong": [
+    "KA1X",
+    "W1XX",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T1C05.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1c06",
+   "prompt": "Which of the following statements is true about using your amateur radio license when operating aboard a vessel or craft in international waters?",
+   "answers": [
+    "You may operate from a US-documented vessel with the master's permission"
+   ],
+   "wrong": [
+    "Amateur operation is prohibited in international waters",
+    "You may only operate during maritime emergencies",
+    "You need special FCC authorization for maritime mobile operation"
+   ],
+   "explanation": "Pool question T1C06, from FCC rules §97.5(a)(2), §97.11(a).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1c07",
+   "prompt": "How long before the expiration date may an amateur radio license renewal be requested?",
+   "answers": [
+    "90 days"
+   ],
+   "wrong": [
+    "30 days",
+    "6 months",
+    "1 year"
+   ],
+   "explanation": "Pool question T1C07, from FCC rules §97.21, §1.949.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1c08",
+   "prompt": "What is the normal term for an FCC-issued amateur radio license?",
+   "answers": [
+    "Ten years"
+   ],
+   "wrong": [
+    "Five years",
+    "Eight years",
+    "Life"
+   ],
+   "explanation": "Pool question T1C08, from FCC rules §97.25.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1c09",
+   "prompt": "What is the grace period for renewal if an amateur license expires?",
+   "answers": [
+    "Two years"
+   ],
+   "wrong": [
+    "Three years",
+    "Five years",
+    "Ten years"
+   ],
+   "explanation": "Pool question T1C09, from FCC rules §97.21(a)(b).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1c10",
+   "prompt": "How soon after passing the examination for your first amateur radio license may you transmit on the amateur radio bands?",
+   "answers": [
+    "As soon as your operator/station license grant appears in the FCC’s license database"
+   ],
+   "wrong": [
+    "Immediately on receiving your Certificate of Successful Completion of Examination (CSCE)",
+    "As soon as your operator/station license grant appears on the ARRL website",
+    "As soon as you receive your license in the mail from the FCC"
+   ],
+   "explanation": "Pool question T1C10, from FCC rules §97.5a.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1c11",
+   "prompt": "If your license has expired and is still within the allowable grace period, may you continue to transmit on the amateur radio bands?",
+   "answers": [
+    "No, you must wait until the license has been renewed"
+   ],
+   "wrong": [
+    "Yes, for up to two years",
+    "Yes, as soon as you apply for renewal",
+    "Yes, for up to one year"
+   ],
+   "explanation": "Pool question T1C11, from FCC rules §97.21(b).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1d01",
+   "prompt": "With which countries are FCC-licensed amateur radio stations prohibited from exchanging communications?",
+   "answers": [
+    "Any country whose administration has notified the International Telecommunication Union (ITU) that it objects to such communications"
+   ],
+   "wrong": [
+    "Any country whose administration has notified the American Radio Relay League (ARRL) that it objects to such communications",
+    "Any country banned from such communications by the International Amateur Radio Union (IARU)",
+    "Any country banned from making such communications by the American Radio Relay League (ARRL)"
+   ],
+   "explanation": "Pool question T1D01, from FCC rules §97.111(a)(1).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1d02",
+   "prompt": "Under which of the following circumstances are one-way transmissions by an amateur station prohibited?",
+   "answers": [
+    "Broadcasting"
+   ],
+   "wrong": [
+    "Announcements of upcoming ham radio operating events",
+    "International Morse Code Practice",
+    "Telecommand or transmissions of telemetry"
+   ],
+   "explanation": "Pool question T1D02, from FCC rules §97.113(b), §97.111(b).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1d03",
+   "prompt": "When is it permissible to transmit messages encoded to obscure their meaning?",
+   "answers": [
+    "Only when transmitting control commands to space stations or model craft"
+   ],
+   "wrong": [
+    "Only when using a remote station during a contest",
+    "Only when transmitting certain approved digital codes",
+    "Never"
+   ],
+   "explanation": "Pool question T1D03, from FCC rules §97.211(b), §97.215(b), §97.113(a)(4).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1d04",
+   "prompt": "Under what conditions is an amateur station authorized to transmit music using a phone emission?",
+   "answers": [
+    "When incidental to an authorized retransmission of manned spacecraft communications"
+   ],
+   "wrong": [
+    "When the music produces no spurious emissions",
+    "When transmissions are limited to less than three minutes per hour",
+    "When the music is transmitted above 1280 MHz"
+   ],
+   "explanation": "Pool question T1D04, from FCC rules §97.113(a)(4), §97.113(c).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1d05",
+   "prompt": "When may amateur radio operators use their stations to notify other amateurs of the availability of equipment for sale or trade?",
+   "answers": [
+    "When selling amateur radio equipment and not on a regular basis"
+   ],
+   "wrong": [
+    "Never",
+    "When the equipment is not the personal property of either the station licensee, or the control operator, or their close relatives",
+    "When no profit is made on the sale"
+   ],
+   "explanation": "Pool question T1D05, from FCC rules §97.113(a)(3)(ii).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1d06",
+   "prompt": "What, if any, are the restrictions concerning transmission of language that may be considered indecent or obscene?",
+   "answers": [
+    "Any such language is prohibited"
+   ],
+   "wrong": [
+    "The FCC maintains a list of words that are not permitted to be used on amateur frequencies",
+    "The International Telecommunications Union (ITU) maintains a list of words that are not permitted to be used on amateur frequencies",
+    "There is no such prohibition"
+   ],
+   "explanation": "Pool question T1D06, from FCC rules §97.113(a)(4).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1d07",
+   "prompt": "Which of the following is an example of an auxiliary station?",
+   "answers": [
+    "A station sending one-way transmissions between a remote repeater receiver and the main repeater transmitter"
+   ],
+   "wrong": [
+    "A backup radio for emergency use in case the main station radio fails",
+    "A station used in the Military Auxiliary Radio System for linking government and amateur stations in a digital network",
+    "A second station utilized in multi-operator contest stations"
+   ],
+   "explanation": "Pool question T1D07, from FCC rules §97.113(d), §97.201(e).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1d08",
+   "prompt": "In which of the following circumstances may the control operator of an amateur station receive compensation for operating that station?",
+   "answers": [
+    "When the communication is a part of classroom instruction at an educational institution"
+   ],
+   "wrong": [
+    "When the communication is related to the sale of amateur equipment by the control operator's employer",
+    "When the communication is made to obtain emergency information for a local broadcast station",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T1D08, from FCC rules §97.113(a)(3)(iii).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1d09",
+   "prompt": "When may amateur stations transmit information in support of broadcasting, program production, or news gathering, assuming no other means is available?",
+   "answers": [
+    "When such communications are directly related to the immediate safety of human life or protection of property"
+   ],
+   "wrong": [
+    "When broadcasting communications to or from the space shuttle",
+    "Where non-commercial programming is gathered and supplied exclusively to the National Public Radio network",
+    "Never"
+   ],
+   "explanation": "Pool question T1D09, from FCC rules §97.113(5)(b).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1d10",
+   "prompt": "How does the FCC define broadcasting for the Amateur Radio Service?",
+   "answers": [
+    "Transmissions intended for reception by the general public"
+   ],
+   "wrong": [
+    "Two-way transmissions by amateur stations",
+    "Any transmission made by the licensed station",
+    "Transmission of messages directed only to amateur operators"
+   ],
+   "explanation": "Pool question T1D10, from FCC rules §97.3(a)(10).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1d11",
+   "prompt": "When may an amateur station transmit without identifying on the air?",
+   "answers": [
+    "When transmitting signals to control model craft"
+   ],
+   "wrong": [
+    "When the transmissions are of a brief nature to make station adjustments",
+    "When the transmissions are unmodulated",
+    "When the transmitted power level is below 0.1 watt"
+   ],
+   "explanation": "Pool question T1D11, from FCC rules §97.215.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1d12",
+   "prompt": "Which of the following is required when making on-the-air test transmissions?",
+   "answers": [
+    "Identify the transmitting station"
+   ],
+   "wrong": [
+    "Conduct tests only between 10 p.m. and 6 a.m. local time",
+    "Notify the FCC of the transmissions",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T1D12, from FCC rules §97.119(a).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1e01",
+   "prompt": "When may an amateur station transmit without a control operator?",
+   "answers": [
+    "Never"
+   ],
+   "wrong": [
+    "When using automatic control, such as in the case of a repeater",
+    "When the station licensee is away and another licensed amateur is using the station",
+    "When the transmitting station is an auxiliary station"
+   ],
+   "explanation": "Pool question T1E01, from FCC rules §97.7(a).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1e02",
+   "prompt": "Who may be the control operator of a station communicating through an amateur satellite or space station?",
+   "answers": [
+    "Any amateur allowed to transmit on the satellite uplink frequency"
+   ],
+   "wrong": [
+    "Only an Amateur Extra Class operator",
+    "A General class or higher licensee with a satellite operator certification",
+    "Only an Amateur Extra Class operator who is also an AMSAT member"
+   ],
+   "explanation": "Pool question T1E02, from FCC rules §97.301, §97.207(c).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1e03",
+   "prompt": "Who must designate the station control operator?",
+   "answers": [
+    "The station licensee"
+   ],
+   "wrong": [
+    "The FCC",
+    "The frequency coordinator",
+    "Any licensed operator"
+   ],
+   "explanation": "Pool question T1E03, from FCC rules §97.103(b).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1e04",
+   "prompt": "What determines the transmitting frequency privileges of an amateur station?",
+   "answers": [
+    "The class of operator license held by the control operator"
+   ],
+   "wrong": [
+    "The frequency authorized by the frequency coordinator",
+    "The frequencies printed on the license grant",
+    "The highest class of operator license held by anyone on the premises"
+   ],
+   "explanation": "Pool question T1E04, from FCC rules §97.103(b).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1e05",
+   "prompt": "What is an amateur station’s control point?",
+   "answers": [
+    "The location at which the control operator function is performed"
+   ],
+   "wrong": [
+    "The location of the station’s transmitting antenna",
+    "The location of the station’s transmitting apparatus",
+    "The mailing address of the station licensee"
+   ],
+   "explanation": "Pool question T1E05, from FCC rules §97.3(a)(14).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1e06",
+   "prompt": "When, other than during an emergency, may a Technician class licensee be the control operator of a station operating in an Amateur Extra Class band segment?",
+   "answers": [
+    "At no time"
+   ],
+   "wrong": [
+    "When designated as the control operator by an Amateur Extra Class licensee",
+    "As part of a multi-operator contest team",
+    "When using a club station whose trustee holds an Amateur Extra Class license"
+   ],
+   "explanation": "Pool question T1E06, from FCC rules §97.301.",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1e07",
+   "prompt": "When the control operator is not the station licensee, who is responsible for the proper operation of the station?",
+   "answers": [
+    "The control operator and the station licensee"
+   ],
+   "wrong": [
+    "All licensed amateurs who are present at the operation",
+    "Only the station licensee",
+    "Only the control operator"
+   ],
+   "explanation": "Pool question T1E07, from FCC rules §97.103(a).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1e08",
+   "prompt": "Which of the following is an example of automatic control?",
+   "answers": [
+    "Repeater operation"
+   ],
+   "wrong": [
+    "Controlling a station over the internet",
+    "Using a computer or other device to send CW automatically",
+    "Using a computer or other device to identify automatically"
+   ],
+   "explanation": "Pool question T1E08, from FCC rules §97.3(a)(6), §97.205(d).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1e09",
+   "prompt": "Which amateur stations may be remotely controlled?",
+   "answers": [
+    "Any station"
+   ],
+   "wrong": [
+    "Only repeater stations",
+    "Only automatically controlled stations",
+    "Only digital stations"
+   ],
+   "explanation": "Pool question T1E09, from FCC rules §97.109(c).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1e10",
+   "prompt": "Which of the following is an example of remote control as defined in Part 97?",
+   "answers": [
+    "Operating the station over the internet"
+   ],
+   "wrong": [
+    "A software defined radio (SDR)",
+    "Controlling a model aircraft, boat, or car by amateur radio",
+    "Earth-Moon-Earth (EME) communication"
+   ],
+   "explanation": "Pool question T1E10, from FCC rules §97.3(a)(39).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1e11",
+   "prompt": "What is a control operator as defined in Part 97?",
+   "answers": [
+    "An amateur operator designated by the licensee of a station to be responsible for transmissions and FCC rules compliance at that station"
+   ],
+   "wrong": [
+    "The person speaking or otherwise communicating messages over an amateur station",
+    "The person who is the licensee of an amateur station",
+    "An amateur operator identified in the FCC database as responsible for transmissions and FCC rules compliance at a station license location"
+   ],
+   "explanation": "Pool question T1E11, from FCC rules §97.3(a)(13).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1f01",
+   "prompt": "When must the station licensee make the station and the station records available for inspection?",
+   "answers": [
+    "At any time upon request by an FCC representative"
+   ],
+   "wrong": [
+    "At any time ten days after notification by the FCC of such an inspection",
+    "At any time after a written notification by the FCC of such inspection",
+    "Only when presented with a valid warrant by an FCC official or government agent"
+   ],
+   "explanation": "Pool question T1F01, from FCC rules §97.103(c).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1f02",
+   "prompt": "How often must you identify with your FCC-assigned call sign when using tactical call signs such as “Race Headquarters”?",
+   "answers": [
+    "At least every 10 minutes during and at the end of a communication"
+   ],
+   "wrong": [
+    "Never, the tactical call is sufficient",
+    "Once every hour",
+    "At the end of every transmission"
+   ],
+   "explanation": "Pool question T1F02, from FCC rules §97.119(a).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1f03",
+   "prompt": "When are you required to transmit your assigned call sign?",
+   "answers": [
+    "At least every 10 minutes during and at the end of a communication"
+   ],
+   "wrong": [
+    "At the beginning of each contact, and every 10 minutes thereafter",
+    "At least once during each transmission",
+    "At least every 15 minutes during and at the end of a communication"
+   ],
+   "explanation": "Pool question T1F03, from FCC rules §97.119(a).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1f04",
+   "prompt": "What language must you use for identification when using a phone emission?",
+   "answers": [
+    "English"
+   ],
+   "wrong": [
+    "Any language recognized by the United Nations",
+    "Any language recognized by the ITU",
+    "English, French, or Spanish"
+   ],
+   "explanation": "Pool question T1F04, from FCC rules §97.119(b)(2).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1f05",
+   "prompt": "What method of call sign identification is required for a station transmitting phone signals?",
+   "answers": [
+    "Send the call sign using a CW or phone emission"
+   ],
+   "wrong": [
+    "Send the call sign followed by the indicator RPT",
+    "Send the call sign followed by the indicator R",
+    "Send the call sign using only a phone emission"
+   ],
+   "explanation": "Pool question T1F05, from FCC rules §97.119(b)(2).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1f06",
+   "prompt": "Which of the following self-assigned indicators are acceptable when using a phone transmission?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "KL7CC stroke W3",
+    "KL7CC slant W3",
+    "KL7CC slash W3"
+   ],
+   "explanation": "All three are right: KL7CC stroke W3; KL7CC slant W3; KL7CC slash W3. Pool question T1F06, from FCC rules §97.119(c).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1f07",
+   "prompt": "Which of the following restrictions apply when a non-licensed person speaks to a foreign amateur radio station via a station under the control of an FCC-licensed amateur radio operator?",
+   "answers": [
+    "The foreign station must be in a country with which the U.S. has a third-party agreement"
+   ],
+   "wrong": [
+    "The person must be a U.S. citizen",
+    "The licensed control operator must do the station identification",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T1F07, from FCC rules §97.115(a)(2).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1f08",
+   "prompt": "What is the definition of third-party communications?",
+   "answers": [
+    "A message from a control operator to another amateur station control operator on behalf of another person"
+   ],
+   "wrong": [
+    "Amateur radio communications where three stations are in communications with one another",
+    "Operation when the transmitting equipment is licensed to a person other than the control operator",
+    "Temporary authorization for an unlicensed person to transmit on the amateur bands for technical experiments"
+   ],
+   "explanation": "Pool question T1F08, from FCC rules §97.3(a)(47).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1f09",
+   "prompt": "What type of amateur station simultaneously retransmits the signal of another amateur station on a different channel or channels?",
+   "answers": [
+    "Repeater station"
+   ],
+   "wrong": [
+    "Beacon station",
+    "Remote control station",
+    "Message forwarding station"
+   ],
+   "explanation": "Pool question T1F09, from FCC rules §97.3(a)(40).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1f10",
+   "prompt": "Who is accountable if a repeater inadvertently retransmits communications that violate the FCC rules?",
+   "answers": [
+    "The control operator of the originating station"
+   ],
+   "wrong": [
+    "The control operator of the repeater",
+    "The owner of the repeater",
+    "Both the originating station and the repeater owner"
+   ],
+   "explanation": "Pool question T1F10, from FCC rules §97.205(g).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t1f11",
+   "prompt": "Which of the following is a requirement for the issuance of a club station license grant?",
+   "answers": [
+    "The club must have at least four members"
+   ],
+   "wrong": [
+    "The trustee must have an Amateur Extra Class operator license grant",
+    "The club must be registered with the American Radio Relay League (ARRL)",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T1F11, from FCC rules §97.5(b)(2).",
+   "tags": [
+    "Commission’s rules"
+   ]
+  },
+  {
+   "id": "t2a01",
+   "prompt": "What is a common repeater frequency offset in the 2-meter band?",
+   "answers": [
+    "Plus or minus 600 kHz"
+   ],
+   "wrong": [
+    "Plus or minus 5 MHz",
+    "Plus or minus 500 kHz",
+    "Plus or minus 1 MHz"
+   ],
+   "explanation": "Pool question T2A01.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2a02",
+   "prompt": "What is the national calling frequency for FM simplex operations in the 2-meter band?",
+   "answers": [
+    "146.520 MHz"
+   ],
+   "wrong": [
+    "145.000 MHz",
+    "432.100 MHz",
+    "446.000 MHz"
+   ],
+   "explanation": "Pool question T2A02.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2a03",
+   "prompt": "What is a common repeater frequency offset in the 70-centimeter band?",
+   "answers": [
+    "Plus or minus 5 MHz"
+   ],
+   "wrong": [
+    "Plus or minus 600 kHz",
+    "Plus or minus 500 kHz",
+    "Plus or minus 1 MHz"
+   ],
+   "explanation": "Pool question T2A03.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2a04",
+   "prompt": "What is an appropriate way to call another station on a repeater if you know the other station's call sign?",
+   "answers": [
+    "Say the station's call sign, then identify with your call sign"
+   ],
+   "wrong": [
+    "Say \"break, break,\" then the other station’s call sign, followed by your call sign",
+    "Say \"CQ\" three times, then the other station's call sign, followed by your call sign",
+    "Wait for the station to call CQ, then answer with your call sign"
+   ],
+   "explanation": "Pool question T2A04.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2a05",
+   "prompt": "How should you respond to a station calling CQ?",
+   "answers": [
+    "Transmit the other station’s call sign followed by your call sign"
+   ],
+   "wrong": [
+    "Transmit \"CQ\" followed by the other station’s call sign",
+    "Transmit your call sign followed by the other station’s call sign",
+    "Transmit a signal report followed by your call sign"
+   ],
+   "explanation": "Pool question T2A05.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2a06",
+   "prompt": "What is an effective way to seek a call from any phone station when not using a repeater?",
+   "answers": [
+    "Repeat “CQ” a few times, followed by “this is,” and your call sign, then pause to listen; repeat as necessary"
+   ],
+   "wrong": [
+    "Sign your call sign once, followed by the words “listening for a call;” if there is no answer, change the frequency and repeat",
+    "Say “QTC,” followed by “this is” and your call sign; if there is no answer, change the frequency and repeat",
+    "Transmit an unmodulated carrier for approximately 10 seconds, followed by “this is” and your call sign, and pause to listen; repeat as necessary"
+   ],
+   "explanation": "Pool question T2A06.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2a07",
+   "prompt": "What does the term \"repeater offset\" mean?",
+   "answers": [
+    "The difference between a repeater’s transmit and receive frequencies"
+   ],
+   "wrong": [
+    "The repeater has a time delay to prevent interference",
+    "The approximately half-second delay to allow for the “squelch tail” to be removed",
+    "The fee charged by the repeater owner or club to provide for maintenance"
+   ],
+   "explanation": "Pool question T2A07.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2a08",
+   "prompt": "What is the meaning of the procedural signal “CQ”?",
+   "answers": [
+    "Calling any station"
+   ],
+   "wrong": [
+    "A shortened form of the term “Contest QSO”",
+    "“Communication Quality,” used to indicate transmitted audio clarity",
+    "Only the called station should transmit"
+   ],
+   "explanation": "Pool question T2A08.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2a09",
+   "prompt": "Which of the following is a customary way to indicate a station is listening on a repeater and looking for a contact?",
+   "answers": [
+    "The station’s call sign followed by the word “listening”"
+   ],
+   "wrong": [
+    "“CQ CQ” followed by the repeater’s call sign",
+    "The repeater’s call sign followed by the station’s call sign",
+    "“QSY” followed by your call sign"
+   ],
+   "explanation": "Pool question T2A09.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2a10",
+   "prompt": "What is a band plan, beyond the privileges established by the FCC?",
+   "answers": [
+    "A voluntary guideline for using different modes or activities within an amateur band"
+   ],
+   "wrong": [
+    "A list of operating schedules",
+    "A list of available net frequencies",
+    "A plan devised by a club to indicate frequency band usage"
+   ],
+   "explanation": "Pool question T2A10.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2a11",
+   "prompt": "What term describes an amateur station that is transmitting and receiving on the same frequency?",
+   "answers": [
+    "Simplex"
+   ],
+   "wrong": [
+    "Full duplex",
+    "Diplex",
+    "Multiplex"
+   ],
+   "explanation": "Pool question T2A11.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2b01",
+   "prompt": "What is the purpose of the reverse function on a VHF/UHF transceiver?",
+   "answers": [
+    "To listen on a repeater’s input frequency"
+   ],
+   "wrong": [
+    "To reduce power output",
+    "To increase power output",
+    "To listen on a repeater’s output frequency"
+   ],
+   "explanation": "Pool question T2B01.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2b02",
+   "prompt": "What term describes the use of a sub-audible tone transmitted along with normal voice audio to open the squelch of a receiver?",
+   "answers": [
+    "CTCSS"
+   ],
+   "wrong": [
+    "Carrier squelch",
+    "Tone burst",
+    "DTMF"
+   ],
+   "explanation": "Pool question T2B02.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2b03",
+   "prompt": "Which of the following describes a linked repeater network?",
+   "answers": [
+    "A network of repeaters in which signals received by one repeater are transmitted by all the repeaters in the network"
+   ],
+   "wrong": [
+    "A single repeater with more than one receiver",
+    "Multiple repeaters with the same control operator",
+    "A system of repeaters linked by APRS"
+   ],
+   "explanation": "Pool question T2B03.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2b04",
+   "prompt": "Which of the following could be the reason you are unable to access a repeater whose output you can hear?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Improper transceiver offset",
+    "You are using the wrong CTCSS tone",
+    "You are using the wrong DCS code"
+   ],
+   "explanation": "All three are right: improper transceiver offset; you are using the wrong CTCSS tone; you are using the wrong DCS code. Pool question T2B04.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2b05",
+   "prompt": "Which of the following would cause your FM transmission audio to drop out on voice peaks?",
+   "answers": [
+    "You are talking too loudly"
+   ],
+   "wrong": [
+    "Your repeater offset is inverted",
+    "Your FM deviation is too low",
+    "Your transmit power is too high"
+   ],
+   "explanation": "Pool question T2B05.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2b06",
+   "prompt": "What type of signaling to a repeater uses two simultaneous audio tones?",
+   "answers": [
+    "DTMF"
+   ],
+   "wrong": [
+    "CTCSS",
+    "GMRS",
+    "D-STAR"
+   ],
+   "explanation": "Pool question T2B06.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2b07",
+   "prompt": "How can you join a digital repeater’s “talkgroup”?",
+   "answers": [
+    "Program your radio with the group’s ID or code"
+   ],
+   "wrong": [
+    "Register with the local Frequency Coordinator",
+    "Register with the digital repeater control operator",
+    "Program your radio with the DTMF tone used by the talkgroup"
+   ],
+   "explanation": "Pool question T2B07.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2b08",
+   "prompt": "Which of the following applies when two stations transmitting on the same frequency interfere with each other?",
+   "answers": [
+    "The stations should negotiate continued use of the frequency"
+   ],
+   "wrong": [
+    "Both stations should choose another frequency to avoid conflict",
+    "Whichever station was on the frequency first has preemptive rights to the frequency",
+    "Use subaudible tones so both stations can share the frequency"
+   ],
+   "explanation": "Pool question T2B08.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2b09",
+   "prompt": "Why are simplex channels designated in the VHF/UHF band plans?",
+   "answers": [
+    "So stations within range of each other can communicate without tying up a repeater"
+   ],
+   "wrong": [
+    "For contest operation",
+    "For working DX only",
+    "So stations with simple transmitters can access the repeater without automated offset"
+   ],
+   "explanation": "Pool question T2B09.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2b10",
+   "prompt": "Which Q signal indicates that you are receiving interference from other stations?",
+   "answers": [
+    "QRM"
+   ],
+   "wrong": [
+    "QRN",
+    "QTH",
+    "QSB"
+   ],
+   "explanation": "Pool question T2B10.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2b11",
+   "prompt": "Which Q signal indicates that you are changing frequency?",
+   "answers": [
+    "QSY"
+   ],
+   "wrong": [
+    "QRU",
+    "QSL",
+    "QRZ"
+   ],
+   "explanation": "Pool question T2B11.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2b12",
+   "prompt": "What is the digital color code used on DMR repeater systems?",
+   "answers": [
+    "An access code which must be programmed into a DMR transmitter to access a specific repeater"
+   ],
+   "wrong": [
+    "A code which automatically programs the repeater offset to a frequency chosen by the user",
+    "A code which identifies the specific CODEC being used so that the repeater can properly decode the audio",
+    "A code transmitted by the repeater to indicate health and status of the equipment"
+   ],
+   "explanation": "Pool question T2B12.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2b13",
+   "prompt": "What is the purpose of a squelch function?",
+   "answers": [
+    "Mute the receiver audio when a signal is not present"
+   ],
+   "wrong": [
+    "Reduce a CW transmitter's key clicks",
+    "Eliminate parasitic oscillations in an RF amplifier",
+    "Reduce interference from impulse noise"
+   ],
+   "explanation": "Pool question T2B13.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2b14",
+   "prompt": "Which of the following is a “talkgroup”?",
+   "answers": [
+    "An identifier used by DMR to organize radio traffic so that those who want to hear the group aren’t bothered by other radio traffic"
+   ],
+   "wrong": [
+    "A group of amateur radio operators who share email on a specific amateur radio topic",
+    "The members of a net organized for amateur radio operators with a specific common interest",
+    "A method of automatically alerting all group members to the frequency where any member is transmitting"
+   ],
+   "explanation": "Pool question T2B14.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2c01",
+   "prompt": "When do the FCC Part 97 Amateur Radio Service rules NOT apply to the operation of an amateur station?",
+   "answers": [
+    "FCC rules always apply"
+   ],
+   "wrong": [
+    "When operating under RACES rules",
+    "When operating under FEMA rules",
+    "When operating under ARES rules"
+   ],
+   "explanation": "Pool question T2C01, from FCC rules §97.103(a).",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2c02",
+   "prompt": "Which of the following are typical duties of a Net Control Station?",
+   "answers": [
+    "Call the net to order and direct communications between stations checking in"
+   ],
+   "wrong": [
+    "Choose the regular net meeting time and frequency",
+    "Ensure that all stations checking into the net are properly licensed for operation on the net frequency",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T2C02.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2c03",
+   "prompt": "What technique is used to ensure that voice messages containing unusual words are received correctly?",
+   "answers": [
+    "Spell the words using a standard phonetic alphabet"
+   ],
+   "wrong": [
+    "Send the words by voice and Morse code",
+    "Use the Q-code “QSR” to ask the receiving station to repeat the words back",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T2C03.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2c04",
+   "prompt": "What is RACES?",
+   "answers": [
+    "An FCC Part 97 amateur radio service for civil defense communications during national emergencies"
+   ],
+   "wrong": [
+    "An emergency organization combining amateur radio and citizens band operators and frequencies",
+    "An international radio experimentation society",
+    "A radio contest held in a short period, sometimes called a “sprint”"
+   ],
+   "explanation": "Pool question T2C04.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2c05",
+   "prompt": "What does the term “traffic” refer to in net operation?",
+   "answers": [
+    "Formal messages exchanged by net stations"
+   ],
+   "wrong": [
+    "The number of stations checking in and out of a net",
+    "Operation by mobile or portable stations",
+    "A count of the number of activations of the net each month"
+   ],
+   "explanation": "Pool question T2C05.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2c06",
+   "prompt": "What is the Amateur Radio Emergency Service (ARES)?",
+   "answers": [
+    "A group of licensed amateurs who have voluntarily registered their qualifications and equipment for communications duty in the public service"
+   ],
+   "wrong": [
+    "A group of licensed amateurs who are members of the military and who voluntarily agreed to provide message handling services in the case of an emergency",
+    "A training program that provides licensing courses for those interested in obtaining an amateur license to use during emergencies",
+    "A training program that certifies amateur operators for membership in the Radio Amateur Civil Emergency Service"
+   ],
+   "explanation": "Pool question T2C06.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2c07",
+   "prompt": "Which of the following is standard practice when you participate in a net?",
+   "answers": [
+    "Unless you are reporting an emergency, transmit only when directed by the net control station"
+   ],
+   "wrong": [
+    "When first responding to the net control station, transmit your call sign, name, and address as in the FCC database",
+    "Record the time of each of your transmissions",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T2C07.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2c08",
+   "prompt": "Which of the following relays messages using email addresses based on amateur callsigns?",
+   "answers": [
+    "Winlink"
+   ],
+   "wrong": [
+    "FT8",
+    "PSK31",
+    "AMTOR"
+   ],
+   "explanation": "Pool question T2C08.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2c09",
+   "prompt": "Are amateur station control operators ever permitted to operate outside the frequency privileges of their license class?",
+   "answers": [
+    "Yes, but only in situations involving the immediate safety of human life or protection of property"
+   ],
+   "wrong": [
+    "No",
+    "Yes, but only when part of a FEMA emergency plan",
+    "Yes, but only when part of a RACES emergency plan"
+   ],
+   "explanation": "Pool question T2C09.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2c10",
+   "prompt": "What information is contained in the preamble of a formal traffic message?",
+   "answers": [
+    "Information needed to track the message"
+   ],
+   "wrong": [
+    "The email address of the originating station",
+    "The address of the intended recipient",
+    "The telephone number of the addressee"
+   ],
+   "explanation": "Pool question T2C10.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2c11",
+   "prompt": "What is meant by “check” in a radiogram header?",
+   "answers": [
+    "The number of words or word equivalents in the text portion of the message"
+   ],
+   "wrong": [
+    "The call sign of the originating station",
+    "A list of stations that have relayed the message",
+    "A box on the message form that indicates that the message was received and/or relayed"
+   ],
+   "explanation": "Pool question T2C11.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t2c12",
+   "prompt": "Which of the following requires certification by a civil defense agency?",
+   "answers": [
+    "RACES"
+   ],
+   "wrong": [
+    "ARES",
+    "MARS",
+    "SKYWARN"
+   ],
+   "explanation": "Pool question T2C12.",
+   "tags": [
+    "Operating procedures"
+   ]
+  },
+  {
+   "id": "t3a01",
+   "prompt": "Why do VHF signal strengths sometimes vary greatly when the antenna is moved only a few feet?",
+   "answers": [
+    "Multipath propagation cancels or reinforces signals"
+   ],
+   "wrong": [
+    "The signal path encounters different concentrations of water vapor",
+    "VHF ionospheric propagation is very sensitive to path length",
+    "The Doppler effect causes slight frequency shifts which result in changes in signal strength"
+   ],
+   "explanation": "Pool question T3A01.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3a02",
+   "prompt": "How does vegetation affect UHF and microwave signals?",
+   "answers": [
+    "Absorbs signals, leading to poor reception of weak signals"
+   ],
+   "wrong": [
+    "Causes knife-edge diffraction, distorting voice peaks",
+    "Amplifies signals, improving reception of weak signals",
+    "Has no effect"
+   ],
+   "explanation": "Pool question T3A02.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3a03",
+   "prompt": "What antenna polarization is normally used for long-distance CW and SSB contacts on the VHF and UHF bands?",
+   "answers": [
+    "Horizontal"
+   ],
+   "wrong": [
+    "Right-hand circular",
+    "Left-hand circular",
+    "Vertical"
+   ],
+   "explanation": "Pool question T3A03.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3a04",
+   "prompt": "What is the effect of antenna cross-polarization over a line-of-sight VHF or UHF path?",
+   "answers": [
+    "Received signal strength is reduced"
+   ],
+   "wrong": [
+    "Modulation sidebands might become inverted",
+    "Signals have an echo effect",
+    "Nothing significant will happen"
+   ],
+   "explanation": "Pool question T3A04.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3a05",
+   "prompt": "When using a directional antenna, how might your station be able to communicate with a distant repeater if buildings or obstructions are blocking the direct line of sight path?",
+   "answers": [
+    "Try to find a path that reflects signals to the repeater"
+   ],
+   "wrong": [
+    "Change from vertical to horizontal polarization",
+    "Try the long path",
+    "Increase the antenna SWR"
+   ],
+   "explanation": "Pool question T3A05.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3a06",
+   "prompt": "What is the meaning of the term “picket fencing”?",
+   "answers": [
+    "Rapid flutter on mobile signals due to multipath propagation"
+   ],
+   "wrong": [
+    "Alternating transmissions during a net operation",
+    "A type of ground system used with vertical antennas",
+    "Interference from cable TV in the form of carriers at fixed intervals across the band"
+   ],
+   "explanation": "Pool question T3A06.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3a07",
+   "prompt": "What weather condition might decrease range at microwave frequencies?",
+   "answers": [
+    "Precipitation"
+   ],
+   "wrong": [
+    "High winds",
+    "Low barometric pressure",
+    "Colder temperatures"
+   ],
+   "explanation": "Pool question T3A07.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3a08",
+   "prompt": "What is a likely cause of irregular fading of signals propagated by the ionosphere?",
+   "answers": [
+    "Random combining of signals arriving via different paths"
+   ],
+   "wrong": [
+    "Frequency shift due to Faraday rotation",
+    "Interference from thunderstorms",
+    "Intermodulation distortion"
+   ],
+   "explanation": "Pool question T3A08.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3a09",
+   "prompt": "Which of the following results from the fact that signals propagated by the ionosphere are elliptically polarized?",
+   "answers": [
+    "Either vertically or horizontally polarized antennas may be used for transmission or reception"
+   ],
+   "wrong": [
+    "Digital modes are unusable",
+    "FM voice is unusable",
+    "Both the transmitting and receiving antennas must be of the same polarization"
+   ],
+   "explanation": "Pool question T3A09.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3a10",
+   "prompt": "What effect does multi-path propagation have on data transmissions?",
+   "answers": [
+    "Error rates are likely to increase"
+   ],
+   "wrong": [
+    "Transmission rates must be increased by a factor equal to the number of separate paths observed",
+    "Transmission rates must be decreased by a factor equal to the number of separate paths observed",
+    "No significant changes will occur if the signals are transmitted using FM"
+   ],
+   "explanation": "Pool question T3A10.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3a11",
+   "prompt": "Which region of the atmosphere can reflect HF radio waves?",
+   "answers": [
+    "The ionosphere"
+   ],
+   "wrong": [
+    "The stratosphere",
+    "The troposphere",
+    "The electrosphere"
+   ],
+   "explanation": "Pool question T3A11.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3a12",
+   "prompt": "What effect does fog or rain have on 10-meter and 6-meter band signals?",
+   "answers": [
+    "Little effect"
+   ],
+   "wrong": [
+    "Absorption",
+    "Deflection",
+    "Increased range"
+   ],
+   "explanation": "Pool question T3A12.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3b01",
+   "prompt": "What is the relationship between the electric and magnetic fields of an electromagnetic wave?",
+   "answers": [
+    "They are at right angles"
+   ],
+   "wrong": [
+    "They travel at different speeds",
+    "They are in parallel",
+    "They revolve in opposite directions"
+   ],
+   "explanation": "Pool question T3B01.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3b02",
+   "prompt": "What property of a radio wave defines its polarization?",
+   "answers": [
+    "The orientation of the electric field"
+   ],
+   "wrong": [
+    "The orientation of the magnetic field",
+    "The ratio of the energy in the magnetic field to the energy in the electric field",
+    "The ratio of the velocity to the wavelength"
+   ],
+   "explanation": "Pool question T3B02.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3b03",
+   "prompt": "What are the two components of a radio wave?",
+   "answers": [
+    "Electric and magnetic fields"
+   ],
+   "wrong": [
+    "Impedance and reactance",
+    "Voltage and current",
+    "Ionizing and non-ionizing radiation"
+   ],
+   "explanation": "Pool question T3B03.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3b04",
+   "prompt": "What is the velocity of a radio wave traveling through free space?",
+   "answers": [
+    "Speed of light"
+   ],
+   "wrong": [
+    "Speed of sound",
+    "0.86 times the speed of light",
+    "1.86 times the speed of sound"
+   ],
+   "explanation": "Pool question T3B04.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3b05",
+   "prompt": "What is the relationship between wavelength and frequency?",
+   "answers": [
+    "Wavelength gets shorter as frequency increases"
+   ],
+   "wrong": [
+    "Wavelength gets longer as frequency increases",
+    "Wavelength is constant at all frequencies",
+    "Wavelength and frequency increase as path length increases"
+   ],
+   "explanation": "Pool question T3B05.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3b06",
+   "prompt": "What is the formula for converting frequency to approximate wavelength in meters?",
+   "answers": [
+    "Wavelength in meters equals 300 divided by frequency in megahertz"
+   ],
+   "wrong": [
+    "Wavelength in meters equals frequency in hertz multiplied by 300",
+    "Wavelength in meters equals frequency in hertz divided by 300",
+    "Wavelength in meters equals frequency in megahertz divided by 300"
+   ],
+   "explanation": "Pool question T3B06.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3b07",
+   "prompt": "In addition to frequency, which of the following is used to identify amateur radio bands?",
+   "answers": [
+    "The approximate wavelength in meters"
+   ],
+   "wrong": [
+    "Traditional letter/number designators",
+    "Channel numbers",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T3B07.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3b08",
+   "prompt": "What frequency range is referred to as VHF?",
+   "answers": [
+    "30 MHz to 300 MHz"
+   ],
+   "wrong": [
+    "30 kHz to 300 kHz",
+    "300 kHz to 3000 kHz",
+    "300 MHz to 3000 MHz"
+   ],
+   "explanation": "Pool question T3B08.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3b09",
+   "prompt": "What frequency range is referred to as UHF?",
+   "answers": [
+    "300 to 3000 MHz"
+   ],
+   "wrong": [
+    "30 to 300 kHz",
+    "30 to 300 MHz",
+    "300 to 3000 kHz"
+   ],
+   "explanation": "Pool question T3B09.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3b10",
+   "prompt": "What frequency range is referred to as HF?",
+   "answers": [
+    "3 to 30 MHz"
+   ],
+   "wrong": [
+    "300 to 3000 MHz",
+    "30 to 300 MHz",
+    "300 to 3000 kHz"
+   ],
+   "explanation": "Pool question T3B10.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3b11",
+   "prompt": "What is the approximate velocity of a radio wave in free space?",
+   "answers": [
+    "300,000,000 meters per second"
+   ],
+   "wrong": [
+    "150,000,000 meters per second",
+    "300,000,000 miles per hour",
+    "150,000,000 miles per hour"
+   ],
+   "explanation": "Pool question T3B11.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3b12",
+   "prompt": "Which of these frequencies travels at the highest velocity in free space?",
+   "answers": [
+    "All radio frequencies travel at the same velocity"
+   ],
+   "wrong": [
+    "Microwaves",
+    "UHF",
+    "VHF"
+   ],
+   "explanation": "Pool question T3B12.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3c01",
+   "prompt": "Why are simplex UHF signals rarely heard beyond their radio horizon?",
+   "answers": [
+    "UHF signals are usually not propagated by the ionosphere"
+   ],
+   "wrong": [
+    "They are too weak to go very far",
+    "FCC regulations prohibit them from going more than 50 miles",
+    "UHF signals are absorbed by the ionospheric D region"
+   ],
+   "explanation": "Pool question T3C01.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3c02",
+   "prompt": "What is a characteristic of HF communication compared with communications on VHF and higher frequencies?",
+   "answers": [
+    "Long-distance ionospheric propagation is far more common on HF"
+   ],
+   "wrong": [
+    "HF antennas are generally smaller",
+    "HF accommodates wider bandwidth signals",
+    "There is less atmospheric interference (static) on HF"
+   ],
+   "explanation": "Pool question T3C02.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3c03",
+   "prompt": "What is one characteristic of VHF signals received via auroral backscatter?",
+   "answers": [
+    "They are distorted, with a characteristic raspy sound"
+   ],
+   "wrong": [
+    "They are often received from 10,000 miles or more",
+    "They occur only during winter nighttime hours",
+    "They are generally strongest when your antenna is aimed west"
+   ],
+   "explanation": "Pool question T3C03.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3c04",
+   "prompt": "Which of the following types of propagation is most commonly associated with occasional strong signals on the 10-, 6-, and 2-meter bands from beyond the radio horizon?",
+   "answers": [
+    "Sporadic E"
+   ],
+   "wrong": [
+    "Backscatter",
+    "D region absorption",
+    "Gray-line propagation"
+   ],
+   "explanation": "Pool question T3C04.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3c05",
+   "prompt": "Which of the following effects may allow radio signals to travel beyond obstructions between the transmitting and receiving stations?",
+   "answers": [
+    "Knife-edge diffraction"
+   ],
+   "wrong": [
+    "Faraday rotation",
+    "Quantum tunneling",
+    "Doppler shift"
+   ],
+   "explanation": "Pool question T3C05.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3c06",
+   "prompt": "What type of propagation is responsible for allowing over-the-horizon VHF and UHF communications to ranges of approximately 300 miles on a regular basis?",
+   "answers": [
+    "Tropospheric ducting"
+   ],
+   "wrong": [
+    "D region refraction",
+    "F2 region refraction",
+    "Faraday rotation"
+   ],
+   "explanation": "Pool question T3C06.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3c07",
+   "prompt": "What band is best suited for communicating via meteor scatter?",
+   "answers": [
+    "6 meters"
+   ],
+   "wrong": [
+    "33 centimeters",
+    "2 meters",
+    "70 centimeters"
+   ],
+   "explanation": "Pool question T3C07.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3c08",
+   "prompt": "What causes tropospheric ducting?",
+   "answers": [
+    "Temperature inversions in the atmosphere"
+   ],
+   "wrong": [
+    "Discharges of lightning during electrical storms",
+    "Sunspots and solar flares",
+    "Updrafts from hurricanes and tornadoes"
+   ],
+   "explanation": "Pool question T3C08.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3c09",
+   "prompt": "What is generally the best time for long-distance 10-meter band propagation via the F region?",
+   "answers": [
+    "From dawn to shortly after sunset during periods of high sunspot activity"
+   ],
+   "wrong": [
+    "From shortly after sunset to dawn during periods of high sunspot activity",
+    "From dawn to shortly after sunset during periods of low sunspot activity",
+    "From shortly after sunset to dawn during periods of low sunspot activity"
+   ],
+   "explanation": "Pool question T3C09.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3c10",
+   "prompt": "Which of the following bands may provide long-distance communications via the ionosphere’s F region during the peak of the sunspot cycle?",
+   "answers": [
+    "6 and 10 meters"
+   ],
+   "wrong": [
+    "23 centimeters",
+    "70 centimeters and 1.25 meters",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T3C10.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t3c11",
+   "prompt": "Why is the radio horizon for VHF and UHF signals more distant than the visual horizon?",
+   "answers": [
+    "The atmosphere refracts radio waves slightly"
+   ],
+   "wrong": [
+    "Radio signals move somewhat faster than the speed of light",
+    "Radio waves are not blocked by dust particles",
+    "Radio waves are blocked by dust particles"
+   ],
+   "explanation": "Pool question T3C11.",
+   "tags": [
+    "Radio wave propagation"
+   ]
+  },
+  {
+   "id": "t4a01",
+   "prompt": "Which of the following is an appropriate power supply rating for a typical 50-watt output mobile FM transceiver?",
+   "answers": [
+    "13.8 volts at 12 amperes"
+   ],
+   "wrong": [
+    "24.0 volts at 4 amperes",
+    "13.8 volts at 4 amperes",
+    "24.0 volts at 12 amperes"
+   ],
+   "explanation": "Pool question T4A01.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4a02",
+   "prompt": "Which of the following should be considered when selecting an accessory SWR meter?",
+   "answers": [
+    "The frequency and power level at which the measurements will be made"
+   ],
+   "wrong": [
+    "The distance that the meter will be located from the antenna",
+    "The maximum SWR anticipated on the transmission line",
+    "The ability of the meter to compensate for a poor transmission line match to the antenna"
+   ],
+   "explanation": "Pool question T4A02.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4a03",
+   "prompt": "Why are short, heavy-gauge wires used for a transceiver’s DC power connection?",
+   "answers": [
+    "To minimize voltage drop when transmitting"
+   ],
+   "wrong": [
+    "To provide a close match to the power supply output impedance",
+    "To avoid RF interference",
+    "To minimize radiative losses in the power cable"
+   ],
+   "explanation": "Pool question T4A03.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4a04",
+   "prompt": "How are the audio input and output of a transceiver connected in a station configured to operate using FT8?",
+   "answers": [
+    "To the audio output and input of a computer running FT8 software"
+   ],
+   "wrong": [
+    "To a computer running a terminal program and connected to a terminal node controller unit",
+    "To an FT8 conversion unit, a keyboard, and a computer monitor",
+    "To a computer connected to the FT8converter.com website"
+   ],
+   "explanation": "Pool question T4A04.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4a05",
+   "prompt": "Where should an RF power meter be installed?",
+   "answers": [
+    "In the feed line, between the transmitter and antenna"
+   ],
+   "wrong": [
+    "At the power supply output",
+    "In parallel with the push-to-talk line and the antenna",
+    "In the power supply cable, as close as possible to the radio"
+   ],
+   "explanation": "Pool question T4A05.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4a06",
+   "prompt": "What signals are used in a computer-radio interface for digital mode operation?",
+   "answers": [
+    "Receive audio, transmit audio, and transmitter keying"
+   ],
+   "wrong": [
+    "Receive and transmit mode, status, and location",
+    "Antenna and RF power",
+    "NMEA GPS location and DC power"
+   ],
+   "explanation": "Pool question T4A06.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4a07",
+   "prompt": "Which of the following is one of the connections required between a computer and a transceiver to operate digital modes?",
+   "answers": [
+    "Computer “line in” to transceiver speaker connector"
+   ],
+   "wrong": [
+    "Computer “line out” to transceiver push-to-talk",
+    "Computer “line in” to transceiver push-to-talk",
+    "Computer “line out” to transceiver speaker connector"
+   ],
+   "explanation": "Pool question T4A07.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4a08",
+   "prompt": "Which of the following conductors is preferred for bonding at RF?",
+   "answers": [
+    "Flat copper strap"
+   ],
+   "wrong": [
+    "Copper braid removed from coaxial cable",
+    "Copper-clad steel wire",
+    "Twisted-pair cable"
+   ],
+   "explanation": "Pool question T4A08.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4a09",
+   "prompt": "How can you determine the length of time that equipment can be powered from a battery?",
+   "answers": [
+    "Divide the battery ampere-hour rating by the average current draw of the equipment"
+   ],
+   "wrong": [
+    "Divide the watt-hour rating of the battery by the peak power consumption of the equipment",
+    "Multiply the watts per hour consumed by the equipment by the battery power rating",
+    "Multiply the square of the current rating of the battery by the input resistance of the equipment"
+   ],
+   "explanation": "Pool question T4A09.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4a10",
+   "prompt": "What function does a digital mode hotspot perform for nearby transceivers?",
+   "answers": [
+    "Communication with a digital voice or data network"
+   ],
+   "wrong": [
+    "FT8 digital communications via AFSK using a smartphone connected to the internet",
+    "RTTY encoding and decoding without a computer",
+    "High-speed digital communications for meteor scatter"
+   ],
+   "explanation": "Pool question T4A10.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4a11",
+   "prompt": "Where should the negative power return of a mobile transceiver be connected in a vehicle?",
+   "answers": [
+    "At the 12-volt battery chassis ground"
+   ],
+   "wrong": [
+    "To the shell of the power connector",
+    "To any metal part of the vehicle",
+    "Through the transceiver’s mounting bracket"
+   ],
+   "explanation": "Pool question T4A11.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4a12",
+   "prompt": "What is an electronic keyer?",
+   "answers": [
+    "A device that assists in manual sending of Morse code"
+   ],
+   "wrong": [
+    "A device for switching antennas from transmit to receive",
+    "A device for voice activated switching from receive to transmit",
+    "An interlock to prevent unauthorized use of a radio"
+   ],
+   "explanation": "Pool question T4A12.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4b01",
+   "prompt": "What is the effect of excessive microphone gain on SSB transmissions?",
+   "answers": [
+    "Distorted transmitted audio"
+   ],
+   "wrong": [
+    "Frequency instability",
+    "Increased SWR",
+    "Sideband inversion"
+   ],
+   "explanation": "Pool question T4B01.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4b02",
+   "prompt": "Which of the following can be used to enter a transceiver’s operating frequency?",
+   "answers": [
+    "The keypad or VFO knob"
+   ],
+   "wrong": [
+    "The CTCSS or DTMF encoder",
+    "The Automatic Frequency Control",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T4B02.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4b03",
+   "prompt": "How is squelch adjusted so that a weak FM signal can be heard?",
+   "answers": [
+    "Set the squelch threshold so that receiver output audio is on all the time"
+   ],
+   "wrong": [
+    "Turn up the audio level until it overcomes the squelch threshold",
+    "Turn on the anti-squelch function",
+    "Enable squelch enhancement"
+   ],
+   "explanation": "Pool question T4B03.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4b04",
+   "prompt": "What does an FM signal sound like when received slightly off frequency?",
+   "answers": [
+    "The audio becomes distorted"
+   ],
+   "wrong": [
+    "The audio increases in pitch",
+    "The audio decrease in pitch",
+    "There is no effect except for reduction in amplitude"
+   ],
+   "explanation": "Pool question T4B04.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4b05",
+   "prompt": "What does the scanning function of an FM transceiver do?",
+   "answers": [
+    "Tunes through a range of frequencies to check for activity"
+   ],
+   "wrong": [
+    "Checks incoming signal deviation",
+    "Prevents interference to nearby repeaters",
+    "Tunes through a range of frequencies to determine the antenna’s resonant frequency"
+   ],
+   "explanation": "Pool question T4B05.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4b06",
+   "prompt": "Which of the following controls could be used if the voice pitch of a single-sideband signal returning to your CQ call seems too high or low?",
+   "answers": [
+    "The RIT or Clarifier"
+   ],
+   "wrong": [
+    "The AGC or limiter",
+    "The bandwidth selection",
+    "The tone squelch"
+   ],
+   "explanation": "Pool question T4B06.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4b07",
+   "prompt": "What is a DMR “code plug”?",
+   "answers": [
+    "Configuration data loaded onto your radio to access repeaters and talkgroups"
+   ],
+   "wrong": [
+    "An adapter cable used to connect a DMR radio to a computer for internet access",
+    "An upgrade to DMR programming software provided by the radio manufacturer to accommodate new radio models",
+    "A Coder-Decoder (CODEC) that converts analog voice data to DMR digital data and vice versa"
+   ],
+   "explanation": "Pool question T4B07.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4b08",
+   "prompt": "What is the advantage of having a choice of receiver filter bandwidths in a multimode transceiver?",
+   "answers": [
+    "Permits noise or interference reduction by selecting a bandwidth matching the mode"
+   ],
+   "wrong": [
+    "Permits monitoring several modes simultaneously by selecting a separate filter for each mode",
+    "Increases the number of frequencies that can be stored in memory",
+    "Increases the amount of offset between receive and transmit frequencies"
+   ],
+   "explanation": "Pool question T4B08.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4b09",
+   "prompt": "How is a specific group of stations selected on a DMR digital voice transceiver?",
+   "answers": [
+    "By entering the group’s identification code"
+   ],
+   "wrong": [
+    "By retrieving the frequencies from transceiver memory",
+    "By enabling the group’s CTCSS tone",
+    "By inserting a five-pin, pre-programmed code plug"
+   ],
+   "explanation": "Pool question T4B09.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4b10",
+   "prompt": "Which of the following receiver filter bandwidths provides the best signal-to-noise ratio for SSB reception?",
+   "answers": [
+    "2400 Hz"
+   ],
+   "wrong": [
+    "500 Hz",
+    "1000 Hz",
+    "5000 Hz"
+   ],
+   "explanation": "Pool question T4B10.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t4b11",
+   "prompt": "Which of the following must be programmed into a D-STAR digital transceiver before transmitting?",
+   "answers": [
+    "Your call sign"
+   ],
+   "wrong": [
+    "Your output power",
+    "The codec type being used",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T4B11.",
+   "tags": [
+    "Amateur radio practices"
+   ]
+  },
+  {
+   "id": "t5a01",
+   "prompt": "Electrical current is measured in which of the following units?",
+   "answers": [
+    "Amperes"
+   ],
+   "wrong": [
+    "Volts",
+    "Watts",
+    "Ohms"
+   ],
+   "explanation": "Pool question T5A01.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5a02",
+   "prompt": "Electrical power is measured in which of the following units?",
+   "answers": [
+    "Watts"
+   ],
+   "wrong": [
+    "Volts",
+    "Watt-hours",
+    "Amperes"
+   ],
+   "explanation": "Pool question T5A02.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5a03",
+   "prompt": "What is the term for the flow of electrons in an electric circuit?",
+   "answers": [
+    "Current"
+   ],
+   "wrong": [
+    "Voltage",
+    "Amperes per second",
+    "Volts per second"
+   ],
+   "explanation": "Pool question T5A03.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5a04",
+   "prompt": "What term describes the number of times per second that an alternating current makes a complete cycle?",
+   "answers": [
+    "Frequency"
+   ],
+   "wrong": [
+    "Pulse rate",
+    "Wave number",
+    "Wavelength"
+   ],
+   "explanation": "Pool question T5A04.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5a05",
+   "prompt": "A difference in which of the following causes electron flow?",
+   "answers": [
+    "Voltage"
+   ],
+   "wrong": [
+    "Ampere-hours",
+    "Capacitance",
+    "Inductance"
+   ],
+   "explanation": "Pool question T5A05.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5a06",
+   "prompt": "What is the unit of frequency?",
+   "answers": [
+    "Hertz"
+   ],
+   "wrong": [
+    "Henry",
+    "Farad",
+    "Epicycles per second"
+   ],
+   "explanation": "Pool question T5A06.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5a07",
+   "prompt": "Why are metals generally good conductors of electricity?",
+   "answers": [
+    "They have many free electrons"
+   ],
+   "wrong": [
+    "They have relatively high density",
+    "They have many free protons",
+    "They have relatively high Young’s modulus values"
+   ],
+   "explanation": "Pool question T5A07.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5a08",
+   "prompt": "Which of the following is a good electrical insulator?",
+   "answers": [
+    "Glass"
+   ],
+   "wrong": [
+    "Sea water",
+    "Stainless steel",
+    "Graphite"
+   ],
+   "explanation": "Pool question T5A08.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5a09",
+   "prompt": "Which of the following describes alternating current?",
+   "answers": [
+    "Current that alternates between positive and negative directions"
+   ],
+   "wrong": [
+    "Current that alternates between a positive direction and zero",
+    "Current that alternates between a negative direction and zero",
+    "All these answers are correct"
+   ],
+   "explanation": "Pool question T5A09.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5a10",
+   "prompt": "Which term describes the rate at which electrical energy is used?",
+   "answers": [
+    "Power"
+   ],
+   "wrong": [
+    "Resistance",
+    "Current",
+    "Voltage"
+   ],
+   "explanation": "Pool question T5A10.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5a11",
+   "prompt": "What type of current flow is opposed by resistance?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Direct current",
+    "Alternating current",
+    "RF current"
+   ],
+   "explanation": "All three are right: direct current; alternating current; RF current. Pool question T5A11.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5b01",
+   "prompt": "How many milliamperes is 1.5 amperes?",
+   "answers": [
+    "1500 milliamperes"
+   ],
+   "wrong": [
+    "0.0000015 milliamperes",
+    "0.0015 milliamperes",
+    "1,500,000 milliamperes"
+   ],
+   "explanation": "Pool question T5B01.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5b02",
+   "prompt": "Which is equal to 1,500,000 hertz?",
+   "answers": [
+    "1500 kHz"
+   ],
+   "wrong": [
+    "1500 MHz",
+    "15 GHz",
+    "150 kHz"
+   ],
+   "explanation": "Pool question T5B02.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5b03",
+   "prompt": "Which is equal to one kilovolt?",
+   "answers": [
+    "One thousand volts"
+   ],
+   "wrong": [
+    "One one-thousandth of a volt",
+    "One hundred volts",
+    "One million volts"
+   ],
+   "explanation": "Pool question T5B03.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5b04",
+   "prompt": "Which is equal to one microvolt?",
+   "answers": [
+    "One one-millionth of a volt"
+   ],
+   "wrong": [
+    "One million volts",
+    "One thousand kilovolts",
+    "One one-thousandth of a volt"
+   ],
+   "explanation": "Pool question T5B04.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5b05",
+   "prompt": "Which is equal to 500 milliwatts?",
+   "answers": [
+    "0.5 watts"
+   ],
+   "wrong": [
+    "5 watts",
+    "500,000 watts",
+    "500,000,000 watts"
+   ],
+   "explanation": "Pool question T5B05.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5b06",
+   "prompt": "Which is equal to 3000 milliamperes?",
+   "answers": [
+    "3 amperes"
+   ],
+   "wrong": [
+    "0.003 amperes",
+    "0.3 amperes",
+    "3,000,000 amperes"
+   ],
+   "explanation": "Pool question T5B06.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5b07",
+   "prompt": "Which is equal to 3.525 MHz?",
+   "answers": [
+    "3525 kHz"
+   ],
+   "wrong": [
+    "0.003525 kHz",
+    "35.25 kHz",
+    "3,525,000 kHz"
+   ],
+   "explanation": "Pool question T5B07.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5b08",
+   "prompt": "Which is equal to 1,000,000 picofarads?",
+   "answers": [
+    "1 microfarad"
+   ],
+   "wrong": [
+    "0.001 microfarads",
+    "1000 microfarads",
+    "1,000,000,000 microfarads"
+   ],
+   "explanation": "Pool question T5B08.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5b09",
+   "prompt": "Which decibel value most closely represents a power increase from 5 watts to 10 watts?",
+   "answers": [
+    "3 dB"
+   ],
+   "wrong": [
+    "2 dB",
+    "5 dB",
+    "10 dB"
+   ],
+   "explanation": "Pool question T5B09.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5b10",
+   "prompt": "Which decibel value most closely represents a power decrease from 12 watts to 3 watts?",
+   "answers": [
+    "-6 dB"
+   ],
+   "wrong": [
+    "-1 dB",
+    "-3 dB",
+    "-9 dB"
+   ],
+   "explanation": "Pool question T5B10.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5b11",
+   "prompt": "Which decibel value represents a power increase from 20 watts to 200 watts?",
+   "answers": [
+    "10 dB"
+   ],
+   "wrong": [
+    "12 dB",
+    "18 dB",
+    "28 dB"
+   ],
+   "explanation": "Pool question T5B11.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5b12",
+   "prompt": "Which is equal to 28400 kHz?",
+   "answers": [
+    "28.400 MHz"
+   ],
+   "wrong": [
+    "28.400 kHz",
+    "2.800 MHz",
+    "284.00 MHz"
+   ],
+   "explanation": "Pool question T5B12.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5b13",
+   "prompt": "Which is equal to 2425 MHz?",
+   "answers": [
+    "2.425 GHz"
+   ],
+   "wrong": [
+    "0.002425 GHz",
+    "24.25 GHz",
+    "242.5 GHz"
+   ],
+   "explanation": "Pool question T5B13.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5c01",
+   "prompt": "What describes the ability to store energy in an electric field?",
+   "answers": [
+    "Capacitance"
+   ],
+   "wrong": [
+    "Inductance",
+    "Resistance",
+    "Frequency"
+   ],
+   "explanation": "Pool question T5C01.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5c02",
+   "prompt": "What is the unit of capacitance?",
+   "answers": [
+    "Farad"
+   ],
+   "wrong": [
+    "Ohm",
+    "Volt",
+    "Henry"
+   ],
+   "explanation": "Pool question T5C02.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5c03",
+   "prompt": "What describes the ability to store energy in a magnetic field?",
+   "answers": [
+    "Inductance"
+   ],
+   "wrong": [
+    "Admittance",
+    "Capacitance",
+    "Resistance"
+   ],
+   "explanation": "Pool question T5C03.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5c04",
+   "prompt": "What is the unit of inductance?",
+   "answers": [
+    "Henry"
+   ],
+   "wrong": [
+    "Coulomb",
+    "Farad",
+    "Ohm"
+   ],
+   "explanation": "Pool question T5C04.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5c05",
+   "prompt": "What is the unit of impedance?",
+   "answers": [
+    "Ohm"
+   ],
+   "wrong": [
+    "Volt",
+    "Ampere",
+    "Coulomb"
+   ],
+   "explanation": "Pool question T5C05.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5c06",
+   "prompt": "What is the abbreviation for kilohertz?",
+   "answers": [
+    "kHz"
+   ],
+   "wrong": [
+    "khz",
+    "KHz",
+    "KHZ"
+   ],
+   "explanation": "Pool question T5C06.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5c07",
+   "prompt": "What is the abbreviation for megahertz?",
+   "answers": [
+    "MHz"
+   ],
+   "wrong": [
+    "mHz",
+    "mHZ",
+    "Mhz"
+   ],
+   "explanation": "Pool question T5C07.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5c08",
+   "prompt": "What formula is used to calculate electrical power (P) in a DC circuit?",
+   "answers": [
+    "P = I x E"
+   ],
+   "wrong": [
+    "P = E / I",
+    "P = I2 x E",
+    "P = I / E"
+   ],
+   "explanation": "Pool question T5C08.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5c09",
+   "prompt": "How much power is delivered by a voltage of 13.8 volts DC and a current of 10 amperes?",
+   "answers": [
+    "138 watts"
+   ],
+   "wrong": [
+    "0.7 watts",
+    "23.8 watts",
+    "3.8 watts"
+   ],
+   "explanation": "Pool question T5C09.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5c10",
+   "prompt": "How much power is delivered by a voltage of 12 volts DC and a current of 2.5 amperes?",
+   "answers": [
+    "30 watts"
+   ],
+   "wrong": [
+    "4.8 watts",
+    "14.5 watts",
+    "0.208 watts"
+   ],
+   "explanation": "Pool question T5C10.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5c11",
+   "prompt": "How much current is required to deliver 120 watts at a voltage of 12 volts DC?",
+   "answers": [
+    "10 amperes"
+   ],
+   "wrong": [
+    "0.1 amperes",
+    "12 amperes",
+    "132 amperes"
+   ],
+   "explanation": "Pool question T5C11.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5c12",
+   "prompt": "What is impedance?",
+   "answers": [
+    "The opposition to AC current flow"
+   ],
+   "wrong": [
+    "The inverse of resistance",
+    "The inverse of reactance",
+    "The power handling capability of a component"
+   ],
+   "explanation": "Pool question T5C12.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5d01",
+   "prompt": "What formula is used to calculate current in a circuit?",
+   "answers": [
+    "I = E / R"
+   ],
+   "wrong": [
+    "I = E x R",
+    "I = E2 x R",
+    "I = E2 / R"
+   ],
+   "explanation": "Pool question T5D01.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5d02",
+   "prompt": "What formula is used to calculate voltage in a circuit?",
+   "answers": [
+    "E = I x R"
+   ],
+   "wrong": [
+    "E = I / R",
+    "E = I2 x R",
+    "E = I2 / R"
+   ],
+   "explanation": "Pool question T5D02.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5d03",
+   "prompt": "What formula is used to calculate resistance in a circuit?",
+   "answers": [
+    "R = E / I"
+   ],
+   "wrong": [
+    "R = E x I",
+    "R = E + I",
+    "R = E - I"
+   ],
+   "explanation": "Pool question T5D03.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5d04",
+   "prompt": "What is the resistance of a circuit in which a current of 3 amperes flows when connected to 90 volts?",
+   "answers": [
+    "30 ohms"
+   ],
+   "wrong": [
+    "3 ohms",
+    "1/30 ohm",
+    "270 ohms"
+   ],
+   "explanation": "Pool question T5D04.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5d05",
+   "prompt": "What is the resistance of a circuit for which the applied voltage is 12 volts and the current flow is 1.5 amperes?",
+   "answers": [
+    "8 ohms"
+   ],
+   "wrong": [
+    "18 ohms",
+    "0.125 ohms",
+    "13.5 ohms"
+   ],
+   "explanation": "Pool question T5D05.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5d06",
+   "prompt": "What is the resistance of a circuit that draws 4 amperes from a 12-volt source?",
+   "answers": [
+    "3 ohms"
+   ],
+   "wrong": [
+    "16 ohms",
+    "48 ohms",
+    "8 ohms"
+   ],
+   "explanation": "Pool question T5D06.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5d07",
+   "prompt": "What is the current in a circuit with an applied voltage of 120 volts and a resistance of 80 ohms?",
+   "answers": [
+    "1.5 amperes"
+   ],
+   "wrong": [
+    "9600 amperes",
+    "200 amperes",
+    "0.667 amperes"
+   ],
+   "explanation": "Pool question T5D07.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5d08",
+   "prompt": "What is the current through a 100-ohm resistor connected across 200 volts?",
+   "answers": [
+    "2 amperes"
+   ],
+   "wrong": [
+    "20,000 amperes",
+    "0.5 amperes",
+    "100 amperes"
+   ],
+   "explanation": "Pool question T5D08.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5d09",
+   "prompt": "What is the current through a 24-ohm resistor connected across 240 volts?",
+   "answers": [
+    "10 amperes"
+   ],
+   "wrong": [
+    "2400 amperes",
+    "0.1 amperes",
+    "5760 amperes"
+   ],
+   "explanation": "Pool question T5D09.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5d10",
+   "prompt": "What is the voltage across a 2-ohm resistor if a current of 0.5 amperes flows through it?",
+   "answers": [
+    "1 volt"
+   ],
+   "wrong": [
+    "0.25 volts",
+    "2.5 volts",
+    "1.5 volts"
+   ],
+   "explanation": "Pool question T5D10.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5d11",
+   "prompt": "What is the voltage across a 10-ohm resistor if a current of 1 ampere flows through it?",
+   "answers": [
+    "10 volts"
+   ],
+   "wrong": [
+    "1 volt",
+    "11 volts",
+    "9 volts"
+   ],
+   "explanation": "Pool question T5D11.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5d12",
+   "prompt": "What is the voltage across a 10-ohm resistor if a current of 2 amperes flows through it?",
+   "answers": [
+    "20 volts"
+   ],
+   "wrong": [
+    "8 volts",
+    "0.2 volts",
+    "12 volts"
+   ],
+   "explanation": "Pool question T5D12.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5d13",
+   "prompt": "In which type of circuit is the current always the same through all components?",
+   "answers": [
+    "Series"
+   ],
+   "wrong": [
+    "Parallel",
+    "Resonant",
+    "Branch"
+   ],
+   "explanation": "Pool question T5D13.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t5d14",
+   "prompt": "In which type of circuit is the voltage always the same across all components?",
+   "answers": [
+    "Parallel"
+   ],
+   "wrong": [
+    "Series",
+    "Resonant",
+    "Branch"
+   ],
+   "explanation": "Pool question T5D14.",
+   "tags": [
+    "Electrical principles"
+   ]
+  },
+  {
+   "id": "t6a01",
+   "prompt": "What electrical component opposes the flow of current in a DC circuit?",
+   "answers": [
+    "Resistor"
+   ],
+   "wrong": [
+    "Inductor",
+    "Inverter",
+    "Transformer"
+   ],
+   "explanation": "Pool question T6A01.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6a02",
+   "prompt": "What type of component is often used as an adjustable volume control?",
+   "answers": [
+    "Potentiometer"
+   ],
+   "wrong": [
+    "Fixed resistor",
+    "Power resistor",
+    "Transformer"
+   ],
+   "explanation": "Pool question T6A02.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6a03",
+   "prompt": "What electrical parameter is controlled by a potentiometer?",
+   "answers": [
+    "Resistance"
+   ],
+   "wrong": [
+    "Inductance",
+    "Capacitance",
+    "Field strength"
+   ],
+   "explanation": "Pool question T6A03.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6a04",
+   "prompt": "What electrical component stores energy in an electric field?",
+   "answers": [
+    "Capacitor"
+   ],
+   "wrong": [
+    "Resistor",
+    "Inductor",
+    "Diode"
+   ],
+   "explanation": "Pool question T6A04.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6a05",
+   "prompt": "What type of electrical component consists of conductive surfaces separated by an insulator?",
+   "answers": [
+    "Capacitor"
+   ],
+   "wrong": [
+    "Resistor",
+    "Potentiometer",
+    "Oscillator"
+   ],
+   "explanation": "Pool question T6A05.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6a06",
+   "prompt": "What type of electrical component stores energy in a magnetic field?",
+   "answers": [
+    "Inductor"
+   ],
+   "wrong": [
+    "Resistor",
+    "Capacitor",
+    "Diode"
+   ],
+   "explanation": "Pool question T6A06.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6a07",
+   "prompt": "What electrical component is typically constructed as a coil of wire?",
+   "answers": [
+    "Inductor"
+   ],
+   "wrong": [
+    "Transistor",
+    "Capacitor",
+    "Diode"
+   ],
+   "explanation": "Pool question T6A07.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6a08",
+   "prompt": "What is the function of an SPDT switch?",
+   "answers": [
+    "A single circuit is switched between one of two other circuits"
+   ],
+   "wrong": [
+    "A single circuit is opened or closed",
+    "Two circuits are opened or closed",
+    "Two circuits are each switched between one of two other circuits"
+   ],
+   "explanation": "Pool question T6A08.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6a09",
+   "prompt": "What type of switch is represented by component 3 in figure T-2?",
+   "answers": [
+    "Single-pole single-throw"
+   ],
+   "wrong": [
+    "Single-pole double-throw",
+    "Double-pole single-throw",
+    "Double-pole double-throw"
+   ],
+   "explanation": "Pool question T6A09.",
+   "figure": {
+    "src": "data/figures/t-2.png",
+    "alt": "Figure T-2 from the question pool"
+   },
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6a10",
+   "prompt": "Which of the following battery chemistries is rechargeable?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Nickel-metal hydride",
+    "Lithium-ion",
+    "Lead-acid"
+   ],
+   "explanation": "All three are right: nickel-metal hydride; lithium-ion; lead-acid. Pool question T6A10.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6a11",
+   "prompt": "Which of the following battery chemistries is not rechargeable?",
+   "answers": [
+    "Carbon-zinc"
+   ],
+   "wrong": [
+    "Nickel-cadmium",
+    "Lead-acid",
+    "Lithium-ion"
+   ],
+   "explanation": "Pool question T6A11.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6b01",
+   "prompt": "Which is true about forward voltage drop in a diode?",
+   "answers": [
+    "It is lower in some diode types than in others"
+   ],
+   "wrong": [
+    "It is proportional to peak inverse voltage",
+    "It indicates that the diode is defective",
+    "It has no impact on the voltage delivered to the load"
+   ],
+   "explanation": "Pool question T6B01.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6b02",
+   "prompt": "What electronic component allows current to flow in only one direction?",
+   "answers": [
+    "Diode"
+   ],
+   "wrong": [
+    "Resistor",
+    "Fuse",
+    "Driven element"
+   ],
+   "explanation": "Pool question T6B02.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6b03",
+   "prompt": "Which of these components can be used as an electronic switch?",
+   "answers": [
+    "Transistor"
+   ],
+   "wrong": [
+    "Varistor",
+    "Potentiometer",
+    "Thermistor"
+   ],
+   "explanation": "Pool question T6B03.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6b04",
+   "prompt": "Which of the following components can consist of three regions of semiconductor material?",
+   "answers": [
+    "Transistor"
+   ],
+   "wrong": [
+    "Alternator",
+    "Triode",
+    "Pentode"
+   ],
+   "explanation": "Pool question T6B04.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6b05",
+   "prompt": "What type of transistor has a gate, drain, and source?",
+   "answers": [
+    "Field-effect"
+   ],
+   "wrong": [
+    "Varistor",
+    "Hall-effect",
+    "Bipolar junction"
+   ],
+   "explanation": "Pool question T6B05.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6b06",
+   "prompt": "How is the cathode lead of a semiconductor diode often marked on the package?",
+   "answers": [
+    "With a stripe"
+   ],
+   "wrong": [
+    "With the word \"cathode\"",
+    "With the letter C",
+    "With the letter K"
+   ],
+   "explanation": "Pool question T6B06.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6b07",
+   "prompt": "What causes a light-emitting diode (LED) to emit light?",
+   "answers": [
+    "Forward current"
+   ],
+   "wrong": [
+    "Reverse current",
+    "Capacitively-coupled RF signal",
+    "Inductively-coupled RF signal"
+   ],
+   "explanation": "Pool question T6B07.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6b08",
+   "prompt": "What does the abbreviation FET stand for?",
+   "answers": [
+    "Field Effect Transistor"
+   ],
+   "wrong": [
+    "Frequency Emission Transmitter",
+    "Fast Electron Transistor",
+    "Free Electron Transmitter"
+   ],
+   "explanation": "Pool question T6B08.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6b09",
+   "prompt": "What are the names for the electrodes of a diode?",
+   "answers": [
+    "Anode and cathode"
+   ],
+   "wrong": [
+    "Plus and minus",
+    "Source and drain",
+    "Gate and base"
+   ],
+   "explanation": "Pool question T6B09.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6b10",
+   "prompt": "Which of the following can provide power gain?",
+   "answers": [
+    "Transistor"
+   ],
+   "wrong": [
+    "Transformer",
+    "Reactor",
+    "Resistor"
+   ],
+   "explanation": "Pool question T6B10.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6b11",
+   "prompt": "What does the term gain mean in amplifiers?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "The output signal voltage relative to the input signal voltage",
+    "The output signal current relative to the input signal current",
+    "The output signal power relative to the input signal power"
+   ],
+   "explanation": "All three are right: the output signal voltage relative to the input signal voltage; the output signal current relative to the input signal current; the output signal power relative to the input signal power. Pool question T6B11.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6b12",
+   "prompt": "What are the names of the electrodes of a bipolar junction transistor?",
+   "answers": [
+    "Emitter, base, collector"
+   ],
+   "wrong": [
+    "Signal, bias, power",
+    "Input, output, supply",
+    "Pole one, pole two, output"
+   ],
+   "explanation": "Pool question T6B12.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6c01",
+   "prompt": "What is an electrical diagram using standard component symbols called?",
+   "answers": [
+    "Schematic"
+   ],
+   "wrong": [
+    "Connection chart",
+    "Instrumentation system",
+    "Flow chart"
+   ],
+   "explanation": "Pool question T6C01.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6c02",
+   "prompt": "What is component 1 in figure T-1?",
+   "answers": [
+    "Resistor"
+   ],
+   "wrong": [
+    "Transistor",
+    "Battery",
+    "Connector"
+   ],
+   "explanation": "Pool question T6C02.",
+   "figure": {
+    "src": "data/figures/t-1.png",
+    "alt": "Figure T-1 from the question pool"
+   },
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6c03",
+   "prompt": "What is component 2 in figure T-1?",
+   "answers": [
+    "Transistor"
+   ],
+   "wrong": [
+    "Resistor",
+    "Indicator lamp",
+    "Connector"
+   ],
+   "explanation": "Pool question T6C03.",
+   "figure": {
+    "src": "data/figures/t-1.png",
+    "alt": "Figure T-1 from the question pool"
+   },
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6c04",
+   "prompt": "What is component 3 in figure T-1?",
+   "answers": [
+    "Lamp"
+   ],
+   "wrong": [
+    "Resistor",
+    "Transistor",
+    "Ground symbol"
+   ],
+   "explanation": "Pool question T6C04.",
+   "figure": {
+    "src": "data/figures/t-1.png",
+    "alt": "Figure T-1 from the question pool"
+   },
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6c05",
+   "prompt": "What is component 4 in figure T-1?",
+   "answers": [
+    "Battery"
+   ],
+   "wrong": [
+    "Resistor",
+    "Transistor",
+    "Ground symbol"
+   ],
+   "explanation": "Pool question T6C05.",
+   "figure": {
+    "src": "data/figures/t-1.png",
+    "alt": "Figure T-1 from the question pool"
+   },
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6c06",
+   "prompt": "What is component 6 in figure T-2?",
+   "answers": [
+    "Capacitor"
+   ],
+   "wrong": [
+    "Resistor",
+    "Regulator IC",
+    "Transistor"
+   ],
+   "explanation": "Pool question T6C06.",
+   "figure": {
+    "src": "data/figures/t-2.png",
+    "alt": "Figure T-2 from the question pool"
+   },
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6c07",
+   "prompt": "What is component 8 in figure T-2?",
+   "answers": [
+    "Light emitting diode"
+   ],
+   "wrong": [
+    "Resistor",
+    "Inductor",
+    "Regulator IC"
+   ],
+   "explanation": "Pool question T6C07.",
+   "figure": {
+    "src": "data/figures/t-2.png",
+    "alt": "Figure T-2 from the question pool"
+   },
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6c08",
+   "prompt": "What is component 9 in figure T-2?",
+   "answers": [
+    "Variable resistor"
+   ],
+   "wrong": [
+    "Variable capacitor",
+    "Variable inductor",
+    "Variable transformer"
+   ],
+   "explanation": "Pool question T6C08.",
+   "figure": {
+    "src": "data/figures/t-2.png",
+    "alt": "Figure T-2 from the question pool"
+   },
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6c09",
+   "prompt": "What is component 4 in figure T-2?",
+   "answers": [
+    "Transformer"
+   ],
+   "wrong": [
+    "Variable inductor",
+    "Double-pole switch",
+    "Potentiometer"
+   ],
+   "explanation": "Pool question T6C09.",
+   "figure": {
+    "src": "data/figures/t-2.png",
+    "alt": "Figure T-2 from the question pool"
+   },
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6c10",
+   "prompt": "What is component 3 in figure T-3?",
+   "answers": [
+    "Variable inductor"
+   ],
+   "wrong": [
+    "Connector",
+    "Meter",
+    "Variable capacitor"
+   ],
+   "explanation": "Pool question T6C10.",
+   "figure": {
+    "src": "data/figures/t-3.png",
+    "alt": "Figure T-3 from the question pool"
+   },
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6c11",
+   "prompt": "What is component 4 in figure T-3?",
+   "answers": [
+    "Antenna"
+   ],
+   "wrong": [
+    "Transmitter",
+    "Dummy load",
+    "Ground"
+   ],
+   "explanation": "Pool question T6C11.",
+   "figure": {
+    "src": "data/figures/t-3.png",
+    "alt": "Figure T-3 from the question pool"
+   },
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6c12",
+   "prompt": "Which of the following is accurately represented in electrical schematics?",
+   "answers": [
+    "Component connections"
+   ],
+   "wrong": [
+    "Wire lengths",
+    "Physical appearance of components",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T6C12.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6d01",
+   "prompt": "Which of the following devices or circuits changes an alternating current into a varying direct current signal?",
+   "answers": [
+    "Rectifier"
+   ],
+   "wrong": [
+    "Transformer",
+    "Amplifier",
+    "Reflector"
+   ],
+   "explanation": "Pool question T6D01.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6d02",
+   "prompt": "What is a relay?",
+   "answers": [
+    "An electrically-controlled switch"
+   ],
+   "wrong": [
+    "A current-controlled amplifier",
+    "An inverting amplifier",
+    "A pass transistor"
+   ],
+   "explanation": "Pool question T6D02.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6d03",
+   "prompt": "Which of the following is a reason to use shielded wire?",
+   "answers": [
+    "To prevent coupling of unwanted signals to or from the wire"
+   ],
+   "wrong": [
+    "To decrease the resistance of DC power connections",
+    "To increase the current carrying capability of the wire",
+    "To reduce receiver overload"
+   ],
+   "explanation": "Pool question T6D03.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6d04",
+   "prompt": "Which of the following displays an electrical quantity as a numeric value?",
+   "answers": [
+    "Meter"
+   ],
+   "wrong": [
+    "Potentiometer",
+    "Transistor",
+    "Relay"
+   ],
+   "explanation": "Pool question T6D04.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6d05",
+   "prompt": "What type of circuit controls the amount of voltage from a power supply?",
+   "answers": [
+    "Regulator"
+   ],
+   "wrong": [
+    "Oscillator",
+    "Filter",
+    "Phase inverter"
+   ],
+   "explanation": "Pool question T6D05.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6d06",
+   "prompt": "What component changes 120 V AC power to a lower AC voltage for other uses?",
+   "answers": [
+    "Transformer"
+   ],
+   "wrong": [
+    "Variable capacitor",
+    "Transistor",
+    "Diode"
+   ],
+   "explanation": "Pool question T6D06.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6d07",
+   "prompt": "Which of the following is commonly used as a visual indicator?",
+   "answers": [
+    "LED"
+   ],
+   "wrong": [
+    "FET",
+    "Zener diode",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T6D07.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6d08",
+   "prompt": "Which of the following is combined with an inductor to make a resonant circuit?",
+   "answers": [
+    "Capacitor"
+   ],
+   "wrong": [
+    "Resistor",
+    "Zener diode",
+    "Potentiometer"
+   ],
+   "explanation": "Pool question T6D08.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6d09",
+   "prompt": "What is the name of a device that combines several semiconductors and other components into one package?",
+   "answers": [
+    "Integrated circuit"
+   ],
+   "wrong": [
+    "Transducer",
+    "Multi-pole relay",
+    "Transformer"
+   ],
+   "explanation": "Pool question T6D09.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6d10",
+   "prompt": "What is the function of component 2 in figure T-1?",
+   "answers": [
+    "Control the flow of current"
+   ],
+   "wrong": [
+    "Give off light when current flows through it",
+    "Supply electrical energy",
+    "Convert electrical energy into radio waves"
+   ],
+   "explanation": "Pool question T6D10.",
+   "figure": {
+    "src": "data/figures/t-1.png",
+    "alt": "Figure T-1 from the question pool"
+   },
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t6d11",
+   "prompt": "Which of the following is a resonant or tuned circuit?",
+   "answers": [
+    "An inductor and a capacitor in series or parallel"
+   ],
+   "wrong": [
+    "A linear voltage regulator",
+    "A resistor circuit used for reducing standing wave ratio",
+    "A circuit designed to provide high-fidelity audio"
+   ],
+   "explanation": "Pool question T6D11.",
+   "tags": [
+    "Electronic and electrical components"
+   ]
+  },
+  {
+   "id": "t7a01",
+   "prompt": "Which term describes the ability of a receiver to detect the presence of a signal?",
+   "answers": [
+    "Sensitivity"
+   ],
+   "wrong": [
+    "RF gain",
+    "Selectivity",
+    "Total Harmonic Distortion"
+   ],
+   "explanation": "Pool question T7A01.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7a02",
+   "prompt": "What is a transceiver?",
+   "answers": [
+    "A device that combines a receiver and transmitter"
+   ],
+   "wrong": [
+    "A device for matching feed line impedance to 50 ohms",
+    "A device for automatically sending and decoding Morse code",
+    "A device for converting receiver and transmitter frequencies to another band"
+   ],
+   "explanation": "Pool question T7A02.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7a03",
+   "prompt": "Which of the following is used to convert a signal from one frequency to another?",
+   "answers": [
+    "Mixer"
+   ],
+   "wrong": [
+    "Phase splitter",
+    "Inverter",
+    "Amplifier"
+   ],
+   "explanation": "Pool question T7A03.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7a04",
+   "prompt": "Which term describes the ability of a receiver to discriminate between multiple signals?",
+   "answers": [
+    "Selectivity"
+   ],
+   "wrong": [
+    "Discrimination ratio",
+    "Sensitivity",
+    "Harmonic distortion"
+   ],
+   "explanation": "Pool question T7A04.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7a05",
+   "prompt": "What is the name of a circuit that generates a signal at a specific frequency?",
+   "answers": [
+    "Oscillator"
+   ],
+   "wrong": [
+    "Reactance modulator",
+    "Phase modulator",
+    "Low-pass filter"
+   ],
+   "explanation": "Pool question T7A05.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7a06",
+   "prompt": "What device converts the RF input and output of a transceiver to another band?",
+   "answers": [
+    "Transverter"
+   ],
+   "wrong": [
+    "High-pass filter",
+    "Low-pass filter",
+    "Phase converter"
+   ],
+   "explanation": "Pool question T7A06.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7a07",
+   "prompt": "What is the function of a transceiver’s PTT input?",
+   "answers": [
+    "Switches transceiver from receive to transmit when grounded"
+   ],
+   "wrong": [
+    "Input for a key used to send CW",
+    "Provides a transmit tuning tone when grounded",
+    "Input for a preamplifier tuning tone"
+   ],
+   "explanation": "Pool question T7A07.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7a08",
+   "prompt": "Which of the following describes combining speech with an RF carrier signal?",
+   "answers": [
+    "Modulation"
+   ],
+   "wrong": [
+    "Impedance matching",
+    "Oscillation",
+    "Low-pass filtering"
+   ],
+   "explanation": "Pool question T7A08.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7a09",
+   "prompt": "What is the function of the switch which selects either SSB or CW-FM on some VHF power amplifiers?",
+   "answers": [
+    "Set the amplifier for proper operation in the selected mode"
+   ],
+   "wrong": [
+    "Change the mode of the transmitted signal",
+    "Change the frequency range of the amplifier to operate in the proper segment of the band",
+    "Reduce the received signal noise"
+   ],
+   "explanation": "Pool question T7A09.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7a10",
+   "prompt": "What can be added to the output of a transceiver to increase the transmitted output power?",
+   "answers": [
+    "An RF power amplifier"
+   ],
+   "wrong": [
+    "A potentiometer",
+    "An impedance multiplier",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T7A10.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7a11",
+   "prompt": "What is the function of the Variable Frequency Oscillator (VFO) circuit in a transceiver?",
+   "answers": [
+    "Set the receive and transmit frequency"
+   ],
+   "wrong": [
+    "Provide automatic frequency control",
+    "Inject a variable frequency to allow CW reception",
+    "Generate and demodulate single sideband signals"
+   ],
+   "explanation": "Pool question T7A11.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7b01",
+   "prompt": "What can you do if you are told your FM handheld or mobile transceiver is over-deviating?",
+   "answers": [
+    "Talk farther away from the microphone"
+   ],
+   "wrong": [
+    "Talk louder into the microphone",
+    "Let the transceiver cool off",
+    "Change to a higher power level"
+   ],
+   "explanation": "Pool question T7B01.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7b02",
+   "prompt": "What would cause a broadcast AM or FM radio to receive an amateur radio transmission unintentionally?",
+   "answers": [
+    "The receiver is unable to reject strong signals outside the AM or FM band"
+   ],
+   "wrong": [
+    "The microphone gain of the transmitter is turned up too high",
+    "The audio amplifier of the transmitter is overloaded",
+    "The deviation of an FM transmitter is set too low"
+   ],
+   "explanation": "Pool question T7B02.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7b03",
+   "prompt": "Which of the following can cause radio frequency interference?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Fundamental overload",
+    "Harmonics",
+    "Spurious emissions"
+   ],
+   "explanation": "All three are right: fundamental overload; harmonics; spurious emissions. Pool question T7B03.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7b04",
+   "prompt": "Which of the following might be the cause of low RF power output from a solid-state transceiver?",
+   "answers": [
+    "High SWR"
+   ],
+   "wrong": [
+    "Poor amplifier noise figure",
+    "Poor amplifier linearity",
+    "Low SWR"
+   ],
+   "explanation": "Pool question T7B04.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7b05",
+   "prompt": "Which of the following might reduce interference by an amateur station to a non-amateur over-the-air radio receiver?",
+   "answers": [
+    "Block the amateur signal with a filter at the antenna input of the affected receiver"
+   ],
+   "wrong": [
+    "Block the interfering signal with a filter on the amateur transmitter",
+    "Switch the transmitter from FM to SSB",
+    "Switch the transmitter to a narrow-band mode"
+   ],
+   "explanation": "Pool question T7B05.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7b06",
+   "prompt": "Which of the following actions should you take if a neighbor tells you that your station’s transmissions are interfering with their radio or TV reception?",
+   "answers": [
+    "Make sure that your station is functioning properly and that it does not cause interference to your own radio or television when it is tuned to the same channel"
+   ],
+   "wrong": [
+    "Immediately turn off your transmitter and contact the nearest FCC office for assistance",
+    "Install a harmonic doubler on the output of your transmitter and tune it until the interference is eliminated",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T7B06.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7b07",
+   "prompt": "Which of the following can reduce interference to a 2-meter band transceiver from a nearby commercial FM station?",
+   "answers": [
+    "Installing a band-reject filter"
+   ],
+   "wrong": [
+    "Installing an RF preamplifier",
+    "Using double-shielded coaxial cable",
+    "Installing bypass capacitors on the microphone cable"
+   ],
+   "explanation": "Pool question T7B07.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7b08",
+   "prompt": "What should you do if something in a neighbor’s home is causing harmful interference to your amateur station?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Work with your neighbor to identify the offending device",
+    "Politely inform your neighbor that FCC rules prohibit the use of devices that cause interference",
+    "Make sure your station meets the standards of good amateur practice"
+   ],
+   "explanation": "All three are right: work with your neighbor to identify the offending device; politely inform your neighbor that FCC rules prohibit the use of devices that cause interference; make sure your station meets the standards of good amateur practice. Pool question T7B08.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7b09",
+   "prompt": "What should be the first step to resolve non-fiber optic cable TV interference caused by your amateur radio transmission?",
+   "answers": [
+    "Be sure all TV feed line coaxial connectors are installed properly"
+   ],
+   "wrong": [
+    "Add a low-pass filter to the TV antenna input",
+    "Add a high-pass filter to the TV antenna input",
+    "Add a preamplifier to the TV antenna input"
+   ],
+   "explanation": "Pool question T7B09.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7b10",
+   "prompt": "What might be a problem if you receive a report that your audio signal through an FM repeater is distorted or unintelligible?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Your transmitter is slightly off frequency",
+    "You are speaking too loudly or too close to the microphone",
+    "You are in a bad location"
+   ],
+   "explanation": "All three are right: your transmitter is slightly off frequency; you are speaking too loudly or too close to the microphone; you are in a bad location. Pool question T7B10.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7b11",
+   "prompt": "Which of the following can eliminate distorted voice transmissions?",
+   "answers": [
+    "Adding a clip-on ferrite “choke” to the microphone cable to prevent the transmitted signal from feeding back into the transmitter"
+   ],
+   "wrong": [
+    "Adding extra feedline to the antenna to lower SWR",
+    "Turning the radio on and off to reset the computer-controlled circuitry",
+    "Turning the squelch control fully clockwise to prevent the transmitted signal from triggering the squelch circuit"
+   ],
+   "explanation": "Pool question T7B11.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7c01",
+   "prompt": "What is the primary purpose of a dummy load?",
+   "answers": [
+    "To prevent transmitting signals over the air when making tests"
+   ],
+   "wrong": [
+    "To prevent over-modulation of a transmitter",
+    "To improve the efficiency of an antenna",
+    "To improve the signal-to-noise ratio of a receiver"
+   ],
+   "explanation": "Pool question T7C01.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7c02",
+   "prompt": "Which of the following is used to determine if an antenna is resonant at the desired operating frequency?",
+   "answers": [
+    "An antenna analyzer"
+   ],
+   "wrong": [
+    "A VTVM",
+    "A Q meter",
+    "A frequency counter"
+   ],
+   "explanation": "Pool question T7C02.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7c03",
+   "prompt": "What does a typical RF dummy load consist of?",
+   "answers": [
+    "A 50-ohm non-inductive resistor mounted on a heat sink"
+   ],
+   "wrong": [
+    "A low-voltage power supply and an AC relay",
+    "A low-voltage power supply and a DC relay",
+    "A 50-ohm inductive reactance mounted in a shielded enclosure"
+   ],
+   "explanation": "Pool question T7C03.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7c04",
+   "prompt": "What reading on an SWR meter indicates a perfect impedance match between the antenna and the feed line?",
+   "answers": [
+    "1:1"
+   ],
+   "wrong": [
+    "50:50",
+    "Zero",
+    "Full Scale"
+   ],
+   "explanation": "Pool question T7C04.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7c05",
+   "prompt": "Why do most solid-state transmitters reduce output power as SWR increases beyond a certain level?",
+   "answers": [
+    "To protect the RF output amplifier transistors"
+   ],
+   "wrong": [
+    "To comply with FCC rules on spectral purity",
+    "Because power supplies cannot supply enough current at high SWR",
+    "To lower the SWR on the transmission line"
+   ],
+   "explanation": "Pool question T7C05.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7c06",
+   "prompt": "What does an SWR reading of 4:1 indicate?",
+   "answers": [
+    "Impedance mismatch"
+   ],
+   "wrong": [
+    "Loss of -4 dB",
+    "Good impedance match",
+    "Gain of +4 dB"
+   ],
+   "explanation": "Pool question T7C06.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7c07",
+   "prompt": "What happens to power lost in a feed line?",
+   "answers": [
+    "It is converted into heat"
+   ],
+   "wrong": [
+    "It increases the SWR",
+    "It is radiated as harmonics",
+    "It distorts the signal"
+   ],
+   "explanation": "Pool question T7C07.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7c08",
+   "prompt": "Which instrument can be used to determine SWR?",
+   "answers": [
+    "Directional wattmeter"
+   ],
+   "wrong": [
+    "Voltmeter",
+    "Ohmmeter",
+    "Iambic pentameter"
+   ],
+   "explanation": "Pool question T7C08.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7c09",
+   "prompt": "Which of the following causes failure of coaxial cables?",
+   "answers": [
+    "Moisture contamination"
+   ],
+   "wrong": [
+    "Solder flux contamination",
+    "Rapid fluctuation in transmitter output power",
+    "Operation at 100% duty cycle for an extended period"
+   ],
+   "explanation": "Pool question T7C09.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7c10",
+   "prompt": "Why should the outer jacket of coaxial cable be resistant to ultraviolet light?",
+   "answers": [
+    "Ultraviolet light can damage the jacket and allow water to enter the cable"
+   ],
+   "wrong": [
+    "Ultraviolet light can increase the resistance of the conductors",
+    "Ultraviolet light can increase losses in the cable’s jacket",
+    "Ultraviolet and RF signals can mix, causing interference"
+   ],
+   "explanation": "Pool question T7C10.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7c11",
+   "prompt": "What is an advantage of foam-dielectric versus solid-dielectric coaxial cable?",
+   "answers": [
+    "It has less loss per foot"
+   ],
+   "wrong": [
+    "It is more resistant to moisture contamination",
+    "It has higher voltage breakdown",
+    "It has a better impedance match to 50 ohms"
+   ],
+   "explanation": "Pool question T7C11.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7d01",
+   "prompt": "Which instrument would you use to measure electric potential?",
+   "answers": [
+    "A voltmeter"
+   ],
+   "wrong": [
+    "An ammeter",
+    "A potentiometer",
+    "An ohmmeter"
+   ],
+   "explanation": "Pool question T7D01.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7d02",
+   "prompt": "How is a voltmeter connected to a component to measure applied voltage?",
+   "answers": [
+    "In parallel"
+   ],
+   "wrong": [
+    "In series",
+    "In quadrature",
+    "In phase"
+   ],
+   "explanation": "Pool question T7D02.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7d03",
+   "prompt": "When configured to measure current, how is a multimeter connected to a component?",
+   "answers": [
+    "In series"
+   ],
+   "wrong": [
+    "In parallel",
+    "In quadrature",
+    "In phase"
+   ],
+   "explanation": "Pool question T7D03.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7d04",
+   "prompt": "Which instrument is used to measure electric current?",
+   "answers": [
+    "An ammeter"
+   ],
+   "wrong": [
+    "An ohmmeter",
+    "An electrometer",
+    "A voltmeter"
+   ],
+   "explanation": "Pool question T7D04.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7d05",
+   "prompt": "How does an ohmmeter measure the resistance of a circuit or component?",
+   "answers": [
+    "By applying a small current and measuring the resulting voltage"
+   ],
+   "wrong": [
+    "By placing a variable resistor in parallel with the circuit",
+    "By placing a variable resistor in series with the circuit",
+    "By applying a variable voltage and measuring the resulting current change"
+   ],
+   "explanation": "Pool question T7D05.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7d06",
+   "prompt": "Which of the following can damage a multimeter?",
+   "answers": [
+    "Attempting to measure voltage when using the resistance setting"
+   ],
+   "wrong": [
+    "Attempting to measure resistance using the voltage setting",
+    "Failing to connect one of the probes to ground",
+    "Not allowing it to warm up properly"
+   ],
+   "explanation": "Pool question T7D06.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7d07",
+   "prompt": "Which of the following measurements are made using a multimeter?",
+   "answers": [
+    "Voltage and resistance"
+   ],
+   "wrong": [
+    "Signal strength and noise",
+    "Impedance and reactance",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T7D07.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7d08",
+   "prompt": "Which of the following types of solder should not be used for radio and electronic applications?",
+   "answers": [
+    "Acid-core solder"
+   ],
+   "wrong": [
+    "Lead-tin solder",
+    "Rosin-core solder",
+    "Tin-copper solder"
+   ],
+   "explanation": "Pool question T7D08.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7d09",
+   "prompt": "What is the characteristic appearance of a cold tin-lead solder joint?",
+   "answers": [
+    "A rough or lumpy surface"
+   ],
+   "wrong": [
+    "Dark black spots",
+    "A bright or shiny surface",
+    "A greenish tinge"
+   ],
+   "explanation": "Pool question T7D09.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7d10",
+   "prompt": "What reading indicates that an ohmmeter is connected across a large, discharged capacitor?",
+   "answers": [
+    "Increasing resistance with time"
+   ],
+   "wrong": [
+    "Decreasing resistance with time",
+    "Steady full-scale reading",
+    "Alternating between open and short circuit"
+   ],
+   "explanation": "Pool question T7D10.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t7d11",
+   "prompt": "Which of the following precautions should be taken when measuring in-circuit resistance with an ohmmeter?",
+   "answers": [
+    "Ensure that the circuit is not powered"
+   ],
+   "wrong": [
+    "Ensure that the applied voltages are correct",
+    "Ensure that the circuit is grounded",
+    "Ensure that the circuit is operating at the correct frequency"
+   ],
+   "explanation": "Pool question T7D11.",
+   "tags": [
+    "Practical circuits"
+   ]
+  },
+  {
+   "id": "t8a01",
+   "prompt": "Which of the following is a form of amplitude modulation?",
+   "answers": [
+    "Single sideband"
+   ],
+   "wrong": [
+    "Spread spectrum",
+    "Packet radio",
+    "Phase shift keying (PSK)"
+   ],
+   "explanation": "Pool question T8A01.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8a02",
+   "prompt": "What type of modulation is commonly used for VHF packet radio transmissions?",
+   "answers": [
+    "FM or PM"
+   ],
+   "wrong": [
+    "SSB",
+    "AM",
+    "PSK"
+   ],
+   "explanation": "Pool question T8A02.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8a03",
+   "prompt": "Which type of voice mode is often used for long-distance (weak signal) contacts on the VHF and UHF bands?",
+   "answers": [
+    "SSB"
+   ],
+   "wrong": [
+    "FM",
+    "DRM",
+    "PM"
+   ],
+   "explanation": "Pool question T8A03.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8a04",
+   "prompt": "Which type of modulation is commonly used for VHF and UHF voice repeaters?",
+   "answers": [
+    "FM or PM"
+   ],
+   "wrong": [
+    "AM",
+    "SSB",
+    "PSK"
+   ],
+   "explanation": "Pool question T8A04.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8a05",
+   "prompt": "Which of the following signal types has the narrowest bandwidth?",
+   "answers": [
+    "CW"
+   ],
+   "wrong": [
+    "FM voice",
+    "SSB voice",
+    "Slow-scan TV"
+   ],
+   "explanation": "Pool question T8A05.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8a06",
+   "prompt": "Which sideband is normally used for 10-meter HF, VHF, and UHF single-sideband communications?",
+   "answers": [
+    "Upper sideband"
+   ],
+   "wrong": [
+    "Lower sideband",
+    "Suppressed sideband",
+    "Inverted sideband"
+   ],
+   "explanation": "Pool question T8A06.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8a07",
+   "prompt": "What is one characteristic of single sideband (SSB) compared to FM?",
+   "answers": [
+    "SSB signals have narrower bandwidth"
+   ],
+   "wrong": [
+    "SSB signals are easier to tune in correctly",
+    "SSB signals are less susceptible to interference",
+    "SSB signals are less susceptible to high SWR"
+   ],
+   "explanation": "Pool question T8A07.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8a08",
+   "prompt": "What is the approximate bandwidth of a typical single sideband (SSB) voice signal?",
+   "answers": [
+    "3 kHz"
+   ],
+   "wrong": [
+    "1 kHz",
+    "6 kHz",
+    "15 kHz"
+   ],
+   "explanation": "Pool question T8A08.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8a09",
+   "prompt": "What is the approximate bandwidth of an FM voice signal on VHF repeaters?",
+   "answers": [
+    "Between 10 and 15 kHz"
+   ],
+   "wrong": [
+    "Less than 500 Hz",
+    "About 150 kHz",
+    "Between 50 and 125 kHz"
+   ],
+   "explanation": "Pool question T8A09.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8a10",
+   "prompt": "What is the approximate bandwidth of AM fast-scan TV transmissions?",
+   "answers": [
+    "About 6 MHz"
+   ],
+   "wrong": [
+    "More than 10 MHz",
+    "About 3 MHz",
+    "About 1 MHz"
+   ],
+   "explanation": "Pool question T8A10.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8a11",
+   "prompt": "What is the approximate bandwidth required to transmit a CW signal?",
+   "answers": [
+    "150 Hz"
+   ],
+   "wrong": [
+    "2.4 kHz",
+    "1000 Hz",
+    "15 kHz"
+   ],
+   "explanation": "Pool question T8A11.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8a12",
+   "prompt": "Which of the following is a disadvantage of FM compared with single sideband?",
+   "answers": [
+    "Only one signal can be received at a time"
+   ],
+   "wrong": [
+    "Voice quality is poorer",
+    "FM signals are harder to tune",
+    "FM signals are more susceptible to high SWR"
+   ],
+   "explanation": "Pool question T8A12.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8b01",
+   "prompt": "What telemetry information is typically transmitted by satellite beacons?",
+   "answers": [
+    "Health and status of the satellite"
+   ],
+   "wrong": [
+    "The signal strength of received signals",
+    "Time of day accurate to plus or minus 1/10 second",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T8B01.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8b02",
+   "prompt": "What is the impact of using excessive effective radiated power on a satellite uplink?",
+   "answers": [
+    "Blocking access by other users"
+   ],
+   "wrong": [
+    "Possibility of commanding the satellite to an improper mode",
+    "Overloading the satellite batteries",
+    "Possibility of rebooting the satellite control computer"
+   ],
+   "explanation": "Pool question T8B02.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8b03",
+   "prompt": "Which of the following are provided by satellite tracking programs?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Maps showing the real-time position of the satellite track over Earth",
+    "The time, azimuth, and elevation of the start, maximum altitude, and end of a pass",
+    "The apparent frequency of the satellite transmission, including effects of Doppler shift"
+   ],
+   "explanation": "All three are right: maps showing the real-time position of the satellite track over Earth; the time, azimuth, and elevation of the start, maximum altitude, and end of a pass; the apparent frequency of the satellite transmission, including effects of Doppler shift. Pool question T8B03.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8b04",
+   "prompt": "What mode of transmission is commonly used by amateur radio satellites?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "SSB",
+    "FM",
+    "CW/data"
+   ],
+   "explanation": "All three are right: SSB; FM; CW/data. Pool question T8B04.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8b05",
+   "prompt": "What is a satellite beacon?",
+   "answers": [
+    "A transmission from a satellite that contains status information"
+   ],
+   "wrong": [
+    "The primary transmit antenna on the satellite",
+    "An indicator light that shows where to point your antenna",
+    "A reflective surface on the satellite"
+   ],
+   "explanation": "Pool question T8B05.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8b06",
+   "prompt": "Which of the following are inputs to a satellite tracking program?",
+   "answers": [
+    "The Keplerian elements"
+   ],
+   "wrong": [
+    "The satellite transmitted power",
+    "The last observed time of zero Doppler shift",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T8B06.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8b07",
+   "prompt": "What is Doppler shift in reference to satellite communications?",
+   "answers": [
+    "An observed change in signal frequency caused by relative motion between the satellite and Earth station"
+   ],
+   "wrong": [
+    "A change in the satellite orbit",
+    "A mode where the satellite receives signals on one band and transmits on another",
+    "A special digital communications mode for some satellites"
+   ],
+   "explanation": "Pool question T8B07.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8b08",
+   "prompt": "What does it mean if a satellite is operating in U/V mode?",
+   "answers": [
+    "The satellite uplink is in the 70-centimeter band and the downlink is in the 2-meter band"
+   ],
+   "wrong": [
+    "The satellite uplink is in the 15-meter band and the downlink is in the 10-meter band",
+    "The satellite operates using ultraviolet frequencies",
+    "The satellite frequencies are usually variable"
+   ],
+   "explanation": "Pool question T8B08.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8b09",
+   "prompt": "What causes spin fading of satellite signals?",
+   "answers": [
+    "Rotation of the satellite and its antennas"
+   ],
+   "wrong": [
+    "Circular polarized noise interference radiated from the sun",
+    "Doppler shift of the received signal",
+    "Interfering signals within the satellite uplink band"
+   ],
+   "explanation": "Pool question T8B09.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8b10",
+   "prompt": "What does the term LEO mean in reference to communication satellites?",
+   "answers": [
+    "Low Earth Orbit, which has a period of around 100 minutes"
+   ],
+   "wrong": [
+    "Low Energy Orbit, which conserves battery power",
+    "Low Elevation Orbit, which appears close to the horizon from the earth station",
+    "Low Equilibrium Orbit, which has a slightly unstable period"
+   ],
+   "explanation": "Pool question T8B10.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8b11",
+   "prompt": "Who is permitted to receive telemetry from an amateur radio satellite?",
+   "answers": [
+    "Anyone"
+   ],
+   "wrong": [
+    "Only the satellite control operator",
+    "Only the control operator or a licensed radio amateur who has received the encryption key from the control operator",
+    "Only a licensed radio amateur who has received the encryption key from AMSAT"
+   ],
+   "explanation": "Pool question T8B11.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8b12",
+   "prompt": "Which of the following is a way to determine whether your satellite uplink power into a linear transponder satellite is neither too low nor too high?",
+   "answers": [
+    "Your signal strength on the downlink should be about the same as the beacon"
+   ],
+   "wrong": [
+    "Check your signal strength report in the telemetry data",
+    "Listen for distortion on your downlink signal",
+    "Compare your signal to others on the downlink using an internet SDR receiver"
+   ],
+   "explanation": "Pool question T8B12.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8c01",
+   "prompt": "Which of the following methods is used to locate sources of noise interference or jamming?",
+   "answers": [
+    "Radio direction finding"
+   ],
+   "wrong": [
+    "Echolocation",
+    "Doppler radar",
+    "Phase locking"
+   ],
+   "explanation": "Pool question T8C01.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8c02",
+   "prompt": "Which of these items would be useful for a hidden transmitter hunt?",
+   "answers": [
+    "A directional antenna"
+   ],
+   "wrong": [
+    "Calibrated SWR meter",
+    "A directional wattmeter",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T8C02.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8c03",
+   "prompt": "What operating activity involves contacting as many stations as possible during a specified period?",
+   "answers": [
+    "Contesting"
+   ],
+   "wrong": [
+    "Simulated emergency exercises",
+    "Net operations",
+    "Hidden transmitter hunts"
+   ],
+   "explanation": "Pool question T8C03.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8c04",
+   "prompt": "Which of the following is good practice when contacting another station in a contest?",
+   "answers": [
+    "Sending only the minimum information needed for proper identification and the contest exchange"
+   ],
+   "wrong": [
+    "Signing only the last two letters of your call if there are many other stations calling",
+    "Contacting the station twice to be sure that you are in his log",
+    "Adding “Please copy” before your exchange"
+   ],
+   "explanation": "Pool question T8C04.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8c05",
+   "prompt": "What is a grid locator?",
+   "answers": [
+    "A letter-number designator assigned to a geographic location"
+   ],
+   "wrong": [
+    "A letter-number designator assigned to an azimuth and elevation",
+    "An instrument for locating faults in power amplifiers",
+    "An instrument for radio direction finding"
+   ],
+   "explanation": "Pool question T8C05.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8c06",
+   "prompt": "How is over the air access to Internet Radio Linking Project (IRLP) nodes accomplished?",
+   "answers": [
+    "By using Dual-Tone Multi-Frequency (DTMF) signals"
+   ],
+   "wrong": [
+    "By obtaining a password that is sent via voice to the node",
+    "By entering the proper internet password",
+    "By using Continuous Tone-Coded Squelch System (CTCSS) tone codes"
+   ],
+   "explanation": "Pool question T8C06.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8c07",
+   "prompt": "What is Voice Over Internet Protocol (VoIP)?",
+   "answers": [
+    "A method of delivering voice communications over the internet using digital techniques"
+   ],
+   "wrong": [
+    "A set of rules specifying how to identify your station when linked over the internet to another station",
+    "A technique employed to “spot” DX stations via the internet",
+    "A technique for measuring the modulation quality of a transmitter using remote sites monitored via the internet"
+   ],
+   "explanation": "Pool question T8C07.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8c08",
+   "prompt": "What is the Internet Radio Linking Project (IRLP)?",
+   "answers": [
+    "A technique to connect amateur radio systems, such as repeaters, via the internet"
+   ],
+   "wrong": [
+    "A system for providing access to websites via amateur radio",
+    "A system for informing amateurs in real time of the frequency of active DX stations",
+    "A technique for measuring signal strength of an amateur transmitter via the internet"
+   ],
+   "explanation": "Pool question T8C08.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8c09",
+   "prompt": "Which of the following protocols enables an amateur station to transmit through a repeater without using a radio to initiate the transmission?",
+   "answers": [
+    "EchoLink"
+   ],
+   "wrong": [
+    "IRLP",
+    "D-STAR",
+    "DMR"
+   ],
+   "explanation": "Pool question T8C09.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8c10",
+   "prompt": "What is required before using the EchoLink system?",
+   "answers": [
+    "Register your call sign and provide proof of license"
+   ],
+   "wrong": [
+    "Complete the required EchoLink training",
+    "Purchase a license to use the EchoLink software",
+    "At least a General Class license"
+   ],
+   "explanation": "Pool question T8C10.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8c11",
+   "prompt": "What is an amateur radio station that connects other amateur stations to the internet?",
+   "answers": [
+    "A gateway"
+   ],
+   "wrong": [
+    "A repeater",
+    "A digipeater",
+    "A beacon"
+   ],
+   "explanation": "Pool question T8C11.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8d01",
+   "prompt": "Which of the following is a digital communications mode?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Packet radio",
+    "IEEE 802.11",
+    "FT8"
+   ],
+   "explanation": "All three are right: packet radio; IEEE 802.11; FT8. Pool question T8D01.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8d02",
+   "prompt": "What is FT8?",
+   "answers": [
+    "A digital mode capable of low signal-to-noise operation"
+   ],
+   "wrong": [
+    "A wideband FM voice mode",
+    "An eight-channel multiplex mode for FM repeaters",
+    "A digital slow-scan TV mode with forward error correction and automatic color compensation"
+   ],
+   "explanation": "Pool question T8D02.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8d03",
+   "prompt": "What kind of data can be transmitted by APRS?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "GPS position data",
+    "Text messages",
+    "Weather data"
+   ],
+   "explanation": "All three are right: GPS position data; text messages; weather data. Pool question T8D03.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8d04",
+   "prompt": "What is meant by the term \"NTSC?\"",
+   "answers": [
+    "An analog fast-scan color TV signal"
+   ],
+   "wrong": [
+    "A digital transmission standard for encrypting data",
+    "A special mode for satellite uplink",
+    "A frame compression scheme for TV signals"
+   ],
+   "explanation": "Pool question T8D04.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8d05",
+   "prompt": "Which of the following is an application of APRS?",
+   "answers": [
+    "Providing real-time tactical digital communications in conjunction with a map showing the locations of stations"
+   ],
+   "wrong": [
+    "Automatically showing the number of packets transmitted via PACTOR during a specific time interval",
+    "Providing voice over internet connection between repeaters",
+    "Providing information on the number of stations signed into a repeater"
+   ],
+   "explanation": "Pool question T8D05.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8d06",
+   "prompt": "What does the abbreviation \"PSK\" mean?",
+   "answers": [
+    "Phase Shift Keying"
+   ],
+   "wrong": [
+    "Pulse Shift Keying",
+    "Packet Sampled Keying",
+    "Power Sampled Keying"
+   ],
+   "explanation": "Pool question T8D06.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8d07",
+   "prompt": "Which of the following describes DMR?",
+   "answers": [
+    "A technique for time-multiplexing two digital voice signals on a single 12.5 kHz repeater channel"
+   ],
+   "wrong": [
+    "An automatic position tracking mode for FM mobiles communicating through repeaters",
+    "An automatic computer logging technique for hands-off logging when communicating while operating a vehicle",
+    "A digital technique for transmitting on two repeater inputs simultaneously for automatic error correction"
+   ],
+   "explanation": "Pool question T8D07.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8d08",
+   "prompt": "Which of the following is included in packet radio transmissions?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "A checksum that permits error detection",
+    "A header that contains the call sign of the station to which the information is being sent",
+    "Automatic repeat request in case of error"
+   ],
+   "explanation": "All three are right: a checksum that permits error detection; a header that contains the call sign of the station to which the information is being sent; automatic repeat request in case of error. Pool question T8D08.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8d09",
+   "prompt": "What is CW?",
+   "answers": [
+    "Another name for a Morse code transmission"
+   ],
+   "wrong": [
+    "A type of electromagnetic propagation",
+    "A digital mode used primarily on 2-meter FM",
+    "Error correction for digital transmission using code words"
+   ],
+   "explanation": "Pool question T8D09.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8d10",
+   "prompt": "Which of the following operating activities is supported by digital mode software in the WSJT-X software suite?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Earth-Moon-Earth",
+    "Weak signal propagation beacons",
+    "Meteor scatter"
+   ],
+   "explanation": "All three are right: earth-Moon-Earth; weak signal propagation beacons; meteor scatter. Pool question T8D10.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8d11",
+   "prompt": "What is the role of ARQ in a transmission system?",
+   "answers": [
+    "An error correction method in which the receiving station detects errors and sends a request for retransmission"
+   ],
+   "wrong": [
+    "A special transmission format limited to video signals",
+    "A system used to encrypt command signals to an amateur radio satellite",
+    "A method of compressing data using autonomous reiterative Q codes prior to final encoding"
+   ],
+   "explanation": "Pool question T8D11.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t8d12",
+   "prompt": "Which of the following best describes an amateur radio mesh network?",
+   "answers": [
+    "An amateur-radio data network using commercial Wi-Fi equipment with modified firmware"
+   ],
+   "wrong": [
+    "A wide-bandwidth digital voice mode employing DMR protocols",
+    "An amateur-radio satellite communications network using modified commercial satellite TV hardware",
+    "An internet linking protocol allowing communication through repeaters around the world"
+   ],
+   "explanation": "Pool question T8D12.",
+   "tags": [
+    "Signals and emissions"
+   ]
+  },
+  {
+   "id": "t9a01",
+   "prompt": "What is a beam antenna?",
+   "answers": [
+    "An antenna that concentrates signals in one direction"
+   ],
+   "wrong": [
+    "An antenna built from square aluminum beams",
+    "An omnidirectional antenna invented by Clarence Beam",
+    "An antenna that focuses the signal into two intense rays"
+   ],
+   "explanation": "Pool question T9A01.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9a02",
+   "prompt": "Which of the following describes a type of antenna loading?",
+   "answers": [
+    "Electrically lengthening by inserting inductors in radiating elements"
+   ],
+   "wrong": [
+    "Inserting a resistor in the radiating portion of the antenna to make it resonant",
+    "Installing a spring in the base of a mobile vertical antenna to make it more flexible",
+    "Strengthening the radiating elements of a beam antenna to better resist wind damage"
+   ],
+   "explanation": "Pool question T9A02.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9a03",
+   "prompt": "How is the polarization of an antenna described?",
+   "answers": [
+    "By the orientation of the electric field"
+   ],
+   "wrong": [
+    "By the shape of the driven element",
+    "By the orientation of the magnetic field",
+    "By the direction of radiation"
+   ],
+   "explanation": "Pool question T9A03.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9a04",
+   "prompt": "What is a disadvantage of a handheld radio transceiver’s short flexible antenna compared to a full-sized quarter-wave antenna?",
+   "answers": [
+    "It has low efficiency"
+   ],
+   "wrong": [
+    "It transmits only circularly polarized signals",
+    "It is more susceptible to receiver desensitization",
+    "It only works on analog signals, not digital ones"
+   ],
+   "explanation": "Pool question T9A04.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9a05",
+   "prompt": "Which of the following increases the resonant frequency of a dipole antenna?",
+   "answers": [
+    "Shortening it"
+   ],
+   "wrong": [
+    "Lengthening it",
+    "Inserting coils in series with radiating wires",
+    "Adding capacitive loading to the ends of the radiating wires"
+   ],
+   "explanation": "Pool question T9A05.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9a06",
+   "prompt": "Which of the following types of antennas offers the greatest gain?",
+   "answers": [
+    "Yagi"
+   ],
+   "wrong": [
+    "5/8 wave vertical",
+    "Isotropic",
+    "J pole"
+   ],
+   "explanation": "Pool question T9A06.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9a07",
+   "prompt": "What is a potential drawback of using a handheld VHF transceiver inside a vehicle that lacks an externally mounted antenna?",
+   "answers": [
+    "Signal strength is reduced due to the shielding effect of the vehicle"
+   ],
+   "wrong": [
+    "The bandwidth of the antenna will decrease, increasing SWR",
+    "The SWR might decrease, decreasing the signal strength",
+    "The handheld will overheat due to reflected power in the vehicle"
+   ],
+   "explanation": "Pool question T9A07.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9a08",
+   "prompt": "Why is a 19-inch-long vertical antenna often used on 2 meters?",
+   "answers": [
+    "It is a resonant quarter-wave"
+   ],
+   "wrong": [
+    "It has high gain",
+    "It is a resonant half-wave",
+    "It has low RF radiation exposure"
+   ],
+   "explanation": "Pool question T9A08.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9a09",
+   "prompt": "What is an advantage of a 5/8-wavelength whip antenna for VHF or UHF mobile service compared to a 1/4-wave antenna?",
+   "answers": [
+    "It has more gain"
+   ],
+   "wrong": [
+    "It radiates at a higher angle",
+    "It has lower SWR",
+    "It has lower impedance"
+   ],
+   "explanation": "Pool question T9A09.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9a10",
+   "prompt": "In which direction does a half-wave dipole antenna radiate the strongest signal?",
+   "answers": [
+    "Broadside to the antenna"
+   ],
+   "wrong": [
+    "Equally in all directions",
+    "Off the ends of the antenna",
+    "In the direction of the feed line"
+   ],
+   "explanation": "Pool question T9A10.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9a11",
+   "prompt": "What is antenna gain?",
+   "answers": [
+    "The increase in signal strength in a specified direction compared to a reference antenna"
+   ],
+   "wrong": [
+    "The additional power that is added to the transmitter power",
+    "The additional power that is required in the antenna when transmitting on a higher frequency",
+    "The increase in impedance on receive or transmit compared to a reference antenna"
+   ],
+   "explanation": "Pool question T9A11.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9b01",
+   "prompt": "Which of the following connectors should be carefully taped for weather protection when used outdoors?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "PL259",
+    "BNC",
+    "Type N"
+   ],
+   "explanation": "All three are right: PL259; BNC; type N. Pool question T9B01.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9b02",
+   "prompt": "What is the most common impedance of coaxial cables used in amateur radio?",
+   "answers": [
+    "50 ohms"
+   ],
+   "wrong": [
+    "8 ohms",
+    "600 ohms",
+    "12 ohms"
+   ],
+   "explanation": "Pool question T9B02.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9b03",
+   "prompt": "Why is coaxial cable the most common feed line for amateur radio antenna systems?",
+   "answers": [
+    "It is easy to use and requires few special installation considerations"
+   ],
+   "wrong": [
+    "It has less loss than any other type of feed line",
+    "It can handle more power than any other type of feed line",
+    "It is less expensive than any other type of feed line"
+   ],
+   "explanation": "Pool question T9B03.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9b04",
+   "prompt": "What is the major function of an antenna tuner (antenna coupler)?",
+   "answers": [
+    "It matches the antenna system impedance to the transceiver's output impedance"
+   ],
+   "wrong": [
+    "It helps a receiver automatically tune in weak stations",
+    "It allows an antenna to be used on both transmit and receive",
+    "It automatically selects the proper antenna for the frequency band being used"
+   ],
+   "explanation": "Pool question T9B04.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9b05",
+   "prompt": "What happens as the frequency of a signal in coaxial cable is increased?",
+   "answers": [
+    "The loss increases"
+   ],
+   "wrong": [
+    "The characteristic impedance decreases",
+    "The loss decreases",
+    "The characteristic impedance increases"
+   ],
+   "explanation": "Pool question T9B05.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9b06",
+   "prompt": "Which of the following connector types is most suitable as an RF connector for frequencies above 400 MHz?",
+   "answers": [
+    "Type N"
+   ],
+   "wrong": [
+    "PL-259",
+    "RS-213",
+    "DB-25"
+   ],
+   "explanation": "Pool question T9B06.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9b07",
+   "prompt": "Which of the following is true of PL-259 type coax connectors?",
+   "answers": [
+    "They are commonly used at HF and VHF frequencies"
+   ],
+   "wrong": [
+    "They are preferred for microwave operation",
+    "They are watertight",
+    "They are a bayonet-type connector"
+   ],
+   "explanation": "Pool question T9B07.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9b08",
+   "prompt": "Which of the following is a source of loss in coaxial feed line?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Water intrusion into coaxial connectors",
+    "High SWR",
+    "Multiple connectors in the line"
+   ],
+   "explanation": "All three are right: water intrusion into coaxial connectors; high SWR; multiple connectors in the line. Pool question T9B08.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9b09",
+   "prompt": "What can cause erratic changes in SWR?",
+   "answers": [
+    "Loose connection in the antenna or feed line"
+   ],
+   "wrong": [
+    "Local thunderstorm",
+    "Over-modulation",
+    "Overload from a strong local station"
+   ],
+   "explanation": "Pool question T9B09.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9b10",
+   "prompt": "What is the electrical difference between RG-58 and RG-213 coaxial cable?",
+   "answers": [
+    "RG-213 cable has less loss at a given frequency"
+   ],
+   "wrong": [
+    "There is no significant difference between the two types",
+    "RG-58 cable has two shields",
+    "RG-58 cable can handle higher power levels"
+   ],
+   "explanation": "Pool question T9B10.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9b11",
+   "prompt": "Which of the following types of feed line has the lowest loss?",
+   "answers": [
+    "Air-insulated hardline"
+   ],
+   "wrong": [
+    "50-ohm flexible coax",
+    "Multi-conductor unbalanced cable",
+    "75-ohm flexible coax"
+   ],
+   "explanation": "Pool question T9B11.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t9b12",
+   "prompt": "What is standing wave ratio (SWR)?",
+   "answers": [
+    "A measure of how well a load is matched to a transmission line"
+   ],
+   "wrong": [
+    "The ratio of amplifier power output to input",
+    "The transmitter efficiency ratio",
+    "An indication of the quality of your station’s ground connection"
+   ],
+   "explanation": "Pool question T9B12.",
+   "tags": [
+    "Antennas and feed lines"
+   ]
+  },
+  {
+   "id": "t0a01",
+   "prompt": "Which of the following is a safety hazard of a 12-volt storage battery that lacks internal protection circuitry?",
+   "answers": [
+    "Shorting the terminals can cause burns, fire, or an explosion"
+   ],
+   "wrong": [
+    "Touching both terminals with your hands can cause electrical shock",
+    "RF emissions from a nearby transmitter can cause the electrolyte to emit poison gas",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T0A01.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0a02",
+   "prompt": "What health hazard is posed by electrical current flowing through the body?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "It may cause injury by heating body tissue",
+    "It may disrupt the electrical functions of cells",
+    "It may cause involuntary muscle contractions"
+   ],
+   "explanation": "All three are right: it may cause injury by heating body tissue; it may disrupt the electrical functions of cells; it may cause involuntary muscle contractions. Pool question T0A02.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0a03",
+   "prompt": "In the United States, what circuit does black wire insulation indicate in a three-wire 120 V AC cable?",
+   "answers": [
+    "Hot"
+   ],
+   "wrong": [
+    "Neutral",
+    "Equipment ground",
+    "Negative"
+   ],
+   "explanation": "Pool question T0A03.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0a04",
+   "prompt": "What is the purpose of a fuse in an electrical circuit?",
+   "answers": [
+    "To remove power in case of an overload"
+   ],
+   "wrong": [
+    "To prevent power supply ripple from damaging a component",
+    "To limit current and prevent shocks",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T0A04.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0a05",
+   "prompt": "Why should a 5-ampere fuse never be replaced with a 20-ampere fuse?",
+   "answers": [
+    "Excessive current could cause a fire"
+   ],
+   "wrong": [
+    "The larger fuse would be likely to blow because it is rated for higher current",
+    "The power supply ripple would greatly increase",
+    "Voltage drop in the higher current fuse could result in excessively low voltage to the device"
+   ],
+   "explanation": "Pool question T0A05.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0a06",
+   "prompt": "What is a good way to guard against electrical shock at your station?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Use three-wire cords and plugs for all AC powered equipment",
+    "Connect all AC powered station equipment to a common safety ground",
+    "Ensure all capacitors used for high-voltage DC are fully discharged before working inside equipment"
+   ],
+   "explanation": "All three are right: use three-wire cords and plugs for all AC powered equipment; connect all AC powered station equipment to a common safety ground; ensure all capacitors used for high-voltage DC are fully discharged before working inside equipment. Pool question T0A06.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0a07",
+   "prompt": "Where should a lightning arrester be installed in a coaxial feed line?",
+   "answers": [
+    "On a grounded panel near where feed lines enter the building"
+   ],
+   "wrong": [
+    "At the output connector of a transceiver",
+    "At the antenna feed point",
+    "At the AC power service panel"
+   ],
+   "explanation": "Pool question T0A07.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0a08",
+   "prompt": "Where should a fuse or circuit breaker be installed in a 120V AC power circuit?",
+   "answers": [
+    "In series with the hot conductor only"
+   ],
+   "wrong": [
+    "In series with the hot and neutral conductors",
+    "In parallel with the hot conductor only",
+    "In parallel with the hot and neutral conductors"
+   ],
+   "explanation": "Pool question T0A08.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0a09",
+   "prompt": "What should be done to all external ground rods or earth connections?",
+   "answers": [
+    "Bond them together with heavy wire or conductive strap"
+   ],
+   "wrong": [
+    "Waterproof them with silicone caulk or electrical tape",
+    "Keep them as far apart as possible",
+    "Tune them for resonance on the lowest frequency of operation"
+   ],
+   "explanation": "Pool question T0A09.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0a10",
+   "prompt": "What hazard exists when rapidly charging or discharging an unprotected battery?",
+   "answers": [
+    "Overheating or out-gassing"
+   ],
+   "wrong": [
+    "Excess output ripple",
+    "Electric shock",
+    "Overvoltage"
+   ],
+   "explanation": "Pool question T0A10.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0a11",
+   "prompt": "What hazard exists in a power supply immediately after turning it off?",
+   "answers": [
+    "Charge stored in filter capacitors"
+   ],
+   "wrong": [
+    "Circulating currents in the dc filter",
+    "Leakage flux in the power transformer",
+    "Voltage transients from kickback diodes"
+   ],
+   "explanation": "Pool question T0A11.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0a12",
+   "prompt": "Which of the following precautions should be taken when measuring high voltages with a voltmeter?",
+   "answers": [
+    "Ensure that the voltmeter and its leads are rated for use at the voltages being measured"
+   ],
+   "wrong": [
+    "Ensure that the voltmeter has very low impedance",
+    "Ensure that the circuit is grounded through the voltmeter",
+    "Ensure that the voltmeter is set to the correct frequency"
+   ],
+   "explanation": "Pool question T0A12.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0b01",
+   "prompt": "Which of the following is good practice when installing ground wires on a tower for lightning protection?",
+   "answers": [
+    "Ensure that connections are short and direct"
+   ],
+   "wrong": [
+    "Put a drip loop in the ground connection to prevent water damage to the ground system",
+    "Make sure all ground wire bends are right angles",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T0B01.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0b02",
+   "prompt": "What is required when climbing an antenna tower?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Have sufficient training on safe tower climbing techniques",
+    "Use appropriate tie-off to the tower at all times",
+    "Always wear an approved climbing harness"
+   ],
+   "explanation": "All three are right: have sufficient training on safe tower climbing techniques; use appropriate tie-off to the tower at all times; always wear an approved climbing harness. Pool question T0B02.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0b03",
+   "prompt": "Under what circumstances is it safe to climb a tower without a helper or observer?",
+   "answers": [
+    "Never"
+   ],
+   "wrong": [
+    "When no electrical work is being performed",
+    "When no mechanical work is being performed",
+    "When the work being done is not more than 20 feet above the ground"
+   ],
+   "explanation": "Pool question T0B03.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0b04",
+   "prompt": "Which of the following is an important safety precaution to observe when putting up an antenna tower?",
+   "answers": [
+    "Look for and stay clear of any overhead electrical wires"
+   ],
+   "wrong": [
+    "Wear a ground strap connected to your wrist at all times",
+    "Insulate the base of the tower to avoid lightning strikes",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T0B04.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0b05",
+   "prompt": "What is the purpose of a safety wire through a turnbuckle used to tension guy lines?",
+   "answers": [
+    "Prevent loosening of the turnbuckle from vibration"
+   ],
+   "wrong": [
+    "Secure the guy line if the turnbuckle breaks",
+    "Provide a ground path for lightning strikes",
+    "Provide an ability to measure for proper tensioning"
+   ],
+   "explanation": "Pool question T0B05.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0b06",
+   "prompt": "What is the minimum safe distance from a power line to allow when installing an antenna?",
+   "answers": [
+    "Enough so that if the antenna falls, no part of it can come within 10 feet of the power wires"
+   ],
+   "wrong": [
+    "Add the height of the antenna to the height of the power line and multiply by a factor of 1.5",
+    "The height of the power line above ground",
+    "1/2 wavelength at the operating frequency"
+   ],
+   "explanation": "Pool question T0B06.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0b07",
+   "prompt": "Which of the following is an important safety rule to remember when using a crank-up tower?",
+   "answers": [
+    "This type of tower must not be climbed unless it is retracted, or mechanical safety locking devices have been installed"
+   ],
+   "wrong": [
+    "This type of tower must never be painted",
+    "This type of tower must never be grounded",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T0B07.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0b08",
+   "prompt": "Which is a proper grounding method for a tower?",
+   "answers": [
+    "Separate eight-foot ground rods for each tower leg, bonded to the tower and each other"
+   ],
+   "wrong": [
+    "A single four-foot ground rod, driven into the ground no more than 12 inches from the base",
+    "A ferrite-core RF choke connected between the tower and ground",
+    "A connection between the tower base and a cold-water pipe"
+   ],
+   "explanation": "Pool question T0B08.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0b09",
+   "prompt": "Why should you avoid attaching an antenna to a utility pole?",
+   "answers": [
+    "The antenna could contact high-voltage power lines"
+   ],
+   "wrong": [
+    "The antenna will not work properly because of induced voltages",
+    "The antenna may unbalance the power transformer, causing power fluctuations",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T0B09.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0b10",
+   "prompt": "Which of the following is true when installing grounding conductors used for lightning protection?",
+   "answers": [
+    "Sharp bends must be avoided"
+   ],
+   "wrong": [
+    "Use only non-insulated wire",
+    "Wires must be carefully routed with precise right-angle bends",
+    "Common grounds must be avoided"
+   ],
+   "explanation": "Pool question T0B10.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0b11",
+   "prompt": "Which of the following establishes grounding requirements for an amateur radio tower or antenna?",
+   "answers": [
+    "Local electrical codes"
+   ],
+   "wrong": [
+    "FCC Part 97 rules",
+    "FAA tower lighting regulations",
+    "UL recommended practices"
+   ],
+   "explanation": "Pool question T0B11.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0c01",
+   "prompt": "What type of radiation are radio signals?",
+   "answers": [
+    "Non-ionizing radiation"
+   ],
+   "wrong": [
+    "Gamma radiation",
+    "Ionizing radiation",
+    "Alpha radiation"
+   ],
+   "explanation": "Pool question T0C01.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0c02",
+   "prompt": "Which of the following bands has the lowest maximum permissible exposure for RF safety?",
+   "answers": [
+    "50 MHz"
+   ],
+   "wrong": [
+    "3.5 MHz",
+    "440 MHz",
+    "1296 MHz"
+   ],
+   "explanation": "Pool question T0C02.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0c03",
+   "prompt": "How does the allowable power density for RF safety change if duty cycle changes from 100 percent to 50 percent?",
+   "answers": [
+    "It increases by a factor of 2"
+   ],
+   "wrong": [
+    "It increases by a factor of 3",
+    "It decreases by 50 percent",
+    "There is no adjustment allowed for lower duty cycle"
+   ],
+   "explanation": "Pool question T0C03.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0c04",
+   "prompt": "What factors affect the RF exposure of people near an amateur station antenna?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "Frequency and power level of the RF field",
+    "Distance from the antenna to a person",
+    "Radiation pattern of the antenna"
+   ],
+   "explanation": "All three are right: frequency and power level of the RF field; distance from the antenna to a person; radiation pattern of the antenna. Pool question T0C04.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0c05",
+   "prompt": "Why do exposure limits vary with frequency?",
+   "answers": [
+    "The human body absorbs more RF energy at some frequencies than at others"
+   ],
+   "wrong": [
+    "Lower frequency RF fields have more energy than higher frequency fields",
+    "Lower frequency RF fields do not penetrate the human body",
+    "Higher frequency RF fields are transient in nature"
+   ],
+   "explanation": "Pool question T0C05.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0c06",
+   "prompt": "Which of the following is an acceptable method to determine whether your station complies with FCC RF exposure regulations?",
+   "answers": [
+    "All these choices are correct"
+   ],
+   "wrong": [
+    "By calculation based on FCC OET Bulletin 65",
+    "By calculation based on computer modeling",
+    "By measurement of field strength using calibrated equipment"
+   ],
+   "explanation": "All three are right: by calculation based on FCC OET Bulletin 65; by calculation based on computer modeling; by measurement of field strength using calibrated equipment. Pool question T0C06.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0c07",
+   "prompt": "What hazard is created by touching an antenna during a transmission?",
+   "answers": [
+    "RF burn to skin"
+   ],
+   "wrong": [
+    "Electrocution",
+    "Exposure to ionizing radiation",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T0C07.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0c08",
+   "prompt": "Which of the following actions can reduce exposure to RF radiation?",
+   "answers": [
+    "Relocate antennas"
+   ],
+   "wrong": [
+    "Relocate the transmitter",
+    "Increase the duty cycle",
+    "All these choices are correct"
+   ],
+   "explanation": "Pool question T0C08.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0c09",
+   "prompt": "How can you make sure your station stays in compliance with RF safety regulations?",
+   "answers": [
+    "By re-evaluating the station whenever an item in the transmitter or antenna system is changed"
+   ],
+   "wrong": [
+    "By informing the FCC of any changes made in your station",
+    "By making sure your antennas have low SWR",
+    "By using only Underwriter Laboratories approved transmitting equipment"
+   ],
+   "explanation": "Pool question T0C09.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0c10",
+   "prompt": "Why is duty cycle one of the factors used to determine safe RF radiation exposure levels?",
+   "answers": [
+    "It affects the average exposure to radiation"
+   ],
+   "wrong": [
+    "It affects the peak exposure to radiation",
+    "It takes into account the antenna feed line loss",
+    "It takes into account the thermal effects of the final amplifier"
+   ],
+   "explanation": "Pool question T0C10.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0c11",
+   "prompt": "What is the definition of duty cycle during the averaging time for RF exposure?",
+   "answers": [
+    "The percentage of time that a transmitter is transmitting"
+   ],
+   "wrong": [
+    "The difference between the lowest and highest power output of a transmitter",
+    "The difference between the PEP and the average power output of a transmitter",
+    "The percentage of time that a transmitter is not transmitting"
+   ],
+   "explanation": "Pool question T0C11.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0c12",
+   "prompt": "How does RF radiation differ from ionizing radiation (radioactivity)?",
+   "answers": [
+    "RF radiation does not have sufficient energy to cause chemical changes in cells and damage DNA"
+   ],
+   "wrong": [
+    "RF radiation can only be detected with an RF dosimeter",
+    "RF radiation is limited in range to a few feet",
+    "RF radiation is perfectly safe"
+   ],
+   "explanation": "Pool question T0C12.",
+   "tags": [
+    "Safety"
+   ]
+  },
+  {
+   "id": "t0c13",
+   "prompt": "Who is responsible for ensuring that no person is exposed to RF energy above the FCC exposure limits?",
+   "answers": [
+    "The station licensee"
+   ],
+   "wrong": [
+    "The FCC",
+    "Anyone who is near an antenna",
+    "The local zoning board"
+   ],
+   "explanation": "Pool question T0C13.",
+   "tags": [
+    "Safety"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Technician exam",
+   "count": 35,
+   "pass": 74,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "end",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Like the Element 2 exam: 35 multiple-choice questions, and you pass with 26 right. The real exam takes one question from each topic group; this one picks at random from the whole pool."
+  },
+  {
+   "name": "Weakest questions",
+   "count": 20,
+   "pass": 74,
+   "pick": "weakest",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Drill the questions you miss or haven’t seen yet, with the right answer after each one."
+  }
+ ]
+}

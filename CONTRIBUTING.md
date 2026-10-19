@@ -12,6 +12,7 @@ Built-in question sets are plain JSON files, so you can add one without touching
    - `need` (optional): how many answers someone must give, for "Name two…" questions.
    - `wrong` (optional): wrong answers for multiple choice. Plausible ones make the practice much better.
    - `explanation` and `note` (optional): why the answer is right, or a caution, such as an answer that changes after an election.
+   - `figure` (optional): a picture the question asks about, `{ "src": "data/figures/<file>.png", "alt": "what it shows" }`. Put the image in `data/figures/` and add it to `APP_SHELL` in `sw.js` too.
    - `tags` (optional): topics, so practice tests can focus on some of them.
 4. **Say where it comes from** in `source` (a name and a link) and set `updated` to the day you checked the answers.
 5. **Suggest practice tests** in `tests` that match how the real test works: how many questions, the pass mark as a percentage, and whether it ends early.
