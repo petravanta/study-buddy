@@ -157,8 +157,17 @@ nav.tabs .end{margin-left:auto}
 .flash{display:flex;flex-direction:column;gap:16px;padding:24px 22px;min-height:260px}
 .flash .meta{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
 .flash .prompt{font-size:22px;font-weight:600;line-height:1.35;text-wrap:balance}
-.figure{margin:0;align-self:flex-start;max-width:min(100%,520px);background:#fff;border-radius:8px;padding:6px}
-.figure img{display:block;width:100%;height:auto}
+.figure{margin:0;align-self:flex-start;max-width:min(100%,520px);display:flex;flex-direction:column;gap:4px}
+.figure .zoom{display:block;padding:6px;border:0;border-radius:8px;background:#fff;cursor:zoom-in}
+.figure img{display:block;width:100%;height:auto;max-height:min(56vh,520px);object-fit:contain}
+.figure figcaption,.zoombox p{font-size:11px;color:var(--faint)}
+.figure figcaption a,.zoombox p a{color:inherit}
+#zoom{position:fixed;inset:0;z-index:50;background:rgba(10,16,20,.8);display:flex;align-items:center;justify-content:center;padding:max(16px,env(safe-area-inset-top,0px)) 16px max(16px,env(safe-area-inset-bottom,0px));cursor:zoom-out}
+.zoombox{position:relative;background:#fff;border-radius:var(--r);padding:12px;max-width:100%;max-height:100%;display:flex;flex-direction:column;gap:6px;cursor:default}
+.zoombox img{display:block;max-width:100%;max-height:calc(100vh - 90px);object-fit:contain;min-height:0}
+.zoombox p{color:#566771}
+.zoombox .x{position:absolute;top:8px;right:8px;background:#e3e9ec;color:#14212a;border:0;border-radius:999px;width:32px;height:32px;font-size:18px;line-height:1}
+.flash.studycard{border-color:var(--accent);box-shadow:inset 4px 0 0 var(--accent)}
 @media (max-width:520px){.flash{padding:18px 16px}.flash .prompt{font-size:19px}}
 .need{font-size:14px;color:var(--accent);font-weight:600}
 .ans{border-top:1px solid var(--line);padding-top:14px;display:flex;flex-direction:column;gap:8px}
@@ -200,6 +209,7 @@ nav.tabs .end{margin-left:auto}
 .preview{max-height:220px;overflow:auto;background:var(--sunk);border-radius:8px;padding:8px 12px;font-size:13px}
 .preview ol{margin:0;padding-left:20px}
 .countdown{font-family:var(--f-mono)}
+.chapters{margin:0;padding-left:20px}
 input[type=date]{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:7px 10px;font-size:15px;text-transform:none;letter-spacing:0;font-weight:500;min-width:0}
 .ctx.three{grid-template-columns:repeat(3,minmax(0,1fr))}
 @media (max-width:620px){.ctx.three{grid-template-columns:minmax(0,1fr)}}
@@ -231,6 +241,7 @@ input[type=date]{background:var(--surface);border:1px solid var(--line);border-r
 </header>
 <main class="wrap stack" id="main"></main>
 <div id="layer"></div>
+<div id="zoom" hidden></div>
 <input type="file" id="fileIn" accept=".json,.csv,.tsv,.txt,application/json,text/csv,text/plain" hidden>
 <script>
 'use strict';
@@ -251,11 +262,14 @@ const LEVELS = {
   learning: { label: 'Learning', cls: 'l1', hint: 'missed last time' },
   new: { label: 'New', cls: '', hint: 'not answered yet' }
 };
-const PICKS = { weakest: 'Weakest first', random: 'Random', unseen: 'New ones first', missed: 'Only ones I missed last time', inorder: 'In order' };
+const PICKS = { weakest: 'Weakest first', due: 'Due for review first', random: 'Random', unseen: 'New ones first', missed: 'Only ones I missed last time', inorder: 'In order' };
 const ANSWER_MODES = { self: 'Flip the card and mark yourself', choice: 'Multiple choice', typed: 'Type the answer' };
 const FEEDBACK = { each: 'After each question', end: 'Only at the end' };
 const NEW_TEST = { name: 'Practice test', count: 20, pass: 80, pick: 'random', answer: 'choice', feedback: 'each', stopEarly: false, timeLimit: 0, tags: [] };
-const QUICK = { count: 20, pick: 'weakest', answer: 'self' };
+const QUICK = { count: 20, pick: 'weakest', answer: 'self', from: '' };
+const LEARN = { size: 10, answer: 'self', from: '' };
+const INTERVALS = [0, 1, 3, 7, 16, 35];   // days until a question you got right is due again, by its right streak
+const MAX_REVIEWS = 20;   // reviews in one Learn session, besides the new cards
 
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -323,6 +337,18 @@ async function loadBuiltin() {
   } catch (e) { builtinFailed = true; builtinIds = []; }
 }
 const setById = id => doc.sets.find(s => s.id === id) || BUILTIN.get(id);
+// Built-in sets that are chapters of a bigger subject (`module`), like Human anatomy: one entry per module, in list order
+function library() {
+  const out = [], mods = new Map();
+  for (const s of builtinIds.map(id => BUILTIN.get(id)).filter(Boolean)) {
+    if (!s.module) { out.push({ set: s }); continue; }
+    if (!mods.has(s.module)) { const m = { module: s.module, sets: [] }; mods.set(s.module, m); out.push(m); }
+    mods.get(s.module).sets.push(s);
+  }
+  return out;
+}
+const moduleSets = name => builtinIds.map(id => BUILTIN.get(id)).filter(s => s && s.module === name);
+const qCount = sets => sets.reduce((n, s) => n + s.questions.length, 0);
 const isBuiltin = id => BUILTIN.has(id) && !doc.sets.some(s => s.id === id);
 function cur() {
   const ps = doc.programmes;
@@ -381,11 +407,34 @@ function order(items, pick) {
   if (pick === 'inorder') return items.slice();
   if (pick === 'random') return shuffle(items);
   if (pick === 'missed') return shuffle(xs.filter(x => x.st.level === 'learning')).map(x => x.it);
+  if (pick === 'due') {   // most overdue first, then the rest weakest first
+    const due = xs.filter(x => isDue(x.st)).sort((a, b) => dueTime(a.st) - dueTime(b.st) || a.r - b.r);
+    return [...due.map(x => x.it), ...order(xs.filter(x => !isDue(x.st)).map(x => x.it), 'weakest')];
+  }
   const rank = pick === 'unseen' ? ['new', 'learning', 'getting', 'confident', 'mastered'] : ['learning', 'new', 'getting', 'confident', 'mastered'];
   // weakest level first; within a level, the one you saw longest ago
   return xs.sort((a, b) => rank.indexOf(a.st.level) - rank.indexOf(b.st.level) || (seen(a) < seen(b) ? -1 : seen(a) > seen(b) ? 1 : 0) || a.r - b.r).map(x => x.it);
 }
 const allTags = items => [...new Set(items.flatMap(it => it.q.tags || []))];
+// When a question is due for review: straight away after a miss, then later the longer its right streak. Never for a new one.
+function dueTime(st) {
+  if (!st.n) return Infinity;
+  if (!st.last.ok) return 0;
+  return Date.parse(st.last.at) + INTERVALS[Math.min(st.streak, INTERVALS.length - 1)] * 864e5;
+}
+const isDue = st => dueTime(st) <= Date.now();
+// A chapter (set) or topic (tag) to study on its own: '' for everything, 's:<set id>' or 't:<tag>'
+function focus(items, from) {
+  if (!from) return items;
+  const v = from.slice(2);
+  return items.filter(it => from[0] === 's' ? it.s.id === v : (it.q.tags || []).includes(v));
+}
+function focusOptions(p, items, from) {
+  const sets = p.sets.map(setById).filter(Boolean), tags = allTags(items);
+  const o = (v, l) => `<option value="${esc(v)}"${from === v ? ' selected' : ''}>${esc(l)}</option>`;
+  return o('', 'Everything') + (sets.length > 1 ? `<optgroup label="Chapters and sets">${sets.map(s => o('s:' + s.id, s.name)).join('')}</optgroup>` : '')
+    + (tags.length ? `<optgroup label="Topics">${tags.map(t => o('t:' + t, t)).join('')}</optgroup>` : '');
+}
 
 /* ---------- Checking typed answers. Words in (brackets) are optional; small typos are forgiven ---------- */
 const STOP = new Set(['the', 'a', 'an', 'to', 'of', 'is', 'are']);
@@ -432,16 +481,17 @@ function checkTyped(q, text) {
 let timerT = null;
 let skipFill = false;   // "Not now" on the fill-in prompt lasts until the page reloads
 function startRun(p, cfg, testType, fixed) {
-  const blank = fixed ? [] : pool(p, cfg.tags).filter(it => it.blank);
+  const blank = fixed ? [] : focus(pool(p, cfg.tags), cfg.from).filter(it => it.blank);
   if (blank.length && !skipFill) return fillDrawer(blank, () => startRun(p, cfg, testType, fixed));
-  let items = fixed || order(pool(p, cfg.tags).filter(it => !it.blank), cfg.pick);
+  let items = fixed || order(focus(pool(p, cfg.tags), cfg.from).filter(it => !it.blank), cfg.pick);
   if (!items.length) return toast(cfg.pick === 'missed' ? 'Nothing was missed last time.' : 'There are no questions to ask yet. Add a set first.');
   if (!fixed && cfg.count > 0) items = items.slice(0, cfg.count);
   run = {
     id: uid(), p: p.id, cfg: { feedback: 'each', ...cfg }, test: !!testType, type: testType ? testType.id : null, name: testType ? testType.name : 'Flashcards',
     started: now(), deadline: cfg.timeLimit ? Date.now() + cfg.timeLimit * 60000 : 0, all: pool(p).filter(it => !it.blank),
-    items: items.map(it => ({ ...it, ok: null, given: '' })), i: 0, phase: 'ask', done: false
+    items: items.map(it => ({ ...it, ok: null, given: '' })), i: 0, phase: 'ask', done: false, learn: !!cfg.learn
   };
+  if (run.learn) run.name = 'Learn';
   prepare();
   clearInterval(timerT);
   if (run.deadline) timerT = setInterval(tick, 1000);
@@ -449,10 +499,29 @@ function startRun(p, cfg, testType, fixed) {
   render();
   scrollTo(0, 0);
 }
+// A Learn session: the reviews that are due, then a few new cards, each shown with its answer first (`study`) and asked a
+// few cards later. A card you miss comes back a few cards later until you get it.
+function startLearn(p, cfg) {
+  const items = focus(pool(p), cfg.from), blank = items.filter(it => it.blank);
+  if (blank.length && !skipFill) return fillDrawer(blank, () => startLearn(p, cfg));
+  const ready = items.filter(it => !it.blank).map(it => ({ it, st: qstat(it.key) }));
+  const due = ready.filter(x => x.st.n && isDue(x.st)).sort((a, b) => dueTime(a.st) - dueTime(b.st)).slice(0, MAX_REVIEWS).map(x => ({ ...x.it, review: true }));
+  const fresh = ready.filter(x => !x.st.n).slice(0, cfg.size).map(x => ({ ...x.it, study: true }));
+  if (!due.length && !fresh.length) return toast('Nothing is due and there’s nothing new here. Try flashcards, or come back later.');
+  startRun(p, { ...cfg, learn: true, pick: 'inorder', count: 0, feedback: 'each' }, null, [...due, ...fresh]);
+}
+// Put a card back into the Learn session a few cards from now
+function requeue(it, gap) {
+  const copy = { ...it, ok: null, given: '', opts: null, study: false, att: null, again: null };
+  run.items.splice(Math.min(run.i + gap, run.items.length), 0, copy);
+  return copy;
+}
+const learnKeys = () => [...new Set(run.items.map(i => i.key))];
+const learnedKeys = () => new Set(run.items.filter(i => i.ok).map(i => i.key));
 function prepare() {
   const it = run.items[run.i];
-  run.phase = 'ask';
-  if (run.cfg.answer === 'choice' && !it.opts) it.opts = options(it, run.all);
+  run.phase = it.study ? 'study' : 'ask';
+  if (run.cfg.answer === 'choice' && !it.opts && !it.study) it.opts = options(it, run.all);
 }
 const needed = r => r.cfg.pass > 0 ? Math.ceil(r.items.length * r.cfg.pass / 100) : 0;
 const rightSoFar = () => run.items.filter(i => i.ok).length;
@@ -480,6 +549,7 @@ function record(ok, given) {
   if (given) a.g = String(given).slice(0, 200);
   it.att = a.id;
   doc.attempts.push(a);
+  if (run.learn && !ok) it.again = requeue(it, 4);
   save();
 }
 // After a wrong call on a typed answer: count it the other way
@@ -487,6 +557,8 @@ function overrule() {
   const it = run.items[run.i], a = doc.attempts.find(x => x.id === it.att);
   it.ok = !it.ok;
   if (a) { a.ok = it.ok; touch(a); save(); }
+  if (run.learn && it.ok && it.again) { run.items.splice(run.items.indexOf(it.again), 1); it.again = null; }
+  else if (run.learn && !it.ok && !it.again) it.again = requeue(it, 4);
   render();
 }
 function afterAnswer() {
@@ -564,7 +636,7 @@ function daysTo(p) {
 }
 
 function renderWelcome() {
-  const lib = builtinIds.map(id => BUILTIN.get(id)).filter(Boolean);
+  const lib = library();
   return `<section class="panel hero">
     <h2>Study for a knowledge test, one card at a time</h2>
     <p>Make a study programme for each test you are preparing for, like the U.S. citizenship civics test or a driving theory test. Practise with flashcards, set up practice tests that work like the real one, and see every answer you have ever given to each question.</p>
@@ -572,8 +644,12 @@ function renderWelcome() {
   </section>
   <h3>Start a programme</h3>
   <div class="cards">
-    ${lib.map(s => `<section class="panel card"><h2>${esc(s.name)}</h2><p class="sub">${plural(s.questions.length, 'question')}</p><p class="small">${esc(s.description || '')}</p>
-      <div class="row"><button class="btn primary" type="button" data-start="${esc(s.id)}">Study this</button></div></section>`).join('')}
+    ${lib.map(({ set: s, module, sets }) => s ? `<section class="panel card"><h2>${esc(s.name)}</h2><p class="sub">${plural(s.questions.length, 'question')}</p><p class="small">${esc(s.description || '')}</p>
+      <div class="row"><button class="btn primary" type="button" data-start="${esc(s.id)}">Study this</button></div></section>`
+      : `<section class="panel card"><h2>${esc(module)}</h2><p class="sub">${plural(sets.length, 'chapter')} · ${plural(qCount(sets), 'question')}</p>
+      <p class="small">Study it chapter by chapter. New chapters can be added to your programme as they come out.</p>
+      <ol class="small chapters">${sets.map(c => `<li>${esc(c.name)} <span class="muted">· ${plural(c.questions.length, 'question')}</span></li>`).join('')}</ol>
+      <div class="row"><button class="btn primary" type="button" data-start="m:${esc(module)}">Study this</button></div></section>`).join('')}
     <section class="panel card"><h2>Your own questions</h2><p class="small">Import a set from a CSV or JSON file (a Quizlet export works too), paste questions in, or write them yourself.</p>
       <div class="row"><button class="btn primary" type="button" data-act="newProg">Start from scratch</button></div></section>
   </div>
@@ -585,7 +661,9 @@ function renderPractice(p) {
   const items = pool(p), c = levelCounts(items), tts = testTypesOf(p), tests = testsOf(p);
   const today = localDay(new Date()), ids = new Set(p.sets);
   const todayN = doc.attempts.filter(a => ids.has(a.s) && localDay(new Date(a.at)) === today).length;
-  const passed = tests.filter(t => t.passed).length, q = { ...QUICK, ...(p.quick || {}) };
+  const passed = tests.filter(t => t.passed).length, q = { ...QUICK, ...(p.quick || {}) }, l = { ...LEARN, ...(p.learn || {}) };
+  const lItems = focus(items, l.from).filter(it => !it.blank).map(it => qstat(it.key));
+  const lDue = Math.min(MAX_REVIEWS, lItems.filter(st => st.n && isDue(st)).length), lNew = lItems.filter(st => !st.n).length;
   if (!items.length) return `<section class="panel hero"><h2>${esc(p.name)}</h2>${daysTo(p)}<p>This programme has no questions yet. Add a built-in set, import your own or write some.</p>
     <div class="row"><button class="btn primary" type="button" data-act="addSet">Add questions</button></div></section>`;
   const last = id => tests.find(t => t.type === id), blank = items.filter(it => it.blank);
@@ -601,8 +679,19 @@ function renderPractice(p) {
     <div>${levelBar(c, items.length)}${levelKey(c)}</div>
   </section>
   <section class="panel stack">
-    <div><h2>Flashcards</h2><p class="sub">Go through cards at your own pace. Every answer counts toward each question’s history.</p></div>
+    <div><h2>Learn</h2><p class="sub">A few new cards at a time. Each new card shows its answer first and is asked a few cards later; any card you miss comes back until you get it. Cards you know come back for review after 1, 3, 7, 16 and then 35 days.</p></div>
     <div class="ctx three">
+      <label class="field">Topic<select data-learn="from">${focusOptions(p, items, l.from)}</select></label>
+      <label class="field">New cards<select data-learn="size">${[5, 10, 20].map(n => `<option value="${n}"${l.size === n ? ' selected' : ''}>${n} at a time</option>`).join('')}</select></label>
+      <label class="field">Answer by<select data-learn="answer">${Object.entries(ANSWER_MODES).map(([k, v]) => `<option value="${k}"${l.answer === k ? ' selected' : ''}>${v}</option>`).join('')}</select></label>
+    </div>
+    <div class="row"><button class="btn primary big" type="button" data-act="learn"${lDue || lNew ? '' : ' disabled'}>Start learning</button>
+      <span class="sub">${lDue || lNew ? [lDue ? `${lDue} due for review` : '', lNew ? `${Math.min(lNew, l.size)} new (${lNew} not seen yet)` : ''].filter(Boolean).join(' · ') : 'Nothing due right now, and every card has been seen. Flashcards still work any time.'}</span></div>
+  </section>
+  <section class="panel stack">
+    <div><h2>Flashcards</h2><p class="sub">Go through cards at your own pace. Every answer counts toward each question’s history.</p></div>
+    <div class="ctx">
+      <label class="field">Topic<select data-quick="from">${focusOptions(p, items, q.from)}</select></label>
       <label class="field">Cards<select data-quick="count">${[10, 20, 50, 0].map(n => `<option value="${n}"${q.count === n ? ' selected' : ''}>${n || 'All ' + items.length}</option>`).join('')}</select></label>
       <label class="field">Which<select data-quick="pick">${Object.entries(PICKS).map(([k, v]) => `<option value="${k}"${q.pick === k ? ' selected' : ''}>${v}</option>`).join('')}</select></label>
       <label class="field">Answer by<select data-quick="answer">${Object.entries(ANSWER_MODES).map(([k, v]) => `<option value="${k}"${q.answer === k ? ' selected' : ''}>${v}</option>`).join('')}</select></label>
@@ -671,10 +760,13 @@ function renderHistory(p) {
 
 function renderSets(p) {
   const sets = p.sets.map(setById).filter(Boolean), missing = p.sets.length - sets.length;
-  return `<div class="toolbar"><h3 class="grow">Question sets in ${esc(p.name)}</h3><button class="btn primary" type="button" data-act="addSet">+ Add a set</button></div>
+  // chapters added to a module since this programme started with it
+  const more = [...new Set(sets.filter(s => s.module && isBuiltin(s.id)).map(s => s.module))].flatMap(m => moduleSets(m)).filter(s => !p.sets.includes(s.id));
+  return `${more.length ? `<div class="banner"><p><b>${more.length === 1 ? 'A new chapter is ready' : `${more.length} new chapters are ready`}:</b> ${esc(more.map(s => s.name).join(', '))}.</p><button class="btn sm primary" type="button" data-act="addChapters">Add ${more.length === 1 ? 'it' : 'them'}</button></div>` : ''}
+  <div class="toolbar"><h3 class="grow">Question sets in ${esc(p.name)}</h3><button class="btn primary" type="button" data-act="addSet">+ Add a set</button></div>
     <div class="cards">${sets.map(s => {
       const items = s.questions.map(q => ({ s, q, key: s.id + '/' + q.id })), c = levelCounts(items);
-      return `<section class="panel card"><h2>${esc(s.name)}</h2><p class="sub">${plural(s.questions.length, 'question')}${isBuiltin(s.id) ? ' · built in' : ' · your own'}</p>
+      return `<section class="panel card"><h2>${esc(s.name)}</h2><p class="sub">${s.module && isBuiltin(s.id) ? esc(s.module) + ' chapter · ' : ''}${plural(s.questions.length, 'question')}${isBuiltin(s.id) ? ' · built in' : ' · your own'}</p>
         ${s.description ? `<p class="small">${esc(s.description)}</p>` : ''}
         ${levelBar(c, items.length)}
         <div class="row"><button class="btn" type="button" data-open-set="${esc(s.id)}">${isBuiltin(s.id) ? 'View' : 'Edit'}</button>
@@ -685,8 +777,23 @@ function renderSets(p) {
 }
 
 /* ---------- The round on screen ---------- */
-// A question's picture, such as a circuit diagram it asks about
-const figure = q => q.figure ? `<figure class="figure"><img src="${esc(q.figure.src)}" alt="${esc(q.figure.alt || '')}" loading="lazy"></figure>` : '';
+// A question's picture, such as a circuit diagram it asks about, with its credit. One marked `reveal` belongs with the
+// answer, so it only shows once the answer does (`shown`). Tapping it opens it full size.
+function figure(q, shown = true) {
+  const f = q.figure;
+  if (!f || (f.reveal && !shown)) return '';
+  const by = f.credit ? (f.source ? `<a href="${esc(f.source)}" target="_blank" rel="noopener">${esc(f.credit)}</a>` : esc(f.credit)) : '';
+  const lic = f.license ? (f.licenseUrl ? `<a href="${esc(f.licenseUrl)}" target="_blank" rel="noopener">${esc(f.license)}</a>` : esc(f.license)) : '';
+  return `<figure class="figure"><button type="button" class="zoom" data-zoom aria-label="Show the picture full size"><img src="${esc(f.src)}" alt="${esc(f.alt || '')}" loading="lazy"></button>${by || lic ? `<figcaption>${[by, lic].filter(Boolean).join(' · ')}</figcaption>` : ''}</figure>`;
+}
+function zoomFigure(fig) {
+  const img = fig.querySelector('img'), cap = fig.querySelector('figcaption');
+  const z = $('#zoom');
+  z.innerHTML = `<div class="zoombox" role="dialog" aria-modal="true" aria-label="Picture"><button class="x" type="button" data-unzoom aria-label="Close">×</button><img src="${esc(img.getAttribute('src'))}" alt="${esc(img.alt)}">${cap ? `<p class="small">${cap.innerHTML}</p>` : ''}</div>`;
+  z.hidden = false;
+  z.querySelector('[data-unzoom]').focus();
+}
+function unzoom() { const z = $('#zoom'); z.hidden = true; z.innerHTML = ''; }
 function answerBlock(q) {
   const need = q.need || 1, many = q.answers.length > 1;
   if (!q.answers.length) return `<div class="ans"><p class="small muted">Your own answer: ${esc(q.personal ? q.personal.ask : '')}. Not filled in yet.</p></div>`;
@@ -699,37 +806,60 @@ function answerBlock(q) {
 function renderRun() {
   const it = run.items[run.i], q = it.q, N = run.items.length, mode = run.cfg.answer, showScore = run.cfg.feedback !== 'end' || mode === 'self';
   const multi = cur() && cur().sets.length > 1;
-  const meta = [multi ? it.s.name : '', (q.tags || []).slice(-1)[0]].filter(Boolean).join(' · ');
+  const meta = [it.study ? 'New card' : it.review ? 'Review' : '', multi ? it.s.name : '', (q.tags || []).slice(-1)[0]].filter(Boolean).join(' · ');
+  const answered = run.phase !== 'ask';
+  const back = run.learn && it.again ? '<p class="small muted">This one comes back in a few cards.</p>' : '';
   let body = '';
-  if (mode === 'self') {
+  if (it.study) {
+    body = `${answerBlock(q)}<div class="row"><button class="btn primary big" type="button" data-run="studied">Got it</button><span class="kbd">Space or Enter</span></div>
+      <p class="small muted">Take a moment with it. You’ll be asked it in a few cards.</p>`;
+  } else if (mode === 'self') {
     body = run.phase === 'ask'
       ? `<button class="btn primary big" type="button" data-run="reveal">Show answer</button><span class="kbd">Space</span>`
-      : `${answerBlock(q)}<div class="mark"><button class="btn ok" type="button" data-run="knew">I knew it</button><button class="btn no" type="button" data-run="missed">I didn’t</button></div><span class="kbd">Y or 1 · N or 2</span>`;
+      : `${answerBlock(q)}<div class="mark"><button class="btn ok" type="button" data-run="knew">I knew it</button><button class="btn no" type="button" data-run="missed">I didn’t</button></div><span class="kbd">Y or 1 · N or 2</span>${run.learn ? '<p class="small muted">Be honest: a card you didn’t know comes back in a few cards.</p>' : ''}`;
   } else if (mode === 'choice') {
     const fb = run.phase === 'feedback';
     body = `<div class="opts">${it.opts.map((o, i) => `<button class="opt${fb && o.ok ? ' right' : ''}${fb && !o.ok && it.given === o.t ? ' wrong' : ''}" type="button" data-opt="${i}"${fb ? ' disabled' : ''}><span class="k">${i + 1}</span><span>${esc(o.t)}</span></button>`).join('')}</div>
-      ${fb ? `<p class="verdict ${it.ok ? 'ok' : 'no'}">${it.ok ? 'Right' : 'Not quite'}</p>${answerBlock(q)}<div class="row"><button class="btn primary big" type="button" data-run="next">Next</button><span class="kbd">Enter</span></div>` : '<span class="kbd">Keys 1 to ' + it.opts.length + '</span>'}`;
+      ${fb ? `<p class="verdict ${it.ok ? 'ok' : 'no'}">${it.ok ? 'Right' : 'Not quite'}</p>${answerBlock(q)}${back}<div class="row"><button class="btn primary big" type="button" data-run="next">Next</button><span class="kbd">Enter</span></div>` : '<span class="kbd">Keys 1 to ' + it.opts.length + '</span>'}`;
   } else {
     body = run.phase === 'ask'
       ? `<form class="typed" id="typedForm"><label class="sr-only" for="typedIn">Your answer</label><input type="text" id="typedIn" autocomplete="off" autocapitalize="off" placeholder="${(q.need || 1) > 1 ? 'Separate answers with commas' : 'Your answer'}"><button class="btn primary" type="submit">Check</button><button class="btn ghost" type="button" data-run="dunno">I don’t know</button></form>`
-      : `<p class="verdict ${it.ok ? 'ok' : 'no'}">${it.ok ? 'Right' : 'Not quite'}</p>${it.given ? `<p class="small">You wrote: <b>${esc(it.given)}</b></p>` : ''}${answerBlock(q)}
+      : `<p class="verdict ${it.ok ? 'ok' : 'no'}">${it.ok ? 'Right' : 'Not quite'}</p>${it.given ? `<p class="small">You wrote: <b>${esc(it.given)}</b></p>` : ''}${answerBlock(q)}${back}
         <div class="row"><button class="btn primary big" type="button" data-run="next">Next</button>${it.given ? `<button class="btn ghost" type="button" data-run="overrule">${it.ok ? 'Actually, count it wrong' : 'I was right, count it'}</button>` : ''}<span class="kbd">Enter</span></div>`;
   }
+  const keys = run.learn ? learnKeys().length : 0, learned = run.learn ? learnedKeys().size : 0;
   return `<div class="study stack">
-    <div class="runbar"><b>${esc(run.name)}</b><span class="muted small mono">${run.i + 1} / ${N}</span>
-      ${showScore ? `<span class="small mono"><span class="ok-t">${rightSoFar()}</span> right${run.test && needed(run) ? ` · need ${needed(run)}` : ''}</span>` : ''}
+    <div class="runbar"><b>${esc(run.name)}</b>${run.learn ? `<span class="small mono"><span class="ok-t">${learned}</span> of ${keys} cards done</span>` : `<span class="muted small mono">${run.i + 1} / ${N}</span>
+      ${showScore ? `<span class="small mono"><span class="ok-t">${rightSoFar()}</span> right${run.test && needed(run) ? ` · need ${needed(run)}` : ''}</span>` : ''}`}
       ${run.deadline ? `<span class="small mono" id="timer">${clockText(run.deadline - Date.now())}</span>` : ''}
       <span class="grow"></span><button class="btn sm ghost" type="button" data-run="end">End</button></div>
-    <div class="meter"><i style="width:${run.i / N * 100}%"></i></div>
-    <section class="panel flash">
+    <div class="meter"><i style="width:${(run.learn ? learned / keys : run.i / N) * 100}%"></i></div>
+    <section class="panel flash${it.study ? ' studycard' : ''}">
       ${meta ? `<p class="meta">${esc(meta)}</p>` : ''}
       <p class="prompt">${esc(q.prompt)}</p>
-      ${figure(q)}
+      ${figure(q, answered)}
       ${(q.need || 1) > 1 ? `<p class="need">Give ${q.need} answers.</p>` : ''}
       ${body}
     </section></div>`;
 }
+function renderLearnResult() {
+  const keys = learnKeys(), learned = learnedKeys();
+  const byKey = keys.map(k => { const xs = run.items.filter(i => i.key === k); return { it: xs[0], fresh: xs.some(i => i.study), tries: xs.filter(i => i.ok !== null).length, ok: learned.has(k) }; });
+  const done = byKey.filter(x => x.tries), fresh = done.filter(x => x.fresh && x.ok).length, again = done.filter(x => x.tries > 1).length;
+  const firstTime = done.filter(x => x.ok && x.tries === 1).length;
+  return `<div class="study stack">
+    <section class="panel stack">
+      <h3>Learn</h3>
+      <div class="row" style="align-items:baseline;gap:14px"><span class="score">${learned.size} / ${keys.length}</span><span class="muted">cards done</span></div>
+      <p class="small">${[fresh ? `${plural(fresh, 'new card')} learned` : '', firstTime ? `${firstTime} right first time` : '', again ? `${again} needed another go` : ''].filter(Boolean).join(' · ') || 'Nothing answered yet.'}</p>
+      <p class="small muted">Cards you got right come back for review in a day, then after longer and longer gaps while you keep getting them right. Start Learn again whenever you like: it asks what’s due first.</p>
+      <div class="row"><button class="btn primary" type="button" data-run="again">Keep learning</button><button class="btn ghost" type="button" data-run="close">Done</button></div>
+    </section>
+    ${done.length ? `<section class="panel review"><h3>Cards</h3>${done.map(x => `<div class="entry"><div><b>${esc(x.it.q.prompt)}</b><div class="meta">${esc(x.it.q.answers.slice(0, x.it.q.need || 1).join(', '))}${x.fresh ? ' · new' : ''}${x.tries > 1 ? ` · ${x.tries} tries` : ''}</div></div><span class="${x.ok ? 'ok-t' : 'no-t'}">${x.ok ? '✓' : '✗'}</span></div>`).join('')}</section>` : ''}
+  </div>`;
+}
 function renderResult() {
+  if (run.learn) return renderLearnResult();
   const asked = run.items.filter(i => i.ok !== null), right = rightSoFar(), missed = asked.filter(i => !i.ok), need = needed(run);
   const passed = right >= need;
   return `<div class="study stack">
@@ -859,7 +989,7 @@ function testDrawer(p, id) {
 
 function addSetDrawer(p) {
   const lib = [...builtinIds.map(id => BUILTIN.get(id)).filter(Boolean), ...doc.sets].filter(s => !p.sets.includes(s.id));
-  openDrawer('Add a set', `${lib.length ? `<h3>Ready to add</h3><div class="lib">${lib.map(s => `<button type="button" data-link="${esc(s.id)}"><b>${esc(s.name)}</b><span class="sub">${plural(s.questions.length, 'question')} · ${isBuiltin(s.id) ? 'built in' : 'your own'}</span></button>`).join('')}</div>` : ''}
+  openDrawer('Add a set', `${lib.length ? `<h3>Ready to add</h3><div class="lib">${lib.map(s => `<button type="button" data-link="${esc(s.id)}"><b>${esc(s.name)}</b><span class="sub">${s.module && isBuiltin(s.id) ? esc(s.module) + ' chapter · ' : ''}${plural(s.questions.length, 'question')} · ${isBuiltin(s.id) ? 'built in' : 'your own'}</span></button>`).join('')}</div>` : ''}
     <h3>Bring your own</h3>
     <div class="lib">
       <button type="button" id="impFile"><b>Import a file</b><span class="sub">CSV, tab-separated text (a Quizlet export) or a Study Buddy set (.json)</span></button>
@@ -968,12 +1098,15 @@ function editQuestion(s, id) {
 function uniqueId(s) { let id; do id = qid(); while (s.questions.some(x => x.id === id)); return id; }
 
 function newProgDrawer(startWith) {
-  const lib = [...builtinIds.map(id => BUILTIN.get(id)).filter(Boolean), ...doc.sets];
+  // pick is a set id, or 'm:<module>' for every chapter of a module
+  const lib = [...library(), ...doc.sets.map(s => ({ set: s }))].map(x => x.set ? { id: x.set.id, name: x.set.name, sub: plural(x.set.questions.length, 'question') }
+    : { id: 'm:' + x.module, name: x.module, sub: `${plural(x.sets.length, 'chapter')} · ${plural(qCount(x.sets), 'question')}` });
+  const nameOf = id => (lib.find(x => x.id === id) || {}).name || '';
   let pick = startWith || '';
   openDrawer('New study programme', `<form class="form" id="pf">
-    <label class="field">What are you studying for?<input type="text" name="name" required placeholder="e.g. Citizenship interview, Driving theory test" value="${esc(startWith && setById(startWith) ? setById(startWith).name : '')}"></label>
+    <label class="field">What are you studying for?<input type="text" name="name" required placeholder="e.g. Citizenship interview, Driving theory test" value="${esc(nameOf(pick))}"></label>
     <label class="field">Exam date (optional)<input type="date" name="exam"></label>
-    ${lib.length ? `<div class="field">Start with<div class="lib" id="pl">${lib.map(s => `<button type="button" data-pick="${esc(s.id)}" aria-pressed="${pick === s.id}"><b>${esc(s.name)}</b><span class="sub">${plural(s.questions.length, 'question')}</span></button>`).join('')}
+    ${lib.length ? `<div class="field">Start with<div class="lib" id="pl">${lib.map(s => `<button type="button" data-pick="${esc(s.id)}" aria-pressed="${pick === s.id}"><b>${esc(s.name)}</b><span class="sub">${s.sub}</span></button>`).join('')}
       <button type="button" data-pick="" aria-pressed="${!pick}"><b>Nothing yet</b><span class="sub">Import or write questions next</span></button></div></div>` : ''}
     <div class="row"><button class="btn primary" type="submit">Create programme</button></div>
   </form>`, d => {
@@ -981,14 +1114,15 @@ function newProgDrawer(startWith) {
     d.querySelectorAll('[data-pick]').forEach(b => b.onclick = () => {
       pick = b.dataset.pick;
       d.querySelectorAll('[data-pick]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
-      if (pick && !f.name.dataset.typed) f.name.value = setById(pick).name;
+      if (pick && !f.name.dataset.typed) f.name.value = nameOf(pick);
     });
     f.name.oninput = () => { f.name.dataset.typed = '1'; };
     f.onsubmit = e => {
       e.preventDefault();
       const p = touch({ id: uid(), name: f.name.value.trim() || 'My programme', exam: f.exam.value || '', sets: [], created: now(), quick: { ...QUICK } });
       doc.programmes.push(p);
-      if (pick) linkSet(p, setById(pick));
+      if (pick.startsWith('m:')) moduleSets(pick.slice(2)).forEach(s => linkSet(p, s));
+      else if (pick) linkSet(p, setById(pick));
       if (!testTypesOf(p).length) doc.testTypes.push(touch({ ...NEW_TEST, id: uid(), p: p.id, order: 0 }));
       setCurrent(p.id); tab = 'practice'; lsSet(TAB_KEY, tab);
       closeDrawer(); changed();
@@ -1092,7 +1226,12 @@ function cleanQuestion(x) {
   if (str(x.explanation)) q.explanation = str(x.explanation);
   if (str(x.note)) q.note = str(x.note);
   const fig = x.figure && typeof x.figure === 'object' ? str(x.figure.src) : '';
-  if (/^(data\/[\w./-]+|https:\/\/\S+)$/.test(fig) && !fig.includes('..')) { q.figure = { src: fig }; if (str(x.figure.alt)) q.figure.alt = str(x.figure.alt); }
+  if (/^(data\/[\w./-]+|https:\/\/\S+)$/.test(fig) && !fig.includes('..')) {
+    q.figure = { src: fig };
+    for (const k of ['alt', 'credit', 'license']) if (str(x.figure[k])) q.figure[k] = str(x.figure[k]);
+    for (const k of ['source', 'licenseUrl']) if (/^https:\/\/\S+$/.test(str(x.figure[k]))) q.figure[k] = str(x.figure[k]);
+    if (x.figure.reveal === true) q.figure.reveal = true;
+  }
   const tags = arr(x.tags); if (tags.length) q.tags = [...new Set(tags)];
   return q;
 }
@@ -1422,16 +1561,19 @@ $('#main').addEventListener('click', e => {
     case 'newProg': return newProgDrawer();
     case 'settings': return settingsDrawer();
     case 'addSet': return addSetDrawer(p);
+    case 'addChapters': { const ids = new Set(p.sets.map(setById).filter(s => s && s.module).map(s => s.module)); builtinIds.map(id => BUILTIN.get(id)).filter(s => s && ids.has(s.module)).forEach(s => linkSet(p, s)); changed(); return toast('Chapters added'); }
     case 'newTest': return testDrawer(p);
     case 'fill': return fillDrawer(pool(p).filter(it => it.blank));
     case 'flash': return startRun(p, { ...QUICK, ...(p.quick || {}), feedback: 'each' });
-    case 'flashMissed': return startRun(p, { ...QUICK, ...(p.quick || {}), pick: 'missed', count: 0, feedback: 'each' });
+    case 'learn': return startLearn(p, { ...LEARN, ...(p.learn || {}) });
+    case 'flashMissed': return startRun(p, { ...QUICK, ...(p.quick || {}), pick: 'missed', count: 0, feedback: 'each', from: '' });
     case 'exportAnswers': return exportAnswers(p);
   }
 });
 $('#main').addEventListener('change', e => {
   const p = cur(), t = e.target;
   if (t.dataset.quick) { p.quick = { ...QUICK, ...(p.quick || {}), [t.dataset.quick]: t.dataset.quick === 'count' ? +t.value : t.value }; touch(p); save(); }
+  if (t.dataset.learn) { p.learn = { ...LEARN, ...(p.learn || {}), [t.dataset.learn]: t.dataset.learn === 'size' ? +t.value : t.value }; touch(p); changed(); }
   if (t.id === 'qSet') { qFilter.set = t.value; drawQList(p); }
   if (t.id === 'qTag') { qFilter.tag = t.value; drawQList(p); }
 });
@@ -1447,26 +1589,34 @@ function runAction(a) {
   const p = cur();
   switch (a) {
     case 'reveal': run.phase = 'reveal'; return render();
+    case 'studied': requeue(run.items[run.i], 3); return next();
     case 'knew': record(true); return next();
     case 'missed': record(false); return next();
     case 'dunno': record(false, ''); return afterAnswer();
     case 'next': return next();
     case 'overrule': return overrule();
     case 'end': run.stopped = true; return finish();
-    case 'again': { const r = run; run = null; const t = r.type && doc.testTypes.find(x => x.id === r.type); return startRun(p, r.cfg, t || null); }
+    case 'again': { const r = run; run = null; if (r.learn) return startLearn(p, r.cfg); const t = r.type && doc.testTypes.find(x => x.id === r.type); return startRun(p, r.cfg, t || null); }
     case 'redoMissed': { const missed = run.items.filter(i => i.ok === false).map(({ s, q, key }) => ({ s, q, key })); run = null; return startRun(p, { ...QUICK, ...(p.quick || {}), feedback: 'each', pick: 'inorder', count: 0 }, null, missed); }
     case 'close': run = null; return render();
   }
 }
 document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && !$('#zoom').hidden) return unzoom();
   if (e.key === 'Escape' && $('#layer').innerHTML) return closeDrawer();
-  if (!run || run.done || $('#layer').innerHTML || e.ctrlKey || e.metaKey || e.altKey) return;
+  if (!run || run.done || $('#layer').innerHTML || !$('#zoom').hidden || e.ctrlKey || e.metaKey || e.altKey) return;
   const inField = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName), mode = run.cfg.answer, k = e.key.toLowerCase();
+  if (run.phase === 'study' && (k === ' ' || k === 'enter')) { e.preventDefault(); return runAction('studied'); }
   if (run.phase === 'ask' && mode === 'self' && (k === ' ' || k === 'enter') && !inField) { e.preventDefault(); return runAction('reveal'); }
   if (run.phase === 'reveal' && (k === 'y' || k === '1')) return runAction('knew');
   if (run.phase === 'reveal' && (k === 'n' || k === '2')) return runAction('missed');
   if (run.phase === 'ask' && mode === 'choice' && /^[1-9]$/.test(k)) { const o = run.items[run.i].opts[+k - 1]; if (o) { record(o.ok, o.t); afterAnswer(); } return; }
   if (run.phase === 'feedback' && (k === 'enter' || (k === ' ' && !inField))) { e.preventDefault(); return next(); }
+});
+document.addEventListener('click', e => {
+  const z = e.target.closest('[data-zoom]');
+  if (z) return zoomFigure(z.closest('figure'));
+  if (e.target.closest('[data-unzoom]') || e.target.id === 'zoom') unzoom();
 });
 addEventListener('storage', e => { if (e.key === KEY) { doc = upgrade(lsGet(KEY)); rev++; if (!run) render(); } });
 document.addEventListener('visibilitychange', async () => {
