@@ -1,0 +1,7 @@
+bp3d/
+stl
+node_modules/
+jobs.json
+out/
+package.json
+package-lock.json

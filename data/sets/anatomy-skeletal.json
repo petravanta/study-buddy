@@ -1,0 +1,4206 @@
+{
+ "id": "anatomy-skeletal",
+ "name": "Skeletal system",
+ "module": "Human anatomy",
+ "description": "The bones of the body and how they fit together: the skeleton as a whole, bone tissue, the skull, the vertebral column, the thorax, the limbs and the joints. Picture questions show the skeleton with one bone highlighted to name.",
+ "source": {
+  "name": "Written for Study Buddy. Pictures rendered from BodyParts3D (© The Database Center for Life Science, CC BY-SA 2.1 JP).",
+  "url": "https://github.com/petravanta/study-buddy/tree/main/scripts/bodyparts3d"
+ },
+ "updated": "2026-10-29",
+ "questions": [
+  {
+   "id": "bones-adult",
+   "prompt": "How many bones are in the adult human skeleton?",
+   "answers": [
+    "206"
+   ],
+   "wrong": [
+    "186",
+    "212",
+    "300"
+   ],
+   "explanation": "A newborn has about 270 to 300 bony pieces; many fuse during growth (the skull, sacrum and hip bones, for example), leaving 206.",
+   "figure": {
+    "src": "data/figures/anatomy/skeleton.webp",
+    "alt": "The whole skeleton from the front",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "The skeleton"
+   ]
+  },
+  {
+   "id": "axial-count",
+   "prompt": "How many bones make up the axial skeleton?",
+   "answers": [
+    "80"
+   ],
+   "wrong": [
+    "126",
+    "64",
+    "106"
+   ],
+   "explanation": "Skull 22, ear ossicles 6, hyoid 1, vertebral column 26 and thorax 25 (24 ribs and the sternum).",
+   "tags": [
+    "The skeleton"
+   ]
+  },
+  {
+   "id": "appendicular-count",
+   "prompt": "How many bones make up the appendicular skeleton?",
+   "answers": [
+    "126"
+   ],
+   "wrong": [
+    "80",
+    "106",
+    "64"
+   ],
+   "explanation": "The two girdles and the limbs: 64 in the shoulders and upper limbs, 62 in the hips and lower limbs. 80 + 126 = 206.",
+   "tags": [
+    "The skeleton"
+   ]
+  },
+  {
+   "id": "axial",
+   "prompt": "Which division of the skeleton is made up of the skull, the vertebral column and the rib cage?",
+   "answers": [
+    "Axial skeleton",
+    "Axial"
+   ],
+   "wrong": [
+    "Appendicular skeleton",
+    "Pectoral girdle",
+    "Pelvic girdle"
+   ],
+   "explanation": "The axial skeleton is the central axis of the body: it protects the brain, spinal cord and organs of the chest.",
+   "figure": {
+    "src": "data/figures/anatomy/skeleton-axial.webp",
+    "alt": "The whole skeleton from the front, with the axial skeleton in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "The skeleton"
+   ]
+  },
+  {
+   "id": "appendicular",
+   "prompt": "Which division of the skeleton is made up of the limbs and the girdles that attach them?",
+   "answers": [
+    "Appendicular skeleton",
+    "Appendicular"
+   ],
+   "wrong": [
+    "Axial skeleton",
+    "Pectoral girdle",
+    "Vertebral column"
+   ],
+   "explanation": "The appendicular skeleton is the “appendages”: arms, legs, and the shoulder and hip girdles.",
+   "figure": {
+    "src": "data/figures/anatomy/skeleton-appendicular.webp",
+    "alt": "The whole skeleton from the front, with the appendicular skeleton in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "The skeleton"
+   ]
+  },
+  {
+   "id": "functions",
+   "prompt": "Name two functions of the skeleton.",
+   "answers": [
+    "Support",
+    "Protection (of organs)",
+    "Movement",
+    "Blood cell production",
+    "Storing minerals",
+    "Storing fat"
+   ],
+   "need": 2,
+   "wrong": [
+    "Digestion, gas exchange",
+    "Filtering blood, making bile",
+    "Producing insulin, digestion"
+   ],
+   "explanation": "Support, protection, movement (as levers for muscles), making blood cells in red marrow, and storing minerals (calcium and phosphate) and fat (in yellow marrow).",
+   "tags": [
+    "The skeleton"
+   ]
+  },
+  {
+   "id": "longest-bone",
+   "prompt": "What is the longest and strongest bone in the body?",
+   "answers": [
+    "Femur",
+    "Thigh bone"
+   ],
+   "wrong": [
+    "Tibia",
+    "Humerus",
+    "Fibula"
+   ],
+   "explanation": "The femur is about a quarter of your height.",
+   "figure": {
+    "src": "data/figures/anatomy/femur.webp",
+    "alt": "The legs from the front, with the right femur in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "The skeleton"
+   ]
+  },
+  {
+   "id": "smallest-bone",
+   "prompt": "What is the smallest bone in the body?",
+   "answers": [
+    "Stapes",
+    "Stirrup"
+   ],
+   "wrong": [
+    "Incus",
+    "Malleus",
+    "Pisiform"
+   ],
+   "explanation": "The stapes, one of the three ossicles of the middle ear, is about 3 mm long.",
+   "tags": [
+    "The skeleton"
+   ]
+  },
+  {
+   "id": "long-bone",
+   "prompt": "What type of bone is longer than it is wide, like the femur, the humerus or a phalanx?",
+   "answers": [
+    "Long bone"
+   ],
+   "wrong": [
+    "Short bone",
+    "Flat bone",
+    "Irregular bone"
+   ],
+   "explanation": "Long bones have a shaft (diaphysis) and two ends (epiphyses). Even the little phalanges are long bones.",
+   "tags": [
+    "The skeleton"
+   ]
+  },
+  {
+   "id": "short-bone",
+   "prompt": "The carpals and tarsals are examples of which type of bone?",
+   "answers": [
+    "Short bones"
+   ],
+   "wrong": [
+    "Long bones",
+    "Flat bones",
+    "Sesamoid bones"
+   ],
+   "explanation": "Short bones are roughly cube-shaped, about as wide as they are long.",
+   "tags": [
+    "The skeleton"
+   ]
+  },
+  {
+   "id": "flat-bone",
+   "prompt": "The sternum, ribs, scapulae and the bones of the skull roof are which type of bone?",
+   "answers": [
+    "Flat bones"
+   ],
+   "wrong": [
+    "Irregular bones",
+    "Short bones",
+    "Long bones"
+   ],
+   "explanation": "Flat bones are thin plates, often curved, that protect organs and give muscles a broad attachment.",
+   "tags": [
+    "The skeleton"
+   ]
+  },
+  {
+   "id": "irregular-bone",
+   "prompt": "The vertebrae are which type of bone?",
+   "answers": [
+    "Irregular bones"
+   ],
+   "wrong": [
+    "Flat bones",
+    "Short bones",
+    "Sesamoid bones"
+   ],
+   "explanation": "Irregular bones have complex shapes that fit no other group. The hip bones and some skull bones (sphenoid, ethmoid) are irregular too.",
+   "tags": [
+    "The skeleton"
+   ]
+  },
+  {
+   "id": "sesamoid-bone",
+   "prompt": "What is a bone that develops inside a tendon, like the kneecap, called?",
+   "answers": [
+    "Sesamoid bone"
+   ],
+   "wrong": [
+    "Sutural bone",
+    "Short bone",
+    "Accessory bone"
+   ],
+   "explanation": "“Sesamoid” means shaped like a sesame seed. They protect the tendon and improve its leverage.",
+   "tags": [
+    "The skeleton"
+   ]
+  },
+  {
+   "id": "largest-sesamoid",
+   "prompt": "What is the largest sesamoid bone in the body?",
+   "answers": [
+    "Patella",
+    "Kneecap"
+   ],
+   "wrong": [
+    "Pisiform",
+    "Calcaneus",
+    "Talus"
+   ],
+   "explanation": "The patella sits in the tendon of the quadriceps, in front of the knee.",
+   "figure": {
+    "src": "data/figures/anatomy/patella.webp",
+    "alt": "The legs from the front, with the right patella in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "The skeleton"
+   ]
+  },
+  {
+   "id": "osteoblast",
+   "prompt": "Which cells build new bone?",
+   "answers": [
+    "Osteoblasts"
+   ],
+   "wrong": [
+    "Osteoclasts",
+    "Osteocytes",
+    "Chondrocytes"
+   ],
+   "explanation": "Osteoblasts build: they lay down the collagen matrix that then mineralises.",
+   "tags": [
+    "Bone tissue"
+   ]
+  },
+  {
+   "id": "osteoclast",
+   "prompt": "Which cells break down (resorb) bone?",
+   "answers": [
+    "Osteoclasts"
+   ],
+   "wrong": [
+    "Osteoblasts",
+    "Osteocytes",
+    "Fibroblasts"
+   ],
+   "explanation": "Osteoclasts “clear” bone. Large cells with many nuclei, they dissolve the matrix so bone can be reshaped and calcium released.",
+   "tags": [
+    "Bone tissue"
+   ]
+  },
+  {
+   "id": "osteocyte",
+   "prompt": "What are mature bone cells, trapped in small spaces (lacunae) in the matrix they made, called?",
+   "answers": [
+    "Osteocytes"
+   ],
+   "wrong": [
+    "Osteoblasts",
+    "Osteoclasts",
+    "Chondrocytes"
+   ],
+   "explanation": "An osteoblast that has walled itself in becomes an osteocyte; it maintains the bone around it.",
+   "tags": [
+    "Bone tissue"
+   ]
+  },
+  {
+   "id": "diaphysis",
+   "prompt": "What is the shaft of a long bone called?",
+   "answers": [
+    "Diaphysis"
+   ],
+   "wrong": [
+    "Epiphysis",
+    "Metaphysis",
+    "Periosteum"
+   ],
+   "tags": [
+    "Bone tissue"
+   ]
+  },
+  {
+   "id": "epiphysis",
+   "prompt": "What is each wider end of a long bone called?",
+   "answers": [
+    "Epiphysis",
+    "Epiphyses"
+   ],
+   "wrong": [
+    "Diaphysis",
+    "Metaphysis",
+    "Medullary cavity"
+   ],
+   "explanation": "The epiphyses are filled with spongy bone and capped with articular cartilage where they form joints.",
+   "tags": [
+    "Bone tissue"
+   ]
+  },
+  {
+   "id": "growth-plate",
+   "prompt": "In a child, what is the plate of hyaline cartilage where a long bone grows in length?",
+   "answers": [
+    "Epiphyseal plate",
+    "Growth plate"
+   ],
+   "wrong": [
+    "Articular cartilage",
+    "Periosteum",
+    "Epiphyseal line"
+   ],
+   "explanation": "It sits between the epiphysis and the diaphysis. When growth stops it turns to bone and leaves the epiphyseal line.",
+   "tags": [
+    "Bone tissue"
+   ]
+  },
+  {
+   "id": "periosteum",
+   "prompt": "What is the tough membrane that covers the outside of a bone, except where it forms a joint?",
+   "answers": [
+    "Periosteum"
+   ],
+   "wrong": [
+    "Endosteum",
+    "Perichondrium",
+    "Articular cartilage"
+   ],
+   "explanation": "Peri- means around. The periosteum carries blood vessels and nerves, and anchors tendons and ligaments.",
+   "tags": [
+    "Bone tissue"
+   ]
+  },
+  {
+   "id": "medullary-cavity",
+   "prompt": "What is the hollow centre of a long bone’s shaft, filled with yellow marrow in adults, called?",
+   "answers": [
+    "Medullary cavity",
+    "Marrow cavity"
+   ],
+   "wrong": [
+    "Central canal",
+    "Epiphyseal plate",
+    "Nutrient foramen"
+   ],
+   "tags": [
+    "Bone tissue"
+   ]
+  },
+  {
+   "id": "red-marrow",
+   "prompt": "Which tissue makes blood cells?",
+   "answers": [
+    "Red bone marrow",
+    "Red marrow"
+   ],
+   "wrong": [
+    "Yellow bone marrow",
+    "Periosteum",
+    "Compact bone"
+   ],
+   "explanation": "Making blood cells is called haematopoiesis. In adults red marrow is mostly in flat bones, vertebrae, the hip bones and the upper ends of the femur and humerus.",
+   "tags": [
+    "Bone tissue"
+   ]
+  },
+  {
+   "id": "osteon",
+   "prompt": "What is the basic structural unit of compact bone, rings of matrix around a central canal, called?",
+   "answers": [
+    "Osteon",
+    "Haversian system"
+   ],
+   "wrong": [
+    "Trabecula",
+    "Lacuna",
+    "Canaliculus"
+   ],
+   "tags": [
+    "Bone tissue"
+   ]
+  },
+  {
+   "id": "central-canal",
+   "prompt": "What runs through the centre of each osteon, carrying blood vessels and nerves?",
+   "answers": [
+    "Central canal",
+    "Haversian canal"
+   ],
+   "wrong": [
+    "Perforating canal",
+    "Canaliculus",
+    "Medullary cavity"
+   ],
+   "explanation": "Perforating (Volkmann’s) canals run across the bone and link the central canals to each other and to the periosteum.",
+   "tags": [
+    "Bone tissue"
+   ]
+  },
+  {
+   "id": "spongy-bone",
+   "prompt": "What is the light bone made of a lattice of thin struts (trabeculae), found inside the ends of long bones, called?",
+   "answers": [
+    "Spongy bone",
+    "Cancellous bone",
+    "Trabecular bone"
+   ],
+   "wrong": [
+    "Compact bone",
+    "Cortical bone",
+    "Cartilage"
+   ],
+   "explanation": "Its spaces hold red marrow. Compact bone forms the dense outer layer.",
+   "tags": [
+    "Bone tissue"
+   ]
+  },
+  {
+   "id": "intramembranous",
+   "prompt": "By which process do the flat bones of the skull and the clavicles form, straight from sheets of connective tissue?",
+   "answers": [
+    "Intramembranous ossification"
+   ],
+   "wrong": [
+    "Endochondral ossification",
+    "Appositional growth",
+    "Calcification of cartilage"
+   ],
+   "tags": [
+    "Bone tissue"
+   ]
+  },
+  {
+   "id": "endochondral",
+   "prompt": "By which process do most bones form, replacing a model made of hyaline cartilage?",
+   "answers": [
+    "Endochondral ossification"
+   ],
+   "wrong": [
+    "Intramembranous ossification",
+    "Appositional growth",
+    "Remodelling"
+   ],
+   "explanation": "Endo- (within) chondral (cartilage). Long bones, vertebrae and the base of the skull form this way.",
+   "tags": [
+    "Bone tissue"
+   ]
+  },
+  {
+   "id": "bone-mineral",
+   "prompt": "Which mineral makes bone hard?",
+   "answers": [
+    "Hydroxyapatite",
+    "Calcium phosphate"
+   ],
+   "wrong": [
+    "Calcium carbonate",
+    "Collagen",
+    "Keratin"
+   ],
+   "explanation": "Crystals of calcium phosphate (hydroxyapatite) give hardness; collagen fibres give flexibility, so bone doesn’t shatter.",
+   "tags": [
+    "Bone tissue"
+   ]
+  },
+  {
+   "id": "cranial-count",
+   "prompt": "How many bones form the cranium, the part of the skull around the brain?",
+   "answers": [
+    "8"
+   ],
+   "wrong": [
+    "6",
+    "14",
+    "22"
+   ],
+   "explanation": "Frontal, two parietal, two temporal, occipital, sphenoid and ethmoid.",
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "facial-count",
+   "prompt": "How many facial bones are there?",
+   "answers": [
+    "14"
+   ],
+   "wrong": [
+    "8",
+    "12",
+    "22"
+   ],
+   "explanation": "Two each of nasal, maxilla, zygomatic, lacrimal, palatine and inferior nasal concha, plus the vomer and the mandible.",
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "skull-count",
+   "prompt": "How many bones make up the skull, not counting the ear ossicles and the hyoid?",
+   "answers": [
+    "22"
+   ],
+   "wrong": [
+    "28",
+    "14",
+    "29"
+   ],
+   "explanation": "8 cranial and 14 facial bones.",
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "movable-skull",
+   "prompt": "Which is the only skull bone that moves freely?",
+   "answers": [
+    "Mandible",
+    "Lower jaw"
+   ],
+   "wrong": [
+    "Maxilla",
+    "Hyoid",
+    "Zygomatic bone"
+   ],
+   "explanation": "It moves at the temporomandibular joint, in front of each ear.",
+   "figure": {
+    "src": "data/figures/anatomy/mandible.webp",
+    "alt": "The skull from the left, with the mandible in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "foramen-magnum",
+   "prompt": "What is the large hole in the occipital bone where the spinal cord passes through?",
+   "answers": [
+    "Foramen magnum"
+   ],
+   "wrong": [
+    "Jugular foramen",
+    "Foramen ovale",
+    "Optic canal"
+   ],
+   "explanation": "Latin for “great hole”.",
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "occipital-condyles",
+   "prompt": "The skull rests on the atlas by which two bumps beside the foramen magnum?",
+   "answers": [
+    "Occipital condyles"
+   ],
+   "wrong": [
+    "Mastoid processes",
+    "Styloid processes",
+    "Mandibular condyles"
+   ],
+   "explanation": "Nodding “yes” happens at this joint (atlanto-occipital).",
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "coronal-suture",
+   "prompt": "Which suture joins the frontal bone to the two parietal bones?",
+   "answers": [
+    "Coronal suture"
+   ],
+   "wrong": [
+    "Sagittal suture",
+    "Lambdoid suture",
+    "Squamous suture"
+   ],
+   "explanation": "It runs across the top of the head from side to side, where a crown would sit.",
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "sagittal-suture",
+   "prompt": "Which suture joins the two parietal bones to each other?",
+   "answers": [
+    "Sagittal suture"
+   ],
+   "wrong": [
+    "Coronal suture",
+    "Lambdoid suture",
+    "Squamous suture"
+   ],
+   "explanation": "It runs front to back along the midline of the skull.",
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "lambdoid-suture",
+   "prompt": "Which suture joins the parietal bones to the occipital bone?",
+   "answers": [
+    "Lambdoid suture"
+   ],
+   "wrong": [
+    "Sagittal suture",
+    "Coronal suture",
+    "Squamous suture"
+   ],
+   "explanation": "Shaped like the Greek letter lambda (λ), at the back of the head.",
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "squamous-suture",
+   "prompt": "Which suture joins each parietal bone to the temporal bone below it?",
+   "answers": [
+    "Squamous suture"
+   ],
+   "wrong": [
+    "Coronal suture",
+    "Lambdoid suture",
+    "Sagittal suture"
+   ],
+   "explanation": "Squamous means scale-like: the thin temporal bone overlaps the parietal like a scale.",
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "fontanelles",
+   "prompt": "What are the soft, membrane-covered gaps between the skull bones of a baby called?",
+   "answers": [
+    "Fontanelles",
+    "Fontanels",
+    "Soft spots"
+   ],
+   "wrong": [
+    "Sutures",
+    "Foramina",
+    "Sinuses"
+   ],
+   "explanation": "They let the skull squeeze through the birth canal and the brain grow. The largest, at the front, closes by about 18 months.",
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "mastoid",
+   "prompt": "What is the bony bump you can feel behind your ear?",
+   "answers": [
+    "Mastoid process"
+   ],
+   "wrong": [
+    "Styloid process",
+    "Zygomatic arch",
+    "Occipital condyle"
+   ],
+   "explanation": "Part of the temporal bone; neck muscles such as the sternocleidomastoid attach to it.",
+   "figure": {
+    "src": "data/figures/anatomy/temporal.webp",
+    "alt": "The skull from the left, with the temporal bone in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "ossicles",
+   "prompt": "Name the three ear ossicles.",
+   "answers": [
+    "Malleus",
+    "Incus",
+    "Stapes"
+   ],
+   "need": 3,
+   "wrong": [
+    "Malleus, incus, cochlea",
+    "Incus, stapes, vomer",
+    "Malleus, stapes, hyoid"
+   ],
+   "explanation": "Hammer, anvil and stirrup. They carry vibrations from the eardrum to the inner ear.",
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "hyoid-free",
+   "prompt": "Which U-shaped bone in the neck does not form a joint with any other bone?",
+   "answers": [
+    "Hyoid",
+    "Hyoid bone"
+   ],
+   "wrong": [
+    "Atlas",
+    "Mandible",
+    "Thyroid cartilage"
+   ],
+   "explanation": "Muscles and ligaments hold it in place under the mandible; it anchors the tongue and helps in swallowing.",
+   "figure": {
+    "src": "data/figures/anatomy/hyoid.webp",
+    "alt": "The head and neck, with the hyoid in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "sella-turcica",
+   "prompt": "What is the saddle-shaped hollow in the sphenoid bone that holds the pituitary gland?",
+   "answers": [
+    "Sella turcica"
+   ],
+   "wrong": [
+    "Crista galli",
+    "Cribriform plate",
+    "Foramen magnum"
+   ],
+   "explanation": "Latin for “Turkish saddle”.",
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "cribriform",
+   "prompt": "Which part of the ethmoid bone is full of small holes for the nerves of smell?",
+   "answers": [
+    "Cribriform plate"
+   ],
+   "wrong": [
+    "Sella turcica",
+    "Perpendicular plate",
+    "Crista galli"
+   ],
+   "explanation": "Cribriform means sieve-like.",
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "tmj",
+   "prompt": "The mandible forms a joint with which bone?",
+   "answers": [
+    "Temporal bone",
+    "Temporal"
+   ],
+   "wrong": [
+    "Maxilla",
+    "Zygomatic bone",
+    "Sphenoid"
+   ],
+   "explanation": "The temporomandibular joint (TMJ), just in front of the ear.",
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "nasal-septum",
+   "prompt": "Which two bones form the bony part of the nasal septum?",
+   "answers": [
+    "Vomer",
+    "Ethmoid (perpendicular plate)"
+   ],
+   "need": 2,
+   "wrong": [
+    "Nasal bones, maxillae",
+    "Vomer, palatine bones",
+    "Lacrimal bones, ethmoid"
+   ],
+   "explanation": "The perpendicular plate of the ethmoid at the top, the vomer below; cartilage completes the septum at the front.",
+   "figure": {
+    "src": "data/figures/anatomy/vomer.webp",
+    "alt": "The skull, see-through, with the vomer in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "hard-palate",
+   "prompt": "Which bones form the hard palate, the roof of the mouth?",
+   "answers": [
+    "Maxillae",
+    "Palatine bones"
+   ],
+   "need": 2,
+   "wrong": [
+    "Vomer, sphenoid",
+    "Maxillae, zygomatic bones",
+    "Palatine bones, mandible"
+   ],
+   "explanation": "The palatine processes of the maxillae form the front three quarters, the palatine bones the back.",
+   "figure": {
+    "src": "data/figures/anatomy/palatine.webp",
+    "alt": "The skull from below, with the palatine bones in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "cheekbone",
+   "prompt": "Which bone is the cheekbone?",
+   "answers": [
+    "Zygomatic bone",
+    "Zygoma"
+   ],
+   "wrong": [
+    "Maxilla",
+    "Temporal bone",
+    "Sphenoid"
+   ],
+   "explanation": "Its temporal process joins the zygomatic process of the temporal bone to form the zygomatic arch.",
+   "figure": {
+    "src": "data/figures/anatomy/zygomatic.webp",
+    "alt": "The skull from the left, with the zygomatic bone in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "keystone",
+   "prompt": "Which butterfly-shaped cranial bone touches all the other cranial bones?",
+   "answers": [
+    "Sphenoid",
+    "Sphenoid bone"
+   ],
+   "wrong": [
+    "Ethmoid",
+    "Occipital bone",
+    "Temporal bone"
+   ],
+   "explanation": "It is called the keystone of the cranium. You can see its greater wing at the temple.",
+   "figure": {
+    "src": "data/figures/anatomy/sphenoid.webp",
+    "alt": "The skull from the left, with the sphenoid in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "upper-jaw",
+   "prompt": "Which bones form the upper jaw and hold the upper teeth?",
+   "answers": [
+    "Maxillae",
+    "Maxilla"
+   ],
+   "wrong": [
+    "Mandible",
+    "Palatine bones",
+    "Zygomatic bones"
+   ],
+   "explanation": "The two maxillae also form part of each orbit and the floor and sides of the nasal cavity.",
+   "figure": {
+    "src": "data/figures/anatomy/maxilla.webp",
+    "alt": "The skull from the front, with the maxillae in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Skull"
+   ]
+  },
+  {
+   "id": "id-frontal",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Frontal bone",
+    "Frontal"
+   ],
+   "wrong": [
+    "Parietal bone",
+    "Sphenoid",
+    "Occipital bone"
+   ],
+   "explanation": "The forehead and the roofs of the orbits.",
+   "figure": {
+    "src": "data/figures/anatomy/frontal.webp",
+    "alt": "The skull, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Skull"
+   ]
+  },
+  {
+   "id": "id-parietal",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Parietal bone",
+    "Parietal"
+   ],
+   "wrong": [
+    "Frontal bone",
+    "Temporal bone",
+    "Occipital bone"
+   ],
+   "explanation": "A pair, forming the top and sides of the cranium.",
+   "figure": {
+    "src": "data/figures/anatomy/parietal.webp",
+    "alt": "The skull, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Skull"
+   ]
+  },
+  {
+   "id": "id-temporal",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Temporal bone",
+    "Temporal"
+   ],
+   "wrong": [
+    "Sphenoid",
+    "Parietal bone",
+    "Zygomatic bone"
+   ],
+   "explanation": "Around the ear: it holds the middle and inner ear and carries the mastoid process.",
+   "figure": {
+    "src": "data/figures/anatomy/temporal.webp",
+    "alt": "The skull, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Skull"
+   ]
+  },
+  {
+   "id": "id-occipital",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Occipital bone",
+    "Occipital"
+   ],
+   "wrong": [
+    "Parietal bone",
+    "Temporal bone",
+    "Atlas"
+   ],
+   "explanation": "The back and base of the cranium, with the foramen magnum.",
+   "figure": {
+    "src": "data/figures/anatomy/occipital.webp",
+    "alt": "The skull, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Skull"
+   ]
+  },
+  {
+   "id": "id-sphenoid",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Sphenoid",
+    "Sphenoid bone"
+   ],
+   "wrong": [
+    "Temporal bone",
+    "Ethmoid",
+    "Zygomatic bone"
+   ],
+   "explanation": "Only its greater wing shows on the side of the skull, at the temple.",
+   "figure": {
+    "src": "data/figures/anatomy/sphenoid.webp",
+    "alt": "The skull, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Skull"
+   ]
+  },
+  {
+   "id": "id-ethmoid",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Ethmoid",
+    "Ethmoid bone"
+   ],
+   "wrong": [
+    "Sphenoid",
+    "Vomer",
+    "Lacrimal bone"
+   ],
+   "explanation": "Between the orbits, behind the nose: it forms the roof and upper walls of the nasal cavity.",
+   "figure": {
+    "src": "data/figures/anatomy/ethmoid.webp",
+    "alt": "The skull, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Skull"
+   ]
+  },
+  {
+   "id": "id-mandible",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Mandible",
+    "Lower jaw"
+   ],
+   "wrong": [
+    "Maxilla",
+    "Zygomatic bone",
+    "Hyoid"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/mandible.webp",
+    "alt": "The skull, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Skull"
+   ]
+  },
+  {
+   "id": "id-maxilla",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Maxillae",
+    "Maxilla"
+   ],
+   "wrong": [
+    "Mandible",
+    "Zygomatic bones",
+    "Nasal bones"
+   ],
+   "explanation": "The upper jaw: two maxillae joined in the midline.",
+   "figure": {
+    "src": "data/figures/anatomy/maxilla.webp",
+    "alt": "The skull, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Skull"
+   ]
+  },
+  {
+   "id": "id-zygomatic",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Zygomatic bone",
+    "Zygoma",
+    "Cheekbone"
+   ],
+   "wrong": [
+    "Maxilla",
+    "Temporal bone",
+    "Sphenoid"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/zygomatic.webp",
+    "alt": "The skull, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Skull"
+   ]
+  },
+  {
+   "id": "id-nasal",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Nasal bones",
+    "Nasal bone"
+   ],
+   "wrong": [
+    "Lacrimal bones",
+    "Vomer",
+    "Ethmoid"
+   ],
+   "explanation": "Two small bones forming the bridge of the nose.",
+   "figure": {
+    "src": "data/figures/anatomy/nasal.webp",
+    "alt": "The skull, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Skull"
+   ]
+  },
+  {
+   "id": "id-lacrimal",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Lacrimal bone",
+    "Lacrimal"
+   ],
+   "wrong": [
+    "Ethmoid",
+    "Nasal bone",
+    "Palatine bone"
+   ],
+   "explanation": "The smallest facial bone, in the inner wall of the orbit; the tear duct passes beside it.",
+   "figure": {
+    "src": "data/figures/anatomy/lacrimal.webp",
+    "alt": "The skull, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Skull"
+   ]
+  },
+  {
+   "id": "id-vomer",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Vomer"
+   ],
+   "wrong": [
+    "Ethmoid",
+    "Palatine bone",
+    "Inferior nasal concha"
+   ],
+   "explanation": "Shaped like a ploughshare (Latin vomer), it forms the lower part of the nasal septum.",
+   "figure": {
+    "src": "data/figures/anatomy/vomer.webp",
+    "alt": "The skull, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Skull"
+   ]
+  },
+  {
+   "id": "id-palatine",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Palatine bones",
+    "Palatine bone"
+   ],
+   "wrong": [
+    "Maxillae",
+    "Vomer",
+    "Sphenoid"
+   ],
+   "explanation": "Seen from below: they form the back of the hard palate.",
+   "figure": {
+    "src": "data/figures/anatomy/palatine.webp",
+    "alt": "The skull, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Skull"
+   ]
+  },
+  {
+   "id": "id-concha",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Inferior nasal conchae",
+    "Inferior nasal concha",
+    "Inferior turbinates"
+   ],
+   "wrong": [
+    "Vomer",
+    "Nasal bones",
+    "Ethmoid"
+   ],
+   "explanation": "Curled shelves on the side walls of the nasal cavity that warm and moisten the air. (The upper and middle conchae are part of the ethmoid.)",
+   "figure": {
+    "src": "data/figures/anatomy/concha.webp",
+    "alt": "The skull, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Skull"
+   ]
+  },
+  {
+   "id": "id-hyoid",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Hyoid",
+    "Hyoid bone"
+   ],
+   "wrong": [
+    "Mandible",
+    "Atlas",
+    "Clavicle"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/hyoid.webp",
+    "alt": "The skull, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Skull"
+   ]
+  },
+  {
+   "id": "vertebrae-count",
+   "prompt": "How many bones are in the adult vertebral column, counting the sacrum and the coccyx as one each?",
+   "answers": [
+    "26"
+   ],
+   "wrong": [
+    "33",
+    "24",
+    "31"
+   ],
+   "explanation": "24 separate vertebrae plus the sacrum and coccyx. Before fusion there are 33: 7 + 12 + 5 + 5 + 4.",
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "cervical-count",
+   "prompt": "How many cervical vertebrae are there?",
+   "answers": [
+    "7"
+   ],
+   "wrong": [
+    "5",
+    "12",
+    "8"
+   ],
+   "explanation": "Breakfast at 7, lunch at 12, dinner at 5: 7 cervical, 12 thoracic, 5 lumbar.",
+   "figure": {
+    "src": "data/figures/anatomy/cervical.webp",
+    "alt": "The vertebral column from the left, with the cervical vertebrae in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "thoracic-count",
+   "prompt": "How many thoracic vertebrae are there?",
+   "answers": [
+    "12"
+   ],
+   "wrong": [
+    "7",
+    "10",
+    "5"
+   ],
+   "explanation": "One for each pair of ribs.",
+   "figure": {
+    "src": "data/figures/anatomy/thoracic.webp",
+    "alt": "The vertebral column from the left, with the thoracic vertebrae in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "lumbar-count",
+   "prompt": "How many lumbar vertebrae are there?",
+   "answers": [
+    "5"
+   ],
+   "wrong": [
+    "7",
+    "4",
+    "12"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/lumbar.webp",
+    "alt": "The vertebral column from the left, with the lumbar vertebrae in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "sacrum-fused",
+   "prompt": "How many vertebrae fuse to form the sacrum?",
+   "answers": [
+    "5"
+   ],
+   "wrong": [
+    "3",
+    "4",
+    "7"
+   ],
+   "explanation": "The sacrum is a triangle of five fused vertebrae; the hip bones join it at the sacroiliac joints.",
+   "figure": {
+    "src": "data/figures/anatomy/sacrum.webp",
+    "alt": "The vertebral column from the left, with the sacrum in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "coccyx",
+   "prompt": "What is the tailbone called?",
+   "answers": [
+    "Coccyx"
+   ],
+   "wrong": [
+    "Sacrum",
+    "Ischium",
+    "Xiphoid process"
+   ],
+   "explanation": "Usually four small fused vertebrae (three to five) below the sacrum.",
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "atlas",
+   "prompt": "What is the first cervical vertebra (C1), which holds up the skull, called?",
+   "answers": [
+    "Atlas"
+   ],
+   "wrong": [
+    "Axis",
+    "Vertebra prominens",
+    "Dens"
+   ],
+   "explanation": "Named after the Titan who held up the heavens. It has no body and no spinous process: it is a ring.",
+   "figure": {
+    "src": "data/figures/anatomy/atlas.webp",
+    "alt": "The top of the neck, with the atlas in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "axis",
+   "prompt": "What is the second cervical vertebra (C2) called?",
+   "answers": [
+    "Axis"
+   ],
+   "wrong": [
+    "Atlas",
+    "Vertebra prominens",
+    "Dens"
+   ],
+   "explanation": "The atlas turns around it when you shake your head “no”.",
+   "figure": {
+    "src": "data/figures/anatomy/axis.webp",
+    "alt": "The top of the neck, with the axis in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "dens",
+   "prompt": "What is the tooth-like peg of the axis that the atlas turns around?",
+   "answers": [
+    "Dens",
+    "Odontoid process"
+   ],
+   "wrong": [
+    "Spinous process",
+    "Transverse process",
+    "Occipital condyle"
+   ],
+   "explanation": "Dens is Latin for tooth.",
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "vertebra-prominens",
+   "prompt": "Which vertebra’s long spinous process is the bump you can feel at the base of the neck?",
+   "answers": [
+    "C7",
+    "Seventh cervical vertebra",
+    "Vertebra prominens"
+   ],
+   "wrong": [
+    "C1",
+    "T12",
+    "L5"
+   ],
+   "explanation": "It is called the vertebra prominens and is a landmark for counting vertebrae.",
+   "figure": {
+    "src": "data/figures/anatomy/c7.webp",
+    "alt": "The neck from the left, with C7 in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "transverse-foramina",
+   "prompt": "Which vertebrae have holes in their transverse processes (transverse foramina) for the vertebral arteries?",
+   "answers": [
+    "Cervical vertebrae",
+    "Cervical"
+   ],
+   "wrong": [
+    "Thoracic vertebrae",
+    "Lumbar vertebrae",
+    "Sacral vertebrae"
+   ],
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "costal-facets",
+   "prompt": "Which vertebrae have facets where the ribs join them?",
+   "answers": [
+    "Thoracic vertebrae",
+    "Thoracic"
+   ],
+   "wrong": [
+    "Cervical vertebrae",
+    "Lumbar vertebrae",
+    "Sacral vertebrae"
+   ],
+   "explanation": "Facets on the bodies take the heads of the ribs; facets on the transverse processes take the tubercles of the ribs (except ribs 11 and 12).",
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "lumbar-largest",
+   "prompt": "Which vertebrae have the largest bodies?",
+   "answers": [
+    "Lumbar vertebrae",
+    "Lumbar"
+   ],
+   "wrong": [
+    "Cervical vertebrae",
+    "Thoracic vertebrae",
+    "Sacral vertebrae"
+   ],
+   "explanation": "They carry the most weight.",
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "vertebral-foramen",
+   "prompt": "What is the hole in each vertebra that the spinal cord passes through?",
+   "answers": [
+    "Vertebral foramen"
+   ],
+   "wrong": [
+    "Transverse foramen",
+    "Intervertebral foramen",
+    "Foramen magnum"
+   ],
+   "explanation": "Stacked up, the vertebral foramina form the vertebral canal. Spinal nerves leave through the intervertebral foramina between neighbouring vertebrae.",
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "spinous-process",
+   "prompt": "Which part of a vertebra points backwards and can be felt down the middle of the back?",
+   "answers": [
+    "Spinous process"
+   ],
+   "wrong": [
+    "Transverse process",
+    "Vertebral body",
+    "Lamina"
+   ],
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "nucleus-pulposus",
+   "prompt": "What is the soft, gel-like centre of an intervertebral disc called?",
+   "answers": [
+    "Nucleus pulposus"
+   ],
+   "wrong": [
+    "Annulus fibrosus",
+    "Articular cartilage",
+    "Synovial fluid"
+   ],
+   "explanation": "In a slipped (herniated) disc, the nucleus pulposus bulges out through a tear in the annulus.",
+   "figure": {
+    "src": "data/figures/anatomy/discs.webp",
+    "alt": "The vertebral column from the left, with the intervertebral discs in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "annulus-fibrosus",
+   "prompt": "What is the tough outer ring of an intervertebral disc called?",
+   "answers": [
+    "Annulus fibrosus",
+    "Anulus fibrosus"
+   ],
+   "wrong": [
+    "Nucleus pulposus",
+    "Periosteum",
+    "Ligamentum flavum"
+   ],
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "primary-curves",
+   "prompt": "Which two curves of the vertebral column are primary, there since before birth?",
+   "answers": [
+    "Thoracic",
+    "Sacral"
+   ],
+   "need": 2,
+   "wrong": [
+    "Cervical, lumbar",
+    "Cervical, thoracic",
+    "Lumbar, sacral"
+   ],
+   "explanation": "They bend the same way as the whole spine of a curled-up fetus. The cervical curve develops as a baby lifts its head, the lumbar curve as it stands and walks.",
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "kyphosis",
+   "prompt": "What is an exaggerated outward curve of the thoracic spine (a hunchback) called?",
+   "answers": [
+    "Kyphosis"
+   ],
+   "wrong": [
+    "Lordosis",
+    "Scoliosis",
+    "Spondylosis"
+   ],
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "lordosis",
+   "prompt": "What is an exaggerated inward curve of the lumbar spine (swayback) called?",
+   "answers": [
+    "Lordosis"
+   ],
+   "wrong": [
+    "Kyphosis",
+    "Scoliosis",
+    "Spondylosis"
+   ],
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "scoliosis",
+   "prompt": "What is a sideways curve of the spine called?",
+   "answers": [
+    "Scoliosis"
+   ],
+   "wrong": [
+    "Kyphosis",
+    "Lordosis",
+    "Spondylosis"
+   ],
+   "tags": [
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "id-cervical",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Cervical vertebrae",
+    "Cervical"
+   ],
+   "wrong": [
+    "Thoracic vertebrae",
+    "Lumbar vertebrae",
+    "Sacrum"
+   ],
+   "explanation": "The seven vertebrae of the neck.",
+   "figure": {
+    "src": "data/figures/anatomy/cervical.webp",
+    "alt": "The vertebral column from the left side, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "id-thoracic",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Thoracic vertebrae",
+    "Thoracic"
+   ],
+   "wrong": [
+    "Cervical vertebrae",
+    "Lumbar vertebrae",
+    "Sacrum"
+   ],
+   "explanation": "The twelve vertebrae of the chest, one for each pair of ribs.",
+   "figure": {
+    "src": "data/figures/anatomy/thoracic.webp",
+    "alt": "The vertebral column from the left side, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "id-lumbar",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Lumbar vertebrae",
+    "Lumbar"
+   ],
+   "wrong": [
+    "Thoracic vertebrae",
+    "Sacrum",
+    "Cervical vertebrae"
+   ],
+   "explanation": "The five big vertebrae of the lower back.",
+   "figure": {
+    "src": "data/figures/anatomy/lumbar.webp",
+    "alt": "The vertebral column from the left side, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "id-sacrum",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Sacrum"
+   ],
+   "wrong": [
+    "Coccyx",
+    "Lumbar vertebrae",
+    "Ilium"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/sacrum.webp",
+    "alt": "The vertebral column from the left side, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "id-atlas",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Atlas",
+    "C1"
+   ],
+   "wrong": [
+    "Axis",
+    "C3",
+    "Occipital bone"
+   ],
+   "explanation": "A ring with no body: the first cervical vertebra.",
+   "figure": {
+    "src": "data/figures/anatomy/atlas.webp",
+    "alt": "The top of the neck from behind and the left, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "id-axis",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Axis",
+    "C2"
+   ],
+   "wrong": [
+    "Atlas",
+    "C3",
+    "C7"
+   ],
+   "explanation": "Look for the dens pointing up into the ring of the atlas.",
+   "figure": {
+    "src": "data/figures/anatomy/axis.webp",
+    "alt": "The top of the neck from behind and the left, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "rib-pairs",
+   "prompt": "How many pairs of ribs are there?",
+   "answers": [
+    "12"
+   ],
+   "wrong": [
+    "10",
+    "11",
+    "14"
+   ],
+   "tags": [
+    "Thorax"
+   ]
+  },
+  {
+   "id": "true-ribs",
+   "prompt": "What are ribs 1 to 7 called, which join the sternum by their own costal cartilage?",
+   "answers": [
+    "True ribs",
+    "Vertebrosternal ribs"
+   ],
+   "wrong": [
+    "False ribs",
+    "Floating ribs",
+    "Vertebrochondral ribs"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/true-ribs.webp",
+    "alt": "The rib cage from the front, with ribs 1 to 7 in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Thorax"
+   ]
+  },
+  {
+   "id": "false-ribs",
+   "prompt": "What are ribs 8 to 12 called, which do not join the sternum directly?",
+   "answers": [
+    "False ribs"
+   ],
+   "wrong": [
+    "True ribs",
+    "Floating ribs",
+    "Vertebrosternal ribs"
+   ],
+   "explanation": "Ribs 8 to 10 join the cartilage of the rib above; 11 and 12 don’t reach the front at all.",
+   "figure": {
+    "src": "data/figures/anatomy/false-ribs.webp",
+    "alt": "The rib cage from the front, with ribs 8 to 12 in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Thorax"
+   ]
+  },
+  {
+   "id": "floating-ribs",
+   "prompt": "Which ribs are the floating ribs?",
+   "answers": [
+    "Ribs 11 and 12",
+    "11 and 12"
+   ],
+   "wrong": [
+    "Ribs 1 and 2",
+    "Ribs 8 to 10",
+    "Ribs 6 and 7"
+   ],
+   "explanation": "They end freely in the muscles of the side of the body.",
+   "figure": {
+    "src": "data/figures/anatomy/floating-ribs.webp",
+    "alt": "The rib cage from behind, with ribs 11 and 12 in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Thorax"
+   ]
+  },
+  {
+   "id": "sternum-parts",
+   "prompt": "Name the three parts of the sternum.",
+   "answers": [
+    "Manubrium",
+    "Body",
+    "Xiphoid process"
+   ],
+   "need": 3,
+   "wrong": [
+    "Manubrium, body, acromion",
+    "Body, xiphoid process, costal cartilage",
+    "Manubrium, xiphoid process, coracoid process"
+   ],
+   "explanation": "From the top: manubrium, body, xiphoid process.",
+   "figure": {
+    "src": "data/figures/anatomy/sternum.webp",
+    "alt": "The rib cage from the front, with the sternum in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Thorax"
+   ]
+  },
+  {
+   "id": "sternal-angle",
+   "prompt": "What is the ridge where the manubrium meets the body of the sternum, level with the second ribs, called?",
+   "answers": [
+    "Sternal angle",
+    "Angle of Louis"
+   ],
+   "wrong": [
+    "Jugular notch",
+    "Xiphisternal joint",
+    "Costal margin"
+   ],
+   "explanation": "It is the landmark for finding the second rib and counting ribs down from there.",
+   "tags": [
+    "Thorax"
+   ]
+  },
+  {
+   "id": "jugular-notch",
+   "prompt": "What is the dip at the top of the manubrium, between the clavicles, called?",
+   "answers": [
+    "Jugular notch",
+    "Suprasternal notch"
+   ],
+   "wrong": [
+    "Sternal angle",
+    "Xiphoid process",
+    "Costal notch"
+   ],
+   "tags": [
+    "Thorax"
+   ]
+  },
+  {
+   "id": "xiphoid",
+   "prompt": "What is the small pointed lower tip of the sternum called?",
+   "answers": [
+    "Xiphoid process",
+    "Xiphoid"
+   ],
+   "wrong": [
+    "Manubrium",
+    "Coracoid process",
+    "Costal margin"
+   ],
+   "explanation": "Cartilage in young people, it slowly turns to bone. Xiphoid means sword-shaped.",
+   "figure": {
+    "src": "data/figures/anatomy/xiphoid.webp",
+    "alt": "The rib cage from the front, with the xiphoid process in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Thorax"
+   ]
+  },
+  {
+   "id": "costal-cartilage",
+   "prompt": "What joins the front ends of the upper ribs to the sternum?",
+   "answers": [
+    "Costal cartilage",
+    "Costal cartilages"
+   ],
+   "wrong": [
+    "Ligaments",
+    "Tendons",
+    "Intercostal muscles"
+   ],
+   "explanation": "Hyaline cartilage. It lets the rib cage spring outwards as you breathe in.",
+   "figure": {
+    "src": "data/figures/anatomy/costal-cartilage.webp",
+    "alt": "The rib cage from the front, with the costal cartilages in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Thorax"
+   ]
+  },
+  {
+   "id": "ribs-behind",
+   "prompt": "At the back, the ribs form joints with which bones?",
+   "answers": [
+    "Thoracic vertebrae"
+   ],
+   "wrong": [
+    "Scapulae",
+    "Lumbar vertebrae",
+    "Clavicles"
+   ],
+   "tags": [
+    "Thorax"
+   ]
+  },
+  {
+   "id": "id-sternum",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Sternum",
+    "Breastbone"
+   ],
+   "wrong": [
+    "Manubrium",
+    "Clavicle",
+    "Costal cartilage"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/sternum.webp",
+    "alt": "The rib cage from the front, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Thorax"
+   ]
+  },
+  {
+   "id": "id-manubrium",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Manubrium"
+   ],
+   "wrong": [
+    "Xiphoid process",
+    "Body of the sternum",
+    "Clavicle"
+   ],
+   "explanation": "The top part of the sternum. The clavicles and first ribs join it.",
+   "figure": {
+    "src": "data/figures/anatomy/manubrium.webp",
+    "alt": "The rib cage from the front, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Thorax"
+   ]
+  },
+  {
+   "id": "id-xiphoid",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Xiphoid process",
+    "Xiphoid"
+   ],
+   "wrong": [
+    "Manubrium",
+    "Body of the sternum",
+    "Costal cartilage"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/xiphoid.webp",
+    "alt": "The rib cage from the front, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Thorax"
+   ]
+  },
+  {
+   "id": "id-first-rib",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "First rib",
+    "First ribs",
+    "Rib 1"
+   ],
+   "wrong": [
+    "Clavicle",
+    "Second rib",
+    "Twelfth rib"
+   ],
+   "explanation": "The shortest, flattest and most curved rib, tucked under the clavicle.",
+   "figure": {
+    "src": "data/figures/anatomy/first-rib.webp",
+    "alt": "The rib cage from the front, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Thorax"
+   ]
+  },
+  {
+   "id": "id-floating",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Floating ribs",
+    "Ribs 11 and 12"
+   ],
+   "wrong": [
+    "True ribs",
+    "Ribs 8 to 10",
+    "Costal cartilages"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/floating-ribs.webp",
+    "alt": "The rib cage from behind, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Thorax"
+   ]
+  },
+  {
+   "id": "pectoral-girdle",
+   "prompt": "Which two bones form the pectoral (shoulder) girdle?",
+   "answers": [
+    "Clavicle",
+    "Scapula"
+   ],
+   "need": 2,
+   "wrong": [
+    "Clavicle, humerus",
+    "Scapula, humerus",
+    "Clavicle, sternum"
+   ],
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "clavicle-strut",
+   "prompt": "Which bone is the only bony link between the upper limb and the axial skeleton?",
+   "answers": [
+    "Clavicle",
+    "Collarbone"
+   ],
+   "wrong": [
+    "Scapula",
+    "Humerus",
+    "First rib"
+   ],
+   "explanation": "It joins the manubrium at the sternoclavicular joint and the scapula at the acromioclavicular joint. It is one of the most often broken bones.",
+   "figure": {
+    "src": "data/figures/anatomy/clavicle.webp",
+    "alt": "The shoulders from the front, with the right clavicle in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "shoulder-blade",
+   "prompt": "Which bone is the shoulder blade?",
+   "answers": [
+    "Scapula"
+   ],
+   "wrong": [
+    "Clavicle",
+    "Humerus",
+    "Acromion"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/scapula.webp",
+    "alt": "The rib cage from behind, with the right scapula in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "glenoid",
+   "prompt": "What is the shallow socket on the scapula that the head of the humerus fits into?",
+   "answers": [
+    "Glenoid cavity",
+    "Glenoid fossa",
+    "Glenoid"
+   ],
+   "wrong": [
+    "Acetabulum",
+    "Coracoid process",
+    "Olecranon fossa"
+   ],
+   "explanation": "It is shallow, which is why the shoulder moves so freely and dislocates so easily.",
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "acromion",
+   "prompt": "What is the bony point of the shoulder, the part of the scapula that joins the clavicle?",
+   "answers": [
+    "Acromion"
+   ],
+   "wrong": [
+    "Coracoid process",
+    "Glenoid cavity",
+    "Greater tubercle"
+   ],
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "coracoid",
+   "prompt": "What is the hook-like process at the front of the scapula, below the clavicle?",
+   "answers": [
+    "Coracoid process"
+   ],
+   "wrong": [
+    "Acromion",
+    "Spine of the scapula",
+    "Glenoid cavity"
+   ],
+   "explanation": "Coracoid means like a crow’s beak.",
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "arm-bone",
+   "prompt": "Which is the bone of the upper arm?",
+   "answers": [
+    "Humerus"
+   ],
+   "wrong": [
+    "Radius",
+    "Ulna",
+    "Femur"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/humerus.webp",
+    "alt": "The right arm, with the humerus in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "surgical-neck",
+   "prompt": "Which part of the humerus, just below its head, often breaks in falls?",
+   "answers": [
+    "Surgical neck"
+   ],
+   "wrong": [
+    "Anatomical neck",
+    "Medial epicondyle",
+    "Olecranon"
+   ],
+   "explanation": "The axillary nerve wraps around it, so it can be hurt in these fractures.",
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "funny-bone",
+   "prompt": "You hit your “funny bone” when you knock the ulnar nerve against which bump of the humerus?",
+   "answers": [
+    "Medial epicondyle"
+   ],
+   "wrong": [
+    "Lateral epicondyle",
+    "Olecranon",
+    "Greater tubercle"
+   ],
+   "explanation": "The nerve runs in a groove behind the medial epicondyle, on the inner side of the elbow.",
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "thumb-side",
+   "prompt": "Which forearm bone is on the thumb side?",
+   "answers": [
+    "Radius"
+   ],
+   "wrong": [
+    "Ulna",
+    "Humerus",
+    "Fibula"
+   ],
+   "explanation": "Radius and thumb both point outward. The radius turns around the ulna when you turn your palm down.",
+   "figure": {
+    "src": "data/figures/anatomy/radius.webp",
+    "alt": "The right arm, with the radius in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "olecranon",
+   "prompt": "What is the point of the elbow, part of the ulna, called?",
+   "answers": [
+    "Olecranon"
+   ],
+   "wrong": [
+    "Medial epicondyle",
+    "Coronoid process",
+    "Styloid process"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/ulna.webp",
+    "alt": "The right arm, with the ulna in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "carpals-count",
+   "prompt": "How many carpal bones are in each wrist?",
+   "answers": [
+    "8"
+   ],
+   "wrong": [
+    "7",
+    "5",
+    "10"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/carpals.webp",
+    "alt": "The right hand, with the carpal bones in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "metacarpals-count",
+   "prompt": "How many metacarpals are in each hand?",
+   "answers": [
+    "5"
+   ],
+   "wrong": [
+    "4",
+    "8",
+    "14"
+   ],
+   "explanation": "One for each finger, numbered 1 (thumb) to 5.",
+   "figure": {
+    "src": "data/figures/anatomy/metacarpals.webp",
+    "alt": "The right hand, with the metacarpals in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "hand-phalanges-count",
+   "prompt": "How many phalanges are in each hand?",
+   "answers": [
+    "14"
+   ],
+   "wrong": [
+    "15",
+    "10",
+    "12"
+   ],
+   "explanation": "Three in each finger and two in the thumb.",
+   "figure": {
+    "src": "data/figures/anatomy/hand-phalanges.webp",
+    "alt": "The right hand, with the phalanges in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "thumb-phalanges",
+   "prompt": "How many phalanges are in the thumb?",
+   "answers": [
+    "2"
+   ],
+   "wrong": [
+    "3",
+    "1",
+    "4"
+   ],
+   "explanation": "A proximal and a distal phalanx; the fingers also have a middle one.",
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "carpals-proximal",
+   "prompt": "Name the four carpals of the proximal row, from the thumb side.",
+   "answers": [
+    "Scaphoid",
+    "Lunate",
+    "Triquetrum",
+    "Pisiform"
+   ],
+   "need": 4,
+   "wrong": [
+    "Trapezium, trapezoid, capitate, hamate",
+    "Scaphoid, lunate, capitate, hamate",
+    "Trapezium, lunate, triquetrum, pisiform"
+   ],
+   "explanation": "Some Lovers Try Positions That They Can’t Handle: scaphoid, lunate, triquetrum, pisiform (proximal row); trapezium, trapezoid, capitate, hamate (distal row).",
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "carpals-distal",
+   "prompt": "Name the four carpals of the distal row, from the thumb side.",
+   "answers": [
+    "Trapezium",
+    "Trapezoid",
+    "Capitate",
+    "Hamate"
+   ],
+   "need": 4,
+   "wrong": [
+    "Scaphoid, lunate, triquetrum, pisiform",
+    "Trapezium, trapezoid, lunate, pisiform",
+    "Scaphoid, trapezoid, capitate, hamate"
+   ],
+   "explanation": "Some Lovers Try Positions That They Can’t Handle. The distal row is the second half: trapezium, trapezoid, capitate, hamate.",
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "scaphoid-fracture",
+   "prompt": "Which carpal bone is broken most often, usually in a fall on an outstretched hand?",
+   "answers": [
+    "Scaphoid"
+   ],
+   "wrong": [
+    "Lunate",
+    "Hamate",
+    "Trapezium"
+   ],
+   "explanation": "Its blood supply enters from the far end, so a break near the wrist can heal badly. Pain in the “anatomical snuffbox” at the base of the thumb is the sign.",
+   "figure": {
+    "src": "data/figures/anatomy/scaphoid.webp",
+    "alt": "The right hand, with the scaphoid in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "thumb-carpal",
+   "prompt": "Which carpal bone sits at the base of the thumb?",
+   "answers": [
+    "Trapezium"
+   ],
+   "wrong": [
+    "Trapezoid",
+    "Scaphoid",
+    "Capitate"
+   ],
+   "explanation": "Trapezium for the thumb. Its saddle joint with the first metacarpal lets the thumb oppose the fingers.",
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "largest-carpal",
+   "prompt": "Which is the largest carpal bone?",
+   "answers": [
+    "Capitate"
+   ],
+   "wrong": [
+    "Hamate",
+    "Scaphoid",
+    "Lunate"
+   ],
+   "explanation": "It sits in the middle of the wrist, below the middle finger.",
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "hook-carpal",
+   "prompt": "Which carpal bone has a hook on its palm side?",
+   "answers": [
+    "Hamate"
+   ],
+   "wrong": [
+    "Capitate",
+    "Pisiform",
+    "Trapezium"
+   ],
+   "explanation": "Hamulus is Latin for little hook.",
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "pisiform",
+   "prompt": "Which pea-shaped carpal bone is a sesamoid bone in the tendon of flexor carpi ulnaris?",
+   "answers": [
+    "Pisiform"
+   ],
+   "wrong": [
+    "Triquetrum",
+    "Hamate",
+    "Lunate"
+   ],
+   "explanation": "Pisum is Latin for pea. You can feel it at the base of the palm on the little finger side.",
+   "tags": [
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "id-clavicle",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Clavicle",
+    "Collarbone"
+   ],
+   "wrong": [
+    "Scapula",
+    "First rib",
+    "Acromion"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/clavicle.webp",
+    "alt": "The shoulders and rib cage, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "id-scapula",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Scapula",
+    "Shoulder blade"
+   ],
+   "wrong": [
+    "Clavicle",
+    "Humerus",
+    "Ilium"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/scapula.webp",
+    "alt": "The rib cage from behind, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "id-humerus",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Humerus"
+   ],
+   "wrong": [
+    "Femur",
+    "Radius",
+    "Ulna"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/humerus.webp",
+    "alt": "The right arm from the front, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "id-radius",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Radius"
+   ],
+   "wrong": [
+    "Ulna",
+    "Fibula",
+    "Humerus"
+   ],
+   "explanation": "In anatomical position (palms forward) it is the lateral forearm bone, on the thumb side.",
+   "figure": {
+    "src": "data/figures/anatomy/radius.webp",
+    "alt": "The right arm from the front, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "id-ulna",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Ulna"
+   ],
+   "wrong": [
+    "Radius",
+    "Fibula",
+    "Humerus"
+   ],
+   "explanation": "The medial forearm bone, on the little finger side. Its olecranon is the point of the elbow.",
+   "figure": {
+    "src": "data/figures/anatomy/ulna.webp",
+    "alt": "The right arm from the front, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "id-scaphoid",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Scaphoid"
+   ],
+   "wrong": [
+    "Lunate",
+    "Trapezium",
+    "Capitate"
+   ],
+   "explanation": "Proximal row, thumb side. Boat-shaped (Greek skaphe, boat).",
+   "figure": {
+    "src": "data/figures/anatomy/scaphoid.webp",
+    "alt": "The right hand from the front, palm forward, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "id-lunate",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Lunate"
+   ],
+   "wrong": [
+    "Scaphoid",
+    "Capitate",
+    "Triquetrum"
+   ],
+   "explanation": "Proximal row, in the middle. Moon-shaped (Latin luna).",
+   "figure": {
+    "src": "data/figures/anatomy/lunate.webp",
+    "alt": "The right hand from the front, palm forward, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "id-triquetral",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Triquetrum",
+    "Triquetral"
+   ],
+   "wrong": [
+    "Pisiform",
+    "Hamate",
+    "Lunate"
+   ],
+   "explanation": "Proximal row, little finger side, under the pisiform. Three-cornered.",
+   "figure": {
+    "src": "data/figures/anatomy/triquetral.webp",
+    "alt": "The right hand from the front, palm forward, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "id-pisiform",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Pisiform"
+   ],
+   "wrong": [
+    "Triquetrum",
+    "Hamate",
+    "Lunate"
+   ],
+   "explanation": "A pea-shaped sesamoid bone sitting on the front of the triquetrum.",
+   "figure": {
+    "src": "data/figures/anatomy/pisiform.webp",
+    "alt": "The right hand from the front, palm forward, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "id-trapezium",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Trapezium"
+   ],
+   "wrong": [
+    "Trapezoid",
+    "Scaphoid",
+    "Capitate"
+   ],
+   "explanation": "Distal row, at the base of the thumb.",
+   "figure": {
+    "src": "data/figures/anatomy/trapezium.webp",
+    "alt": "The right hand from the front, palm forward, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "id-trapezoid",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Trapezoid"
+   ],
+   "wrong": [
+    "Trapezium",
+    "Capitate",
+    "Scaphoid"
+   ],
+   "explanation": "Distal row, at the base of the index finger, between the trapezium and capitate.",
+   "figure": {
+    "src": "data/figures/anatomy/trapezoid.webp",
+    "alt": "The right hand from the front, palm forward, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "id-capitate",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Capitate"
+   ],
+   "wrong": [
+    "Hamate",
+    "Lunate",
+    "Trapezoid"
+   ],
+   "explanation": "Distal row, in the middle: the largest carpal bone, with a rounded head (Latin caput).",
+   "figure": {
+    "src": "data/figures/anatomy/capitate.webp",
+    "alt": "The right hand from the front, palm forward, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "id-hamate",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Hamate"
+   ],
+   "wrong": [
+    "Capitate",
+    "Triquetrum",
+    "Pisiform"
+   ],
+   "explanation": "Distal row, little finger side, with a hook on its palm side.",
+   "figure": {
+    "src": "data/figures/anatomy/hamate.webp",
+    "alt": "The right hand from the front, palm forward, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "id-carpals",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Carpals",
+    "Carpal bones",
+    "Carpus"
+   ],
+   "wrong": [
+    "Metacarpals",
+    "Phalanges",
+    "Tarsals"
+   ],
+   "explanation": "Eight bones in two rows of four.",
+   "figure": {
+    "src": "data/figures/anatomy/carpals.webp",
+    "alt": "The right hand from the front, palm forward, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "id-metacarpals",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Metacarpals",
+    "Metacarpal bones"
+   ],
+   "wrong": [
+    "Carpals",
+    "Phalanges",
+    "Metatarsals"
+   ],
+   "explanation": "The five bones of the palm.",
+   "figure": {
+    "src": "data/figures/anatomy/metacarpals.webp",
+    "alt": "The right hand from the front, palm forward, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "id-hand-phalanges",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Phalanges",
+    "Phalanx"
+   ],
+   "wrong": [
+    "Metacarpals",
+    "Carpals",
+    "Metatarsals"
+   ],
+   "explanation": "The finger bones: 14 in each hand.",
+   "figure": {
+    "src": "data/figures/anatomy/hand-phalanges.webp",
+    "alt": "The right hand from the front, palm forward, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Upper limb"
+   ]
+  },
+  {
+   "id": "hip-bone-parts",
+   "prompt": "Which three bones fuse to form each hip bone?",
+   "answers": [
+    "Ilium",
+    "Ischium",
+    "Pubis"
+   ],
+   "need": 3,
+   "wrong": [
+    "Ilium, ischium, sacrum",
+    "Ilium, pubis, coccyx",
+    "Ischium, pubis, femur"
+   ],
+   "explanation": "They meet in the acetabulum and fuse by about age 16 to 18.",
+   "figure": {
+    "src": "data/figures/anatomy/hip-bone.webp",
+    "alt": "The pelvis from the front, with the right hip bone in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "pelvis-bones",
+   "prompt": "Which bones make up the pelvis?",
+   "answers": [
+    "The two hip bones, the sacrum and the coccyx",
+    "Hip bones, sacrum and coccyx"
+   ],
+   "wrong": [
+    "The two hip bones only",
+    "The hip bones and the femurs",
+    "The sacrum and the lumbar vertebrae"
+   ],
+   "explanation": "The pelvic girdle itself is just the two hip bones.",
+   "figure": {
+    "src": "data/figures/anatomy/pelvis.webp",
+    "alt": "The pelvis from the front, with the hip bones and sacrum in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "acetabulum",
+   "prompt": "What is the socket of the hip joint, where the head of the femur fits, called?",
+   "answers": [
+    "Acetabulum"
+   ],
+   "wrong": [
+    "Glenoid cavity",
+    "Obturator foramen",
+    "Greater sciatic notch"
+   ],
+   "explanation": "Latin for vinegar cup. All three parts of the hip bone meet in it.",
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "sitting-bone",
+   "prompt": "Which part of the hip bone do you sit on?",
+   "answers": [
+    "Ischium",
+    "Ischial tuberosity"
+   ],
+   "wrong": [
+    "Ilium",
+    "Pubis",
+    "Coccyx"
+   ],
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "iliac-crest",
+   "prompt": "What is the curved upper edge of the ilium, which you feel when you put your hands on your hips, called?",
+   "answers": [
+    "Iliac crest"
+   ],
+   "wrong": [
+    "Iliac spine",
+    "Pubic crest",
+    "Ischial spine"
+   ],
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "pubic-symphysis",
+   "prompt": "Which cartilaginous joint joins the two pubic bones at the front?",
+   "answers": [
+    "Pubic symphysis"
+   ],
+   "wrong": [
+    "Sacroiliac joint",
+    "Acetabulum",
+    "Obturator membrane"
+   ],
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "sacroiliac",
+   "prompt": "Which joint joins the sacrum to the ilium?",
+   "answers": [
+    "Sacroiliac joint"
+   ],
+   "wrong": [
+    "Pubic symphysis",
+    "Hip joint",
+    "Lumbosacral joint"
+   ],
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "female-pelvis",
+   "prompt": "Compared with a typical male pelvis, the female pelvis has…",
+   "answers": [
+    "A wider, rounder inlet and a wider subpubic angle"
+   ],
+   "wrong": [
+    "A narrower, heart-shaped inlet",
+    "A narrower subpubic angle",
+    "Thicker, heavier bones"
+   ],
+   "explanation": "Adapted for childbirth: the subpubic angle is usually over 90° in women and under 70° in men.",
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "greater-trochanter",
+   "prompt": "What is the large bump on the outer side of the top of the femur, where hip muscles attach?",
+   "answers": [
+    "Greater trochanter"
+   ],
+   "wrong": [
+    "Lesser trochanter",
+    "Femoral head",
+    "Lateral epicondyle"
+   ],
+   "explanation": "You can feel it on the side of your hip.",
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "femur-neck",
+   "prompt": "Which part of the femur is the usual “broken hip” in older people?",
+   "answers": [
+    "Neck of the femur",
+    "Femoral neck"
+   ],
+   "wrong": [
+    "Greater trochanter",
+    "Shaft of the femur",
+    "Lateral condyle"
+   ],
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "kneecap",
+   "prompt": "Which bone is the kneecap?",
+   "answers": [
+    "Patella"
+   ],
+   "wrong": [
+    "Tibia",
+    "Femur",
+    "Fibula"
+   ],
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "shin-bone",
+   "prompt": "Which bone is the shin bone, carrying the body’s weight in the leg?",
+   "answers": [
+    "Tibia",
+    "Shin bone"
+   ],
+   "wrong": [
+    "Fibula",
+    "Femur",
+    "Talus"
+   ],
+   "explanation": "Its front edge is just under the skin of the shin.",
+   "figure": {
+    "src": "data/figures/anatomy/tibia.webp",
+    "alt": "The legs from the front, with the right tibia in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "fibula",
+   "prompt": "Which is the thin bone on the outer side of the leg, which carries little weight?",
+   "answers": [
+    "Fibula"
+   ],
+   "wrong": [
+    "Tibia",
+    "Radius",
+    "Ulna"
+   ],
+   "explanation": "It anchors muscles and forms the outer side of the ankle joint.",
+   "figure": {
+    "src": "data/figures/anatomy/fibula.webp",
+    "alt": "The legs from the front, with the right fibula in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "medial-malleolus",
+   "prompt": "The bump on the inner side of the ankle belongs to which bone?",
+   "answers": [
+    "Tibia"
+   ],
+   "wrong": [
+    "Fibula",
+    "Talus",
+    "Calcaneus"
+   ],
+   "explanation": "It is the medial malleolus.",
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "lateral-malleolus",
+   "prompt": "The bump on the outer side of the ankle belongs to which bone?",
+   "answers": [
+    "Fibula"
+   ],
+   "wrong": [
+    "Tibia",
+    "Talus",
+    "Calcaneus"
+   ],
+   "explanation": "It is the lateral malleolus, which sits lower than the medial one.",
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "tibial-tuberosity",
+   "prompt": "What is the bump at the top of the tibia, below the knee, where the patellar ligament attaches?",
+   "answers": [
+    "Tibial tuberosity"
+   ],
+   "wrong": [
+    "Medial malleolus",
+    "Lateral condyle",
+    "Intercondylar eminence"
+   ],
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "tarsals-count",
+   "prompt": "How many tarsal bones are in each foot?",
+   "answers": [
+    "7"
+   ],
+   "wrong": [
+    "8",
+    "5",
+    "14"
+   ],
+   "explanation": "Talus, calcaneus, navicular, cuboid and three cuneiforms.",
+   "figure": {
+    "src": "data/figures/anatomy/tarsals.webp",
+    "alt": "The right foot from above, with the tarsal bones in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "metatarsals-count",
+   "prompt": "How many metatarsals are in each foot?",
+   "answers": [
+    "5"
+   ],
+   "wrong": [
+    "4",
+    "7",
+    "14"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/metatarsals.webp",
+    "alt": "The right foot from above, with the metatarsals in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "foot-phalanges-count",
+   "prompt": "How many phalanges are in each foot?",
+   "answers": [
+    "14"
+   ],
+   "wrong": [
+    "10",
+    "12",
+    "15"
+   ],
+   "explanation": "Like the hand: two in the big toe and three in each of the others.",
+   "figure": {
+    "src": "data/figures/anatomy/foot-phalanges.webp",
+    "alt": "The right foot from above, with the phalanges in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "heel-bone",
+   "prompt": "Which bone is the heel bone, the largest tarsal?",
+   "answers": [
+    "Calcaneus",
+    "Heel bone"
+   ],
+   "wrong": [
+    "Talus",
+    "Cuboid",
+    "Navicular"
+   ],
+   "explanation": "The Achilles tendon attaches to the back of it.",
+   "figure": {
+    "src": "data/figures/anatomy/calcaneus.webp",
+    "alt": "The right foot from the outer side, with the calcaneus in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "ankle-talus",
+   "prompt": "Which tarsal bone forms the ankle joint with the tibia and fibula?",
+   "answers": [
+    "Talus"
+   ],
+   "wrong": [
+    "Calcaneus",
+    "Navicular",
+    "Cuboid"
+   ],
+   "explanation": "The talus carries the body’s weight from the leg to the rest of the foot. No muscles attach to it.",
+   "figure": {
+    "src": "data/figures/anatomy/talus.webp",
+    "alt": "The right foot from above, with the talus in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "cuneiform-count",
+   "prompt": "How many cuneiform bones are in each foot?",
+   "answers": [
+    "3"
+   ],
+   "wrong": [
+    "2",
+    "4",
+    "5"
+   ],
+   "explanation": "Medial, intermediate and lateral; cuneiform means wedge-shaped.",
+   "figure": {
+    "src": "data/figures/anatomy/cuneiforms.webp",
+    "alt": "The right foot from above, with the cuneiforms in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "id-hip-bone",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Hip bone",
+    "Os coxae",
+    "Coxal bone",
+    "Innominate bone"
+   ],
+   "wrong": [
+    "Sacrum",
+    "Femur",
+    "Ilium"
+   ],
+   "explanation": "One hip bone, made of the ilium, ischium and pubis fused together.",
+   "figure": {
+    "src": "data/figures/anatomy/hip-bone.webp",
+    "alt": "The pelvis from the front, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "id-femur",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Femur",
+    "Thigh bone"
+   ],
+   "wrong": [
+    "Tibia",
+    "Humerus",
+    "Fibula"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/femur.webp",
+    "alt": "The legs from the front, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "id-patella",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Patella",
+    "Kneecap"
+   ],
+   "wrong": [
+    "Tibia",
+    "Femur",
+    "Fibula"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/patella.webp",
+    "alt": "The legs from the front, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "id-tibia",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Tibia",
+    "Shin bone"
+   ],
+   "wrong": [
+    "Fibula",
+    "Femur",
+    "Radius"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/tibia.webp",
+    "alt": "The legs from the front, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "id-fibula",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Fibula"
+   ],
+   "wrong": [
+    "Tibia",
+    "Ulna",
+    "Radius"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/fibula.webp",
+    "alt": "The legs from the front, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "id-talus",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Talus"
+   ],
+   "wrong": [
+    "Calcaneus",
+    "Navicular",
+    "Cuboid"
+   ],
+   "explanation": "Seen from above, it sits between the leg bones and the rest of the foot.",
+   "figure": {
+    "src": "data/figures/anatomy/talus.webp",
+    "alt": "The right foot from above, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "id-calcaneus",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Calcaneus",
+    "Heel bone"
+   ],
+   "wrong": [
+    "Talus",
+    "Cuboid",
+    "Navicular"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/calcaneus.webp",
+    "alt": "The right foot from the outer side, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "id-navicular",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Navicular",
+    "Navicular bone"
+   ],
+   "wrong": [
+    "Cuboid",
+    "Talus",
+    "Medial cuneiform"
+   ],
+   "explanation": "Boat-shaped, on the inner side of the foot, between the talus and the cuneiforms.",
+   "figure": {
+    "src": "data/figures/anatomy/navicular.webp",
+    "alt": "The right foot from above, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "id-cuboid",
+   "prompt": "Which bone is highlighted in red?",
+   "answers": [
+    "Cuboid",
+    "Cuboid bone"
+   ],
+   "wrong": [
+    "Navicular",
+    "Calcaneus",
+    "Lateral cuneiform"
+   ],
+   "explanation": "On the outer side of the foot, in front of the calcaneus.",
+   "figure": {
+    "src": "data/figures/anatomy/cuboid.webp",
+    "alt": "The right foot from above, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "id-cuneiforms",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Cuneiforms",
+    "Cuneiform bones"
+   ],
+   "wrong": [
+    "Metatarsals",
+    "Navicular and cuboid",
+    "Carpals"
+   ],
+   "explanation": "Three wedge-shaped bones in front of the navicular.",
+   "figure": {
+    "src": "data/figures/anatomy/cuneiforms.webp",
+    "alt": "The right foot from above, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "id-tarsals",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Tarsals",
+    "Tarsal bones",
+    "Tarsus"
+   ],
+   "wrong": [
+    "Metatarsals",
+    "Carpals",
+    "Phalanges"
+   ],
+   "explanation": "The seven bones of the ankle and back of the foot.",
+   "figure": {
+    "src": "data/figures/anatomy/tarsals.webp",
+    "alt": "The right foot from above, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "id-metatarsals",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Metatarsals",
+    "Metatarsal bones"
+   ],
+   "wrong": [
+    "Tarsals",
+    "Phalanges",
+    "Metacarpals"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/metatarsals.webp",
+    "alt": "The right foot from above, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "id-foot-phalanges",
+   "prompt": "Which bones are highlighted in red?",
+   "answers": [
+    "Phalanges",
+    "Phalanx"
+   ],
+   "wrong": [
+    "Metatarsals",
+    "Tarsals",
+    "Metacarpals"
+   ],
+   "explanation": "The toe bones: 14 in each foot.",
+   "figure": {
+    "src": "data/figures/anatomy/foot-phalanges.webp",
+    "alt": "The right foot from above, with part of it highlighted in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the bone",
+    "Pelvis and lower limb"
+   ]
+  },
+  {
+   "id": "joint-classes",
+   "prompt": "Joints are grouped by what holds them together. Name the three groups.",
+   "answers": [
+    "Fibrous",
+    "Cartilaginous",
+    "Synovial"
+   ],
+   "need": 3,
+   "wrong": [
+    "Fibrous, cartilaginous, hinge",
+    "Synovial, pivot, fibrous",
+    "Hinge, pivot, ball-and-socket"
+   ],
+   "explanation": "Fibrous joints are held by dense connective tissue, cartilaginous joints by cartilage, and synovial joints have a fluid-filled cavity.",
+   "tags": [
+    "Joints"
+   ]
+  },
+  {
+   "id": "sutures-type",
+   "prompt": "The sutures of the skull are which kind of joint?",
+   "answers": [
+    "Fibrous joints",
+    "Fibrous"
+   ],
+   "wrong": [
+    "Cartilaginous joints",
+    "Synovial joints",
+    "Plane joints"
+   ],
+   "explanation": "They hardly move at all (synarthroses).",
+   "tags": [
+    "Joints"
+   ]
+  },
+  {
+   "id": "disc-joint-type",
+   "prompt": "The intervertebral discs and the pubic symphysis are which kind of joint?",
+   "answers": [
+    "Cartilaginous joints",
+    "Cartilaginous",
+    "Symphyses"
+   ],
+   "wrong": [
+    "Fibrous joints",
+    "Synovial joints",
+    "Gomphoses"
+   ],
+   "explanation": "Joined by fibrocartilage, they move a little.",
+   "tags": [
+    "Joints"
+   ]
+  },
+  {
+   "id": "gomphosis",
+   "prompt": "What kind of joint holds a tooth in its socket?",
+   "answers": [
+    "Gomphosis",
+    "Fibrous joint"
+   ],
+   "wrong": [
+    "Suture",
+    "Symphysis",
+    "Synovial joint"
+   ],
+   "explanation": "A fibrous joint: the periodontal ligament ties the tooth to the jaw.",
+   "tags": [
+    "Joints"
+   ]
+  },
+  {
+   "id": "synovial-fluid",
+   "prompt": "What is the fluid that lubricates freely moving joints called?",
+   "answers": [
+    "Synovial fluid"
+   ],
+   "wrong": [
+    "Cerebrospinal fluid",
+    "Lymph",
+    "Serous fluid"
+   ],
+   "explanation": "The synovial membrane lining the joint capsule makes it.",
+   "tags": [
+    "Joints"
+   ]
+  },
+  {
+   "id": "articular-cartilage",
+   "prompt": "What covers the ends of the bones inside a synovial joint?",
+   "answers": [
+    "Articular cartilage",
+    "Hyaline cartilage"
+   ],
+   "wrong": [
+    "Periosteum",
+    "Fibrocartilage",
+    "Synovial membrane"
+   ],
+   "explanation": "Smooth hyaline cartilage, so the bones glide over each other.",
+   "tags": [
+    "Joints"
+   ]
+  },
+  {
+   "id": "ball-and-socket",
+   "prompt": "The shoulder and hip are which type of synovial joint?",
+   "answers": [
+    "Ball-and-socket joints",
+    "Ball and socket"
+   ],
+   "wrong": [
+    "Hinge joints",
+    "Condyloid joints",
+    "Saddle joints"
+   ],
+   "explanation": "They move in every direction, and rotate.",
+   "tags": [
+    "Joints"
+   ]
+  },
+  {
+   "id": "hinge",
+   "prompt": "The elbow and the knee are mainly which type of synovial joint?",
+   "answers": [
+    "Hinge joints",
+    "Hinge"
+   ],
+   "wrong": [
+    "Pivot joints",
+    "Ball-and-socket joints",
+    "Plane joints"
+   ],
+   "explanation": "They bend and straighten in one plane, like a door.",
+   "tags": [
+    "Joints"
+   ]
+  },
+  {
+   "id": "pivot",
+   "prompt": "Which type of joint between the atlas and the axis lets you shake your head “no”?",
+   "answers": [
+    "Pivot joint",
+    "Pivot"
+   ],
+   "wrong": [
+    "Hinge joint",
+    "Saddle joint",
+    "Plane joint"
+   ],
+   "explanation": "The ring of the atlas turns around the dens. The joint between the tops of the radius and ulna is a pivot too.",
+   "tags": [
+    "Joints"
+   ]
+  },
+  {
+   "id": "saddle",
+   "prompt": "The joint at the base of the thumb, between the trapezium and the first metacarpal, is which type?",
+   "answers": [
+    "Saddle joint",
+    "Saddle"
+   ],
+   "wrong": [
+    "Pivot joint",
+    "Hinge joint",
+    "Plane joint"
+   ],
+   "explanation": "Both surfaces are shaped like saddles, which lets the thumb move across the palm to touch the fingers (opposition).",
+   "tags": [
+    "Joints"
+   ]
+  },
+  {
+   "id": "condyloid",
+   "prompt": "The wrist joint (radiocarpal) and the knuckles are which type of synovial joint?",
+   "answers": [
+    "Condyloid joints",
+    "Condyloid",
+    "Ellipsoid joints"
+   ],
+   "wrong": [
+    "Saddle joints",
+    "Pivot joints",
+    "Hinge joints"
+   ],
+   "explanation": "An oval surface in an oval socket: they bend and move side to side, but don’t rotate.",
+   "tags": [
+    "Joints"
+   ]
+  },
+  {
+   "id": "plane",
+   "prompt": "The joints between the carpal bones are which type, where flat surfaces slide over each other?",
+   "answers": [
+    "Plane joints",
+    "Plane",
+    "Gliding joints"
+   ],
+   "wrong": [
+    "Condyloid joints",
+    "Saddle joints",
+    "Pivot joints"
+   ],
+   "tags": [
+    "Joints"
+   ]
+  },
+  {
+   "id": "ligament",
+   "prompt": "What joins bone to bone?",
+   "answers": [
+    "Ligament",
+    "Ligaments"
+   ],
+   "wrong": [
+    "Tendon",
+    "Cartilage",
+    "Fascia"
+   ],
+   "explanation": "Tendons join muscle to bone.",
+   "tags": [
+    "Joints"
+   ]
+  },
+  {
+   "id": "tendon",
+   "prompt": "What joins muscle to bone?",
+   "answers": [
+    "Tendon",
+    "Tendons"
+   ],
+   "wrong": [
+    "Ligament",
+    "Cartilage",
+    "Fascia"
+   ],
+   "explanation": "Ligaments join bone to bone.",
+   "tags": [
+    "Joints"
+   ]
+  },
+  {
+   "id": "acl",
+   "prompt": "Which ligament inside the knee stops the tibia sliding forward under the femur?",
+   "answers": [
+    "Anterior cruciate ligament",
+    "ACL"
+   ],
+   "wrong": [
+    "Posterior cruciate ligament",
+    "Medial collateral ligament",
+    "Patellar ligament"
+   ],
+   "explanation": "Cruciate means crossed: the anterior and posterior cruciate ligaments cross inside the knee.",
+   "tags": [
+    "Joints"
+   ]
+  },
+  {
+   "id": "menisci",
+   "prompt": "What are the two C-shaped pads of fibrocartilage in the knee that cushion the femur on the tibia?",
+   "answers": [
+    "Menisci",
+    "Meniscus"
+   ],
+   "wrong": [
+    "Bursae",
+    "Cruciate ligaments",
+    "Articular discs"
+   ],
+   "explanation": "One medial, one lateral. Twisting the bent knee can tear them.",
+   "tags": [
+    "Joints"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Name the bone",
+   "count": 20,
+   "pass": 80,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Name the bone"
+   ],
+   "why": "Twenty pictures of the skeleton, each with one bone in red to name."
+  },
+  {
+   "name": "Chapter quiz",
+   "count": 30,
+   "pass": 75,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "end",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Thirty questions from the whole chapter, marked at the end, like an end-of-unit test."
+  },
+  {
+   "name": "Recall without choices",
+   "count": 20,
+   "pass": 75,
+   "pick": "due",
+   "answer": "typed",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Type each answer from memory, starting with the ones due for review. Small typos are forgiven."
+  }
+ ]
+}
