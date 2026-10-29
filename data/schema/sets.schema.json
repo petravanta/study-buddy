@@ -21,6 +21,11 @@
       "minLength": 1,
       "description": "Name shown in the app, e.g. “U.S. citizenship civics test (2008 version)”."
     },
+    "module": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The bigger subject this set is a chapter of, e.g. “Human anatomy”. Built-in sets with the same module are offered together, as its chapters, in data/sets.json order."
+    },
     "description": {
       "type": "string",
       "description": "A sentence or two on what the set is for and how the real test works."
@@ -138,7 +143,7 @@
           "required": [
             "src"
           ],
-          "description": "A picture shown with the question, such as a circuit diagram it asks about.",
+          "description": "A picture shown with the question, such as a circuit diagram it asks about, or (with `reveal`) one shown with the answer. Record where an image comes from and its licence when it isn’t the app’s own.",
           "properties": {
             "src": {
               "type": "string",
@@ -148,6 +153,28 @@
             "alt": {
               "type": "string",
               "description": "Text that stands in for the picture."
+            },
+            "reveal": {
+              "type": "boolean",
+              "description": "Show the picture only with the answer, because it gives the answer away (e.g. the bone a question names, highlighted)."
+            },
+            "credit": {
+              "type": "string",
+              "description": "Who made the picture or what it is made from, shown under it, e.g. “BodyParts3D, © The Database Center for Life Science”."
+            },
+            "source": {
+              "type": "string",
+              "pattern": "^https://\\S+$",
+              "description": "Link to where the picture, or what it was made from, comes from."
+            },
+            "license": {
+              "type": "string",
+              "description": "The picture’s licence, e.g. “CC BY-SA 2.1 JP” or “Public domain”."
+            },
+            "licenseUrl": {
+              "type": "string",
+              "pattern": "^https://\\S+$",
+              "description": "Link to the licence."
             }
           }
         },
@@ -205,11 +232,12 @@
           "enum": [
             "random",
             "weakest",
+            "due",
             "unseen",
             "missed",
             "inorder"
           ],
-          "description": "Which questions it asks: random; weakest first (missed recently, then new, then least sure); new ones first; only ones missed last time; or in the set's order."
+          "description": "Which questions it asks: random; weakest first (missed recently, then new, then least sure); due for review first (spaced repetition: missed ones, then ones whose review gap of 1, 3, 7, 16 or 35 days has passed); new ones first; only ones missed last time; or in the set's order."
         },
         "answer": {
           "enum": [
