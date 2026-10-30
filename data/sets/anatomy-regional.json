@@ -1,0 +1,1685 @@
+{
+ "id": "anatomy-regional",
+ "name": "Regional anatomy",
+ "module": "Human anatomy",
+ "description": "Anatomy by region of the body, as it is met in clinical practice: the head and neck, the trunk (back, thorax, abdomen and pelvis) and the limbs. Landmarks, spaces and triangles, what runs where, and the common injuries that follow from it. Revision of the other chapters is a good start.",
+ "source": {
+  "name": "Written for Study Buddy. Pictures rendered from BodyParts3D (© The Database Center for Life Science, CC BY-SA 2.1 JP).",
+  "url": "https://github.com/petravanta/study-buddy/tree/main/scripts/bodyparts3d"
+ },
+ "updated": "2026-10-30",
+ "questions": [
+  {
+   "id": "neck-triangles",
+   "prompt": "Which muscle divides each side of the neck into an anterior and a posterior triangle?",
+   "answers": [
+    "Sternocleidomastoid",
+    "The sternocleidomastoid"
+   ],
+   "wrong": [
+    "Trapezius",
+    "Platysma",
+    "Scalenus anterior"
+   ],
+   "explanation": "The posterior triangle lies between sternocleidomastoid and trapezius, with the clavicle as its base.",
+   "figure": {
+    "src": "data/figures/anatomy/m-sternocleidomastoid.webp",
+    "alt": "The sternocleidomastoid muscle, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "posterior-triangle",
+   "prompt": "Which nerve, often hurt in operations in the posterior triangle of the neck, supplies trapezius?",
+   "answers": [
+    "The accessory nerve (XI)",
+    "Accessory nerve",
+    "Spinal accessory nerve"
+   ],
+   "wrong": [
+    "The vagus nerve",
+    "The phrenic nerve",
+    "The hypoglossal nerve"
+   ],
+   "explanation": "It runs superficially, and is easily cut. Injury gives a drooping shoulder.",
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "carotid-sheath",
+   "prompt": "What are the contents of the carotid sheath in the neck?",
+   "answers": [
+    "Common carotid artery, internal jugular vein and vagus nerve",
+    "Carotid artery, jugular vein, vagus nerve"
+   ],
+   "wrong": [
+    "Trachea, oesophagus and thyroid",
+    "Phrenic nerve, vagus nerve and subclavian artery",
+    "External carotid artery, facial vein and hypoglossal nerve"
+   ],
+   "explanation": "The artery is medial, the vein lateral and the nerve between them and behind.",
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "carotid-pulse",
+   "prompt": "Where can the carotid pulse be felt?",
+   "answers": [
+    "In the neck, in front of the sternocleidomastoid, beside the larynx",
+    "At the front of the neck, beside the larynx"
+   ],
+   "wrong": [
+    "Behind the angle of the jaw only",
+    "At the back of the neck",
+    "Over the collarbone"
+   ],
+   "explanation": "At about the level of the upper border of the thyroid cartilage, where the common carotid divides.",
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "thyroid-level",
+   "prompt": "At which vertebral level is the cricoid cartilage, the lower end of the larynx?",
+   "answers": [
+    "C6",
+    "The sixth cervical vertebra"
+   ],
+   "wrong": [
+    "C2",
+    "T1",
+    "T4"
+   ],
+   "explanation": "A landmark for starting the trachea and the oesophagus.",
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "hyoid-level",
+   "prompt": "At which vertebral level is the hyoid bone?",
+   "answers": [
+    "C3",
+    "The third cervical vertebra"
+   ],
+   "wrong": [
+    "C1",
+    "C6",
+    "T2"
+   ],
+   "explanation": "It lies at the level of the mandible's angle. It is the only bone that does not meet another bone.",
+   "figure": {
+    "src": "data/figures/anatomy/hyoid.webp",
+    "alt": "The hyoid bone, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "skull-fossae",
+   "prompt": "How many cranial fossae are there on the inside of the base of the skull, and what are they called?",
+   "answers": [
+    "Three: anterior, middle and posterior",
+    "Anterior, middle and posterior"
+   ],
+   "wrong": [
+    "Two: front and back",
+    "Four: frontal, temporal, parietal and occipital",
+    "Five: one for each lobe"
+   ],
+   "explanation": "The frontal lobes sit in the anterior fossa, the temporal lobes in the middle and the cerebellum in the posterior.",
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "foramen-magnum",
+   "prompt": "Which opening in the occipital bone lets the spinal cord join the brainstem?",
+   "answers": [
+    "Foramen magnum",
+    "The foramen magnum"
+   ],
+   "wrong": [
+    "Jugular foramen",
+    "Foramen ovale",
+    "Optic canal"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/occipital.webp",
+    "alt": "The occipital bone, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "cribriform",
+   "prompt": "Which perforated plate of the ethmoid bone lets the olfactory nerve fibres through?",
+   "answers": [
+    "Cribriform plate",
+    "The cribriform plate"
+   ],
+   "wrong": [
+    "Foramen rotundum",
+    "Perpendicular plate",
+    "Optic canal"
+   ],
+   "explanation": "A fracture here can leak cerebrospinal fluid from the nose.",
+   "figure": {
+    "src": "data/figures/anatomy/ethmoid.webp",
+    "alt": "The ethmoid bone, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "optic-canal",
+   "prompt": "Which opening in the sphenoid bone lets the optic nerve into the orbit?",
+   "answers": [
+    "Optic canal",
+    "The optic canal"
+   ],
+   "wrong": [
+    "Superior orbital fissure",
+    "Foramen ovale",
+    "Foramen spinosum"
+   ],
+   "explanation": "The ophthalmic artery goes with it.",
+   "figure": {
+    "src": "data/figures/anatomy/sphenoid.webp",
+    "alt": "The sphenoid bone, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "sup-orbital-fissure",
+   "prompt": "Which nerves go through the superior orbital fissure to the eye muscles?",
+   "answers": [
+    "The oculomotor, trochlear and abducens (III, IV and VI)",
+    "III, IV and VI"
+   ],
+   "wrong": [
+    "The optic nerve",
+    "The facial nerve",
+    "The vagus nerve"
+   ],
+   "explanation": "Along with the ophthalmic division of the trigeminal nerve.",
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "pterion",
+   "prompt": "Which weak spot on the side of the skull, where four bones meet, covers the middle meningeal artery?",
+   "answers": [
+    "Pterion",
+    "The pterion"
+   ],
+   "wrong": [
+    "Bregma",
+    "Lambda",
+    "Asterion"
+   ],
+   "explanation": "A blow to it can tear the artery, causing an extradural haematoma.",
+   "figure": {
+    "src": "data/figures/anatomy/temporal.webp",
+    "alt": "The temporal bone, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "sutures",
+   "prompt": "Which suture joins the frontal bone to the two parietal bones?",
+   "answers": [
+    "Coronal suture",
+    "The coronal suture"
+   ],
+   "wrong": [
+    "Sagittal suture",
+    "Lambdoid suture",
+    "Squamous suture"
+   ],
+   "explanation": "The sagittal suture joins the two parietals; the lambdoid joins them to the occipital.",
+   "figure": {
+    "src": "data/figures/anatomy/parietal.webp",
+    "alt": "The parietal bone, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "fontanelles",
+   "prompt": "Why can a newborn's skull change shape during birth?",
+   "answers": [
+    "The bones are not yet joined, with gaps (fontanelles) between them",
+    "The skull has fontanelles and open sutures"
+   ],
+   "wrong": [
+    "The skull bones are cartilage only",
+    "The brain is small",
+    "The skull is made of one bone"
+   ],
+   "explanation": "The anterior fontanelle closes at about 18 months.",
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "paranasal",
+   "prompt": "Which paranasal sinus is in the cheek, and is the largest?",
+   "answers": [
+    "Maxillary sinus",
+    "The maxillary sinus"
+   ],
+   "wrong": [
+    "Frontal sinus",
+    "Sphenoid sinus",
+    "Ethmoid sinus"
+   ],
+   "explanation": "Its opening is high on the wall, so it drains poorly when upright.",
+   "figure": {
+    "src": "data/figures/anatomy/maxilla.webp",
+    "alt": "The maxilla, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "tmj",
+   "prompt": "Which joint between the mandible and the temporal bone allows chewing?",
+   "answers": [
+    "Temporomandibular joint",
+    "TMJ",
+    "The temporomandibular joint"
+   ],
+   "wrong": [
+    "Atlanto-occipital joint",
+    "Sternoclavicular joint",
+    "Acromioclavicular joint"
+   ],
+   "explanation": "It is a hinge and gliding joint, with a disc.",
+   "figure": {
+    "src": "data/figures/anatomy/mandible.webp",
+    "alt": "The mandible, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "muscles-mastication",
+   "prompt": "Which four muscles are the muscles of mastication?",
+   "answers": [
+    "Masseter, temporalis, medial and lateral pterygoids",
+    "Masseter, temporalis and the two pterygoids"
+   ],
+   "wrong": [
+    "Buccinator, orbicularis oris, platysma and mentalis",
+    "Digastric, mylohyoid, geniohyoid and stylohyoid",
+    "Frontalis, zygomaticus, risorius and nasalis"
+   ],
+   "explanation": "All are supplied by the mandibular division of the trigeminal nerve.",
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "facial-nerve-muscles",
+   "prompt": "Which cranial nerve supplies the muscles of facial expression?",
+   "answers": [
+    "Facial nerve (VII)",
+    "Facial nerve",
+    "Cranial nerve VII"
+   ],
+   "wrong": [
+    "Trigeminal nerve (V)",
+    "Glossopharyngeal nerve (IX)",
+    "Hypoglossal nerve (XII)"
+   ],
+   "explanation": "Damage, as in Bell's palsy, causes a one-sided droop of the face.",
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "parotid",
+   "prompt": "Which large salivary gland sits in front of the ear, and is crossed by branches of the facial nerve?",
+   "answers": [
+    "Parotid gland",
+    "The parotid gland"
+   ],
+   "wrong": [
+    "Submandibular gland",
+    "Sublingual gland",
+    "Thyroid gland"
+   ],
+   "explanation": "The duct opens opposite the upper second molar.",
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "trigeminal-divisions",
+   "prompt": "What are the three divisions of the trigeminal nerve?",
+   "answers": [
+    "Ophthalmic, maxillary and mandibular",
+    "V1, V2 and V3"
+   ],
+   "wrong": [
+    "Optic, olfactory and facial",
+    "Frontal, nasal and lacrimal",
+    "Superior, middle and inferior"
+   ],
+   "explanation": "They supply the skin of the forehead, the cheek and the jaw.",
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "larynx-cartilages",
+   "prompt": "Which is the largest cartilage of the larynx, forming the Adam's apple?",
+   "answers": [
+    "Thyroid cartilage",
+    "The thyroid cartilage"
+   ],
+   "wrong": [
+    "Cricoid cartilage",
+    "Epiglottis",
+    "Arytenoid cartilage"
+   ],
+   "explanation": "More prominent in men.",
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "vertebral-prominens",
+   "prompt": "Which vertebra has a long spinous process that can be felt at the base of the neck?",
+   "answers": [
+    "C7 (vertebra prominens)",
+    "C7",
+    "Vertebra prominens"
+   ],
+   "wrong": [
+    "C2",
+    "T1",
+    "L1"
+   ],
+   "explanation": "A landmark for counting the vertebrae.",
+   "figure": {
+    "src": "data/figures/anatomy/cervical.webp",
+    "alt": "The cervical vertebrae, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "spinal-curves",
+   "prompt": "Which are the primary curves of the spine, present at birth, curving backwards (kyphosis)?",
+   "answers": [
+    "Thoracic and sacral",
+    "The thoracic and sacral curves"
+   ],
+   "wrong": [
+    "Cervical and lumbar",
+    "Cervical and thoracic",
+    "Lumbar and sacral"
+   ],
+   "explanation": "The cervical and lumbar curves, which curve forwards (lordosis), develop after birth.",
+   "figure": {
+    "src": "data/figures/anatomy/thoracic.webp",
+    "alt": "The thoracic vertebrae, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "cord-end",
+   "prompt": "At about which vertebral level does the adult spinal cord end?",
+   "answers": [
+    "L1 to L2",
+    "L1/L2",
+    "L1"
+   ],
+   "wrong": [
+    "T6",
+    "S2",
+    "L5"
+   ],
+   "explanation": "It ends at the conus medullaris. Below that, the nerve roots form the cauda equina, so a lumbar puncture is done at L3 to L4.",
+   "figure": {
+    "src": "data/figures/anatomy/lumbar.webp",
+    "alt": "The lumbar vertebrae, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "lumbar-puncture",
+   "prompt": "Between which vertebrae is a lumbar puncture usually done?",
+   "answers": [
+    "L3 and L4 (or L4 and L5)",
+    "L3/L4",
+    "L4/L5"
+   ],
+   "wrong": [
+    "T10 and T11",
+    "L1 and L2",
+    "S1 and S2"
+   ],
+   "explanation": "The iliac crests, at L4, are the guide.",
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "sacral-hiatus",
+   "prompt": "What are the five fused vertebrae at the back of the pelvis called?",
+   "answers": [
+    "Sacrum",
+    "The sacrum"
+   ],
+   "wrong": [
+    "Coccyx",
+    "Lumbar vertebrae",
+    "Ilium"
+   ],
+   "explanation": "The coccyx is the tail below.",
+   "figure": {
+    "src": "data/figures/anatomy/sacrum.webp",
+    "alt": "The sacrum, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "sternal-angle",
+   "prompt": "Where is the sternal angle, and which landmark does it mark?",
+   "answers": [
+    "Between the manubrium and the body of the sternum, where the second rib joins",
+    "At the second rib"
+   ],
+   "wrong": [
+    "At the xiphoid process, where the seventh rib joins",
+    "At the clavicle, at the level of the first rib",
+    "At the navel, at the level of L3"
+   ],
+   "explanation": "It marks the level of T4 to T5, where the trachea divides and the aortic arch begins and ends.",
+   "figure": {
+    "src": "data/figures/anatomy/manubrium.webp",
+    "alt": "The manubrium, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "jugular-notch",
+   "prompt": "At which vertebral level is the jugular (suprasternal) notch?",
+   "answers": [
+    "T2 to T3",
+    "T2"
+   ],
+   "wrong": [
+    "C7",
+    "T4",
+    "T10"
+   ],
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "xiphisternal",
+   "prompt": "At which vertebral level is the xiphisternal joint?",
+   "answers": [
+    "T9",
+    "The ninth thoracic vertebra"
+   ],
+   "wrong": [
+    "T4",
+    "T2",
+    "L1"
+   ],
+   "explanation": "It lies at about the level of the top of the liver and the heart's lower border.",
+   "figure": {
+    "src": "data/figures/anatomy/xiphoid.webp",
+    "alt": "The xiphoid process, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "intercostal-neurovascular",
+   "prompt": "In which position do the intercostal vessels and nerve run along each rib?",
+   "answers": [
+    "In the groove under the rib's lower border (vein, artery, nerve from above down)",
+    "Along the lower border of the rib"
+   ],
+   "wrong": [
+    "Along the upper border of the rib",
+    "Through the middle of the muscle",
+    "On the surface of the rib"
+   ],
+   "explanation": "So a chest drain is put in over the top of the rib below. 'VAN' from above down.",
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "rib-types",
+   "prompt": "How many true ribs, false ribs and floating ribs are there on each side?",
+   "answers": [
+    "7 true, 3 false, 2 floating",
+    "7, 3 and 2"
+   ],
+   "wrong": [
+    "5 true, 5 false, 2 floating",
+    "8 true, 2 false, 2 floating",
+    "6 true, 4 false, 2 floating"
+   ],
+   "explanation": "True ribs join the sternum directly. False ribs join it through the costal cartilage above. The last two are free.",
+   "figure": {
+    "src": "data/figures/anatomy/floating-ribs.webp",
+    "alt": "The floating ribs, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "diaphragm-openings",
+   "prompt": "At which vertebral levels do the vena cava, the oesophagus and the aorta pass through the diaphragm?",
+   "answers": [
+    "T8 (vena cava), T10 (oesophagus), T12 (aorta)",
+    "T8, T10, T12"
+   ],
+   "wrong": [
+    "T4, T6, T8",
+    "T10, T12, L2",
+    "T6, T8, T10"
+   ],
+   "explanation": "'I ate ten eggs at twelve': IVC at 8, oesophagus at 10, aortic hiatus at 12.",
+   "figure": {
+    "src": "data/figures/anatomy/m-diaphragm.webp",
+    "alt": "The diaphragm, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "mediastinum-parts",
+   "prompt": "Which of the following lies in the superior mediastinum?",
+   "answers": [
+    "Aortic arch, thymus and trachea",
+    "The aortic arch"
+   ],
+   "wrong": [
+    "The left atrium only",
+    "The kidneys",
+    "The stomach"
+   ],
+   "explanation": "The heart is in the middle mediastinum, inside the pericardium.",
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "breast-lymph",
+   "prompt": "Where does most lymph from the breast drain?",
+   "answers": [
+    "To the axillary nodes",
+    "Axillary lymph nodes"
+   ],
+   "wrong": [
+    "To the inguinal nodes",
+    "To the cervical nodes only",
+    "To the mediastinal nodes only"
+   ],
+   "explanation": "About 75%. Some goes to the parasternal nodes.",
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "abdominal-wall",
+   "prompt": "Which three flat muscles form the lateral abdominal wall, from outside in?",
+   "answers": [
+    "External oblique, internal oblique, transversus abdominis",
+    "External oblique, internal oblique and transversus"
+   ],
+   "wrong": [
+    "Rectus abdominis, external oblique, internal oblique",
+    "Transversus, internal oblique, external oblique",
+    "Psoas, quadratus lumborum, iliacus"
+   ],
+   "explanation": "Their fibres run in different directions, like plywood.",
+   "figure": {
+    "src": "data/figures/anatomy/m-external-oblique.webp",
+    "alt": "The external oblique, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "linea-alba",
+   "prompt": "What is the tendinous midline of the front of the abdominal wall, between the two rectus muscles, called?",
+   "answers": [
+    "Linea alba",
+    "The linea alba"
+   ],
+   "wrong": [
+    "Linea semilunaris",
+    "Arcuate line",
+    "Inguinal ligament"
+   ],
+   "explanation": "A hernia may come through it above the navel.",
+   "figure": {
+    "src": "data/figures/anatomy/m-rectus-abdominis.webp",
+    "alt": "The rectus abdominis, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "inguinal-canal",
+   "prompt": "What passes through the inguinal canal in men?",
+   "answers": [
+    "The spermatic cord",
+    "Spermatic cord"
+   ],
+   "wrong": [
+    "The femoral artery",
+    "The ureter",
+    "The sciatic nerve"
+   ],
+   "explanation": "In women it carries the round ligament of the uterus.",
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "inguinal-hernia",
+   "prompt": "Which hernia passes through the deep inguinal ring, lateral to the inferior epigastric vessels?",
+   "answers": [
+    "Indirect inguinal hernia",
+    "Indirect"
+   ],
+   "wrong": [
+    "Direct inguinal hernia",
+    "Femoral hernia",
+    "Umbilical hernia"
+   ],
+   "explanation": "The commonest hernia, often in the young. A direct hernia goes through the weak back wall of the canal.",
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "mcburney",
+   "prompt": "Where is McBurney's point, a landmark for the appendix?",
+   "answers": [
+    "Two thirds of the way from the navel to the right anterior superior iliac spine",
+    "A third of the way from the right iliac spine to the navel"
+   ],
+   "wrong": [
+    "At the midpoint of the left costal margin",
+    "Over the pubic symphysis",
+    "At the xiphoid process"
+   ],
+   "explanation": "Tenderness there suggests appendicitis.",
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "transpyloric",
+   "prompt": "At which vertebral level is the transpyloric plane, midway between the jugular notch and the pubic symphysis?",
+   "answers": [
+    "L1",
+    "The first lumbar vertebra"
+   ],
+   "wrong": [
+    "T10",
+    "L3",
+    "L5"
+   ],
+   "explanation": "It passes through the pylorus, the pancreas's neck, the kidneys' hila and the gallbladder fundus.",
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "coeliac-level",
+   "prompt": "At which vertebral level does the coeliac trunk leave the aorta?",
+   "answers": [
+    "T12",
+    "The twelfth thoracic vertebra"
+   ],
+   "wrong": [
+    "L1",
+    "L3",
+    "T8"
+   ],
+   "explanation": "The superior mesenteric artery leaves at L1, the renal arteries at L1 to L2 and the inferior mesenteric at L3.",
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "aortic-bifurcation",
+   "prompt": "At which vertebral level does the aorta divide into the common iliac arteries?",
+   "answers": [
+    "L4",
+    "The fourth lumbar vertebra"
+   ],
+   "wrong": [
+    "T12",
+    "L1",
+    "S1"
+   ],
+   "explanation": "At about the level of the iliac crests and the navel.",
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "peritoneal-spaces",
+   "prompt": "What is the double fold of peritoneum that attaches the small bowel to the back wall of the abdomen called?",
+   "answers": [
+    "Mesentery",
+    "The mesentery"
+   ],
+   "wrong": [
+    "Omentum",
+    "Falciform ligament",
+    "Mesocolon only"
+   ],
+   "explanation": "It carries the blood vessels and nerves.",
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "greater-omentum",
+   "prompt": "What is the apron-like fold of peritoneum hanging from the stomach over the bowel called?",
+   "answers": [
+    "Greater omentum",
+    "The greater omentum"
+   ],
+   "wrong": [
+    "Lesser omentum",
+    "Mesentery",
+    "Falciform ligament"
+   ],
+   "explanation": "The 'policeman of the abdomen', as it walls off areas of infection.",
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "pelvic-brim",
+   "prompt": "What divides the greater (false) pelvis from the lesser (true) pelvis?",
+   "answers": [
+    "The pelvic brim (pelvic inlet)",
+    "The pelvic brim"
+   ],
+   "wrong": [
+    "The pubic arch",
+    "The ischial spines",
+    "The sacral promontory alone"
+   ],
+   "explanation": "The lesser pelvis holds the bladder, rectum and reproductive organs.",
+   "figure": {
+    "src": "data/figures/anatomy/pelvis.webp",
+    "alt": "The pelvis, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "perineum",
+   "prompt": "What is the diamond-shaped region between the pubic symphysis, the ischial tuberosities and the coccyx called?",
+   "answers": [
+    "Perineum",
+    "The perineum"
+   ],
+   "wrong": [
+    "Pelvic floor",
+    "Gluteal region",
+    "Inguinal region"
+   ],
+   "explanation": "Divided into an anterior urogenital and a posterior anal triangle.",
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "pelvic-floor",
+   "prompt": "Which muscle group forms the main part of the pelvic floor?",
+   "answers": [
+    "Levator ani",
+    "The levator ani"
+   ],
+   "wrong": [
+    "Gluteus maximus",
+    "Piriformis",
+    "Psoas"
+   ],
+   "explanation": "It supports the pelvic organs and helps with continence.",
+   "figure": {
+    "src": "data/figures/anatomy/m-pelvic-floor.webp",
+    "alt": "The pelvic floor muscles, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "pelvic-gender",
+   "prompt": "How does the female pelvis differ from the male?",
+   "answers": [
+    "It is wider and shallower, with a larger, rounder inlet and a wider pubic arch",
+    "Wider, with a wider subpubic angle"
+   ],
+   "wrong": [
+    "It is narrower and deeper, with a heart-shaped inlet",
+    "It has a smaller pubic arch",
+    "It is the same"
+   ],
+   "explanation": "Adapted for childbirth.",
+   "figure": {
+    "src": "data/figures/anatomy/hip-bone.webp",
+    "alt": "The hip bone, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "axilla-contents",
+   "prompt": "What are the main contents of the axilla?",
+   "answers": [
+    "Axillary artery and vein, brachial plexus and lymph nodes",
+    "Axillary vessels, the brachial plexus, lymph nodes"
+   ],
+   "wrong": [
+    "Subclavian artery, phrenic nerve and thymus",
+    "Brachial artery, radial nerve and fat only",
+    "Cephalic vein and the intercostal nerves only"
+   ],
+   "explanation": "Fat fills the spaces.",
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "brachial-plexus",
+   "prompt": "Which spinal nerve roots form the brachial plexus?",
+   "answers": [
+    "C5 to T1",
+    "C5, C6, C7, C8 and T1"
+   ],
+   "wrong": [
+    "C1 to C4",
+    "T2 to T6",
+    "L1 to L4"
+   ],
+   "explanation": "Roots, trunks, divisions, cords and branches: 'Real Texans Drink Cold Beer'.",
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "axillary-nerve",
+   "prompt": "Which nerve winds around the surgical neck of the humerus, and is at risk in a fracture there?",
+   "answers": [
+    "Axillary nerve",
+    "The axillary nerve"
+   ],
+   "wrong": [
+    "Radial nerve",
+    "Ulnar nerve",
+    "Median nerve"
+   ],
+   "explanation": "It supplies deltoid. Damage causes a flat shoulder and loss of skin sensation over it.",
+   "figure": {
+    "src": "data/figures/anatomy/humerus.webp",
+    "alt": "The humerus, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "radial-nerve-humerus",
+   "prompt": "Which nerve runs in the radial groove at the back of the humerus, at risk in a fracture of the shaft?",
+   "answers": [
+    "Radial nerve",
+    "The radial nerve"
+   ],
+   "wrong": [
+    "Axillary nerve",
+    "Median nerve",
+    "Ulnar nerve"
+   ],
+   "explanation": "Damage causes wrist drop.",
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "ulnar-nerve-elbow",
+   "prompt": "Which nerve passes behind the medial epicondyle of the humerus (the 'funny bone')?",
+   "answers": [
+    "Ulnar nerve",
+    "The ulnar nerve"
+   ],
+   "wrong": [
+    "Radial nerve",
+    "Median nerve",
+    "Musculocutaneous nerve"
+   ],
+   "explanation": "Damage gives a claw hand.",
+   "figure": {
+    "src": "data/figures/anatomy/ulna.webp",
+    "alt": "The ulna, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "median-nerve",
+   "prompt": "Which nerve is squeezed in carpal tunnel syndrome?",
+   "answers": [
+    "Median nerve",
+    "The median nerve"
+   ],
+   "wrong": [
+    "Ulnar nerve",
+    "Radial nerve",
+    "Axillary nerve"
+   ],
+   "explanation": "It causes tingling in the thumb, index and middle fingers, and weak thumb movement.",
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "carpal-tunnel",
+   "prompt": "What forms the roof of the carpal tunnel?",
+   "answers": [
+    "The flexor retinaculum",
+    "Flexor retinaculum"
+   ],
+   "wrong": [
+    "The carpal bones",
+    "The extensor retinaculum",
+    "The palmar aponeurosis"
+   ],
+   "explanation": "The floor is the carpal bones. The tunnel holds the median nerve and nine flexor tendons.",
+   "figure": {
+    "src": "data/figures/anatomy/carpals.webp",
+    "alt": "The carpal bones, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "cubital-fossa",
+   "prompt": "What are the contents of the cubital fossa, from lateral to medial?",
+   "answers": [
+    "Biceps tendon, brachial artery and median nerve",
+    "Biceps tendon, brachial artery, median nerve"
+   ],
+   "wrong": [
+    "Radial nerve, ulnar nerve and basilic vein",
+    "Median nerve, ulnar nerve and radial artery",
+    "Cephalic vein, biceps tendon and ulnar nerve"
+   ],
+   "explanation": "The median cubital vein runs on top: the usual place to take blood.",
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "snuffbox",
+   "prompt": "Which small hollow at the base of the thumb, tender in a scaphoid fracture, is bounded by tendons of the thumb extensors?",
+   "answers": [
+    "Anatomical snuffbox",
+    "The anatomical snuffbox",
+    "Snuffbox"
+   ],
+   "wrong": [
+    "Cubital fossa",
+    "Carpal tunnel",
+    "Guyon's canal"
+   ],
+   "explanation": "The scaphoid's blood supply is poor, so a fracture heals slowly.",
+   "figure": {
+    "src": "data/figures/anatomy/scaphoid.webp",
+    "alt": "The scaphoid bone, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "rotator-cuff",
+   "prompt": "Which four muscles form the rotator cuff?",
+   "answers": [
+    "Supraspinatus, infraspinatus, teres minor and subscapularis",
+    "SITS: supraspinatus, infraspinatus, teres minor, subscapularis"
+   ],
+   "wrong": [
+    "Deltoid, biceps, triceps and brachialis",
+    "Supraspinatus, teres major, latissimus dorsi and pectoralis major",
+    "Trapezius, rhomboids, serratus anterior and levator scapulae"
+   ],
+   "explanation": "They hold the head of the humerus in the shallow glenoid cavity.",
+   "figure": {
+    "src": "data/figures/anatomy/m-rotator-cuff.webp",
+    "alt": "The rotator cuff muscles, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "clavicle-fracture",
+   "prompt": "Where is the clavicle most often broken?",
+   "answers": [
+    "At the junction of its middle and outer thirds",
+    "In the middle third"
+   ],
+   "wrong": [
+    "At its medial end",
+    "At the acromial end",
+    "At the sternal end"
+   ],
+   "explanation": "The weakest point, where its two curves meet.",
+   "figure": {
+    "src": "data/figures/anatomy/clavicle.webp",
+    "alt": "The clavicle, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "femoral-triangle",
+   "prompt": "What are the contents of the femoral triangle, from lateral to medial?",
+   "answers": [
+    "Femoral nerve, artery and vein (NAV), and the deep inguinal nodes",
+    "Nerve, artery, vein"
+   ],
+   "wrong": [
+    "Vein, artery, nerve",
+    "Sciatic nerve, femoral artery and vein",
+    "Obturator nerve, artery and vein"
+   ],
+   "explanation": "The femoral pulse is felt just below the midpoint of the inguinal ligament.",
+   "figure": {
+    "src": "data/figures/anatomy/m-sartorius.webp",
+    "alt": "The sartorius muscle, in red, which forms its lateral border",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "femoral-sheath",
+   "prompt": "In which order do the femoral vein, artery and nerve lie in the femoral triangle, from medial to lateral?",
+   "answers": [
+    "Vein, artery, nerve",
+    "VAN"
+   ],
+   "wrong": [
+    "Nerve, artery, vein",
+    "Artery, vein, nerve",
+    "Artery, nerve, vein"
+   ],
+   "explanation": "From lateral to medial it spells NAV, or NAVEL with the empty space and the lymphatics: Nerve, Artery, Vein, Empty space, Lymphatics.",
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "sciatic-nerve",
+   "prompt": "Where is the sciatic nerve in the buttock, and where is it safest to give an injection?",
+   "answers": [
+    "Deep to gluteus maximus; inject in the upper outer quadrant",
+    "Inject in the upper outer quadrant"
+   ],
+   "wrong": [
+    "Inject in the lower inner quadrant",
+    "Inject at the centre of the buttock",
+    "It lies on the surface of the buttock"
+   ],
+   "explanation": "The sciatic nerve runs through the lower, inner quadrant, down the back of the thigh.",
+   "figure": {
+    "src": "data/figures/anatomy/m-gluteus-maximus.webp",
+    "alt": "The gluteus maximus, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "hip-fracture",
+   "prompt": "Which part of the femur is the most common site of a hip fracture in older people?",
+   "answers": [
+    "The neck of the femur",
+    "Femoral neck"
+   ],
+   "wrong": [
+    "The shaft",
+    "The condyles",
+    "The greater trochanter"
+   ],
+   "explanation": "Its blood supply is easily cut.",
+   "figure": {
+    "src": "data/figures/anatomy/femur.webp",
+    "alt": "The femur, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "quad-compartment",
+   "prompt": "Which nerve supplies the muscles of the anterior compartment of the thigh (quadriceps)?",
+   "answers": [
+    "Femoral nerve",
+    "The femoral nerve"
+   ],
+   "wrong": [
+    "Sciatic nerve",
+    "Obturator nerve",
+    "Tibial nerve"
+   ],
+   "explanation": "The knee jerk tests it, L2 to L4.",
+   "figure": {
+    "src": "data/figures/anatomy/m-quadriceps.webp",
+    "alt": "The quadriceps muscle, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "hamstring-nerve",
+   "prompt": "Which nerve supplies the hamstring muscles in the posterior compartment of the thigh?",
+   "answers": [
+    "The tibial part of the sciatic nerve",
+    "Sciatic nerve",
+    "Tibial nerve"
+   ],
+   "wrong": [
+    "Femoral nerve",
+    "Obturator nerve",
+    "Common fibular nerve"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/m-hamstrings.webp",
+    "alt": "The hamstring muscles, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "adductor-nerve",
+   "prompt": "Which nerve supplies the medial (adductor) compartment of the thigh?",
+   "answers": [
+    "Obturator nerve",
+    "The obturator nerve"
+   ],
+   "wrong": [
+    "Femoral nerve",
+    "Sciatic nerve",
+    "Tibial nerve"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/m-adductor-longus.webp",
+    "alt": "The adductor longus, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "popliteal-contents",
+   "prompt": "Which artery lies deepest in the popliteal fossa, next to the femur?",
+   "answers": [
+    "Popliteal artery",
+    "The popliteal artery"
+   ],
+   "wrong": [
+    "Popliteal vein",
+    "Tibial nerve",
+    "Common fibular nerve"
+   ],
+   "explanation": "From superficial to deep: tibial nerve, popliteal vein, popliteal artery. A popliteal aneurysm is the commonest peripheral aneurysm.",
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "fibular-neck",
+   "prompt": "Which nerve winds around the neck of the fibula, and is at risk in a fracture or tight plaster there?",
+   "answers": [
+    "Common fibular (peroneal) nerve",
+    "Common fibular nerve",
+    "Common peroneal nerve"
+   ],
+   "wrong": [
+    "Tibial nerve",
+    "Femoral nerve",
+    "Sural nerve"
+   ],
+   "explanation": "Damage causes foot drop.",
+   "figure": {
+    "src": "data/figures/anatomy/fibula.webp",
+    "alt": "The fibula, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "leg-compartments",
+   "prompt": "How many fascial compartments does the lower leg have?",
+   "answers": [
+    "Four: anterior, lateral, superficial posterior and deep posterior",
+    "Four"
+   ],
+   "wrong": [
+    "Two",
+    "Three",
+    "Five"
+   ],
+   "explanation": "Compartment syndrome, from swelling in a tight compartment, is an emergency.",
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "calcaneal-tendon",
+   "prompt": "Which is the strongest and thickest tendon in the body, attached to the heel?",
+   "answers": [
+    "The calcaneal (Achilles) tendon",
+    "Achilles tendon",
+    "Calcaneal tendon"
+   ],
+   "wrong": [
+    "Patellar tendon",
+    "Quadriceps tendon",
+    "Hamstring tendon"
+   ],
+   "explanation": "Joined by gastrocnemius and soleus.",
+   "figure": {
+    "src": "data/figures/anatomy/calcaneus.webp",
+    "alt": "The calcaneus, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "dorsalis-pedis",
+   "prompt": "Where can the dorsalis pedis pulse be felt?",
+   "answers": [
+    "On the top of the foot, lateral to the tendon of extensor hallucis longus",
+    "On the dorsum of the foot"
+   ],
+   "wrong": [
+    "Behind the medial malleolus",
+    "In the popliteal fossa",
+    "Behind the knee"
+   ],
+   "explanation": "The posterior tibial pulse is behind the medial malleolus.",
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "ankle-sprain",
+   "prompt": "Which ankle ligaments are most often sprained?",
+   "answers": [
+    "The lateral ligaments (e.g. anterior talofibular)",
+    "The lateral ligament complex"
+   ],
+   "wrong": [
+    "The deltoid ligament",
+    "The cruciate ligaments",
+    "The collateral ligaments of the knee"
+   ],
+   "explanation": "In an inversion injury.",
+   "figure": {
+    "src": "data/figures/anatomy/talus.webp",
+    "alt": "The talus, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "acl",
+   "prompt": "Which ligament prevents the tibia from sliding forwards on the femur?",
+   "answers": [
+    "Anterior cruciate ligament",
+    "ACL"
+   ],
+   "wrong": [
+    "Posterior cruciate ligament",
+    "Medial collateral ligament",
+    "Patellar ligament"
+   ],
+   "explanation": "It is torn in twisting injuries, as in football and skiing.",
+   "figure": {
+    "src": "data/figures/anatomy/patella.webp",
+    "alt": "The patella, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Limbs"
+   ]
+  },
+  {
+   "id": "unhappy-triad",
+   "prompt": "Which structures are damaged in the 'unhappy triad' knee injury?",
+   "answers": [
+    "The anterior cruciate ligament, medial collateral ligament and medial meniscus",
+    "ACL, MCL and medial meniscus"
+   ],
+   "wrong": [
+    "The posterior cruciate ligament, lateral collateral ligament and lateral meniscus",
+    "The patellar ligament, quadriceps tendon and ACL",
+    "The ACL, PCL and both collateral ligaments"
+   ],
+   "explanation": "From a blow to the outside of the knee.",
+   "tags": [
+    "Limbs"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Head and neck",
+   "count": 15,
+   "pass": 75,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Head and neck"
+   ],
+   "why": "Neck triangles, the skull base, the face and cranial nerves."
+  },
+  {
+   "name": "Trunk",
+   "count": 15,
+   "pass": 75,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Trunk"
+   ],
+   "why": "Back, thorax, abdomen and pelvis: levels, walls and landmarks."
+  },
+  {
+   "name": "Limbs",
+   "count": 15,
+   "pass": 75,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Limbs"
+   ],
+   "why": "Nerves, spaces and common injuries of the arm and leg."
+  },
+  {
+   "name": "Chapter quiz",
+   "count": 30,
+   "pass": 75,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "end",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Thirty questions from the whole chapter, marked at the end, like an end-of-unit test."
+  },
+  {
+   "name": "Recall without choices",
+   "count": 20,
+   "pass": 75,
+   "pick": "due",
+   "answer": "typed",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Type each answer from memory, starting with the ones due for review. Small typos are forgiven."
+  }
+ ]
+}
