@@ -1,0 +1,1392 @@
+{
+ "id": "anatomy-reproductive",
+ "name": "Reproductive system",
+ "module": "Human anatomy",
+ "description": "The male and female reproductive organs, sperm and eggs, the hormones behind the menstrual cycle, fertilisation and pregnancy. Picture questions show the male organs, drawn see-through inside the pelvis, with one part highlighted to name. BodyParts3D has no female organs, so those are text questions.",
+ "source": {
+  "name": "Written for Study Buddy. Pictures rendered from BodyParts3D (© The Database Center for Life Science, CC BY-SA 2.1 JP).",
+  "url": "https://github.com/petravanta/study-buddy/tree/main/scripts/bodyparts3d"
+ },
+ "updated": "2026-10-30",
+ "questions": [
+  {
+   "id": "male-parts",
+   "prompt": "Which of these is NOT an organ of the male reproductive tract?",
+   "answers": [
+    "Kidney",
+    "The kidney"
+   ],
+   "wrong": [
+    "Epididymis",
+    "Seminal vesicle",
+    "Prostate"
+   ],
+   "explanation": "The kidney belongs to the urinary system, though the male urethra carries both urine and semen.",
+   "figure": {
+    "src": "data/figures/anatomy/x-system.webp",
+    "alt": "The male reproductive organs inside the pelvis, in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "gonads-male",
+   "prompt": "What are the male gonads called?",
+   "answers": [
+    "Testes",
+    "Testicles",
+    "Testis"
+   ],
+   "wrong": [
+    "Epididymides",
+    "Prostate glands",
+    "Seminal vesicles"
+   ],
+   "explanation": "They make sperm and testosterone.",
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "id-testes",
+   "prompt": "Which organs are highlighted in red?",
+   "answers": [
+    "Testes",
+    "Testis",
+    "Testicles"
+   ],
+   "wrong": [
+    "Epididymides",
+    "Kidneys",
+    "Seminal vesicles"
+   ],
+   "explanation": "Oval glands about 4.5 cm long, hanging in the scrotum.",
+   "figure": {
+    "src": "data/figures/anatomy/x-testes.webp",
+    "alt": "The male reproductive organs inside the pelvis, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "scrotum",
+   "prompt": "Why do the testes hang outside the body in the scrotum?",
+   "answers": [
+    "Sperm develop best a little below body temperature",
+    "It keeps them about 2 to 3 degrees cooler than the body"
+   ],
+   "wrong": [
+    "There is no room for them in the pelvis",
+    "To protect them from infection",
+    "To keep them warmer than the body"
+   ],
+   "explanation": "The cremaster muscle and the pampiniform plexus of veins help to regulate the temperature.",
+   "figure": {
+    "src": "data/figures/anatomy/x-testes.webp",
+    "alt": "The male reproductive organs inside the pelvis, with the testes in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "seminiferous",
+   "prompt": "Where inside the testis are sperm made?",
+   "answers": [
+    "In the seminiferous tubules",
+    "Seminiferous tubules"
+   ],
+   "wrong": [
+    "In the epididymis",
+    "In the prostate",
+    "In the interstitial (Leydig) cells"
+   ],
+   "explanation": "Several hundred tightly coiled tubules in each testis.",
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "leydig",
+   "prompt": "Which cells between the seminiferous tubules make testosterone?",
+   "answers": [
+    "Leydig cells",
+    "Interstitial cells",
+    "Interstitial (Leydig) cells"
+   ],
+   "wrong": [
+    "Sertoli cells",
+    "Spermatogonia",
+    "Granulosa cells"
+   ],
+   "explanation": "Stimulated by luteinising hormone (LH).",
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "sertoli",
+   "prompt": "Which cells in the seminiferous tubules nourish the developing sperm and form the blood–testis barrier?",
+   "answers": [
+    "Sertoli cells",
+    "Sustentacular cells"
+   ],
+   "wrong": [
+    "Leydig cells",
+    "Theca cells",
+    "Granulosa cells"
+   ],
+   "explanation": "Stimulated by follicle-stimulating hormone (FSH).",
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "spermatogenesis",
+   "prompt": "About how long does it take a sperm to develop from a spermatogonium?",
+   "answers": [
+    "About 70 days",
+    "Roughly 2 to 3 months",
+    "About 2 to 3 months"
+   ],
+   "wrong": [
+    "About 24 hours",
+    "About 7 days",
+    "About 1 year"
+   ],
+   "explanation": "So the testes make millions of sperm every day, from puberty on.",
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "sperm-parts",
+   "prompt": "What are the three main parts of a sperm?",
+   "answers": [
+    "Head, midpiece and tail",
+    "Head, middle piece and tail"
+   ],
+   "wrong": [
+    "Head, neck and body",
+    "Nucleus, acrosome and cilia",
+    "Head, tail and flagellum only"
+   ],
+   "explanation": "The head holds the nucleus and acrosome with its enzymes; the midpiece is packed with mitochondria; the tail is a flagellum.",
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "acrosome",
+   "prompt": "What does the cap on the sperm's head, the acrosome, contain?",
+   "answers": [
+    "Enzymes that help it penetrate the egg",
+    "Digestive enzymes"
+   ],
+   "wrong": [
+    "Mitochondria",
+    "The tail",
+    "Testosterone"
+   ],
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "sperm-n",
+   "prompt": "How many chromosomes does a sperm carry?",
+   "answers": [
+    "23",
+    "Twenty-three"
+   ],
+   "wrong": [
+    "46",
+    "22",
+    "44"
+   ],
+   "explanation": "Half the usual 46: it is haploid.",
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "id-epididymides",
+   "prompt": "Which structures are highlighted in red?",
+   "answers": [
+    "Epididymides",
+    "Epididymis"
+   ],
+   "wrong": [
+    "Testes",
+    "Deferent ducts",
+    "Prostate"
+   ],
+   "explanation": "A tightly coiled tube lying along the back of each testis, where sperm mature and are stored.",
+   "figure": {
+    "src": "data/figures/anatomy/x-epididymides.webp",
+    "alt": "The testes and epididymides in the scrotum, with the epididymides in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "epididymis-job",
+   "prompt": "What happens to sperm in the epididymis?",
+   "answers": [
+    "They mature and gain the ability to swim",
+    "They mature and are stored"
+   ],
+   "wrong": [
+    "They are made",
+    "They are mixed with seminal fluid",
+    "They are killed"
+   ],
+   "explanation": "They spend about two weeks there.",
+   "figure": {
+    "src": "data/figures/anatomy/x-epididymides.webp",
+    "alt": "The male reproductive organs inside the pelvis, with the epididymides in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "id-deferent-ducts",
+   "prompt": "Which structures are highlighted in red?",
+   "answers": [
+    "Deferent ducts",
+    "Ductus deferens",
+    "Vas deferens"
+   ],
+   "wrong": [
+    "Ureters",
+    "Urethra",
+    "Epididymides"
+   ],
+   "explanation": "Each duct carries sperm from the epididymis up through the inguinal canal, over the bladder, to join the seminal vesicle.",
+   "figure": {
+    "src": "data/figures/anatomy/x-deferent-ducts.webp",
+    "alt": "The male reproductive organs inside the pelvis, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "vasectomy",
+   "prompt": "What is cut or tied in a vasectomy?",
+   "answers": [
+    "The ductus (vas) deferens",
+    "Vas deferens",
+    "Ductus deferens"
+   ],
+   "wrong": [
+    "The urethra",
+    "The ureter",
+    "The epididymis"
+   ],
+   "explanation": "Semen is still made, but without sperm. The testes go on making testosterone.",
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "spermatic-cord",
+   "prompt": "Which structure, running through the inguinal canal, holds the ductus deferens together with the testicular vessels and nerves?",
+   "answers": [
+    "Spermatic cord"
+   ],
+   "wrong": [
+    "Umbilical cord",
+    "Round ligament",
+    "Inguinal ligament"
+   ],
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "id-seminal-vesicles",
+   "prompt": "Which glands are highlighted in red?",
+   "answers": [
+    "Seminal vesicles",
+    "Seminal vesicle"
+   ],
+   "wrong": [
+    "Prostate",
+    "Epididymides",
+    "Bladder"
+   ],
+   "explanation": "Two glands behind the bladder that make about 60% of the volume of semen.",
+   "figure": {
+    "src": "data/figures/anatomy/x-seminal-vesicles.webp",
+    "alt": "The male reproductive organs seen from behind, with the seminal vesicles in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "seminal-fluid",
+   "prompt": "Which sugar in the secretion of the seminal vesicles gives sperm their energy?",
+   "answers": [
+    "Fructose"
+   ],
+   "wrong": [
+    "Glucose",
+    "Lactose",
+    "Sucrose"
+   ],
+   "explanation": "It also contains prostaglandins, which cause contractions in the female tract.",
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "id-prostate",
+   "prompt": "Which gland is highlighted in red?",
+   "answers": [
+    "Prostate",
+    "Prostate gland"
+   ],
+   "wrong": [
+    "Seminal vesicles",
+    "Bladder",
+    "Epididymis"
+   ],
+   "explanation": "A chestnut-sized gland just below the bladder, wrapped around the first part of the urethra.",
+   "figure": {
+    "src": "data/figures/anatomy/x-prostate.webp",
+    "alt": "The prostate seen from the side, in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "prostate-fluid",
+   "prompt": "What does the prostate add to semen?",
+   "answers": [
+    "A thin, milky, slightly acid fluid with enzymes and citrate",
+    "A milky fluid"
+   ],
+   "wrong": [
+    "Sperm",
+    "Fructose",
+    "Testosterone"
+   ],
+   "explanation": "About 30% of semen. It includes PSA, an enzyme that thins the semen after ejaculation.",
+   "figure": {
+    "src": "data/figures/anatomy/x-prostate.webp",
+    "alt": "The prostate seen from the side, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "bph",
+   "prompt": "What condition makes the prostate enlarge in older men and hinders the flow of urine?",
+   "answers": [
+    "Benign prostatic hyperplasia (BPH)",
+    "BPH",
+    "Benign prostatic hyperplasia"
+   ],
+   "wrong": [
+    "Prostatitis",
+    "Prostate cancer",
+    "Hypospadias"
+   ],
+   "explanation": "Because it surrounds the urethra.",
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "psa",
+   "prompt": "What is PSA, a blood test used in screening men for prostate disease?",
+   "answers": [
+    "Prostate-specific antigen",
+    "Prostate specific antigen"
+   ],
+   "wrong": [
+    "Prostatic secretory acid",
+    "Primary sperm antibody",
+    "Prostate stimulating agent"
+   ],
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "bulbourethral",
+   "prompt": "Which pair of small glands below the prostate releases a clear, slippery fluid before ejaculation?",
+   "answers": [
+    "Bulbourethral glands",
+    "Cowper's glands",
+    "Bulbourethral (Cowper's) glands"
+   ],
+   "wrong": [
+    "Seminal vesicles",
+    "Prostate glands",
+    "Greater vestibular glands"
+   ],
+   "explanation": "It neutralises the acid of urine left in the urethra.",
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "semen-path",
+   "prompt": "What is the path of sperm from the testis to the outside?",
+   "answers": [
+    "Seminiferous tubules, epididymis, ductus deferens, ejaculatory duct, urethra",
+    "Testis, epididymis, vas deferens, ejaculatory duct, urethra"
+   ],
+   "wrong": [
+    "Epididymis, seminiferous tubules, ductus deferens, urethra, ejaculatory duct",
+    "Seminiferous tubules, ductus deferens, epididymis, ejaculatory duct, urethra",
+    "Seminiferous tubules, epididymis, ureter, bladder, urethra"
+   ],
+   "explanation": "The ejaculatory duct is formed by the ductus deferens and the duct of the seminal vesicle, and goes through the prostate.",
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "semen-volume",
+   "prompt": "About how much semen is in a normal ejaculation?",
+   "answers": [
+    "About 2 to 5 mL",
+    "A teaspoon",
+    "About 3 mL"
+   ],
+   "wrong": [
+    "About 0.1 mL",
+    "About 50 mL",
+    "About 200 mL"
+   ],
+   "explanation": "With roughly 20 to 150 million sperm per mL in a fertile man.",
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "male-urethra",
+   "prompt": "Which three parts does the male urethra have, from the bladder down?",
+   "answers": [
+    "Prostatic, membranous and spongy (penile)",
+    "Prostatic, membranous, spongy"
+   ],
+   "wrong": [
+    "Membranous, prostatic, spongy",
+    "Spongy, membranous, prostatic",
+    "Prostatic, spongy, membranous"
+   ],
+   "explanation": "The spongy urethra runs through the corpus spongiosum.",
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "id-penis",
+   "prompt": "Which organ is highlighted in red?",
+   "answers": [
+    "Penis",
+    "The penis"
+   ],
+   "wrong": [
+    "Scrotum",
+    "Clitoris",
+    "Prostate"
+   ],
+   "explanation": "The organ of urination and of delivering sperm.",
+   "figure": {
+    "src": "data/figures/anatomy/x-penis.webp",
+    "alt": "The penis seen from the side, in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "id-corpus-cavernosum",
+   "prompt": "Which structure is highlighted in red?",
+   "answers": [
+    "Corpus cavernosum",
+    "Corpora cavernosa"
+   ],
+   "wrong": [
+    "Corpus spongiosum",
+    "Glans penis",
+    "Prostate"
+   ],
+   "explanation": "One of a pair of columns of erectile tissue along the top of the shaft. They fill with blood in erection.",
+   "figure": {
+    "src": "data/figures/anatomy/x-corpus-cavernosum.webp",
+    "alt": "The shaft of the penis from the side, with the corpus cavernosum in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "corpus-spongiosum",
+   "prompt": "Which column of erectile tissue, below the corpora cavernosa, surrounds the urethra and expands at the tip into the glans?",
+   "answers": [
+    "Corpus spongiosum"
+   ],
+   "wrong": [
+    "Corpus cavernosum",
+    "Corpus luteum",
+    "Corpus callosum"
+   ],
+   "explanation": "It stays softer in an erection so that the urethra remains open.",
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "id-glans",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Glans penis",
+    "Glans"
+   ],
+   "wrong": [
+    "Corpus cavernosum",
+    "Prepuce (foreskin)",
+    "Scrotum"
+   ],
+   "explanation": "The cone-shaped head of the penis, covered in the foreskin (prepuce) unless circumcised.",
+   "figure": {
+    "src": "data/figures/anatomy/x-glans.webp",
+    "alt": "The head of the penis from the side, in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "erection",
+   "prompt": "Which division of the autonomic nervous system causes erection?",
+   "answers": [
+    "The parasympathetic system",
+    "Parasympathetic"
+   ],
+   "wrong": [
+    "The sympathetic system",
+    "The somatic system",
+    "The enteric system"
+   ],
+   "explanation": "It widens the arteries, which fill the erectile tissue with blood. Ejaculation is sympathetic.",
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "testosterone",
+   "prompt": "Which hormone, made mostly in the testes, drives male puberty and sperm production?",
+   "answers": [
+    "Testosterone"
+   ],
+   "wrong": [
+    "Oestrogen",
+    "Progesterone",
+    "Inhibin"
+   ],
+   "explanation": "Its secretion is controlled by LH from the anterior pituitary.",
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "cryptorchidism",
+   "prompt": "What is the term for a testis that has not descended into the scrotum?",
+   "answers": [
+    "Cryptorchidism",
+    "Undescended testis"
+   ],
+   "wrong": [
+    "Varicocele",
+    "Hydrocele",
+    "Hypospadias"
+   ],
+   "explanation": "Untreated, it harms fertility and raises the risk of testicular cancer.",
+   "tags": [
+    "Male reproductive system"
+   ]
+  },
+  {
+   "id": "gonads-female",
+   "prompt": "What are the female gonads called?",
+   "answers": [
+    "Ovaries",
+    "Ovary"
+   ],
+   "wrong": [
+    "Fallopian tubes",
+    "Uteri",
+    "Mammary glands"
+   ],
+   "explanation": "They make eggs (ova) and the hormones oestrogen and progesterone.",
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "female-parts",
+   "prompt": "Which of these lists the internal organs of the female reproductive tract?",
+   "answers": [
+    "Ovaries, uterine tubes, uterus, vagina",
+    "Ovaries, fallopian tubes, uterus, vagina"
+   ],
+   "wrong": [
+    "Ovaries, uterus, bladder, vagina",
+    "Ovaries, uterine tubes, cervix, urethra",
+    "Ovaries, uterus, vagina, vulva only"
+   ],
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "ovary-size",
+   "prompt": "About how big is an ovary?",
+   "answers": [
+    "About the size of an almond",
+    "About 3 cm long",
+    "An almond"
+   ],
+   "wrong": [
+    "About the size of a pea",
+    "About the size of an orange",
+    "About the size of a fist"
+   ],
+   "explanation": "About 3 cm long, 2 cm wide and 1 cm thick, one on each side of the uterus.",
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "follicle",
+   "prompt": "What is the small fluid-filled sac in the ovary that holds a developing egg called?",
+   "answers": [
+    "Follicle",
+    "Ovarian follicle"
+   ],
+   "wrong": [
+    "Corpus luteum",
+    "Graafian tube",
+    "Fimbria"
+   ],
+   "explanation": "A mature one is called a Graafian (or antral) follicle.",
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "ovulation",
+   "prompt": "What is the release of an egg from the ovary called?",
+   "answers": [
+    "Ovulation"
+   ],
+   "wrong": [
+    "Menstruation",
+    "Fertilisation",
+    "Implantation"
+   ],
+   "explanation": "It happens about 14 days before the next period.",
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "corpus-luteum",
+   "prompt": "What does the ruptured follicle become after ovulation, making progesterone?",
+   "answers": [
+    "The corpus luteum",
+    "Corpus luteum"
+   ],
+   "wrong": [
+    "The corpus albicans",
+    "The zona pellucida",
+    "The endometrium"
+   ],
+   "explanation": "If there is no pregnancy it shrinks to a scar, the corpus albicans.",
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "oocytes",
+   "prompt": "When does a female make all of her primary oocytes?",
+   "answers": [
+    "Before birth",
+    "Before she is born",
+    "In the fetus"
+   ],
+   "wrong": [
+    "At puberty",
+    "Each month",
+    "At menopause"
+   ],
+   "explanation": "About one to two million at birth, and about 400 are ever ovulated.",
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "fimbriae",
+   "prompt": "What are the finger-like edges at the end of the uterine tube that sweep the egg in?",
+   "answers": [
+    "Fimbriae"
+   ],
+   "wrong": [
+    "Cilia",
+    "Villi",
+    "Rugae"
+   ],
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "fertilisation-site",
+   "prompt": "Where does fertilisation normally happen?",
+   "answers": [
+    "In the uterine (fallopian) tube",
+    "In the ampulla of the uterine tube",
+    "The uterine tube"
+   ],
+   "wrong": [
+    "In the uterus",
+    "In the ovary",
+    "In the vagina"
+   ],
+   "explanation": "Within about 24 hours of ovulation.",
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "ectopic",
+   "prompt": "What is a pregnancy that implants outside the uterus, most often in the uterine tube, called?",
+   "answers": [
+    "An ectopic pregnancy",
+    "Ectopic pregnancy"
+   ],
+   "wrong": [
+    "A molar pregnancy",
+    "A threatened miscarriage",
+    "An abdominal fibroid"
+   ],
+   "explanation": "It can rupture and cause life-threatening bleeding.",
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "uterus-size",
+   "prompt": "About what shape and size is the uterus in a woman who has not been pregnant?",
+   "answers": [
+    "Pear-shaped, about 7.5 cm long",
+    "A pear"
+   ],
+   "wrong": [
+    "Round, about 2 cm across",
+    "Sausage-shaped, about 25 cm long",
+    "About the size of a football"
+   ],
+   "explanation": "It lies between the bladder in front and the rectum behind.",
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "uterus-layers",
+   "prompt": "What are the three layers of the uterine wall, from inside out?",
+   "answers": [
+    "Endometrium, myometrium, perimetrium",
+    "Endometrium, myometrium, perimetrium (serosa)"
+   ],
+   "wrong": [
+    "Myometrium, endometrium, perimetrium",
+    "Perimetrium, myometrium, endometrium",
+    "Endometrium, perimetrium, myometrium"
+   ],
+   "explanation": "The functional layer of the endometrium is shed in menstruation. The myometrium is smooth muscle that contracts in labour.",
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "uterus-parts",
+   "prompt": "What are the three parts of the uterus, from top to bottom?",
+   "answers": [
+    "Fundus, body and cervix",
+    "Fundus, body, cervix"
+   ],
+   "wrong": [
+    "Body, fundus, cervix",
+    "Cervix, body, fundus",
+    "Fundus, cervix, body"
+   ],
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "cervix",
+   "prompt": "What is the narrow lower end of the uterus, which projects into the vagina, called?",
+   "answers": [
+    "Cervix",
+    "The cervix"
+   ],
+   "wrong": [
+    "Fundus",
+    "Isthmus",
+    "Vulva"
+   ],
+   "explanation": "Its mucus changes through the cycle. A smear test samples its cells.",
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "vagina",
+   "prompt": "Which organ is a muscular tube about 8 to 10 cm long, from the cervix to the outside, which is also the birth canal?",
+   "answers": [
+    "Vagina",
+    "The vagina"
+   ],
+   "wrong": [
+    "Uterine tube",
+    "Urethra",
+    "Cervix"
+   ],
+   "explanation": "Its lining is acidic, which protects against infection.",
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "vulva",
+   "prompt": "What is the name for the female external genitalia as a whole?",
+   "answers": [
+    "Vulva",
+    "The vulva"
+   ],
+   "wrong": [
+    "Vagina",
+    "Perineum",
+    "Mons pubis only"
+   ],
+   "explanation": "It includes the labia majora and minora, the clitoris and the vestibule.",
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "clitoris",
+   "prompt": "Which structure of the vulva is made of erectile tissue and is the female equivalent of the penis?",
+   "answers": [
+    "Clitoris",
+    "The clitoris"
+   ],
+   "wrong": [
+    "Labia majora",
+    "Vestibular bulb only",
+    "Mons pubis"
+   ],
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "broad-ligament",
+   "prompt": "Which sheet of peritoneum holds the uterus, uterine tubes and ovaries in place?",
+   "answers": [
+    "The broad ligament",
+    "Broad ligament"
+   ],
+   "wrong": [
+    "The round ligament",
+    "The inguinal ligament",
+    "The falciform ligament"
+   ],
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "oestrogen",
+   "prompt": "Which hormone, made mostly by the ovarian follicles, builds up the endometrium and brings on the female body changes of puberty?",
+   "answers": [
+    "Oestrogen",
+    "Estrogen"
+   ],
+   "wrong": [
+    "Progesterone",
+    "Testosterone",
+    "Oxytocin"
+   ],
+   "explanation": "After ovulation, progesterone from the corpus luteum prepares the lining for implantation.",
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "progesterone",
+   "prompt": "Which hormone, made by the corpus luteum, keeps the endometrium ready for a pregnancy?",
+   "answers": [
+    "Progesterone"
+   ],
+   "wrong": [
+    "Oestrogen",
+    "FSH",
+    "Prolactin"
+   ],
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "mammary",
+   "prompt": "Which hormone makes the breasts produce milk?",
+   "answers": [
+    "Prolactin"
+   ],
+   "wrong": [
+    "Oxytocin",
+    "Oestrogen",
+    "Progesterone"
+   ],
+   "explanation": "Oxytocin makes the milk let down, by contracting the cells around the ducts.",
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "menopause",
+   "prompt": "At about what age do the periods stop (menopause) in women?",
+   "answers": [
+    "About 50 years",
+    "About 50"
+   ],
+   "wrong": [
+    "About 30",
+    "About 40",
+    "About 65"
+   ],
+   "explanation": "The ovaries run out of follicles, so oestrogen falls.",
+   "tags": [
+    "Female reproductive system"
+   ]
+  },
+  {
+   "id": "menstrual-cycle",
+   "prompt": "How long is the average menstrual cycle?",
+   "answers": [
+    "About 28 days",
+    "28 days"
+   ],
+   "wrong": [
+    "About 7 days",
+    "About 14 days",
+    "About 60 days"
+   ],
+   "explanation": "Counted from the first day of one period to the first day of the next. It varies from 21 to 35 days.",
+   "tags": [
+    "Cycles and development"
+   ]
+  },
+  {
+   "id": "cycle-phases",
+   "prompt": "What are the phases of the menstrual cycle, in order, starting with the period?",
+   "answers": [
+    "Menstrual, follicular (proliferative), ovulation, luteal (secretory)",
+    "Menstruation, follicular phase, ovulation, luteal phase"
+   ],
+   "wrong": [
+    "Follicular, menstrual, luteal, ovulation",
+    "Luteal, menstrual, follicular, ovulation",
+    "Menstrual, luteal, ovulation, follicular"
+   ],
+   "explanation": "The follicular phase is when the endometrium rebuilds. The luteal phase is when it is prepared for implantation.",
+   "tags": [
+    "Cycles and development"
+   ]
+  },
+  {
+   "id": "lh-surge",
+   "prompt": "Which hormone surge triggers ovulation?",
+   "answers": [
+    "LH",
+    "Luteinising hormone",
+    "Luteinizing hormone"
+   ],
+   "wrong": [
+    "FSH",
+    "Progesterone",
+    "Prolactin"
+   ],
+   "explanation": "Made by the anterior pituitary, and set off by a rise in oestrogen.",
+   "tags": [
+    "Cycles and development"
+   ]
+  },
+  {
+   "id": "fsh",
+   "prompt": "Which pituitary hormone makes ovarian follicles grow in women and supports sperm production in men?",
+   "answers": [
+    "FSH",
+    "Follicle-stimulating hormone"
+   ],
+   "wrong": [
+    "LH",
+    "ACTH",
+    "TSH"
+   ],
+   "tags": [
+    "Cycles and development"
+   ]
+  },
+  {
+   "id": "gnrh",
+   "prompt": "Which hormone from the hypothalamus tells the pituitary to release LH and FSH?",
+   "answers": [
+    "GnRH",
+    "Gonadotropin-releasing hormone"
+   ],
+   "wrong": [
+    "TRH",
+    "CRH",
+    "Oxytocin"
+   ],
+   "tags": [
+    "Cycles and development"
+   ]
+  },
+  {
+   "id": "menses",
+   "prompt": "What causes menstruation?",
+   "answers": [
+    "A fall in progesterone and oestrogen when no pregnancy has started",
+    "The corpus luteum breaks down, so hormone levels fall"
+   ],
+   "wrong": [
+    "A rise in LH",
+    "Ovulation",
+    "A rise in progesterone"
+   ],
+   "explanation": "The functional layer of the endometrium is shed over about 5 days.",
+   "tags": [
+    "Cycles and development"
+   ]
+  },
+  {
+   "id": "zygote",
+   "prompt": "What is the cell formed when a sperm fertilises an egg called?",
+   "answers": [
+    "Zygote",
+    "A zygote"
+   ],
+   "wrong": [
+    "Morula",
+    "Blastocyst",
+    "Embryo"
+   ],
+   "explanation": "It has 46 chromosomes.",
+   "tags": [
+    "Cycles and development"
+   ]
+  },
+  {
+   "id": "cleavage",
+   "prompt": "In order, what are the early stages of the developing embryo, from the zygote?",
+   "answers": [
+    "Zygote, morula, blastocyst",
+    "Morula, then blastocyst"
+   ],
+   "wrong": [
+    "Blastocyst, morula, zygote",
+    "Zygote, blastocyst, morula",
+    "Morula, zygote, blastocyst"
+   ],
+   "explanation": "The blastocyst implants in the endometrium about 6 to 7 days after fertilisation.",
+   "tags": [
+    "Cycles and development"
+   ]
+  },
+  {
+   "id": "implantation",
+   "prompt": "About how long after fertilisation does the embryo implant in the uterine wall?",
+   "answers": [
+    "About 6 to 7 days",
+    "About a week"
+   ],
+   "wrong": [
+    "Within an hour",
+    "About 3 weeks",
+    "About 3 months"
+   ],
+   "tags": [
+    "Cycles and development"
+   ]
+  },
+  {
+   "id": "hcg",
+   "prompt": "Which hormone, made by the developing placenta, is what pregnancy tests detect?",
+   "answers": [
+    "hCG",
+    "Human chorionic gonadotropin",
+    "Human chorionic gonadotrophin"
+   ],
+   "wrong": [
+    "LH",
+    "Prolactin",
+    "Oestrogen"
+   ],
+   "explanation": "It keeps the corpus luteum making progesterone in early pregnancy.",
+   "tags": [
+    "Cycles and development"
+   ]
+  },
+  {
+   "id": "placenta",
+   "prompt": "Which organ lets oxygen and nutrients pass from the mother to the fetus, and wastes the other way?",
+   "answers": [
+    "The placenta",
+    "Placenta"
+   ],
+   "wrong": [
+    "The amnion",
+    "The yolk sac",
+    "The chorion alone"
+   ],
+   "explanation": "The two bloods do not mix. It also makes hormones.",
+   "tags": [
+    "Cycles and development"
+   ]
+  },
+  {
+   "id": "cord",
+   "prompt": "How many vessels does the umbilical cord have?",
+   "answers": [
+    "Three: two arteries and one vein",
+    "Three"
+   ],
+   "wrong": [
+    "Two: one artery and one vein",
+    "Three: two veins and one artery",
+    "Four"
+   ],
+   "explanation": "The vein carries oxygenated blood to the fetus; the arteries carry deoxygenated blood away.",
+   "tags": [
+    "Cycles and development"
+   ]
+  },
+  {
+   "id": "gestation",
+   "prompt": "About how long is a human pregnancy, from the last period?",
+   "answers": [
+    "About 40 weeks",
+    "40 weeks",
+    "About 9 months"
+   ],
+   "wrong": [
+    "About 30 weeks",
+    "About 26 weeks",
+    "About 52 weeks"
+   ],
+   "explanation": "About 38 weeks from fertilisation.",
+   "tags": [
+    "Cycles and development"
+   ]
+  },
+  {
+   "id": "trimesters",
+   "prompt": "How long is each trimester of pregnancy?",
+   "answers": [
+    "About 3 months",
+    "Three months"
+   ],
+   "wrong": [
+    "About 1 month",
+    "About 6 months",
+    "About 5 months"
+   ],
+   "explanation": "The organs are formed in the first trimester, which is the time of greatest risk from drugs and infection.",
+   "tags": [
+    "Cycles and development"
+   ]
+  },
+  {
+   "id": "oxytocin",
+   "prompt": "Which hormone from the posterior pituitary makes the uterus contract in labour?",
+   "answers": [
+    "Oxytocin"
+   ],
+   "wrong": [
+    "Prolactin",
+    "Progesterone",
+    "ADH"
+   ],
+   "explanation": "It is also behind the milk let-down reflex.",
+   "tags": [
+    "Cycles and development"
+   ]
+  },
+  {
+   "id": "meiosis",
+   "prompt": "What type of cell division makes eggs and sperm, with half the chromosomes?",
+   "answers": [
+    "Meiosis"
+   ],
+   "wrong": [
+    "Mitosis",
+    "Binary fission",
+    "Budding"
+   ],
+   "explanation": "Each cell ends with 23 chromosomes. Fertilisation restores 46.",
+   "tags": [
+    "Cycles and development"
+   ]
+  },
+  {
+   "id": "sex-chromosomes",
+   "prompt": "Which sex chromosomes does a typical female have, and a typical male?",
+   "answers": [
+    "Females XX, males XY",
+    "XX in females, XY in males"
+   ],
+   "wrong": [
+    "Females XY, males XX",
+    "Females X, males Y",
+    "Females XXY, males XY"
+   ],
+   "explanation": "The sex of the child is set by whether the sperm carries an X or a Y.",
+   "tags": [
+    "Cycles and development"
+   ]
+  },
+  {
+   "id": "contraception-vasectomy",
+   "prompt": "Which method of birth control blocks the uterine tubes?",
+   "answers": [
+    "Tubal ligation",
+    "Tubal ligation (tying the tubes)"
+   ],
+   "wrong": [
+    "Vasectomy",
+    "A diaphragm",
+    "The intrauterine device"
+   ],
+   "explanation": "Vasectomy is the male counterpart.",
+   "tags": [
+    "Cycles and development"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Name the part",
+   "count": 8,
+   "pass": 80,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Name the part"
+   ],
+   "why": "Pictures of the male reproductive organs, each with one part in red to name."
+  },
+  {
+   "name": "Chapter quiz",
+   "count": 30,
+   "pass": 75,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "end",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Thirty questions from the whole chapter, marked at the end, like an end-of-unit test."
+  },
+  {
+   "name": "Recall without choices",
+   "count": 20,
+   "pass": 75,
+   "pick": "due",
+   "answer": "typed",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Type each answer from memory, starting with the ones due for review. Small typos are forgiven."
+  }
+ ]
+}
