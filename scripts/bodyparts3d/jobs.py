@@ -105,7 +105,7 @@ foot('cuneiforms', r'right \w+ cuneiform')
 foot('tarsals', r'right (talus|calcaneus|cuboid bone)$', r'navicular bone of right', r'right \w+ cuneiform')
 foot('metatarsals', r'right \w+ metatarsal')
 foot('foot-phalanges', r'phalanx of right (big|second|third|fourth|little) toe')
-for _f in ('muscles.py', 'nervous.py', 'cardio.py', 'resp.py', 'digest.py', 'urinary.py', 'repro.py', 'endo.py', 'integ.py'): exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), _f)).read())
+for _f in ('muscles.py', 'nervous.py', 'cardio.py', 'resp.py', 'digest.py', 'urinary.py', 'repro.py', 'endo.py', 'integ.py', 'senses.py'): exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), _f)).read())
 if __name__ == '__main__':
     only = sys.argv[1:]
     json.dump({k: v for k, v in J.items() if not only or k in only}, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'jobs.json'), 'w'))
