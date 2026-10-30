@@ -861,3 +861,10 @@ FMA7274	wall of heart	heart
 FMA76751	set of posterior veins of left ventricle	vein
 FMA76994	right posterolateral branch of right coronary artery	artery
 FMA9352nsn	papillary muscle of left ventricle, nsn	heart
+FMA7333	upper lobe of right lung	lung
+FMA7337	lower lobe of right lung	lung
+FMA7370	upper lobe of left lung	lung
+FMA7371	lower lobe of left lung	lung
+FMA7383	middle lobe of lung	lung
+FMA7394	trachea	airway
+FMA7409	bronchus	airway
