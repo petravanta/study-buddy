@@ -1,0 +1,2409 @@
+{
+ "id": "anatomy-digestive",
+ "name": "Digestive system",
+ "module": "Human anatomy",
+ "description": "The digestive tract and its accessory organs: the digestive tract as a whole, the mouth, teeth and oesophagus, the stomach, the small and large intestine, the liver, gallbladder, pancreas and spleen, and how food is broken down and absorbed. Picture questions show the organs, drawn see-through inside the trunk, with one highlighted to name.",
+ "source": {
+  "name": "Written for Study Buddy. Pictures rendered from BodyParts3D (© The Database Center for Life Science, CC BY-SA 2.1 JP).",
+  "url": "https://github.com/petravanta/study-buddy/tree/main/scripts/bodyparts3d"
+ },
+ "updated": "2026-10-30",
+ "questions": [
+  {
+   "id": "tract-parts",
+   "prompt": "In order, what are the main parts of the digestive tract?",
+   "answers": [
+    "Mouth, pharynx, oesophagus, stomach, small intestine, large intestine, anus",
+    "Mouth, pharynx, esophagus, stomach, small intestine, large intestine, anus"
+   ],
+   "wrong": [
+    "Mouth, oesophagus, pharynx, stomach, large intestine, small intestine, anus",
+    "Mouth, pharynx, stomach, oesophagus, small intestine, large intestine, anus",
+    "Mouth, pharynx, oesophagus, small intestine, stomach, large intestine, anus"
+   ],
+   "explanation": "About 9 metres from mouth to anus. The liver, gallbladder and pancreas are accessory organs: food does not pass through them.",
+   "figure": {
+    "src": "data/figures/anatomy/d-tract.webp",
+    "alt": "The whole digestive tract inside the trunk, in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Digestive tract overview"
+   ]
+  },
+  {
+   "id": "gi-functions",
+   "prompt": "What are the six jobs of the digestive system?",
+   "answers": [
+    "Ingestion, propulsion, mechanical digestion, chemical digestion, absorption and defaecation",
+    "Ingestion, propulsion, mechanical and chemical digestion, absorption, defecation"
+   ],
+   "wrong": [
+    "Ingestion, respiration, digestion, excretion, secretion and circulation",
+    "Intake, storage, filtering, absorption, synthesis and elimination",
+    "Ingestion, absorption, filtration, secretion, reabsorption and excretion"
+   ],
+   "tags": [
+    "Digestive tract overview"
+   ]
+  },
+  {
+   "id": "accessory",
+   "prompt": "Which three organs add secretions to the digestive tract but never have food pass through them?",
+   "answers": [
+    "Liver, gallbladder and pancreas",
+    "Pancreas, liver and gallbladder"
+   ],
+   "wrong": [
+    "Stomach, liver and spleen",
+    "Liver, spleen and appendix",
+    "Pancreas, spleen and gallbladder"
+   ],
+   "explanation": "Together with the salivary glands, they are the accessory digestive organs.",
+   "tags": [
+    "Digestive tract overview"
+   ]
+  },
+  {
+   "id": "gut-wall",
+   "prompt": "From the lumen outwards, what are the four layers of the wall of the digestive tract?",
+   "answers": [
+    "Mucosa, submucosa, muscularis externa, serosa"
+   ],
+   "wrong": [
+    "Serosa, muscularis externa, submucosa, mucosa",
+    "Mucosa, muscularis externa, submucosa, serosa",
+    "Submucosa, mucosa, muscularis externa, serosa"
+   ],
+   "explanation": "The mucosa lines the tube, the submucosa carries vessels and nerves, the muscularis externa has the circular and longitudinal muscle, and the serosa (the visceral peritoneum) is the outer covering.",
+   "tags": [
+    "Digestive tract overview"
+   ]
+  },
+  {
+   "id": "peristalsis",
+   "prompt": "What is the wave of muscle contraction that pushes food along the digestive tract called?",
+   "answers": [
+    "Peristalsis"
+   ],
+   "wrong": [
+    "Segmentation",
+    "Mastication",
+    "Deglutition"
+   ],
+   "explanation": "Circular muscle tightens behind the food and the longitudinal muscle shortens the tube ahead of it.",
+   "tags": [
+    "Digestive tract overview"
+   ]
+  },
+  {
+   "id": "segmentation",
+   "prompt": "What kind of movement of the small intestine mixes the chyme with digestive juices without moving it on?",
+   "answers": [
+    "Segmentation",
+    "Segmenting contractions"
+   ],
+   "wrong": [
+    "Peristalsis",
+    "Mass movement",
+    "Haustration"
+   ],
+   "explanation": "Rings of contraction chop the contents back and forth.",
+   "tags": [
+    "Digestive tract overview"
+   ]
+  },
+  {
+   "id": "enteric-plexus",
+   "prompt": "Which network of nerves in the wall of the gut controls its movements and secretions?",
+   "answers": [
+    "Enteric nervous system",
+    "Myenteric and submucosal plexuses",
+    "The enteric nervous system"
+   ],
+   "wrong": [
+    "Cervical plexus",
+    "Sympathetic chain",
+    "Vagal trunk"
+   ],
+   "explanation": "The myenteric (Auerbach's) plexus controls movement; the submucosal (Meissner's) plexus controls secretion.",
+   "tags": [
+    "Digestive tract overview"
+   ]
+  },
+  {
+   "id": "peritoneum",
+   "prompt": "What is the thin membrane lining the abdominal cavity and covering the organs called?",
+   "answers": [
+    "Peritoneum"
+   ],
+   "wrong": [
+    "Pleura",
+    "Pericardium",
+    "Mesentery"
+   ],
+   "explanation": "The parietal layer lines the wall; the visceral layer covers the organs. Between them is the peritoneal cavity, with a little fluid.",
+   "tags": [
+    "Digestive tract overview"
+   ]
+  },
+  {
+   "id": "mesentery",
+   "prompt": "What fold of peritoneum attaches the small intestine to the back wall of the abdomen and carries its blood vessels?",
+   "answers": [
+    "Mesentery"
+   ],
+   "wrong": [
+    "Greater omentum",
+    "Falciform ligament",
+    "Lesser omentum"
+   ],
+   "explanation": "Long enough to let the small intestine move.",
+   "tags": [
+    "Digestive tract overview"
+   ]
+  },
+  {
+   "id": "greater-omentum",
+   "prompt": "What is the large apron-like fold of peritoneum hanging down from the stomach over the intestines called?",
+   "answers": [
+    "Greater omentum"
+   ],
+   "wrong": [
+    "Lesser omentum",
+    "Mesentery",
+    "Falciform ligament"
+   ],
+   "explanation": "Nicknamed the 'policeman of the abdomen' because it wraps round inflamed areas.",
+   "tags": [
+    "Digestive tract overview"
+   ]
+  },
+  {
+   "id": "retroperitoneal",
+   "prompt": "Which of these organs lies behind the peritoneum (retroperitoneal)?",
+   "answers": [
+    "Pancreas",
+    "The pancreas",
+    "Kidney"
+   ],
+   "wrong": [
+    "Stomach",
+    "Liver",
+    "Jejunum"
+   ],
+   "explanation": "Also the kidneys, most of the duodenum, the ascending and descending colon and the aorta.",
+   "tags": [
+    "Digestive tract overview"
+   ]
+  },
+  {
+   "id": "saliva",
+   "prompt": "Which enzyme in saliva begins the digestion of starch?",
+   "answers": [
+    "Salivary amylase",
+    "Amylase"
+   ],
+   "wrong": [
+    "Lipase",
+    "Pepsin",
+    "Lactase"
+   ],
+   "explanation": "It breaks starch into smaller sugars; you can taste this if you chew a cracker for a while.",
+   "tags": [
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "salivary-glands",
+   "prompt": "What are the three pairs of large salivary glands?",
+   "answers": [
+    "Parotid, submandibular and sublingual"
+   ],
+   "wrong": [
+    "Parotid, thyroid and sublingual",
+    "Submandibular, thyroid and lacrimal",
+    "Parotid, submaxillary and lacrimal"
+   ],
+   "explanation": "The parotid, in front of the ear, is the largest. Mumps is an infection of it.",
+   "tags": [
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "mumps",
+   "prompt": "Mumps is a viral infection of which gland?",
+   "answers": [
+    "The parotid gland",
+    "Parotid gland",
+    "Parotid"
+   ],
+   "wrong": [
+    "The thyroid gland",
+    "The submandibular gland",
+    "The pancreas"
+   ],
+   "tags": [
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "teeth-adult",
+   "prompt": "How many permanent teeth does an adult usually have, including wisdom teeth?",
+   "answers": [
+    "32"
+   ],
+   "wrong": [
+    "28",
+    "20",
+    "36"
+   ],
+   "explanation": "Eight incisors, four canines, eight premolars and 12 molars.",
+   "figure": {
+    "src": "data/figures/anatomy/d-teeth.webp",
+    "alt": "The skull and jaw, with all of the teeth in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "teeth-child",
+   "prompt": "How many milk (deciduous) teeth does a child have?",
+   "answers": [
+    "20",
+    "Twenty"
+   ],
+   "wrong": [
+    "32",
+    "24",
+    "28"
+   ],
+   "explanation": "There are no premolars in the milk set: just incisors, canines and molars.",
+   "tags": [
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "teeth-types",
+   "prompt": "What are the four types of permanent teeth, from the front of the mouth to the back?",
+   "answers": [
+    "Incisors, canines, premolars, molars"
+   ],
+   "wrong": [
+    "Canines, incisors, premolars, molars",
+    "Incisors, premolars, canines, molars",
+    "Molars, premolars, canines, incisors"
+   ],
+   "explanation": "Incisors cut, canines tear, premolars and molars grind.",
+   "tags": [
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "id-incisors",
+   "prompt": "Which teeth are highlighted in red?",
+   "answers": [
+    "Incisors",
+    "Incisor teeth"
+   ],
+   "wrong": [
+    "Canines",
+    "Premolars",
+    "Molars"
+   ],
+   "explanation": "The eight chisel-shaped front teeth, for cutting.",
+   "figure": {
+    "src": "data/figures/anatomy/d-incisors.webp",
+    "alt": "The skull and jaw, with some teeth in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the organ",
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "id-canines",
+   "prompt": "Which teeth are highlighted in red?",
+   "answers": [
+    "Canines",
+    "Canine teeth",
+    "Cuspids"
+   ],
+   "wrong": [
+    "Incisors",
+    "Premolars",
+    "Molars"
+   ],
+   "explanation": "The four pointed teeth, one each side of the incisors, for tearing.",
+   "figure": {
+    "src": "data/figures/anatomy/d-canines.webp",
+    "alt": "The skull and jaw, with some teeth in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the organ",
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "id-premolars",
+   "prompt": "Which teeth are highlighted in red?",
+   "answers": [
+    "Premolars",
+    "Bicuspids",
+    "Premolar teeth"
+   ],
+   "wrong": [
+    "Incisors",
+    "Canines",
+    "Molars"
+   ],
+   "explanation": "Eight teeth with two cusps each, between the canines and molars.",
+   "figure": {
+    "src": "data/figures/anatomy/d-premolars.webp",
+    "alt": "The skull and jaw, with some teeth in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the organ",
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "id-molars",
+   "prompt": "Which teeth are highlighted in red?",
+   "answers": [
+    "Molars",
+    "Molar teeth"
+   ],
+   "wrong": [
+    "Incisors",
+    "Canines",
+    "Premolars"
+   ],
+   "explanation": "The big back teeth, with three to five cusps, for grinding. The third molars are the wisdom teeth.",
+   "figure": {
+    "src": "data/figures/anatomy/d-molars.webp",
+    "alt": "The skull and jaw, with some teeth in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the organ",
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "enamel",
+   "prompt": "What is the hardest substance in the body, covering the crown of a tooth?",
+   "answers": [
+    "Enamel",
+    "Dental enamel"
+   ],
+   "wrong": [
+    "Dentine",
+    "Cementum",
+    "Bone"
+   ],
+   "explanation": "About 96% mineral, mostly hydroxyapatite. It cannot regrow once lost.",
+   "tags": [
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "dentine",
+   "prompt": "What is the bone-like tissue that makes up most of a tooth, under the enamel, called?",
+   "answers": [
+    "Dentine",
+    "Dentin"
+   ],
+   "wrong": [
+    "Enamel",
+    "Cementum",
+    "Pulp"
+   ],
+   "explanation": "It is softer than enamel and has tiny tubules, which is why exposed dentine is sensitive.",
+   "tags": [
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "pulp",
+   "prompt": "What is the soft centre of a tooth, holding its nerves and blood vessels, called?",
+   "answers": [
+    "Pulp",
+    "Dental pulp"
+   ],
+   "wrong": [
+    "Dentine",
+    "Cementum",
+    "Periodontal ligament"
+   ],
+   "explanation": "Toothache comes from inflamed pulp.",
+   "tags": [
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "periodontal",
+   "prompt": "What holds a tooth in its socket?",
+   "answers": [
+    "The periodontal ligament",
+    "Periodontal ligament"
+   ],
+   "wrong": [
+    "The enamel",
+    "Gingiva only",
+    "The pulp"
+   ],
+   "explanation": "A fibrous joint (a gomphosis) between the cementum of the root and the bone of the socket.",
+   "tags": [
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "swallow-phases",
+   "prompt": "Which phase of swallowing can you control voluntarily?",
+   "answers": [
+    "The oral phase",
+    "Oral phase",
+    "The first phase"
+   ],
+   "wrong": [
+    "The pharyngeal phase",
+    "The oesophageal phase",
+    "All three phases"
+   ],
+   "explanation": "The pharyngeal and oesophageal phases are automatic reflexes.",
+   "tags": [
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "swallow-airway",
+   "prompt": "During swallowing, what stops food going into the windpipe?",
+   "answers": [
+    "The larynx rises and the epiglottis covers its entrance",
+    "The epiglottis closes over the larynx"
+   ],
+   "wrong": [
+    "The uvula closes the nose",
+    "The vocal cords open wide",
+    "The trachea contracts"
+   ],
+   "explanation": "Breathing stops briefly at the same time.",
+   "tags": [
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "id-esophagus",
+   "prompt": "Which organ is highlighted in red?",
+   "answers": [
+    "Oesophagus",
+    "Esophagus",
+    "Gullet"
+   ],
+   "wrong": [
+    "Trachea",
+    "Duodenum",
+    "Pharynx"
+   ],
+   "explanation": "The muscular tube, about 25 cm long, taking food from the pharynx to the stomach behind the windpipe and heart.",
+   "figure": {
+    "src": "data/figures/anatomy/d-esophagus.webp",
+    "alt": "The digestive organs inside the trunk, with one in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the organ",
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "esophagus-length",
+   "prompt": "About how long is the oesophagus?",
+   "answers": [
+    "About 25 cm",
+    "25 cm",
+    "About 10 inches"
+   ],
+   "wrong": [
+    "About 10 cm",
+    "About 50 cm",
+    "About 1 m"
+   ],
+   "explanation": "From the level of C6 to T11. It runs through the diaphragm at T10.",
+   "figure": {
+    "src": "data/figures/anatomy/d-esophagus.webp",
+    "alt": "The digestive organs inside the trunk, with the oesophagus in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "esophagus-muscle",
+   "prompt": "What kind of muscle makes up the walls of the oesophagus?",
+   "answers": [
+    "Skeletal at the top, smooth at the bottom",
+    "Skeletal in the upper third and smooth in the lower third",
+    "Skeletal then smooth"
+   ],
+   "wrong": [
+    "Only skeletal muscle",
+    "Only smooth muscle",
+    "Cardiac muscle"
+   ],
+   "explanation": "The middle third has a mix.",
+   "tags": [
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "lower-sphincter",
+   "prompt": "What keeps stomach acid from flowing back up into the oesophagus?",
+   "answers": [
+    "The lower oesophageal sphincter",
+    "Lower esophageal sphincter",
+    "Cardiac sphincter"
+   ],
+   "wrong": [
+    "The pyloric sphincter",
+    "The epiglottis",
+    "The upper oesophageal sphincter"
+   ],
+   "explanation": "When it is weak, acid reflux and heartburn (GORD) result.",
+   "tags": [
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "hiatus",
+   "prompt": "What is it called when part of the stomach pushes up through the diaphragm into the chest?",
+   "answers": [
+    "Hiatus hernia",
+    "Hiatal hernia"
+   ],
+   "wrong": [
+    "Inguinal hernia",
+    "Umbilical hernia",
+    "Femoral hernia"
+   ],
+   "tags": [
+    "Mouth, teeth and oesophagus"
+   ]
+  },
+  {
+   "id": "id-stomach",
+   "prompt": "Which organ is highlighted in red?",
+   "answers": [
+    "Stomach"
+   ],
+   "wrong": [
+    "Duodenum",
+    "Spleen",
+    "Pancreas"
+   ],
+   "explanation": "The J-shaped bag under the left side of the diaphragm, just below the oesophagus.",
+   "figure": {
+    "src": "data/figures/anatomy/d-stomach.webp",
+    "alt": "The digestive organs inside the trunk, with one in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the organ",
+    "Stomach"
+   ]
+  },
+  {
+   "id": "stomach-parts",
+   "prompt": "What are the main parts of the stomach, from the oesophagus to the small intestine?",
+   "answers": [
+    "Cardia, fundus, body, pylorus",
+    "Cardia, fundus, body and pylorus"
+   ],
+   "wrong": [
+    "Fundus, cardia, body, pylorus",
+    "Cardia, body, fundus, pylorus",
+    "Pylorus, body, fundus, cardia"
+   ],
+   "explanation": "The fundus is the dome that sits above the entrance of the oesophagus; the pylorus is the narrow outlet.",
+   "figure": {
+    "src": "data/figures/anatomy/d-stomach.webp",
+    "alt": "The digestive organs inside the trunk, with the stomach in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Stomach"
+   ]
+  },
+  {
+   "id": "rugae",
+   "prompt": "What are the folds in the lining of the empty stomach called?",
+   "answers": [
+    "Rugae"
+   ],
+   "wrong": [
+    "Villi",
+    "Plicae circulares",
+    "Haustra"
+   ],
+   "explanation": "They flatten as the stomach fills; it can hold 1.5 litres or more.",
+   "tags": [
+    "Stomach"
+   ]
+  },
+  {
+   "id": "hcl",
+   "prompt": "Which cells of the stomach lining make hydrochloric acid?",
+   "answers": [
+    "Parietal cells"
+   ],
+   "wrong": [
+    "Chief cells",
+    "Goblet cells",
+    "G cells"
+   ],
+   "explanation": "They also make intrinsic factor, needed to absorb vitamin B12.",
+   "tags": [
+    "Stomach"
+   ]
+  },
+  {
+   "id": "pepsinogen",
+   "prompt": "Which cells of the stomach lining make pepsinogen, the inactive form of the protein-digesting enzyme pepsin?",
+   "answers": [
+    "Chief cells",
+    "Peptic cells"
+   ],
+   "wrong": [
+    "Parietal cells",
+    "Goblet cells",
+    "Mucous neck cells"
+   ],
+   "explanation": "Acid turns it into active pepsin.",
+   "tags": [
+    "Stomach"
+   ]
+  },
+  {
+   "id": "gastric-ph",
+   "prompt": "About what is the pH of the stomach's contents?",
+   "answers": [
+    "About 2",
+    "1.5 to 3.5",
+    "pH 2"
+   ],
+   "wrong": [
+    "About 7",
+    "About 5",
+    "About 9"
+   ],
+   "explanation": "Strongly acid, which kills most bacteria and starts protein digestion.",
+   "tags": [
+    "Stomach"
+   ]
+  },
+  {
+   "id": "gastric-mucus",
+   "prompt": "What protects the stomach wall from its own acid and pepsin?",
+   "answers": [
+    "A thick layer of alkaline mucus",
+    "Mucus"
+   ],
+   "wrong": [
+    "A thick layer of fat",
+    "The muscularis externa",
+    "Bile"
+   ],
+   "explanation": "Aspirin and the bacterium Helicobacter pylori damage it, causing ulcers.",
+   "tags": [
+    "Stomach"
+   ]
+  },
+  {
+   "id": "h-pylori",
+   "prompt": "Which bacterium is the main cause of stomach ulcers?",
+   "answers": [
+    "Helicobacter pylori",
+    "H. pylori"
+   ],
+   "wrong": [
+    "Escherichia coli",
+    "Salmonella",
+    "Clostridium difficile"
+   ],
+   "explanation": "Treated with antibiotics and acid suppression.",
+   "tags": [
+    "Stomach"
+   ]
+  },
+  {
+   "id": "intrinsic-factor",
+   "prompt": "Which vitamin needs a stomach protein called intrinsic factor for its absorption?",
+   "answers": [
+    "Vitamin B12",
+    "B12",
+    "Cobalamin"
+   ],
+   "wrong": [
+    "Vitamin C",
+    "Vitamin D",
+    "Folic acid"
+   ],
+   "explanation": "Without it a person gets pernicious anaemia.",
+   "tags": [
+    "Stomach"
+   ]
+  },
+  {
+   "id": "gastrin",
+   "prompt": "Which hormone, made by G cells of the stomach, makes it secrete acid?",
+   "answers": [
+    "Gastrin"
+   ],
+   "wrong": [
+    "Secretin",
+    "Cholecystokinin",
+    "Ghrelin"
+   ],
+   "tags": [
+    "Stomach"
+   ]
+  },
+  {
+   "id": "ghrelin",
+   "prompt": "Which hormone from the stomach stimulates hunger?",
+   "answers": [
+    "Ghrelin"
+   ],
+   "wrong": [
+    "Leptin",
+    "Gastrin",
+    "Insulin"
+   ],
+   "explanation": "Levels rise before meals and fall after eating.",
+   "tags": [
+    "Stomach"
+   ]
+  },
+  {
+   "id": "chyme",
+   "prompt": "What is the semi-liquid mixture of food and gastric juice leaving the stomach called?",
+   "answers": [
+    "Chyme"
+   ],
+   "wrong": [
+    "Bolus",
+    "Bile",
+    "Chyle"
+   ],
+   "explanation": "The bolus is the ball of chewed food that is swallowed.",
+   "tags": [
+    "Stomach"
+   ]
+  },
+  {
+   "id": "pylorus",
+   "prompt": "What controls the passage of chyme from the stomach into the duodenum?",
+   "answers": [
+    "The pyloric sphincter",
+    "Pyloric sphincter"
+   ],
+   "wrong": [
+    "The cardiac sphincter",
+    "The ileocaecal valve",
+    "The sphincter of Oddi"
+   ],
+   "tags": [
+    "Stomach"
+   ]
+  },
+  {
+   "id": "gastric-emptying",
+   "prompt": "Which type of food slows stomach emptying most?",
+   "answers": [
+    "Fat",
+    "Fatty food"
+   ],
+   "wrong": [
+    "Carbohydrate",
+    "Water",
+    "Fibre"
+   ],
+   "explanation": "Fat in the duodenum triggers hormones (such as CCK) that delay emptying, which is why a fatty meal feels heavy.",
+   "tags": [
+    "Stomach"
+   ]
+  },
+  {
+   "id": "vomiting",
+   "prompt": "Which part of the brain controls vomiting?",
+   "answers": [
+    "The medulla oblongata",
+    "Medulla",
+    "Medulla oblongata (vomiting centre)"
+   ],
+   "wrong": [
+    "The cerebellum",
+    "The hypothalamus",
+    "The thalamus"
+   ],
+   "tags": [
+    "Stomach"
+   ]
+  },
+  {
+   "id": "stomach-blood",
+   "prompt": "Which artery gives the stomach most of its blood?",
+   "answers": [
+    "Celiac trunk (through the gastric arteries)",
+    "Celiac trunk",
+    "Left gastric artery"
+   ],
+   "wrong": [
+    "Superior mesenteric artery",
+    "Inferior mesenteric artery",
+    "Renal artery"
+   ],
+   "explanation": "Branches of the celiac trunk supply it.",
+   "tags": [
+    "Stomach"
+   ]
+  },
+  {
+   "id": "id-small-intestine",
+   "prompt": "Which part of the digestive tract is highlighted in red?",
+   "answers": [
+    "Small intestine"
+   ],
+   "wrong": [
+    "Large intestine",
+    "Stomach",
+    "Colon"
+   ],
+   "explanation": "The coiled tube filling the middle of the abdomen. About 6 m long when relaxed.",
+   "figure": {
+    "src": "data/figures/anatomy/d-small-intestine.webp",
+    "alt": "The digestive organs inside the trunk, with one in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the organ",
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "small-parts",
+   "prompt": "What are the three parts of the small intestine, in order?",
+   "answers": [
+    "Duodenum, jejunum, ileum"
+   ],
+   "wrong": [
+    "Jejunum, duodenum, ileum",
+    "Duodenum, ileum, jejunum",
+    "Ileum, jejunum, duodenum"
+   ],
+   "explanation": "The jejunum makes up about two fifths, the ileum three fifths of the length beyond the duodenum.",
+   "figure": {
+    "src": "data/figures/anatomy/d-small-intestine.webp",
+    "alt": "The digestive organs inside the trunk, with the small intestine in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "id-duodenum",
+   "prompt": "Which organ is highlighted in red?",
+   "answers": [
+    "Duodenum"
+   ],
+   "wrong": [
+    "Jejunum",
+    "Pancreas",
+    "Stomach"
+   ],
+   "explanation": "The first 25 cm of the small intestine, curved like a C round the head of the pancreas. Pancreatic juice and bile enter it.",
+   "figure": {
+    "src": "data/figures/anatomy/d-duodenum.webp",
+    "alt": "The digestive organs inside the trunk, with one in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the organ",
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "duodenum-job",
+   "prompt": "Which part of the small intestine receives bile and pancreatic juice?",
+   "answers": [
+    "Duodenum"
+   ],
+   "wrong": [
+    "Jejunum",
+    "Ileum",
+    "Stomach"
+   ],
+   "explanation": "Through the hepatopancreatic ampulla (of Vater), opening at the major duodenal papilla.",
+   "figure": {
+    "src": "data/figures/anatomy/d-duodenum.webp",
+    "alt": "The digestive organs inside the trunk, with the duodenum in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "id-jejunum",
+   "prompt": "Which organ is highlighted in red?",
+   "answers": [
+    "Jejunum"
+   ],
+   "wrong": [
+    "Duodenum",
+    "Ileum",
+    "Transverse colon"
+   ],
+   "explanation": "The middle part, mostly in the upper left of the abdomen. It is where most absorption happens.",
+   "figure": {
+    "src": "data/figures/anatomy/d-jejunum.webp",
+    "alt": "The digestive organs inside the trunk, with one in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the organ",
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "id-ileum",
+   "prompt": "Which organ is highlighted in red?",
+   "answers": [
+    "Ileum"
+   ],
+   "wrong": [
+    "Jejunum",
+    "Duodenum",
+    "Colon"
+   ],
+   "explanation": "The last and longest part, mostly in the lower right of the abdomen, ending at the ileocaecal valve.",
+   "figure": {
+    "src": "data/figures/anatomy/d-ileum.webp",
+    "alt": "The digestive organs inside the trunk, with one in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the organ",
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "ileum-b12",
+   "prompt": "Which vitamin is absorbed only in the last part of the ileum, along with bile salts?",
+   "answers": [
+    "Vitamin B12",
+    "B12"
+   ],
+   "wrong": [
+    "Vitamin C",
+    "Vitamin A",
+    "Folic acid"
+   ],
+   "explanation": "Surgery or Crohn's disease in the ileum can cause B12 deficiency.",
+   "figure": {
+    "src": "data/figures/anatomy/d-ileum.webp",
+    "alt": "The digestive organs inside the trunk, with the ileum in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "villi",
+   "prompt": "What are the finger-like projections of the small intestine's lining that increase its surface area called?",
+   "answers": [
+    "Villi",
+    "Intestinal villi"
+   ],
+   "wrong": [
+    "Rugae",
+    "Haustra",
+    "Microvilli only"
+   ],
+   "explanation": "Each has a capillary network and a lymph vessel (lacteal).",
+   "tags": [
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "microvilli",
+   "prompt": "What do we call the tiny projections on the surface of the cells covering each villus, forming the 'brush border'?",
+   "answers": [
+    "Microvilli"
+   ],
+   "wrong": [
+    "Cilia",
+    "Villi",
+    "Plicae"
+   ],
+   "explanation": "The brush border also holds enzymes such as lactase and maltase.",
+   "tags": [
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "plicae",
+   "prompt": "What are the permanent circular folds of the small intestine's lining called?",
+   "answers": [
+    "Plicae circulares",
+    "Circular folds",
+    "Valves of Kerckring"
+   ],
+   "wrong": [
+    "Rugae",
+    "Haustra",
+    "Taeniae coli"
+   ],
+   "explanation": "Plicae, villi and microvilli together make a surface of about 200 square metres.",
+   "tags": [
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "lacteal",
+   "prompt": "What is the lymph vessel in the centre of each villus, which absorbs fats, called?",
+   "answers": [
+    "Lacteal"
+   ],
+   "wrong": [
+    "Venule",
+    "Arteriole",
+    "Crypt"
+   ],
+   "explanation": "Fats go into the lymph as chylomicrons, not directly into the blood.",
+   "tags": [
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "crypts",
+   "prompt": "What are the pits between villi, where the lining cells are renewed, called?",
+   "answers": [
+    "Crypts of Lieberkühn",
+    "Intestinal crypts",
+    "Crypts of Lieberkuhn"
+   ],
+   "wrong": [
+    "Peyer's patches",
+    "Brunner's glands",
+    "Plicae"
+   ],
+   "explanation": "The lining is replaced every few days.",
+   "tags": [
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "brunner",
+   "prompt": "Which glands in the duodenum make alkaline mucus to protect it from stomach acid?",
+   "answers": [
+    "Brunner's glands",
+    "Duodenal glands"
+   ],
+   "wrong": [
+    "Peyer's patches",
+    "Crypts of Lieberkühn",
+    "Gastric glands"
+   ],
+   "tags": [
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "peyer",
+   "prompt": "What are the clusters of lymphoid tissue in the wall of the ileum called?",
+   "answers": [
+    "Peyer's patches"
+   ],
+   "wrong": [
+    "Brunner's glands",
+    "Lacteals",
+    "Taeniae coli"
+   ],
+   "explanation": "They watch for bacteria and viruses in the gut.",
+   "tags": [
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "cck",
+   "prompt": "Which hormone from the duodenum makes the gallbladder contract and the pancreas release enzymes?",
+   "answers": [
+    "Cholecystokinin",
+    "CCK"
+   ],
+   "wrong": [
+    "Gastrin",
+    "Secretin",
+    "Ghrelin"
+   ],
+   "tags": [
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "secretin",
+   "prompt": "Which hormone from the duodenum makes the pancreas release bicarbonate to neutralise the acid from the stomach?",
+   "answers": [
+    "Secretin"
+   ],
+   "wrong": [
+    "Gastrin",
+    "Cholecystokinin",
+    "Motilin"
+   ],
+   "explanation": "The first hormone ever discovered (1902).",
+   "tags": [
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "absorb-where",
+   "prompt": "Where does most absorption of nutrients take place?",
+   "answers": [
+    "The small intestine",
+    "Small intestine"
+   ],
+   "wrong": [
+    "The stomach",
+    "The large intestine",
+    "The oesophagus"
+   ],
+   "explanation": "Nearly all nutrients, 90% of the water and the vitamins B and C; the large intestine takes the rest of the water.",
+   "tags": [
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "lactase",
+   "prompt": "Which enzyme in the brush border digests the milk sugar lactose?",
+   "answers": [
+    "Lactase"
+   ],
+   "wrong": [
+    "Amylase",
+    "Maltase",
+    "Sucrase"
+   ],
+   "explanation": "Without it, lactose reaches the colon and is fermented, causing wind and diarrhoea (lactose intolerance).",
+   "tags": [
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "celiac-disease",
+   "prompt": "In coeliac disease the immune system damages the villi in reaction to which protein?",
+   "answers": [
+    "Gluten"
+   ],
+   "wrong": [
+    "Casein",
+    "Lactose",
+    "Zein"
+   ],
+   "explanation": "Gluten is in wheat, barley and rye.",
+   "tags": [
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "ileocecal",
+   "prompt": "What valve stops the contents of the large intestine from going back into the ileum?",
+   "answers": [
+    "Ileocaecal valve",
+    "Ileocecal valve"
+   ],
+   "wrong": [
+    "Pyloric sphincter",
+    "Sphincter of Oddi",
+    "Anal sphincter"
+   ],
+   "tags": [
+    "Small intestine"
+   ]
+  },
+  {
+   "id": "id-colon",
+   "prompt": "Which part of the digestive tract is highlighted in red?",
+   "answers": [
+    "Colon",
+    "Large intestine"
+   ],
+   "wrong": [
+    "Small intestine",
+    "Rectum",
+    "Stomach"
+   ],
+   "explanation": "The wide tube framing the small intestine: ascending, transverse, descending and sigmoid parts. About 1.5 m long.",
+   "figure": {
+    "src": "data/figures/anatomy/d-colon.webp",
+    "alt": "The digestive organs inside the trunk, with one in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the organ",
+    "Large intestine"
+   ]
+  },
+  {
+   "id": "colon-parts",
+   "prompt": "In order from the caecum, what are the parts of the large intestine?",
+   "answers": [
+    "Caecum, ascending colon, transverse colon, descending colon, sigmoid colon, rectum, anal canal",
+    "Cecum, ascending colon, transverse colon, descending colon, sigmoid colon, rectum, anal canal"
+   ],
+   "wrong": [
+    "Caecum, descending colon, transverse colon, ascending colon, sigmoid colon, rectum, anal canal",
+    "Caecum, ascending colon, descending colon, transverse colon, sigmoid colon, rectum, anal canal",
+    "Caecum, transverse colon, ascending colon, sigmoid colon, descending colon, rectum, anal canal"
+   ],
+   "explanation": "It rises on the right, crosses to the left and goes down.",
+   "figure": {
+    "src": "data/figures/anatomy/d-colon.webp",
+    "alt": "The digestive organs inside the trunk, with the colon in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Large intestine"
+   ]
+  },
+  {
+   "id": "haustra",
+   "prompt": "What are the pouches of the colon wall called?",
+   "answers": [
+    "Haustra"
+   ],
+   "wrong": [
+    "Villi",
+    "Rugae",
+    "Plicae"
+   ],
+   "explanation": "They're made by the taeniae coli pulling the wall into sacs.",
+   "tags": [
+    "Large intestine"
+   ]
+  },
+  {
+   "id": "taeniae",
+   "prompt": "What are the three bands of longitudinal muscle on the outside of the colon called?",
+   "answers": [
+    "Taeniae coli",
+    "Teniae coli"
+   ],
+   "wrong": [
+    "Haustra",
+    "Plicae",
+    "Rugae"
+   ],
+   "explanation": "They're shorter than the gut, which gathers it into haustra.",
+   "tags": [
+    "Large intestine"
+   ]
+  },
+  {
+   "id": "colon-job",
+   "prompt": "What is the main job of the large intestine?",
+   "answers": [
+    "To absorb water and salts and form faeces",
+    "Absorb water and make faeces"
+   ],
+   "wrong": [
+    "To digest proteins",
+    "To absorb fats",
+    "To make bile"
+   ],
+   "explanation": "About 1.5 litres of fluid reach it each day and all but 100 mL is absorbed.",
+   "tags": [
+    "Large intestine"
+   ]
+  },
+  {
+   "id": "gut-flora",
+   "prompt": "What do the bacteria in the large intestine make that we absorb?",
+   "answers": [
+    "Vitamin K",
+    "Vitamin K and some B vitamins"
+   ],
+   "wrong": [
+    "Vitamin C",
+    "Vitamin A",
+    "Vitamin D"
+   ],
+   "explanation": "They also ferment fibre into short-chain fatty acids that feed the colon wall.",
+   "tags": [
+    "Large intestine"
+   ]
+  },
+  {
+   "id": "colon-faeces",
+   "prompt": "What makes the colour of normal faeces?",
+   "answers": [
+    "Bile pigments (stercobilin)",
+    "Stercobilin",
+    "Bile pigments"
+   ],
+   "wrong": [
+    "Undigested fibre",
+    "Haemoglobin",
+    "Fat"
+   ],
+   "explanation": "Stercobilin comes from the breakdown of bilirubin by gut bacteria. Pale faeces suggest that bile isn't getting to the gut.",
+   "tags": [
+    "Large intestine"
+   ]
+  },
+  {
+   "id": "id-appendix",
+   "prompt": "Which organ is highlighted in red?",
+   "answers": [
+    "Appendix",
+    "Vermiform appendix"
+   ],
+   "wrong": [
+    "Caecum",
+    "Ileum",
+    "Rectum"
+   ],
+   "explanation": "A narrow, blind-ended tube off the caecum, in the lower right of the abdomen.",
+   "figure": {
+    "src": "data/figures/anatomy/d-appendix.webp",
+    "alt": "The digestive organs inside the trunk, with one in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the organ",
+    "Large intestine"
+   ]
+  },
+  {
+   "id": "appendicitis",
+   "prompt": "Pain in the lower right of the abdomen, usually starting near the navel, is the classic sign of inflammation of which organ?",
+   "answers": [
+    "The appendix",
+    "Appendix"
+   ],
+   "wrong": [
+    "The gallbladder",
+    "The caecum",
+    "The right ovary"
+   ],
+   "explanation": "McBurney's point, a third of the way from the right anterior superior iliac spine to the navel, is the usual place of the tenderness.",
+   "figure": {
+    "src": "data/figures/anatomy/d-appendix.webp",
+    "alt": "The digestive organs inside the trunk, with the appendix in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Large intestine"
+   ]
+  },
+  {
+   "id": "id-rectum",
+   "prompt": "Which organ is highlighted in red?",
+   "answers": [
+    "Rectum"
+   ],
+   "wrong": [
+    "Sigmoid colon",
+    "Anal canal",
+    "Bladder"
+   ],
+   "explanation": "The last 12 to 15 cm of the large intestine, in front of the sacrum.",
+   "figure": {
+    "src": "data/figures/anatomy/d-rectum.webp",
+    "alt": "The digestive organs inside the trunk, with one in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the organ",
+    "Large intestine"
+   ]
+  },
+  {
+   "id": "anal-sphincters",
+   "prompt": "Which two sphincters close the anal canal?",
+   "answers": [
+    "The internal and external anal sphincters",
+    "Internal and external anal sphincters"
+   ],
+   "wrong": [
+    "The pyloric and ileocaecal sphincters",
+    "The cardiac and pyloric sphincters",
+    "The puborectalis and obturator"
+   ],
+   "explanation": "The internal one is smooth muscle (involuntary); the external is skeletal muscle (voluntary).",
+   "figure": {
+    "src": "data/figures/anatomy/d-rectum.webp",
+    "alt": "The digestive organs inside the trunk, with the rectum in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Large intestine"
+   ]
+  },
+  {
+   "id": "defecation-reflex",
+   "prompt": "What triggers the urge to defecate?",
+   "answers": [
+    "Stretching of the rectal wall",
+    "The rectum filling"
+   ],
+   "wrong": [
+    "Acid in the stomach",
+    "Fat in the duodenum",
+    "A full bladder"
+   ],
+   "tags": [
+    "Large intestine"
+   ]
+  },
+  {
+   "id": "diverticulosis",
+   "prompt": "What are small pouches that bulge out of the wall of the colon called?",
+   "answers": [
+    "Diverticula"
+   ],
+   "wrong": [
+    "Polyps",
+    "Haustra",
+    "Hernias"
+   ],
+   "explanation": "They are common over 60. If inflamed, it's diverticulitis.",
+   "tags": [
+    "Large intestine"
+   ]
+  },
+  {
+   "id": "ibd",
+   "prompt": "Which two diseases make up inflammatory bowel disease?",
+   "answers": [
+    "Crohn's disease and ulcerative colitis",
+    "Ulcerative colitis and Crohn's disease"
+   ],
+   "wrong": [
+    "Coeliac disease and Crohn's disease",
+    "Diverticulitis and appendicitis",
+    "IBS and coeliac disease"
+   ],
+   "explanation": "Crohn's can affect any part of the gut; ulcerative colitis affects only the colon and rectum.",
+   "tags": [
+    "Large intestine"
+   ]
+  },
+  {
+   "id": "id-liver",
+   "prompt": "Which organ is highlighted in red?",
+   "answers": [
+    "Liver"
+   ],
+   "wrong": [
+    "Spleen",
+    "Stomach",
+    "Pancreas"
+   ],
+   "explanation": "The largest internal organ, under the right side of the diaphragm.",
+   "figure": {
+    "src": "data/figures/anatomy/d-liver.webp",
+    "alt": "The digestive organs inside the trunk, with one in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the organ",
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "liver-weight",
+   "prompt": "About how much does the adult liver weigh?",
+   "answers": [
+    "About 1.5 kg",
+    "1.5 kg",
+    "About 1.4 to 1.8 kg"
+   ],
+   "wrong": [
+    "About 300 g",
+    "About 500 g",
+    "About 3 kg"
+   ],
+   "explanation": "It's the largest gland in the body and holds about 13% of the blood.",
+   "figure": {
+    "src": "data/figures/anatomy/d-liver.webp",
+    "alt": "The digestive organs inside the trunk, with the liver in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "liver-lobes",
+   "prompt": "What are the four lobes of the liver?",
+   "answers": [
+    "Right, left, caudate and quadrate",
+    "Right, left, caudate, quadrate"
+   ],
+   "wrong": [
+    "Right, left, anterior and posterior",
+    "Superior, inferior, caudate and quadrate",
+    "Right, left, middle and caudate"
+   ],
+   "explanation": "The falciform ligament separates the right and left lobes on the front.",
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "liver-double-supply",
+   "prompt": "The liver gets blood from which two vessels?",
+   "answers": [
+    "The hepatic artery and the hepatic portal vein",
+    "Hepatic artery and portal vein"
+   ],
+   "wrong": [
+    "The hepatic artery and the inferior vena cava",
+    "The portal vein and the hepatic vein",
+    "The splenic and renal arteries"
+   ],
+   "explanation": "About 75% comes from the portal vein (nutrient-rich), 25% from the hepatic artery (oxygen-rich).",
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "hepatic-veins",
+   "prompt": "Where does blood leave the liver?",
+   "answers": [
+    "Through the hepatic veins into the inferior vena cava",
+    "Hepatic veins to the inferior vena cava",
+    "The hepatic veins"
+   ],
+   "wrong": [
+    "Through the portal vein to the heart",
+    "Through the bile duct",
+    "Through the hepatic artery"
+   ],
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "hepatocyte",
+   "prompt": "What is the main cell of the liver called?",
+   "answers": [
+    "Hepatocyte"
+   ],
+   "wrong": [
+    "Kupffer cell",
+    "Stellate cell",
+    "Cholangiocyte"
+   ],
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "kupffer",
+   "prompt": "Which cells in the liver sinusoids engulf old red blood cells and bacteria?",
+   "answers": [
+    "Kupffer cells"
+   ],
+   "wrong": [
+    "Hepatocytes",
+    "Stellate cells",
+    "Cholangiocytes"
+   ],
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "liver-lobule",
+   "prompt": "What is the six-sided functional unit of the liver, with a central vein at its middle, called?",
+   "answers": [
+    "Liver lobule",
+    "Hepatic lobule",
+    "Lobule"
+   ],
+   "wrong": [
+    "Acinus",
+    "Nephron",
+    "Alveolus"
+   ],
+   "explanation": "Portal triads (a branch each of the portal vein, hepatic artery and bile duct) sit at its corners.",
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "liver-functions",
+   "prompt": "Which of these is NOT a function of the liver?",
+   "answers": [
+    "Making insulin",
+    "Insulin production"
+   ],
+   "wrong": [
+    "Making bile",
+    "Making clotting factors",
+    "Removing toxins"
+   ],
+   "explanation": "Insulin comes from the beta cells of the pancreas. The liver does store glycogen and respond to insulin.",
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "bile-makes",
+   "prompt": "What is the main job of bile?",
+   "answers": [
+    "To emulsify fats",
+    "Emulsifying fat",
+    "Break fat into small droplets"
+   ],
+   "wrong": [
+    "To digest proteins",
+    "To neutralise acid only",
+    "To digest starch"
+   ],
+   "explanation": "Bile salts break large fat drops into small ones, giving lipase more surface to work on. Bile has no enzymes.",
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "bilirubin",
+   "prompt": "What yellow pigment from the breakdown of haemoglobin, removed by the liver in bile, builds up in jaundice?",
+   "answers": [
+    "Bilirubin"
+   ],
+   "wrong": [
+    "Biliverdin",
+    "Stercobilin",
+    "Urobilin"
+   ],
+   "explanation": "Jaundice is the yellowing of the skin and the whites of the eyes.",
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "jaundice",
+   "prompt": "What is yellowing of the skin and eyes from raised bilirubin called?",
+   "answers": [
+    "Jaundice",
+    "Icterus"
+   ],
+   "wrong": [
+    "Cyanosis",
+    "Pallor",
+    "Erythema"
+   ],
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "hepatitis",
+   "prompt": "What is inflammation of the liver called?",
+   "answers": [
+    "Hepatitis"
+   ],
+   "wrong": [
+    "Cirrhosis",
+    "Cholecystitis",
+    "Pancreatitis"
+   ],
+   "explanation": "Often from viruses (A, B, C), alcohol or drugs.",
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "cirrhosis",
+   "prompt": "What is the replacement of liver tissue by scar tissue, which blocks blood flow through it, called?",
+   "answers": [
+    "Cirrhosis"
+   ],
+   "wrong": [
+    "Hepatitis",
+    "Steatosis",
+    "Hepatoma"
+   ],
+   "explanation": "Common causes are alcohol, hepatitis B and C and fatty liver disease.",
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "portal-hypertension",
+   "prompt": "In cirrhosis, raised pressure in the portal vein can cause swollen veins at the lower end of the oesophagus. What are they called?",
+   "answers": [
+    "Oesophageal varices",
+    "Esophageal varices"
+   ],
+   "wrong": [
+    "Haemorrhoids",
+    "Varicocele",
+    "Diverticula"
+   ],
+   "explanation": "They can burst and bleed heavily.",
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "liver-regenerate",
+   "prompt": "What is unusual about the liver's response to damage?",
+   "answers": [
+    "It can regrow",
+    "It can regenerate",
+    "It regenerates"
+   ],
+   "wrong": [
+    "It can never repair itself",
+    "It makes new neurons",
+    "It makes new bone"
+   ],
+   "explanation": "A person can lose up to two thirds of it and it regrows within weeks.",
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "id-gallbladder",
+   "prompt": "Which organ is highlighted in red?",
+   "answers": [
+    "Gallbladder"
+   ],
+   "wrong": [
+    "Liver",
+    "Duodenum",
+    "Pancreas"
+   ],
+   "explanation": "A small pear-shaped bag tucked under the liver on the right.",
+   "figure": {
+    "src": "data/figures/anatomy/d-gallbladder.webp",
+    "alt": "The digestive organs inside the trunk, with one in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the organ",
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "gallbladder-job",
+   "prompt": "What is the job of the gallbladder?",
+   "answers": [
+    "To store and concentrate bile",
+    "Store and concentrate bile"
+   ],
+   "wrong": [
+    "To make bile",
+    "To make insulin",
+    "To digest fat"
+   ],
+   "explanation": "The liver makes bile all the time; the gallbladder holds it between meals and squeezes it out when fat arrives in the duodenum.",
+   "figure": {
+    "src": "data/figures/anatomy/d-gallbladder.webp",
+    "alt": "The digestive organs, with the gallbladder in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "gallstones",
+   "prompt": "What can block the bile duct and cause pain, usually after a fatty meal?",
+   "answers": [
+    "Gallstones"
+   ],
+   "wrong": [
+    "Kidney stones",
+    "Polyps",
+    "Cysts"
+   ],
+   "explanation": "Mostly cholesterol. Removing the gallbladder (cholecystectomy) is a common operation.",
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "bile-duct",
+   "prompt": "Which duct carries bile from the liver and gallbladder to the duodenum?",
+   "answers": [
+    "The common bile duct",
+    "Common bile duct"
+   ],
+   "wrong": [
+    "The pancreatic duct",
+    "The cystic duct only",
+    "The hepatic duct only"
+   ],
+   "explanation": "It's formed by the cystic duct (from the gallbladder) and the common hepatic duct (from the liver).",
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "cystic-duct",
+   "prompt": "Which duct joins the gallbladder to the common hepatic duct?",
+   "answers": [
+    "Cystic duct"
+   ],
+   "wrong": [
+    "Common bile duct",
+    "Pancreatic duct",
+    "Right hepatic duct"
+   ],
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "oddi",
+   "prompt": "What controls the flow of bile and pancreatic juice into the duodenum?",
+   "answers": [
+    "The sphincter of Oddi",
+    "Sphincter of Oddi",
+    "Hepatopancreatic sphincter"
+   ],
+   "wrong": [
+    "The pyloric sphincter",
+    "The ileocaecal valve",
+    "The cardiac sphincter"
+   ],
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "id-pancreas",
+   "prompt": "Which organ is highlighted in red?",
+   "answers": [
+    "Pancreas"
+   ],
+   "wrong": [
+    "Liver",
+    "Spleen",
+    "Duodenum"
+   ],
+   "explanation": "A long gland behind the stomach, with its head in the curve of the duodenum and its tail towards the spleen.",
+   "figure": {
+    "src": "data/figures/anatomy/d-pancreas.webp",
+    "alt": "The digestive organs inside the trunk, with one in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the organ",
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "pancreas-both",
+   "prompt": "Why is the pancreas called both an exocrine and an endocrine gland?",
+   "answers": [
+    "It makes digestive enzymes (exocrine) and hormones such as insulin (endocrine)",
+    "Enzymes and hormones"
+   ],
+   "wrong": [
+    "It makes bile and insulin",
+    "It makes only hormones",
+    "It makes only enzymes"
+   ],
+   "explanation": "The exocrine part makes most of the gland; the islets of Langerhans are the endocrine part.",
+   "figure": {
+    "src": "data/figures/anatomy/d-pancreas.webp",
+    "alt": "The digestive organs, with the pancreas in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "id-pancreatic-duct",
+   "prompt": "Which structure is highlighted in red?",
+   "answers": [
+    "Pancreatic duct",
+    "Duct of Wirsung",
+    "Main pancreatic duct"
+   ],
+   "wrong": [
+    "Common bile duct",
+    "Cystic duct",
+    "Hepatic duct"
+   ],
+   "explanation": "The main duct running along the pancreas from tail to head, to join the bile duct before it enters the duodenum.",
+   "figure": {
+    "src": "data/figures/anatomy/d-pancreatic-duct.webp",
+    "alt": "The digestive organs inside the trunk, with one in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the organ",
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "pancreatic-enzymes",
+   "prompt": "Which three groups of food do the pancreatic enzymes digest?",
+   "answers": [
+    "Carbohydrates, proteins and fats",
+    "Carbohydrate, protein and fat"
+   ],
+   "wrong": [
+    "Proteins and vitamins only",
+    "Fats and minerals",
+    "Carbohydrates and vitamins"
+   ],
+   "explanation": "Amylase for starch, trypsin and chymotrypsin for protein, lipase for fat.",
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "lipase",
+   "prompt": "Which enzyme, made mostly by the pancreas, digests fat?",
+   "answers": [
+    "Pancreatic lipase",
+    "Lipase"
+   ],
+   "wrong": [
+    "Amylase",
+    "Trypsin",
+    "Pepsin"
+   ],
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "trypsinogen",
+   "prompt": "Why does the pancreas make trypsin as inactive trypsinogen?",
+   "answers": [
+    "To stop it digesting the pancreas itself",
+    "So it doesn't digest the pancreas"
+   ],
+   "wrong": [
+    "To save energy",
+    "So it can be stored in the liver",
+    "Because it needs bile to work"
+   ],
+   "explanation": "Enterokinase in the duodenum activates it.",
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "pancreatitis",
+   "prompt": "What is inflammation of the pancreas, often from gallstones or alcohol, called?",
+   "answers": [
+    "Pancreatitis"
+   ],
+   "wrong": [
+    "Hepatitis",
+    "Cholecystitis",
+    "Gastritis"
+   ],
+   "explanation": "The enzymes digest the gland itself, causing severe pain in the upper abdomen.",
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "islets",
+   "prompt": "Which hormones do the islets of Langerhans make?",
+   "answers": [
+    "Insulin and glucagon",
+    "Insulin, glucagon and somatostatin"
+   ],
+   "wrong": [
+    "Cortisol and adrenaline",
+    "Gastrin and secretin",
+    "Thyroxine and calcitonin"
+   ],
+   "explanation": "Beta cells make insulin and alpha cells glucagon.",
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "id-spleen",
+   "prompt": "Which organ is highlighted in red?",
+   "answers": [
+    "Spleen"
+   ],
+   "wrong": [
+    "Left kidney",
+    "Pancreas",
+    "Stomach"
+   ],
+   "explanation": "A soft, fist-sized organ in the upper left of the abdomen, tucked under the ribs behind the stomach. It's part of the lymphatic system, not the digestive.",
+   "figure": {
+    "src": "data/figures/anatomy/d-spleen.webp",
+    "alt": "The digestive organs inside the trunk, with one in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the organ",
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "spleen-job",
+   "prompt": "What does the spleen do?",
+   "answers": [
+    "Filters the blood and removes old red cells",
+    "Filters the blood, removes old red blood cells and stores platelets"
+   ],
+   "wrong": [
+    "Makes bile",
+    "Makes insulin",
+    "Absorbs nutrients"
+   ],
+   "explanation": "It also stores platelets and makes immune responses to germs in the blood. A person can live without it, but is more at risk of infection.",
+   "figure": {
+    "src": "data/figures/anatomy/d-spleen.webp",
+    "alt": "The digestive organs and spleen, with the spleen in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Liver, gallbladder and pancreas"
+   ]
+  },
+  {
+   "id": "carb-digest",
+   "prompt": "What are the end products of carbohydrate digestion?",
+   "answers": [
+    "Monosaccharides (glucose, fructose and galactose)",
+    "Glucose, fructose and galactose",
+    "Monosaccharides"
+   ],
+   "wrong": [
+    "Amino acids",
+    "Fatty acids and glycerol",
+    "Disaccharides"
+   ],
+   "tags": [
+    "Chemical digestion"
+   ]
+  },
+  {
+   "id": "protein-digest",
+   "prompt": "What are the end products of protein digestion?",
+   "answers": [
+    "Amino acids",
+    "Amino acids (with some small peptides)"
+   ],
+   "wrong": [
+    "Glucose",
+    "Fatty acids and glycerol",
+    "Nucleotides"
+   ],
+   "explanation": "Pepsin in the stomach starts it; the pancreas and brush border finish it.",
+   "tags": [
+    "Chemical digestion"
+   ]
+  },
+  {
+   "id": "fat-digest",
+   "prompt": "What are the end products of fat digestion?",
+   "answers": [
+    "Fatty acids and monoglycerides",
+    "Fatty acids and glycerol"
+   ],
+   "wrong": [
+    "Glucose",
+    "Amino acids",
+    "Cholesterol only"
+   ],
+   "explanation": "They are absorbed into the cells and made back into triglycerides in chylomicrons.",
+   "tags": [
+    "Chemical digestion"
+   ]
+  },
+  {
+   "id": "pepsin-ph",
+   "prompt": "Pepsin works best in acid. Which enzyme works best in the alkaline conditions of the small intestine?",
+   "answers": [
+    "Pancreatic amylase",
+    "Trypsin",
+    "Pancreatic lipase"
+   ],
+   "wrong": [
+    "Pepsin",
+    "Gastric lipase",
+    "Salivary amylase"
+   ],
+   "explanation": "Bicarbonate from the pancreas neutralises the acid chyme.",
+   "tags": [
+    "Chemical digestion"
+   ]
+  },
+  {
+   "id": "amylase-where",
+   "prompt": "Which two organs make amylase?",
+   "answers": [
+    "The salivary glands and the pancreas",
+    "Salivary glands and pancreas"
+   ],
+   "wrong": [
+    "The stomach and liver",
+    "The liver and gallbladder",
+    "The stomach and duodenum"
+   ],
+   "tags": [
+    "Chemical digestion"
+   ]
+  },
+  {
+   "id": "fat-soluble",
+   "prompt": "Which four vitamins are fat-soluble and need bile to be absorbed?",
+   "answers": [
+    "A, D, E and K",
+    "Vitamins A, D, E and K"
+   ],
+   "wrong": [
+    "B, C, D and K",
+    "A, B, C and D",
+    "B, C, E and K"
+   ],
+   "tags": [
+    "Chemical digestion"
+   ]
+  },
+  {
+   "id": "chylomicron",
+   "prompt": "Fats absorbed in the small intestine are carried in particles called what?",
+   "answers": [
+    "Chylomicrons"
+   ],
+   "wrong": [
+    "LDL",
+    "HDL",
+    "Micelles"
+   ],
+   "explanation": "They go into the lacteals and the lymph, then into the blood at the thoracic duct.",
+   "tags": [
+    "Chemical digestion"
+   ]
+  },
+  {
+   "id": "water-absorb",
+   "prompt": "Where is most of the water of the digestive tract absorbed?",
+   "answers": [
+    "The small intestine",
+    "Small intestine"
+   ],
+   "wrong": [
+    "The stomach",
+    "The large intestine",
+    "The oesophagus"
+   ],
+   "explanation": "About 8 to 9 litres a day enter the gut (food, drink and secretions); 7 to 8 are absorbed in the small intestine.",
+   "tags": [
+    "Chemical digestion"
+   ]
+  },
+  {
+   "id": "portal-nutrients",
+   "prompt": "Where do most absorbed sugars and amino acids go first?",
+   "answers": [
+    "To the liver through the hepatic portal vein",
+    "The liver, by the portal vein"
+   ],
+   "wrong": [
+    "Straight to the heart",
+    "Into the lymph",
+    "To the kidneys"
+   ],
+   "explanation": "The liver processes, stores and releases them as needed.",
+   "tags": [
+    "Chemical digestion"
+   ]
+  },
+  {
+   "id": "glycogen",
+   "prompt": "In what form does the liver store glucose?",
+   "answers": [
+    "Glycogen"
+   ],
+   "wrong": [
+    "Starch",
+    "Cellulose",
+    "Triglyceride"
+   ],
+   "explanation": "About 100 g, enough for about a day without eating.",
+   "tags": [
+    "Chemical digestion"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Name the organ",
+   "count": 15,
+   "pass": 80,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Name the organ"
+   ],
+   "why": "Fifteen pictures of the digestive organs, each with one in red to name."
+  },
+  {
+   "name": "Chapter quiz",
+   "count": 30,
+   "pass": 75,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "end",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Thirty questions from the whole chapter, marked at the end, like an end-of-unit test."
+  },
+  {
+   "name": "Recall without choices",
+   "count": 20,
+   "pass": 75,
+   "pick": "due",
+   "answer": "typed",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Type each answer from memory, starting with the ones due for review. Small typos are forgiven."
+  }
+ ]
+}
