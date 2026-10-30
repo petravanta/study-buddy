@@ -1,0 +1,1159 @@
+{
+ "id": "anatomy-endocrine",
+ "name": "Endocrine system",
+ "module": "Human anatomy",
+ "description": "The endocrine glands and their hormones: the pituitary and hypothalamus, thyroid and parathyroids, adrenals, pancreas, thymus, pineal and gonads, how they are controlled by feedback, and common disorders. Picture questions show the glands, with one part highlighted to name. BodyParts3D has no thyroid, parathyroid or ovary models, so those are text questions.",
+ "source": {
+  "name": "Written for Study Buddy. Pictures rendered from BodyParts3D (© The Database Center for Life Science, CC BY-SA 2.1 JP).",
+  "url": "https://github.com/petravanta/study-buddy/tree/main/scripts/bodyparts3d"
+ },
+ "updated": "2026-10-30",
+ "questions": [
+  {
+   "id": "endocrine-def",
+   "prompt": "What is the main difference between endocrine and exocrine glands?",
+   "answers": [
+    "Endocrine glands release hormones into the blood; exocrine glands release secretions through ducts",
+    "Endocrine glands have no ducts and release hormones into the blood"
+   ],
+   "wrong": [
+    "Endocrine glands release secretions through ducts onto surfaces",
+    "Endocrine glands are only in the brain",
+    "Exocrine glands make hormones"
+   ],
+   "explanation": "Sweat, saliva and digestive juices are exocrine.",
+   "figure": {
+    "src": "data/figures/anatomy/e-system.webp",
+    "alt": "The thymus, pancreas, adrenals and testes in the trunk, in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "hormone-def",
+   "prompt": "What is a hormone?",
+   "answers": [
+    "A chemical messenger carried in the blood to target cells",
+    "A chemical messenger released into the blood"
+   ],
+   "wrong": [
+    "A nerve impulse carried along an axon",
+    "An enzyme made by the stomach",
+    "A protein that fights infection"
+   ],
+   "explanation": "Only cells with the right receptor respond.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "steroid-peptide",
+   "prompt": "Which of these hormones is a steroid, made from cholesterol?",
+   "answers": [
+    "Cortisol",
+    "Oestrogen"
+   ],
+   "wrong": [
+    "Insulin",
+    "Growth hormone",
+    "Adrenaline"
+   ],
+   "explanation": "Steroids cross the cell membrane and act on genes. Peptide hormones bind to receptors on the surface.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "master-gland",
+   "prompt": "Which gland is called the 'master gland' because it controls many others?",
+   "answers": [
+    "Pituitary gland",
+    "Pituitary"
+   ],
+   "wrong": [
+    "Thyroid gland",
+    "Pineal gland",
+    "Adrenal gland"
+   ],
+   "explanation": "But the hypothalamus above it controls the pituitary.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "id-hypothalamus",
+   "prompt": "Which structure is highlighted in red?",
+   "answers": [
+    "Hypothalamus"
+   ],
+   "wrong": [
+    "Thalamus",
+    "Pituitary gland",
+    "Pineal gland"
+   ],
+   "explanation": "It links the nervous and endocrine systems. It makes releasing hormones, ADH and oxytocin.",
+   "figure": {
+    "src": "data/figures/anatomy/b-hypothalamus.webp",
+    "alt": "The brain from the left side, with the hypothalamus in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "id-pituitary",
+   "prompt": "Which gland is highlighted in red?",
+   "answers": [
+    "Pituitary gland",
+    "Pituitary",
+    "Hypophysis"
+   ],
+   "wrong": [
+    "Pineal gland",
+    "Hypothalamus",
+    "Thyroid gland"
+   ],
+   "explanation": "About the size of a pea, in the sella turcica of the sphenoid bone, hanging from the hypothalamus.",
+   "figure": {
+    "src": "data/figures/anatomy/b-pituitary.webp",
+    "alt": "The brain from the left side, with the pituitary gland in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "pituitary-lobes",
+   "prompt": "Which two lobes does the pituitary gland have?",
+   "answers": [
+    "Anterior and posterior",
+    "Anterior (adenohypophysis) and posterior (neurohypophysis)"
+   ],
+   "wrong": [
+    "Left and right",
+    "Cortex and medulla",
+    "Superior and inferior"
+   ],
+   "explanation": "The anterior lobe makes its own hormones. The posterior lobe only stores and releases those made in the hypothalamus.",
+   "figure": {
+    "src": "data/figures/anatomy/b-pituitary.webp",
+    "alt": "The brain from the left side, with the pituitary gland in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "sella",
+   "prompt": "Which bone holds the pituitary gland in a hollow called the sella turcica?",
+   "answers": [
+    "Sphenoid bone",
+    "Sphenoid"
+   ],
+   "wrong": [
+    "Ethmoid bone",
+    "Temporal bone",
+    "Occipital bone"
+   ],
+   "explanation": "Its name means 'Turkish saddle'.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "anterior-hormones",
+   "prompt": "Which of these is NOT released by the anterior pituitary?",
+   "answers": [
+    "ADH",
+    "Antidiuretic hormone"
+   ],
+   "wrong": [
+    "Growth hormone",
+    "Prolactin",
+    "TSH"
+   ],
+   "explanation": "ADH and oxytocin are made in the hypothalamus and released from the posterior pituitary.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "gh",
+   "prompt": "Which anterior pituitary hormone makes children grow, by acting on bone and liver?",
+   "answers": [
+    "Growth hormone",
+    "GH",
+    "Somatotropin"
+   ],
+   "wrong": [
+    "TSH",
+    "ACTH",
+    "Prolactin"
+   ],
+   "explanation": "Too much in a child gives gigantism; in an adult, acromegaly.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "tsh",
+   "prompt": "Which pituitary hormone makes the thyroid release thyroid hormones?",
+   "answers": [
+    "TSH",
+    "Thyroid-stimulating hormone"
+   ],
+   "wrong": [
+    "ACTH",
+    "FSH",
+    "GH"
+   ],
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "acth",
+   "prompt": "Which pituitary hormone makes the adrenal cortex release cortisol?",
+   "answers": [
+    "ACTH",
+    "Adrenocorticotropic hormone",
+    "Adrenocorticotropin"
+   ],
+   "wrong": [
+    "TSH",
+    "ADH",
+    "LH"
+   ],
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "prolactin",
+   "prompt": "Which pituitary hormone makes the breast produce milk?",
+   "answers": [
+    "Prolactin"
+   ],
+   "wrong": [
+    "Oxytocin",
+    "Oestrogen",
+    "GH"
+   ],
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "oxytocin-endo",
+   "prompt": "Which posterior pituitary hormone makes the uterus contract in labour and milk flow from the breast?",
+   "answers": [
+    "Oxytocin"
+   ],
+   "wrong": [
+    "Prolactin",
+    "ADH",
+    "FSH"
+   ],
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "adh-endo",
+   "prompt": "Which posterior pituitary hormone makes the kidney keep water?",
+   "answers": [
+    "ADH",
+    "Antidiuretic hormone",
+    "Vasopressin"
+   ],
+   "wrong": [
+    "Aldosterone",
+    "Oxytocin",
+    "Renin"
+   ],
+   "explanation": "Lack of it causes diabetes insipidus, with a lot of dilute urine.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "portal",
+   "prompt": "How do hypothalamic releasing hormones reach the anterior pituitary?",
+   "answers": [
+    "Through a small portal system of blood vessels",
+    "In the hypophyseal portal blood vessels"
+   ],
+   "wrong": [
+    "Along nerve fibres",
+    "Through the cerebrospinal fluid",
+    "Through the lymph"
+   ],
+   "explanation": "The posterior pituitary, in contrast, is joined to the hypothalamus by nerve fibres.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "id-pineal",
+   "prompt": "Which gland is highlighted in red?",
+   "answers": [
+    "Pineal gland",
+    "Pineal body",
+    "Pineal"
+   ],
+   "wrong": [
+    "Pituitary gland",
+    "Thalamus",
+    "Hypothalamus"
+   ],
+   "explanation": "A tiny gland above the midbrain, which makes melatonin.",
+   "figure": {
+    "src": "data/figures/anatomy/b-pineal.webp",
+    "alt": "The brain from the left side, with the pineal gland in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "melatonin",
+   "prompt": "Which hormone, made by the pineal gland mostly at night, helps set the sleep rhythm?",
+   "answers": [
+    "Melatonin"
+   ],
+   "wrong": [
+    "Serotonin",
+    "Cortisol",
+    "Thyroxine"
+   ],
+   "explanation": "Light on the retina switches it off.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "thyroid-where",
+   "prompt": "Where is the thyroid gland?",
+   "answers": [
+    "In the front of the neck, on either side of the trachea below the larynx",
+    "In the neck, in front of the trachea"
+   ],
+   "wrong": [
+    "Behind the sternum",
+    "Above the kidney",
+    "At the base of the brain"
+   ],
+   "explanation": "It has two lobes joined by a narrow isthmus, and weighs about 25 g. There is no model of it in the picture set.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "thyroid-hormones",
+   "prompt": "Which two main hormones does the thyroid release?",
+   "answers": [
+    "Thyroxine (T4) and triiodothyronine (T3)",
+    "T4 and T3"
+   ],
+   "wrong": [
+    "Insulin and glucagon",
+    "Cortisol and aldosterone",
+    "Calcitonin and parathyroid hormone"
+   ],
+   "explanation": "They set the body's metabolic rate.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "iodine",
+   "prompt": "Which mineral is needed to make thyroid hormones?",
+   "answers": [
+    "Iodine",
+    "Iodide"
+   ],
+   "wrong": [
+    "Iron",
+    "Calcium",
+    "Zinc"
+   ],
+   "explanation": "Lack of it makes the thyroid swell, which is called a goitre.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "calcitonin",
+   "prompt": "Which hormone from the thyroid's C cells lowers the blood calcium?",
+   "answers": [
+    "Calcitonin"
+   ],
+   "wrong": [
+    "Parathyroid hormone",
+    "Thyroxine",
+    "Calcitriol"
+   ],
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "parathyroid",
+   "prompt": "How many parathyroid glands are there, and where?",
+   "answers": [
+    "Usually four, on the back of the thyroid",
+    "Four, behind the thyroid"
+   ],
+   "wrong": [
+    "Two, on top of the kidneys",
+    "Two, in the brain",
+    "One, in front of the trachea"
+   ],
+   "explanation": "They make parathyroid hormone (PTH), which raises the blood calcium.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "pth",
+   "prompt": "Which hormone raises the blood calcium by acting on bone, kidney and gut?",
+   "answers": [
+    "Parathyroid hormone",
+    "PTH"
+   ],
+   "wrong": [
+    "Calcitonin",
+    "Thyroxine",
+    "Insulin"
+   ],
+   "explanation": "The kidney turns vitamin D into calcitriol under its influence, so more calcium is absorbed.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "id-adrenals",
+   "prompt": "Which glands are highlighted in red?",
+   "answers": [
+    "Adrenal glands",
+    "Suprarenal glands",
+    "Adrenal gland"
+   ],
+   "wrong": [
+    "Kidneys",
+    "Thyroid glands",
+    "Pancreas"
+   ],
+   "explanation": "One sits on top of each kidney, like a cap.",
+   "figure": {
+    "src": "data/figures/anatomy/u-adrenals.webp",
+    "alt": "The adrenal glands, in red, above the kidneys",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "adrenal-layers",
+   "prompt": "What are the two main parts of an adrenal gland?",
+   "answers": [
+    "Cortex and medulla",
+    "Adrenal cortex and adrenal medulla"
+   ],
+   "wrong": [
+    "Lobes and isthmus",
+    "Anterior and posterior",
+    "Head and tail"
+   ],
+   "explanation": "The outer cortex makes steroids. The inner medulla makes adrenaline.",
+   "figure": {
+    "src": "data/figures/anatomy/u-adrenals.webp",
+    "alt": "The adrenal glands, in red, above the kidneys",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "cortisol",
+   "prompt": "Which adrenal cortex hormone helps the body cope with long-term stress, raising blood glucose and suppressing inflammation?",
+   "answers": [
+    "Cortisol"
+   ],
+   "wrong": [
+    "Adrenaline",
+    "Aldosterone",
+    "Insulin"
+   ],
+   "explanation": "Controlled by ACTH from the pituitary.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "aldosterone-endo",
+   "prompt": "Which adrenal cortex hormone makes the kidney keep sodium?",
+   "answers": [
+    "Aldosterone"
+   ],
+   "wrong": [
+    "Cortisol",
+    "ADH",
+    "Adrenaline"
+   ],
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "adrenaline",
+   "prompt": "Which hormone from the adrenal medulla prepares the body for 'fight or flight'?",
+   "answers": [
+    "Adrenaline",
+    "Epinephrine"
+   ],
+   "wrong": [
+    "Cortisol",
+    "Insulin",
+    "Thyroxine"
+   ],
+   "explanation": "It speeds the heart and widens the airways. It is released when the sympathetic nerves fire.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "id-pancreas",
+   "prompt": "Which organ is highlighted in red?",
+   "answers": [
+    "Pancreas",
+    "The pancreas"
+   ],
+   "wrong": [
+    "Spleen",
+    "Gallbladder",
+    "Duodenum"
+   ],
+   "explanation": "It lies behind the stomach, and is both an exocrine and an endocrine gland.",
+   "figure": {
+    "src": "data/figures/anatomy/d-pancreas.webp",
+    "alt": "The pancreas, in red, with the duodenum and spleen",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "islets",
+   "prompt": "What are the clusters of endocrine cells in the pancreas called?",
+   "answers": [
+    "Islets of Langerhans",
+    "Pancreatic islets"
+   ],
+   "wrong": [
+    "Acini",
+    "Follicles",
+    "Glomeruli"
+   ],
+   "explanation": "They make up only about 1 to 2% of the pancreas.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "insulin",
+   "prompt": "Which pancreatic hormone, made by beta cells, lowers the blood glucose?",
+   "answers": [
+    "Insulin"
+   ],
+   "wrong": [
+    "Glucagon",
+    "Cortisol",
+    "Somatostatin"
+   ],
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "glucagon",
+   "prompt": "Which pancreatic hormone, made by alpha cells, raises the blood glucose?",
+   "answers": [
+    "Glucagon"
+   ],
+   "wrong": [
+    "Insulin",
+    "Cortisol",
+    "Adrenaline"
+   ],
+   "explanation": "It makes the liver break down glycogen.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "id-thymus",
+   "prompt": "Which gland is highlighted in red?",
+   "answers": [
+    "Thymus",
+    "The thymus"
+   ],
+   "wrong": [
+    "Thyroid gland",
+    "Heart",
+    "Pituitary gland"
+   ],
+   "explanation": "It lies in the chest behind the sternum. It is large in children and shrinks in adults.",
+   "figure": {
+    "src": "data/figures/anatomy/e-thymus.webp",
+    "alt": "The thymus behind the sternum, in red, with the rib cage drawn see-through",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "thymus-job",
+   "prompt": "What is the thymus for?",
+   "answers": [
+    "T lymphocytes mature there",
+    "It is where T cells mature"
+   ],
+   "wrong": [
+    "It makes insulin",
+    "It makes red blood cells in adults",
+    "It filters the blood"
+   ],
+   "explanation": "It also makes the hormone thymosin.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "id-testes-endo",
+   "prompt": "Which organs are highlighted in red?",
+   "answers": [
+    "Testes",
+    "Testis",
+    "Testicles"
+   ],
+   "wrong": [
+    "Ovaries",
+    "Epididymides",
+    "Adrenal glands"
+   ],
+   "explanation": "As well as making sperm, they make testosterone.",
+   "figure": {
+    "src": "data/figures/anatomy/x-testes.webp",
+    "alt": "The testes in the scrotum, in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "ovaries-endo",
+   "prompt": "Which hormones do the ovaries make?",
+   "answers": [
+    "Oestrogen and progesterone",
+    "Estrogen and progesterone"
+   ],
+   "wrong": [
+    "Testosterone only",
+    "Insulin and glucagon",
+    "FSH and LH"
+   ],
+   "explanation": "FSH and LH come from the pituitary.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "kidney-hormones",
+   "prompt": "Which two hormones does the kidney make?",
+   "answers": [
+    "Erythropoietin and renin",
+    "Renin and erythropoietin"
+   ],
+   "wrong": [
+    "Insulin and glucagon",
+    "Cortisol and aldosterone",
+    "Thyroxine and calcitonin"
+   ],
+   "explanation": "It also activates vitamin D.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "heart-hormone",
+   "prompt": "Which hormone does the heart release when its atria are stretched, to lower blood volume?",
+   "answers": [
+    "Atrial natriuretic peptide",
+    "ANP"
+   ],
+   "wrong": [
+    "Aldosterone",
+    "Renin",
+    "ADH"
+   ],
+   "explanation": "It makes the kidneys lose sodium and water.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "gut-hormones",
+   "prompt": "Which hormone, made in the stomach, makes you feel hungry?",
+   "answers": [
+    "Ghrelin"
+   ],
+   "wrong": [
+    "Leptin",
+    "Insulin",
+    "Gastrin"
+   ],
+   "explanation": "Leptin, from fat cells, does the opposite.",
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "leptin",
+   "prompt": "Which hormone from fat cells tells the brain that there are energy stores?",
+   "answers": [
+    "Leptin"
+   ],
+   "wrong": [
+    "Ghrelin",
+    "Insulin",
+    "Glucagon"
+   ],
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "gastrin",
+   "prompt": "Which hormone from the stomach makes it release acid?",
+   "answers": [
+    "Gastrin"
+   ],
+   "wrong": [
+    "Secretin",
+    "Cholecystokinin",
+    "Insulin"
+   ],
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "cck",
+   "prompt": "Which hormone from the duodenum makes the gallbladder contract and the pancreas release enzymes?",
+   "answers": [
+    "Cholecystokinin",
+    "CCK"
+   ],
+   "wrong": [
+    "Gastrin",
+    "Ghrelin",
+    "Insulin"
+   ],
+   "tags": [
+    "Glands and their hormones"
+   ]
+  },
+  {
+   "id": "negative-feedback",
+   "prompt": "What kind of control keeps most hormone levels steady?",
+   "answers": [
+    "Negative feedback",
+    "Negative feedback loops"
+   ],
+   "wrong": [
+    "Positive feedback",
+    "Nervous reflex",
+    "Random release"
+   ],
+   "explanation": "A rise in the hormone's effect shuts off its release. Oxytocin in labour is a rare example of positive feedback.",
+   "tags": [
+    "Control and disorders"
+   ]
+  },
+  {
+   "id": "thyroid-axis",
+   "prompt": "In the control of the thyroid, which is the right order?",
+   "answers": [
+    "Hypothalamus (TRH), pituitary (TSH), thyroid (T3 and T4)",
+    "TRH, TSH, then T3 and T4"
+   ],
+   "wrong": [
+    "Thyroid, pituitary, hypothalamus",
+    "Pituitary (TRH), hypothalamus (TSH), thyroid",
+    "Hypothalamus, thyroid, pituitary"
+   ],
+   "explanation": "T3 and T4 then feed back to shut off TRH and TSH.",
+   "tags": [
+    "Control and disorders"
+   ]
+  },
+  {
+   "id": "glucose-control",
+   "prompt": "After a meal, which hormone makes the liver and muscle store glucose as glycogen?",
+   "answers": [
+    "Insulin"
+   ],
+   "wrong": [
+    "Glucagon",
+    "Adrenaline",
+    "Cortisol"
+   ],
+   "explanation": "Between meals glucagon does the opposite.",
+   "tags": [
+    "Control and disorders"
+   ]
+  },
+  {
+   "id": "diabetes-1",
+   "prompt": "What is the problem in type 1 diabetes?",
+   "answers": [
+    "The immune system destroys the beta cells, so there is no insulin",
+    "No insulin is made"
+   ],
+   "wrong": [
+    "The cells do not respond to insulin",
+    "The pancreas makes too much insulin",
+    "The liver makes too much glucagon"
+   ],
+   "explanation": "It usually starts in childhood and needs insulin injections.",
+   "tags": [
+    "Control and disorders"
+   ]
+  },
+  {
+   "id": "diabetes-2",
+   "prompt": "What is the main problem in type 2 diabetes?",
+   "answers": [
+    "The cells respond poorly to insulin (insulin resistance)",
+    "Insulin resistance"
+   ],
+   "wrong": [
+    "The beta cells are destroyed by the immune system",
+    "The pancreas makes no glucagon",
+    "The kidney loses glucose"
+   ],
+   "explanation": "It is linked with obesity, and usually starts in adults.",
+   "tags": [
+    "Control and disorders"
+   ]
+  },
+  {
+   "id": "diabetes-signs",
+   "prompt": "Which group of symptoms is typical of diabetes?",
+   "answers": [
+    "Thirst, passing a lot of urine, tiredness, weight loss",
+    "Thirst and frequent urination"
+   ],
+   "wrong": [
+    "Slow heart rate and weight gain",
+    "Cold intolerance and dry skin",
+    "Moon face and thin skin"
+   ],
+   "explanation": "The high blood glucose spills into the urine and drags water with it.",
+   "tags": [
+    "Control and disorders"
+   ]
+  },
+  {
+   "id": "hyperthyroid",
+   "prompt": "Which set of signs goes with an overactive thyroid (hyperthyroidism, as in Graves' disease)?",
+   "answers": [
+    "Weight loss, fast heart, sweating, heat intolerance, tremor",
+    "Weight loss, fast heartbeat, heat intolerance"
+   ],
+   "wrong": [
+    "Weight gain, slow heart, cold intolerance, tiredness",
+    "Moon face, thin skin, high blood pressure",
+    "Thirst and frequent urination"
+   ],
+   "tags": [
+    "Control and disorders"
+   ]
+  },
+  {
+   "id": "hypothyroid",
+   "prompt": "Which set of signs goes with an underactive thyroid (hypothyroidism)?",
+   "answers": [
+    "Weight gain, slow heart, cold intolerance, tiredness",
+    "Weight gain, tiredness, feeling cold"
+   ],
+   "wrong": [
+    "Weight loss, fast heart, heat intolerance, tremor",
+    "Thirst and weight loss",
+    "High blood pressure and moon face"
+   ],
+   "explanation": "In infants, untreated, it causes cretinism (congenital hypothyroidism), which is now found by newborn screening.",
+   "tags": [
+    "Control and disorders"
+   ]
+  },
+  {
+   "id": "goitre",
+   "prompt": "What is a swelling of the thyroid called?",
+   "answers": [
+    "Goitre",
+    "Goiter"
+   ],
+   "wrong": [
+    "Cyst",
+    "Cataract",
+    "Hernia"
+   ],
+   "explanation": "Most often from a lack of iodine.",
+   "tags": [
+    "Control and disorders"
+   ]
+  },
+  {
+   "id": "cushing",
+   "prompt": "Which condition comes from too much cortisol, with a round face, thin skin and high blood pressure?",
+   "answers": [
+    "Cushing's syndrome",
+    "Cushing syndrome"
+   ],
+   "wrong": [
+    "Addison's disease",
+    "Conn's syndrome",
+    "Graves' disease"
+   ],
+   "tags": [
+    "Control and disorders"
+   ]
+  },
+  {
+   "id": "addison",
+   "prompt": "Which condition comes from too little cortisol and aldosterone, with weakness, low blood pressure and dark skin?",
+   "answers": [
+    "Addison's disease",
+    "Addison disease"
+   ],
+   "wrong": [
+    "Cushing's syndrome",
+    "Graves' disease",
+    "Conn's syndrome"
+   ],
+   "explanation": "The dark skin is from high ACTH, which acts on melanocytes.",
+   "tags": [
+    "Control and disorders"
+   ]
+  },
+  {
+   "id": "acromegaly",
+   "prompt": "What happens when an adult makes too much growth hormone?",
+   "answers": [
+    "Acromegaly: the hands, feet and face grow bigger",
+    "Acromegaly"
+   ],
+   "wrong": [
+    "Gigantism",
+    "Dwarfism",
+    "Cretinism"
+   ],
+   "explanation": "Usually from a pituitary tumour. In a child, with the growth plates still open, it gives gigantism.",
+   "tags": [
+    "Control and disorders"
+   ]
+  },
+  {
+   "id": "diabetes-insipidus",
+   "prompt": "Lack of which hormone causes diabetes insipidus, with large amounts of dilute urine?",
+   "answers": [
+    "ADH",
+    "Antidiuretic hormone",
+    "Vasopressin"
+   ],
+   "wrong": [
+    "Insulin",
+    "Aldosterone",
+    "Cortisol"
+   ],
+   "explanation": "It has nothing to do with blood sugar.",
+   "tags": [
+    "Control and disorders"
+   ]
+  },
+  {
+   "id": "hypercalcaemia",
+   "prompt": "Overactive parathyroid glands cause which change in the blood?",
+   "answers": [
+    "A high calcium level",
+    "Hypercalcaemia"
+   ],
+   "wrong": [
+    "A low calcium level",
+    "A high glucose level",
+    "A low sodium level"
+   ],
+   "explanation": "'Stones, bones, groans and moans': kidney stones, bone pain, abdominal pain and low mood.",
+   "tags": [
+    "Control and disorders"
+   ]
+  },
+  {
+   "id": "calcium-control",
+   "prompt": "What is the main controller of the blood calcium level?",
+   "answers": [
+    "Parathyroid hormone",
+    "PTH"
+   ],
+   "wrong": [
+    "Insulin",
+    "Thyroxine",
+    "Growth hormone"
+   ],
+   "explanation": "With calcitonin and vitamin D helping.",
+   "tags": [
+    "Control and disorders"
+   ]
+  },
+  {
+   "id": "target-cell",
+   "prompt": "What decides which cells respond to a hormone?",
+   "answers": [
+    "Whether they have receptors for it",
+    "They have the right receptors"
+   ],
+   "wrong": [
+    "How close they are to the gland",
+    "Whether they have a nerve supply",
+    "The size of the cell"
+   ],
+   "tags": [
+    "Control and disorders"
+   ]
+  },
+  {
+   "id": "fight-flight",
+   "prompt": "Which part of the nervous system is linked to the adrenal medulla?",
+   "answers": [
+    "The sympathetic nervous system",
+    "Sympathetic"
+   ],
+   "wrong": [
+    "The parasympathetic system",
+    "The somatic system",
+    "The enteric system"
+   ],
+   "explanation": "Its cells are like modified sympathetic neurons.",
+   "tags": [
+    "Control and disorders"
+   ]
+  },
+  {
+   "id": "circadian",
+   "prompt": "Where in the hypothalamus is the body's main clock?",
+   "answers": [
+    "The suprachiasmatic nucleus",
+    "Suprachiasmatic nucleus"
+   ],
+   "wrong": [
+    "The mammillary bodies",
+    "The supraoptic nucleus",
+    "The arcuate nucleus"
+   ],
+   "explanation": "It sits above the optic chiasm and gets light signals from the eyes.",
+   "tags": [
+    "Control and disorders"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Name the part",
+   "count": 7,
+   "pass": 80,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Name the part"
+   ],
+   "why": "Pictures of the endocrine glands, each with one part in red to name."
+  },
+  {
+   "name": "Chapter quiz",
+   "count": 30,
+   "pass": 75,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "end",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Thirty questions from the whole chapter, marked at the end, like an end-of-unit test."
+  },
+  {
+   "name": "Recall without choices",
+   "count": 20,
+   "pass": 75,
+   "pick": "due",
+   "answer": "typed",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Type each answer from memory, starting with the ones due for review. Small typos are forgiven."
+  }
+ ]
+}
