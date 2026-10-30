@@ -15,6 +15,8 @@ BRAIN = [i for i, _, k in P if k == 'brain']
 ARTERIES = [i for i, _, k in P if k == 'artery']
 VEINS = [i for i, _, k in P if k == 'vein']
 HEART = [i for i, _, k in P if k == 'heart']
+LUNGS = [i for i, _, k in P if k == 'lung']
+AIRWAYS = [i for i, _, k in P if k == 'airway']
 SKULL = ids(r'^(frontal|occipital|sphenoid) bone$', r'temporal bone', r'parietal bone', r'^ethmoid$', r'^mandible$', r'zygomatic bone', r'lacrimal', r'nasal bone', r'maxilla', r'palatine', r'concha', r'^vomer$', r'tooth')
 NECK = ids(r'^atlas$', r'^axis$', r'(third|fourth|fifth) cervical', r'^hyoid bone$')
 COLUMN = ids(r'vertebra$', r'^atlas$', r'^axis$', r'^sacrum$', r'intervertebral')
@@ -102,7 +104,7 @@ foot('cuneiforms', r'right \w+ cuneiform')
 foot('tarsals', r'right (talus|calcaneus|cuboid bone)$', r'navicular bone of right', r'right \w+ cuneiform')
 foot('metatarsals', r'right \w+ metatarsal')
 foot('foot-phalanges', r'phalanx of right (big|second|third|fourth|little) toe')
-for _f in ('muscles.py', 'nervous.py', 'cardio.py'): exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), _f)).read())
+for _f in ('muscles.py', 'nervous.py', 'cardio.py', 'resp.py'): exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), _f)).read())
 if __name__ == '__main__':
     only = sys.argv[1:]
     json.dump({k: v for k, v in J.items() if not only or k in only}, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'jobs.json'), 'w'))
