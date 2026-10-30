@@ -1,15 +1,16 @@
-# Picture jobs for the skeletal chapter: which BodyParts3D parts to colour, and from where to look.
+# Picture jobs for the anatomy chapters: which BodyParts3D parts to colour, and from where to look.
 import json, os, re, sys
-P = [l.split('\t') for l in open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'parts.tsv')).read().strip().split('\n')]
+P = [(l.split('\t') + ['bone'])[:3] for l in open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'parts.tsv')).read().strip().split('\n')]
 def ids(*pats):
     out = []
     for pat in pats:
         r = re.compile(pat)
-        m = [i for i, n in P if r.search(n)]
+        m = [i for i, n, _ in P if r.search(n)]
         if not m: sys.exit('no part matches ' + pat)
         out += m
     return out
-ALL = [i for i, _ in P]
+ALL = [i for i, _, k in P if k in ('bone', 'cartilage')]  # the skeleton
+MUSCLES = [i for i, _, k in P if k in ('muscle', 'tendon')]
 SKULL = ids(r'^(frontal|occipital|sphenoid) bone$', r'temporal bone', r'parietal bone', r'^ethmoid$', r'^mandible$', r'zygomatic bone', r'lacrimal', r'nasal bone', r'maxilla', r'palatine', r'concha', r'^vomer$', r'tooth')
 NECK = ids(r'^atlas$', r'^axis$', r'(third|fourth|fifth) cervical', r'^hyoid bone$')
 COLUMN = ids(r'vertebra$', r'^atlas$', r'^axis$', r'^sacrum$', r'intervertebral')
@@ -97,6 +98,7 @@ foot('cuneiforms', r'right \w+ cuneiform')
 foot('tarsals', r'right (talus|calcaneus|cuboid bone)$', r'navicular bone of right', r'right \w+ cuneiform')
 foot('metatarsals', r'right \w+ metatarsal')
 foot('foot-phalanges', r'phalanx of right (big|second|third|fourth|little) toe')
+exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'muscles.py')).read())
 if __name__ == '__main__':
     only = sys.argv[1:]
     json.dump({k: v for k, v in J.items() if not only or k in only}, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'jobs.json'), 'w'))
