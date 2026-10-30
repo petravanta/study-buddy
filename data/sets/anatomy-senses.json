@@ -1,0 +1,1221 @@
+{
+ "id": "anatomy-senses",
+ "name": "Special senses",
+ "module": "Human anatomy",
+ "description": "The eye and vision, the ear, hearing and balance, and smell, taste and touch: structures, how each sense works, the nerves that carry it and common disorders. Pictures show the eyeballs, optic nerves, outer ear and nasal cartilages to name; BodyParts3D has no lens, retina, inner ear, ossicles or tongue models, so those are text questions.",
+ "source": {
+  "name": "Written for Study Buddy. Pictures rendered from BodyParts3D (© The Database Center for Life Science, CC BY-SA 2.1 JP).",
+  "url": "https://github.com/petravanta/study-buddy/tree/main/scripts/bodyparts3d"
+ },
+ "updated": "2026-10-30",
+ "questions": [
+  {
+   "id": "id-eyeballs",
+   "prompt": "Which organs are highlighted in red?",
+   "answers": [
+    "Eyeballs",
+    "Eyes",
+    "Eyeball"
+   ],
+   "wrong": [
+    "Optic nerves",
+    "Lacrimal glands",
+    "Eyelids"
+   ],
+   "explanation": "Each eye sits in a bony socket, the orbit, cushioned by fat.",
+   "figure": {
+    "src": "data/figures/anatomy/s-eyes.webp",
+    "alt": "The two eyeballs, in red, in their sockets in the skull seen from the front",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "eye-orbit",
+   "prompt": "What is the bony socket that holds the eyeball called?",
+   "answers": [
+    "Orbit",
+    "Orbital cavity",
+    "The orbit"
+   ],
+   "wrong": [
+    "Sinus",
+    "Fossa",
+    "Foramen"
+   ],
+   "explanation": "Made of seven bones: frontal, zygomatic, maxilla, sphenoid, ethmoid, lacrimal and palatine.",
+   "figure": {
+    "src": "data/figures/anatomy/s-eyes.webp",
+    "alt": "The two eyeballs, in red, in their sockets",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "eye-tunics",
+   "prompt": "What are the three layers (tunics) of the wall of the eyeball, from outside in?",
+   "answers": [
+    "Fibrous (sclera and cornea), vascular (choroid, ciliary body, iris), neural (retina)",
+    "Sclera and cornea, uvea, retina"
+   ],
+   "wrong": [
+    "Retina, choroid, sclera",
+    "Cornea, retina, iris",
+    "Iris, lens, retina"
+   ],
+   "explanation": "Fibrous tunic, vascular tunic (uvea), nervous tunic.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "sclera",
+   "prompt": "What is the tough white outer coat of the eyeball called?",
+   "answers": [
+    "Sclera",
+    "The sclera"
+   ],
+   "wrong": [
+    "Cornea",
+    "Choroid",
+    "Conjunctiva"
+   ],
+   "explanation": "It gives the eye its shape, and the eye muscles attach to it.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "cornea",
+   "prompt": "What is the clear window at the front of the eye, which does most of the focusing, called?",
+   "answers": [
+    "Cornea",
+    "The cornea"
+   ],
+   "wrong": [
+    "Lens",
+    "Sclera",
+    "Conjunctiva"
+   ],
+   "explanation": "It supplies about two thirds of the eye's focusing power. It has no blood vessels.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "conjunctiva",
+   "prompt": "What is the thin clear membrane over the front of the eye and inside the eyelids called?",
+   "answers": [
+    "Conjunctiva"
+   ],
+   "wrong": [
+    "Cornea",
+    "Sclera",
+    "Retina"
+   ],
+   "explanation": "'Pink eye' is an inflammation of it.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "choroid",
+   "prompt": "Which dark, blood-rich layer between the sclera and the retina feeds the retina and absorbs stray light?",
+   "answers": [
+    "Choroid",
+    "The choroid"
+   ],
+   "wrong": [
+    "Sclera",
+    "Iris",
+    "Ciliary body"
+   ],
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "iris",
+   "prompt": "What is the coloured ring of muscle that controls the size of the pupil called?",
+   "answers": [
+    "Iris",
+    "The iris"
+   ],
+   "wrong": [
+    "Cornea",
+    "Ciliary body",
+    "Retina"
+   ],
+   "explanation": "The pupil is the hole in its centre.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "pupil",
+   "prompt": "What happens to the pupil in bright light?",
+   "answers": [
+    "It gets smaller (constricts)",
+    "It constricts"
+   ],
+   "wrong": [
+    "It gets larger (dilates)",
+    "It does not change",
+    "It moves to the side"
+   ],
+   "explanation": "The sphincter pupillae muscle contracts, supplied by the parasympathetic oculomotor nerve. In the dark, the sympathetic dilator pupillae widens it.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "lens",
+   "prompt": "Which clear, flexible structure behind the iris changes shape to focus on near and far objects?",
+   "answers": [
+    "Lens",
+    "The lens"
+   ],
+   "wrong": [
+    "Cornea",
+    "Vitreous body",
+    "Retina"
+   ],
+   "explanation": "There is no model of it in the picture set.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "accommodation",
+   "prompt": "To look at something close, what do the lens and ciliary muscle do?",
+   "answers": [
+    "The ciliary muscle contracts and the lens gets rounder",
+    "The lens becomes thicker and rounder"
+   ],
+   "wrong": [
+    "The ciliary muscle relaxes and the lens flattens",
+    "The pupil dilates only",
+    "The cornea flattens"
+   ],
+   "explanation": "For distance the ciliary muscle relaxes, the suspensory ligaments pull tight and the lens is flat.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "aqueous",
+   "prompt": "What is the watery fluid in the front of the eye, made by the ciliary body, called?",
+   "answers": [
+    "Aqueous humour",
+    "Aqueous humor"
+   ],
+   "wrong": [
+    "Vitreous humour",
+    "Tears",
+    "Cerebrospinal fluid"
+   ],
+   "explanation": "It drains through the canal of Schlemm. Blocked drainage raises the pressure, which is glaucoma.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "vitreous",
+   "prompt": "What is the clear jelly that fills the large space behind the lens called?",
+   "answers": [
+    "Vitreous humour",
+    "Vitreous body",
+    "Vitreous humor"
+   ],
+   "wrong": [
+    "Aqueous humour",
+    "Lens capsule",
+    "Choroid"
+   ],
+   "explanation": "It keeps the retina against the back of the eye.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "retina",
+   "prompt": "Which layer at the back of the eye holds the light-sensitive cells?",
+   "answers": [
+    "Retina",
+    "The retina"
+   ],
+   "wrong": [
+    "Choroid",
+    "Sclera",
+    "Cornea"
+   ],
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "rods-cones",
+   "prompt": "What is the difference between rods and cones?",
+   "answers": [
+    "Rods work in dim light; cones give colour vision and detail in bright light",
+    "Rods see in the dark; cones see colour"
+   ],
+   "wrong": [
+    "Rods see colour; cones see in the dark",
+    "Rods are in the lens; cones are in the retina",
+    "Rods detect sound; cones detect light"
+   ],
+   "explanation": "About 120 million rods and 6 million cones in each eye.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "fovea",
+   "prompt": "Which small pit in the macula, packed with cones, gives the sharpest vision?",
+   "answers": [
+    "Fovea",
+    "Fovea centralis"
+   ],
+   "wrong": [
+    "Optic disc",
+    "Pupil",
+    "Ciliary body"
+   ],
+   "explanation": "We turn the eye so that what we look at falls on it.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "blind-spot",
+   "prompt": "Why is there a blind spot where the optic nerve leaves the eye?",
+   "answers": [
+    "There are no rods or cones there",
+    "No photoreceptors at the optic disc"
+   ],
+   "wrong": [
+    "The lens blocks the light",
+    "The nerve is too thick",
+    "The cones cannot see there"
+   ],
+   "explanation": "The brain fills the gap, so we do not notice.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "colour-blind",
+   "prompt": "Which cells are affected in colour blindness?",
+   "answers": [
+    "Cones",
+    "The cones"
+   ],
+   "wrong": [
+    "Rods",
+    "Ganglion cells",
+    "Lens cells"
+   ],
+   "explanation": "Mostly in the red or green cones. More common in men, as the genes are on the X chromosome.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "vit-a",
+   "prompt": "Lack of which vitamin causes night blindness?",
+   "answers": [
+    "Vitamin A"
+   ],
+   "wrong": [
+    "Vitamin C",
+    "Vitamin D",
+    "Vitamin K"
+   ],
+   "explanation": "Needed to make rhodopsin, the pigment in the rods.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "id-optic-nerve",
+   "prompt": "Which structures are highlighted in red?",
+   "answers": [
+    "Optic nerves and tracts",
+    "Optic nerve",
+    "Optic nerves"
+   ],
+   "wrong": [
+    "Olfactory nerves",
+    "Oculomotor nerves",
+    "Trigeminal nerves"
+   ],
+   "explanation": "They carry the signals of the retina to the brain, crossing at the optic chiasm.",
+   "figure": {
+    "src": "data/figures/anatomy/b-optic-nerve-tract.webp",
+    "alt": "The optic nerves and tracts seen from below, in red, under the brain",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "visual-pathway",
+   "prompt": "What is the order of the visual pathway, from the eye to the cortex?",
+   "answers": [
+    "Optic nerve, chiasm, optic tract, lateral geniculate nucleus, visual cortex",
+    "Optic nerve, optic chiasm, optic tract, thalamus, occipital lobe"
+   ],
+   "wrong": [
+    "Optic nerve, thalamus, chiasm, tract, cortex",
+    "Optic tract, chiasm, nerve, cortex, thalamus",
+    "Optic nerve, chiasm, tract, cerebellum, cortex"
+   ],
+   "explanation": "The visual cortex is in the occipital lobe.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "chiasm-cross",
+   "prompt": "At the optic chiasm, which fibres cross to the other side?",
+   "answers": [
+    "Those from the nasal half of each retina",
+    "Fibres from the nasal retinas"
+   ],
+   "wrong": [
+    "All of them",
+    "Those from the temporal half of each retina",
+    "None of them"
+   ],
+   "explanation": "So each side of the brain sees the opposite half of the visual field.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "eye-muscles",
+   "prompt": "How many extraocular muscles move each eye?",
+   "answers": [
+    "Six",
+    "6"
+   ],
+   "wrong": [
+    "Two",
+    "Four",
+    "Eight"
+   ],
+   "explanation": "Four rectus (superior, inferior, medial, lateral) and two oblique (superior, inferior).",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "eye-muscle-nerves",
+   "prompt": "Which cranial nerves supply the eye muscles?",
+   "answers": [
+    "Oculomotor (III), trochlear (IV) and abducens (VI)",
+    "III, IV and VI"
+   ],
+   "wrong": [
+    "Optic (II), trigeminal (V) and facial (VII)",
+    "Facial (VII), vagus (X) and hypoglossal (XII)",
+    "Olfactory (I), optic (II) and oculomotor (III)"
+   ],
+   "explanation": "'LR6 SO4': the lateral rectus is supplied by VI, the superior oblique by IV, all the others by III.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "lacrimal",
+   "prompt": "Which gland above the outer corner of the eye makes tears?",
+   "answers": [
+    "Lacrimal gland",
+    "The lacrimal gland"
+   ],
+   "wrong": [
+    "Meibomian gland",
+    "Parotid gland",
+    "Sebaceous gland"
+   ],
+   "explanation": "Tears drain through the puncta into the nasolacrimal duct, to the nose.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "tears-job",
+   "prompt": "What are the jobs of tears?",
+   "answers": [
+    "They wash and moisten the eye, and kill germs with lysozyme",
+    "Moisten, clean and protect the cornea"
+   ],
+   "wrong": [
+    "They make the lens move",
+    "They carry blood to the cornea",
+    "They focus the light"
+   ],
+   "explanation": "The runny nose when we cry comes from the nasolacrimal duct.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "myopia",
+   "prompt": "In short sight (myopia), where does the light from a distant object focus?",
+   "answers": [
+    "In front of the retina",
+    "Before the retina"
+   ],
+   "wrong": [
+    "Behind the retina",
+    "On the retina",
+    "On the lens"
+   ],
+   "explanation": "The eyeball is too long. A concave lens corrects it.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "hyperopia",
+   "prompt": "In long sight (hyperopia), where does the light from a near object focus?",
+   "answers": [
+    "Behind the retina"
+   ],
+   "wrong": [
+    "In front of the retina",
+    "On the retina",
+    "On the lens"
+   ],
+   "explanation": "The eyeball is too short. A convex lens corrects it.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "cataract",
+   "prompt": "What is a clouding of the lens, common in older people, called?",
+   "answers": [
+    "Cataract"
+   ],
+   "wrong": [
+    "Glaucoma",
+    "Macular degeneration",
+    "Conjunctivitis"
+   ],
+   "explanation": "Treated by replacing the lens with an artificial one.",
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "glaucoma",
+   "prompt": "Which eye disease, caused by raised pressure that damages the optic nerve, first narrows the field of vision?",
+   "answers": [
+    "Glaucoma"
+   ],
+   "wrong": [
+    "Cataract",
+    "Retinal detachment",
+    "Conjunctivitis"
+   ],
+   "tags": [
+    "Eye and vision"
+   ]
+  },
+  {
+   "id": "id-ear",
+   "prompt": "Which part of the ear is highlighted in red?",
+   "answers": [
+    "Auricle",
+    "Pinna",
+    "Outer ear",
+    "External ear"
+   ],
+   "wrong": [
+    "Eardrum",
+    "Ear canal",
+    "Cochlea"
+   ],
+   "explanation": "The ear flap of elastic cartilage and skin. It collects the sound and directs it into the ear canal.",
+   "figure": {
+    "src": "data/figures/anatomy/s-ear.webp",
+    "alt": "The outer ear, in red, on the side of the head",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Ear, hearing and balance"
+   ]
+  },
+  {
+   "id": "ear-parts",
+   "prompt": "What are the three parts of the ear?",
+   "answers": [
+    "Outer, middle and inner ear",
+    "External, middle, internal"
+   ],
+   "wrong": [
+    "Auricle, canal and drum",
+    "Cochlea, canals and vestibule only",
+    "Outer, inner and deep ear"
+   ],
+   "explanation": "Only the inner ear, in the temporal bone, holds the receptors.",
+   "tags": [
+    "Ear, hearing and balance"
+   ]
+  },
+  {
+   "id": "canal",
+   "prompt": "What is the tube from the auricle to the eardrum, about 2.5 cm long, called?",
+   "answers": [
+    "External acoustic meatus",
+    "External auditory canal",
+    "Ear canal"
+   ],
+   "wrong": [
+    "Eustachian tube",
+    "Cochlear duct",
+    "Semicircular canal"
+   ],
+   "explanation": "It has hairs and wax glands.",
+   "tags": [
+    "Ear, hearing and balance"
+   ]
+  },
+  {
+   "id": "tympanic",
+   "prompt": "What does the tympanic membrane (eardrum) do?",
+   "answers": [
+    "It vibrates with the sound and passes it to the ossicles",
+    "Vibrates in response to sound"
+   ],
+   "wrong": [
+    "It makes earwax",
+    "It senses balance",
+    "It turns sound into nerve signals"
+   ],
+   "explanation": "It separates the outer and middle ear.",
+   "tags": [
+    "Ear, hearing and balance"
+   ]
+  },
+  {
+   "id": "ossicles",
+   "prompt": "What are the three tiny bones of the middle ear called, in order from the eardrum?",
+   "answers": [
+    "Malleus, incus, stapes",
+    "Hammer, anvil, stirrup"
+   ],
+   "wrong": [
+    "Stapes, incus, malleus",
+    "Incus, malleus, stapes",
+    "Malleus, stapes, incus"
+   ],
+   "explanation": "The smallest bones in the body. They pass the vibrations on and make them stronger.",
+   "tags": [
+    "Ear, hearing and balance"
+   ]
+  },
+  {
+   "id": "stapes",
+   "prompt": "Which is the smallest bone in the body, in the middle ear?",
+   "answers": [
+    "Stapes",
+    "The stapes",
+    "Stirrup"
+   ],
+   "wrong": [
+    "Incus",
+    "Malleus",
+    "Hyoid"
+   ],
+   "explanation": "Its footplate fits into the oval window of the cochlea.",
+   "tags": [
+    "Ear, hearing and balance"
+   ]
+  },
+  {
+   "id": "eustachian",
+   "prompt": "Which tube connects the middle ear to the throat and evens out the air pressure?",
+   "answers": [
+    "Auditory (Eustachian) tube",
+    "Eustachian tube",
+    "Auditory tube"
+   ],
+   "wrong": [
+    "Ear canal",
+    "Cochlear duct",
+    "Endolymphatic duct"
+   ],
+   "explanation": "It opens when we swallow or yawn.",
+   "tags": [
+    "Ear, hearing and balance"
+   ]
+  },
+  {
+   "id": "otitis",
+   "prompt": "Why do small children get middle ear infections so often?",
+   "answers": [
+    "Their auditory tubes are short and horizontal, so germs pass from the throat",
+    "The tube from the throat is short and flat"
+   ],
+   "wrong": [
+    "Their eardrums are thinner",
+    "They have no ear wax",
+    "Their ossicles are larger"
+   ],
+   "tags": [
+    "Ear, hearing and balance"
+   ]
+  },
+  {
+   "id": "cochlea",
+   "prompt": "Which snail-shaped organ of the inner ear contains the receptors for hearing?",
+   "answers": [
+    "Cochlea",
+    "The cochlea"
+   ],
+   "wrong": [
+    "Vestibule",
+    "Semicircular canals",
+    "Tympanic membrane"
+   ],
+   "explanation": "It has about 2.75 turns.",
+   "tags": [
+    "Ear, hearing and balance"
+   ]
+  },
+  {
+   "id": "organ-corti",
+   "prompt": "What is the organ with the sound-sensitive hair cells inside the cochlea called?",
+   "answers": [
+    "Organ of Corti",
+    "Spiral organ"
+   ],
+   "wrong": [
+    "Macula",
+    "Crista ampullaris",
+    "Otolith"
+   ],
+   "tags": [
+    "Ear, hearing and balance"
+   ]
+  },
+  {
+   "id": "hair-cells",
+   "prompt": "How is sound turned into nerve signals in the cochlea?",
+   "answers": [
+    "Fluid waves bend the hair cells, which fire the cochlear nerve",
+    "Hair cells are bent by waves in the fluid"
+   ],
+   "wrong": [
+    "The ossicles make electrical signals",
+    "The eardrum fires the nerve directly",
+    "The semicircular canals sense the pitch"
+   ],
+   "explanation": "Different parts of the cochlea respond to different pitches: the base to high, the apex to low.",
+   "tags": [
+    "Ear, hearing and balance"
+   ]
+  },
+  {
+   "id": "hearing-nerve",
+   "prompt": "Which cranial nerve carries signals of hearing and balance?",
+   "answers": [
+    "Vestibulocochlear nerve (VIII)",
+    "Vestibulocochlear",
+    "Cranial nerve VIII"
+   ],
+   "wrong": [
+    "Facial nerve (VII)",
+    "Glossopharyngeal nerve (IX)",
+    "Trigeminal nerve (V)"
+   ],
+   "tags": [
+    "Ear, hearing and balance"
+   ]
+  },
+  {
+   "id": "semicircular",
+   "prompt": "Which structures in the inner ear sense rotation of the head?",
+   "answers": [
+    "The semicircular canals",
+    "Semicircular canals"
+   ],
+   "wrong": [
+    "The cochlea",
+    "The ossicles",
+    "The auditory tube"
+   ],
+   "explanation": "There are three, in the three planes. The cristae in their ampullae detect it.",
+   "tags": [
+    "Ear, hearing and balance"
+   ]
+  },
+  {
+   "id": "otoliths",
+   "prompt": "Which organs of the inner ear, the utricle and saccule, sense the head's position and straight-line movement?",
+   "answers": [
+    "The otolith organs (the maculae)",
+    "Utricle and saccule",
+    "The maculae"
+   ],
+   "wrong": [
+    "The cristae",
+    "The cochlear ducts",
+    "The ossicles"
+   ],
+   "explanation": "Tiny crystals of calcium carbonate, otoliths, lie on the hair cells.",
+   "tags": [
+    "Ear, hearing and balance"
+   ]
+  },
+  {
+   "id": "vertigo",
+   "prompt": "Which word means a false sense that the world is spinning, often from a fault in the inner ear?",
+   "answers": [
+    "Vertigo"
+   ],
+   "wrong": [
+    "Tinnitus",
+    "Syncope",
+    "Nystagmus"
+   ],
+   "tags": [
+    "Ear, hearing and balance"
+   ]
+  },
+  {
+   "id": "tinnitus",
+   "prompt": "What is a ringing in the ears, with no outside sound, called?",
+   "answers": [
+    "Tinnitus"
+   ],
+   "wrong": [
+    "Vertigo",
+    "Otitis",
+    "Presbycusis"
+   ],
+   "tags": [
+    "Ear, hearing and balance"
+   ]
+  },
+  {
+   "id": "deafness-types",
+   "prompt": "What is the difference between conductive and sensorineural hearing loss?",
+   "answers": [
+    "Conductive is a problem in the outer or middle ear; sensorineural is in the cochlea or nerve",
+    "Conductive involves the ossicles or eardrum; sensorineural, the inner ear or nerve"
+   ],
+   "wrong": [
+    "Conductive is a fault of the brain; sensorineural, of the ear canal",
+    "They are the same",
+    "Conductive means loss from age; sensorineural, from noise"
+   ],
+   "explanation": "Wax in the ear canal is a common cause of conductive loss.",
+   "tags": [
+    "Ear, hearing and balance"
+   ]
+  },
+  {
+   "id": "presbycusis",
+   "prompt": "What is age-related hearing loss, starting with the high pitches, called?",
+   "answers": [
+    "Presbycusis"
+   ],
+   "wrong": [
+    "Tinnitus",
+    "Otosclerosis",
+    "Vertigo"
+   ],
+   "tags": [
+    "Ear, hearing and balance"
+   ]
+  },
+  {
+   "id": "decibel",
+   "prompt": "At about what level of sound does prolonged exposure start to damage the hair cells?",
+   "answers": [
+    "About 85 decibels",
+    "85 dB"
+   ],
+   "wrong": [
+    "About 30 decibels",
+    "About 50 decibels",
+    "About 120 decibels only"
+   ],
+   "explanation": "A busy street is about 80 dB; a rock concert about 110 dB.",
+   "tags": [
+    "Ear, hearing and balance"
+   ]
+  },
+  {
+   "id": "id-nose",
+   "prompt": "Which structures are highlighted in red?",
+   "answers": [
+    "Nasal cartilages",
+    "Cartilage of the nose",
+    "Nasal cartilage"
+   ],
+   "wrong": [
+    "Nasal bones",
+    "Nasal septum",
+    "Inferior nasal conchae"
+   ],
+   "explanation": "They shape the lower part of the nose. Only the bridge is bone.",
+   "figure": {
+    "src": "data/figures/anatomy/s-nose.webp",
+    "alt": "The cartilages of the nose, in red, seen from the front over the skull",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Smell, taste and touch"
+   ]
+  },
+  {
+   "id": "nose-bone-cart",
+   "prompt": "Which part of the nose is bony, and which cartilaginous?",
+   "answers": [
+    "The bridge is bone (nasal bones); the tip and the sides below are cartilage",
+    "Upper part bone, lower part cartilage"
+   ],
+   "wrong": [
+    "The tip is bone, the bridge is cartilage",
+    "All of the nose is bone",
+    "All of the nose is cartilage"
+   ],
+   "explanation": "A blow to the nose often breaks the nasal bones.",
+   "figure": {
+    "src": "data/figures/anatomy/s-nose-side.webp",
+    "alt": "The cartilages of the nose, in red, seen from the side",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Smell, taste and touch"
+   ]
+  },
+  {
+   "id": "olfactory-epithelium",
+   "prompt": "Where are the receptors for smell found?",
+   "answers": [
+    "In the olfactory epithelium at the roof of the nasal cavity",
+    "The olfactory epithelium"
+   ],
+   "wrong": [
+    "On the nasal conchae",
+    "In the nostrils",
+    "In the paranasal sinuses"
+   ],
+   "explanation": "About 10 million receptor cells. Their axons pass through the cribriform plate of the ethmoid bone.",
+   "tags": [
+    "Smell, taste and touch"
+   ]
+  },
+  {
+   "id": "olfactory-nerve",
+   "prompt": "Which cranial nerve carries the sense of smell?",
+   "answers": [
+    "Olfactory nerve (I)",
+    "Olfactory",
+    "Cranial nerve I"
+   ],
+   "wrong": [
+    "Optic nerve (II)",
+    "Facial nerve (VII)",
+    "Vagus nerve (X)"
+   ],
+   "explanation": "The olfactory bulbs lie under the frontal lobes. It is the only sense that reaches the cortex without passing through the thalamus first.",
+   "tags": [
+    "Smell, taste and touch"
+   ]
+  },
+  {
+   "id": "smell-limbic",
+   "prompt": "Why can smells bring back strong memories and emotions?",
+   "answers": [
+    "The olfactory pathway links directly to the limbic system",
+    "Smell goes straight to the limbic system"
+   ],
+   "wrong": [
+    "The nose is next to the hippocampus",
+    "Smell is carried by the vagus nerve",
+    "The cochlea is next to the olfactory bulb"
+   ],
+   "tags": [
+    "Smell, taste and touch"
+   ]
+  },
+  {
+   "id": "conchae",
+   "prompt": "What do the nasal conchae (turbinates) do?",
+   "answers": [
+    "They warm, moisten and clean the air as it passes",
+    "Warm and humidify the air"
+   ],
+   "wrong": [
+    "They make the voice",
+    "They sense smell only",
+    "They drain the tears"
+   ],
+   "explanation": "Three on each side: superior, middle and inferior.",
+   "tags": [
+    "Smell, taste and touch"
+   ]
+  },
+  {
+   "id": "sinuses",
+   "prompt": "What are the air-filled spaces in the skull bones around the nose called?",
+   "answers": [
+    "Paranasal sinuses",
+    "The paranasal sinuses"
+   ],
+   "wrong": [
+    "Nasal conchae",
+    "Air cells of the ear",
+    "Ventricles"
+   ],
+   "explanation": "Frontal, ethmoid, sphenoid and maxillary. They lighten the skull and add resonance to the voice.",
+   "tags": [
+    "Smell, taste and touch"
+   ]
+  },
+  {
+   "id": "taste-buds",
+   "prompt": "Where are the taste buds mostly found?",
+   "answers": [
+    "On the papillae of the tongue",
+    "On the tongue"
+   ],
+   "wrong": [
+    "On the hard palate only",
+    "In the throat only",
+    "In the nasal cavity"
+   ],
+   "explanation": "About 10 000, with some on the palate and throat.",
+   "tags": [
+    "Smell, taste and touch"
+   ]
+  },
+  {
+   "id": "papillae",
+   "prompt": "Which kind of papillae on the tongue have no taste buds, and give the surface its rough feel?",
+   "answers": [
+    "Filiform papillae",
+    "Filiform"
+   ],
+   "wrong": [
+    "Fungiform papillae",
+    "Circumvallate papillae",
+    "Foliate papillae"
+   ],
+   "explanation": "They are the most numerous.",
+   "tags": [
+    "Smell, taste and touch"
+   ]
+  },
+  {
+   "id": "tastes",
+   "prompt": "Which five basic tastes can we detect?",
+   "answers": [
+    "Sweet, sour, salty, bitter and umami",
+    "Sweet, sour, salt, bitter, umami"
+   ],
+   "wrong": [
+    "Sweet, sour, salty, bitter and spicy",
+    "Sweet, sour, salty and bitter only",
+    "Sweet, sour, salty, bitter and cold"
+   ],
+   "explanation": "'Spicy' is a pain sensation. Umami is the savoury taste of glutamate.",
+   "tags": [
+    "Smell, taste and touch"
+   ]
+  },
+  {
+   "id": "taste-nerves",
+   "prompt": "Which cranial nerves carry the sense of taste?",
+   "answers": [
+    "Facial (VII), glossopharyngeal (IX) and vagus (X)",
+    "VII, IX and X"
+   ],
+   "wrong": [
+    "Optic (II), trigeminal (V) and abducens (VI)",
+    "Hypoglossal (XII) only",
+    "Olfactory (I) only"
+   ],
+   "explanation": "The facial nerve serves the front two thirds of the tongue and the glossopharyngeal the back third.",
+   "tags": [
+    "Smell, taste and touch"
+   ]
+  },
+  {
+   "id": "flavour",
+   "prompt": "Why does food seem tasteless when you have a cold?",
+   "answers": [
+    "Much of flavour comes from smell",
+    "Because smell is blocked"
+   ],
+   "wrong": [
+    "The taste buds stop working",
+    "The tongue swells",
+    "The tongue cannot make saliva"
+   ],
+   "explanation": "The smell of the food reaches the olfactory epithelium from the back of the mouth.",
+   "tags": [
+    "Smell, taste and touch"
+   ]
+  },
+  {
+   "id": "touch-receptors",
+   "prompt": "Which receptors in the skin detect light touch?",
+   "answers": [
+    "Meissner's corpuscles",
+    "Tactile corpuscles",
+    "Meissner's (tactile) corpuscles"
+   ],
+   "wrong": [
+    "Pacinian corpuscles",
+    "Free nerve endings",
+    "Muscle spindles"
+   ],
+   "explanation": "Dense in the fingertips and lips.",
+   "tags": [
+    "Smell, taste and touch"
+   ]
+  },
+  {
+   "id": "pain-receptors",
+   "prompt": "What kind of receptor senses pain?",
+   "answers": [
+    "Nociceptors",
+    "Free nerve endings"
+   ],
+   "wrong": [
+    "Mechanoreceptors",
+    "Photoreceptors",
+    "Chemoreceptors"
+   ],
+   "explanation": "Mostly free nerve endings.",
+   "tags": [
+    "Smell, taste and touch"
+   ]
+  },
+  {
+   "id": "proprioception",
+   "prompt": "What is the sense of the position of the body and limbs called?",
+   "answers": [
+    "Proprioception"
+   ],
+   "wrong": [
+    "Nociception",
+    "Kinaesthesia of the skin",
+    "Equilibrium"
+   ],
+   "explanation": "From muscle spindles, tendon organs and joint receptors.",
+   "tags": [
+    "Smell, taste and touch"
+   ]
+  },
+  {
+   "id": "adaptation",
+   "prompt": "What is sensory adaptation?",
+   "answers": [
+    "The decline in the response of a receptor to a steady stimulus",
+    "Getting used to a constant stimulus"
+   ],
+   "wrong": [
+    "An increase in sensitivity to a steady stimulus",
+    "The growth of new receptors",
+    "The loss of a sense"
+   ],
+   "explanation": "Why we stop noticing a smell or the feel of our clothes.",
+   "tags": [
+    "Smell, taste and touch"
+   ]
+  },
+  {
+   "id": "referred-pain",
+   "prompt": "What is pain felt in a place away from its source, such as the left arm in a heart attack, called?",
+   "answers": [
+    "Referred pain"
+   ],
+   "wrong": [
+    "Phantom pain",
+    "Neuralgia",
+    "Radicular pain"
+   ],
+   "explanation": "The nerves from both areas join the same spinal cord segments.",
+   "tags": [
+    "Smell, taste and touch"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Name the part",
+   "count": 4,
+   "pass": 80,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Name the part"
+   ],
+   "why": "Pictures of the eyes, optic nerves, outer ear and nasal cartilages, each with one part in red to name."
+  },
+  {
+   "name": "Chapter quiz",
+   "count": 30,
+   "pass": 75,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "end",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Thirty questions from the whole chapter, marked at the end, like an end-of-unit test."
+  },
+  {
+   "name": "Recall without choices",
+   "count": 20,
+   "pass": 75,
+   "pick": "due",
+   "answer": "typed",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Type each answer from memory, starting with the ones due for review. Small typos are forgiven."
+  }
+ ]
+}
