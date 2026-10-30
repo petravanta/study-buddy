@@ -1,0 +1,3569 @@
+{
+ "id": "anatomy-nervous",
+ "name": "Nervous system",
+ "module": "Human anatomy",
+ "description": "The brain, spinal cord and nerves: nerve cells and signals, the lobes and main areas of the cortex, the brainstem and cerebellum, the deep structures, the ventricles and coverings, the twelve cranial nerves, the spinal cord and nerves, and the autonomic system. Picture questions show the brain, drawn see-through, with one part highlighted to name.",
+ "source": {
+  "name": "Written for Study Buddy. Pictures rendered from BodyParts3D (© The Database Center for Life Science, CC BY-SA 2.1 JP).",
+  "url": "https://github.com/petravanta/study-buddy/tree/main/scripts/bodyparts3d"
+ },
+ "updated": "2026-10-30",
+ "questions": [
+  {
+   "id": "cns-pns",
+   "prompt": "Which two parts make up the central nervous system?",
+   "answers": [
+    "Brain and spinal cord",
+    "The brain and the spinal cord"
+   ],
+   "wrong": [
+    "Brain and cranial nerves",
+    "Spinal cord and spinal nerves",
+    "Brain and ganglia"
+   ],
+   "explanation": "Everything outside them (the cranial and spinal nerves and the ganglia) is the peripheral nervous system.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "neuron",
+   "prompt": "What is the basic signalling cell of the nervous system called?",
+   "answers": [
+    "Neuron",
+    "Nerve cell"
+   ],
+   "wrong": [
+    "Glial cell",
+    "Astrocyte",
+    "Axon"
+   ],
+   "explanation": "The brain has about 86 billion of them.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "dendrite",
+   "prompt": "Which part of a neuron receives incoming signals from other cells?",
+   "answers": [
+    "Dendrites",
+    "Dendrite"
+   ],
+   "wrong": [
+    "Axon",
+    "Myelin sheath",
+    "Node of Ranvier"
+   ],
+   "explanation": "Short, branching and usually many. The cell body (soma) holds the nucleus.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "axon",
+   "prompt": "Which part of a neuron carries the signal away from the cell body?",
+   "answers": [
+    "Axon"
+   ],
+   "wrong": [
+    "Dendrite",
+    "Soma",
+    "Synapse"
+   ],
+   "explanation": "One long fibre per neuron, which can reach a metre or more, as in the nerves to your foot.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "myelin",
+   "prompt": "What fatty insulating layer wrapped around many axons speeds up the signal?",
+   "answers": [
+    "Myelin sheath",
+    "Myelin"
+   ],
+   "wrong": [
+    "Neurilemma",
+    "Endoneurium",
+    "Dura mater"
+   ],
+   "explanation": "In peripheral nerves it is made by Schwann cells; in the brain and cord by oligodendrocytes.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "ranvier",
+   "prompt": "What are the gaps in the myelin sheath, where the signal is boosted, called?",
+   "answers": [
+    "Nodes of Ranvier",
+    "Node of Ranvier"
+   ],
+   "wrong": [
+    "Synaptic clefts",
+    "Axon hillocks",
+    "Intercalated discs"
+   ],
+   "explanation": "The impulse jumps from node to node (saltatory conduction), which is much faster than travelling along bare axon.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "ms",
+   "prompt": "Which disease attacks the myelin of the central nervous system, slowing or blocking nerve signals?",
+   "answers": [
+    "Multiple sclerosis",
+    "MS"
+   ],
+   "wrong": [
+    "Parkinson's disease",
+    "Alzheimer's disease",
+    "Huntington's disease"
+   ],
+   "explanation": "Lesions (plaques) form in the white matter, so signals along the affected fibres slow or fail.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "schwann",
+   "prompt": "Which cells make the myelin of peripheral nerves?",
+   "answers": [
+    "Schwann cells"
+   ],
+   "wrong": [
+    "Oligodendrocytes",
+    "Astrocytes",
+    "Microglia"
+   ],
+   "explanation": "One Schwann cell wraps one stretch of one axon; an oligodendrocyte in the CNS wraps several.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "oligodendrocyte",
+   "prompt": "Which glial cells make myelin in the brain and spinal cord?",
+   "answers": [
+    "Oligodendrocytes",
+    "Oligodendrocyte"
+   ],
+   "wrong": [
+    "Schwann cells",
+    "Astrocytes",
+    "Ependymal cells"
+   ],
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "astrocyte",
+   "prompt": "Which star-shaped glial cells support neurons and help form the blood–brain barrier?",
+   "answers": [
+    "Astrocytes",
+    "Astrocyte"
+   ],
+   "wrong": [
+    "Microglia",
+    "Oligodendrocytes",
+    "Ependymal cells"
+   ],
+   "explanation": "They also tidy up neurotransmitters and feed neurons.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "microglia",
+   "prompt": "Which glial cells are the immune cells of the central nervous system?",
+   "answers": [
+    "Microglia",
+    "Microglial cells"
+   ],
+   "wrong": [
+    "Astrocytes",
+    "Schwann cells",
+    "Satellite cells"
+   ],
+   "explanation": "They clear away debris and damaged cells.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "ependymal",
+   "prompt": "Which glial cells line the ventricles and make cerebrospinal fluid circulate?",
+   "answers": [
+    "Ependymal cells",
+    "Ependyma"
+   ],
+   "wrong": [
+    "Astrocytes",
+    "Microglia",
+    "Schwann cells"
+   ],
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "resting-potential",
+   "prompt": "About what is the resting membrane potential of a neuron?",
+   "answers": [
+    "About −70 mV",
+    "−70 mV",
+    "-70 mV",
+    "About -70 mV"
+   ],
+   "wrong": [
+    "About +40 mV",
+    "About 0 mV",
+    "About −90 mV"
+   ],
+   "explanation": "The inside of the cell is negative compared with the outside, because of potassium leak channels and the sodium–potassium pump.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "action-potential",
+   "prompt": "Which ions rush into a neuron to start the rising phase of an action potential?",
+   "answers": [
+    "Sodium",
+    "Sodium ions",
+    "Na+"
+   ],
+   "wrong": [
+    "Potassium",
+    "Calcium",
+    "Chloride"
+   ],
+   "explanation": "Voltage-gated sodium channels open once the threshold is reached; potassium leaving the cell then brings the voltage back down.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "all-or-none",
+   "prompt": "What does 'all or none' mean for an action potential?",
+   "answers": [
+    "It either fires fully or not at all",
+    "Once the threshold is reached it always has the same size"
+   ],
+   "wrong": [
+    "Its size grows with the stimulus",
+    "It always travels at the same speed in every axon",
+    "It fires only at the synapse"
+   ],
+   "explanation": "A stronger stimulus makes the neuron fire more often, not harder.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "synapse",
+   "prompt": "What is the junction where one neuron signals to another cell called?",
+   "answers": [
+    "Synapse"
+   ],
+   "wrong": [
+    "Node of Ranvier",
+    "Axon hillock",
+    "Neuromuscular spindle"
+   ],
+   "explanation": "Most are chemical: the signal crosses a narrow gap (the synaptic cleft) as a neurotransmitter.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "neurotransmitter-store",
+   "prompt": "Where are neurotransmitters stored in the axon terminal before release?",
+   "answers": [
+    "In synaptic vesicles",
+    "Synaptic vesicles",
+    "Vesicles"
+   ],
+   "wrong": [
+    "In mitochondria",
+    "In the myelin sheath",
+    "In the cell body only"
+   ],
+   "explanation": "Calcium entering the terminal makes the vesicles fuse with the membrane and empty into the cleft.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "excitatory",
+   "prompt": "Which amino acid is the main excitatory neurotransmitter in the brain?",
+   "answers": [
+    "Glutamate"
+   ],
+   "wrong": [
+    "GABA",
+    "Glycine",
+    "Serotonin"
+   ],
+   "explanation": "GABA is the main inhibitory one in the brain; glycine does that in the spinal cord.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "inhibitory",
+   "prompt": "Which neurotransmitter is the main inhibitory one in the brain?",
+   "answers": [
+    "GABA",
+    "Gamma-aminobutyric acid"
+   ],
+   "wrong": [
+    "Glutamate",
+    "Dopamine",
+    "Acetylcholine"
+   ],
+   "explanation": "Benzodiazepines and alcohol calm the brain partly by boosting GABA's effect.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "dopamine",
+   "prompt": "Which neurotransmitter is lost in Parkinson's disease because cells of the substantia nigra die?",
+   "answers": [
+    "Dopamine"
+   ],
+   "wrong": [
+    "Serotonin",
+    "Acetylcholine",
+    "GABA"
+   ],
+   "explanation": "It is also central to reward and motivation.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "serotonin",
+   "prompt": "Which neurotransmitter do SSRI antidepressants raise?",
+   "answers": [
+    "Serotonin"
+   ],
+   "wrong": [
+    "Dopamine",
+    "Noradrenaline",
+    "Acetylcholine"
+   ],
+   "explanation": "SSRI means selective serotonin reuptake inhibitor: it stops the transmitter being taken back up.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "acetylcholine-nmj",
+   "prompt": "Which neurotransmitter do motor neurons release onto skeletal muscle?",
+   "answers": [
+    "Acetylcholine",
+    "ACh"
+   ],
+   "wrong": [
+    "Noradrenaline",
+    "Dopamine",
+    "Glutamate"
+   ],
+   "explanation": "Also the transmitter of the parasympathetic system. Alzheimer's disease damages acetylcholine-using neurons.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "grey-white",
+   "prompt": "What is grey matter mostly made of?",
+   "answers": [
+    "Nerve cell bodies and dendrites",
+    "Cell bodies",
+    "Neuron cell bodies"
+   ],
+   "wrong": [
+    "Myelinated axons",
+    "Cerebrospinal fluid",
+    "Blood vessels"
+   ],
+   "explanation": "White matter is mostly myelinated axons: the white is the fatty myelin.",
+   "tags": [
+    "Nerve cells and signals"
+   ]
+  },
+  {
+   "id": "cerebrum",
+   "prompt": "What is the largest part of the human brain called?",
+   "answers": [
+    "Cerebrum"
+   ],
+   "wrong": [
+    "Cerebellum",
+    "Brainstem",
+    "Diencephalon"
+   ],
+   "explanation": "Two hemispheres joined by the corpus callosum, covered by the folded cortex.",
+   "figure": {
+    "src": "data/figures/anatomy/brain-left.webp",
+    "alt": "The brain from the left",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "gyrus-sulcus",
+   "prompt": "What are the ridges and the grooves of the folded cerebral cortex called?",
+   "answers": [
+    "Gyri (ridges) and sulci (grooves)",
+    "Gyri and sulci"
+   ],
+   "wrong": [
+    "Fissures and lobes",
+    "Sulci (ridges) and gyri (grooves)",
+    "Nuclei and tracts"
+   ],
+   "explanation": "Folding packs about 2,500 cm² of cortex into the skull. The deepest grooves are fissures.",
+   "tags": [
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "lobes",
+   "prompt": "What are the four lobes of each cerebral hemisphere?",
+   "answers": [
+    "Frontal, parietal, temporal and occipital",
+    "Frontal, parietal, temporal, occipital"
+   ],
+   "wrong": [
+    "Frontal, parietal, temporal and limbic",
+    "Frontal, occipital, insular and limbic",
+    "Prefrontal, motor, sensory and visual"
+   ],
+   "explanation": "Named after the skull bones over them. The insula, tucked deep in the lateral sulcus, is sometimes counted as a fifth.",
+   "tags": [
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "central-sulcus",
+   "prompt": "Which groove separates the frontal lobe from the parietal lobe?",
+   "answers": [
+    "Central sulcus"
+   ],
+   "wrong": [
+    "Lateral sulcus",
+    "Parieto-occipital sulcus",
+    "Longitudinal fissure"
+   ],
+   "explanation": "The motor gyrus lies in front of it and the sensory gyrus behind it.",
+   "tags": [
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "lateral-sulcus",
+   "prompt": "Which deep groove separates the temporal lobe from the frontal and parietal lobes?",
+   "answers": [
+    "Lateral sulcus",
+    "Sylvian fissure",
+    "Lateral fissure"
+   ],
+   "wrong": [
+    "Central sulcus",
+    "Calcarine sulcus",
+    "Longitudinal fissure"
+   ],
+   "tags": [
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "longitudinal-fissure",
+   "prompt": "Which deep groove separates the two cerebral hemispheres?",
+   "answers": [
+    "Longitudinal fissure",
+    "Interhemispheric fissure",
+    "Median longitudinal fissure"
+   ],
+   "wrong": [
+    "Central sulcus",
+    "Lateral sulcus",
+    "Transverse fissure"
+   ],
+   "explanation": "The falx cerebri, a fold of dura, lies in it.",
+   "tags": [
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "id-precentral",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Precentral gyrus",
+    "Primary motor cortex"
+   ],
+   "wrong": [
+    "Postcentral gyrus",
+    "Superior frontal gyrus",
+    "Supramarginal gyrus"
+   ],
+   "explanation": "The strip of frontal lobe just in front of the central sulcus.",
+   "figure": {
+    "src": "data/figures/anatomy/b-precentral.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "motor-cortex",
+   "prompt": "Which area of the cortex sends the commands for voluntary movement?",
+   "answers": [
+    "Primary motor cortex",
+    "Precentral gyrus"
+   ],
+   "wrong": [
+    "Primary somatosensory cortex",
+    "Broca's area",
+    "Visual cortex"
+   ],
+   "explanation": "It is laid out as a map of the body (the motor homunculus), with the hands and face taking up most of it.",
+   "figure": {
+    "src": "data/figures/anatomy/b-precentral.webp",
+    "alt": "The brain with the primary motor cortex in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "id-postcentral",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Postcentral gyrus",
+    "Primary somatosensory cortex",
+    "Somatosensory cortex"
+   ],
+   "wrong": [
+    "Precentral gyrus",
+    "Supramarginal gyrus",
+    "Angular gyrus"
+   ],
+   "explanation": "The strip of parietal lobe just behind the central sulcus.",
+   "figure": {
+    "src": "data/figures/anatomy/b-postcentral.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "sensory-cortex",
+   "prompt": "Which area of the cortex receives touch, pressure and pain from the body?",
+   "answers": [
+    "Primary somatosensory cortex",
+    "Postcentral gyrus"
+   ],
+   "wrong": [
+    "Primary motor cortex",
+    "Primary auditory cortex",
+    "Wernicke's area"
+   ],
+   "explanation": "Like the motor cortex, it is a map of the body, and the lips and fingertips take up the most room.",
+   "figure": {
+    "src": "data/figures/anatomy/b-postcentral.webp",
+    "alt": "The brain with the primary somatosensory cortex in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "homunculus",
+   "prompt": "What is the distorted body map drawn over the motor and sensory cortex called?",
+   "answers": [
+    "Homunculus",
+    "Cortical homunculus"
+   ],
+   "wrong": [
+    "Somatotopy chart",
+    "Dermatome",
+    "Myotome"
+   ],
+   "explanation": "Body parts with fine control or fine touch (hands, lips, tongue) get the most cortex.",
+   "tags": [
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "id-superior-frontal",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Superior frontal gyrus"
+   ],
+   "wrong": [
+    "Middle frontal gyrus",
+    "Precentral gyrus",
+    "Cingulate gyrus"
+   ],
+   "explanation": "The top ridge of the frontal lobe, running along the edge of the longitudinal fissure. Seen here from above.",
+   "figure": {
+    "src": "data/figures/anatomy/b-superior-frontal.webp",
+    "alt": "The brain from above, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "id-middle-frontal",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Middle frontal gyrus"
+   ],
+   "wrong": [
+    "Superior frontal gyrus",
+    "Precentral gyrus",
+    "Inferior temporal gyrus"
+   ],
+   "explanation": "Part of the prefrontal cortex, which plans, decides and holds things in mind.",
+   "figure": {
+    "src": "data/figures/anatomy/b-middle-frontal.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "prefrontal",
+   "prompt": "Which part of the frontal lobe is the seat of planning, decision-making and self-control?",
+   "answers": [
+    "Prefrontal cortex"
+   ],
+   "wrong": [
+    "Primary motor cortex",
+    "Cerebellum",
+    "Occipital lobe"
+   ],
+   "explanation": "It matures last, into the mid-twenties. Damage can change personality, as in the famous case of Phineas Gage.",
+   "figure": {
+    "src": "data/figures/anatomy/b-middle-frontal.webp",
+    "alt": "The brain with part of the prefrontal cortex in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "broca",
+   "prompt": "Damage to which area of the left frontal lobe leaves a person understanding speech but unable to produce fluent words?",
+   "answers": [
+    "Broca's area"
+   ],
+   "wrong": [
+    "Wernicke's area",
+    "Angular gyrus",
+    "Primary auditory cortex"
+   ],
+   "explanation": "Broca's aphasia: speech comes slowly and effortfully, but the meaning is there. It lies in the inferior frontal gyrus.",
+   "tags": [
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "id-supramarginal",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Supramarginal gyrus"
+   ],
+   "wrong": [
+    "Angular gyrus",
+    "Postcentral gyrus",
+    "Superior temporal gyrus"
+   ],
+   "explanation": "Part of the parietal lobe, curving over the end of the lateral sulcus. It helps with language and with touch.",
+   "figure": {
+    "src": "data/figures/anatomy/b-supramarginal.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "id-angular",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Angular gyrus"
+   ],
+   "wrong": [
+    "Supramarginal gyrus",
+    "Superior temporal gyrus",
+    "Occipital lobe"
+   ],
+   "explanation": "Part of the parietal lobe, curving over the end of the superior temporal sulcus. It helps with reading and with maths.",
+   "figure": {
+    "src": "data/figures/anatomy/b-angular.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "id-superior-temporal",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Superior temporal gyrus"
+   ],
+   "wrong": [
+    "Middle temporal gyrus",
+    "Inferior temporal gyrus",
+    "Supramarginal gyrus"
+   ],
+   "explanation": "The top ridge of the temporal lobe, with the auditory cortex on its upper surface.",
+   "figure": {
+    "src": "data/figures/anatomy/b-superior-temporal.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "auditory-cortex",
+   "prompt": "Which lobe holds the primary auditory cortex?",
+   "answers": [
+    "Temporal lobe"
+   ],
+   "wrong": [
+    "Occipital lobe",
+    "Parietal lobe",
+    "Frontal lobe"
+   ],
+   "explanation": "Tucked in the superior temporal gyrus, deep in the lateral sulcus.",
+   "figure": {
+    "src": "data/figures/anatomy/b-superior-temporal.webp",
+    "alt": "The brain with the superior temporal gyrus in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "id-wernicke",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Posterior superior temporal gyrus",
+    "Wernicke's area"
+   ],
+   "wrong": [
+    "Broca's area",
+    "Angular gyrus",
+    "Supramarginal gyrus"
+   ],
+   "explanation": "Wernicke's area, in the left hemisphere for most people, makes sense of spoken and written words.",
+   "figure": {
+    "src": "data/figures/anatomy/b-wernicke.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "wernicke-aphasia",
+   "prompt": "Damage to Wernicke's area leaves speech fluent but empty of sense. What is it called?",
+   "answers": [
+    "Wernicke's aphasia",
+    "Receptive aphasia",
+    "Fluent aphasia"
+   ],
+   "wrong": [
+    "Broca's aphasia",
+    "Anomia",
+    "Dysarthria"
+   ],
+   "explanation": "The words flow but are jumbled, and the person doesn't follow what is said.",
+   "figure": {
+    "src": "data/figures/anatomy/b-wernicke.webp",
+    "alt": "The brain with Wernicke's area in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "id-middle-temporal",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Middle temporal gyrus"
+   ],
+   "wrong": [
+    "Superior temporal gyrus",
+    "Inferior temporal gyrus",
+    "Angular gyrus"
+   ],
+   "explanation": "The middle ridge of the temporal lobe, involved in recognising words and faces.",
+   "figure": {
+    "src": "data/figures/anatomy/b-middle-temporal.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "id-inferior-temporal",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Inferior temporal gyrus"
+   ],
+   "wrong": [
+    "Middle temporal gyrus",
+    "Fusiform gyrus",
+    "Superior temporal gyrus"
+   ],
+   "explanation": "The lowest ridge on the side of the temporal lobe, seen here from below and the side. It helps with recognising objects.",
+   "figure": {
+    "src": "data/figures/anatomy/b-inferior-temporal.webp",
+    "alt": "The brain from below, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "id-occipital",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Occipital lobe"
+   ],
+   "wrong": [
+    "Parietal lobe",
+    "Temporal lobe",
+    "Cerebellum"
+   ],
+   "explanation": "The back of the brain, where vision is processed.",
+   "figure": {
+    "src": "data/figures/anatomy/b-occipital.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "visual-cortex",
+   "prompt": "Which lobe holds the primary visual cortex?",
+   "answers": [
+    "Occipital lobe"
+   ],
+   "wrong": [
+    "Temporal lobe",
+    "Parietal lobe",
+    "Frontal lobe"
+   ],
+   "explanation": "A stroke here can blind one side of the visual field in both eyes (homonymous hemianopia) without any damage to the eyes.",
+   "figure": {
+    "src": "data/figures/anatomy/b-occipital.webp",
+    "alt": "The brain with the occipital lobe in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "id-insula",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Insula",
+    "Insular cortex"
+   ],
+   "wrong": [
+    "Cingulate gyrus",
+    "Supramarginal gyrus",
+    "Superior temporal gyrus"
+   ],
+   "explanation": "Folded deep inside the lateral sulcus (the cortex that covers it is drawn see-through). It handles taste, pain and gut feelings.",
+   "figure": {
+    "src": "data/figures/anatomy/b-insula.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "id-cingulate",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Cingulate gyrus"
+   ],
+   "wrong": [
+    "Superior frontal gyrus",
+    "Parahippocampal gyrus",
+    "Fusiform gyrus"
+   ],
+   "explanation": "Wraps over the corpus callosum on the inner face of each hemisphere. It is part of the limbic system. Seen here from the inner face.",
+   "figure": {
+    "src": "data/figures/anatomy/b-cingulate.webp",
+    "alt": "The middle of the brain, from the right, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "parietal-function",
+   "prompt": "Which lobe combines touch and position into a sense of where your body and the things around you are?",
+   "answers": [
+    "Parietal lobe"
+   ],
+   "wrong": [
+    "Occipital lobe",
+    "Temporal lobe",
+    "Frontal lobe"
+   ],
+   "explanation": "Damage to the right parietal lobe can lead to neglect of the left side of space.",
+   "tags": [
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "temporal-memory",
+   "prompt": "Which lobe holds the hippocampus, central to forming new memories?",
+   "answers": [
+    "Temporal lobe"
+   ],
+   "wrong": [
+    "Frontal lobe",
+    "Occipital lobe",
+    "Parietal lobe"
+   ],
+   "tags": [
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "lateralisation",
+   "prompt": "In most people, which hemisphere is dominant for language?",
+   "answers": [
+    "The left hemisphere",
+    "Left hemisphere",
+    "Left"
+   ],
+   "wrong": [
+    "The right hemisphere",
+    "Neither: it is split equally",
+    "The cerebellum"
+   ],
+   "explanation": "True for nearly all right-handed people and most left-handed ones.",
+   "tags": [
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "id-corpus-callosum",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Corpus callosum"
+   ],
+   "wrong": [
+    "Fornix",
+    "Internal capsule",
+    "Anterior commissure"
+   ],
+   "explanation": "The great band of about 200 million fibres joining the two hemispheres. Seen here from the middle of the brain.",
+   "figure": {
+    "src": "data/figures/anatomy/b-corpus-callosum.webp",
+    "alt": "The middle of the brain, from the right, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "split-brain",
+   "prompt": "What is cut in 'split-brain' surgery, once used for severe epilepsy?",
+   "answers": [
+    "Corpus callosum",
+    "The corpus callosum"
+   ],
+   "wrong": [
+    "Fornix",
+    "Brainstem",
+    "Spinal cord"
+   ],
+   "explanation": "The two hemispheres then work with little exchange of information.",
+   "figure": {
+    "src": "data/figures/anatomy/b-corpus-callosum.webp",
+    "alt": "The brain with the corpus callosum in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Brain: cortex"
+   ]
+  },
+  {
+   "id": "id-brainstem",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Brainstem",
+    "Midbrain, pons and medulla",
+    "Brain stem"
+   ],
+   "wrong": [
+    "Cerebellum",
+    "Diencephalon",
+    "Basal ganglia"
+   ],
+   "explanation": "The stalk joining the brain to the spinal cord, made of the midbrain, pons and medulla oblongata.",
+   "figure": {
+    "src": "data/figures/anatomy/b-brainstem.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brainstem and cerebellum"
+   ]
+  },
+  {
+   "id": "brainstem-parts",
+   "prompt": "From top to bottom, what are the three parts of the brainstem?",
+   "answers": [
+    "Midbrain, pons, medulla oblongata",
+    "Midbrain, pons and medulla"
+   ],
+   "wrong": [
+    "Pons, midbrain, medulla",
+    "Medulla, pons, midbrain",
+    "Thalamus, pons, medulla"
+   ],
+   "explanation": "Ten of the twelve cranial nerves leave from it. It also carries every signal between brain and body.",
+   "figure": {
+    "src": "data/figures/anatomy/b-brainstem.webp",
+    "alt": "The brain with the brainstem in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Brainstem and cerebellum"
+   ]
+  },
+  {
+   "id": "id-midbrain",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Midbrain",
+    "Mesencephalon"
+   ],
+   "wrong": [
+    "Pons",
+    "Medulla oblongata",
+    "Thalamus"
+   ],
+   "explanation": "The top of the brainstem. Its back holds the colliculi; its front holds the cerebral peduncles.",
+   "figure": {
+    "src": "data/figures/anatomy/b-midbrain.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brainstem and cerebellum"
+   ]
+  },
+  {
+   "id": "midbrain-nerves",
+   "prompt": "Which two cranial nerves leave from the midbrain?",
+   "answers": [
+    "Oculomotor and trochlear nerves",
+    "III and IV",
+    "Cranial nerves III and IV"
+   ],
+   "wrong": [
+    "Trigeminal and abducens nerves",
+    "Facial and vestibulocochlear nerves",
+    "Vagus and accessory nerves"
+   ],
+   "explanation": "Both move the eyes.",
+   "figure": {
+    "src": "data/figures/anatomy/b-midbrain.webp",
+    "alt": "The brain with the midbrain in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Brainstem and cerebellum"
+   ]
+  },
+  {
+   "id": "id-pons",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Pons"
+   ],
+   "wrong": [
+    "Midbrain",
+    "Medulla oblongata",
+    "Cerebellum"
+   ],
+   "explanation": "The bulge in the middle of the brainstem. 'Pons' is Latin for bridge, because its fibres connect the two halves of the cerebellum.",
+   "figure": {
+    "src": "data/figures/anatomy/b-pons.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brainstem and cerebellum"
+   ]
+  },
+  {
+   "id": "pons-nerves",
+   "prompt": "Which cranial nerves leave from the pons?",
+   "answers": [
+    "V, VI, VII and VIII",
+    "Trigeminal, abducens, facial and vestibulocochlear",
+    "Cranial nerves V to VIII"
+   ],
+   "wrong": [
+    "III and IV",
+    "IX, X, XI and XII",
+    "I and II"
+   ],
+   "explanation": "The trigeminal, abducens, facial and vestibulocochlear nerves. The pons also helps to control breathing.",
+   "figure": {
+    "src": "data/figures/anatomy/b-pons.webp",
+    "alt": "The brain with the pons in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Brainstem and cerebellum"
+   ]
+  },
+  {
+   "id": "id-medulla",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Medulla oblongata",
+    "Medulla"
+   ],
+   "wrong": [
+    "Pons",
+    "Midbrain",
+    "Cerebellum"
+   ],
+   "explanation": "The lowest part of the brainstem, continuous with the spinal cord.",
+   "figure": {
+    "src": "data/figures/anatomy/b-medulla.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brainstem and cerebellum"
+   ]
+  },
+  {
+   "id": "medulla-vital",
+   "prompt": "Which part of the brainstem holds the control centres for heart rate, breathing and blood pressure?",
+   "answers": [
+    "Medulla oblongata",
+    "Medulla"
+   ],
+   "wrong": [
+    "Midbrain",
+    "Pons",
+    "Cerebellum"
+   ],
+   "explanation": "Damage here is often fatal. The medulla also coordinates vomiting, coughing and swallowing.",
+   "figure": {
+    "src": "data/figures/anatomy/b-medulla.webp",
+    "alt": "The brain with the medulla oblongata in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Brainstem and cerebellum"
+   ]
+  },
+  {
+   "id": "pyramids",
+   "prompt": "Where do most motor fibres from the cortex cross to the other side on their way down?",
+   "answers": [
+    "In the medulla (the decussation of the pyramids)",
+    "Medulla oblongata",
+    "Pyramidal decussation"
+   ],
+   "wrong": [
+    "In the midbrain",
+    "In the spinal cord",
+    "In the corpus callosum"
+   ],
+   "explanation": "This is why the left side of the brain controls the right side of the body.",
+   "tags": [
+    "Brainstem and cerebellum"
+   ]
+  },
+  {
+   "id": "id-cerebellum",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Cerebellum"
+   ],
+   "wrong": [
+    "Cerebrum",
+    "Pons",
+    "Thalamus"
+   ],
+   "explanation": "The 'little brain' at the back and bottom of the skull, tucked under the occipital lobe.",
+   "figure": {
+    "src": "data/figures/anatomy/b-cerebellum.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brainstem and cerebellum"
+   ]
+  },
+  {
+   "id": "cerebellum-function",
+   "prompt": "Which part of the brain coordinates movement, balance and posture without our noticing?",
+   "answers": [
+    "Cerebellum"
+   ],
+   "wrong": [
+    "Basal ganglia",
+    "Thalamus",
+    "Primary motor cortex"
+   ],
+   "explanation": "It holds more than half of the brain's neurons. Damage causes unsteady movement (ataxia) and tremor on reaching.",
+   "figure": {
+    "src": "data/figures/anatomy/b-cerebellum.webp",
+    "alt": "The brain with the cerebellum in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Brainstem and cerebellum"
+   ]
+  },
+  {
+   "id": "ataxia",
+   "prompt": "A drunk person staggers and cannot touch a finger to their nose accurately. Which part of the brain is the alcohol hitting hardest?",
+   "answers": [
+    "Cerebellum"
+   ],
+   "wrong": [
+    "Hippocampus",
+    "Occipital lobe",
+    "Pons"
+   ],
+   "explanation": "Cerebellar signs: staggering, slurred speech and intention tremor.",
+   "tags": [
+    "Brainstem and cerebellum"
+   ]
+  },
+  {
+   "id": "reticular",
+   "prompt": "Which network of neurons running up the brainstem keeps the brain awake and alert?",
+   "answers": [
+    "Reticular formation",
+    "Reticular activating system",
+    "RAS"
+   ],
+   "wrong": [
+    "Limbic system",
+    "Basal ganglia",
+    "Choroid plexus"
+   ],
+   "explanation": "General anaesthetics work partly by quietening it.",
+   "tags": [
+    "Brainstem and cerebellum"
+   ]
+  },
+  {
+   "id": "id-colliculi",
+   "prompt": "Which structures are highlighted in red?",
+   "answers": [
+    "Colliculi",
+    "Superior and inferior colliculi",
+    "Corpora quadrigemina",
+    "Tectum"
+   ],
+   "wrong": [
+    "Geniculate bodies",
+    "Mammillary bodies",
+    "Pineal body"
+   ],
+   "explanation": "Four small bumps on the back of the midbrain. The upper pair handle visual reflexes and the lower pair auditory ones. Seen here from behind and above.",
+   "figure": {
+    "src": "data/figures/anatomy/b-colliculi.webp",
+    "alt": "The brain from behind, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Brainstem and cerebellum"
+   ]
+  },
+  {
+   "id": "superior-colliculus",
+   "prompt": "Which pair of bumps on the back of the midbrain turns the eyes and head towards a sudden movement?",
+   "answers": [
+    "Superior colliculi",
+    "Superior colliculus"
+   ],
+   "wrong": [
+    "Inferior colliculi",
+    "Medial geniculate bodies",
+    "Mammillary bodies"
+   ],
+   "explanation": "The inferior colliculi are for sound: a relay on the way to the auditory cortex.",
+   "figure": {
+    "src": "data/figures/anatomy/b-colliculi.webp",
+    "alt": "The brain with the colliculi in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Brainstem and cerebellum"
+   ]
+  },
+  {
+   "id": "id-thalamus",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Thalamus"
+   ],
+   "wrong": [
+    "Hypothalamus",
+    "Basal ganglia",
+    "Hippocampus"
+   ],
+   "explanation": "Two egg-shaped masses either side of the third ventricle, in the middle of the brain.",
+   "figure": {
+    "src": "data/figures/anatomy/b-thalamus.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "thalamus-function",
+   "prompt": "Which structure is the main relay station for sensory signals on their way to the cortex?",
+   "answers": [
+    "Thalamus"
+   ],
+   "wrong": [
+    "Hypothalamus",
+    "Cerebellum",
+    "Pons"
+   ],
+   "explanation": "Every sense except smell goes through it.",
+   "figure": {
+    "src": "data/figures/anatomy/b-thalamus.webp",
+    "alt": "The brain with the thalamus in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "id-hypothalamus",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Hypothalamus"
+   ],
+   "wrong": [
+    "Thalamus",
+    "Pituitary gland",
+    "Pineal body"
+   ],
+   "explanation": "A small but crucial region below the thalamus, at the base of the brain, with the mammillary bodies at its back.",
+   "figure": {
+    "src": "data/figures/anatomy/b-hypothalamus.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "hypothalamus-function",
+   "prompt": "Which small structure controls body temperature, thirst, hunger, and links the nervous system to the endocrine system?",
+   "answers": [
+    "Hypothalamus"
+   ],
+   "wrong": [
+    "Thalamus",
+    "Pituitary gland",
+    "Amygdala"
+   ],
+   "explanation": "It makes the hormones released by the posterior pituitary and the releasing hormones that control the anterior pituitary.",
+   "figure": {
+    "src": "data/figures/anatomy/b-hypothalamus.webp",
+    "alt": "The brain with the hypothalamus in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "id-pineal",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Pineal body",
+    "Pineal gland"
+   ],
+   "wrong": [
+    "Pituitary gland",
+    "Hypothalamus",
+    "Thalamus"
+   ],
+   "explanation": "A tiny pine-cone-shaped gland at the back of the third ventricle.",
+   "figure": {
+    "src": "data/figures/anatomy/b-pineal.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "melatonin",
+   "prompt": "Which hormone, made by the pineal gland in the dark, helps set the sleep cycle?",
+   "answers": [
+    "Melatonin"
+   ],
+   "wrong": [
+    "Cortisol",
+    "Serotonin",
+    "Thyroxine"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/b-pineal.webp",
+    "alt": "The brain with the pineal body in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "id-pituitary",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Pituitary gland",
+    "Pituitary",
+    "Hypophysis"
+   ],
+   "wrong": [
+    "Pineal body",
+    "Hypothalamus",
+    "Optic chiasm"
+   ],
+   "explanation": "A pea-sized gland hanging from the hypothalamus, sitting in the sella turcica of the sphenoid bone. Seen here from the left.",
+   "figure": {
+    "src": "data/figures/anatomy/b-pituitary.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "master-gland",
+   "prompt": "Which gland is called the 'master gland' because its hormones control other glands?",
+   "answers": [
+    "Pituitary gland",
+    "Pituitary"
+   ],
+   "wrong": [
+    "Pineal gland",
+    "Thyroid gland",
+    "Adrenal gland"
+   ],
+   "explanation": "The hypothalamus, in turn, controls the pituitary.",
+   "figure": {
+    "src": "data/figures/anatomy/b-pituitary.webp",
+    "alt": "The brain with the pituitary gland in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "id-hippocampus",
+   "prompt": "Which structure is highlighted in red?",
+   "answers": [
+    "Hippocampus"
+   ],
+   "wrong": [
+    "Amygdala",
+    "Thalamus",
+    "Caudate nucleus"
+   ],
+   "explanation": "A curved fold of cortex in the inside of the temporal lobe, shaped like a seahorse (hippocampus in Greek).",
+   "figure": {
+    "src": "data/figures/anatomy/b-hippocampus.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "hippocampus-function",
+   "prompt": "Which structure is essential for turning short-term memories into long-term ones?",
+   "answers": [
+    "Hippocampus"
+   ],
+   "wrong": [
+    "Amygdala",
+    "Cerebellum",
+    "Thalamus"
+   ],
+   "explanation": "Patient H.M. had both hippocampi removed in 1953 and could no longer form new memories. It is among the first places damaged in Alzheimer's disease.",
+   "figure": {
+    "src": "data/figures/anatomy/b-hippocampus.webp",
+    "alt": "The brain with the hippocampus in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "id-amygdala",
+   "prompt": "Which structure is highlighted in red?",
+   "answers": [
+    "Amygdala"
+   ],
+   "wrong": [
+    "Hippocampus",
+    "Putamen",
+    "Thalamus"
+   ],
+   "explanation": "An almond-shaped (amygdala in Greek) cluster of nuclei at the front of the temporal lobe, next to the hippocampus.",
+   "figure": {
+    "src": "data/figures/anatomy/b-amygdala.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "amygdala-function",
+   "prompt": "Which almond-shaped structure is central to fear and to attaching emotion to memories?",
+   "answers": [
+    "Amygdala"
+   ],
+   "wrong": [
+    "Hippocampus",
+    "Hypothalamus",
+    "Cingulate gyrus"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/b-amygdala.webp",
+    "alt": "The brain with the amygdala in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "limbic",
+   "prompt": "Which group of structures, including the hippocampus, amygdala and cingulate gyrus, deals with emotion and memory?",
+   "answers": [
+    "Limbic system"
+   ],
+   "wrong": [
+    "Basal ganglia",
+    "Reticular formation",
+    "Autonomic nervous system"
+   ],
+   "explanation": "Limbus is Latin for border: it rings the brainstem.",
+   "tags": [
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "id-basal-ganglia",
+   "prompt": "Which group of structures is highlighted in red?",
+   "answers": [
+    "Basal ganglia",
+    "Basal nuclei"
+   ],
+   "wrong": [
+    "Thalamus",
+    "Limbic system",
+    "Hippocampus"
+   ],
+   "explanation": "Deep clusters of grey matter: the caudate nucleus, the putamen and the globus pallidus (with the substantia nigra and subthalamic nucleus).",
+   "figure": {
+    "src": "data/figures/anatomy/b-basal-ganglia.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "basal-ganglia-function",
+   "prompt": "Which group of deep nuclei helps start and smooth voluntary movements, and is damaged in Parkinson's and Huntington's diseases?",
+   "answers": [
+    "Basal ganglia",
+    "Basal nuclei"
+   ],
+   "wrong": [
+    "Cerebellum",
+    "Thalamus",
+    "Brainstem"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/b-basal-ganglia.webp",
+    "alt": "The brain with the basal ganglia in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "id-caudate",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Caudate nucleus"
+   ],
+   "wrong": [
+    "Putamen",
+    "Globus pallidus",
+    "Thalamus"
+   ],
+   "explanation": "The tail-shaped (caudate means having a tail) nucleus arching round the lateral ventricle.",
+   "figure": {
+    "src": "data/figures/anatomy/b-caudate.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "id-putamen",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Putamen"
+   ],
+   "wrong": [
+    "Caudate nucleus",
+    "Globus pallidus",
+    "Amygdala"
+   ],
+   "explanation": "The outer, rounded part of the lentiform nucleus, next to the insula.",
+   "figure": {
+    "src": "data/figures/anatomy/b-putamen.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "id-globus-pallidus",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Globus pallidus"
+   ],
+   "wrong": [
+    "Putamen",
+    "Caudate nucleus",
+    "Thalamus"
+   ],
+   "explanation": "The pale inner part of the lentiform nucleus, inside the putamen.",
+   "figure": {
+    "src": "data/figures/anatomy/b-globus-pallidus.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "striatum",
+   "prompt": "Which two nuclei together are called the striatum?",
+   "answers": [
+    "Caudate nucleus and putamen",
+    "Caudate and putamen"
+   ],
+   "wrong": [
+    "Putamen and globus pallidus",
+    "Caudate and thalamus",
+    "Globus pallidus and thalamus"
+   ],
+   "explanation": "Bands of white matter run through them, giving a striped (striated) look.",
+   "tags": [
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "parkinson",
+   "prompt": "In Parkinson's disease, cells die in which midbrain nucleus that sends dopamine to the striatum?",
+   "answers": [
+    "Substantia nigra"
+   ],
+   "wrong": [
+    "Red nucleus",
+    "Locus coeruleus",
+    "Hippocampus"
+   ],
+   "explanation": "Nigra means black: its cells hold dark melanin. The result is tremor at rest, slow movement and stiffness.",
+   "tags": [
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "id-internal-capsule",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Internal capsule"
+   ],
+   "wrong": [
+    "Corpus callosum",
+    "Fornix",
+    "Optic tract"
+   ],
+   "explanation": "A band of white matter between the thalamus and the basal ganglia, through which nearly all fibres to and from the cortex pass.",
+   "figure": {
+    "src": "data/figures/anatomy/b-internal-capsule.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "capsule-stroke",
+   "prompt": "A small stroke in which narrow band of white matter can paralyse the whole opposite side of the body?",
+   "answers": [
+    "Internal capsule"
+   ],
+   "wrong": [
+    "Corpus callosum",
+    "Fornix",
+    "Anterior commissure"
+   ],
+   "explanation": "All the motor fibres are packed tightly there.",
+   "figure": {
+    "src": "data/figures/anatomy/b-internal-capsule.webp",
+    "alt": "The brain with the internal capsule in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "id-fornix",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Fornix"
+   ],
+   "wrong": [
+    "Corpus callosum",
+    "Internal capsule",
+    "Anterior commissure"
+   ],
+   "explanation": "An arched bundle of fibres carrying signals from the hippocampus to the mammillary bodies and hypothalamus. Seen here from the middle of the brain.",
+   "figure": {
+    "src": "data/figures/anatomy/b-fornix.webp",
+    "alt": "The middle of the brain, from the right, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "id-mammillary",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Mammillary body",
+    "Mammillary bodies"
+   ],
+   "wrong": [
+    "Pineal body",
+    "Pituitary gland",
+    "Colliculi"
+   ],
+   "explanation": "Two small round bumps (mammillary means nipple-like) at the back of the hypothalamus, part of the memory circuit.",
+   "figure": {
+    "src": "data/figures/anatomy/b-mammillary.webp",
+    "alt": "The middle of the brain, from the right, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "id-geniculate",
+   "prompt": "Which structures are highlighted in red?",
+   "answers": [
+    "Geniculate bodies",
+    "Lateral and medial geniculate bodies",
+    "Lateral geniculate body"
+   ],
+   "wrong": [
+    "Colliculi",
+    "Mammillary bodies",
+    "Pineal body"
+   ],
+   "explanation": "Two knee-shaped (geniculate) bumps on the underside of each thalamus: the lateral one relays vision and the medial one hearing.",
+   "figure": {
+    "src": "data/figures/anatomy/b-geniculate.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "lgn",
+   "prompt": "Which relay in the thalamus passes signals from the optic tract to the visual cortex?",
+   "answers": [
+    "Lateral geniculate body",
+    "Lateral geniculate nucleus",
+    "LGN"
+   ],
+   "wrong": [
+    "Medial geniculate body",
+    "Superior colliculus",
+    "Mammillary body"
+   ],
+   "explanation": "The medial geniculate relays hearing.",
+   "figure": {
+    "src": "data/figures/anatomy/b-geniculate.webp",
+    "alt": "The brain with the geniculate bodies in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "id-optic-chiasm",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Optic chiasm",
+    "Optic chiasma"
+   ],
+   "wrong": [
+    "Optic nerve",
+    "Optic tract",
+    "Pituitary gland"
+   ],
+   "explanation": "The X-shaped crossing of the two optic nerves, just in front of the pituitary gland. Seen here from below.",
+   "figure": {
+    "src": "data/figures/anatomy/b-optic-chiasm.webp",
+    "alt": "The brain from below, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "chiasm-crossing",
+   "prompt": "What crosses to the opposite side at the optic chiasm?",
+   "answers": [
+    "Fibres from the inner (nasal) half of each retina",
+    "The nasal half of each retina",
+    "Nasal retinal fibres"
+   ],
+   "wrong": [
+    "Fibres from the outer half of each retina",
+    "All fibres from both eyes",
+    "No fibres: they only touch"
+   ],
+   "explanation": "That way each hemisphere sees the opposite half of the visual field with both eyes.",
+   "figure": {
+    "src": "data/figures/anatomy/b-optic-chiasm.webp",
+    "alt": "The brain from below with the optic chiasm in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "pituitary-tumour",
+   "prompt": "A pituitary tumour pressing upwards on the optic chiasm causes loss of which part of vision?",
+   "answers": [
+    "The outer halves of both visual fields",
+    "Tunnel vision",
+    "Bitemporal hemianopia"
+   ],
+   "wrong": [
+    "The left half of both visual fields",
+    "All vision in one eye",
+    "The upper half of both visual fields"
+   ],
+   "explanation": "Called bitemporal hemianopia: the crossing fibres from the inner halves of the retinas are squeezed first.",
+   "tags": [
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "id-optic-nerve-tract",
+   "prompt": "Which structures are highlighted in red?",
+   "answers": [
+    "Optic nerves and tracts",
+    "Optic nerve and optic tract",
+    "Optic pathway"
+   ],
+   "wrong": [
+    "Olfactory tracts",
+    "Oculomotor nerves",
+    "Trigeminal nerves"
+   ],
+   "explanation": "From the retina to the chiasm is the optic nerve; from the chiasm to the thalamus is the optic tract. Seen here from below.",
+   "figure": {
+    "src": "data/figures/anatomy/b-optic-nerve-tract.webp",
+    "alt": "The brain from below, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Deep brain"
+   ]
+  },
+  {
+   "id": "id-ventricles",
+   "prompt": "Which system is highlighted in red?",
+   "answers": [
+    "Ventricles",
+    "Ventricular system",
+    "The ventricles"
+   ],
+   "wrong": [
+    "Subarachnoid space",
+    "Venous sinuses",
+    "Cerebral aqueduct only"
+   ],
+   "explanation": "Four fluid-filled chambers joined together by narrow channels, deep in the brain.",
+   "figure": {
+    "src": "data/figures/anatomy/b-ventricles.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Ventricles and protection"
+   ]
+  },
+  {
+   "id": "ventricle-count",
+   "prompt": "How many ventricles are in the brain?",
+   "answers": [
+    "Four",
+    "4"
+   ],
+   "wrong": [
+    "Two",
+    "Three",
+    "Five"
+   ],
+   "explanation": "Two lateral ventricles, the third ventricle and the fourth ventricle.",
+   "figure": {
+    "src": "data/figures/anatomy/b-ventricles.webp",
+    "alt": "The brain with the ventricles in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Ventricles and protection"
+   ]
+  },
+  {
+   "id": "id-lateral-ventricle",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Lateral ventricle",
+    "Lateral ventricles"
+   ],
+   "wrong": [
+    "Third ventricle",
+    "Fourth ventricle",
+    "Cerebral aqueduct"
+   ],
+   "explanation": "The two large C-shaped chambers, one in each hemisphere.",
+   "figure": {
+    "src": "data/figures/anatomy/b-lateral-ventricle.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Ventricles and protection"
+   ]
+  },
+  {
+   "id": "id-third-ventricle",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Third ventricle"
+   ],
+   "wrong": [
+    "Lateral ventricle",
+    "Fourth ventricle",
+    "Cerebral aqueduct"
+   ],
+   "explanation": "The narrow slit between the two halves of the thalamus.",
+   "figure": {
+    "src": "data/figures/anatomy/b-third-ventricle.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Ventricles and protection"
+   ]
+  },
+  {
+   "id": "id-fourth-ventricle",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Fourth ventricle"
+   ],
+   "wrong": [
+    "Third ventricle",
+    "Lateral ventricle",
+    "Cerebral aqueduct"
+   ],
+   "explanation": "In front of the cerebellum and behind the pons and medulla.",
+   "figure": {
+    "src": "data/figures/anatomy/b-fourth-ventricle.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Ventricles and protection"
+   ]
+  },
+  {
+   "id": "id-aqueduct",
+   "prompt": "Which part of the brain is highlighted in red?",
+   "answers": [
+    "Cerebral aqueduct",
+    "Aqueduct of Sylvius",
+    "Mesencephalic aqueduct"
+   ],
+   "wrong": [
+    "Fourth ventricle",
+    "Third ventricle",
+    "Central canal"
+   ],
+   "explanation": "The thin channel through the midbrain, joining the third ventricle to the fourth.",
+   "figure": {
+    "src": "data/figures/anatomy/b-aqueduct.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Ventricles and protection"
+   ]
+  },
+  {
+   "id": "csf-flow",
+   "prompt": "In what order does cerebrospinal fluid flow through the ventricles?",
+   "answers": [
+    "Lateral, third, cerebral aqueduct, fourth"
+   ],
+   "wrong": [
+    "Third, lateral, aqueduct, fourth",
+    "Lateral, fourth, aqueduct, third",
+    "Fourth, aqueduct, third, lateral"
+   ],
+   "explanation": "From the fourth ventricle it leaves through small openings into the subarachnoid space around the brain, and also runs down the central canal of the spinal cord.",
+   "tags": [
+    "Ventricles and protection"
+   ]
+  },
+  {
+   "id": "id-choroid-plexus",
+   "prompt": "Which structure is highlighted in red?",
+   "answers": [
+    "Choroid plexus"
+   ],
+   "wrong": [
+    "Ependyma",
+    "Arachnoid granulations",
+    "Pia mater"
+   ],
+   "explanation": "Tufts of blood vessels lining the ventricles.",
+   "figure": {
+    "src": "data/figures/anatomy/b-choroid-plexus.webp",
+    "alt": "The brain from the left, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Ventricles and protection"
+   ]
+  },
+  {
+   "id": "csf-made",
+   "prompt": "Where is cerebrospinal fluid mostly made?",
+   "answers": [
+    "Choroid plexus",
+    "The choroid plexuses",
+    "Choroid plexuses in the ventricles"
+   ],
+   "wrong": [
+    "Arachnoid granulations",
+    "The spinal cord",
+    "The pia mater"
+   ],
+   "explanation": "About 500 mL is made each day, but only about 150 mL is present at a time, because it is constantly reabsorbed.",
+   "figure": {
+    "src": "data/figures/anatomy/b-choroid-plexus.webp",
+    "alt": "The brain with the choroid plexus in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Ventricles and protection"
+   ]
+  },
+  {
+   "id": "csf-absorbed",
+   "prompt": "Through which structures is cerebrospinal fluid absorbed back into the blood?",
+   "answers": [
+    "Arachnoid granulations",
+    "Arachnoid villi"
+   ],
+   "wrong": [
+    "Choroid plexus",
+    "Pia mater",
+    "Ependymal cells"
+   ],
+   "explanation": "They poke into the superior sagittal venous sinus.",
+   "tags": [
+    "Ventricles and protection"
+   ]
+  },
+  {
+   "id": "hydrocephalus",
+   "prompt": "What is it called when cerebrospinal fluid builds up in the ventricles, as when the aqueduct is blocked?",
+   "answers": [
+    "Hydrocephalus"
+   ],
+   "wrong": [
+    "Meningitis",
+    "Encephalitis",
+    "Hemorrhage"
+   ],
+   "explanation": "In babies the head enlarges. A shunt drains the extra fluid.",
+   "tags": [
+    "Ventricles and protection"
+   ]
+  },
+  {
+   "id": "meninges",
+   "prompt": "From outside to inside, what are the three meninges around the brain?",
+   "answers": [
+    "Dura mater, arachnoid mater, pia mater"
+   ],
+   "wrong": [
+    "Pia mater, arachnoid mater, dura mater",
+    "Arachnoid mater, dura mater, pia mater",
+    "Dura mater, pia mater, arachnoid mater"
+   ],
+   "explanation": "Dura (tough mother), arachnoid (spider-web-like) and pia (gentle mother). The cerebrospinal fluid is in the space between the last two, the subarachnoid space.",
+   "tags": [
+    "Ventricles and protection"
+   ]
+  },
+  {
+   "id": "meningitis",
+   "prompt": "What is the inflammation of the meninges, usually from infection, called?",
+   "answers": [
+    "Meningitis"
+   ],
+   "wrong": [
+    "Encephalitis",
+    "Myelitis",
+    "Neuritis"
+   ],
+   "explanation": "Typical signs are fever, headache and a stiff neck.",
+   "tags": [
+    "Ventricles and protection"
+   ]
+  },
+  {
+   "id": "epidural",
+   "prompt": "A skull fracture that tears the middle meningeal artery causes bleeding into which space?",
+   "answers": [
+    "Epidural space",
+    "Between the skull and the dura mater",
+    "Extradural space"
+   ],
+   "wrong": [
+    "Subdural space",
+    "Subarachnoid space",
+    "Ventricles"
+   ],
+   "explanation": "An epidural haematoma. Subdural bleeding tears the bridging veins instead, and subarachnoid bleeding is usually from a ruptured aneurysm.",
+   "tags": [
+    "Ventricles and protection"
+   ]
+  },
+  {
+   "id": "bbb",
+   "prompt": "What keeps many blood-borne substances from entering the brain tissue?",
+   "answers": [
+    "The blood-brain barrier",
+    "Blood–brain barrier",
+    "Blood brain barrier"
+   ],
+   "wrong": [
+    "The choroid plexus",
+    "The arachnoid mater",
+    "Myelin"
+   ],
+   "explanation": "Tight junctions between the capillary cells, with support from astrocytes. It blocks many drugs, which is a problem for treating brain tumours.",
+   "tags": [
+    "Ventricles and protection"
+   ]
+  },
+  {
+   "id": "circle-willis",
+   "prompt": "What is the ring of arteries at the base of the brain, joining the carotid and basilar supplies, called?",
+   "answers": [
+    "Circle of Willis",
+    "Cerebral arterial circle"
+   ],
+   "wrong": [
+    "Circle of Galen",
+    "Sinus confluence",
+    "Vertebral basin"
+   ],
+   "explanation": "If one artery is blocked the others can often make up the supply.",
+   "tags": [
+    "Ventricles and protection"
+   ]
+  },
+  {
+   "id": "cn-count",
+   "prompt": "How many pairs of cranial nerves are there?",
+   "answers": [
+    "12",
+    "Twelve"
+   ],
+   "wrong": [
+    "10",
+    "31",
+    "8"
+   ],
+   "explanation": "Named and numbered in Roman numerals from front to back.",
+   "tags": [
+    "Cranial nerves"
+   ]
+  },
+  {
+   "id": "cn-i",
+   "prompt": "Which cranial nerve carries the sense of smell?",
+   "answers": [
+    "Olfactory nerve",
+    "Cranial nerve I",
+    "I"
+   ],
+   "wrong": [
+    "Optic nerve",
+    "Trigeminal nerve",
+    "Facial nerve"
+   ],
+   "explanation": "Its fibres pass through the holes of the cribriform plate of the ethmoid bone.",
+   "tags": [
+    "Cranial nerves"
+   ]
+  },
+  {
+   "id": "cn-ii",
+   "prompt": "Which cranial nerve carries vision?",
+   "answers": [
+    "Optic nerve",
+    "Cranial nerve II",
+    "II"
+   ],
+   "wrong": [
+    "Olfactory nerve",
+    "Oculomotor nerve",
+    "Trochlear nerve"
+   ],
+   "explanation": "It is really a tract of the brain, wrapped in meninges, which is why damage doesn't regrow.",
+   "tags": [
+    "Cranial nerves"
+   ]
+  },
+  {
+   "id": "cn-iii",
+   "prompt": "Which cranial nerve moves most of the muscles that move the eye, lifts the eyelid and constricts the pupil?",
+   "answers": [
+    "Oculomotor nerve",
+    "Cranial nerve III",
+    "III"
+   ],
+   "wrong": [
+    "Trochlear nerve",
+    "Abducens nerve",
+    "Optic nerve"
+   ],
+   "explanation": "When it fails the eye points down and out, the lid droops and the pupil is large.",
+   "tags": [
+    "Cranial nerves"
+   ]
+  },
+  {
+   "id": "cn-iv",
+   "prompt": "Which cranial nerve supplies the superior oblique muscle of the eye?",
+   "answers": [
+    "Trochlear nerve",
+    "Cranial nerve IV",
+    "IV"
+   ],
+   "wrong": [
+    "Oculomotor nerve",
+    "Abducens nerve",
+    "Trigeminal nerve"
+   ],
+   "explanation": "The only cranial nerve to leave from the back of the brainstem. Its muscle works through a pulley (trochlea).",
+   "tags": [
+    "Cranial nerves"
+   ]
+  },
+  {
+   "id": "cn-v",
+   "prompt": "Which cranial nerve carries feeling from the face and moves the chewing muscles?",
+   "answers": [
+    "Trigeminal nerve",
+    "Cranial nerve V",
+    "V"
+   ],
+   "wrong": [
+    "Facial nerve",
+    "Glossopharyngeal nerve",
+    "Vagus nerve"
+   ],
+   "explanation": "Three branches (ophthalmic, maxillary and mandibular) give it its name.",
+   "tags": [
+    "Cranial nerves"
+   ]
+  },
+  {
+   "id": "cn-vi",
+   "prompt": "Which cranial nerve supplies the lateral rectus muscle, turning the eye outward?",
+   "answers": [
+    "Abducens nerve",
+    "Cranial nerve VI",
+    "VI"
+   ],
+   "wrong": [
+    "Trochlear nerve",
+    "Oculomotor nerve",
+    "Trigeminal nerve"
+   ],
+   "explanation": "Abducens abducts the eye. Paralysis makes the eye drift inward and causes double vision.",
+   "tags": [
+    "Cranial nerves"
+   ]
+  },
+  {
+   "id": "cn-vii",
+   "prompt": "Which cranial nerve moves the muscles of facial expression and carries taste from the front of the tongue?",
+   "answers": [
+    "Facial nerve",
+    "Cranial nerve VII",
+    "VII"
+   ],
+   "wrong": [
+    "Trigeminal nerve",
+    "Glossopharyngeal nerve",
+    "Hypoglossal nerve"
+   ],
+   "explanation": "In Bell's palsy the nerve is inflamed and one side of the face droops.",
+   "tags": [
+    "Cranial nerves"
+   ]
+  },
+  {
+   "id": "cn-viii",
+   "prompt": "Which cranial nerve carries hearing and balance from the inner ear?",
+   "answers": [
+    "Vestibulocochlear nerve",
+    "Cranial nerve VIII",
+    "VIII"
+   ],
+   "wrong": [
+    "Facial nerve",
+    "Glossopharyngeal nerve",
+    "Vagus nerve"
+   ],
+   "explanation": "The cochlear part is for hearing and the vestibular part for balance.",
+   "tags": [
+    "Cranial nerves"
+   ]
+  },
+  {
+   "id": "cn-ix",
+   "prompt": "Which cranial nerve carries taste from the back of the tongue and supplies the muscle that lifts the pharynx in swallowing?",
+   "answers": [
+    "Glossopharyngeal nerve",
+    "Cranial nerve IX",
+    "IX"
+   ],
+   "wrong": [
+    "Vagus nerve",
+    "Facial nerve",
+    "Hypoglossal nerve"
+   ],
+   "explanation": "Glosso- is tongue, pharyngeal is throat. It also senses blood pressure at the carotid sinus.",
+   "tags": [
+    "Cranial nerves"
+   ]
+  },
+  {
+   "id": "cn-x",
+   "prompt": "Which cranial nerve runs from the brainstem all the way to the abdomen, slowing the heart and speeding up digestion?",
+   "answers": [
+    "Vagus nerve",
+    "Cranial nerve X",
+    "X"
+   ],
+   "wrong": [
+    "Glossopharyngeal nerve",
+    "Accessory nerve",
+    "Phrenic nerve"
+   ],
+   "explanation": "Vagus means wanderer. It carries most of the parasympathetic outflow.",
+   "tags": [
+    "Cranial nerves"
+   ]
+  },
+  {
+   "id": "cn-xi",
+   "prompt": "Which cranial nerve supplies the trapezius and sternocleidomastoid?",
+   "answers": [
+    "Accessory nerve",
+    "Spinal accessory nerve",
+    "Cranial nerve XI",
+    "XI"
+   ],
+   "wrong": [
+    "Vagus nerve",
+    "Hypoglossal nerve",
+    "Glossopharyngeal nerve"
+   ],
+   "explanation": "Testing a shrug and turning the head against resistance checks it.",
+   "tags": [
+    "Cranial nerves"
+   ]
+  },
+  {
+   "id": "cn-xii",
+   "prompt": "Which cranial nerve moves the tongue?",
+   "answers": [
+    "Hypoglossal nerve",
+    "Cranial nerve XII",
+    "XII"
+   ],
+   "wrong": [
+    "Glossopharyngeal nerve",
+    "Facial nerve",
+    "Accessory nerve"
+   ],
+   "explanation": "Hypo- (under) glossal (tongue). When it fails, the tongue sticks out to the damaged side.",
+   "tags": [
+    "Cranial nerves"
+   ]
+  },
+  {
+   "id": "cn-eyes",
+   "prompt": "Which three cranial nerves move the eyeball?",
+   "answers": [
+    "Oculomotor, trochlear and abducens",
+    "III, IV and VI",
+    "Cranial nerves III, IV and VI"
+   ],
+   "wrong": [
+    "Optic, oculomotor and trochlear",
+    "Trigeminal, facial and abducens",
+    "Oculomotor, abducens and facial"
+   ],
+   "explanation": "Memory aid for the muscles: LR6 SO4 and the rest 3. Lateral rectus is supplied by VI, superior oblique by IV and the others by III.",
+   "tags": [
+    "Cranial nerves"
+   ]
+  },
+  {
+   "id": "cn-mnemonic",
+   "prompt": "In order, I to XII, what are the cranial nerves?",
+   "answers": [
+    "Olfactory, optic, oculomotor, trochlear, trigeminal, abducens, facial, vestibulocochlear, glossopharyngeal, vagus, accessory, hypoglossal"
+   ],
+   "wrong": [
+    "Optic, olfactory, oculomotor, trochlear, trigeminal, abducens, facial, vestibulocochlear, glossopharyngeal, vagus, accessory, hypoglossal",
+    "Olfactory, optic, trochlear, oculomotor, trigeminal, abducens, facial, vestibulocochlear, glossopharyngeal, vagus, accessory, hypoglossal",
+    "Olfactory, optic, oculomotor, trochlear, trigeminal, facial, abducens, vestibulocochlear, glossopharyngeal, vagus, accessory, hypoglossal"
+   ],
+   "explanation": "\"Oh, Oh, Oh, To Touch And Feel Very Good Velvet, Such Heaven\": the first letters give O O O T T A F V G V A H.",
+   "tags": [
+    "Cranial nerves"
+   ]
+  },
+  {
+   "id": "cn-sensory-motor",
+   "prompt": "Which cranial nerves carry only sensory signals (the special senses)?",
+   "answers": [
+    "I, II and VIII",
+    "Olfactory, optic and vestibulocochlear",
+    "Cranial nerves I, II and VIII"
+   ],
+   "wrong": [
+    "III, IV and VI",
+    "V, VII and IX",
+    "X, XI and XII"
+   ],
+   "explanation": "\"Some say marry money, but my brother says big brains matter more\": S = sensory, M = motor, B = both: S S M M B M M B B B M M for I to XII.",
+   "tags": [
+    "Cranial nerves"
+   ]
+  },
+  {
+   "id": "cn-medulla",
+   "prompt": "Which cranial nerves leave from the medulla?",
+   "answers": [
+    "IX, X, XI and XII",
+    "Glossopharyngeal, vagus, accessory and hypoglossal",
+    "Cranial nerves IX to XII"
+   ],
+   "wrong": [
+    "V, VI, VII and VIII",
+    "III and IV",
+    "I and II"
+   ],
+   "explanation": "The last four.",
+   "tags": [
+    "Cranial nerves"
+   ]
+  },
+  {
+   "id": "cn-bell",
+   "prompt": "Which cranial nerve is affected in Bell's palsy?",
+   "answers": [
+    "Facial nerve",
+    "Cranial nerve VII",
+    "VII"
+   ],
+   "wrong": [
+    "Trigeminal nerve",
+    "Glossopharyngeal nerve",
+    "Hypoglossal nerve"
+   ],
+   "explanation": "The forehead droops too, unlike in a stroke: the part of the face above the eyes is supplied from both hemispheres.",
+   "tags": [
+    "Cranial nerves"
+   ]
+  },
+  {
+   "id": "cn-trigeminal-neuralgia",
+   "prompt": "Sudden stabbing pain in one side of the face, set off by a light touch or chewing, comes from which nerve?",
+   "answers": [
+    "Trigeminal nerve",
+    "Cranial nerve V",
+    "V"
+   ],
+   "wrong": [
+    "Facial nerve",
+    "Glossopharyngeal nerve",
+    "Vagus nerve"
+   ],
+   "explanation": "Trigeminal neuralgia, often from a blood vessel pressing on the nerve root.",
+   "tags": [
+    "Cranial nerves"
+   ]
+  },
+  {
+   "id": "cord-length",
+   "prompt": "In an adult, the spinal cord ends at about which vertebra?",
+   "answers": [
+    "L1 or L2",
+    "First or second lumbar vertebra",
+    "L1",
+    "L2"
+   ],
+   "wrong": [
+    "S2",
+    "T12",
+    "L5"
+   ],
+   "explanation": "The conus medullaris. Below it, the nerve roots hang down like a horse's tail (the cauda equina). A lumbar puncture is done below this, between L3 and L4 or L4 and L5.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "cauda-equina",
+   "prompt": "What are the bundle of nerve roots below the end of the spinal cord called?",
+   "answers": [
+    "Cauda equina"
+   ],
+   "wrong": [
+    "Conus medullaris",
+    "Filum terminale",
+    "Brachial plexus"
+   ],
+   "explanation": "Latin for horse's tail. Compression of it is a surgical emergency: numbness between the legs and loss of bladder control.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "spinal-pairs",
+   "prompt": "How many pairs of spinal nerves are there?",
+   "answers": [
+    "31"
+   ],
+   "wrong": [
+    "12",
+    "24",
+    "33"
+   ],
+   "explanation": "Eight cervical, 12 thoracic, five lumbar, five sacral and one coccygeal.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "cervical-pairs",
+   "prompt": "There are seven cervical vertebrae. How many pairs of cervical spinal nerves are there?",
+   "answers": [
+    "Eight",
+    "8"
+   ],
+   "wrong": [
+    "Seven",
+    "Six",
+    "Nine"
+   ],
+   "explanation": "C1 leaves above the atlas and C8 below the C7 vertebra; below that, each nerve leaves below its vertebra.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "dorsal-root",
+   "prompt": "Which root of a spinal nerve carries sensory signals into the cord?",
+   "answers": [
+    "Dorsal (posterior) root",
+    "Dorsal root",
+    "Posterior root"
+   ],
+   "wrong": [
+    "Ventral (anterior) root",
+    "Both roots equally",
+    "Neither: sensory signals go through the cauda equina"
+   ],
+   "explanation": "Its cell bodies are in the dorsal root ganglion. The ventral root carries motor signals out.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "bell-magendie",
+   "prompt": "Which root of a spinal nerve carries motor signals out from the cord?",
+   "answers": [
+    "Ventral (anterior) root",
+    "Ventral root",
+    "Anterior root"
+   ],
+   "wrong": [
+    "Dorsal (posterior) root",
+    "Both roots equally",
+    "Neither"
+   ],
+   "explanation": "The Bell–Magendie law: dorsal for sensory (in), ventral for motor (out).",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "cord-grey",
+   "prompt": "In cross-section, the grey matter of the spinal cord is shaped like what?",
+   "answers": [
+    "A butterfly or the letter H",
+    "A butterfly",
+    "An H"
+   ],
+   "wrong": [
+    "A ring",
+    "A circle",
+    "A horseshoe only in the neck"
+   ],
+   "explanation": "With the white matter in tracts around it, the reverse of the brain, where grey matter is on the outside.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "dorsal-columns",
+   "prompt": "Which tracts in the back of the spinal cord carry fine touch and the sense of limb position up to the brain?",
+   "answers": [
+    "Dorsal columns",
+    "Posterior columns",
+    "Dorsal column–medial lemniscus pathway"
+   ],
+   "wrong": [
+    "Spinothalamic tracts",
+    "Corticospinal tracts",
+    "Spinocerebellar tracts"
+   ],
+   "explanation": "They cross in the medulla. The spinothalamic tracts, which carry pain and temperature, cross in the cord itself, within a few segments of entering.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "corticospinal",
+   "prompt": "Which tract carries voluntary movement commands from the motor cortex down the spinal cord?",
+   "answers": [
+    "Corticospinal tract",
+    "Pyramidal tract"
+   ],
+   "wrong": [
+    "Spinothalamic tract",
+    "Dorsal columns",
+    "Spinocerebellar tract"
+   ],
+   "explanation": "Most of its fibres cross in the medulla's pyramids.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "spinothalamic",
+   "prompt": "Which tract carries pain and temperature signals up to the thalamus?",
+   "answers": [
+    "Spinothalamic tract",
+    "Spinothalamic tracts"
+   ],
+   "wrong": [
+    "Corticospinal tract",
+    "Dorsal columns",
+    "Reticulospinal tract"
+   ],
+   "explanation": "Its fibres cross within a few segments of the cord, so a one-sided cord injury loses pain on the other side of the body below it.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "brown-sequard",
+   "prompt": "A half-cut of the spinal cord weakens one side of the body and takes pain and temperature from the other. What is this called?",
+   "answers": [
+    "Brown-Séquard syndrome",
+    "Brown-Sequard syndrome"
+   ],
+   "wrong": [
+    "Cauda equina syndrome",
+    "Horner syndrome",
+    "Guillain-Barré syndrome"
+   ],
+   "explanation": "Motor and touch fibres cross higher up (in the medulla), pain fibres cross in the cord.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "dermatome",
+   "prompt": "What is the area of skin supplied by the sensory fibres of one spinal nerve called?",
+   "answers": [
+    "Dermatome"
+   ],
+   "wrong": [
+    "Myotome",
+    "Sclerotome",
+    "Plexus"
+   ],
+   "explanation": "A myotome is the set of muscles one spinal nerve moves.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "plexus",
+   "prompt": "What is a network where the spinal nerves join and regroup before running to the limbs called?",
+   "answers": [
+    "Plexus",
+    "Nerve plexus"
+   ],
+   "wrong": [
+    "Ganglion",
+    "Dermatome",
+    "Tract"
+   ],
+   "explanation": "The main ones are the cervical, brachial, lumbar and sacral plexuses.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "brachial-plexus",
+   "prompt": "Which plexus supplies the shoulder and the whole upper limb?",
+   "answers": [
+    "Brachial plexus"
+   ],
+   "wrong": [
+    "Cervical plexus",
+    "Lumbar plexus",
+    "Sacral plexus"
+   ],
+   "explanation": "Formed from the ventral rami of C5 to T1. Its roots pass between the anterior and middle scalenes.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "phrenic-c345",
+   "prompt": "Which nerve to the diaphragm comes from C3, C4 and C5?",
+   "answers": [
+    "Phrenic nerve"
+   ],
+   "wrong": [
+    "Vagus nerve",
+    "Long thoracic nerve",
+    "Intercostal nerves"
+   ],
+   "explanation": "\"C3, 4, 5 keeps the diaphragm alive.\"",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "sciatic",
+   "prompt": "Which is the largest nerve in the body?",
+   "answers": [
+    "Sciatic nerve"
+   ],
+   "wrong": [
+    "Femoral nerve",
+    "Vagus nerve",
+    "Median nerve"
+   ],
+   "explanation": "It leaves the pelvis through the greater sciatic foramen, below the piriformis, and splits above the knee into the tibial and common fibular nerves. Sciatica is pain along it.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "median-nerve",
+   "prompt": "Compression of which nerve at the wrist causes carpal tunnel syndrome?",
+   "answers": [
+    "Median nerve"
+   ],
+   "wrong": [
+    "Ulnar nerve",
+    "Radial nerve",
+    "Musculocutaneous nerve"
+   ],
+   "explanation": "Tingling in the thumb, index and middle fingers, and weakness of the thumb.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "ulnar-nerve",
+   "prompt": "Which nerve runs behind the medial epicondyle of the humerus (the 'funny bone')?",
+   "answers": [
+    "Ulnar nerve"
+   ],
+   "wrong": [
+    "Median nerve",
+    "Radial nerve",
+    "Axillary nerve"
+   ],
+   "explanation": "Knocking it sends a tingling to the little finger and half of the ring finger.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "radial-nerve",
+   "prompt": "A broken shaft of the humerus can damage which nerve, causing wrist drop?",
+   "answers": [
+    "Radial nerve"
+   ],
+   "wrong": [
+    "Median nerve",
+    "Ulnar nerve",
+    "Axillary nerve"
+   ],
+   "explanation": "It winds round the back of the humerus in the radial groove and supplies all the extensor muscles of the arm and forearm.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "fibular-nerve",
+   "prompt": "Which nerve winds round the neck of the fibula and, when injured, causes foot drop?",
+   "answers": [
+    "Common fibular nerve",
+    "Common peroneal nerve",
+    "Fibular nerve"
+   ],
+   "wrong": [
+    "Tibial nerve",
+    "Sciatic nerve",
+    "Femoral nerve"
+   ],
+   "explanation": "It supplies the muscles that lift the foot.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "femoral-nerve",
+   "prompt": "Which nerve supplies the quadriceps?",
+   "answers": [
+    "Femoral nerve"
+   ],
+   "wrong": [
+    "Obturator nerve",
+    "Sciatic nerve",
+    "Tibial nerve"
+   ],
+   "explanation": "Branches from L2 to L4. The obturator nerve supplies the adductors.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "reflex-arc",
+   "prompt": "What are the five parts of a reflex arc, in order?",
+   "answers": [
+    "Receptor, sensory neuron, integration centre, motor neuron, effector"
+   ],
+   "wrong": [
+    "Receptor, motor neuron, integration centre, sensory neuron, effector",
+    "Effector, sensory neuron, integration centre, motor neuron, receptor",
+    "Receptor, sensory neuron, effector, motor neuron, integration centre"
+   ],
+   "explanation": "Spinal reflexes act without waiting for the brain, which makes them fast.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "knee-jerk",
+   "prompt": "The knee-jerk reflex is a stretch reflex. What does the tap on the patellar tendon stretch?",
+   "answers": [
+    "Muscle spindles in the quadriceps",
+    "Muscle spindles"
+   ],
+   "wrong": [
+    "Golgi tendon organs",
+    "Pain receptors",
+    "Pacinian corpuscles"
+   ],
+   "explanation": "The quadriceps contracts at once, with only one synapse between the sensory and motor neurons (a monosynaptic reflex).",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "withdrawal",
+   "prompt": "Touching something hot makes you snatch your hand away before you feel pain. Where is this reflex integrated?",
+   "answers": [
+    "In the spinal cord",
+    "Spinal cord"
+   ],
+   "wrong": [
+    "In the cerebellum",
+    "In the motor cortex",
+    "In the thalamus"
+   ],
+   "explanation": "The pain signal also goes up to the brain, but later.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "golgi-tendon",
+   "prompt": "Which sensory receptor in a tendon senses tension and makes the muscle relax if it is too much?",
+   "answers": [
+    "Golgi tendon organ",
+    "Golgi tendon organs"
+   ],
+   "wrong": [
+    "Muscle spindle",
+    "Pacinian corpuscle",
+    "Meissner's corpuscle"
+   ],
+   "explanation": "A muscle spindle senses stretch in the muscle itself.",
+   "tags": [
+    "Spinal cord and nerves"
+   ]
+  },
+  {
+   "id": "ans-what",
+   "prompt": "What does the autonomic nervous system control?",
+   "answers": [
+    "Involuntary functions such as heart rate and digestion",
+    "Involuntary functions",
+    "Smooth muscle, cardiac muscle and glands"
+   ],
+   "wrong": [
+    "Voluntary movement",
+    "Conscious sensation",
+    "Reflexes only"
+   ],
+   "explanation": "It has two main parts, the sympathetic and parasympathetic divisions, and a third, the enteric nervous system of the gut.",
+   "tags": [
+    "Autonomic nervous system"
+   ]
+  },
+  {
+   "id": "sympathetic-name",
+   "prompt": "Which division of the autonomic nervous system prepares the body for 'fight or flight'?",
+   "answers": [
+    "Sympathetic"
+   ],
+   "wrong": [
+    "Parasympathetic",
+    "Enteric",
+    "Somatic"
+   ],
+   "explanation": "Heart rate and blood pressure rise, the airways widen, the pupils dilate and digestion slows.",
+   "tags": [
+    "Autonomic nervous system"
+   ]
+  },
+  {
+   "id": "parasympathetic-name",
+   "prompt": "Which division of the autonomic nervous system promotes 'rest and digest'?",
+   "answers": [
+    "Parasympathetic"
+   ],
+   "wrong": [
+    "Sympathetic",
+    "Enteric",
+    "Somatic"
+   ],
+   "explanation": "Heart rate falls, digestion speeds up, the pupils narrow.",
+   "tags": [
+    "Autonomic nervous system"
+   ]
+  },
+  {
+   "id": "sympathetic-origin",
+   "prompt": "Sympathetic neurons leave the spinal cord from which levels?",
+   "answers": [
+    "T1 to L2",
+    "Thoracic and upper lumbar",
+    "Thoracolumbar"
+   ],
+   "wrong": [
+    "Brainstem and sacral",
+    "C1 to C8",
+    "L3 to S5"
+   ],
+   "explanation": "The 'thoracolumbar outflow'. The parasympathetic outflow is cranial and sacral.",
+   "tags": [
+    "Autonomic nervous system"
+   ]
+  },
+  {
+   "id": "parasympathetic-origin",
+   "prompt": "The parasympathetic outflow comes from which parts of the central nervous system?",
+   "answers": [
+    "Brainstem (cranial nerves) and sacral cord",
+    "Cranial and sacral",
+    "Craniosacral"
+   ],
+   "wrong": [
+    "Thoracic and lumbar cord",
+    "Cervical cord only",
+    "Cerebellum"
+   ],
+   "explanation": "Cranial nerves III, VII, IX and X, and spinal nerves S2 to S4.",
+   "tags": [
+    "Autonomic nervous system"
+   ]
+  },
+  {
+   "id": "preganglionic",
+   "prompt": "Which neurotransmitter do all preganglionic autonomic neurons release?",
+   "answers": [
+    "Acetylcholine",
+    "ACh"
+   ],
+   "wrong": [
+    "Noradrenaline",
+    "Dopamine",
+    "Serotonin"
+   ],
+   "explanation": "Postganglionic parasympathetic neurons also use ACh; most postganglionic sympathetic neurons use noradrenaline.",
+   "tags": [
+    "Autonomic nervous system"
+   ]
+  },
+  {
+   "id": "sympathetic-post",
+   "prompt": "Which neurotransmitter do most postganglionic sympathetic neurons release?",
+   "answers": [
+    "Noradrenaline",
+    "Norepinephrine"
+   ],
+   "wrong": [
+    "Acetylcholine",
+    "Dopamine",
+    "GABA"
+   ],
+   "explanation": "A few, such as those to sweat glands, use acetylcholine.",
+   "tags": [
+    "Autonomic nervous system"
+   ]
+  },
+  {
+   "id": "adrenal-medulla",
+   "prompt": "The adrenal medulla is like a sympathetic ganglion that releases hormones into the blood. Which?",
+   "answers": [
+    "Adrenaline and noradrenaline",
+    "Adrenaline (epinephrine) and noradrenaline",
+    "Epinephrine and norepinephrine"
+   ],
+   "wrong": [
+    "Cortisol and aldosterone",
+    "Insulin and glucagon",
+    "Thyroxine and calcitonin"
+   ],
+   "tags": [
+    "Autonomic nervous system"
+   ]
+  },
+  {
+   "id": "vagus-heart",
+   "prompt": "What effect does stimulation of the vagus nerve have on the heart?",
+   "answers": [
+    "It slows it",
+    "It slows the heart rate",
+    "Decreases heart rate"
+   ],
+   "wrong": [
+    "It speeds it up",
+    "It makes the beats stronger",
+    "It has no effect"
+   ],
+   "explanation": "Acetylcholine acts on the sinoatrial node. At rest the vagus keeps the heart rate below the 100 beats a minute the node would set by itself.",
+   "tags": [
+    "Autonomic nervous system"
+   ]
+  },
+  {
+   "id": "pupil",
+   "prompt": "Which division of the autonomic nervous system widens (dilates) the pupil?",
+   "answers": [
+    "Sympathetic"
+   ],
+   "wrong": [
+    "Parasympathetic",
+    "Somatic",
+    "Enteric"
+   ],
+   "explanation": "The parasympathetic constricts it, through the oculomotor nerve.",
+   "tags": [
+    "Autonomic nervous system"
+   ]
+  },
+  {
+   "id": "enteric",
+   "prompt": "What is the network of nerves in the wall of the gut, which can run digestion without the brain, called?",
+   "answers": [
+    "Enteric nervous system",
+    "The enteric nervous system"
+   ],
+   "wrong": [
+    "Somatic nervous system",
+    "Sympathetic chain",
+    "Vagal complex"
+   ],
+   "explanation": "It has some 500 million neurons, so it is sometimes called the 'second brain'.",
+   "tags": [
+    "Autonomic nervous system"
+   ]
+  },
+  {
+   "id": "somatic-vs-auto",
+   "prompt": "How many neurons are in the pathway from the central nervous system to the effector in the somatic system, and in the autonomic system?",
+   "answers": [
+    "One in the somatic, two in the autonomic",
+    "Somatic one, autonomic two"
+   ],
+   "wrong": [
+    "Two in the somatic, one in the autonomic",
+    "Both have one",
+    "Both have two"
+   ],
+   "explanation": "The autonomic pathway has a preganglionic and a postganglionic neuron, with a synapse in a ganglion between them.",
+   "tags": [
+    "Autonomic nervous system"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Name the part",
+   "count": 20,
+   "pass": 80,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Name the part"
+   ],
+   "why": "Twenty pictures of the brain, each with one part in red to name."
+  },
+  {
+   "name": "Chapter quiz",
+   "count": 30,
+   "pass": 75,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "end",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Thirty questions from the whole chapter, marked at the end, like an end-of-unit test."
+  },
+  {
+   "name": "Recall without choices",
+   "count": 20,
+   "pass": 75,
+   "pick": "due",
+   "answer": "typed",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Type each answer from memory, starting with the ones due for review. Small typos are forgiven."
+  }
+ ]
+}

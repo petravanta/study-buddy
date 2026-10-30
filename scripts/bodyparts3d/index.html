@@ -12,8 +12,8 @@ const scene = new THREE.Scene();
 scene.add(new THREE.HemisphereLight(0xffffff, 0x8a7f70, 1.1));
 const key = new THREE.DirectionalLight(0xffffff, 1.6); scene.add(key); scene.add(key.target);
 const parts = new Map();
-const BONE = 0xe9dfc8, HI = 0xd9382c, DIM = 0xf1ece2, CART = 0xc9d6dc, MUSCLE = 0xd6b3a6, TENDON = 0xeee6d2;
-const COLOUR = { bone: BONE, cartilage: CART, muscle: MUSCLE, tendon: TENDON };
+const BONE = 0xe9dfc8, HI = 0xd9382c, DIM = 0xf1ece2, CART = 0xc9d6dc, MUSCLE = 0xd6b3a6, TENDON = 0xeee6d2, BRAIN = 0xd9bfc0;
+const COLOUR = { bone: BONE, cartilage: CART, muscle: MUSCLE, tendon: TENDON, brain: BRAIN };
 const list = (await (await fetch('parts.tsv')).text()).trim().split('\n').map(l => l.split('\t'));
 const loader = new STLLoader();
 // parts.tsv: id, name and kind (bone when left out; cartilage for costal cartilages and discs)
