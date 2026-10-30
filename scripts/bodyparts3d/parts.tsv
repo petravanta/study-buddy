@@ -868,3 +868,20 @@ FMA7371	lower lobe of left lung	lung
 FMA7383	middle lobe of lung	lung
 FMA7394	trachea	airway
 FMA7409	bronchus	airway
+FMA10419	pancreatic duct	organ
+FMA14542	appendix	organ
+FMA14543nsn	colon, nsn	organ
+FMA14544	rectum	organ
+FMA21930	external anal sphincter	organ
+FMA7131	esophagus	organ
+FMA7148	stomach	organ
+FMA7196	spleen	organ
+FMA7197	liver	organ
+FMA7198nsn	pancreas, nsn	organ
+FMA7202	gallbladder	organ
+FMA7206	duodenum	organ
+FMA7207	jejunum	organ
+FMA7208	ileum	organ
+FMA76891	mesocolic taenia	organ
+FMA76892	omental taenia	organ
+FMA76893	free taenia	organ
