@@ -700,3 +700,101 @@ FMA9757	internal intercostal muscle	muscle
 FMA9758	innermost intercostal muscle	muscle
 FMA9761	right transversus thoracis	muscle
 FMA9762	left transversus thoracis	muscle
+BP49	left superior parietal lobule precuneus	brain
+BP50	right superior parietal lobule precuneus	brain
+BP51	orbital gyri straight gyrus	brain
+FMA13889	pituitary gland	brain
+FMA258714	right thalamus	brain
+FMA258716	left thalamus	brain
+FMA274027	choroid plexus of right cerebral hemisphere	brain
+FMA274029	choroid plexus of left cerebral hemisphere	brain
+FMA50875	right optic nerve	brain
+FMA50878	left optic nerve	brain
+FMA61822	white matter structure of cerebral hemisphere	brain
+FMA61844	septum pellucidum	brain
+FMA61961	anterior commissure	brain
+FMA61970	commissure of fornix of forebrain	brain
+FMA61975	lamina terminalis	brain
+FMA61993nsn	midbrain, nsn	brain
+FMA62004	medulla oblongata	brain
+FMA62008nsn	hypothalamus, nsn	brain
+FMA62032	habenula	brain
+FMA62033	pineal body	brain
+FMA62045	optic chiasm	brain
+FMA62072	posterior commissure	brain
+FMA62327	tuber cinereum	brain
+FMA62382	right optic tract	brain
+FMA62394	peduncle of midbrain	brain
+FMA67936	left optic tract	brain
+FMA67943	pons	brain
+FMA67944	cerebellum	brain
+FMA72653	right superior frontal gyrus	brain
+FMA72654	left superior frontal gyrus	brain
+FMA72655	right middle frontal gyrus	brain
+FMA72656	left middle frontal gyrus	brain
+FMA72661	right precentral gyrus	brain
+FMA72662	left precentral gyrus	brain
+FMA72665	right postcentral gyrus	brain
+FMA72666	left postcentral gyrus	brain
+FMA72667	right supramarginal gyrus	brain
+FMA72668	left supramarginal gyrus	brain
+FMA72669	right angular gyrus	brain
+FMA72670	left angular gyrus	brain
+FMA72685	right middle temporal gyrus	brain
+FMA72686	left middle temporal gyrus	brain
+FMA72687	right inferior temporal gyrus	brain
+FMA72688	left inferior temporal gyrus	brain
+FMA72689	right fusiform gyrus	brain
+FMA72690	left fusiform gyrus	brain
+FMA72701	right accessory short gyrus	brain
+FMA72702	left accessory short gyrus	brain
+FMA72705	right parahippocampal gyrus	brain
+FMA72706	left parahippocampal gyrus	brain
+FMA72713	right hippocampus	brain
+FMA72714	left hippocampus	brain
+FMA72717	right cingulate gyrus	brain
+FMA72718	left cingulate gyrus	brain
+FMA72800	anterior part of right superior temporal gyrus	brain
+FMA72801	anterior part of left superior temporal gyrus	brain
+FMA72804	posterior part of right superior temporal gyrus	brain
+FMA72805	posterior part of left superior temporal gyrus	brain
+FMA72826	right caudate nucleus	brain
+FMA72827	left caudate nucleus	brain
+FMA72828	right putamen	brain
+FMA72829	left putamen	brain
+FMA72830	right globus pallidus	brain
+FMA72831	left globus pallidus	brain
+FMA72832	right amygdala	brain
+FMA72833	left amygdala	brain
+FMA72908	anterior limb of right internal capsule	brain
+FMA72909	anterior limb of left internal capsule	brain
+FMA72924	right fornix of forebrain	brain
+FMA72925	left fornix of forebrain	brain
+FMA72939	right stria terminalis	brain
+FMA72940	left stria terminalis	brain
+FMA72975	right occipital lobe	brain
+FMA72976	left occipital lobe	brain
+FMA72977	right insula	brain
+FMA72978	left insula	brain
+FMA73303	right lateral geniculate body	brain
+FMA73304	left lateral geniculate body	brain
+FMA73309	right medial geniculate body	brain
+FMA73310	left medial geniculate body	brain
+FMA73413	right stria medullaris of thalamus	brain
+FMA73414	left stria medullaris of thalamus	brain
+FMA73422	right superior colliculus	brain
+FMA73423	left superior colliculus	brain
+FMA73434	right inferior colliculus	brain
+FMA73435	left inferior colliculus	brain
+FMA73461	brachium of right superior colliculus	brain
+FMA73462	brachium of left superior colliculus	brain
+FMA73463	brachium of right inferior colliculus	brain
+FMA73464	brachium of left inferior colliculus	brain
+FMA74877	mammillary body	brain
+FMA78449	right lateral ventricle	brain
+FMA78450	left lateral ventricle	brain
+FMA78454	third ventricle	brain
+FMA78467	cerebral aqueduct	brain
+FMA78469	fourth ventricle	brain
+FMA83740	interpeduncular fossa	brain
+FMA86464	corpus callosum	brain
