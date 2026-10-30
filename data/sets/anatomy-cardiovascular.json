@@ -1,0 +1,2657 @@
+{
+ "id": "anatomy-cardiovascular",
+ "name": "Cardiovascular system",
+ "module": "Human anatomy",
+ "description": "The heart, blood vessels and blood: the chambers, valves and coronary arteries, how the heartbeat is started and timed, the large arteries and veins of the neck and trunk, the two circuits, and the blood itself. Picture questions show the heart and large vessels, drawn see-through, with one part highlighted to name.",
+ "source": {
+  "name": "Written for Study Buddy. Pictures rendered from BodyParts3D (© The Database Center for Life Science, CC BY-SA 2.1 JP).",
+  "url": "https://github.com/petravanta/study-buddy/tree/main/scripts/bodyparts3d"
+ },
+ "updated": "2026-10-30",
+ "questions": [
+  {
+   "id": "heart-size",
+   "prompt": "About how big is the adult heart?",
+   "answers": [
+    "About the size of a fist",
+    "A fist"
+   ],
+   "wrong": [
+    "About the size of a tennis ball",
+    "About the size of two fists",
+    "About the size of a grapefruit"
+   ],
+   "explanation": "Roughly 300 g. It lies in the middle of the chest (the mediastinum), with its tip (apex) pointing down and to the left.",
+   "figure": {
+    "src": "data/figures/anatomy/c-heart.webp",
+    "alt": "The heart seen from the front",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "apex",
+   "prompt": "Which way does the apex of the heart point?",
+   "answers": [
+    "Down and to the left",
+    "Down and left"
+   ],
+   "wrong": [
+    "Down and to the right",
+    "Up and to the left",
+    "Straight down"
+   ],
+   "explanation": "It beats against the chest wall at the fifth intercostal space, in line with the middle of the collarbone: the apex beat.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "pericardium",
+   "prompt": "What is the double-walled sac around the heart called?",
+   "answers": [
+    "Pericardium"
+   ],
+   "wrong": [
+    "Epicardium",
+    "Endocardium",
+    "Pleura"
+   ],
+   "explanation": "A tough outer fibrous layer and an inner serous layer, with a little fluid between to let the heart move without friction.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "tamponade",
+   "prompt": "What is it called when fluid or blood collecting in the pericardial sac squeezes the heart so it cannot fill?",
+   "answers": [
+    "Cardiac tamponade",
+    "Tamponade"
+   ],
+   "wrong": [
+    "Pericarditis",
+    "Pleural effusion",
+    "Angina"
+   ],
+   "explanation": "A medical emergency. The tough fibrous pericardium cannot stretch.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "heart-layers",
+   "prompt": "From outside to inside, what are the three layers of the heart wall?",
+   "answers": [
+    "Epicardium, myocardium, endocardium"
+   ],
+   "wrong": [
+    "Endocardium, myocardium, epicardium",
+    "Myocardium, epicardium, endocardium",
+    "Epicardium, endocardium, myocardium"
+   ],
+   "explanation": "The thick middle layer, the myocardium, is the cardiac muscle. The endocardium is the smooth lining that is continuous with the lining of the vessels.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "chambers",
+   "prompt": "How many chambers does the heart have?",
+   "answers": [
+    "Four",
+    "4"
+   ],
+   "wrong": [
+    "Two",
+    "Three",
+    "Five"
+   ],
+   "explanation": "Two atria above and two ventricles below.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "atria",
+   "prompt": "What is the job of the atria?",
+   "answers": [
+    "To receive blood returning to the heart",
+    "Receiving chambers"
+   ],
+   "wrong": [
+    "To pump blood to the body",
+    "To pump blood to the lungs",
+    "To stop blood flowing backwards"
+   ],
+   "explanation": "Their walls are thin, because they only push blood down into the ventricles.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "ventricles-job",
+   "prompt": "Which chambers are the pumping chambers that send blood out of the heart?",
+   "answers": [
+    "The ventricles",
+    "Ventricles"
+   ],
+   "wrong": [
+    "The atria",
+    "The coronary sinus",
+    "The auricles"
+   ],
+   "explanation": "The right ventricle sends blood to the lungs and the left ventricle to the rest of the body.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "lv-thick",
+   "prompt": "Why is the wall of the left ventricle about three times thicker than the right?",
+   "answers": [
+    "It pumps against higher pressure",
+    "It has to pump blood round the whole body",
+    "It pumps to the whole body"
+   ],
+   "wrong": [
+    "It holds more blood",
+    "It receives blood from the lungs",
+    "It has the valves"
+   ],
+   "explanation": "The systemic circuit has much higher resistance than the lungs.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "auricle",
+   "prompt": "What are the ear-shaped flaps on the top of each atrium called?",
+   "answers": [
+    "Auricles",
+    "Atrial appendages"
+   ],
+   "wrong": [
+    "Papillae",
+    "Trabeculae",
+    "Cusps"
+   ],
+   "explanation": "They add a little to the atria's capacity. The left one is a common site of clots in atrial fibrillation.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "septum",
+   "prompt": "What wall separates the right and left sides of the heart?",
+   "answers": [
+    "Septum",
+    "Interventricular and interatrial septum",
+    "The septum"
+   ],
+   "wrong": [
+    "Pericardium",
+    "Chordae tendineae",
+    "Annulus"
+   ],
+   "explanation": "The interatrial septum between the atria and the interventricular septum between the ventricles.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "fossa-ovalis",
+   "prompt": "What is the dip in the wall between the atria, where a fetal hole closed at birth, called?",
+   "answers": [
+    "Fossa ovalis",
+    "Oval fossa"
+   ],
+   "wrong": [
+    "Foramen magnum",
+    "Ductus arteriosus",
+    "Coronary sinus"
+   ],
+   "explanation": "In the fetus the foramen ovale lets blood bypass the lungs. If it does not close, the person has a patent foramen ovale.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "rv-in",
+   "prompt": "Which two large veins bring oxygen-poor blood into the right atrium?",
+   "answers": [
+    "Superior and inferior vena cava",
+    "The venae cavae",
+    "Superior vena cava and inferior vena cava"
+   ],
+   "wrong": [
+    "Pulmonary veins",
+    "Jugular and subclavian veins",
+    "Coronary veins only"
+   ],
+   "explanation": "The coronary sinus also drains the heart's own blood into it.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "lv-in",
+   "prompt": "Which vessels bring oxygen-rich blood into the left atrium?",
+   "answers": [
+    "The pulmonary veins",
+    "Pulmonary veins",
+    "Four pulmonary veins"
+   ],
+   "wrong": [
+    "The pulmonary arteries",
+    "The venae cavae",
+    "The coronary veins"
+   ],
+   "explanation": "Usually four of them, two from each lung. They are the only veins that carry oxygen-rich blood.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "blood-path",
+   "prompt": "What is the path of blood through the heart, starting from the right atrium?",
+   "answers": [
+    "Right atrium, tricuspid valve, right ventricle, pulmonary valve, pulmonary artery, lungs, pulmonary veins, left atrium, mitral valve, left ventricle, aortic valve, aorta"
+   ],
+   "wrong": [
+    "Right atrium, mitral valve, right ventricle, aortic valve, pulmonary artery, lungs, pulmonary veins, left atrium, tricuspid valve, left ventricle, pulmonary valve, aorta",
+    "Right atrium, right ventricle, left atrium, left ventricle, lungs, aorta",
+    "Right ventricle, right atrium, lungs, left ventricle, left atrium, aorta"
+   ],
+   "explanation": "Right side: body to lungs. Left side: lungs to body.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "av-valves",
+   "prompt": "Which valves lie between the atria and the ventricles?",
+   "answers": [
+    "The atrioventricular valves",
+    "Tricuspid and mitral valves",
+    "AV valves"
+   ],
+   "wrong": [
+    "The semilunar valves",
+    "The aortic and pulmonary valves",
+    "The coronary valves"
+   ],
+   "explanation": "The tricuspid valve on the right and the mitral (bicuspid) valve on the left.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "id-tricuspid",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Tricuspid valve",
+    "Right atrioventricular valve",
+    "Right AV valve"
+   ],
+   "wrong": [
+    "Mitral valve",
+    "Pulmonary valve",
+    "Aortic valve"
+   ],
+   "explanation": "Between the right atrium and right ventricle, with three cusps. The heart wall is drawn see-through.",
+   "figure": {
+    "src": "data/figures/anatomy/c-tricuspid.webp",
+    "alt": "The heart, drawn see-through, with a valve in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "The heart"
+   ]
+  },
+  {
+   "id": "id-mitral",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Mitral valve",
+    "Bicuspid valve",
+    "Left atrioventricular valve",
+    "Left AV valve"
+   ],
+   "wrong": [
+    "Tricuspid valve",
+    "Aortic valve",
+    "Pulmonary valve"
+   ],
+   "explanation": "Between the left atrium and left ventricle, with two cusps. Named for its resemblance to a bishop's mitre.",
+   "figure": {
+    "src": "data/figures/anatomy/c-mitral.webp",
+    "alt": "The heart, drawn see-through, with a valve in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "The heart"
+   ]
+  },
+  {
+   "id": "mitral-cusps",
+   "prompt": "How many cusps does the mitral valve have?",
+   "answers": [
+    "Two",
+    "2"
+   ],
+   "wrong": [
+    "Three",
+    "Four",
+    "One"
+   ],
+   "explanation": "That is why it is also called the bicuspid valve. The tricuspid valve and the semilunar valves have three.",
+   "figure": {
+    "src": "data/figures/anatomy/c-mitral.webp",
+    "alt": "The heart and large vessels, with the mitral valve in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "id-pulmonary-valve",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Pulmonary valve",
+    "Pulmonary semilunar valve"
+   ],
+   "wrong": [
+    "Aortic valve",
+    "Tricuspid valve",
+    "Mitral valve"
+   ],
+   "explanation": "At the exit of the right ventricle, to the pulmonary trunk. It has three half-moon cusps.",
+   "figure": {
+    "src": "data/figures/anatomy/c-pulmonary-valve.webp",
+    "alt": "The heart, drawn see-through, with a valve in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "The heart"
+   ]
+  },
+  {
+   "id": "semilunar",
+   "prompt": "What are the aortic and pulmonary valves called, from the shape of their cusps?",
+   "answers": [
+    "Semilunar valves",
+    "Semilunar"
+   ],
+   "wrong": [
+    "Atrioventricular valves",
+    "Bicuspid valves",
+    "Venous valves"
+   ],
+   "explanation": "Half-moon pockets that fill and snap shut when blood tries to flow back.",
+   "figure": {
+    "src": "data/figures/anatomy/c-pulmonary-valve.webp",
+    "alt": "The heart and large vessels, with the pulmonary valve in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "chordae",
+   "prompt": "What are the thin cords that stop the cusps of the atrioventricular valves from flipping back into the atria?",
+   "answers": [
+    "Chordae tendineae",
+    "Heart strings"
+   ],
+   "wrong": [
+    "Papillary muscles",
+    "Trabeculae carneae",
+    "Purkinje fibres"
+   ],
+   "explanation": "They join the cusps to the papillary muscles, which pull on them as the ventricle contracts.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "id-papillary",
+   "prompt": "Which structures are highlighted in red?",
+   "answers": [
+    "Papillary muscles",
+    "Papillary muscle"
+   ],
+   "wrong": [
+    "Trabeculae carneae",
+    "Chordae tendineae",
+    "Moderator band"
+   ],
+   "explanation": "Finger-like muscles on the ventricle wall, which pull on the chordae tendineae to hold the valve cusps shut.",
+   "figure": {
+    "src": "data/figures/anatomy/c-papillary.webp",
+    "alt": "The heart, drawn see-through, with parts in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "The heart"
+   ]
+  },
+  {
+   "id": "papillary-what",
+   "prompt": "Which muscles on the inside of the ventricles tighten the cords of the atrioventricular valves as the heart beats?",
+   "answers": [
+    "Papillary muscles"
+   ],
+   "wrong": [
+    "Trabeculae carneae",
+    "Pectinate muscles",
+    "Intercostal muscles"
+   ],
+   "explanation": "If one ruptures, for example in a heart attack, the valve leaks badly.",
+   "figure": {
+    "src": "data/figures/anatomy/c-papillary.webp",
+    "alt": "The heart and large vessels, with the papillary muscles in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "murmur",
+   "prompt": "What causes the 'lub-dub' sounds of the heartbeat?",
+   "answers": [
+    "The valves closing",
+    "Valves snapping shut"
+   ],
+   "wrong": [
+    "Blood hitting the chamber walls",
+    "The heart muscle contracting",
+    "The vessels stretching"
+   ],
+   "explanation": "'Lub' is the atrioventricular valves closing as the ventricles contract; 'dub' is the semilunar valves closing as they relax. A leaky or narrowed valve causes a murmur.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "stenosis",
+   "prompt": "What is a valve that fails to open fully, so it blocks the flow of blood, called?",
+   "answers": [
+    "Stenosis",
+    "Valve stenosis"
+   ],
+   "wrong": [
+    "Regurgitation",
+    "Prolapse",
+    "Fibrillation"
+   ],
+   "explanation": "A valve that leaks back is called regurgitant (incompetent).",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "aortic-stenosis",
+   "prompt": "Narrowing of the aortic valve forces which chamber to work harder and thicken?",
+   "answers": [
+    "Left ventricle",
+    "The left ventricle"
+   ],
+   "wrong": [
+    "Right ventricle",
+    "Left atrium",
+    "Right atrium"
+   ],
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "coronary-from",
+   "prompt": "Which vessel do the coronary arteries branch from?",
+   "answers": [
+    "Ascending aorta",
+    "The aorta, just above the aortic valve",
+    "Aorta"
+   ],
+   "wrong": [
+    "Pulmonary trunk",
+    "Superior vena cava",
+    "Aortic arch"
+   ],
+   "explanation": "Just above the aortic valve, from the pockets behind two of its cusps (the aortic sinuses). They fill while the ventricle relaxes.",
+   "figure": {
+    "src": "data/figures/anatomy/c-coronary-arteries.webp",
+    "alt": "The heart and large vessels, with the coronary arteries in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "id-coronary-arteries",
+   "prompt": "Which vessels are highlighted in red?",
+   "answers": [
+    "Coronary arteries",
+    "Right and left coronary arteries"
+   ],
+   "wrong": [
+    "Pulmonary arteries",
+    "Cardiac veins",
+    "Carotid arteries"
+   ],
+   "explanation": "They run over the surface of the heart, feeding its muscle.",
+   "figure": {
+    "src": "data/figures/anatomy/c-coronary-arteries.webp",
+    "alt": "The heart and large vessels, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "The heart"
+   ]
+  },
+  {
+   "id": "id-right-coronary",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Right coronary artery"
+   ],
+   "wrong": [
+    "Left coronary artery",
+    "Circumflex artery",
+    "Anterior interventricular artery"
+   ],
+   "explanation": "It runs in the groove between the right atrium and ventricle, with branches to the back of the heart.",
+   "figure": {
+    "src": "data/figures/anatomy/c-right-coronary.webp",
+    "alt": "The heart, with a coronary artery in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "The heart"
+   ]
+  },
+  {
+   "id": "id-left-coronary",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Left coronary artery",
+    "Left main coronary artery",
+    "Left anterior descending artery"
+   ],
+   "wrong": [
+    "Right coronary artery",
+    "Circumflex artery",
+    "Great cardiac vein"
+   ],
+   "explanation": "It splits at once into the anterior interventricular (left anterior descending) branch and the circumflex branch.",
+   "figure": {
+    "src": "data/figures/anatomy/c-left-coronary.webp",
+    "alt": "The heart, with a coronary artery in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "The heart"
+   ]
+  },
+  {
+   "id": "lad",
+   "prompt": "Which branch of the left coronary artery runs down the front of the heart in the groove between the ventricles?",
+   "answers": [
+    "Anterior interventricular artery",
+    "Left anterior descending artery",
+    "LAD",
+    "Anterior interventricular branch"
+   ],
+   "wrong": [
+    "Circumflex artery",
+    "Posterior interventricular artery",
+    "Marginal artery"
+   ],
+   "explanation": "A blockage in it is nicknamed the 'widow-maker', because it feeds so much of the left ventricle and the septum.",
+   "figure": {
+    "src": "data/figures/anatomy/c-left-coronary.webp",
+    "alt": "The heart and large vessels, with the left coronary artery in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "id-circumflex",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Circumflex artery",
+    "Circumflex branch",
+    "Left circumflex artery"
+   ],
+   "wrong": [
+    "Anterior interventricular artery",
+    "Right coronary artery",
+    "Great cardiac vein"
+   ],
+   "explanation": "A branch of the left coronary artery wrapping round the left side of the heart in the groove between the left atrium and ventricle.",
+   "figure": {
+    "src": "data/figures/anatomy/c-circumflex.webp",
+    "alt": "The heart, with a coronary artery in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "The heart"
+   ]
+  },
+  {
+   "id": "infarct",
+   "prompt": "What is the death of heart muscle from a blocked coronary artery called?",
+   "answers": [
+    "Myocardial infarction",
+    "Heart attack"
+   ],
+   "wrong": [
+    "Angina",
+    "Cardiac arrest",
+    "Cardiomyopathy"
+   ],
+   "explanation": "Angina is the chest pain from a short shortage of blood that doesn't kill muscle.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "angina",
+   "prompt": "What is chest pain from heart muscle that is short of blood but not yet dying called?",
+   "answers": [
+    "Angina",
+    "Angina pectoris"
+   ],
+   "wrong": [
+    "Myocardial infarction",
+    "Pericarditis",
+    "Pleurisy"
+   ],
+   "explanation": "Typically it comes on with effort and goes with rest.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "id-great-cardiac-vein",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Great cardiac vein"
+   ],
+   "wrong": [
+    "Coronary sinus",
+    "Middle cardiac vein",
+    "Left coronary artery"
+   ],
+   "explanation": "It runs up beside the anterior interventricular artery, then wraps round to the back to join the coronary sinus.",
+   "figure": {
+    "src": "data/figures/anatomy/c-great-cardiac-vein.webp",
+    "alt": "The heart, with a cardiac vein in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "The heart"
+   ]
+  },
+  {
+   "id": "id-coronary-sinus",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Coronary sinus"
+   ],
+   "wrong": [
+    "Great cardiac vein",
+    "Superior vena cava",
+    "Pulmonary vein"
+   ],
+   "explanation": "A wide vein on the back of the heart that collects most of its blood and empties it into the right atrium. Seen here from behind.",
+   "figure": {
+    "src": "data/figures/anatomy/c-coronary-sinus.webp",
+    "alt": "The heart from behind, with a vein in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "The heart"
+   ]
+  },
+  {
+   "id": "cardiac-conduction",
+   "prompt": "In order, how does the electrical impulse pass through the heart?",
+   "answers": [
+    "SA node, AV node, bundle of His, bundle branches, Purkinje fibres"
+   ],
+   "wrong": [
+    "AV node, SA node, bundle of His, Purkinje fibres, bundle branches",
+    "SA node, bundle of His, AV node, Purkinje fibres, bundle branches",
+    "Purkinje fibres, bundle branches, bundle of His, AV node, SA node"
+   ],
+   "explanation": "The sinoatrial node starts it, the atria contract, the atrioventricular node delays it briefly, then it fans out through the ventricles from the bottom up.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "pacemaker",
+   "prompt": "Which small patch of cells in the right atrium is the heart's natural pacemaker?",
+   "answers": [
+    "Sinoatrial node",
+    "SA node"
+   ],
+   "wrong": [
+    "Atrioventricular node",
+    "Bundle of His",
+    "Purkinje fibres"
+   ],
+   "explanation": "It fires about 60 to 100 times a minute on its own. The vagus nerve slows it and the sympathetic nerves speed it up.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "av-delay",
+   "prompt": "Why does the atrioventricular node delay the impulse briefly?",
+   "answers": [
+    "So the atria finish emptying into the ventricles first",
+    "To let the ventricles fill first"
+   ],
+   "wrong": [
+    "To rest the heart",
+    "To slow the heart rate",
+    "To let the valves open"
+   ],
+   "explanation": "About a tenth of a second.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "ecg-p",
+   "prompt": "What does the P wave of an ECG show?",
+   "answers": [
+    "Atrial depolarisation",
+    "The atria contracting",
+    "Atrial depolarization"
+   ],
+   "wrong": [
+    "Ventricular depolarisation",
+    "Ventricular repolarisation",
+    "The pacemaker firing alone"
+   ],
+   "explanation": "QRS is the ventricles depolarising (and the atria repolarising, hidden within it); the T wave is the ventricles repolarising.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "ecg-qrs",
+   "prompt": "What does the QRS complex of an ECG show?",
+   "answers": [
+    "Ventricular depolarisation",
+    "The ventricles contracting",
+    "Ventricular depolarization"
+   ],
+   "wrong": [
+    "Atrial depolarisation",
+    "Ventricular repolarisation",
+    "The SA node firing"
+   ],
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "intercalated",
+   "prompt": "What structures join cardiac muscle cells end to end, so the whole heart contracts together?",
+   "answers": [
+    "Intercalated discs",
+    "Intercalated disks"
+   ],
+   "wrong": [
+    "Z discs",
+    "Desmosomes only",
+    "T tubules"
+   ],
+   "explanation": "They have gap junctions that let the electrical signal pass from cell to cell.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "cardiac-output",
+   "prompt": "How is cardiac output calculated?",
+   "answers": [
+    "Heart rate × stroke volume",
+    "Heart rate times stroke volume"
+   ],
+   "wrong": [
+    "Heart rate ÷ stroke volume",
+    "Blood pressure × heart rate",
+    "Stroke volume ÷ heart rate"
+   ],
+   "explanation": "About 70 beats a minute × 70 mL = roughly 5 litres a minute at rest, about the whole blood volume every minute.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "stroke-volume",
+   "prompt": "What is the amount of blood one ventricle pumps with each beat called?",
+   "answers": [
+    "Stroke volume"
+   ],
+   "wrong": [
+    "Cardiac output",
+    "Ejection fraction",
+    "Preload"
+   ],
+   "explanation": "About 70 mL at rest.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "systole",
+   "prompt": "What is the phase of the heartbeat when the ventricles contract called?",
+   "answers": [
+    "Systole",
+    "Ventricular systole"
+   ],
+   "wrong": [
+    "Diastole",
+    "Diastasis",
+    "Depolarisation"
+   ],
+   "explanation": "Diastole is the relaxation, when they fill.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "bp-numbers",
+   "prompt": "In a blood pressure of 120/80, what does the 80 measure?",
+   "answers": [
+    "Pressure during ventricular relaxation (diastolic)",
+    "Diastolic pressure",
+    "Diastolic"
+   ],
+   "wrong": [
+    "Pressure during ventricular contraction",
+    "The pressure in the veins",
+    "The mean arterial pressure"
+   ],
+   "explanation": "The 120 is the systolic pressure, at the peak of the beat.",
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "heart-sounds-s1",
+   "prompt": "Closure of which valves makes the first heart sound ('lub')?",
+   "answers": [
+    "The atrioventricular valves",
+    "Tricuspid and mitral valves",
+    "AV valves"
+   ],
+   "wrong": [
+    "The semilunar valves",
+    "The aortic and pulmonary valves",
+    "The coronary valves"
+   ],
+   "tags": [
+    "The heart"
+   ]
+  },
+  {
+   "id": "artery-def",
+   "prompt": "What is the defining feature of an artery?",
+   "answers": [
+    "It carries blood away from the heart",
+    "Carries blood away from the heart"
+   ],
+   "wrong": [
+    "It carries oxygen-rich blood",
+    "It has valves",
+    "It is thin-walled"
+   ],
+   "explanation": "Usually the blood is oxygen-rich, but the pulmonary arteries carry oxygen-poor blood to the lungs.",
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "artery-layers",
+   "prompt": "From inside to outside, what are the three layers of an artery's wall?",
+   "answers": [
+    "Tunica intima, tunica media, tunica externa",
+    "Intima, media, externa",
+    "Tunica intima, tunica media, tunica adventitia"
+   ],
+   "wrong": [
+    "Tunica externa, tunica media, tunica intima",
+    "Tunica media, tunica intima, tunica externa",
+    "Endocardium, myocardium, epicardium"
+   ],
+   "explanation": "The intima is the smooth lining (endothelium), the media is smooth muscle and elastic tissue (thicker in arteries), and the externa is connective tissue (also called the adventitia).",
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "elastic-artery",
+   "prompt": "Why are the aorta's walls full of elastic fibres?",
+   "answers": [
+    "They stretch with each beat and recoil to keep the blood flowing",
+    "To smooth out the pulse"
+   ],
+   "wrong": [
+    "To let it carry more blood",
+    "To stop the blood clotting",
+    "To let it contract like muscle"
+   ],
+   "explanation": "The recoil during diastole keeps the blood moving between beats. Hardening of the arteries (arteriosclerosis) loses this.",
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "atherosclerosis",
+   "prompt": "What is the build-up of fatty plaque in the walls of arteries called?",
+   "answers": [
+    "Atherosclerosis"
+   ],
+   "wrong": [
+    "Aneurysm",
+    "Thrombosis",
+    "Varicose veins"
+   ],
+   "explanation": "It narrows the arteries and can lead to heart attack and stroke.",
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "aneurysm",
+   "prompt": "What is a bulge in an artery wall, which may burst, called?",
+   "answers": [
+    "Aneurysm"
+   ],
+   "wrong": [
+    "Embolism",
+    "Stenosis",
+    "Thrombus"
+   ],
+   "explanation": "The aorta and the arteries at the base of the brain are common sites.",
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "arterioles",
+   "prompt": "Which vessels control how much blood goes to each tissue by narrowing and widening?",
+   "answers": [
+    "Arterioles"
+   ],
+   "wrong": [
+    "Capillaries",
+    "Venules",
+    "Large veins"
+   ],
+   "explanation": "Smooth muscle in their walls allows this. They are the main control of blood pressure (resistance).",
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "capillaries",
+   "prompt": "Where does the exchange of oxygen, nutrients and wastes between blood and tissues take place?",
+   "answers": [
+    "Capillaries",
+    "In the capillaries"
+   ],
+   "wrong": [
+    "Arteries",
+    "Arterioles",
+    "Veins"
+   ],
+   "explanation": "Their walls are only one cell thick.",
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "aorta-parts",
+   "prompt": "What are the parts of the aorta, in order from the heart?",
+   "answers": [
+    "Ascending aorta, aortic arch, descending aorta",
+    "Ascending aorta, arch, descending aorta"
+   ],
+   "wrong": [
+    "Descending aorta, aortic arch, ascending aorta",
+    "Aortic arch, ascending aorta, descending aorta",
+    "Ascending aorta, descending aorta, aortic arch"
+   ],
+   "explanation": "The descending aorta is the thoracic aorta above the diaphragm and the abdominal aorta below it.",
+   "figure": {
+    "src": "data/figures/anatomy/c-aorta.webp",
+    "alt": "The heart and large vessels, with the aorta in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "id-aorta",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Aorta"
+   ],
+   "wrong": [
+    "Pulmonary trunk",
+    "Inferior vena cava",
+    "Common iliac artery"
+   ],
+   "explanation": "The body's biggest artery, from the left ventricle down to the pelvis, where it splits into the common iliac arteries.",
+   "figure": {
+    "src": "data/figures/anatomy/c-aorta.webp",
+    "alt": "The heart and large vessels, with the aorta in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "id-ascending-aorta",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Ascending aorta"
+   ],
+   "wrong": [
+    "Aortic arch",
+    "Pulmonary trunk",
+    "Brachiocephalic artery"
+   ],
+   "explanation": "The first part of the aorta, rising from the left ventricle. The coronary arteries come off it.",
+   "figure": {
+    "src": "data/figures/anatomy/c-ascending-aorta.webp",
+    "alt": "The heart and large vessels, with part of the aorta in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "id-aortic-arch",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Aortic arch",
+    "Arch of the aorta",
+    "Arch of aorta"
+   ],
+   "wrong": [
+    "Ascending aorta",
+    "Descending aorta",
+    "Pulmonary trunk"
+   ],
+   "explanation": "The bend of the aorta over the left lung's root, with three branches: the brachiocephalic trunk, the left common carotid and the left subclavian arteries.",
+   "figure": {
+    "src": "data/figures/anatomy/c-aortic-arch.webp",
+    "alt": "The heart and large vessels, with part of the aorta in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "arch-branches",
+   "prompt": "In order, what are the three branches of the aortic arch?",
+   "answers": [
+    "Brachiocephalic trunk, left common carotid artery, left subclavian artery"
+   ],
+   "wrong": [
+    "Left common carotid, brachiocephalic trunk, left subclavian",
+    "Right subclavian, right common carotid, left common carotid",
+    "Left subclavian, left common carotid, brachiocephalic trunk"
+   ],
+   "explanation": "Only three branches for the head, neck and both arms. The brachiocephalic trunk splits into the right common carotid and right subclavian arteries.",
+   "figure": {
+    "src": "data/figures/anatomy/c-aortic-arch.webp",
+    "alt": "The heart and large vessels, with the aortic arch in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "id-descending-aorta",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Descending aorta",
+    "Thoracic and abdominal aorta"
+   ],
+   "wrong": [
+    "Ascending aorta",
+    "Aortic arch",
+    "Inferior vena cava"
+   ],
+   "explanation": "From the end of the arch, down through the chest and the abdomen.",
+   "figure": {
+    "src": "data/figures/anatomy/c-descending-aorta.webp",
+    "alt": "The aorta and its branches, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "aorta-end",
+   "prompt": "At about which vertebral level does the aorta divide into the two common iliac arteries?",
+   "answers": [
+    "L4",
+    "Fourth lumbar vertebra"
+   ],
+   "wrong": [
+    "T12",
+    "L1",
+    "S1"
+   ],
+   "explanation": "The level of the top of the iliac crests.",
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "id-brachiocephalic-artery",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Brachiocephalic artery",
+    "Brachiocephalic trunk"
+   ],
+   "wrong": [
+    "Common carotid artery",
+    "Subclavian artery",
+    "Aortic arch"
+   ],
+   "explanation": "The first branch of the aortic arch. It divides into the right common carotid and right subclavian arteries. There is no left one.",
+   "figure": {
+    "src": "data/figures/anatomy/c-brachiocephalic-artery.webp",
+    "alt": "The heart and large vessels, with an artery in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "id-common-carotid",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Common carotid artery",
+    "Carotid artery"
+   ],
+   "wrong": [
+    "Subclavian artery",
+    "Brachiocephalic artery",
+    "Internal jugular vein"
+   ],
+   "explanation": "Runs up the front of the neck beside the windpipe, and divides near the top of the thyroid cartilage.",
+   "figure": {
+    "src": "data/figures/anatomy/c-common-carotid.webp",
+    "alt": "The heart and large vessels, with an artery in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "carotid-pulse",
+   "prompt": "Which artery can you feel pulsing beside the windpipe on the side of the neck?",
+   "answers": [
+    "Common carotid artery",
+    "Carotid artery"
+   ],
+   "wrong": [
+    "Subclavian artery",
+    "Vertebral artery",
+    "Brachiocephalic artery"
+   ],
+   "explanation": "Never press both at the same time: pressing the carotid sinus can slow the heart and drop the blood pressure.",
+   "figure": {
+    "src": "data/figures/anatomy/c-common-carotid.webp",
+    "alt": "The heart and large vessels, with the common carotid artery in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "carotid-split",
+   "prompt": "The common carotid artery divides into which two arteries?",
+   "answers": [
+    "Internal and external carotid arteries",
+    "External and internal carotid arteries"
+   ],
+   "wrong": [
+    "Vertebral and basilar arteries",
+    "Subclavian and axillary arteries",
+    "Facial and lingual arteries"
+   ],
+   "explanation": "The internal carotid supplies the brain and the eye; the external carotid supplies the face, scalp and neck.",
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "vertebral",
+   "prompt": "Which arteries, running through the transverse foramina of the cervical vertebrae, join to form the basilar artery?",
+   "answers": [
+    "Vertebral arteries",
+    "The vertebral arteries"
+   ],
+   "wrong": [
+    "Internal carotid arteries",
+    "External carotid arteries",
+    "Subclavian arteries"
+   ],
+   "explanation": "Branches of the subclavian arteries. They supply the back of the brain.",
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "id-subclavian-artery",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Subclavian artery"
+   ],
+   "wrong": [
+    "Common carotid artery",
+    "Brachiocephalic artery",
+    "Axillary artery"
+   ],
+   "explanation": "Passes under the collarbone (sub-clavian) on its way to the arm. It becomes the axillary artery at the first rib.",
+   "figure": {
+    "src": "data/figures/anatomy/c-subclavian-artery.webp",
+    "alt": "The heart and large vessels, with an artery in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "arm-arteries",
+   "prompt": "In order, what are the arteries of the arm, from the subclavian artery down?",
+   "answers": [
+    "Axillary, brachial, radial and ulnar"
+   ],
+   "wrong": [
+    "Brachial, axillary, radial and ulnar",
+    "Axillary, radial, brachial and ulnar",
+    "Brachial, ulnar, axillary and radial"
+   ],
+   "explanation": "The subclavian becomes the axillary at the first rib, the brachial at the lower border of teres major, and splits at the elbow into radial and ulnar.",
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "brachial-pulse",
+   "prompt": "Which artery is listened to with a stethoscope when taking blood pressure?",
+   "answers": [
+    "Brachial artery"
+   ],
+   "wrong": [
+    "Radial artery",
+    "Axillary artery",
+    "Ulnar artery"
+   ],
+   "explanation": "In the crook of the elbow, on the inner side of the biceps tendon.",
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "radial-pulse",
+   "prompt": "Which artery is felt at the wrist, on the thumb side, to take the pulse?",
+   "answers": [
+    "Radial artery"
+   ],
+   "wrong": [
+    "Ulnar artery",
+    "Brachial artery",
+    "Carotid artery"
+   ],
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "id-pulmonary-artery",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Pulmonary trunk",
+    "Pulmonary artery",
+    "Pulmonary arteries"
+   ],
+   "wrong": [
+    "Aorta",
+    "Pulmonary veins",
+    "Superior vena cava"
+   ],
+   "explanation": "Leaves the right ventricle and splits into the right and left pulmonary arteries, which carry oxygen-poor blood to the lungs.",
+   "figure": {
+    "src": "data/figures/anatomy/c-pulmonary-artery.webp",
+    "alt": "The heart and large vessels, with a vessel in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "pulmonary-artery-unique",
+   "prompt": "Which arteries carry oxygen-poor blood?",
+   "answers": [
+    "The pulmonary arteries",
+    "Pulmonary arteries"
+   ],
+   "wrong": [
+    "The coronary arteries",
+    "The carotid arteries",
+    "The renal arteries"
+   ],
+   "explanation": "And the pulmonary veins carry oxygen-rich blood. The terms artery and vein say which way the blood goes, not what it carries.",
+   "figure": {
+    "src": "data/figures/anatomy/c-pulmonary-artery.webp",
+    "alt": "The heart and large vessels, with the pulmonary trunk in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "id-celiac-trunk",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Celiac trunk",
+    "Celiac artery",
+    "Coeliac trunk"
+   ],
+   "wrong": [
+    "Superior mesenteric artery",
+    "Renal artery",
+    "Inferior mesenteric artery"
+   ],
+   "explanation": "The first branch of the abdominal aorta, just below the diaphragm. It splits at once into three.",
+   "figure": {
+    "src": "data/figures/anatomy/c-celiac-trunk.webp",
+    "alt": "The abdominal aorta, with an artery in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "celiac-branches",
+   "prompt": "What are the three branches of the celiac trunk?",
+   "answers": [
+    "Left gastric, splenic and common hepatic arteries",
+    "Left gastric, splenic, common hepatic"
+   ],
+   "wrong": [
+    "Renal, gonadal and lumbar arteries",
+    "Superior mesenteric, inferior mesenteric and renal",
+    "Right gastric, splenic and cystic arteries"
+   ],
+   "explanation": "It supplies the foregut: the stomach, spleen, liver, gallbladder, pancreas and the first part of the duodenum.",
+   "figure": {
+    "src": "data/figures/anatomy/c-celiac.webp",
+    "alt": "The heart and large vessels, with the celiac trunk and its branches in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "id-celiac",
+   "prompt": "Which artery and its branches are highlighted in red?",
+   "answers": [
+    "Celiac trunk and its branches",
+    "Celiac trunk",
+    "Celiac artery"
+   ],
+   "wrong": [
+    "Superior mesenteric artery",
+    "Renal arteries",
+    "Inferior mesenteric artery"
+   ],
+   "explanation": "The celiac trunk with the common hepatic, splenic and left gastric arteries.",
+   "figure": {
+    "src": "data/figures/anatomy/c-celiac.webp",
+    "alt": "The abdominal aorta, with an artery and its branches in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "id-sup-mesenteric",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Superior mesenteric artery"
+   ],
+   "wrong": [
+    "Inferior mesenteric artery",
+    "Celiac trunk",
+    "Renal artery"
+   ],
+   "explanation": "Leaves the aorta below the celiac trunk and supplies the small intestine and the first half of the large intestine.",
+   "figure": {
+    "src": "data/figures/anatomy/c-sup-mesenteric.webp",
+    "alt": "The abdominal aorta, with an artery in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "id-inf-mesenteric",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Inferior mesenteric artery"
+   ],
+   "wrong": [
+    "Superior mesenteric artery",
+    "Celiac trunk",
+    "Common iliac artery"
+   ],
+   "explanation": "A small branch low on the aorta. It supplies the second half of the large intestine, from the left side of the colon to the rectum.",
+   "figure": {
+    "src": "data/figures/anatomy/c-inf-mesenteric.webp",
+    "alt": "The abdominal aorta, with an artery in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "gut-arteries",
+   "prompt": "Which three unpaired arteries of the abdominal aorta supply the digestive tract?",
+   "answers": [
+    "Celiac, superior mesenteric and inferior mesenteric",
+    "Celiac trunk, superior mesenteric, inferior mesenteric"
+   ],
+   "wrong": [
+    "Renal, gonadal and lumbar",
+    "Celiac, renal and inferior mesenteric",
+    "Hepatic, splenic and gastric"
+   ],
+   "explanation": "Foregut, midgut and hindgut, from top to bottom.",
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "id-renal-artery",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Renal artery",
+    "Renal arteries"
+   ],
+   "wrong": [
+    "Superior mesenteric artery",
+    "Renal vein",
+    "Common iliac artery"
+   ],
+   "explanation": "Short, wide branches of the abdominal aorta to the kidneys. Together the kidneys get about a fifth of the cardiac output.",
+   "figure": {
+    "src": "data/figures/anatomy/c-renal-artery.webp",
+    "alt": "The abdominal aorta and kidneys' vessels, with one in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "id-common-iliac-artery",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Common iliac artery",
+    "Common iliac arteries"
+   ],
+   "wrong": [
+    "External iliac artery",
+    "Internal iliac artery",
+    "Renal artery"
+   ],
+   "explanation": "The aorta's two end branches, each dividing into the external and internal iliac arteries.",
+   "figure": {
+    "src": "data/figures/anatomy/c-common-iliac-artery.webp",
+    "alt": "The vessels of the pelvis, with one in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "id-external-iliac-artery",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "External iliac artery"
+   ],
+   "wrong": [
+    "Internal iliac artery",
+    "Common iliac artery",
+    "Femoral artery"
+   ],
+   "explanation": "Runs along the pelvic brim, under the inguinal ligament, where it becomes the femoral artery to the thigh.",
+   "figure": {
+    "src": "data/figures/anatomy/c-external-iliac-artery.webp",
+    "alt": "The vessels of the pelvis, with one in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "id-internal-iliac-artery",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Internal iliac artery"
+   ],
+   "wrong": [
+    "External iliac artery",
+    "Common iliac artery",
+    "Femoral artery"
+   ],
+   "explanation": "Dives into the pelvis to supply the pelvic organs and the buttock.",
+   "figure": {
+    "src": "data/figures/anatomy/c-internal-iliac-artery.webp",
+    "alt": "The vessels of the pelvis, with one in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "leg-arteries",
+   "prompt": "In order, what are the arteries of the leg, from the external iliac artery down?",
+   "answers": [
+    "Femoral, popliteal, then anterior and posterior tibial arteries"
+   ],
+   "wrong": [
+    "Popliteal, femoral, then anterior and posterior tibial",
+    "Femoral, tibial, popliteal, then dorsalis pedis",
+    "Popliteal, tibial, femoral, then fibular"
+   ],
+   "explanation": "The femoral artery becomes the popliteal behind the knee. Below the knee it splits into the anterior and posterior tibial arteries.",
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "femoral-pulse",
+   "prompt": "Which artery is felt in the middle of the groin, just under the inguinal ligament?",
+   "answers": [
+    "Femoral artery"
+   ],
+   "wrong": [
+    "External iliac artery",
+    "Popliteal artery",
+    "Deep femoral artery"
+   ],
+   "explanation": "A common site to take blood and a pulse in an emergency, and the entry point for many catheters.",
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "dorsalis-pedis",
+   "prompt": "Which artery is felt on the top of the foot to check the circulation of the leg?",
+   "answers": [
+    "Dorsalis pedis artery",
+    "Dorsalis pedis"
+   ],
+   "wrong": [
+    "Posterior tibial artery",
+    "Popliteal artery",
+    "Femoral artery"
+   ],
+   "explanation": "The continuation of the anterior tibial artery. It is absent in a few people.",
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "circle-of-willis-art",
+   "prompt": "Which pair of arteries supplies the front of the brain, and which pair (joined into the basilar artery) the back?",
+   "answers": [
+    "Internal carotids supply the front, vertebrals the back",
+    "Carotid (front) and vertebral (back)"
+   ],
+   "wrong": [
+    "Vertebrals the front, carotids the back",
+    "External carotids the front, subclavians the back",
+    "Both pairs supply the front only"
+   ],
+   "explanation": "They join at the base of the brain to form the circle of Willis.",
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "portal",
+   "prompt": "Which vein carries blood from the intestines, spleen and pancreas to the liver?",
+   "answers": [
+    "Hepatic portal vein",
+    "Portal vein"
+   ],
+   "wrong": [
+    "Inferior vena cava",
+    "Hepatic vein",
+    "Renal vein"
+   ],
+   "explanation": "Formed by the union of the splenic vein and the superior mesenteric vein behind the neck of the pancreas. It brings nutrients to the liver before the rest of the body.",
+   "tags": [
+    "Large arteries"
+   ]
+  },
+  {
+   "id": "vein-def",
+   "prompt": "What is the defining feature of a vein?",
+   "answers": [
+    "It carries blood towards the heart",
+    "Carries blood towards the heart"
+   ],
+   "wrong": [
+    "It carries oxygen-poor blood",
+    "It has thick muscular walls",
+    "It carries blood to the capillaries"
+   ],
+   "explanation": "Usually the blood is oxygen-poor, but the pulmonary veins carry oxygen-rich blood.",
+   "tags": [
+    "Large veins"
+   ]
+  },
+  {
+   "id": "venous-valves",
+   "prompt": "What stops blood flowing backwards in the veins of the limbs?",
+   "answers": [
+    "Valves",
+    "Venous valves",
+    "One-way valves in the veins"
+   ],
+   "wrong": [
+    "High pressure",
+    "Muscle in the vein wall",
+    "Elastic recoil"
+   ],
+   "explanation": "Together with the squeezing of nearby muscles (the muscle pump) and the breathing movements, they push blood up towards the heart.",
+   "tags": [
+    "Large veins"
+   ]
+  },
+  {
+   "id": "varicose",
+   "prompt": "What are swollen, twisted veins from failed valves called?",
+   "answers": [
+    "Varicose veins"
+   ],
+   "wrong": [
+    "Aneurysms",
+    "Haemorrhoids only",
+    "Arteriosclerosis"
+   ],
+   "explanation": "Most often in the superficial veins of the legs.",
+   "tags": [
+    "Large veins"
+   ]
+  },
+  {
+   "id": "vein-capacitance",
+   "prompt": "About how much of the body's blood is in the veins at any time?",
+   "answers": [
+    "About 60 to 65%",
+    "About two thirds",
+    "Over half"
+   ],
+   "wrong": [
+    "About 10%",
+    "About 25%",
+    "About 85%"
+   ],
+   "explanation": "Their thin, stretchy walls make them a reservoir (capacitance vessels). The arteries hold about 15%.",
+   "tags": [
+    "Large veins"
+   ]
+  },
+  {
+   "id": "dvt",
+   "prompt": "What is a blood clot in a deep leg vein called?",
+   "answers": [
+    "Deep vein thrombosis",
+    "DVT"
+   ],
+   "wrong": [
+    "Pulmonary embolism",
+    "Varicose vein",
+    "Aneurysm"
+   ],
+   "explanation": "If a piece breaks off it travels through the right heart to the lungs and blocks a pulmonary artery: a pulmonary embolism.",
+   "tags": [
+    "Large veins"
+   ]
+  },
+  {
+   "id": "id-svc",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Superior vena cava",
+    "SVC"
+   ],
+   "wrong": [
+    "Inferior vena cava",
+    "Brachiocephalic vein",
+    "Pulmonary vein"
+   ],
+   "explanation": "Formed behind the first right costal cartilage by the two brachiocephalic veins; it drains the head, neck, arms and chest into the right atrium.",
+   "figure": {
+    "src": "data/figures/anatomy/c-svc.webp",
+    "alt": "The heart and large vessels, with a vein in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large veins"
+   ]
+  },
+  {
+   "id": "id-ivc",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Inferior vena cava",
+    "IVC"
+   ],
+   "wrong": [
+    "Superior vena cava",
+    "Aorta",
+    "Common iliac vein"
+   ],
+   "explanation": "Formed by the two common iliac veins at L5, it runs up on the right of the aorta, through the diaphragm at T8, into the right atrium.",
+   "figure": {
+    "src": "data/figures/anatomy/c-ivc.webp",
+    "alt": "The large vessels of the trunk, with a vein in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large veins"
+   ]
+  },
+  {
+   "id": "id-brachiocephalic-vein",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Brachiocephalic vein",
+    "Brachiocephalic veins"
+   ],
+   "wrong": [
+    "Subclavian vein",
+    "Internal jugular vein",
+    "Superior vena cava"
+   ],
+   "explanation": "Formed on each side by the internal jugular and subclavian veins. The left one is longer, crossing in front of the aortic arch's branches.",
+   "figure": {
+    "src": "data/figures/anatomy/c-brachiocephalic-vein.webp",
+    "alt": "The heart and large vessels, with a vein in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large veins"
+   ]
+  },
+  {
+   "id": "id-jugular",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Internal jugular vein"
+   ],
+   "wrong": [
+    "Subclavian vein",
+    "Brachiocephalic vein",
+    "Common carotid artery"
+   ],
+   "explanation": "Drains the brain and the face and neck, running down the neck beside the common carotid artery.",
+   "figure": {
+    "src": "data/figures/anatomy/c-jugular.webp",
+    "alt": "The heart and large vessels, with a vein in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large veins"
+   ]
+  },
+  {
+   "id": "id-subclavian-vein",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Subclavian vein"
+   ],
+   "wrong": [
+    "Internal jugular vein",
+    "Brachiocephalic vein",
+    "Subclavian artery"
+   ],
+   "explanation": "Drains the arm and passes in front of the scalenus anterior, in front of the subclavian artery.",
+   "figure": {
+    "src": "data/figures/anatomy/c-subclavian-vein.webp",
+    "alt": "The heart and large vessels, with a vein in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large veins"
+   ]
+  },
+  {
+   "id": "central-line",
+   "prompt": "A central line, a long catheter placed to give drugs near the heart, is often put into which vein?",
+   "answers": [
+    "Internal jugular vein",
+    "Subclavian vein",
+    "Internal jugular or subclavian vein"
+   ],
+   "wrong": [
+    "Radial vein",
+    "Cephalic vein",
+    "Great saphenous vein"
+   ],
+   "explanation": "The tip rests in the superior vena cava, close to the right atrium.",
+   "figure": {
+    "src": "data/figures/anatomy/c-jugular.webp",
+    "alt": "The heart and large vessels, with the internal jugular vein in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Large veins"
+   ]
+  },
+  {
+   "id": "id-pulmonary-vein",
+   "prompt": "Which vessels are highlighted in red?",
+   "answers": [
+    "Pulmonary veins",
+    "Pulmonary vein"
+   ],
+   "wrong": [
+    "Pulmonary arteries",
+    "Superior vena cava",
+    "Coronary sinus"
+   ],
+   "explanation": "Usually four of them, two from each lung, entering the back of the left atrium. Seen here from behind.",
+   "figure": {
+    "src": "data/figures/anatomy/c-pulmonary-vein.webp",
+    "alt": "The heart from behind, with vessels in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large veins"
+   ]
+  },
+  {
+   "id": "id-renal-vein",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Renal vein",
+    "Renal veins"
+   ],
+   "wrong": [
+    "Inferior vena cava",
+    "Renal artery",
+    "Common iliac vein"
+   ],
+   "explanation": "Carries blood from the kidney into the inferior vena cava. The left one is longer than the right, because the vena cava lies to the right of the aorta.",
+   "figure": {
+    "src": "data/figures/anatomy/c-renal-vein.webp",
+    "alt": "The vessels of the kidneys, with one in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large veins"
+   ]
+  },
+  {
+   "id": "left-renal-vein",
+   "prompt": "Why is the left renal vein longer than the right?",
+   "answers": [
+    "The inferior vena cava is on the right",
+    "The vena cava lies to the right of the aorta",
+    "It has to cross in front of the aorta"
+   ],
+   "wrong": [
+    "The left kidney is bigger",
+    "The left kidney is lower",
+    "The right kidney has a shorter artery"
+   ],
+   "explanation": "It crosses in front of the aorta, below the origin of the superior mesenteric artery, to reach it.",
+   "figure": {
+    "src": "data/figures/anatomy/c-renal-vein.webp",
+    "alt": "The heart and large vessels, with the renal veins in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Large veins"
+   ]
+  },
+  {
+   "id": "id-common-iliac-vein",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Common iliac vein",
+    "Common iliac veins"
+   ],
+   "wrong": [
+    "Inferior vena cava",
+    "Common iliac artery",
+    "External iliac vein"
+   ],
+   "explanation": "The two join at the level of L5 to form the inferior vena cava.",
+   "figure": {
+    "src": "data/figures/anatomy/c-common-iliac-vein.webp",
+    "alt": "The vessels of the pelvis, with a vein in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large veins"
+   ]
+  },
+  {
+   "id": "id-splenic-vein",
+   "prompt": "Which veins are highlighted in red?",
+   "answers": [
+    "Splenic vein and superior mesenteric vein",
+    "Veins of the portal system",
+    "Splenic and superior mesenteric veins"
+   ],
+   "wrong": [
+    "Renal veins",
+    "Hepatic veins",
+    "Common iliac veins"
+   ],
+   "explanation": "They join behind the neck of the pancreas to form the hepatic portal vein.",
+   "figure": {
+    "src": "data/figures/anatomy/c-splenic-vein.webp",
+    "alt": "The vessels of the abdomen, with veins in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Large veins"
+   ]
+  },
+  {
+   "id": "great-saphenous",
+   "prompt": "Which is the longest vein in the body, running up the inside of the leg?",
+   "answers": [
+    "Great saphenous vein",
+    "Long saphenous vein"
+   ],
+   "wrong": [
+    "Femoral vein",
+    "Small saphenous vein",
+    "Popliteal vein"
+   ],
+   "explanation": "From the foot to the groin, where it joins the femoral vein. It is often taken for heart bypass grafts.",
+   "tags": [
+    "Large veins"
+   ]
+  },
+  {
+   "id": "cephalic",
+   "prompt": "Which superficial vein runs up the outer side of the arm, ending by joining the axillary vein?",
+   "answers": [
+    "Cephalic vein"
+   ],
+   "wrong": [
+    "Basilic vein",
+    "Median cubital vein",
+    "Brachial vein"
+   ],
+   "explanation": "The basilic vein runs up the inner side. The median cubital vein joins them at the elbow, and is where blood is usually taken.",
+   "tags": [
+    "Large veins"
+   ]
+  },
+  {
+   "id": "venipuncture",
+   "prompt": "Which vein in the crook of the elbow is most often used to take blood?",
+   "answers": [
+    "Median cubital vein"
+   ],
+   "wrong": [
+    "Cephalic vein",
+    "Radial vein",
+    "Brachial vein"
+   ],
+   "explanation": "It is large, close to the surface, and held in place by tissue, with fewer nerves and arteries nearby than the other veins at the elbow.",
+   "tags": [
+    "Large veins"
+   ]
+  },
+  {
+   "id": "azygos",
+   "prompt": "Which vein runs up the right side of the thoracic vertebral column, draining the chest wall into the superior vena cava?",
+   "answers": [
+    "Azygos vein"
+   ],
+   "wrong": [
+    "Hemiazygos vein",
+    "Internal thoracic vein",
+    "Subclavian vein"
+   ],
+   "explanation": "An alternative route to the heart when the inferior vena cava is blocked.",
+   "tags": [
+    "Large veins"
+   ]
+  },
+  {
+   "id": "jugular-pressure",
+   "prompt": "What does a raised jugular venous pressure (visible swollen neck veins) suggest?",
+   "answers": [
+    "Raised pressure in the right atrium",
+    "Right heart failure",
+    "Right-sided heart failure or fluid overload"
+   ],
+   "wrong": [
+    "Low blood pressure",
+    "A blocked carotid artery",
+    "Left atrial failure only"
+   ],
+   "explanation": "The neck veins connect without valves to the right atrium, so they show its pressure.",
+   "tags": [
+    "Large veins"
+   ]
+  },
+  {
+   "id": "pulmonary-circuit",
+   "prompt": "Which circuit carries blood from the right ventricle to the lungs and back to the left atrium?",
+   "answers": [
+    "The pulmonary circuit",
+    "Pulmonary circulation",
+    "Pulmonary circuit"
+   ],
+   "wrong": [
+    "The systemic circuit",
+    "The portal circuit",
+    "The coronary circuit"
+   ],
+   "explanation": "Short and low-pressure. The systemic circuit goes from the left ventricle to the rest of the body and back to the right atrium.",
+   "tags": [
+    "Circulation and blood"
+   ]
+  },
+  {
+   "id": "portal-system",
+   "prompt": "What do we call a route where blood passes through two capillary beds in a row before going back to the heart, as in the liver?",
+   "answers": [
+    "A portal system",
+    "Portal circulation",
+    "Hepatic portal system"
+   ],
+   "wrong": [
+    "The coronary circulation",
+    "The pulmonary circuit",
+    "A shunt"
+   ],
+   "explanation": "Blood from the gut capillaries goes through the liver's sinusoids before it reaches the heart.",
+   "tags": [
+    "Circulation and blood"
+   ]
+  },
+  {
+   "id": "fetal-ductus",
+   "prompt": "In the fetus, which vessel joins the pulmonary trunk to the aorta, skipping the lungs?",
+   "answers": [
+    "Ductus arteriosus"
+   ],
+   "wrong": [
+    "Ductus venosus",
+    "Foramen ovale",
+    "Umbilical artery"
+   ],
+   "explanation": "It closes within hours or days of birth and becomes the ligamentum arteriosum.",
+   "tags": [
+    "Circulation and blood"
+   ]
+  },
+  {
+   "id": "umbilical",
+   "prompt": "Which vessel of the umbilical cord carries oxygen-rich blood from the placenta to the fetus?",
+   "answers": [
+    "Umbilical vein",
+    "The umbilical vein"
+   ],
+   "wrong": [
+    "Umbilical arteries",
+    "Ductus arteriosus",
+    "Ductus venosus"
+   ],
+   "explanation": "The two umbilical arteries carry oxygen-poor blood back to the placenta. This is the opposite of the usual rule, which is why the terms say direction, not oxygen.",
+   "tags": [
+    "Circulation and blood"
+   ]
+  },
+  {
+   "id": "blood-volume",
+   "prompt": "About how much blood does an adult have?",
+   "answers": [
+    "About 5 litres",
+    "5 litres",
+    "About 5 L"
+   ],
+   "wrong": [
+    "About 2 litres",
+    "About 8 litres",
+    "About 12 litres"
+   ],
+   "explanation": "About 7% of body weight.",
+   "tags": [
+    "Circulation and blood"
+   ]
+  },
+  {
+   "id": "plasma",
+   "prompt": "About what share of blood is plasma?",
+   "answers": [
+    "About 55%",
+    "Just over half",
+    "55%"
+   ],
+   "wrong": [
+    "About 25%",
+    "About 80%",
+    "About 10%"
+   ],
+   "explanation": "A pale yellow fluid, 90% water. The cells make up the rest.",
+   "tags": [
+    "Circulation and blood"
+   ]
+  },
+  {
+   "id": "rbc",
+   "prompt": "Which blood cells carry oxygen?",
+   "answers": [
+    "Red blood cells",
+    "Erythrocytes",
+    "Red cells"
+   ],
+   "wrong": [
+    "White blood cells",
+    "Platelets",
+    "Plasma cells"
+   ],
+   "explanation": "Their haemoglobin binds oxygen. They have no nucleus, so they have more room.",
+   "tags": [
+    "Circulation and blood"
+   ]
+  },
+  {
+   "id": "platelets",
+   "prompt": "Which cell fragments help blood to clot?",
+   "answers": [
+    "Platelets",
+    "Thrombocytes"
+   ],
+   "wrong": [
+    "Red blood cells",
+    "Lymphocytes",
+    "Neutrophils"
+   ],
+   "explanation": "Made in the bone marrow by large cells called megakaryocytes.",
+   "tags": [
+    "Circulation and blood"
+   ]
+  },
+  {
+   "id": "wbc",
+   "prompt": "Which blood cells defend the body against infection?",
+   "answers": [
+    "White blood cells",
+    "Leucocytes",
+    "Leukocytes"
+   ],
+   "wrong": [
+    "Red blood cells",
+    "Platelets",
+    "Erythrocytes"
+   ],
+   "explanation": "Neutrophils, lymphocytes, monocytes, eosinophils and basophils.",
+   "tags": [
+    "Circulation and blood"
+   ]
+  },
+  {
+   "id": "neutrophil",
+   "prompt": "Which is the most common white blood cell?",
+   "answers": [
+    "Neutrophil",
+    "Neutrophils"
+   ],
+   "wrong": [
+    "Lymphocyte",
+    "Monocyte",
+    "Eosinophil"
+   ],
+   "explanation": "About 60 to 70% of white cells. They are the first to arrive at an infection and eat bacteria.",
+   "tags": [
+    "Circulation and blood"
+   ]
+  },
+  {
+   "id": "blood-groups",
+   "prompt": "A person with blood group AB has which antibodies in their plasma against A or B?",
+   "answers": [
+    "None",
+    "No anti-A or anti-B antibodies"
+   ],
+   "wrong": [
+    "Anti-A",
+    "Anti-B",
+    "Both anti-A and anti-B"
+   ],
+   "explanation": "So they can receive blood of any ABO group (the universal recipient). Group O has both antibodies and no antigens, so its red cells can be given to any group.",
+   "tags": [
+    "Circulation and blood"
+   ]
+  },
+  {
+   "id": "universal-donor",
+   "prompt": "Which ABO blood group is called the universal donor for red cells?",
+   "answers": [
+    "O negative",
+    "O",
+    "Group O"
+   ],
+   "wrong": [
+    "AB positive",
+    "A negative",
+    "B positive"
+   ],
+   "explanation": "No A, B or Rh antigens on its red cells for the recipient's antibodies to attack.",
+   "tags": [
+    "Circulation and blood"
+   ]
+  },
+  {
+   "id": "haemoglobin",
+   "prompt": "Which mineral at the centre of haemoglobin binds oxygen?",
+   "answers": [
+    "Iron"
+   ],
+   "wrong": [
+    "Copper",
+    "Zinc",
+    "Calcium"
+   ],
+   "explanation": "Iron deficiency causes anaemia.",
+   "tags": [
+    "Circulation and blood"
+   ]
+  },
+  {
+   "id": "clotting",
+   "prompt": "What is the last step of blood clotting, in which a soluble protein turns into a mesh of fibres?",
+   "answers": [
+    "Fibrinogen turns into fibrin",
+    "Fibrinogen to fibrin"
+   ],
+   "wrong": [
+    "Prothrombin turns into thrombin",
+    "Platelets turn into fibrin",
+    "Fibrin turns into fibrinogen"
+   ],
+   "explanation": "Thrombin, made from prothrombin, makes the change. Vitamin K is needed for the liver to make prothrombin and some other clotting factors.",
+   "tags": [
+    "Circulation and blood"
+   ]
+  },
+  {
+   "id": "embolus",
+   "prompt": "What is a clot or other lump that travels in the blood and blocks a smaller vessel called?",
+   "answers": [
+    "Embolus",
+    "Embolism"
+   ],
+   "wrong": [
+    "Thrombus",
+    "Aneurysm",
+    "Plaque"
+   ],
+   "explanation": "A thrombus is a clot that stays where it formed.",
+   "tags": [
+    "Circulation and blood"
+   ]
+  },
+  {
+   "id": "stroke-def",
+   "prompt": "What is a stroke?",
+   "answers": [
+    "Loss of blood supply to part of the brain",
+    "Death of brain tissue from a blocked or burst artery"
+   ],
+   "wrong": [
+    "Failure of the heart to pump",
+    "A sudden drop in blood pressure",
+    "A leaking heart valve"
+   ],
+   "explanation": "About 85% are from a blocked artery (ischaemic) and the rest from bleeding (haemorrhagic).",
+   "tags": [
+    "Circulation and blood"
+   ]
+  },
+  {
+   "id": "hypertension",
+   "prompt": "Blood pressure persistently above what level is called high (hypertension)?",
+   "answers": [
+    "140/90 mmHg",
+    "About 140/90",
+    "140/90"
+   ],
+   "wrong": [
+    "120/80 mmHg",
+    "100/60 mmHg",
+    "180/120 mmHg"
+   ],
+   "explanation": "Guidelines differ a little (some use 130/80). It often has no symptoms but raises the risk of stroke and heart disease.",
+   "tags": [
+    "Circulation and blood"
+   ]
+  },
+  {
+   "id": "baroreceptor",
+   "prompt": "Which sensors in the aortic arch and carotid sinus detect changes in blood pressure?",
+   "answers": [
+    "Baroreceptors",
+    "Baroreceptor"
+   ],
+   "wrong": [
+    "Chemoreceptors",
+    "Osmoreceptors",
+    "Nociceptors"
+   ],
+   "explanation": "They signal the medulla through the vagus and glossopharyngeal nerves, which adjusts heart rate and vessel widths.",
+   "tags": [
+    "Circulation and blood"
+   ]
+  },
+  {
+   "id": "lymph-return",
+   "prompt": "Which system returns fluid that leaks from the capillaries back to the blood?",
+   "answers": [
+    "Lymphatic system",
+    "The lymphatic system"
+   ],
+   "wrong": [
+    "Portal system",
+    "Coronary circulation",
+    "Pulmonary circuit"
+   ],
+   "explanation": "It empties into the large veins at the base of the neck.",
+   "tags": [
+    "Circulation and blood"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Name the part",
+   "count": 20,
+   "pass": 80,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Name the part"
+   ],
+   "why": "Twenty pictures of the heart and large vessels, each with one part in red to name."
+  },
+  {
+   "name": "Chapter quiz",
+   "count": 30,
+   "pass": 75,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "end",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Thirty questions from the whole chapter, marked at the end, like an end-of-unit test."
+  },
+  {
+   "name": "Recall without choices",
+   "count": 20,
+   "pass": 75,
+   "pick": "due",
+   "answer": "typed",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Type each answer from memory, starting with the ones due for review. Small typos are forgiven."
+  }
+ ]
+}
