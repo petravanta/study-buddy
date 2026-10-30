@@ -268,3 +268,435 @@ FMA8194	right sixth costal cartilage
 FMA8221	left sixth costal cartilage
 FMA8248	right seventh costal cartilage
 FMA8275	left seventh costal cartilage
+BP44	humeral head of left extensor carpi ulnaris	muscle
+BP45	humeral head of right extensor carpi ulnaris	muscle
+BP46	ulnar head of left extensor carpi ulnaris	muscle
+BP47	ulnar head of right extensor carpi ulnaris	muscle
+FMA13295	diaphragm	muscle
+FMA13336	right external oblique	muscle
+FMA13337	left external oblique	muscle
+FMA13346	right sternohyoid	muscle
+FMA13347	left sternohyoid	muscle
+FMA13348	right omohyoid	muscle
+FMA13349	left omohyoid	muscle
+FMA13350	right sternothyroid	muscle
+FMA13351	left sternothyroid	muscle
+FMA13352	right thyrohyoid	muscle
+FMA13353	left thyrohyoid	muscle
+FMA13358	right latissimus dorsi	muscle
+FMA13359	left latissimus dorsi	muscle
+FMA13375	right pectoralis minor	muscle
+FMA13376	left pectoralis minor	muscle
+FMA13377	right rectus abdominis	muscle
+FMA13378	left rectus abdominis	muscle
+FMA13381	right rhomboid major	muscle
+FMA13382	left rhomboid major	muscle
+FMA13383	right rhomboid minor	muscle
+FMA13384	left rhomboid minor	muscle
+FMA13388	right scalenus posterior	muscle
+FMA13389	left scalenus posterior	muscle
+FMA13390	right scalenus medius	muscle
+FMA13391	left scalenus medius	muscle
+FMA13392	right scalenus anterior	muscle
+FMA13393	left scalenus anterior	muscle
+FMA13398	right serratus anterior	muscle
+FMA13399	left serratus anterior	muscle
+FMA13403	right serratus posterior superior	muscle
+FMA13404	left serratus posterior superior	muscle
+FMA13405	right serratus posterior inferior	muscle
+FMA13406	left serratus posterior inferior	muscle
+FMA13408	right sternocleidomastoid	muscle
+FMA13409	left sternocleidomastoid	muscle
+FMA13411	left subclavius	muscle
+FMA13412	right subclavius	muscle
+FMA13414	right subscapularis	muscle
+FMA13415	left subscapularis	muscle
+FMA13892	right internal oblique	muscle
+FMA13893	left internal oblique	muscle
+FMA21930	external anal sphincter	muscle
+FMA22322	right iliacus	muscle
+FMA22323	left iliacus	muscle
+FMA22324	right obturator internus	muscle
+FMA22325	left obturator internus	muscle
+FMA22326	right obturator externus	muscle
+FMA22327	left obturator externus	muscle
+FMA22328	right gluteus maximus	muscle
+FMA22329	left gluteus maximus	muscle
+FMA22330	right gluteus medius	muscle
+FMA22331	left gluteus medius	muscle
+FMA22332	right gluteus minimus	muscle
+FMA22333	left gluteus minimus	muscle
+FMA22334	right gemellus superior	muscle
+FMA22335	left gemellus superior	muscle
+FMA22336	right gemellus inferior	muscle
+FMA22337	left gemellus inferior	muscle
+FMA22338	right quadratus femoris	muscle
+FMA22339	left quadratus femoris	muscle
+FMA22340	right piriformis	muscle
+FMA22341	left piriformis	muscle
+FMA22342	right psoas major	muscle
+FMA22343	left psoas major	muscle
+FMA22344	right transversus abdominis	muscle
+FMA22345	left transversus abdominis	muscle
+FMA22346	right pyramidalis	muscle
+FMA22347	left pyramidalis	muscle
+FMA22348	right quadratus lumborum	muscle
+FMA22349	left quadratus lumborum	muscle
+FMA22354	right sartorius	muscle
+FMA22355	left sartorius	muscle
+FMA22358	right semitendinosus	muscle
+FMA22359	left semitendinosus	muscle
+FMA22425	right tensor fasciae latae	muscle
+FMA22426	left tensor fasciae latae	muscle
+FMA22448	right semimembranosus	muscle
+FMA22449	left semimembranosus	muscle
+FMA22450	right pectineus	muscle
+FMA22451	left pectineus	muscle
+FMA22452	right adductor brevis	muscle
+FMA22454	left adductor brevis	muscle
+FMA22456	right adductor longus	muscle
+FMA22457	left adductor longus	muscle
+FMA22459	right adductor magnus	muscle
+FMA22460	left adductor magnus	muscle
+FMA22544	right tibialis anterior	muscle
+FMA22545	left tibialis anterior	muscle
+FMA22546	right extensor hallucis longus	muscle
+FMA22547	left extensor hallucis longus	muscle
+FMA22548	right extensor digitorum longus	muscle
+FMA22549	left extensor digitorum longus	muscle
+FMA22550	right fibularis tertius	muscle
+FMA22551	left fibularis tertius	muscle
+FMA22552	right fibularis longus	muscle
+FMA22553	left fibularis longus	muscle
+FMA22554	right fibularis brevis	muscle
+FMA22555	left fibularis brevis	muscle
+FMA22558	right soleus	muscle
+FMA22559	left soleus	muscle
+FMA22560	right plantaris	muscle
+FMA22561	left plantaris	muscle
+FMA22591	right popliteus	muscle
+FMA22592	left popliteus	muscle
+FMA22726	right splenius cervicis	muscle
+FMA22727	left splenius cervicis	muscle
+FMA22728	right splenius capitis	muscle
+FMA22729	left splenius capitis	muscle
+FMA22740	right iliocostalis lumborum	muscle
+FMA22741	left iliocostalis lumborum	muscle
+FMA22742	right iliocostalis thoracis	muscle
+FMA22743	left iliocostalis thoracis	muscle
+FMA22744	right iliocostalis cervicis	muscle
+FMA22745	left iliocostalis cervicis	muscle
+FMA22751	right longissimus thoracis	muscle
+FMA22753	left longissimus thoracis	muscle
+FMA22754	right longissimus capitis	muscle
+FMA22756	left longissimus capitis	muscle
+FMA22757	right longissimus cervicis	muscle
+FMA22758	left longissimus cervicis	muscle
+FMA22779	right spinalis thoracis	muscle
+FMA22780	left spinalis thoracis	muscle
+FMA22781	right spinalis cervicis	muscle
+FMA22782	left spinalis cervicis	muscle
+FMA22872	right semispinalis thoracis	muscle
+FMA22873	left semispinalis thoracis	muscle
+FMA22874	right semispinalis cervicis	muscle
+FMA22875	left semispinalis cervicis	muscle
+FMA22876	right semispinalis capitis	muscle
+FMA22877	left semispinalis capitis	muscle
+FMA22878	right multifidus	muscle
+FMA22879	left multifidus	muscle
+FMA23083	thoracic rotator	muscle
+FMA23089	right lumbar rotator	muscle
+FMA23090	left lumbar rotator	muscle
+FMA258847	right calcaneal tendon	tendon
+FMA264844	left calcaneal tendon	tendon
+FMA32530	right rectus capitis posterior major	muscle
+FMA32531	left rectus capitis posterior major	muscle
+FMA32532	right rectus capitis posterior minor	muscle
+FMA32533	left rectus capitis posterior minor	muscle
+FMA32534	right obliquus capitis superior	muscle
+FMA32535	left obliquus capitis superior	muscle
+FMA32536	right obliquus capitis inferior	muscle
+FMA32537	left obliquus capitis inferior	muscle
+FMA32540	right levator scapulae	muscle
+FMA32541	left levator scapulae	muscle
+FMA32544	right supraspinatus	muscle
+FMA32545	left supraspinatus	muscle
+FMA32547	right infraspinatus muscle	muscle
+FMA32548	left infraspinatus muscle	muscle
+FMA32551	right teres major	muscle
+FMA32552	left teres major	muscle
+FMA32553	right teres minor	muscle
+FMA32554	left teres minor	muscle
+FMA33581	ascending part of right trapezius	muscle
+FMA33583	ascending part of left trapezius	muscle
+FMA33584	transverse part of right trapezius	muscle
+FMA33585	transverse part of left trapezius	muscle
+FMA33586	descending part of right trapezius	muscle
+FMA33587	descending part of left trapezius	muscle
+FMA34680	clavicular part of right deltoid	muscle
+FMA34681	clavicular part of left deltoid	muscle
+FMA34682	acromial part of right deltoid	muscle
+FMA34683	acromial part of left deltoid	muscle
+FMA34684	spinal part of right deltoid	muscle
+FMA34685	spinal part of left deltoid	muscle
+FMA34690	clavicular part of right pectoralis major	muscle
+FMA34691	clavicular part of left pectoralis major	muscle
+FMA37386	right abductor pollicis brevis	muscle
+FMA37387	left abductor pollicis brevis	muscle
+FMA37390	right opponens pollicis	muscle
+FMA37391	left opponens pollicis	muscle
+FMA37396	abductor digiti minimi of right hand	muscle
+FMA37397	abductor digiti minimi of left hand	muscle
+FMA37398	flexor digiti minimi brevis of right hand	muscle
+FMA37399	flexor digiti minimi brevis of left hand	muscle
+FMA37400	opponens digiti minimi of right hand	muscle
+FMA37401	opponens digiti minimi of left hand	muscle
+FMA37459	right abductor hallucis	muscle
+FMA37460	left abductor hallucis	muscle
+FMA37461	right flexor digitorum brevis	muscle
+FMA37462	left flexor digitorum brevis	muscle
+FMA37463	abductor digiti minimi of right foot	muscle
+FMA37464	abductor digiti minimi of left foot	muscle
+FMA37465	right flexor accessorius	muscle
+FMA37466	left flexor accessorius	muscle
+FMA37471	flexor digiti minimi brevis of right foot	muscle
+FMA37472	flexor digiti minimi brevis of left foot	muscle
+FMA37483	fourth lumbrical of right foot	muscle
+FMA37484	fourth lumbrical of left foot	muscle
+FMA37485	third lumbrical of right foot	muscle
+FMA37486	third lumbrical of left foot	muscle
+FMA37665	right coracobrachialis	muscle
+FMA37666	left coracobrachialis	muscle
+FMA37668	right brachialis	muscle
+FMA37669	left brachialis	muscle
+FMA37684	short head of right biceps brachii	muscle
+FMA37685	short head of left biceps brachii	muscle
+FMA37686	long head of right biceps brachii	muscle
+FMA37687	long head of left biceps brachii	muscle
+FMA37695	medial head of right triceps brachii	muscle
+FMA37696	medial head of left triceps brachii	muscle
+FMA37697	lateral head of right triceps brachii	muscle
+FMA37698	lateral head of left triceps brachii	muscle
+FMA37699	long head of right triceps brachii	muscle
+FMA37700	long head of left triceps brachii	muscle
+FMA37705	right anconeus	muscle
+FMA37706	left anconeus	muscle
+FMA37717	first lumbrical of right foot	muscle
+FMA37718	first lumbrical of left foot	muscle
+FMA37719	second lumbrical of right foot	muscle
+FMA37720	second lumbrical of left foot	muscle
+FMA37741	third plantar interosseous of right foot	muscle
+FMA37742	third plantar interosseous of left foot	muscle
+FMA37743	second plantar interosseous of right foot	muscle
+FMA37744	second plantar interosseous of left foot	muscle
+FMA37745	first plantar interosseous of right foot	muscle
+FMA37746	first plantar interosseous of left foot	muscle
+FMA38454	right pronator quadratus	muscle
+FMA38455	left pronator quadratus	muscle
+FMA38460	right flexor carpi radialis	muscle
+FMA38461	left flexor carpi radialis	muscle
+FMA38463	right palmaris longus	muscle
+FMA38464	left palmaris longus	muscle
+FMA38479	right flexor digitorum profundus	muscle
+FMA38480	left flexor digitorum profundus	muscle
+FMA38482	right flexor pollicis longus	muscle
+FMA38484	left flexor pollicis longus	muscle
+FMA38486	right brachioradialis	muscle
+FMA38487	left brachioradialis	muscle
+FMA38495	right extensor carpi radialis longus	muscle
+FMA38496	left extensor carpi radialis longus	muscle
+FMA38498	right extensor carpi radialis brevis	muscle
+FMA38499	left extensor carpi radialis brevis	muscle
+FMA38501	right extensor digitorum	muscle
+FMA38502	left extensor digitorum	muscle
+FMA38504	right extensor digiti minimi	muscle
+FMA38505	left extensor digiti minimi	muscle
+FMA38513	right supinator	muscle
+FMA38514	left supinator	muscle
+FMA38516	right abductor pollicis longus	muscle
+FMA38517	left abductor pollicis longus	muscle
+FMA38519	right extensor pollicis brevis	muscle
+FMA38520	left extensor pollicis brevis	muscle
+FMA38522	right extensor pollicis longus	muscle
+FMA38523	left extensor pollicis longus	muscle
+FMA38525	right extensor indicis	muscle
+FMA38526	left extensor indicis	muscle
+FMA38560	humeral head of right pronator teres	muscle
+FMA38561	humeral head of left pronator teres	muscle
+FMA38562	ulnar head of right pronator teres	muscle
+FMA38563	ulnar head of left pronator teres	muscle
+FMA38617	humeral head of right flexor carpi ulnaris	muscle
+FMA38618	humeral head of left flexor carpi ulnaris	muscle
+FMA38619	ulnar head of right flexor carpi ulnaris	muscle
+FMA38620	ulnar head of left flexor carpi ulnaris	muscle
+FMA38638	humeroulnar head of right flexor digitorum superficialis	muscle
+FMA38639	humeroulnar head of left flexor digitorum superficialis	muscle
+FMA38640	radial head of right flexor digitorum superficialis	muscle
+FMA38641	radial head of left flexor digitorum superficialis	muscle
+FMA38928	right rectus femoris	muscle
+FMA38929	left rectus femoris	muscle
+FMA38930	right vastus lateralis	muscle
+FMA38931	left vastus lateralis	muscle
+FMA38932	right vastus medialis	muscle
+FMA38933	left vastus medialis	muscle
+FMA38934	right vastus intermedius	muscle
+FMA38935	left vastus intermedius	muscle
+FMA42398	set of lumbricals of right hand	muscle
+FMA42399	set of lumbricals of left hand	muscle
+FMA42402	set of palmar interossei of right hand	muscle
+FMA42403	set of palmar interossei of left hand	muscle
+FMA42404	set of dorsal interossei of right hand	muscle
+FMA42405	set of dorsal interossei of left hand	muscle
+FMA43883	right gracilis	muscle
+FMA43884	left gracilis	muscle
+FMA43886	right adductor minimus	muscle
+FMA43887	left adductor minimus	muscle
+FMA45739	right platysma	muscle
+FMA45740	left platysma	muscle
+FMA45826	right stylohyoid	muscle
+FMA45827	left stylohyoid	muscle
+FMA45854	right pubococcygeus	muscle
+FMA45855	left pubococcygeus	muscle
+FMA45856	right puborectalis	muscle
+FMA45857	left puborectalis	muscle
+FMA45858	right iliococcygeus	muscle
+FMA45859	left iliococcygeus	muscle
+FMA45874	abdominal part of right pectoralis major	muscle
+FMA45875	abdominal part of left pectoralis major	muscle
+FMA45888	long head of right biceps femoris	muscle
+FMA45889	long head of left biceps femoris	muscle
+FMA45891	short head of right biceps femoris	muscle
+FMA45892	short head of left biceps femoris	muscle
+FMA45957	medial head of right gastrocnemius	muscle
+FMA45958	medial head of left gastrocnemius	muscle
+FMA45960	lateral head of right gastrocnemius	muscle
+FMA45961	lateral head of left gastrocnemius	muscle
+FMA45971	medial head of right flexor hallucis brevis	muscle
+FMA45972	medial head of left flexor hallucis brevis	muscle
+FMA45973	lateral head of right flexor hallucis brevis	muscle
+FMA45974	lateral head of left flexor hallucis brevis	muscle
+FMA46018	oblique head of right adductor hallucis	muscle
+FMA46019	oblique head of left adductor hallucis	muscle
+FMA46020	transverse head of right adductor hallucis	muscle
+FMA46021	transverse head of left adductor hallucis	muscle
+FMA46110	deep head of right flexor pollicis brevis	muscle
+FMA46111	deep head of left flexor pollicis brevis	muscle
+FMA46121	oblique head of right adductor pollicis	muscle
+FMA46122	oblique head of left adductor pollicis	muscle
+FMA46123	transverse head of right adductor pollicis	muscle
+FMA46124	transverse head of left adductor pollicis	muscle
+FMA46283	superior oblique part of right longus colli	muscle
+FMA46284	superior oblique part of left longus colli	muscle
+FMA46285	vertical intermediate part of right longus colli	muscle
+FMA46286	vertical intermediate part of left longus colli	muscle
+FMA46287	inferior oblique part of right longus colli	muscle
+FMA46288	inferior oblique part of left longus colli	muscle
+FMA46304	anterior belly of right digastric	muscle
+FMA46305	anterior belly of left digastric	muscle
+FMA46306	posterior belly of right digastric	muscle
+FMA46307	posterior belly of left digastric	muscle
+FMA46309	right longus capitis	muscle
+FMA46310	left longus capitis	muscle
+FMA46313	right rectus capitis anterior	muscle
+FMA46314	left rectus capitis anterior	muscle
+FMA46317	right rectus capitis lateralis	muscle
+FMA46318	left rectus capitis lateralis	muscle
+FMA46321	right mylohyoid	muscle
+FMA46322	left mylohyoid	muscle
+FMA46326	right geniohyoid	muscle
+FMA46327	left geniohyoid	muscle
+FMA46442	tendinous arch of levator ani	muscle
+FMA46443	right coccygeus	muscle
+FMA46444	left coccygeus	muscle
+FMA46759	right frontalis	muscle
+FMA46760	left frontalis	muscle
+FMA46761	right occipitalis	muscle
+FMA46762	left occipitalis	muscle
+FMA46763	right temporoparietalis	muscle
+FMA46764	left temporoparietalis	muscle
+FMA46768	aponeurosis of epicranius	tendon
+FMA46782	orbital part of right orbicularis oculi	muscle
+FMA46783	orbital part of left orbicularis oculi	muscle
+FMA46785	palpebral part of right orbicularis oculi	muscle
+FMA46786	palpebral part of left orbicularis oculi	muscle
+FMA46796	right corrugator supercilii	muscle
+FMA46797	left corrugator supercilii	muscle
+FMA46803	right levator labii superioris alaeque nasi	muscle
+FMA46804	left levator labii superioris alaeque nasi	muscle
+FMA46806	right levator labii superioris	muscle
+FMA46807	left levator labii superioris	muscle
+FMA46812	right zygomaticus major	muscle
+FMA46813	left zygomaticus major	muscle
+FMA46814	right zygomaticus minor	muscle
+FMA46815	left zygomaticus minor	muscle
+FMA46817	right depressor labii inferioris	muscle
+FMA46818	left depressor labii inferioris	muscle
+FMA46823	right levator anguli oris	muscle
+FMA46824	left levator anguli oris	muscle
+FMA46826	right mentalis	muscle
+FMA46827	left mentalis	muscle
+FMA46829	right depressor anguli oris	muscle
+FMA46830	left depressor anguli oris	muscle
+FMA46835	right buccinator	muscle
+FMA46836	left buccinator	muscle
+FMA46839	right risorius	muscle
+FMA46840	left risorius	muscle
+FMA46841	orbicularis oris	muscle
+FMA49001	superficial part of right masseter	muscle
+FMA49002	superficial part of left masseter	muscle
+FMA49004	deep part of right masseter	muscle
+FMA49005	deep part of left masseter	muscle
+FMA49007	right temporalis	muscle
+FMA49008	left temporalis	muscle
+FMA49012	right medial pterygoid	muscle
+FMA49013	left medial pterygoid	muscle
+FMA49022	lower head of right lateral pterygoid	muscle
+FMA49023	lower head of left lateral pterygoid	muscle
+FMA49024	upper head of right lateral pterygoid	muscle
+FMA49025	upper head of left lateral pterygoid	muscle
+FMA51142	right extensor digitorum brevis	muscle
+FMA51143	left extensor digitorum brevis	muscle
+FMA51144	right extensor hallucis brevis	muscle
+FMA51145	left extensor hallucis brevis	muscle
+FMA55099	thyroid cartilage	cartilage
+FMA55606	right nasalis	muscle
+FMA55607	left nasalis	muscle
+FMA55608	right depressor septi nasi	muscle
+FMA55609	left depressor septi nasi	muscle
+FMA55610	right procerus	muscle
+FMA55611	left procerus	muscle
+FMA58776	right iliotibial tract	tendon
+FMA58777	left iliotibial tract	tendon
+FMA65014	right flexor hallucis longus	muscle
+FMA65015	left flexor hallucis longus	muscle
+FMA65016	right flexor digitorum longus	muscle
+FMA65017	left flexor digitorum longus	muscle
+FMA65018	right tibialis posterior	muscle
+FMA65019	left tibialis posterior	muscle
+FMA65198	superficial head of right flexor pollicis brevis	muscle
+FMA65199	superficial head of left flexor pollicis brevis	muscle
+FMA71307	set of interspinales lumborum	muscle
+FMA71308	set of interspinales thoracis	muscle
+FMA71309	set of interspinales cervicis	muscle
+FMA71442	set of anterior cervical intertransversarii	muscle
+FMA71443	set of posterior cervical intertransversarii	muscle
+FMA71444	set of lateral lumbar intertransversarius muscles	muscle
+FMA71704	set of nasal cartilages	cartilage
+FMA74075	set of right levatores costarum longi	muscle
+FMA74076	set of left levatores costarum longi	muscle
+FMA74077	set of right levatores costarum breves	muscle
+FMA74078	set of left levatores costarum breves	muscle
+FMA74140	set of dorsal interossei of right foot	muscle
+FMA74141	set of dorsal interossei of left foot	muscle
+FMA76775	set of medial lumbar intertransversarius muscles	muscle
+FMA79979	sternocostal part of right pectoralis major	muscle
+FMA79980	sternocostal part of left pectoralis major	muscle
+FMA81752	right cervical rotator	muscle
+FMA81753	left cervical rotator	muscle
+FMA86034	opponens digiti minimi of right foot	muscle
+FMA86035	opponens digiti minimi of left foot	muscle
+FMA9756	external intercostal muscle	muscle
+FMA9757	internal intercostal muscle	muscle
+FMA9758	innermost intercostal muscle	muscle
+FMA9761	right transversus thoracis	muscle
+FMA9762	left transversus thoracis	muscle
