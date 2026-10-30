@@ -1,0 +1,1125 @@
+{
+ "id": "anatomy-integumentary",
+ "name": "Integumentary system",
+ "module": "Human anatomy",
+ "description": "The skin and its layers, cells and receptors, hair, nails, sweat and oil glands, how the skin controls temperature and protects us, and common disorders. Pictures show the skin, scalp hair and eyebrows to name; BodyParts3D has the skin as one surface, so the layers, glands and nails are text questions.",
+ "source": {
+  "name": "Written for Study Buddy. Pictures rendered from BodyParts3D (© The Database Center for Life Science, CC BY-SA 2.1 JP).",
+  "url": "https://github.com/petravanta/study-buddy/tree/main/scripts/bodyparts3d"
+ },
+ "updated": "2026-10-30",
+ "questions": [
+  {
+   "id": "id-skin",
+   "prompt": "Which organ covers the whole outline in red?",
+   "answers": [
+    "Skin",
+    "The skin",
+    "Integument"
+   ],
+   "wrong": [
+    "Muscles",
+    "Fascia",
+    "Fat layer"
+   ],
+   "explanation": "The body's largest organ, about 1.5 to 2 square metres in an adult and about 15% of the body weight.",
+   "figure": {
+    "src": "data/figures/anatomy/i-skin-back.webp",
+    "alt": "The whole skin of the body, seen from behind, in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "integument-parts",
+   "prompt": "What does the integumentary system consist of?",
+   "answers": [
+    "Skin, hair, nails and the skin glands",
+    "The skin and its appendages: hair, nails, glands"
+   ],
+   "wrong": [
+    "Skin, muscles and bones",
+    "Skin, fat and fascia only",
+    "Skin and the lymph nodes"
+   ],
+   "explanation": "Together with the receptors in the skin.",
+   "figure": {
+    "src": "data/figures/anatomy/i-skin-back.webp",
+    "alt": "The whole skin of the body, seen from behind, in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "skin-layers",
+   "prompt": "What are the three layers of the skin and tissue under it, from the surface down?",
+   "answers": [
+    "Epidermis, dermis, hypodermis",
+    "Epidermis, dermis and hypodermis (subcutaneous layer)"
+   ],
+   "wrong": [
+    "Dermis, epidermis, hypodermis",
+    "Hypodermis, dermis, epidermis",
+    "Epidermis, hypodermis, dermis"
+   ],
+   "explanation": "The hypodermis is strictly not part of the skin.",
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "epidermis-tissue",
+   "prompt": "Which kind of tissue is the epidermis?",
+   "answers": [
+    "Stratified squamous epithelium (keratinised)",
+    "Keratinised stratified squamous epithelium"
+   ],
+   "wrong": [
+    "Simple columnar epithelium",
+    "Dense connective tissue",
+    "Smooth muscle"
+   ],
+   "explanation": "It has no blood vessels: it is fed from the dermis.",
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "dermis-tissue",
+   "prompt": "Which kind of tissue is the dermis mostly made of?",
+   "answers": [
+    "Connective tissue",
+    "Dense irregular connective tissue"
+   ],
+   "wrong": [
+    "Epithelium",
+    "Smooth muscle",
+    "Adipose tissue"
+   ],
+   "explanation": "With collagen and elastic fibres, blood vessels, nerves, glands and hair follicles.",
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "hypodermis",
+   "prompt": "Which layer under the dermis stores fat and insulates the body?",
+   "answers": [
+    "Hypodermis",
+    "Subcutaneous layer",
+    "Subcutis"
+   ],
+   "wrong": [
+    "Epidermis",
+    "Stratum basale",
+    "Papillary layer"
+   ],
+   "explanation": "It also anchors the skin. Injections under the skin go here.",
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "epidermis-layers",
+   "prompt": "What are the five layers of the thick epidermis, from the surface down?",
+   "answers": [
+    "Corneum, lucidum, granulosum, spinosum, basale",
+    "Stratum corneum, lucidum, granulosum, spinosum, basale"
+   ],
+   "wrong": [
+    "Basale, spinosum, granulosum, lucidum, corneum",
+    "Corneum, granulosum, lucidum, spinosum, basale",
+    "Corneum, lucidum, spinosum, granulosum, basale"
+   ],
+   "explanation": "The stratum lucidum is found only in the thick skin of the palms and soles.",
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "stratum-basale",
+   "prompt": "In which epidermal layer do the cells divide to renew the skin?",
+   "answers": [
+    "Stratum basale",
+    "The stratum basale (basal layer)",
+    "Basal layer"
+   ],
+   "wrong": [
+    "Stratum corneum",
+    "Stratum granulosum",
+    "Stratum lucidum"
+   ],
+   "explanation": "Also called the stratum germinativum. The cells take about a month to reach the surface.",
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "stratum-corneum",
+   "prompt": "Which layer of the epidermis is the outermost, made of dead flat cells full of keratin?",
+   "answers": [
+    "Stratum corneum",
+    "The stratum corneum"
+   ],
+   "wrong": [
+    "Stratum basale",
+    "Stratum spinosum",
+    "Stratum granulosum"
+   ],
+   "explanation": "It is shed continuously.",
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "keratin",
+   "prompt": "Which tough waterproof protein fills the cells of the outer epidermis, and makes hair and nails?",
+   "answers": [
+    "Keratin"
+   ],
+   "wrong": [
+    "Collagen",
+    "Elastin",
+    "Melanin"
+   ],
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "keratinocyte",
+   "prompt": "Which cells make up most of the epidermis?",
+   "answers": [
+    "Keratinocytes",
+    "Keratinocyte"
+   ],
+   "wrong": [
+    "Melanocytes",
+    "Langerhans cells",
+    "Merkel cells"
+   ],
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "melanocytes",
+   "prompt": "Which cells in the basal layer make melanin?",
+   "answers": [
+    "Melanocytes",
+    "Melanocyte"
+   ],
+   "wrong": [
+    "Keratinocytes",
+    "Langerhans cells",
+    "Fibroblasts"
+   ],
+   "explanation": "The number of melanocytes is about the same in all people. What differs is how much melanin they make.",
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "melanin",
+   "prompt": "Which pigment protects the cell nuclei from ultraviolet light, and gives skin its brown colour?",
+   "answers": [
+    "Melanin"
+   ],
+   "wrong": [
+    "Carotene",
+    "Haemoglobin",
+    "Keratin"
+   ],
+   "explanation": "Exposure to sunlight makes the skin make more: a tan.",
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "langerhans",
+   "prompt": "Which cells of the epidermis are macrophages that take up germs and start the immune response?",
+   "answers": [
+    "Langerhans cells",
+    "Dendritic cells",
+    "Langerhans (dendritic) cells"
+   ],
+   "wrong": [
+    "Merkel cells",
+    "Melanocytes",
+    "Mast cells"
+   ],
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "merkel",
+   "prompt": "Which cells in the basal layer, linked to nerve endings, help us to feel light touch?",
+   "answers": [
+    "Merkel cells",
+    "Merkel (tactile) cells"
+   ],
+   "wrong": [
+    "Langerhans cells",
+    "Melanocytes",
+    "Keratinocytes"
+   ],
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "dermis-layers",
+   "prompt": "What are the two layers of the dermis?",
+   "answers": [
+    "Papillary layer and reticular layer",
+    "Papillary and reticular"
+   ],
+   "wrong": [
+    "Basale and spinosum",
+    "Cortex and medulla",
+    "Lucidum and corneum"
+   ],
+   "explanation": "The papillary layer has fingerlike dermal papillae that push into the epidermis. They make the fingerprints.",
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "fingerprints",
+   "prompt": "What causes the pattern of fingerprints?",
+   "answers": [
+    "The ridges of the dermal papillae under the epidermis",
+    "Dermal papillae"
+   ],
+   "wrong": [
+    "The sweat glands",
+    "The hair follicles",
+    "The nails"
+   ],
+   "explanation": "They improve the grip and are unique to each person, even identical twins.",
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "collagen",
+   "prompt": "Which protein in the dermis gives the skin its strength?",
+   "answers": [
+    "Collagen"
+   ],
+   "wrong": [
+    "Keratin",
+    "Melanin",
+    "Elastin"
+   ],
+   "explanation": "Elastin gives it its stretch. Both are lost with age, which causes wrinkles.",
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "receptors",
+   "prompt": "Which receptors in the skin sense deep pressure and vibration?",
+   "answers": [
+    "Lamellar (Pacinian) corpuscles",
+    "Pacinian corpuscles",
+    "Lamellar corpuscles"
+   ],
+   "wrong": [
+    "Meissner's corpuscles",
+    "Free nerve endings",
+    "Merkel discs"
+   ],
+   "explanation": "They look like onions. Meissner's corpuscles sense light touch.",
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "meissner",
+   "prompt": "Which receptors in the dermal papillae of the fingertips sense light touch?",
+   "answers": [
+    "Tactile (Meissner's) corpuscles",
+    "Meissner's corpuscles",
+    "Tactile corpuscles"
+   ],
+   "wrong": [
+    "Pacinian corpuscles",
+    "Ruffini endings",
+    "Free nerve endings"
+   ],
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "free-endings",
+   "prompt": "Which skin receptors detect pain and temperature?",
+   "answers": [
+    "Free nerve endings",
+    "Naked nerve endings"
+   ],
+   "wrong": [
+    "Pacinian corpuscles",
+    "Meissner's corpuscles",
+    "Merkel cells"
+   ],
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "thick-skin",
+   "prompt": "Where is the skin thickest?",
+   "answers": [
+    "On the palms and soles",
+    "Palms and soles"
+   ],
+   "wrong": [
+    "On the eyelids",
+    "On the face",
+    "On the abdomen"
+   ],
+   "explanation": "About 1.5 mm of epidermis there, against 0.1 mm on the eyelids. It has no hair.",
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "thin-skin",
+   "prompt": "Where is the skin thinnest?",
+   "answers": [
+    "On the eyelids",
+    "The eyelids"
+   ],
+   "wrong": [
+    "On the palms",
+    "On the back",
+    "On the soles"
+   ],
+   "tags": [
+    "Skin structure"
+   ]
+  },
+  {
+   "id": "id-hair",
+   "prompt": "Which structure is highlighted in red?",
+   "answers": [
+    "Hair",
+    "Scalp hair",
+    "Head hair"
+   ],
+   "wrong": [
+    "Skin",
+    "Eyebrows",
+    "Skull"
+   ],
+   "explanation": "Hair is dead keratin. It grows from follicles in the dermis.",
+   "figure": {
+    "src": "data/figures/anatomy/i-hair.webp",
+    "alt": "The hair of the scalp, in red, over the skull seen from the side",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Hair, nails and glands"
+   ]
+  },
+  {
+   "id": "id-eyebrows",
+   "prompt": "Which structures are highlighted in red?",
+   "answers": [
+    "Eyebrows",
+    "Eyebrow"
+   ],
+   "wrong": [
+    "Eyelashes",
+    "Scalp hair",
+    "Eyelids"
+   ],
+   "explanation": "They keep sweat and rain out of the eyes, and are used to show expression.",
+   "figure": {
+    "src": "data/figures/anatomy/i-eyebrows.webp",
+    "alt": "The eyebrows, in red, on the head seen from the front",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Hair, nails and glands"
+   ]
+  },
+  {
+   "id": "hair-parts",
+   "prompt": "What are the two main parts of a hair?",
+   "answers": [
+    "The shaft above the skin and the root in the follicle",
+    "Shaft and root"
+   ],
+   "wrong": [
+    "Cortex and medulla only",
+    "Papilla and bulb only",
+    "Head and tail"
+   ],
+   "explanation": "The root ends in the bulb.",
+   "tags": [
+    "Hair, nails and glands"
+   ]
+  },
+  {
+   "id": "follicle-hair",
+   "prompt": "Which cells at the base of the hair follicle are alive and divide, making the hair grow?",
+   "answers": [
+    "The hair matrix",
+    "Matrix cells in the hair bulb"
+   ],
+   "wrong": [
+    "The arrector pili",
+    "The sebaceous glands",
+    "The dermal papilla's nerve"
+   ],
+   "explanation": "The dermal papilla below it feeds the bulb.",
+   "tags": [
+    "Hair, nails and glands"
+   ]
+  },
+  {
+   "id": "hair-colour",
+   "prompt": "What gives hair its colour?",
+   "answers": [
+    "Melanin",
+    "Melanin made by melanocytes in the bulb"
+   ],
+   "wrong": [
+    "Keratin",
+    "Carotene",
+    "Sebum"
+   ],
+   "explanation": "Grey hair has lost the melanin.",
+   "tags": [
+    "Hair, nails and glands"
+   ]
+  },
+  {
+   "id": "arrector",
+   "prompt": "Which small muscle attached to a hair follicle makes the hair stand up, causing goose bumps?",
+   "answers": [
+    "Arrector pili",
+    "Arrector pili muscle"
+   ],
+   "wrong": [
+    "Platysma",
+    "Orbicularis oculi",
+    "Dartos"
+   ],
+   "explanation": "Under sympathetic control. It also squeezes sebum out of the gland.",
+   "tags": [
+    "Hair, nails and glands"
+   ]
+  },
+  {
+   "id": "hair-cycle",
+   "prompt": "What are the three phases of the hair growth cycle?",
+   "answers": [
+    "Growth (anagen), regression (catagen), rest (telogen)",
+    "Anagen, catagen and telogen"
+   ],
+   "wrong": [
+    "Telogen, anagen, catagen",
+    "Catagen, telogen, anagen",
+    "Growth, loss and replacement, in random order"
+   ],
+   "explanation": "Scalp hairs grow for 2 to 6 years, then rest for about 3 months, and are shed.",
+   "tags": [
+    "Hair, nails and glands"
+   ]
+  },
+  {
+   "id": "hair-rate",
+   "prompt": "About how fast does scalp hair grow?",
+   "answers": [
+    "About 1 cm a month",
+    "1 cm a month",
+    "About 1 cm per month"
+   ],
+   "wrong": [
+    "About 1 mm a month",
+    "About 10 cm a month",
+    "About 1 cm a year"
+   ],
+   "tags": [
+    "Hair, nails and glands"
+   ]
+  },
+  {
+   "id": "hair-loss",
+   "prompt": "About how many scalp hairs do we shed each day?",
+   "answers": [
+    "About 50 to 100",
+    "50 to 100"
+   ],
+   "wrong": [
+    "About 5",
+    "About 1000",
+    "About 10 000"
+   ],
+   "tags": [
+    "Hair, nails and glands"
+   ]
+  },
+  {
+   "id": "sebaceous",
+   "prompt": "Which glands, usually opening into hair follicles, make an oily secretion called sebum?",
+   "answers": [
+    "Sebaceous glands",
+    "Sebaceous glands (oil glands)"
+   ],
+   "wrong": [
+    "Eccrine sweat glands",
+    "Apocrine glands",
+    "Mammary glands"
+   ],
+   "explanation": "Sebum keeps hair and skin soft and waterproof, and is mildly antibacterial.",
+   "tags": [
+    "Hair, nails and glands"
+   ]
+  },
+  {
+   "id": "acne",
+   "prompt": "What is acne caused by?",
+   "answers": [
+    "Blocked and inflamed sebaceous glands and follicles",
+    "Inflamed sebaceous follicles"
+   ],
+   "wrong": [
+    "Infection of the sweat glands only",
+    "Too little sebum",
+    "Allergy to hair"
+   ],
+   "explanation": "Common in teenagers, when androgens make the glands more active.",
+   "tags": [
+    "Hair, nails and glands"
+   ]
+  },
+  {
+   "id": "eccrine",
+   "prompt": "Which sweat glands are found all over the body, open directly on the surface and make watery sweat to cool us?",
+   "answers": [
+    "Eccrine glands",
+    "Eccrine sweat glands",
+    "Merocrine glands"
+   ],
+   "wrong": [
+    "Apocrine glands",
+    "Sebaceous glands",
+    "Ceruminous glands"
+   ],
+   "explanation": "Densest on the palms, soles and forehead. About 3 million.",
+   "tags": [
+    "Hair, nails and glands"
+   ]
+  },
+  {
+   "id": "apocrine",
+   "prompt": "Which sweat glands, in the armpit and groin, open into hair follicles and become active at puberty?",
+   "answers": [
+    "Apocrine glands",
+    "Apocrine sweat glands"
+   ],
+   "wrong": [
+    "Eccrine glands",
+    "Sebaceous glands",
+    "Merocrine glands"
+   ],
+   "explanation": "Their milky sweat is odourless until bacteria break it down.",
+   "tags": [
+    "Hair, nails and glands"
+   ]
+  },
+  {
+   "id": "ceruminous",
+   "prompt": "Which modified sweat glands in the ear canal make earwax?",
+   "answers": [
+    "Ceruminous glands"
+   ],
+   "wrong": [
+    "Sebaceous glands",
+    "Mammary glands",
+    "Eccrine glands"
+   ],
+   "tags": [
+    "Hair, nails and glands"
+   ]
+  },
+  {
+   "id": "mammary-glands",
+   "prompt": "What kind of glands are the mammary glands?",
+   "answers": [
+    "Modified apocrine sweat glands",
+    "Modified sweat glands"
+   ],
+   "wrong": [
+    "Modified sebaceous glands",
+    "Endocrine glands",
+    "Lymph nodes"
+   ],
+   "tags": [
+    "Hair, nails and glands"
+   ]
+  },
+  {
+   "id": "nail-parts",
+   "prompt": "What is the nail's hard visible part called?",
+   "answers": [
+    "Nail plate",
+    "The nail plate"
+   ],
+   "wrong": [
+    "Nail bed",
+    "Cuticle",
+    "Lunula"
+   ],
+   "explanation": "It is made of hard keratin.",
+   "tags": [
+    "Hair, nails and glands"
+   ]
+  },
+  {
+   "id": "nail-matrix",
+   "prompt": "From where does the nail grow?",
+   "answers": [
+    "From the nail matrix at its root",
+    "The nail matrix"
+   ],
+   "wrong": [
+    "From the nail bed",
+    "From the lunula's tip",
+    "From the cuticle's edge"
+   ],
+   "explanation": "The pale half-moon, the lunula, is the visible part of the matrix.",
+   "tags": [
+    "Hair, nails and glands"
+   ]
+  },
+  {
+   "id": "nail-rate",
+   "prompt": "About how fast do fingernails grow?",
+   "answers": [
+    "About 3 mm a month",
+    "3 mm a month",
+    "About 0.1 mm a day"
+   ],
+   "wrong": [
+    "About 3 cm a month",
+    "About 3 mm a year",
+    "About 3 mm a day"
+   ],
+   "explanation": "Toenails grow about a third as fast. A whole fingernail takes about 6 months to grow out.",
+   "tags": [
+    "Hair, nails and glands"
+   ]
+  },
+  {
+   "id": "cuticle",
+   "prompt": "What is the cuticle (eponychium) of the nail?",
+   "answers": [
+    "A fold of skin over the base of the nail plate",
+    "The skin fold at the base of the nail"
+   ],
+   "wrong": [
+    "The nail's pale half-moon",
+    "The tissue under the nail plate",
+    "The tip of the nail"
+   ],
+   "tags": [
+    "Hair, nails and glands"
+   ]
+  },
+  {
+   "id": "skin-functions",
+   "prompt": "Which of these is NOT a main function of the skin?",
+   "answers": [
+    "Making red blood cells",
+    "Making blood cells"
+   ],
+   "wrong": [
+    "Protecting against germs, water loss and injury",
+    "Regulating body temperature",
+    "Making vitamin D"
+   ],
+   "explanation": "Red blood cells are made in the bone marrow.",
+   "tags": [
+    "Function and disorders"
+   ]
+  },
+  {
+   "id": "thermoregulation",
+   "prompt": "How does the skin cool the body when it is hot?",
+   "answers": [
+    "The blood vessels widen and the sweat glands make sweat",
+    "Vasodilation and sweating"
+   ],
+   "wrong": [
+    "The blood vessels narrow and the hairs stand up",
+    "The arrector pili contracts",
+    "The skin makes more fat"
+   ],
+   "explanation": "Sweat cools us as it evaporates.",
+   "tags": [
+    "Function and disorders"
+   ]
+  },
+  {
+   "id": "cold-skin",
+   "prompt": "How does the skin help the body keep warm when it is cold?",
+   "answers": [
+    "The blood vessels narrow and the hairs stand up",
+    "Vasoconstriction and goose bumps"
+   ],
+   "wrong": [
+    "The blood vessels widen and sweat is made",
+    "It makes more melanin",
+    "The sebaceous glands stop working"
+   ],
+   "explanation": "Shivering of the muscles adds heat.",
+   "tags": [
+    "Function and disorders"
+   ]
+  },
+  {
+   "id": "vitamin-d-skin",
+   "prompt": "Which vitamin does the skin make when it is exposed to sunlight?",
+   "answers": [
+    "Vitamin D"
+   ],
+   "wrong": [
+    "Vitamin A",
+    "Vitamin C",
+    "Vitamin K"
+   ],
+   "explanation": "UVB turns a cholesterol derivative into vitamin D3, which the liver and kidney activate.",
+   "tags": [
+    "Function and disorders"
+   ]
+  },
+  {
+   "id": "acid-mantle",
+   "prompt": "Why is the surface of the skin slightly acid, with a pH of about 5?",
+   "answers": [
+    "It slows the growth of bacteria",
+    "To discourage germs"
+   ],
+   "wrong": [
+    "To dissolve dead cells",
+    "To help melanin work",
+    "To make sweat evaporate"
+   ],
+   "explanation": "Sweat and sebum form the 'acid mantle'.",
+   "tags": [
+    "Function and disorders"
+   ]
+  },
+  {
+   "id": "burn-degrees",
+   "prompt": "Which degree of burn damages the epidermis and the upper dermis, with blisters, and is painful?",
+   "answers": [
+    "Second-degree (partial thickness)",
+    "Second degree",
+    "Partial thickness"
+   ],
+   "wrong": [
+    "First-degree",
+    "Third-degree",
+    "Fourth-degree"
+   ],
+   "explanation": "In a first-degree burn only the epidermis is hurt (red, as in sunburn). A third-degree burn goes through the dermis and is often painless, as the nerve endings are destroyed.",
+   "tags": [
+    "Function and disorders"
+   ]
+  },
+  {
+   "id": "third-degree",
+   "prompt": "Why is a full-thickness (third-degree) burn often painless?",
+   "answers": [
+    "The nerve endings in the dermis are destroyed",
+    "The nerves are destroyed"
+   ],
+   "wrong": [
+    "Only the epidermis is harmed",
+    "The pain receptors are in the hypodermis",
+    "The brain blocks the signal"
+   ],
+   "tags": [
+    "Function and disorders"
+   ]
+  },
+  {
+   "id": "rule-nines",
+   "prompt": "What is the 'rule of nines' used for?",
+   "answers": [
+    "To estimate the share of the body surface burned",
+    "Estimating the area of a burn"
+   ],
+   "wrong": [
+    "To count the hair follicles",
+    "To grade a mole",
+    "To measure skin thickness"
+   ],
+   "explanation": "An adult's head is about 9%, each arm 9%, the front of the trunk 18%, the back 18% and each leg 18%.",
+   "tags": [
+    "Function and disorders"
+   ]
+  },
+  {
+   "id": "melanoma",
+   "prompt": "Which skin cancer comes from melanocytes and is the most dangerous?",
+   "answers": [
+    "Melanoma",
+    "Malignant melanoma"
+   ],
+   "wrong": [
+    "Basal cell carcinoma",
+    "Squamous cell carcinoma",
+    "Kaposi's sarcoma"
+   ],
+   "explanation": "It spreads early. The ABCDE signs: asymmetry, border, colour, diameter and evolving.",
+   "tags": [
+    "Function and disorders"
+   ]
+  },
+  {
+   "id": "bcc",
+   "prompt": "Which skin cancer is the most common, rarely spreads, and comes from the basal cells?",
+   "answers": [
+    "Basal cell carcinoma",
+    "Basal cell cancer"
+   ],
+   "wrong": [
+    "Melanoma",
+    "Squamous cell carcinoma",
+    "Lymphoma"
+   ],
+   "explanation": "Often appears as a pearly lump with a rolled edge on sun-exposed skin.",
+   "tags": [
+    "Function and disorders"
+   ]
+  },
+  {
+   "id": "psoriasis",
+   "prompt": "Which chronic condition causes red, scaly plaques as the epidermal cells are made too fast?",
+   "answers": [
+    "Psoriasis"
+   ],
+   "wrong": [
+    "Eczema",
+    "Acne",
+    "Impetigo"
+   ],
+   "explanation": "An autoimmune disease.",
+   "tags": [
+    "Function and disorders"
+   ]
+  },
+  {
+   "id": "eczema",
+   "prompt": "What is the term for an itchy inflamed skin often linked to allergy and asthma?",
+   "answers": [
+    "Eczema",
+    "Atopic dermatitis"
+   ],
+   "wrong": [
+    "Psoriasis",
+    "Acne",
+    "Shingles"
+   ],
+   "tags": [
+    "Function and disorders"
+   ]
+  },
+  {
+   "id": "wound-healing",
+   "prompt": "What is the usual order of events in healing a skin wound?",
+   "answers": [
+    "Bleeding and clotting, inflammation, new tissue grows, scar remodelling",
+    "Haemostasis, inflammation, proliferation, remodelling"
+   ],
+   "wrong": [
+    "Scar, clot, inflammation, growth",
+    "Inflammation, scar, bleeding, growth",
+    "Growth, clotting, scar, inflammation"
+   ],
+   "tags": [
+    "Function and disorders"
+   ]
+  },
+  {
+   "id": "scar",
+   "prompt": "What is a scar mostly made of?",
+   "answers": [
+    "Collagen laid down by fibroblasts",
+    "Collagen"
+   ],
+   "wrong": [
+    "Keratin",
+    "New epidermis",
+    "Elastin"
+   ],
+   "explanation": "It has no hair follicles or glands.",
+   "tags": [
+    "Function and disorders"
+   ]
+  },
+  {
+   "id": "pressure-sore",
+   "prompt": "What causes a pressure ulcer (bedsore)?",
+   "answers": [
+    "Long pressure cutting off the blood supply to the skin",
+    "Pressure that blocks blood flow to the skin"
+   ],
+   "wrong": [
+    "Infection by fungi",
+    "An allergy",
+    "Too much sun"
+   ],
+   "explanation": "Typically over bony areas such as the sacrum and heels.",
+   "tags": [
+    "Function and disorders"
+   ]
+  },
+  {
+   "id": "sunburn-uv",
+   "prompt": "Which part of sunlight does most of the damage that causes sunburn and skin cancer?",
+   "answers": [
+    "Ultraviolet (UV) light",
+    "Ultraviolet"
+   ],
+   "wrong": [
+    "Infrared light",
+    "Visible light",
+    "Radio waves"
+   ],
+   "explanation": "UVB burns the skin; UVA penetrates deeper and ages it.",
+   "tags": [
+    "Function and disorders"
+   ]
+  },
+  {
+   "id": "jaundice",
+   "prompt": "What is the term for a yellow colour of the skin, from too much bilirubin?",
+   "answers": [
+    "Jaundice"
+   ],
+   "wrong": [
+    "Cyanosis",
+    "Pallor",
+    "Erythema"
+   ],
+   "tags": [
+    "Function and disorders"
+   ]
+  },
+  {
+   "id": "cyanosis",
+   "prompt": "What is a blue colour of the skin from a lack of oxygen in the blood called?",
+   "answers": [
+    "Cyanosis"
+   ],
+   "wrong": [
+    "Jaundice",
+    "Erythema",
+    "Pallor"
+   ],
+   "tags": [
+    "Function and disorders"
+   ]
+  },
+  {
+   "id": "erythema",
+   "prompt": "What is redness of the skin, from widened blood vessels, called?",
+   "answers": [
+    "Erythema"
+   ],
+   "wrong": [
+    "Cyanosis",
+    "Jaundice",
+    "Pallor"
+   ],
+   "tags": [
+    "Function and disorders"
+   ]
+  },
+  {
+   "id": "albinism",
+   "prompt": "What is albinism?",
+   "answers": [
+    "A lack of melanin, from a gene fault",
+    "An inherited lack of melanin production"
+   ],
+   "wrong": [
+    "A lack of keratin",
+    "Too many melanocytes",
+    "An infection of the skin"
+   ],
+   "explanation": "Melanocytes are present, but cannot make melanin.",
+   "tags": [
+    "Function and disorders"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Name the part",
+   "count": 3,
+   "pass": 80,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Name the part"
+   ],
+   "why": "Pictures of the skin, hair and eyebrows, each with one part in red to name."
+  },
+  {
+   "name": "Chapter quiz",
+   "count": 30,
+   "pass": 75,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "end",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Thirty questions from the whole chapter, marked at the end, like an end-of-unit test."
+  },
+  {
+   "name": "Recall without choices",
+   "count": 20,
+   "pass": 75,
+   "pick": "due",
+   "answer": "typed",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Type each answer from memory, starting with the ones due for review. Small typos are forgiven."
+  }
+ ]
+}
