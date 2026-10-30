@@ -1,0 +1,1150 @@
+{
+ "id": "anatomy-lymphatic",
+ "name": "Lymphatic and immune system",
+ "module": "Human anatomy",
+ "description": "Lymph, lymphatic vessels and nodes, the spleen, thymus, tonsils and other lymphoid tissue, and how the innate and adaptive immune system defends the body: white cells, antibodies, vaccines, allergy and autoimmunity. Pictures show the spleen, thymus and appendix to name; BodyParts3D has no model of the lymph nodes or vessels, so the rest is text questions.",
+ "source": {
+  "name": "Written for Study Buddy. Pictures rendered from BodyParts3D (© The Database Center for Life Science, CC BY-SA 2.1 JP).",
+  "url": "https://github.com/petravanta/study-buddy/tree/main/scripts/bodyparts3d"
+ },
+ "updated": "2026-10-30",
+ "questions": [
+  {
+   "id": "lymph-parts",
+   "prompt": "What are the main parts of the lymphatic system?",
+   "answers": [
+    "Lymph, lymphatic vessels, lymph nodes and lymphoid organs",
+    "Lymphatic vessels, lymph nodes, spleen, thymus and tonsils"
+   ],
+   "wrong": [
+    "Arteries, veins and capillaries",
+    "Bone marrow, blood and the liver only",
+    "The heart, lymph and lungs"
+   ],
+   "explanation": "Together they drain tissue fluid, absorb fats and defend the body.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "lymph-def",
+   "prompt": "What is lymph?",
+   "answers": [
+    "Tissue fluid that has entered lymphatic vessels",
+    "Clear fluid, much like plasma, carried in lymphatic vessels"
+   ],
+   "wrong": [
+    "Blood without red cells, carried in the arteries",
+    "A fluid made by the lymph nodes",
+    "Cerebrospinal fluid"
+   ],
+   "explanation": "About 3 litres a day return to the blood this way.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "lymph-functions",
+   "prompt": "Which of these is NOT a function of the lymphatic system?",
+   "answers": [
+    "Carrying oxygen to the tissues",
+    "Transporting oxygen"
+   ],
+   "wrong": [
+    "Returning tissue fluid to the blood",
+    "Absorbing fats from the gut",
+    "Defending against infection"
+   ],
+   "explanation": "Red blood cells carry oxygen.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "lymph-capillaries",
+   "prompt": "How do lymphatic capillaries differ from blood capillaries?",
+   "answers": [
+    "They are blind-ended and very leaky, so fluid and large particles can get in",
+    "They start as closed-ended tubes with loosely overlapping cells"
+   ],
+   "wrong": [
+    "They carry blood to the veins",
+    "They have thick muscular walls",
+    "They are joined to the arteries"
+   ],
+   "explanation": "Flaps between the cells work as one-way valves.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "lymph-flow",
+   "prompt": "What makes lymph flow towards the heart?",
+   "answers": [
+    "Movement of the skeletal muscles and breathing, with valves in the vessels",
+    "Skeletal muscle pump, breathing and one-way valves"
+   ],
+   "wrong": [
+    "The pumping of the heart",
+    "A pump in the lymph nodes",
+    "Gravity only"
+   ],
+   "explanation": "There is no heart for the lymph.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "lacteals",
+   "prompt": "What are the lymphatic capillaries in the villi of the small intestine, which absorb fats, called?",
+   "answers": [
+    "Lacteals",
+    "Lacteal"
+   ],
+   "wrong": [
+    "Alveoli",
+    "Sinusoids",
+    "Glomeruli"
+   ],
+   "explanation": "The lymph is milky from the fats, and is called chyle.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "chyle",
+   "prompt": "What is the milky lymph from the intestine, full of absorbed fat, called?",
+   "answers": [
+    "Chyle"
+   ],
+   "wrong": [
+    "Chyme",
+    "Bile",
+    "Plasma"
+   ],
+   "explanation": "Not to be confused with chyme, the semi-digested food in the stomach.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "thoracic-duct",
+   "prompt": "Which large lymph duct drains the left side of the head, neck and chest and everything below the diaphragm?",
+   "answers": [
+    "The thoracic duct",
+    "Thoracic duct"
+   ],
+   "wrong": [
+    "The right lymphatic duct",
+    "The cisterna chyli",
+    "The azygos vein"
+   ],
+   "explanation": "It empties into the left subclavian vein, where it meets the left internal jugular vein.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "right-duct",
+   "prompt": "Which part of the body does the right lymphatic duct drain?",
+   "answers": [
+    "The right side of the head, neck and chest, and the right arm",
+    "The upper right quarter of the body"
+   ],
+   "wrong": [
+    "The whole body below the diaphragm",
+    "The left arm",
+    "Only the head"
+   ],
+   "explanation": "It empties into the right subclavian vein.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "cisterna",
+   "prompt": "What is the sac at the lower end of the thoracic duct, in the abdomen, called?",
+   "answers": [
+    "Cisterna chyli"
+   ],
+   "wrong": [
+    "Cisterna magna",
+    "Foramen magnum",
+    "Chyle duct"
+   ],
+   "explanation": "It gathers lymph from the legs and the intestines.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "node-where",
+   "prompt": "Where are lymph nodes found in clusters that you can feel when they swell?",
+   "answers": [
+    "Neck, armpit and groin",
+    "The neck, axilla and groin"
+   ],
+   "wrong": [
+    "Palms and soles",
+    "Scalp and shins",
+    "Back and knees"
+   ],
+   "explanation": "Others are deep, such as in the chest and abdomen.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "node-shape",
+   "prompt": "What shape and size is a typical lymph node?",
+   "answers": [
+    "Bean-shaped, 1 to 25 mm",
+    "Small and bean-shaped"
+   ],
+   "wrong": [
+    "Round and 10 cm across",
+    "Long and thread-like",
+    "Flat and sheet-like"
+   ],
+   "explanation": "The lymph enters through several afferent vessels, and leaves through one efferent vessel at the hilum.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "afferent",
+   "prompt": "Which lymph vessels carry lymph into a node, and which carry it out?",
+   "answers": [
+    "Afferent in, efferent out",
+    "Afferent vessels bring it in; efferent vessels take it away"
+   ],
+   "wrong": [
+    "Efferent in, afferent out",
+    "Both carry it in",
+    "Lymph enters through the hilum only"
+   ],
+   "explanation": "There are more afferent than efferent vessels, which slows the flow through the node.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "node-job",
+   "prompt": "What do lymph nodes do?",
+   "answers": [
+    "They filter lymph and are where the immune response is started",
+    "Filter lymph and house lymphocytes and macrophages"
+   ],
+   "wrong": [
+    "They pump lymph to the heart",
+    "They make red blood cells in adults",
+    "They store blood"
+   ],
+   "explanation": "Macrophages remove germs, and B and T cells are activated.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "node-swelling",
+   "prompt": "Why do lymph nodes swell during an infection?",
+   "answers": [
+    "The lymphocytes in them multiply",
+    "Lymphocytes divide to fight the germs"
+   ],
+   "wrong": [
+    "The vessels are blocked by fat",
+    "They fill with blood",
+    "The germs are made there"
+   ],
+   "explanation": "They are usually tender. A hard, painless node needs checking for cancer.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "lymphoedema",
+   "prompt": "What is the swelling of a limb caused by blocked or removed lymph vessels, for example after removal of nodes, called?",
+   "answers": [
+    "Lymphoedema",
+    "Lymphedema"
+   ],
+   "wrong": [
+    "Oedema from heart failure",
+    "Elephantiasis only",
+    "Lipoedema"
+   ],
+   "explanation": "The fluid cannot drain.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "metastasis",
+   "prompt": "Why do doctors check the lymph nodes near a cancer?",
+   "answers": [
+    "Cancer cells often spread through the lymph to the nodes",
+    "To see if cancer has spread through the lymph"
+   ],
+   "wrong": [
+    "Nodes make cancer cells",
+    "Nodes cause cancer",
+    "Nodes hold a lot of blood"
+   ],
+   "explanation": "The first node reached is called the sentinel node.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "id-spleen",
+   "prompt": "Which organ is highlighted in red?",
+   "answers": [
+    "Spleen",
+    "The spleen"
+   ],
+   "wrong": [
+    "Liver",
+    "Stomach",
+    "Left kidney"
+   ],
+   "explanation": "The largest lymphoid organ, under the diaphragm at the left of the stomach, protected by the lower ribs.",
+   "figure": {
+    "src": "data/figures/anatomy/d-spleen.webp",
+    "alt": "The spleen, in red, on the left of the upper abdomen",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "spleen-job",
+   "prompt": "What are the main jobs of the spleen?",
+   "answers": [
+    "It filters old red cells from the blood and holds lymphocytes to fight infection",
+    "Filtering blood, removing old red cells, immune response"
+   ],
+   "wrong": [
+    "Making bile",
+    "Filtering lymph",
+    "Making insulin"
+   ],
+   "explanation": "The red pulp filters, the white pulp is lymphoid tissue.",
+   "figure": {
+    "src": "data/figures/anatomy/d-spleen.webp",
+    "alt": "The spleen, in red, on the left of the upper abdomen",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "spleen-lymph",
+   "prompt": "Does the spleen filter lymph or blood?",
+   "answers": [
+    "Blood",
+    "It filters blood"
+   ],
+   "wrong": [
+    "Lymph",
+    "Both equally",
+    "Neither"
+   ],
+   "explanation": "Unlike the lymph nodes, it has no afferent lymph vessels.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "splenectomy",
+   "prompt": "Why are people without a spleen given vaccines against encapsulated bacteria?",
+   "answers": [
+    "They are more likely to get severe infections with them",
+    "Without the spleen, they are at risk of overwhelming infections"
+   ],
+   "wrong": [
+    "They make too many antibodies",
+    "They cannot make red cells",
+    "They have no white cells"
+   ],
+   "explanation": "Such as pneumococcus.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "id-thymus-l",
+   "prompt": "Which gland is highlighted in red?",
+   "answers": [
+    "Thymus",
+    "The thymus"
+   ],
+   "wrong": [
+    "Thyroid gland",
+    "Heart",
+    "Spleen"
+   ],
+   "explanation": "Where T cells mature. It is biggest in childhood and shrinks after puberty.",
+   "figure": {
+    "src": "data/figures/anatomy/e-thymus.webp",
+    "alt": "The thymus behind the sternum, in red, with the rib cage drawn see-through",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "tonsils",
+   "prompt": "Which lymphoid tissue, a ring around the throat, guards the entrance to the airways and gut?",
+   "answers": [
+    "The tonsils",
+    "Tonsils",
+    "The tonsils and adenoids"
+   ],
+   "wrong": [
+    "The thymus",
+    "The spleen",
+    "The appendix"
+   ],
+   "explanation": "The palatine tonsils are the ones seen at the back of the mouth. The adenoids are the pharyngeal tonsil.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "adenoids",
+   "prompt": "Which tonsil sits at the back of the nose?",
+   "answers": [
+    "The adenoids",
+    "Pharyngeal tonsil",
+    "Adenoids"
+   ],
+   "wrong": [
+    "Palatine tonsils",
+    "Lingual tonsil",
+    "Tonsils of the tongue"
+   ],
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "peyers",
+   "prompt": "What are the clusters of lymphoid tissue in the wall of the ileum called?",
+   "answers": [
+    "Peyer's patches",
+    "Peyer patches"
+   ],
+   "wrong": [
+    "Haustra",
+    "Villi",
+    "Payer's glands"
+   ],
+   "explanation": "They sample what is in the gut.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "id-appendix",
+   "prompt": "Which structure is highlighted in red?",
+   "answers": [
+    "Appendix",
+    "The appendix",
+    "Vermiform appendix"
+   ],
+   "wrong": [
+    "Caecum",
+    "Ileum",
+    "Gallbladder"
+   ],
+   "explanation": "A small blind tube off the caecum, rich in lymphoid tissue.",
+   "figure": {
+    "src": "data/figures/anatomy/d-appendix.webp",
+    "alt": "The appendix, in red, at the start of the large intestine",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "malt",
+   "prompt": "What is the name for the scattered lymphoid tissue in the gut, airways and other mucosa?",
+   "answers": [
+    "MALT (mucosa-associated lymphoid tissue)",
+    "MALT",
+    "Mucosa-associated lymphoid tissue"
+   ],
+   "wrong": [
+    "BALT only",
+    "GALT only",
+    "TALT"
+   ],
+   "explanation": "It is where most of the body's lymphocytes are.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "red-marrow",
+   "prompt": "Where are all the blood cells, including lymphocytes, made?",
+   "answers": [
+    "In the red bone marrow",
+    "Red bone marrow"
+   ],
+   "wrong": [
+    "In the lymph nodes",
+    "In the spleen only",
+    "In the thymus"
+   ],
+   "explanation": "The B cells mature there. The T cells mature in the thymus.",
+   "tags": [
+    "Lymphatic system"
+   ]
+  },
+  {
+   "id": "innate-adaptive",
+   "prompt": "What is the difference between innate and adaptive immunity?",
+   "answers": [
+    "Innate responds the same way to every germ at once; adaptive is specific and remembers",
+    "Innate is quick and general; adaptive is slow, specific and has memory"
+   ],
+   "wrong": [
+    "Innate is specific and has memory; adaptive is general",
+    "Innate needs vaccination",
+    "They are the same"
+   ],
+   "explanation": "The skin and phagocytes are innate. B and T cells are adaptive.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "first-line",
+   "prompt": "Which of these is part of the body's first line of defence?",
+   "answers": [
+    "Skin and mucous membranes",
+    "Intact skin"
+   ],
+   "wrong": [
+    "Antibodies",
+    "Memory T cells",
+    "Vaccination"
+   ],
+   "explanation": "Also acid in the stomach, tears with lysozyme, and cilia in the airways.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "wbc",
+   "prompt": "Which type of white blood cell is the most common?",
+   "answers": [
+    "Neutrophil",
+    "Neutrophils"
+   ],
+   "wrong": [
+    "Lymphocyte",
+    "Eosinophil",
+    "Monocyte"
+   ],
+   "explanation": "40 to 70% of white cells. They are the first to arrive at an infection.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "phagocytosis",
+   "prompt": "What is the process of cells engulfing and digesting germs called?",
+   "answers": [
+    "Phagocytosis"
+   ],
+   "wrong": [
+    "Pinocytosis",
+    "Apoptosis",
+    "Mitosis"
+   ],
+   "explanation": "Done by neutrophils and macrophages.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "macrophage",
+   "prompt": "Which cell, formed from a monocyte in the tissues, engulfs germs and shows pieces of them to T cells?",
+   "answers": [
+    "Macrophage"
+   ],
+   "wrong": [
+    "Neutrophil",
+    "Mast cell",
+    "Plasma cell"
+   ],
+   "explanation": "That makes it an antigen-presenting cell.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "nk",
+   "prompt": "Which lymphocytes attack virus-infected cells and tumour cells without first being sensitised?",
+   "answers": [
+    "Natural killer (NK) cells",
+    "NK cells",
+    "Natural killer cells"
+   ],
+   "wrong": [
+    "B cells",
+    "Helper T cells",
+    "Plasma cells"
+   ],
+   "explanation": "They are part of the innate defence.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "eosinophil",
+   "prompt": "Which white cells fight parasites such as worms and are raised in allergy?",
+   "answers": [
+    "Eosinophils",
+    "Eosinophil"
+   ],
+   "wrong": [
+    "Neutrophils",
+    "Basophils",
+    "Monocytes"
+   ],
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "inflammation",
+   "prompt": "Which four signs mark acute inflammation?",
+   "answers": [
+    "Redness, heat, swelling and pain",
+    "Redness, heat, swelling, pain"
+   ],
+   "wrong": [
+    "Pallor, cold, shrinking and numbness",
+    "Fever, rash, cough and thirst",
+    "Redness, cold, swelling and itch"
+   ],
+   "explanation": "Loss of function is sometimes added as a fifth.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "histamine",
+   "prompt": "Which chemical, released by mast cells, widens the blood vessels and makes them leaky in inflammation and allergy?",
+   "answers": [
+    "Histamine"
+   ],
+   "wrong": [
+    "Heparin",
+    "Interferon",
+    "Complement"
+   ],
+   "explanation": "Antihistamines block it.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "fever",
+   "prompt": "How does a fever help fight infection?",
+   "answers": [
+    "It slows many germs and speeds up the immune response",
+    "It makes the body less good for germs"
+   ],
+   "wrong": [
+    "It kills all germs",
+    "It makes the antibodies",
+    "It is just a side-effect"
+   ],
+   "explanation": "It is set by the hypothalamus in response to pyrogens.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "interferon",
+   "prompt": "Which proteins, released by virus-infected cells, warn their neighbours to resist the virus?",
+   "answers": [
+    "Interferons",
+    "Interferon"
+   ],
+   "wrong": [
+    "Antibodies",
+    "Histamines",
+    "Complement"
+   ],
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "complement",
+   "prompt": "What is the name for the group of blood proteins that punch holes in germs and mark them for phagocytes?",
+   "answers": [
+    "Complement"
+   ],
+   "wrong": [
+    "Interferon",
+    "Immunoglobulin",
+    "Cytokine"
+   ],
+   "explanation": "Over 30 proteins.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "antigen",
+   "prompt": "What is an antigen?",
+   "answers": [
+    "A molecule that triggers an immune response",
+    "A substance the immune system recognises as foreign"
+   ],
+   "wrong": [
+    "A protein that fights germs",
+    "A white blood cell",
+    "A kind of vaccine"
+   ],
+   "explanation": "Often a protein or sugar on a germ's surface.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "b-cell",
+   "prompt": "Which lymphocytes make antibodies?",
+   "answers": [
+    "B cells, as plasma cells",
+    "B lymphocytes",
+    "Plasma cells"
+   ],
+   "wrong": [
+    "T cells",
+    "Macrophages",
+    "Neutrophils"
+   ],
+   "explanation": "A B cell that meets its antigen turns into antibody-producing plasma cells and memory cells.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "t-cell",
+   "prompt": "Which lymphocytes mature in the thymus?",
+   "answers": [
+    "T cells",
+    "T lymphocytes"
+   ],
+   "wrong": [
+    "B cells",
+    "NK cells",
+    "Neutrophils"
+   ],
+   "explanation": "The T stands for thymus.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "helper-t",
+   "prompt": "Which T cells, carrying CD4, help the other immune cells by releasing cytokines? They are the cells HIV destroys.",
+   "answers": [
+    "Helper T cells",
+    "CD4 T cells",
+    "Helper T cells (CD4)"
+   ],
+   "wrong": [
+    "Cytotoxic T cells",
+    "B cells",
+    "NK cells"
+   ],
+   "explanation": "HIV infects them, so the immune system collapses in AIDS.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "cytotoxic-t",
+   "prompt": "Which T cells, carrying CD8, kill infected and cancer cells?",
+   "answers": [
+    "Cytotoxic T cells",
+    "CD8 T cells",
+    "Killer T cells"
+   ],
+   "wrong": [
+    "Helper T cells",
+    "B cells",
+    "Plasma cells"
+   ],
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "antibody-shape",
+   "prompt": "What shape is an antibody (immunoglobulin) molecule?",
+   "answers": [
+    "Y-shaped",
+    "A Y"
+   ],
+   "wrong": [
+    "Ring-shaped",
+    "A long thread",
+    "A sphere"
+   ],
+   "explanation": "It has two identical antigen-binding sites at the tips.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "antibody-classes",
+   "prompt": "Which antibody class is the most common in the blood and the only one to cross the placenta?",
+   "answers": [
+    "IgG"
+   ],
+   "wrong": [
+    "IgA",
+    "IgM",
+    "IgE"
+   ],
+   "explanation": "It protects the newborn for the first months.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "iga",
+   "prompt": "Which antibody class is found in tears, saliva, milk and mucus?",
+   "answers": [
+    "IgA"
+   ],
+   "wrong": [
+    "IgG",
+    "IgM",
+    "IgE"
+   ],
+   "explanation": "Passed in breast milk, it protects the baby's gut.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "igm",
+   "prompt": "Which antibody class is made first in a new infection?",
+   "answers": [
+    "IgM"
+   ],
+   "wrong": [
+    "IgG",
+    "IgA",
+    "IgE"
+   ],
+   "explanation": "A big pentamer.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "ige",
+   "prompt": "Which antibody class is behind allergies and defence against parasites?",
+   "answers": [
+    "IgE"
+   ],
+   "wrong": [
+    "IgG",
+    "IgA",
+    "IgM"
+   ],
+   "explanation": "It sits on mast cells and makes them release histamine.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "primary-secondary",
+   "prompt": "Why is the second response to the same germ faster and stronger than the first?",
+   "answers": [
+    "Memory cells from the first exposure",
+    "Because memory B and T cells were made"
+   ],
+   "wrong": [
+    "The body has more white cells",
+    "The antibodies from before are still there in full",
+    "The germ is weaker"
+   ],
+   "explanation": "This is the basis of vaccination.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "active-passive",
+   "prompt": "What is the difference between active and passive immunity?",
+   "answers": [
+    "In active immunity the body makes its own antibodies; in passive immunity it is given them",
+    "Active means you make your own; passive means they are given to you"
+   ],
+   "wrong": [
+    "Active is short-lived; passive is lifelong",
+    "Passive immunity gives memory cells",
+    "There is no difference"
+   ],
+   "explanation": "Passive: antibodies across the placenta, in milk or by injection. They last only weeks to months.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "vaccine",
+   "prompt": "How does a vaccine give protection?",
+   "answers": [
+    "It shows the immune system an antigen so that it makes memory cells without causing the disease",
+    "It makes memory cells, without the illness"
+   ],
+   "wrong": [
+    "It gives ready-made antibodies",
+    "It kills germs in the blood",
+    "It makes the skin thicker"
+   ],
+   "explanation": "That is active, artificial immunity.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "herd",
+   "prompt": "What is herd immunity?",
+   "answers": [
+    "When enough people are immune that the disease cannot spread easily",
+    "Protection of the unvaccinated because most are immune"
+   ],
+   "wrong": [
+    "When the whole herd gets ill together",
+    "A vaccine for animals",
+    "Immunity from the mother"
+   ],
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "hypersensitivity",
+   "prompt": "What is an allergy?",
+   "answers": [
+    "An over-reaction of the immune system to a harmless antigen",
+    "An exaggerated immune response to something harmless"
+   ],
+   "wrong": [
+    "A lack of antibodies",
+    "An infection of the skin",
+    "A reaction to a vaccine only"
+   ],
+   "explanation": "Typical allergens are pollen, nuts and dust mites.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "anaphylaxis",
+   "prompt": "What is a severe, sudden, life-threatening allergic reaction called?",
+   "answers": [
+    "Anaphylaxis",
+    "Anaphylactic shock"
+   ],
+   "wrong": [
+    "Atopy",
+    "Asthma",
+    "Angioedema only"
+   ],
+   "explanation": "Treated at once with adrenaline.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "autoimmune",
+   "prompt": "What is an autoimmune disease?",
+   "answers": [
+    "The immune system attacks the body's own tissue",
+    "Immune attack on self"
+   ],
+   "wrong": [
+    "The immune system is too weak",
+    "An allergy to a germ",
+    "A cancer of the immune system"
+   ],
+   "explanation": "Examples: type 1 diabetes, rheumatoid arthritis, multiple sclerosis.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "immunodeficiency",
+   "prompt": "What does HIV do to the body?",
+   "answers": [
+    "It destroys helper T cells, so the immune system weakens",
+    "It kills CD4 T cells"
+   ],
+   "wrong": [
+    "It destroys red cells",
+    "It destroys B cells only",
+    "It makes too many antibodies"
+   ],
+   "explanation": "In AIDS, the person has serious infections and some cancers.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "transplant",
+   "prompt": "Why must transplant patients take immunosuppressant drugs?",
+   "answers": [
+    "Otherwise the immune system rejects the foreign organ",
+    "To stop rejection"
+   ],
+   "wrong": [
+    "To stop the organ growing",
+    "To make the organ work faster",
+    "To avoid infection from the organ"
+   ],
+   "explanation": "Tissue is matched by the HLA (MHC) type.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "hla",
+   "prompt": "What are the HLA (MHC) molecules on the surface of cells for?",
+   "answers": [
+    "They show the T cells what is inside the cell, and mark it as 'self'",
+    "They present antigens to T cells"
+   ],
+   "wrong": [
+    "They carry oxygen",
+    "They are antibodies",
+    "They make cytokines"
+   ],
+   "explanation": "Different in every person, apart from identical twins.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "cytokines",
+   "prompt": "What is the name for small proteins that immune cells use to talk to each other?",
+   "answers": [
+    "Cytokines",
+    "Cytokine"
+   ],
+   "wrong": [
+    "Hormones of the pituitary",
+    "Enzymes",
+    "Antigens"
+   ],
+   "explanation": "Interleukins and interferons are examples.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "lymphocytes-n",
+   "prompt": "About what share of the white blood cells are lymphocytes?",
+   "answers": [
+    "About 20 to 40%",
+    "About 30%"
+   ],
+   "wrong": [
+    "About 1%",
+    "About 60 to 70%",
+    "About 95%"
+   ],
+   "explanation": "Neutrophils are the most common type.",
+   "tags": [
+    "Immunity"
+   ]
+  },
+  {
+   "id": "lymphoma",
+   "prompt": "What is a cancer of the lymphatic tissue, which can start in a lymph node, called?",
+   "answers": [
+    "Lymphoma"
+   ],
+   "wrong": [
+    "Leukaemia",
+    "Sarcoma",
+    "Carcinoma"
+   ],
+   "explanation": "The two main kinds are Hodgkin and non-Hodgkin lymphoma.",
+   "tags": [
+    "Immunity"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Name the part",
+   "count": 3,
+   "pass": 80,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Name the part"
+   ],
+   "why": "Pictures of the spleen, thymus and appendix, each with one part in red to name."
+  },
+  {
+   "name": "Chapter quiz",
+   "count": 30,
+   "pass": 75,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "end",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Thirty questions from the whole chapter, marked at the end, like an end-of-unit test."
+  },
+  {
+   "name": "Recall without choices",
+   "count": 20,
+   "pass": 75,
+   "pick": "due",
+   "answer": "typed",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Type each answer from memory, starting with the ones due for review. Small typos are forgiven."
+  }
+ ]
+}
