@@ -1,8 +1,8 @@
-# Skeleton pictures from BodyParts3D
+# Anatomy pictures from BodyParts3D
 
 The pictures in `data/figures/anatomy/` are drawn from [BodyParts3D](https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html), a set of 3D models of the human body: BodyParts3D, © The Database Center for Life Science, licensed under [CC BY-SA 2.1 JP](https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en). The pictures are adaptations, so they carry the same licence, and every question that shows one says so under it (`figure.credit`, `license`, `source`).
 
-Each picture is the skeleton (or part of it) with one or more parts coloured red. `jobs.py` lists them: which parts to colour (`hi`), which to frame (`focus`), which to draw at all (`only`, `hide`), the view (`front`, `back`, `left`, `right`, `top`, `bottom` or a direction), the size, and `xray` to make everything else see-through. `parts.tsv` is the BodyParts3D parts used: the bones, costal cartilages and intervertebral discs (drawn grey-blue).
+Each picture is the skeleton (or part of it), and for the muscular chapter the muscles over it, with one or more parts coloured red. `jobs.py` lists the skeletal ones and `muscles.py` the muscular ones (`peel` takes overlying muscles off, `alone` draws only bones and the red muscle). `jobs.py` lists them: which parts to colour (`hi`), which to frame (`focus`), which to draw at all (`only`, `hide`), the view (`front`, `back`, `left`, `right`, `top`, `bottom` or a direction), the size, and `xray` to make everything else see-through. `parts.tsv` is the BodyParts3D parts used (id, name and an optional kind: bones by default, `cartilage` drawn grey-blue, `muscle` and `tendon` drawn only when a picture asks for them). Muscles are the right-hand or left-hand models by name; the muscle models are about 1 GB of STL, so check out only the parts you need.
 
 To draw them again, or new ones for another chapter:
 

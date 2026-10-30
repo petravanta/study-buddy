@@ -1,0 +1,5173 @@
+{
+ "id": "anatomy-muscular",
+ "name": "Muscular system",
+ "module": "Human anatomy",
+ "description": "The skeletal muscles and how they work: muscle tissue, how muscles move the bones, and the main muscles of the head and neck, the trunk, the arm and the leg, with their attachments and actions. Picture questions show the body with one muscle highlighted to name.",
+ "source": {
+  "name": "Written for Study Buddy. Pictures rendered from BodyParts3D (© The Database Center for Life Science, CC BY-SA 2.1 JP).",
+  "url": "https://github.com/petravanta/study-buddy/tree/main/scripts/bodyparts3d"
+ },
+ "updated": "2026-10-30",
+ "questions": [
+  {
+   "id": "muscle-count",
+   "prompt": "Roughly how many skeletal muscles are in the human body?",
+   "answers": [
+    "About 600",
+    "600"
+   ],
+   "wrong": [
+    "About 206",
+    "About 300",
+    "About 1,500"
+   ],
+   "explanation": "Counts vary between about 600 and 650, depending on how muscles with several parts are counted. They make up 35 to 40% of body weight.",
+   "figure": {
+    "src": "data/figures/anatomy/muscles-front.webp",
+    "alt": "The muscles of the whole body from the front",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "muscle-types",
+   "prompt": "Which type of muscle tissue is striated and under voluntary control?",
+   "answers": [
+    "Skeletal muscle",
+    "Skeletal"
+   ],
+   "wrong": [
+    "Cardiac muscle",
+    "Smooth muscle",
+    "Visceral muscle"
+   ],
+   "explanation": "Skeletal muscle moves the skeleton. It is striped (striated) under the microscope because its filaments line up in sarcomeres.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "cardiac-muscle",
+   "prompt": "Which type of muscle tissue is striated but involuntary, with its cells joined by intercalated discs?",
+   "answers": [
+    "Cardiac muscle",
+    "Cardiac"
+   ],
+   "wrong": [
+    "Skeletal muscle",
+    "Smooth muscle",
+    "Visceral muscle"
+   ],
+   "explanation": "Found only in the heart. Intercalated discs carry gap junctions, so each beat spreads from cell to cell.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "smooth-muscle",
+   "prompt": "Which type of muscle tissue lines the walls of hollow organs and blood vessels and has no striations?",
+   "answers": [
+    "Smooth muscle",
+    "Smooth"
+   ],
+   "wrong": [
+    "Skeletal muscle",
+    "Cardiac muscle",
+    "Striated muscle"
+   ],
+   "explanation": "Smooth muscle works slowly and without conscious control: it moves food along the gut, narrows blood vessels and empties the bladder.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "muscle-fibre",
+   "prompt": "What is a single skeletal muscle cell called?",
+   "answers": [
+    "Muscle fibre",
+    "Muscle fiber",
+    "Myofibre",
+    "Myocyte"
+   ],
+   "wrong": [
+    "Fascicle",
+    "Myofibril",
+    "Sarcomere"
+   ],
+   "explanation": "Long and thin with many nuclei, because it forms when many embryonic cells (myoblasts) fuse. One fibre can run the length of a muscle.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "fascicle",
+   "prompt": "What is a bundle of muscle fibres, wrapped in perimysium, called?",
+   "answers": [
+    "Fascicle",
+    "Fasciculus"
+   ],
+   "wrong": [
+    "Myofibril",
+    "Motor unit",
+    "Sarcomere"
+   ],
+   "explanation": "Muscle is bundles of bundles: myofibrils inside fibres, fibres inside fascicles, fascicles inside the whole muscle.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "epimysium",
+   "prompt": "What is the layer of connective tissue around a whole muscle called?",
+   "answers": [
+    "Epimysium"
+   ],
+   "wrong": [
+    "Perimysium",
+    "Endomysium",
+    "Periosteum"
+   ],
+   "explanation": "Epi- (upon) the muscle. Perimysium wraps each fascicle and endomysium each fibre; all three run together into the tendon.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "endomysium",
+   "prompt": "What is the thin layer of connective tissue around each muscle fibre called?",
+   "answers": [
+    "Endomysium"
+   ],
+   "wrong": [
+    "Epimysium",
+    "Perimysium",
+    "Sarcolemma"
+   ],
+   "explanation": "Endo- means within. The sarcolemma is the fibre's own cell membrane, just inside it.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "myofibril",
+   "prompt": "What are the long rod-like bundles of filaments that fill a muscle fibre called?",
+   "answers": [
+    "Myofibrils",
+    "Myofibril"
+   ],
+   "wrong": [
+    "Fascicles",
+    "Sarcomeres",
+    "T tubules"
+   ],
+   "explanation": "Each myofibril is a chain of sarcomeres, end to end.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "sarcomere",
+   "prompt": "What is the repeating contractile unit of a myofibril, from one Z disc to the next?",
+   "answers": [
+    "Sarcomere"
+   ],
+   "wrong": [
+    "Myofibril",
+    "Fascicle",
+    "Motor unit"
+   ],
+   "explanation": "When a muscle contracts, every sarcomere along its fibres shortens a little.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "myosin",
+   "prompt": "Which protein makes up the thick filaments of a sarcomere?",
+   "answers": [
+    "Myosin"
+   ],
+   "wrong": [
+    "Actin",
+    "Troponin",
+    "Collagen"
+   ],
+   "explanation": "Myosin heads reach out to grab the thin filaments and pull, using energy from ATP.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "actin",
+   "prompt": "Which protein makes up most of the thin filaments of a sarcomere?",
+   "answers": [
+    "Actin"
+   ],
+   "wrong": [
+    "Myosin",
+    "Titin",
+    "Keratin"
+   ],
+   "explanation": "Thin filaments also carry tropomyosin and troponin, which cover the binding sites until calcium arrives.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "sliding-filament",
+   "prompt": "What is the theory that a muscle shortens because its thin filaments slide past its thick ones, called?",
+   "answers": [
+    "Sliding filament theory",
+    "Sliding filament"
+   ],
+   "wrong": [
+    "All-or-none law",
+    "Length-tension theory",
+    "Motor unit theory"
+   ],
+   "explanation": "The filaments themselves stay the same length; they overlap more, so each sarcomere gets shorter.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "calcium",
+   "prompt": "Which ion, released from the sarcoplasmic reticulum, lets a muscle fibre contract?",
+   "answers": [
+    "Calcium",
+    "Calcium ions",
+    "Ca2+"
+   ],
+   "wrong": [
+    "Sodium",
+    "Potassium",
+    "Chloride"
+   ],
+   "explanation": "Calcium binds to troponin, which moves tropomyosin off actin's binding sites so myosin can grab hold. Pumping it back relaxes the fibre.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "acetylcholine",
+   "prompt": "Which neurotransmitter does a motor neuron release onto a skeletal muscle fibre?",
+   "answers": [
+    "Acetylcholine",
+    "ACh"
+   ],
+   "wrong": [
+    "Noradrenaline",
+    "Dopamine",
+    "Serotonin"
+   ],
+   "explanation": "It is released at the neuromuscular junction. Curare and some nerve agents work by blocking it or stopping its breakdown.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "nmj",
+   "prompt": "What is the junction between a motor neuron and a muscle fibre called?",
+   "answers": [
+    "Neuromuscular junction",
+    "Motor end plate"
+   ],
+   "wrong": [
+    "Synaptic cleft",
+    "Intercalated disc",
+    "Z disc"
+   ],
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "motor-unit",
+   "prompt": "What is one motor neuron and all the muscle fibres it supplies called?",
+   "answers": [
+    "Motor unit"
+   ],
+   "wrong": [
+    "Fascicle",
+    "Reflex arc",
+    "Myotome"
+   ],
+   "explanation": "Muscles for fine control (around the eye) have small motor units of a few fibres; big postural muscles have units of over a thousand.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "atp-release",
+   "prompt": "What must bind to myosin for it to let go of actin?",
+   "answers": [
+    "ATP"
+   ],
+   "wrong": [
+    "Calcium",
+    "Acetylcholine",
+    "Oxygen"
+   ],
+   "explanation": "Without fresh ATP the heads stay locked on. That is why muscles stiffen after death (rigor mortis).",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "myoglobin",
+   "prompt": "Which red protein stores oxygen inside muscle fibres?",
+   "answers": [
+    "Myoglobin"
+   ],
+   "wrong": [
+    "Haemoglobin",
+    "Hemoglobin",
+    "Myosin"
+   ],
+   "explanation": "Slow-twitch fibres are full of it, which is why they look red.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "slow-twitch",
+   "prompt": "Which muscle fibres are red, full of mitochondria and resist fatigue, suiting long steady work?",
+   "answers": [
+    "Slow-twitch fibres",
+    "Slow twitch",
+    "Type I fibres",
+    "Type I"
+   ],
+   "wrong": [
+    "Fast-twitch fibres",
+    "Type II fibres",
+    "White fibres"
+   ],
+   "explanation": "Postural muscles like the soleus are mostly slow-twitch; sprinters have more fast-twitch (type II) fibres, which tire quickly.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "tendon",
+   "prompt": "What is the cord of dense connective tissue that joins a muscle to a bone called?",
+   "answers": [
+    "Tendon"
+   ],
+   "wrong": [
+    "Ligament",
+    "Fascia",
+    "Cartilage"
+   ],
+   "explanation": "Ligaments join bone to bone. Tendons are mostly collagen, so they barely stretch and pass the pull straight on.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "aponeurosis",
+   "prompt": "What is a broad, flat sheet of tendon called?",
+   "answers": [
+    "Aponeurosis"
+   ],
+   "wrong": [
+    "Fascia",
+    "Retinaculum",
+    "Ligament"
+   ],
+   "explanation": "Examples: the aponeurosis on top of the skull between frontalis and occipitalis, and those of the abdominal muscles, which meet at the linea alba.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "hypertrophy",
+   "prompt": "What is the growth of a muscle from training, by its fibres getting bigger, called?",
+   "answers": [
+    "Hypertrophy"
+   ],
+   "wrong": [
+    "Hyperplasia",
+    "Atrophy",
+    "Fibrosis"
+   ],
+   "explanation": "Adults make few new muscle fibres; existing ones add myofibrils. Disuse does the opposite: atrophy.",
+   "tags": [
+    "Muscle tissue"
+   ]
+  },
+  {
+   "id": "origin",
+   "prompt": "What is the attachment of a muscle that stays fixed while it contracts (usually the one nearer the trunk) called?",
+   "answers": [
+    "Origin"
+   ],
+   "wrong": [
+    "Insertion",
+    "Belly",
+    "Tendon sheath"
+   ],
+   "explanation": "A muscle pulls its insertion towards its origin.",
+   "tags": [
+    "Muscles and movement"
+   ]
+  },
+  {
+   "id": "insertion",
+   "prompt": "What is the attachment of a muscle on the bone it moves called?",
+   "answers": [
+    "Insertion"
+   ],
+   "wrong": [
+    "Origin",
+    "Belly",
+    "Aponeurosis"
+   ],
+   "tags": [
+    "Muscles and movement"
+   ]
+  },
+  {
+   "id": "agonist",
+   "prompt": "What is the muscle mainly responsible for a movement called?",
+   "answers": [
+    "Agonist",
+    "Prime mover"
+   ],
+   "wrong": [
+    "Antagonist",
+    "Synergist",
+    "Fixator"
+   ],
+   "explanation": "The biceps brachii and brachialis are agonists for bending the elbow.",
+   "tags": [
+    "Muscles and movement"
+   ]
+  },
+  {
+   "id": "antagonist",
+   "prompt": "What is a muscle that opposes a movement, relaxing to let it happen, called?",
+   "answers": [
+    "Antagonist"
+   ],
+   "wrong": [
+    "Agonist",
+    "Synergist",
+    "Fixator"
+   ],
+   "explanation": "The triceps is the antagonist of the biceps. Muscles can only pull, so every movement needs one to undo it.",
+   "tags": [
+    "Muscles and movement"
+   ]
+  },
+  {
+   "id": "synergist",
+   "prompt": "What is a muscle that helps the prime mover, or cancels out an unwanted movement it makes, called?",
+   "answers": [
+    "Synergist"
+   ],
+   "wrong": [
+    "Antagonist",
+    "Fixator",
+    "Agonist"
+   ],
+   "tags": [
+    "Muscles and movement"
+   ]
+  },
+  {
+   "id": "fixator",
+   "prompt": "What is a muscle that holds the origin of the prime mover steady called?",
+   "answers": [
+    "Fixator",
+    "Stabiliser",
+    "Stabilizer"
+   ],
+   "wrong": [
+    "Synergist",
+    "Antagonist",
+    "Agonist"
+   ],
+   "explanation": "For example, muscles holding the scapula still so the deltoid can lift the arm.",
+   "tags": [
+    "Muscles and movement"
+   ]
+  },
+  {
+   "id": "concentric",
+   "prompt": "What is a contraction in which the muscle shortens as it pulls called?",
+   "answers": [
+    "Concentric contraction",
+    "Concentric"
+   ],
+   "wrong": [
+    "Eccentric contraction",
+    "Isometric contraction",
+    "Tetanus"
+   ],
+   "explanation": "Lifting a cup is concentric for the biceps.",
+   "tags": [
+    "Muscles and movement"
+   ]
+  },
+  {
+   "id": "eccentric",
+   "prompt": "What is a contraction in which the muscle lengthens while still pulling (lowering a weight slowly) called?",
+   "answers": [
+    "Eccentric contraction",
+    "Eccentric"
+   ],
+   "wrong": [
+    "Concentric contraction",
+    "Isometric contraction",
+    "Isotonic shortening"
+   ],
+   "explanation": "Walking downhill works the quadriceps eccentrically. These contractions cause most of the soreness the next day.",
+   "tags": [
+    "Muscles and movement"
+   ]
+  },
+  {
+   "id": "isometric",
+   "prompt": "What is a contraction in which the muscle pulls but does not change length called?",
+   "answers": [
+    "Isometric contraction",
+    "Isometric"
+   ],
+   "wrong": [
+    "Concentric contraction",
+    "Eccentric contraction",
+    "Isotonic contraction"
+   ],
+   "explanation": "Holding a plank, or pushing against a wall. Iso- (same) -metric (length).",
+   "tags": [
+    "Muscles and movement"
+   ]
+  },
+  {
+   "id": "name-size",
+   "prompt": "In muscle names, what do maximus, medius and minimus describe?",
+   "answers": [
+    "Size",
+    "Their size"
+   ],
+   "wrong": [
+    "Shape",
+    "Number of heads",
+    "Direction of fibres"
+   ],
+   "explanation": "As in the gluteus maximus, medius and minimus. Longus and brevis (long and short) and major and minor work the same way.",
+   "tags": [
+    "Muscles and movement"
+   ]
+  },
+  {
+   "id": "name-heads",
+   "prompt": "In muscle names, what do biceps, triceps and quadriceps describe?",
+   "answers": [
+    "Number of heads",
+    "How many heads it has",
+    "Number of origins"
+   ],
+   "wrong": [
+    "Size",
+    "Shape",
+    "Action"
+   ],
+   "explanation": "Two, three and four heads (separate origins) joining one tendon.",
+   "tags": [
+    "Muscles and movement"
+   ]
+  },
+  {
+   "id": "name-rectus",
+   "prompt": "What does rectus mean in a muscle's name, as in rectus abdominis?",
+   "answers": [
+    "Straight"
+   ],
+   "wrong": [
+    "Large",
+    "Deep",
+    "Oblique"
+   ],
+   "explanation": "Its fibres run straight, parallel to the body's midline. Oblique and transversus name the other directions.",
+   "tags": [
+    "Muscles and movement"
+   ]
+  },
+  {
+   "id": "id-frontalis",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Frontalis",
+    "Frontal belly of occipitofrontalis",
+    "Occipitofrontalis"
+   ],
+   "wrong": [
+    "Procerus",
+    "Corrugator supercilii",
+    "Temporalis"
+   ],
+   "explanation": "The front belly of the occipitofrontalis, over the forehead. It raises the eyebrows and wrinkles the forehead.",
+   "figure": {
+    "src": "data/figures/anatomy/m-frontalis.webp",
+    "alt": "The face, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "id-orbicularis-oculi",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Orbicularis oculi"
+   ],
+   "wrong": [
+    "Orbicularis oris",
+    "Corrugator supercilii",
+    "Zygomaticus minor"
+   ],
+   "explanation": "The ring of muscle around the eye. Its thin inner part blinks; the outer part screws the eye shut.",
+   "figure": {
+    "src": "data/figures/anatomy/m-orbicularis-oculi.webp",
+    "alt": "The face, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "close-eye",
+   "prompt": "Which muscle closes the eyelids?",
+   "answers": [
+    "Orbicularis oculi"
+   ],
+   "wrong": [
+    "Levator palpebrae superioris",
+    "Frontalis",
+    "Orbicularis oris"
+   ],
+   "explanation": "Levator palpebrae superioris opens the upper lid. Orbicularis oculi is supplied by the facial nerve, so in Bell's palsy the eye can't close.",
+   "figure": {
+    "src": "data/figures/anatomy/m-orbicularis-oculi.webp",
+    "alt": "The face, with the orbicularis oculi in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "id-orbicularis-oris",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Orbicularis oris"
+   ],
+   "wrong": [
+    "Orbicularis oculi",
+    "Buccinator",
+    "Mentalis"
+   ],
+   "explanation": "The ring of muscle in the lips. It closes and purses the mouth, as in whistling or a kiss.",
+   "figure": {
+    "src": "data/figures/anatomy/m-orbicularis-oris.webp",
+    "alt": "The face, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "id-zygomaticus-major",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Zygomaticus major"
+   ],
+   "wrong": [
+    "Zygomaticus minor",
+    "Risorius",
+    "Levator labii superioris"
+   ],
+   "explanation": "From the cheekbone (zygomatic bone) to the corner of the mouth.",
+   "figure": {
+    "src": "data/figures/anatomy/m-zygomaticus-major.webp",
+    "alt": "The face, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "smile",
+   "prompt": "Which muscle pulls the corner of the mouth up and out in a smile?",
+   "answers": [
+    "Zygomaticus major"
+   ],
+   "wrong": [
+    "Buccinator",
+    "Depressor anguli oris",
+    "Masseter"
+   ],
+   "explanation": "Depressor anguli oris does the opposite, turning the corners of the mouth down.",
+   "figure": {
+    "src": "data/figures/anatomy/m-zygomaticus-major.webp",
+    "alt": "The face, with the zygomaticus major in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "id-buccinator",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Buccinator"
+   ],
+   "wrong": [
+    "Masseter",
+    "Risorius",
+    "Orbicularis oris"
+   ],
+   "explanation": "The muscle of the cheek, deep to the masseter (taken away here).",
+   "figure": {
+    "src": "data/figures/anatomy/m-buccinator.webp",
+    "alt": "The head and neck, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "cheek",
+   "prompt": "Which cheek muscle keeps food between the teeth while chewing, and blows air out as when playing a trumpet?",
+   "answers": [
+    "Buccinator"
+   ],
+   "wrong": [
+    "Masseter",
+    "Orbicularis oris",
+    "Platysma"
+   ],
+   "explanation": "Bucca is Latin for cheek; buccinator means trumpeter. It is a muscle of facial expression, not of chewing.",
+   "figure": {
+    "src": "data/figures/anatomy/m-buccinator.webp",
+    "alt": "The head and neck, with the buccinator in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "facial-nerve",
+   "prompt": "Which cranial nerve supplies the muscles of facial expression?",
+   "answers": [
+    "Facial nerve",
+    "Facial",
+    "Cranial nerve VII",
+    "VII"
+   ],
+   "wrong": [
+    "Trigeminal nerve",
+    "Hypoglossal nerve",
+    "Vagus nerve"
+   ],
+   "explanation": "When it fails on one side (Bell's palsy), that half of the face droops. The chewing muscles are supplied by the trigeminal nerve instead.",
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "id-masseter",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Masseter"
+   ],
+   "wrong": [
+    "Temporalis",
+    "Buccinator",
+    "Medial pterygoid"
+   ],
+   "explanation": "The thick muscle over the angle of the jaw, from the zygomatic arch to the ramus of the mandible.",
+   "figure": {
+    "src": "data/figures/anatomy/m-masseter.webp",
+    "alt": "The head and neck, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "clench",
+   "prompt": "Which thick muscle over the angle of the jaw bulges when you clench your teeth?",
+   "answers": [
+    "Masseter"
+   ],
+   "wrong": [
+    "Temporalis",
+    "Buccinator",
+    "Sternocleidomastoid"
+   ],
+   "explanation": "It raises the mandible to close the jaw. For its size it is one of the strongest muscles in the body.",
+   "figure": {
+    "src": "data/figures/anatomy/m-masseter.webp",
+    "alt": "The head and neck, with the masseter in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "id-temporalis",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Temporalis"
+   ],
+   "wrong": [
+    "Masseter",
+    "Temporoparietalis",
+    "Lateral pterygoid"
+   ],
+   "explanation": "A fan over the side of the skull (the scalp muscles are taken away here). Its tendon passes under the zygomatic arch to the coronoid process of the mandible.",
+   "figure": {
+    "src": "data/figures/anatomy/m-temporalis.webp",
+    "alt": "The head and neck, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "temporalis-action",
+   "prompt": "The temporalis inserts on the coronoid process of the mandible. What does it do?",
+   "answers": [
+    "Closes the jaw and pulls it back",
+    "Raises and retracts the mandible",
+    "Closes the jaw"
+   ],
+   "wrong": [
+    "Opens the jaw",
+    "Pushes the jaw forward",
+    "Moves the jaw side to side only"
+   ],
+   "explanation": "Its front fibres lift the mandible; its back fibres, running almost horizontally, pull it backwards. Feel it work at your temple as you bite.",
+   "figure": {
+    "src": "data/figures/anatomy/m-temporalis.webp",
+    "alt": "The head and neck, with the temporalis in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "id-pterygoids",
+   "prompt": "Which pair of muscles is highlighted in red?",
+   "answers": [
+    "Pterygoid muscles",
+    "Pterygoids",
+    "Medial and lateral pterygoids",
+    "Lateral and medial pterygoids"
+   ],
+   "wrong": [
+    "Masseter",
+    "Digastric",
+    "Stylohyoid"
+   ],
+   "explanation": "Deep to the ramus of the mandible, from the pterygoid plates of the sphenoid. The skull is drawn without the other muscles here.",
+   "figure": {
+    "src": "data/figures/anatomy/m-pterygoids.webp",
+    "alt": "The head and neck, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "mastication",
+   "prompt": "The muscles of mastication are the masseter, the temporalis and which other two?",
+   "answers": [
+    "Medial and lateral pterygoids",
+    "Pterygoids",
+    "The pterygoids",
+    "Lateral and medial pterygoids"
+   ],
+   "wrong": [
+    "Buccinator and orbicularis oris",
+    "Digastric and mylohyoid",
+    "Platysma and risorius"
+   ],
+   "explanation": "All four are supplied by the mandibular branch of the trigeminal nerve.",
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "lateral-pterygoid",
+   "prompt": "Which muscle of mastication opens the jaw, by pulling the head of the mandible forward?",
+   "answers": [
+    "Lateral pterygoid"
+   ],
+   "wrong": [
+    "Medial pterygoid",
+    "Masseter",
+    "Temporalis"
+   ],
+   "explanation": "The other three close the jaw. The lateral pterygoid also moves it from side to side when grinding food.",
+   "figure": {
+    "src": "data/figures/anatomy/m-pterygoids.webp",
+    "alt": "The head and neck, with the pterygoid muscles in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "id-sternocleidomastoid",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Sternocleidomastoid",
+    "Sternomastoid",
+    "SCM"
+   ],
+   "wrong": [
+    "Trapezius",
+    "Scalenus anterior",
+    "Platysma"
+   ],
+   "explanation": "From the sternum (sterno-) and clavicle (cleido-) to the mastoid process behind the ear.",
+   "figure": {
+    "src": "data/figures/anatomy/m-sternocleidomastoid.webp",
+    "alt": "The head and neck, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "scm-turn",
+   "prompt": "When the left sternocleidomastoid contracts on its own, which way does the face turn?",
+   "answers": [
+    "To the right",
+    "Right",
+    "To the opposite side"
+   ],
+   "wrong": [
+    "To the left",
+    "Up",
+    "Down to the chest"
+   ],
+   "explanation": "It pulls the mastoid process (behind the left ear) towards the sternum, which turns the face to the other side and tilts the head towards the same shoulder. Both together bend the neck forward.",
+   "figure": {
+    "src": "data/figures/anatomy/m-sternocleidomastoid.webp",
+    "alt": "The head and neck, with the left sternocleidomastoid in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "torticollis",
+   "prompt": "A baby's head tilts to one side with the chin turned away because one neck muscle is short and tight. Which muscle?",
+   "answers": [
+    "Sternocleidomastoid",
+    "Sternomastoid"
+   ],
+   "wrong": [
+    "Trapezius",
+    "Splenius capitis",
+    "Platysma"
+   ],
+   "explanation": "Congenital torticollis (wry neck). Gentle stretching usually fixes it.",
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "id-platysma",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Platysma"
+   ],
+   "wrong": [
+    "Sternocleidomastoid",
+    "Buccinator",
+    "Depressor anguli oris"
+   ],
+   "explanation": "A thin sheet in the skin of the neck, from the upper chest to the jaw.",
+   "figure": {
+    "src": "data/figures/anatomy/m-platysma.webp",
+    "alt": "The head and neck, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "platysma-what",
+   "prompt": "Which thin sheet of muscle in the skin of the neck tightens the skin and pulls the corners of the mouth down?",
+   "answers": [
+    "Platysma"
+   ],
+   "wrong": [
+    "Sternocleidomastoid",
+    "Sternohyoid",
+    "Buccinator"
+   ],
+   "explanation": "It is a muscle of facial expression, supplied by the facial nerve. It stands out as cords in the neck during a grimace.",
+   "figure": {
+    "src": "data/figures/anatomy/m-platysma.webp",
+    "alt": "The head and neck, with the platysma in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "id-digastric",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Digastric"
+   ],
+   "wrong": [
+    "Mylohyoid",
+    "Stylohyoid",
+    "Omohyoid"
+   ],
+   "explanation": "Two bellies: the back one from the mastoid notch, the front one to the chin, joined by a tendon slung to the hyoid.",
+   "figure": {
+    "src": "data/figures/anatomy/m-digastric.webp",
+    "alt": "The head and neck, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "digastric-what",
+   "prompt": "Which muscle under the jaw has two bellies joined by a tendon held to the hyoid bone?",
+   "answers": [
+    "Digastric"
+   ],
+   "wrong": [
+    "Omohyoid",
+    "Mylohyoid",
+    "Geniohyoid"
+   ],
+   "explanation": "Di- (two) gastric (belly). It lowers the mandible and raises the hyoid in swallowing. The omohyoid also has two bellies, but runs down to the scapula.",
+   "figure": {
+    "src": "data/figures/anatomy/m-digastric.webp",
+    "alt": "The head and neck, with the digastric in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "id-scalenes",
+   "prompt": "Which group of muscles is highlighted in red?",
+   "answers": [
+    "Scalenes",
+    "Scalene muscles",
+    "Scalenus"
+   ],
+   "wrong": [
+    "Levator scapulae",
+    "Splenius capitis",
+    "Longus colli"
+   ],
+   "explanation": "Anterior, middle and posterior scalenes, from the cervical vertebrae down to the first and second ribs. The sternocleidomastoid and trapezius are taken away here.",
+   "figure": {
+    "src": "data/figures/anatomy/m-scalenes.webp",
+    "alt": "The head and neck, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "scalenes-what",
+   "prompt": "Which neck muscles raise the first two ribs during deep breathing, with the brachial plexus passing between two of them?",
+   "answers": [
+    "Scalenes",
+    "Scalene muscles",
+    "Scalenus"
+   ],
+   "wrong": [
+    "Sternocleidomastoids",
+    "Infrahyoid muscles",
+    "Splenius muscles"
+   ],
+   "explanation": "The brachial plexus and subclavian artery pass between the anterior and middle scalenes.",
+   "figure": {
+    "src": "data/figures/anatomy/m-scalenes.webp",
+    "alt": "The head and neck, with the scalenes in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "id-splenius-capitis",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Splenius capitis"
+   ],
+   "wrong": [
+    "Semispinalis capitis",
+    "Levator scapulae",
+    "Trapezius"
+   ],
+   "explanation": "Deep to the trapezius (taken away here), from the lower neck vertebrae up to the mastoid process and the occipital bone.",
+   "figure": {
+    "src": "data/figures/anatomy/m-splenius-capitis.webp",
+    "alt": "The head and neck, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "splenius-what",
+   "prompt": "Which muscle under the trapezius extends the head and turns the face to its own side?",
+   "answers": [
+    "Splenius capitis"
+   ],
+   "wrong": [
+    "Sternocleidomastoid",
+    "Scalenus medius",
+    "Platysma"
+   ],
+   "explanation": "It works with the opposite sternocleidomastoid to turn the head.",
+   "figure": {
+    "src": "data/figures/anatomy/m-splenius-capitis.webp",
+    "alt": "The head and neck, with the splenius capitis in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "id-infrahyoid",
+   "prompt": "Which group of muscles is highlighted in red?",
+   "answers": [
+    "Infrahyoid muscles",
+    "Strap muscles",
+    "Infrahyoids"
+   ],
+   "wrong": [
+    "Suprahyoid muscles",
+    "Scalenes",
+    "Platysma"
+   ],
+   "explanation": "Sternohyoid, sternothyroid, thyrohyoid and omohyoid, below the hyoid bone.",
+   "figure": {
+    "src": "data/figures/anatomy/m-infrahyoid.webp",
+    "alt": "The head and neck, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "strap-muscles",
+   "prompt": "What do the infrahyoid (strap) muscles do?",
+   "answers": [
+    "Lower the hyoid bone and larynx",
+    "Pull down the hyoid and larynx"
+   ],
+   "wrong": [
+    "Raise the hyoid bone",
+    "Close the jaw",
+    "Turn the head"
+   ],
+   "explanation": "They bring the larynx back down after swallowing. The suprahyoid muscles (digastric, mylohyoid and others) raise it.",
+   "figure": {
+    "src": "data/figures/anatomy/m-infrahyoid.webp",
+    "alt": "The head and neck, with the infrahyoid muscles in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "eyebrows-up",
+   "prompt": "Which muscle raises the eyebrows and wrinkles the forehead in surprise?",
+   "answers": [
+    "Frontalis",
+    "Occipitofrontalis"
+   ],
+   "wrong": [
+    "Corrugator supercilii",
+    "Procerus",
+    "Orbicularis oculi"
+   ],
+   "explanation": "Corrugator supercilii pulls the eyebrows together into a frown.",
+   "figure": {
+    "src": "data/figures/anatomy/m-frontalis.webp",
+    "alt": "The face, with the frontalis in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "kiss",
+   "prompt": "Which muscle closes and purses the lips?",
+   "answers": [
+    "Orbicularis oris"
+   ],
+   "wrong": [
+    "Buccinator",
+    "Risorius",
+    "Mentalis"
+   ],
+   "figure": {
+    "src": "data/figures/anatomy/m-orbicularis-oris.webp",
+    "alt": "The face, with the orbicularis oris in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Head and neck"
+   ]
+  },
+  {
+   "id": "id-pectoralis-major",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Pectoralis major"
+   ],
+   "wrong": [
+    "Pectoralis minor",
+    "Serratus anterior",
+    "Deltoid"
+   ],
+   "explanation": "The big fan of the chest, from the clavicle, sternum and costal cartilages to the humerus.",
+   "figure": {
+    "src": "data/figures/anatomy/m-pectoralis-major.webp",
+    "alt": "The trunk from the front, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Trunk"
+   ]
+  },
+  {
+   "id": "pec-major-action",
+   "prompt": "What does the pectoralis major do to the arm?",
+   "answers": [
+    "Adducts and medially rotates it",
+    "Pulls it across the chest and turns it in"
+   ],
+   "wrong": [
+    "Abducts it",
+    "Laterally rotates it",
+    "Extends it behind the back"
+   ],
+   "explanation": "Its clavicular part also lifts the arm forward (flexes it). Push-ups and the bench press work it.",
+   "figure": {
+    "src": "data/figures/anatomy/m-pectoralis-major.webp",
+    "alt": "The trunk from the front, with the pectoralis major in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "id-pectoralis-minor",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Pectoralis minor"
+   ],
+   "wrong": [
+    "Pectoralis major",
+    "Subclavius",
+    "Serratus anterior"
+   ],
+   "explanation": "Under the pectoralis major (taken away here), from the 3rd to 5th ribs to the coracoid process.",
+   "figure": {
+    "src": "data/figures/anatomy/m-pectoralis-minor.webp",
+    "alt": "The trunk from the front, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Trunk"
+   ]
+  },
+  {
+   "id": "pec-minor-insertion",
+   "prompt": "The pectoralis minor runs from the ribs to which part of the scapula?",
+   "answers": [
+    "Coracoid process",
+    "Coracoid"
+   ],
+   "wrong": [
+    "Acromion",
+    "Glenoid cavity",
+    "Spine of the scapula"
+   ],
+   "explanation": "It pulls the scapula forward and down against the chest wall.",
+   "figure": {
+    "src": "data/figures/anatomy/m-pectoralis-minor.webp",
+    "alt": "The trunk from the front, with the pectoralis minor in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "id-serratus-anterior",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Serratus anterior"
+   ],
+   "wrong": [
+    "External oblique",
+    "Latissimus dorsi",
+    "Pectoralis minor"
+   ],
+   "explanation": "Saw-toothed (serrated) slips from the upper eight or nine ribs, wrapping round to the inner edge of the scapula.",
+   "figure": {
+    "src": "data/figures/anatomy/m-serratus-anterior.webp",
+    "alt": "The trunk from the front, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Trunk"
+   ]
+  },
+  {
+   "id": "serratus-action",
+   "prompt": "Which muscle holds the scapula against the chest wall and pulls it forward, as in a punch?",
+   "answers": [
+    "Serratus anterior"
+   ],
+   "wrong": [
+    "Rhomboid major",
+    "Trapezius",
+    "Pectoralis major"
+   ],
+   "explanation": "Sometimes called the boxer's muscle.",
+   "figure": {
+    "src": "data/figures/anatomy/m-serratus-anterior.webp",
+    "alt": "The trunk from the front, with the serratus anterior in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "winged-scapula",
+   "prompt": "Damage to the long thoracic nerve makes the scapula stick out from the back (a winged scapula). Which muscle has stopped working?",
+   "answers": [
+    "Serratus anterior"
+   ],
+   "wrong": [
+    "Trapezius",
+    "Rhomboid major",
+    "Latissimus dorsi"
+   ],
+   "explanation": "The nerve runs on the side of the chest wall, where it can be hurt in surgery or by a heavy load on the shoulder.",
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "id-subclavius",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Subclavius"
+   ],
+   "wrong": [
+    "Pectoralis minor",
+    "Omohyoid",
+    "Scalenus anterior"
+   ],
+   "explanation": "A small muscle under the clavicle, from the first rib. It steadies the clavicle.",
+   "figure": {
+    "src": "data/figures/anatomy/m-subclavius.webp",
+    "alt": "The right shoulder, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Trunk"
+   ]
+  },
+  {
+   "id": "id-rectus-abdominis",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Rectus abdominis"
+   ],
+   "wrong": [
+    "External oblique",
+    "Transversus abdominis",
+    "Pyramidalis"
+   ],
+   "explanation": "From the pubis to the 5th to 7th costal cartilages and the xiphoid process.",
+   "figure": {
+    "src": "data/figures/anatomy/m-rectus-abdominis.webp",
+    "alt": "The trunk from the front, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Trunk"
+   ]
+  },
+  {
+   "id": "six-pack",
+   "prompt": "Which muscle forms the 'six-pack', divided into sections by tendinous intersections?",
+   "answers": [
+    "Rectus abdominis"
+   ],
+   "wrong": [
+    "External oblique",
+    "Transversus abdominis",
+    "Internal oblique"
+   ],
+   "explanation": "It bends the trunk forward (as in a sit-up) and is held in a sheath formed by the aponeuroses of the other three abdominal muscles.",
+   "figure": {
+    "src": "data/figures/anatomy/m-rectus-abdominis.webp",
+    "alt": "The trunk from the front, with the rectus abdominis in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "linea-alba",
+   "prompt": "What is the fibrous band down the midline of the abdomen, where the abdominal aponeuroses meet, called?",
+   "answers": [
+    "Linea alba"
+   ],
+   "wrong": [
+    "Linea semilunaris",
+    "Inguinal ligament",
+    "Rectus sheath"
+   ],
+   "explanation": "Latin for white line. It runs from the xiphoid process to the pubic symphysis, between the two recti.",
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "id-external-oblique",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "External oblique",
+    "External abdominal oblique"
+   ],
+   "wrong": [
+    "Internal oblique",
+    "Serratus anterior",
+    "Rectus abdominis"
+   ],
+   "explanation": "The outermost flat muscle of the side of the abdomen.",
+   "figure": {
+    "src": "data/figures/anatomy/m-external-oblique.webp",
+    "alt": "The trunk from the front, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Trunk"
+   ]
+  },
+  {
+   "id": "ext-oblique-fibres",
+   "prompt": "Which abdominal muscle has fibres running down and forward, like hands in your front pockets?",
+   "answers": [
+    "External oblique",
+    "External abdominal oblique"
+   ],
+   "wrong": [
+    "Internal oblique",
+    "Transversus abdominis",
+    "Rectus abdominis"
+   ],
+   "explanation": "The internal oblique, under it, runs at right angles to it. The lower edge of the external oblique's aponeurosis forms the inguinal ligament.",
+   "figure": {
+    "src": "data/figures/anatomy/m-external-oblique.webp",
+    "alt": "The trunk from the front, with the external oblique in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "id-internal-oblique",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Internal oblique",
+    "Internal abdominal oblique"
+   ],
+   "wrong": [
+    "External oblique",
+    "Transversus abdominis",
+    "Quadratus lumborum"
+   ],
+   "explanation": "The middle layer of the side of the abdomen (the external oblique is taken away here). Its fibres fan up and forward.",
+   "figure": {
+    "src": "data/figures/anatomy/m-internal-oblique.webp",
+    "alt": "The trunk from the front, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Trunk"
+   ]
+  },
+  {
+   "id": "id-transversus-abdominis",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Transversus abdominis",
+    "Transverse abdominis"
+   ],
+   "wrong": [
+    "Internal oblique",
+    "Rectus abdominis",
+    "Quadratus lumborum"
+   ],
+   "explanation": "The deepest flat muscle of the abdomen (both obliques and the rectus are taken away here).",
+   "figure": {
+    "src": "data/figures/anatomy/m-transversus-abdominis.webp",
+    "alt": "The trunk from the front, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Trunk"
+   ]
+  },
+  {
+   "id": "corset",
+   "prompt": "Which deepest abdominal muscle, with horizontal fibres, wraps round like a corset to squeeze the abdomen?",
+   "answers": [
+    "Transversus abdominis",
+    "Transverse abdominis"
+   ],
+   "wrong": [
+    "Rectus abdominis",
+    "External oblique",
+    "Internal oblique"
+   ],
+   "explanation": "It squeezes the abdomen when coughing, straining and breathing out hard, and helps steady the lower back.",
+   "figure": {
+    "src": "data/figures/anatomy/m-transversus-abdominis.webp",
+    "alt": "The trunk from the front, with the transversus abdominis in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "abdominal-layers",
+   "prompt": "From outside in, what are the three flat muscles of the side of the abdomen?",
+   "answers": [
+    "External oblique, internal oblique, transversus abdominis"
+   ],
+   "wrong": [
+    "Internal oblique, external oblique, transversus abdominis",
+    "Transversus abdominis, internal oblique, external oblique",
+    "External oblique, transversus abdominis, internal oblique"
+   ],
+   "explanation": "Each layer's fibres run in a different direction, like plywood.",
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "id-diaphragm",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Diaphragm"
+   ],
+   "wrong": [
+    "Transversus thoracis",
+    "Quadratus lumborum",
+    "Psoas major"
+   ],
+   "explanation": "The dome between the chest and the abdomen, seen through the ribs.",
+   "figure": {
+    "src": "data/figures/anatomy/m-diaphragm.webp",
+    "alt": "The trunk from the front, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Trunk"
+   ]
+  },
+  {
+   "id": "diaphragm-breath",
+   "prompt": "What is the main muscle of breathing in?",
+   "answers": [
+    "Diaphragm"
+   ],
+   "wrong": [
+    "External intercostals",
+    "Rectus abdominis",
+    "Scalenes"
+   ],
+   "explanation": "When it contracts the dome flattens and moves down, enlarging the chest so air flows in.",
+   "figure": {
+    "src": "data/figures/anatomy/m-diaphragm.webp",
+    "alt": "The trunk from the front, with the diaphragm in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "phrenic",
+   "prompt": "Which nerve supplies the diaphragm?",
+   "answers": [
+    "Phrenic nerve",
+    "Phrenic"
+   ],
+   "wrong": [
+    "Vagus nerve",
+    "Intercostal nerves",
+    "Long thoracic nerve"
+   ],
+   "explanation": "From the neck, spinal nerves C3, 4 and 5: \"C3, 4 and 5 keep the diaphragm alive\". A high neck injury can stop breathing.",
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "ivc-t8",
+   "prompt": "Which large vessel passes through the diaphragm at the level of the 8th thoracic vertebra?",
+   "answers": [
+    "Inferior vena cava",
+    "IVC"
+   ],
+   "wrong": [
+    "Aorta",
+    "Oesophagus",
+    "Thoracic duct"
+   ],
+   "explanation": "Inferior vena cava at T8, oesophagus at T10 and aorta at T12 (\"I 8 10 eggs at 12\").",
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "id-intercostals",
+   "prompt": "Which muscles are highlighted in red?",
+   "answers": [
+    "External intercostals",
+    "Intercostals",
+    "Intercostal muscles"
+   ],
+   "wrong": [
+    "Serratus anterior",
+    "Transversus thoracis",
+    "Levatores costarum"
+   ],
+   "explanation": "The muscles between the ribs (the chest and abdominal muscles are taken away here).",
+   "figure": {
+    "src": "data/figures/anatomy/m-intercostals.webp",
+    "alt": "The trunk from the front, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Trunk"
+   ]
+  },
+  {
+   "id": "intercostals-what",
+   "prompt": "Which muscles between the ribs raise the ribcage when you breathe in?",
+   "answers": [
+    "External intercostals",
+    "External intercostal muscles"
+   ],
+   "wrong": [
+    "Internal intercostals",
+    "Innermost intercostals",
+    "Transversus thoracis"
+   ],
+   "explanation": "Their fibres run the same way as the external oblique's. The internal intercostals, at right angles to them, pull the ribs down in forced breathing out.",
+   "figure": {
+    "src": "data/figures/anatomy/m-intercostals.webp",
+    "alt": "The trunk from the front, with the external intercostals in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "id-trapezius",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Trapezius"
+   ],
+   "wrong": [
+    "Latissimus dorsi",
+    "Rhomboid major",
+    "Levator scapulae"
+   ],
+   "explanation": "A large diamond over the upper back and neck, from the skull and the spines of the vertebrae to the clavicle and scapula. The two together make a trapezium.",
+   "figure": {
+    "src": "data/figures/anatomy/m-trapezius.webp",
+    "alt": "The back, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Trunk"
+   ]
+  },
+  {
+   "id": "shrug",
+   "prompt": "Which muscle shrugs the shoulders?",
+   "answers": [
+    "Trapezius",
+    "Upper trapezius"
+   ],
+   "wrong": [
+    "Deltoid",
+    "Rhomboid major",
+    "Pectoralis minor"
+   ],
+   "explanation": "Its upper fibres lift the scapula (with the levator scapulae), its middle fibres pull it back and its lower fibres pull it down. Upper and lower together rotate it so the arm can go overhead.",
+   "figure": {
+    "src": "data/figures/anatomy/m-trapezius.webp",
+    "alt": "The back, with the trapezius in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "accessory-nerve",
+   "prompt": "Which cranial nerve supplies the trapezius and sternocleidomastoid?",
+   "answers": [
+    "Accessory nerve",
+    "Spinal accessory nerve",
+    "Cranial nerve XI",
+    "XI"
+   ],
+   "wrong": [
+    "Vagus nerve",
+    "Hypoglossal nerve",
+    "Facial nerve"
+   ],
+   "explanation": "Testing a shrug and turning the head against a hand checks it.",
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "id-latissimus-dorsi",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Latissimus dorsi",
+    "Latissimus",
+    "Lats"
+   ],
+   "wrong": [
+    "Trapezius",
+    "Teres major",
+    "Serratus posterior inferior"
+   ],
+   "explanation": "The broadest muscle of the back, from the lower spine and the iliac crest to the front of the humerus.",
+   "figure": {
+    "src": "data/figures/anatomy/m-latissimus-dorsi.webp",
+    "alt": "The back, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Trunk"
+   ]
+  },
+  {
+   "id": "lats-action",
+   "prompt": "Which broad back muscle pulls the arm down and back, as in a pull-up or a swimming stroke?",
+   "answers": [
+    "Latissimus dorsi",
+    "Latissimus",
+    "Lats"
+   ],
+   "wrong": [
+    "Trapezius",
+    "Deltoid",
+    "Rhomboid major"
+   ],
+   "explanation": "It extends, adducts and medially rotates the arm. It inserts in the intertubercular groove of the humerus, with the teres major.",
+   "figure": {
+    "src": "data/figures/anatomy/m-latissimus-dorsi.webp",
+    "alt": "The back, with the latissimus dorsi in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "id-rhomboids",
+   "prompt": "Which muscles are highlighted in red?",
+   "answers": [
+    "Rhomboids",
+    "Rhomboid major and minor",
+    "Rhomboid muscles"
+   ],
+   "wrong": [
+    "Levator scapulae",
+    "Serratus posterior superior",
+    "Trapezius"
+   ],
+   "explanation": "Rhomboid major and minor, under the trapezius (taken away here), from the spine to the inner edge of the scapula.",
+   "figure": {
+    "src": "data/figures/anatomy/m-rhomboids.webp",
+    "alt": "The back, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Trunk"
+   ]
+  },
+  {
+   "id": "rhomboids-action",
+   "prompt": "Which muscles between the spine and the scapula pull the shoulder blades together?",
+   "answers": [
+    "Rhomboids",
+    "Rhomboid major and minor",
+    "Rhomboid muscles"
+   ],
+   "wrong": [
+    "Serratus anterior",
+    "Pectoralis minor",
+    "Teres major"
+   ],
+   "explanation": "They retract the scapula, working against the serratus anterior. Middle trapezius helps.",
+   "figure": {
+    "src": "data/figures/anatomy/m-rhomboids.webp",
+    "alt": "The back, with the rhomboids in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "id-levator-scapulae",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Levator scapulae"
+   ],
+   "wrong": [
+    "Rhomboid minor",
+    "Splenius cervicis",
+    "Scalenus posterior"
+   ],
+   "explanation": "From the upper four neck vertebrae to the upper corner of the scapula, under the trapezius.",
+   "figure": {
+    "src": "data/figures/anatomy/m-levator-scapulae.webp",
+    "alt": "The back, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Trunk"
+   ]
+  },
+  {
+   "id": "levator-scapulae-action",
+   "prompt": "What does the levator scapulae do?",
+   "answers": [
+    "Lifts the scapula",
+    "Elevates the scapula",
+    "Raises the shoulder blade"
+   ],
+   "wrong": [
+    "Pulls the scapula forward",
+    "Rotates the arm",
+    "Extends the head"
+   ],
+   "explanation": "As its name says: levator (lifter) of the scapula. Its tightness is a common cause of a stiff neck.",
+   "figure": {
+    "src": "data/figures/anatomy/m-levator-scapulae.webp",
+    "alt": "The back, with the levator scapulae in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "id-erector-spinae",
+   "prompt": "Which group of muscles is highlighted in red?",
+   "answers": [
+    "Erector spinae",
+    "Erector spinae muscles",
+    "Sacrospinalis"
+   ],
+   "wrong": [
+    "Multifidus",
+    "Quadratus lumborum",
+    "Latissimus dorsi"
+   ],
+   "explanation": "Three columns either side of the spine, under the other back muscles (taken away here).",
+   "figure": {
+    "src": "data/figures/anatomy/m-erector-spinae.webp",
+    "alt": "The back, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Trunk"
+   ]
+  },
+  {
+   "id": "erector-spinae-cols",
+   "prompt": "The erector spinae has three columns. From outside in, what are they?",
+   "answers": [
+    "Iliocostalis, longissimus, spinalis"
+   ],
+   "wrong": [
+    "Spinalis, longissimus, iliocostalis",
+    "Longissimus, iliocostalis, spinalis",
+    "Multifidus, rotatores, spinalis"
+   ],
+   "explanation": "\"I Love Spine\" (or spaghetti), from lateral to medial. Together they straighten and arch the back.",
+   "figure": {
+    "src": "data/figures/anatomy/m-erector-spinae.webp",
+    "alt": "The back, with the erector spinae in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "id-quadratus-lumborum",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Quadratus lumborum"
+   ],
+   "wrong": [
+    "Psoas major",
+    "Iliacus",
+    "Erector spinae"
+   ],
+   "explanation": "A square (quadratus) muscle of the loin (lumborum), from the iliac crest to the 12th rib and the lumbar vertebrae.",
+   "figure": {
+    "src": "data/figures/anatomy/m-quadratus-lumborum.webp",
+    "alt": "The pelvis, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Trunk"
+   ]
+  },
+  {
+   "id": "ql-action",
+   "prompt": "Which square muscle of the lower back bends the trunk to the side and holds the 12th rib down?",
+   "answers": [
+    "Quadratus lumborum"
+   ],
+   "wrong": [
+    "Psoas major",
+    "Latissimus dorsi",
+    "Multifidus"
+   ],
+   "explanation": "It also hitches the hip up on one side, and is a common source of low back pain.",
+   "figure": {
+    "src": "data/figures/anatomy/m-quadratus-lumborum.webp",
+    "alt": "The pelvis, with the quadratus lumborum in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "id-iliopsoas",
+   "prompt": "Which muscles are highlighted in red?",
+   "answers": [
+    "Iliopsoas",
+    "Psoas major and iliacus",
+    "Iliacus and psoas major"
+   ],
+   "wrong": [
+    "Quadratus lumborum",
+    "Pectineus",
+    "Piriformis"
+   ],
+   "explanation": "Psoas major from the lumbar vertebrae and iliacus from the inside of the ilium, joining to one tendon.",
+   "figure": {
+    "src": "data/figures/anatomy/m-iliopsoas.webp",
+    "alt": "The pelvis, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Trunk"
+   ]
+  },
+  {
+   "id": "iliopsoas-what",
+   "prompt": "Which muscle is the strongest flexor of the hip, inserting on the lesser trochanter of the femur?",
+   "answers": [
+    "Iliopsoas",
+    "Psoas major and iliacus"
+   ],
+   "wrong": [
+    "Rectus femoris",
+    "Sartorius",
+    "Gluteus maximus"
+   ],
+   "explanation": "It lifts the thigh in walking and running and pulls the trunk up in a sit-up.",
+   "figure": {
+    "src": "data/figures/anatomy/m-iliopsoas.webp",
+    "alt": "The pelvis, with the iliopsoas in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "id-pelvic-floor",
+   "prompt": "Which group of muscles is highlighted in red?",
+   "answers": [
+    "Pelvic floor",
+    "Levator ani and coccygeus",
+    "Pelvic diaphragm"
+   ],
+   "wrong": [
+    "Gluteus maximus",
+    "Obturator internus",
+    "Iliacus"
+   ],
+   "explanation": "The pelvis from above: the levator ani (pubococcygeus, puborectalis and iliococcygeus) and the coccygeus.",
+   "figure": {
+    "src": "data/figures/anatomy/m-pelvic-floor.webp",
+    "alt": "The pelvis, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Trunk"
+   ]
+  },
+  {
+   "id": "levator-ani",
+   "prompt": "What is the main muscle of the pelvic floor, a sling holding up the pelvic organs, called?",
+   "answers": [
+    "Levator ani"
+   ],
+   "wrong": [
+    "Coccygeus",
+    "Obturator internus",
+    "Piriformis"
+   ],
+   "explanation": "Made of pubococcygeus, puborectalis and iliococcygeus. Puborectalis loops round the rectum and helps keep it closed.",
+   "figure": {
+    "src": "data/figures/anatomy/m-pelvic-floor.webp",
+    "alt": "The pelvis, with the pelvic floor in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trunk"
+   ]
+  },
+  {
+   "id": "id-deltoid",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Deltoid"
+   ],
+   "wrong": [
+    "Supraspinatus",
+    "Trapezius",
+    "Pectoralis major"
+   ],
+   "explanation": "The rounded muscle over the shoulder, from the clavicle, acromion and spine of the scapula to the deltoid tuberosity on the humerus.",
+   "figure": {
+    "src": "data/figures/anatomy/m-deltoid.webp",
+    "alt": "The right shoulder, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "deltoid-action",
+   "prompt": "Which muscle lifts the arm out to the side (abduction) once the movement has started?",
+   "answers": [
+    "Deltoid"
+   ],
+   "wrong": [
+    "Supraspinatus",
+    "Latissimus dorsi",
+    "Teres major"
+   ],
+   "explanation": "Supraspinatus starts the movement for the first 15 degrees or so, then the deltoid takes over. Its front fibres also flex the arm and its back fibres extend it.",
+   "figure": {
+    "src": "data/figures/anatomy/m-deltoid.webp",
+    "alt": "The right shoulder, with the deltoid in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "deltoid-shape",
+   "prompt": "The deltoid is named after its shape. What is it shaped like?",
+   "answers": [
+    "A triangle",
+    "The Greek letter delta (Δ)",
+    "Triangle"
+   ],
+   "wrong": [
+    "A diamond",
+    "A square",
+    "A fan"
+   ],
+   "explanation": "An upside-down Greek delta. It is a common place for injections.",
+   "tags": [
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "axillary-nerve",
+   "prompt": "A dislocated shoulder or a broken neck of the humerus can damage which nerve, weakening the deltoid?",
+   "answers": [
+    "Axillary nerve",
+    "Axillary"
+   ],
+   "wrong": [
+    "Radial nerve",
+    "Musculocutaneous nerve",
+    "Long thoracic nerve"
+   ],
+   "explanation": "It winds round the surgical neck of the humerus. It also supplies the teres minor and a patch of skin over the deltoid.",
+   "tags": [
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "rotator-cuff",
+   "prompt": "Which four muscles make up the rotator cuff?",
+   "answers": [
+    "Supraspinatus, infraspinatus, teres minor and subscapularis",
+    "SITS"
+   ],
+   "wrong": [
+    "Supraspinatus, infraspinatus, teres major and subscapularis",
+    "Deltoid, supraspinatus, infraspinatus and teres minor",
+    "Supraspinatus, teres major, teres minor and subscapularis"
+   ],
+   "explanation": "SITS. Their tendons blend with the shoulder joint's capsule and hold the head of the humerus in the shallow glenoid. Teres major is not one of them.",
+   "figure": {
+    "src": "data/figures/anatomy/m-rotator-cuff.webp",
+    "alt": "The right shoulder, with the rotator cuff muscles in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "id-supraspinatus",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Supraspinatus"
+   ],
+   "wrong": [
+    "Infraspinatus",
+    "Teres minor",
+    "Levator scapulae"
+   ],
+   "explanation": "Above the spine of the scapula (the trapezius and deltoid are taken away here), its tendon passing under the acromion to the greater tubercle.",
+   "figure": {
+    "src": "data/figures/anatomy/m-supraspinatus.webp",
+    "alt": "The right shoulder, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "supraspinatus-tear",
+   "prompt": "Which rotator cuff tendon is torn most often?",
+   "answers": [
+    "Supraspinatus"
+   ],
+   "wrong": [
+    "Subscapularis",
+    "Infraspinatus",
+    "Teres minor"
+   ],
+   "explanation": "Its tendon is squeezed under the acromion when the arm is raised (impingement). It starts abduction of the arm.",
+   "figure": {
+    "src": "data/figures/anatomy/m-supraspinatus.webp",
+    "alt": "The right shoulder, with the supraspinatus in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "id-infraspinatus",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Infraspinatus"
+   ],
+   "wrong": [
+    "Supraspinatus",
+    "Teres major",
+    "Subscapularis"
+   ],
+   "explanation": "Below the spine of the scapula, to the greater tubercle of the humerus.",
+   "figure": {
+    "src": "data/figures/anatomy/m-infraspinatus.webp",
+    "alt": "The right shoulder, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "lateral-rotators",
+   "prompt": "Which two rotator cuff muscles rotate the arm outwards (laterally)?",
+   "answers": [
+    "Infraspinatus and teres minor",
+    "Teres minor and infraspinatus"
+   ],
+   "wrong": [
+    "Supraspinatus and subscapularis",
+    "Teres major and teres minor",
+    "Subscapularis and teres major"
+   ],
+   "explanation": "Both lie on the back of the scapula and insert on the greater tubercle, behind the supraspinatus.",
+   "figure": {
+    "src": "data/figures/anatomy/m-infraspinatus.webp",
+    "alt": "The right shoulder, with the infraspinatus in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "id-teres-minor",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Teres minor"
+   ],
+   "wrong": [
+    "Teres major",
+    "Infraspinatus",
+    "Long head of triceps"
+   ],
+   "explanation": "A small muscle along the outer edge of the scapula, just below the infraspinatus. It is part of the rotator cuff.",
+   "figure": {
+    "src": "data/figures/anatomy/m-teres-minor.webp",
+    "alt": "The right shoulder, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "id-teres-major",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Teres major"
+   ],
+   "wrong": [
+    "Teres minor",
+    "Latissimus dorsi",
+    "Subscapularis"
+   ],
+   "explanation": "From the lower corner of the scapula to the front of the humerus, beside the latissimus dorsi. It is not part of the rotator cuff.",
+   "figure": {
+    "src": "data/figures/anatomy/m-teres-major.webp",
+    "alt": "The right shoulder, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "teres-major-action",
+   "prompt": "Which muscle from the lower corner of the scapula helps the latissimus dorsi to adduct and medially rotate the arm, and is not part of the rotator cuff?",
+   "answers": [
+    "Teres major"
+   ],
+   "wrong": [
+    "Teres minor",
+    "Infraspinatus",
+    "Supraspinatus"
+   ],
+   "explanation": "Sometimes called \"lat's little helper\".",
+   "figure": {
+    "src": "data/figures/anatomy/m-teres-major.webp",
+    "alt": "The right shoulder, with the teres major in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "id-subscapularis",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Subscapularis"
+   ],
+   "wrong": [
+    "Serratus anterior",
+    "Supraspinatus",
+    "Pectoralis minor"
+   ],
+   "explanation": "On the front of the scapula, facing the ribs (drawn here without the ribcage and other muscles), to the lesser tubercle of the humerus.",
+   "figure": {
+    "src": "data/figures/anatomy/m-subscapularis.webp",
+    "alt": "The right shoulder, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "subscapularis-action",
+   "prompt": "Which rotator cuff muscle rotates the arm inwards (medially)?",
+   "answers": [
+    "Subscapularis"
+   ],
+   "wrong": [
+    "Infraspinatus",
+    "Teres minor",
+    "Supraspinatus"
+   ],
+   "explanation": "The only one on the front of the scapula and the only one on the lesser tubercle.",
+   "figure": {
+    "src": "data/figures/anatomy/m-subscapularis.webp",
+    "alt": "The right shoulder, with the subscapularis in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "id-biceps-brachii",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Biceps brachii",
+    "Biceps"
+   ],
+   "wrong": [
+    "Brachialis",
+    "Coracobrachialis",
+    "Brachioradialis"
+   ],
+   "explanation": "Two heads, from the coracoid process and from above the glenoid, to the radial tuberosity.",
+   "figure": {
+    "src": "data/figures/anatomy/m-biceps-brachii.webp",
+    "alt": "The right arm, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "biceps-action",
+   "prompt": "Besides bending the elbow, what strong movement of the forearm does the biceps brachii make?",
+   "answers": [
+    "Supination",
+    "Turns the palm up",
+    "Supinates the forearm"
+   ],
+   "wrong": [
+    "Pronation",
+    "Wrist extension",
+    "Ulnar deviation"
+   ],
+   "explanation": "It inserts on the radius, so it rolls the radius over, turning the palm up, like turning a screwdriver clockwise with the right hand.",
+   "figure": {
+    "src": "data/figures/anatomy/m-biceps-brachii.webp",
+    "alt": "The right arm, with the biceps brachii in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "biceps-long-head",
+   "prompt": "The tendon of the long head of the biceps runs in which groove of the humerus?",
+   "answers": [
+    "Intertubercular groove",
+    "Bicipital groove",
+    "Intertubercular sulcus"
+   ],
+   "wrong": [
+    "Radial groove",
+    "Olecranon fossa",
+    "Spiral groove"
+   ],
+   "explanation": "Between the greater and lesser tubercles, then inside the shoulder joint to the top of the glenoid.",
+   "tags": [
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "id-brachialis",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Brachialis"
+   ],
+   "wrong": [
+    "Biceps brachii",
+    "Coracobrachialis",
+    "Brachioradialis"
+   ],
+   "explanation": "Under the biceps (taken away here), from the front of the humerus to the ulna.",
+   "figure": {
+    "src": "data/figures/anatomy/m-brachialis.webp",
+    "alt": "The right arm, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "brachialis-what",
+   "prompt": "Which muscle is the main flexor of the elbow, whether the palm faces up or down, because it pulls on the ulna?",
+   "answers": [
+    "Brachialis"
+   ],
+   "wrong": [
+    "Biceps brachii",
+    "Brachioradialis",
+    "Pronator teres"
+   ],
+   "explanation": "The ulna can't rotate, so the brachialis flexes the elbow in any position: the workhorse of elbow flexion.",
+   "figure": {
+    "src": "data/figures/anatomy/m-brachialis.webp",
+    "alt": "The right arm, with the brachialis in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "id-coracobrachialis",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Coracobrachialis"
+   ],
+   "wrong": [
+    "Short head of biceps brachii",
+    "Brachialis",
+    "Teres major"
+   ],
+   "explanation": "From the coracoid process to the middle of the humerus, on the inner side of the arm.",
+   "figure": {
+    "src": "data/figures/anatomy/m-coracobrachialis.webp",
+    "alt": "The right arm, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "id-triceps-brachii",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Triceps brachii",
+    "Triceps"
+   ],
+   "wrong": [
+    "Biceps brachii",
+    "Anconeus",
+    "Brachialis"
+   ],
+   "explanation": "The muscle on the back of the arm, with long, lateral and medial heads, to the olecranon of the ulna.",
+   "figure": {
+    "src": "data/figures/anatomy/m-triceps-brachii.webp",
+    "alt": "The back of the right arm, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "triceps-action",
+   "prompt": "Which muscle straightens (extends) the elbow?",
+   "answers": [
+    "Triceps brachii",
+    "Triceps"
+   ],
+   "wrong": [
+    "Biceps brachii",
+    "Brachialis",
+    "Brachioradialis"
+   ],
+   "explanation": "It inserts on the olecranon. Its long head starts on the scapula, so it also helps to pull the arm back.",
+   "figure": {
+    "src": "data/figures/anatomy/m-triceps-brachii.webp",
+    "alt": "The back of the right arm, with the triceps brachii in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "triceps-heads",
+   "prompt": "What are the three heads of the triceps brachii?",
+   "answers": [
+    "Long, lateral and medial",
+    "Long, lateral, medial"
+   ],
+   "wrong": [
+    "Long, short and medial",
+    "Superficial, deep and medial",
+    "Anterior, middle and posterior"
+   ],
+   "explanation": "The biceps has a long and a short head; the triceps a long, a lateral and a medial one.",
+   "tags": [
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "id-anconeus",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Anconeus"
+   ],
+   "wrong": [
+    "Extensor carpi ulnaris",
+    "Supinator",
+    "Triceps brachii"
+   ],
+   "explanation": "A small triangle from the lateral epicondyle to the olecranon. It helps the triceps extend the elbow.",
+   "figure": {
+    "src": "data/figures/anatomy/m-anconeus.webp",
+    "alt": "The back of the right arm, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "id-brachioradialis",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Brachioradialis"
+   ],
+   "wrong": [
+    "Extensor carpi radialis longus",
+    "Pronator teres",
+    "Brachialis"
+   ],
+   "explanation": "From above the lateral epicondyle of the humerus down to the styloid process of the radius.",
+   "figure": {
+    "src": "data/figures/anatomy/m-brachioradialis.webp",
+    "alt": "The right arm, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "brachioradialis-action",
+   "prompt": "Which forearm muscle bends the elbow most strongly with the thumb pointing up, as when lifting a mug or hammering?",
+   "answers": [
+    "Brachioradialis"
+   ],
+   "wrong": [
+    "Biceps brachii",
+    "Pronator teres",
+    "Flexor carpi radialis"
+   ],
+   "explanation": "It runs from the humerus (brachio-) to the radius, and stands out on the forearm when you bend your elbow against resistance.",
+   "figure": {
+    "src": "data/figures/anatomy/m-brachioradialis.webp",
+    "alt": "The right arm, with the brachioradialis in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "tennis-elbow",
+   "prompt": "Tennis elbow is pain where the wrist extensors start. Where is that?",
+   "answers": [
+    "Lateral epicondyle of the humerus",
+    "Lateral epicondyle"
+   ],
+   "wrong": [
+    "Medial epicondyle of the humerus",
+    "Olecranon",
+    "Radial tuberosity"
+   ],
+   "explanation": "The common extensor origin, mostly from the extensor carpi radialis brevis. Golfer's elbow is at the medial epicondyle, where the flexors start.",
+   "tags": [
+    "Shoulder and arm"
+   ]
+  },
+  {
+   "id": "common-flexor",
+   "prompt": "Most muscles on the front of the forearm start from which bony point?",
+   "answers": [
+    "Medial epicondyle of the humerus",
+    "Medial epicondyle"
+   ],
+   "wrong": [
+    "Lateral epicondyle",
+    "Olecranon",
+    "Coronoid process"
+   ],
+   "explanation": "The common flexor origin. The extensors on the back start from the lateral epicondyle.",
+   "tags": [
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "id-pronator-teres",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Pronator teres"
+   ],
+   "wrong": [
+    "Flexor carpi radialis",
+    "Brachioradialis",
+    "Supinator"
+   ],
+   "explanation": "From the medial epicondyle diagonally across to the middle of the radius. The forearm is drawn palm forward.",
+   "figure": {
+    "src": "data/figures/anatomy/m-pronator-teres.webp",
+    "alt": "The right forearm, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "pronators",
+   "prompt": "Which two muscles turn the palm down (pronate the forearm)?",
+   "answers": [
+    "Pronator teres and pronator quadratus"
+   ],
+   "wrong": [
+    "Supinator and biceps brachii",
+    "Brachioradialis and supinator",
+    "Flexor carpi radialis and palmaris longus"
+   ],
+   "explanation": "Pronator quadratus does most of the work; pronator teres helps when it is fast or against resistance.",
+   "figure": {
+    "src": "data/figures/anatomy/m-pronator-teres.webp",
+    "alt": "The right forearm, with the pronator teres in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "id-pronator-quadratus",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Pronator quadratus"
+   ],
+   "wrong": [
+    "Pronator teres",
+    "Supinator",
+    "Flexor retinaculum"
+   ],
+   "explanation": "A square muscle across the lower ends of the radius and ulna, under all the flexor tendons. Drawn here without the other muscles.",
+   "figure": {
+    "src": "data/figures/anatomy/m-pronator-quadratus.webp",
+    "alt": "The right forearm, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "id-supinator",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Supinator"
+   ],
+   "wrong": [
+    "Pronator teres",
+    "Anconeus",
+    "Brachioradialis"
+   ],
+   "explanation": "Wrapped round the top of the radius, from the lateral epicondyle and the ulna. Drawn here without the other muscles.",
+   "figure": {
+    "src": "data/figures/anatomy/m-supinator.webp",
+    "alt": "The right forearm, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "supination",
+   "prompt": "Which two muscles turn the palm up (supinate the forearm)?",
+   "answers": [
+    "Supinator and biceps brachii",
+    "Biceps brachii and supinator"
+   ],
+   "wrong": [
+    "Pronator teres and pronator quadratus",
+    "Brachioradialis and brachialis",
+    "Supinator and triceps"
+   ],
+   "explanation": "Supination is stronger than pronation, mostly thanks to the biceps. That is why screws tighten clockwise, to suit right-handed people.",
+   "figure": {
+    "src": "data/figures/anatomy/m-supinator.webp",
+    "alt": "The right forearm, with the supinator in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "id-flexor-carpi-radialis",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Flexor carpi radialis"
+   ],
+   "wrong": [
+    "Palmaris longus",
+    "Pronator teres",
+    "Flexor carpi ulnaris"
+   ],
+   "explanation": "From the medial epicondyle to the bases of the 2nd and 3rd metacarpals, on the thumb side.",
+   "figure": {
+    "src": "data/figures/anatomy/m-flexor-carpi-radialis.webp",
+    "alt": "The right forearm, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "id-palmaris-longus",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Palmaris longus"
+   ],
+   "wrong": [
+    "Flexor carpi radialis",
+    "Flexor digitorum superficialis",
+    "Flexor carpi ulnaris"
+   ],
+   "explanation": "A thin muscle with a long tendon into the palm, in the middle of the front of the forearm.",
+   "figure": {
+    "src": "data/figures/anatomy/m-palmaris-longus.webp",
+    "alt": "The right forearm, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "palmaris-absent",
+   "prompt": "Which forearm muscle is missing in about one person in seven, and is often used for tendon grafts?",
+   "answers": [
+    "Palmaris longus"
+   ],
+   "wrong": [
+    "Flexor carpi radialis",
+    "Pronator quadratus",
+    "Flexor digitorum profundus"
+   ],
+   "explanation": "Press your thumb and little finger together and bend the wrist: if you have one, its tendon stands out in the middle of the wrist.",
+   "figure": {
+    "src": "data/figures/anatomy/m-palmaris-longus.webp",
+    "alt": "The right forearm, with the palmaris longus in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "id-flexor-carpi-ulnaris",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Flexor carpi ulnaris"
+   ],
+   "wrong": [
+    "Flexor carpi radialis",
+    "Palmaris longus",
+    "Extensor carpi ulnaris"
+   ],
+   "explanation": "On the little finger side of the forearm, to the pisiform, hamate and 5th metacarpal.",
+   "figure": {
+    "src": "data/figures/anatomy/m-flexor-carpi-ulnaris.webp",
+    "alt": "The right forearm, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "fcu-sesamoid",
+   "prompt": "Which carpal bone is a sesamoid bone in the tendon of flexor carpi ulnaris?",
+   "answers": [
+    "Pisiform"
+   ],
+   "wrong": [
+    "Hamate",
+    "Triquetral",
+    "Scaphoid"
+   ],
+   "explanation": "Flexor carpi ulnaris bends the wrist and tilts it towards the little finger (ulnar deviation).",
+   "figure": {
+    "src": "data/figures/anatomy/m-flexor-carpi-ulnaris.webp",
+    "alt": "The right forearm, with the flexor carpi ulnaris in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "id-fds",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Flexor digitorum superficialis",
+    "FDS"
+   ],
+   "wrong": [
+    "Flexor digitorum profundus",
+    "Palmaris longus",
+    "Flexor pollicis longus"
+   ],
+   "explanation": "The middle layer of the front of the forearm (the outer muscles are taken away here). Its four tendons go to the middle phalanges.",
+   "figure": {
+    "src": "data/figures/anatomy/m-fds.webp",
+    "alt": "The right forearm, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "id-fdp",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Flexor digitorum profundus",
+    "FDP"
+   ],
+   "wrong": [
+    "Flexor digitorum superficialis",
+    "Flexor pollicis longus",
+    "Pronator quadratus"
+   ],
+   "explanation": "The deep layer, from the ulna. Its four tendons go to the distal phalanges.",
+   "figure": {
+    "src": "data/figures/anatomy/m-fdp.webp",
+    "alt": "The right forearm, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "fdp-fds",
+   "prompt": "Which muscle bends the fingertips (the joint nearest the nail)?",
+   "answers": [
+    "Flexor digitorum profundus",
+    "FDP"
+   ],
+   "wrong": [
+    "Flexor digitorum superficialis",
+    "Lumbricals",
+    "Palmar interossei"
+   ],
+   "explanation": "Profundus reaches the distal phalanges by passing through a split in each superficialis tendon, which stops at the middle phalanges: \"S splits in two to let P pass through\".",
+   "figure": {
+    "src": "data/figures/anatomy/m-fdp.webp",
+    "alt": "The right forearm, with the flexor digitorum profundus in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "fds-joint",
+   "prompt": "Flexor digitorum superficialis inserts on the middle phalanges. Which finger joints can it bend on its own?",
+   "answers": [
+    "The proximal interphalangeal joints",
+    "PIP joints",
+    "Middle knuckles"
+   ],
+   "wrong": [
+    "The distal interphalangeal joints",
+    "The knuckles only",
+    "The wrist only"
+   ],
+   "explanation": "Hold the other fingers straight and bend one finger: the middle joint bends but the tip stays loose. That tests superficialis.",
+   "figure": {
+    "src": "data/figures/anatomy/m-fds.webp",
+    "alt": "The right forearm, with the flexor digitorum superficialis in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "carpal-tunnel",
+   "prompt": "The finger flexor tendons and which nerve pass through the carpal tunnel?",
+   "answers": [
+    "Median nerve",
+    "Median"
+   ],
+   "wrong": [
+    "Ulnar nerve",
+    "Radial nerve",
+    "Musculocutaneous nerve"
+   ],
+   "explanation": "Swelling in the tunnel squeezes the nerve: tingling in the thumb and first fingers, and in time wasting of the thenar muscles.",
+   "tags": [
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "id-extensor-digitorum",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Extensor digitorum",
+    "Extensor digitorum communis"
+   ],
+   "wrong": [
+    "Extensor carpi ulnaris",
+    "Extensor digiti minimi",
+    "Abductor pollicis longus"
+   ],
+   "explanation": "From the lateral epicondyle down the middle of the back of the forearm, to the four fingers.",
+   "figure": {
+    "src": "data/figures/anatomy/m-extensor-digitorum.webp",
+    "alt": "The back of the right forearm, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "ext-digitorum-action",
+   "prompt": "Which muscle on the back of the forearm straightens the four fingers?",
+   "answers": [
+    "Extensor digitorum",
+    "Extensor digitorum communis"
+   ],
+   "wrong": [
+    "Extensor indicis",
+    "Lumbricals",
+    "Extensor carpi radialis longus"
+   ],
+   "explanation": "Its tendons spread into an extensor hood over each finger. The index and little fingers have an extra extensor each, so they can point on their own.",
+   "figure": {
+    "src": "data/figures/anatomy/m-extensor-digitorum.webp",
+    "alt": "The back of the right forearm, with the extensor digitorum in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "id-extensor-carpi-radialis",
+   "prompt": "Which muscles are highlighted in red?",
+   "answers": [
+    "Extensor carpi radialis longus and brevis",
+    "Extensor carpi radialis",
+    "Extensor carpi radialis longus"
+   ],
+   "wrong": [
+    "Brachioradialis",
+    "Extensor carpi ulnaris",
+    "Abductor pollicis longus"
+   ],
+   "explanation": "Two muscles on the thumb side of the back of the forearm, to the 2nd and 3rd metacarpals. They extend the wrist and tilt it towards the thumb.",
+   "figure": {
+    "src": "data/figures/anatomy/m-extensor-carpi-radialis.webp",
+    "alt": "The back of the right forearm, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "id-extensor-carpi-ulnaris",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Extensor carpi ulnaris"
+   ],
+   "wrong": [
+    "Flexor carpi ulnaris",
+    "Extensor digiti minimi",
+    "Anconeus"
+   ],
+   "explanation": "On the little finger side of the back of the forearm, to the 5th metacarpal. It extends the wrist and tilts it towards the little finger.",
+   "figure": {
+    "src": "data/figures/anatomy/m-extensor-carpi-ulnaris.webp",
+    "alt": "The back of the right forearm, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "id-thumb-outcroppers",
+   "prompt": "Which muscles are highlighted in red?",
+   "answers": [
+    "Abductor pollicis longus and extensor pollicis brevis and longus",
+    "Thumb extensors",
+    "Outcropping muscles of the thumb"
+   ],
+   "wrong": [
+    "Extensor carpi radialis longus and brevis",
+    "Brachioradialis and supinator",
+    "Extensor indicis and extensor digiti minimi"
+   ],
+   "explanation": "The deep muscles of the thumb, coming out from between the other extensors: abductor pollicis longus, extensor pollicis brevis and extensor pollicis longus.",
+   "figure": {
+    "src": "data/figures/anatomy/m-thumb-outcroppers.webp",
+    "alt": "The back of the right forearm, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "snuffbox",
+   "prompt": "The hollow at the base of the thumb when it is stretched out (the anatomical snuffbox) lies between the tendons of extensor pollicis longus and which others?",
+   "answers": [
+    "Extensor pollicis brevis and abductor pollicis longus",
+    "Abductor pollicis longus and extensor pollicis brevis"
+   ],
+   "wrong": [
+    "Flexor pollicis longus and brevis",
+    "Extensor carpi radialis longus and brevis",
+    "Extensor indicis and extensor digitorum"
+   ],
+   "explanation": "The scaphoid lies in its floor, so tenderness there after a fall suggests a broken scaphoid.",
+   "figure": {
+    "src": "data/figures/anatomy/m-thumb-outcroppers.webp",
+    "alt": "The back of the right forearm, with the deep thumb muscles in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "id-thenar",
+   "prompt": "Which group of muscles is highlighted in red?",
+   "answers": [
+    "Thenar muscles",
+    "Thenar eminence",
+    "Thenar"
+   ],
+   "wrong": [
+    "Hypothenar muscles",
+    "Lumbricals",
+    "Adductor pollicis"
+   ],
+   "explanation": "Abductor pollicis brevis, flexor pollicis brevis and opponens pollicis, forming the ball of the thumb.",
+   "figure": {
+    "src": "data/figures/anatomy/m-thenar.webp",
+    "alt": "The right hand, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "opposition",
+   "prompt": "Which muscle brings the thumb across the palm to touch the fingertips?",
+   "answers": [
+    "Opponens pollicis"
+   ],
+   "wrong": [
+    "Adductor pollicis",
+    "Abductor pollicis longus",
+    "Flexor pollicis longus"
+   ],
+   "explanation": "Opposition is what lets us grip and pinch. Opponens pollicis is one of the thenar muscles, supplied by the median nerve.",
+   "figure": {
+    "src": "data/figures/anatomy/m-thenar.webp",
+    "alt": "The right hand, with the thenar muscles in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "id-hypothenar",
+   "prompt": "Which group of muscles is highlighted in red?",
+   "answers": [
+    "Hypothenar muscles",
+    "Hypothenar eminence",
+    "Hypothenar"
+   ],
+   "wrong": [
+    "Thenar muscles",
+    "Palmar interossei",
+    "Lumbricals"
+   ],
+   "explanation": "Abductor, flexor and opponens digiti minimi, forming the mound on the little finger side of the palm.",
+   "figure": {
+    "src": "data/figures/anatomy/m-hypothenar.webp",
+    "alt": "The right hand, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "id-lumbricals",
+   "prompt": "Which muscles are highlighted in red?",
+   "answers": [
+    "Lumbricals",
+    "Lumbrical muscles"
+   ],
+   "wrong": [
+    "Palmar interossei",
+    "Dorsal interossei",
+    "Flexor digitorum superficialis"
+   ],
+   "explanation": "Four small worm-shaped (lumbricus is Latin for earthworm) muscles in the palm, starting from the tendons of flexor digitorum profundus.",
+   "figure": {
+    "src": "data/figures/anatomy/m-lumbricals.webp",
+    "alt": "The right hand, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "lumbricals-action",
+   "prompt": "Which small muscles bend the knuckles while straightening the finger joints, as when holding a card?",
+   "answers": [
+    "Lumbricals",
+    "Lumbrical muscles"
+   ],
+   "wrong": [
+    "Palmar interossei",
+    "Flexor digitorum profundus",
+    "Extensor indicis"
+   ],
+   "explanation": "They pull on the extensor hood from the palm side of the knuckle. The interossei help.",
+   "figure": {
+    "src": "data/figures/anatomy/m-lumbricals.webp",
+    "alt": "The right hand, with the lumbricals in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "id-dorsal-interossei",
+   "prompt": "Which muscles are highlighted in red?",
+   "answers": [
+    "Dorsal interossei",
+    "Dorsal interosseous muscles"
+   ],
+   "wrong": [
+    "Palmar interossei",
+    "Lumbricals",
+    "Extensor digitorum"
+   ],
+   "explanation": "Four muscles between the metacarpals, seen from the back of the hand.",
+   "figure": {
+    "src": "data/figures/anatomy/m-dorsal-interossei.webp",
+    "alt": "The right hand, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "pad-dab",
+   "prompt": "The palmar interossei adduct the fingers and the dorsal interossei abduct them. What is the memory aid?",
+   "answers": [
+    "PAD and DAB"
+   ],
+   "wrong": [
+    "SITS",
+    "I Love Spaghetti",
+    "Say Grace before Tea"
+   ],
+   "explanation": "Palmar ADduct, Dorsal ABduct, measured from the middle finger. Both are supplied by the ulnar nerve.",
+   "figure": {
+    "src": "data/figures/anatomy/m-dorsal-interossei.webp",
+    "alt": "The right hand, with the dorsal interossei in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Forearm and hand"
+   ]
+  },
+  {
+   "id": "id-gluteus-maximus",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Gluteus maximus"
+   ],
+   "wrong": [
+    "Gluteus medius",
+    "Piriformis",
+    "Tensor fasciae latae"
+   ],
+   "explanation": "The big muscle of the buttock, from the back of the ilium, sacrum and coccyx to the femur and the iliotibial tract.",
+   "figure": {
+    "src": "data/figures/anatomy/m-gluteus-maximus.webp",
+    "alt": "The hips from behind, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "glute-max-action",
+   "prompt": "Which muscle extends the hip powerfully, as in climbing stairs or standing up from a chair?",
+   "answers": [
+    "Gluteus maximus"
+   ],
+   "wrong": [
+    "Iliopsoas",
+    "Gluteus minimus",
+    "Rectus femoris"
+   ],
+   "explanation": "The largest muscle in the body by mass. It does little in level walking but a lot in climbing, running and jumping.",
+   "figure": {
+    "src": "data/figures/anatomy/m-gluteus-maximus.webp",
+    "alt": "The hips from behind, with the gluteus maximus in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-gluteus-medius",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Gluteus medius"
+   ],
+   "wrong": [
+    "Gluteus minimus",
+    "Gluteus maximus",
+    "Piriformis"
+   ],
+   "explanation": "Under the gluteus maximus (taken away here), from the outer ilium to the greater trochanter.",
+   "figure": {
+    "src": "data/figures/anatomy/m-gluteus-medius.webp",
+    "alt": "The hips from behind, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "trendelenburg",
+   "prompt": "When standing on one leg, the pelvis drops on the other side. Which muscles on the standing side are weak?",
+   "answers": [
+    "Gluteus medius and minimus",
+    "Gluteus medius",
+    "Hip abductors"
+   ],
+   "wrong": [
+    "Gluteus maximus",
+    "Hamstrings",
+    "Adductors"
+   ],
+   "explanation": "A positive Trendelenburg sign. Gluteus medius and minimus abduct the hip and keep the pelvis level with every step.",
+   "figure": {
+    "src": "data/figures/anatomy/m-gluteus-medius.webp",
+    "alt": "The hips from behind, with the gluteus medius in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-gluteus-minimus",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Gluteus minimus"
+   ],
+   "wrong": [
+    "Gluteus medius",
+    "Piriformis",
+    "Obturator internus"
+   ],
+   "explanation": "The deepest of the three, under the gluteus medius, to the front of the greater trochanter.",
+   "figure": {
+    "src": "data/figures/anatomy/m-gluteus-minimus.webp",
+    "alt": "The hips from behind, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-piriformis",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Piriformis"
+   ],
+   "wrong": [
+    "Gluteus minimus",
+    "Obturator internus",
+    "Quadratus femoris"
+   ],
+   "explanation": "Pear-shaped, from the front of the sacrum out through the greater sciatic notch to the greater trochanter.",
+   "figure": {
+    "src": "data/figures/anatomy/m-piriformis.webp",
+    "alt": "The hips from behind, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "piriformis-sciatic",
+   "prompt": "Which muscle in the buttock does the sciatic nerve usually leave the pelvis just below?",
+   "answers": [
+    "Piriformis"
+   ],
+   "wrong": [
+    "Gluteus medius",
+    "Quadratus femoris",
+    "Obturator internus"
+   ],
+   "explanation": "Piriformis is the landmark of the buttock. It rotates the hip outwards (laterally), as do the small muscles below it.",
+   "figure": {
+    "src": "data/figures/anatomy/m-piriformis.webp",
+    "alt": "The hips from behind, with the piriformis in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-tensor-fasciae-latae",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Tensor fasciae latae",
+    "TFL"
+   ],
+   "wrong": [
+    "Sartorius",
+    "Gluteus medius",
+    "Rectus femoris"
+   ],
+   "explanation": "A small muscle at the front of the hip, from the iliac crest into the iliotibial tract.",
+   "figure": {
+    "src": "data/figures/anatomy/m-tensor-fasciae-latae.webp",
+    "alt": "The right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-iliotibial-tract",
+   "prompt": "Which structure is highlighted in red?",
+   "answers": [
+    "Iliotibial tract",
+    "Iliotibial band",
+    "IT band"
+   ],
+   "wrong": [
+    "Vastus lateralis",
+    "Biceps femoris",
+    "Fibularis longus"
+   ],
+   "explanation": "A thick band of fascia down the outside of the thigh to the tibia, pulled on by the tensor fasciae latae and gluteus maximus. The leg is seen from its outer side.",
+   "figure": {
+    "src": "data/figures/anatomy/m-iliotibial-tract.webp",
+    "alt": "The right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "itb-what",
+   "prompt": "What is the thick band of fascia down the outside of the thigh, from the hip to the tibia, called?",
+   "answers": [
+    "Iliotibial tract",
+    "Iliotibial band",
+    "IT band"
+   ],
+   "wrong": [
+    "Linea aspera",
+    "Inguinal ligament",
+    "Fascia lata"
+   ],
+   "explanation": "It steadies the hip and knee. Runners can get pain where it rubs over the outside of the knee.",
+   "figure": {
+    "src": "data/figures/anatomy/m-iliotibial-tract.webp",
+    "alt": "The right leg, with the iliotibial tract in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-sartorius",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Sartorius"
+   ],
+   "wrong": [
+    "Gracilis",
+    "Rectus femoris",
+    "Adductor longus"
+   ],
+   "explanation": "A long strap running diagonally across the front of the thigh, from the anterior superior iliac spine to the inside of the tibia.",
+   "figure": {
+    "src": "data/figures/anatomy/m-sartorius.webp",
+    "alt": "The right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "longest-muscle",
+   "prompt": "Which is the longest muscle in the body?",
+   "answers": [
+    "Sartorius"
+   ],
+   "wrong": [
+    "Gracilis",
+    "Rectus femoris",
+    "Latissimus dorsi"
+   ],
+   "explanation": "The tailor's muscle: it flexes, abducts and laterally rotates the hip and bends the knee, the movements of sitting cross-legged.",
+   "figure": {
+    "src": "data/figures/anatomy/m-sartorius.webp",
+    "alt": "The right leg, with the sartorius in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "pes-anserinus",
+   "prompt": "Which three muscles' tendons join on the inside of the tibia, at the pes anserinus (goose's foot)?",
+   "answers": [
+    "Sartorius, gracilis and semitendinosus"
+   ],
+   "wrong": [
+    "Semimembranosus, gracilis and sartorius",
+    "Rectus femoris, sartorius and gracilis",
+    "Biceps femoris, semitendinosus and semimembranosus"
+   ],
+   "explanation": "\"Say Grace before Tea\": Sartorius, Gracilis, semiTendinosus, one from each compartment of the thigh.",
+   "tags": [
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-quadriceps",
+   "prompt": "Which group of muscles is highlighted in red?",
+   "answers": [
+    "Quadriceps femoris",
+    "Quadriceps",
+    "Quads"
+   ],
+   "wrong": [
+    "Hamstrings",
+    "Adductors",
+    "Sartorius"
+   ],
+   "explanation": "Four muscles at the front of the thigh joining one tendon round the patella.",
+   "figure": {
+    "src": "data/figures/anatomy/m-quadriceps.webp",
+    "alt": "The right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "quads-four",
+   "prompt": "Which four muscles make up the quadriceps femoris?",
+   "answers": [
+    "Rectus femoris, vastus lateralis, vastus medialis and vastus intermedius"
+   ],
+   "wrong": [
+    "Rectus femoris, sartorius, vastus lateralis and vastus medialis",
+    "Vastus lateralis, vastus medialis, gracilis and rectus femoris",
+    "Biceps femoris, rectus femoris, vastus lateralis and vastus medialis"
+   ],
+   "explanation": "They extend the knee, pulling through the patella and the patellar ligament to the tibial tuberosity.",
+   "figure": {
+    "src": "data/figures/anatomy/m-quadriceps.webp",
+    "alt": "The right leg, with the quadriceps in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-rectus-femoris",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Rectus femoris"
+   ],
+   "wrong": [
+    "Vastus intermedius",
+    "Sartorius",
+    "Vastus medialis"
+   ],
+   "explanation": "The straight muscle down the middle of the front of the thigh, from the anterior inferior iliac spine.",
+   "figure": {
+    "src": "data/figures/anatomy/m-rectus-femoris.webp",
+    "alt": "The right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "rf-two-joints",
+   "prompt": "Which part of the quadriceps also flexes the hip, because it starts on the pelvis?",
+   "answers": [
+    "Rectus femoris"
+   ],
+   "wrong": [
+    "Vastus lateralis",
+    "Vastus medialis",
+    "Vastus intermedius"
+   ],
+   "explanation": "The three vasti start on the femur and cross only the knee. Rectus femoris crosses the hip too, so it is used hard in kicking.",
+   "figure": {
+    "src": "data/figures/anatomy/m-rectus-femoris.webp",
+    "alt": "The right leg, with the rectus femoris in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-vastus-lateralis",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Vastus lateralis"
+   ],
+   "wrong": [
+    "Vastus medialis",
+    "Iliotibial tract",
+    "Biceps femoris"
+   ],
+   "explanation": "The largest part of the quadriceps, down the outside of the thigh.",
+   "figure": {
+    "src": "data/figures/anatomy/m-vastus-lateralis.webp",
+    "alt": "The right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-vastus-medialis",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Vastus medialis"
+   ],
+   "wrong": [
+    "Vastus lateralis",
+    "Sartorius",
+    "Adductor longus"
+   ],
+   "explanation": "The teardrop on the inside of the thigh just above the knee.",
+   "figure": {
+    "src": "data/figures/anatomy/m-vastus-medialis.webp",
+    "alt": "The right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "vmo",
+   "prompt": "Which part of the quadriceps forms the teardrop above the inside of the knee and keeps the patella from sliding outwards?",
+   "answers": [
+    "Vastus medialis"
+   ],
+   "wrong": [
+    "Vastus lateralis",
+    "Rectus femoris",
+    "Vastus intermedius"
+   ],
+   "explanation": "Its lowest fibres pull the patella inwards, against the outward pull of the rest of the quadriceps.",
+   "figure": {
+    "src": "data/figures/anatomy/m-vastus-medialis.webp",
+    "alt": "The right leg, with the vastus medialis in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-vastus-intermedius",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Vastus intermedius"
+   ],
+   "wrong": [
+    "Rectus femoris",
+    "Vastus medialis",
+    "Vastus lateralis"
+   ],
+   "explanation": "Under the rectus femoris (taken away here), lying on the front of the femur.",
+   "figure": {
+    "src": "data/figures/anatomy/m-vastus-intermedius.webp",
+    "alt": "The right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-adductor-longus",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Adductor longus"
+   ],
+   "wrong": [
+    "Pectineus",
+    "Gracilis",
+    "Sartorius"
+   ],
+   "explanation": "From the pubis to the middle of the femur. Its outer edge borders the femoral triangle.",
+   "figure": {
+    "src": "data/figures/anatomy/m-adductor-longus.webp",
+    "alt": "The right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "adductors-action",
+   "prompt": "Which group of muscles on the inside of the thigh pulls the legs together, and is hurt in a groin strain?",
+   "answers": [
+    "Adductors",
+    "Hip adductors",
+    "Adductor muscles"
+   ],
+   "wrong": [
+    "Hamstrings",
+    "Quadriceps",
+    "Gluteal muscles"
+   ],
+   "explanation": "Adductor longus, brevis and magnus, with gracilis and pectineus. Most are supplied by the obturator nerve.",
+   "figure": {
+    "src": "data/figures/anatomy/m-adductor-longus.webp",
+    "alt": "The right leg, with the adductor longus in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-adductor-magnus",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Adductor magnus"
+   ],
+   "wrong": [
+    "Semimembranosus",
+    "Gracilis",
+    "Adductor longus"
+   ],
+   "explanation": "The biggest adductor, from the pubis and ischial tuberosity to most of the length of the femur. Seen here from behind.",
+   "figure": {
+    "src": "data/figures/anatomy/m-adductor-magnus.webp",
+    "alt": "The back of the right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-gracilis",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Gracilis"
+   ],
+   "wrong": [
+    "Sartorius",
+    "Adductor longus",
+    "Semitendinosus"
+   ],
+   "explanation": "A long, slender (gracilis) strap down the inside of the thigh, from the pubis to the tibia. It is the only adductor that crosses the knee.",
+   "figure": {
+    "src": "data/figures/anatomy/m-gracilis.webp",
+    "alt": "The right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-pectineus",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Pectineus"
+   ],
+   "wrong": [
+    "Adductor longus",
+    "Iliopsoas",
+    "Adductor brevis"
+   ],
+   "explanation": "A short flat muscle at the top of the inner thigh, from the pubis to below the lesser trochanter.",
+   "figure": {
+    "src": "data/figures/anatomy/m-pectineus.webp",
+    "alt": "The right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-hamstrings",
+   "prompt": "Which group of muscles is highlighted in red?",
+   "answers": [
+    "Hamstrings",
+    "Hamstring muscles"
+   ],
+   "wrong": [
+    "Quadriceps",
+    "Adductors",
+    "Gluteal muscles"
+   ],
+   "explanation": "Biceps femoris, semitendinosus and semimembranosus, on the back of the thigh.",
+   "figure": {
+    "src": "data/figures/anatomy/m-hamstrings.webp",
+    "alt": "The back of the right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "hamstrings-action",
+   "prompt": "What two movements do the hamstrings make?",
+   "answers": [
+    "Bend the knee and extend the hip",
+    "Flex the knee and extend the hip"
+   ],
+   "wrong": [
+    "Straighten the knee and flex the hip",
+    "Bend the knee and flex the hip",
+    "Abduct and rotate the hip"
+   ],
+   "explanation": "They start on the ischial tuberosity (the bone you sit on) and cross both joints. A sprinter's pulled hamstring is usually in the biceps femoris.",
+   "figure": {
+    "src": "data/figures/anatomy/m-hamstrings.webp",
+    "alt": "The back of the right leg, with the hamstrings in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-biceps-femoris",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Biceps femoris"
+   ],
+   "wrong": [
+    "Semitendinosus",
+    "Semimembranosus",
+    "Vastus lateralis"
+   ],
+   "explanation": "The outer hamstring, with a long head from the ischial tuberosity and a short head from the femur, to the head of the fibula.",
+   "figure": {
+    "src": "data/figures/anatomy/m-biceps-femoris.webp",
+    "alt": "The back of the right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "short-head-bf",
+   "prompt": "Which part of the hamstrings does not cross the hip?",
+   "answers": [
+    "Short head of biceps femoris"
+   ],
+   "wrong": [
+    "Long head of biceps femoris",
+    "Semitendinosus",
+    "Semimembranosus"
+   ],
+   "explanation": "It starts on the femur (the linea aspera), so it only bends the knee.",
+   "figure": {
+    "src": "data/figures/anatomy/m-biceps-femoris.webp",
+    "alt": "The back of the right leg, with the biceps femoris in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-semitendinosus",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Semitendinosus"
+   ],
+   "wrong": [
+    "Semimembranosus",
+    "Biceps femoris",
+    "Gracilis"
+   ],
+   "explanation": "The inner hamstring with the long rope-like tendon (half tendon), on top of the semimembranosus.",
+   "figure": {
+    "src": "data/figures/anatomy/m-semitendinosus.webp",
+    "alt": "The back of the right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-semimembranosus",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Semimembranosus"
+   ],
+   "wrong": [
+    "Semitendinosus",
+    "Adductor magnus",
+    "Biceps femoris"
+   ],
+   "explanation": "The inner hamstring with the flat, membrane-like tendon at its top, under the semitendinosus.",
+   "figure": {
+    "src": "data/figures/anatomy/m-semimembranosus.webp",
+    "alt": "The back of the right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Hip and thigh"
+   ]
+  },
+  {
+   "id": "id-gastrocnemius",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Gastrocnemius"
+   ],
+   "wrong": [
+    "Soleus",
+    "Plantaris",
+    "Popliteus"
+   ],
+   "explanation": "The two-headed calf muscle, from the back of the femur above the knee to the calcaneus.",
+   "figure": {
+    "src": "data/figures/anatomy/m-gastrocnemius.webp",
+    "alt": "The back of the right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "triceps-surae",
+   "prompt": "Which two muscles join to form the calcaneal (Achilles) tendon?",
+   "answers": [
+    "Gastrocnemius and soleus",
+    "Soleus and gastrocnemius"
+   ],
+   "wrong": [
+    "Gastrocnemius and plantaris",
+    "Tibialis posterior and soleus",
+    "Gastrocnemius and popliteus"
+   ],
+   "explanation": "Together they are called triceps surae (the three heads of the calf). They point the foot down (plantarflexion), as in rising on tiptoe.",
+   "figure": {
+    "src": "data/figures/anatomy/m-gastrocnemius.webp",
+    "alt": "The back of the right leg, with the gastrocnemius in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "id-soleus",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Soleus"
+   ],
+   "wrong": [
+    "Gastrocnemius",
+    "Tibialis posterior",
+    "Flexor hallucis longus"
+   ],
+   "explanation": "The flat muscle under the gastrocnemius (taken away here), from the tibia and fibula. Shaped like a sole fish.",
+   "figure": {
+    "src": "data/figures/anatomy/m-soleus.webp",
+    "alt": "The back of the right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "soleus-knee",
+   "prompt": "Which calf muscle can point the foot down just as well with the knee bent, because it doesn't cross the knee?",
+   "answers": [
+    "Soleus"
+   ],
+   "wrong": [
+    "Gastrocnemius",
+    "Plantaris",
+    "Popliteus"
+   ],
+   "explanation": "Gastrocnemius starts above the knee, so it is slack when the knee is bent. Soleus, mostly slow-twitch fibres, keeps us from swaying forward when standing, and squeezes blood back up the leg veins.",
+   "figure": {
+    "src": "data/figures/anatomy/m-soleus.webp",
+    "alt": "The back of the right leg, with the soleus in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "id-calcaneal-tendon",
+   "prompt": "Which tendon is highlighted in red?",
+   "answers": [
+    "Calcaneal tendon",
+    "Achilles tendon",
+    "Tendo calcaneus"
+   ],
+   "wrong": [
+    "Plantaris tendon",
+    "Tibialis posterior tendon",
+    "Fibularis longus tendon"
+   ],
+   "explanation": "The tendon of the calf muscles, to the back of the calcaneus.",
+   "figure": {
+    "src": "data/figures/anatomy/m-calcaneal-tendon.webp",
+    "alt": "The back of the right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "achilles-strongest",
+   "prompt": "Which is the thickest and strongest tendon in the body?",
+   "answers": [
+    "Calcaneal tendon",
+    "Achilles tendon"
+   ],
+   "wrong": [
+    "Patellar ligament",
+    "Quadriceps tendon",
+    "Tibialis anterior tendon"
+   ],
+   "explanation": "It can bear several times body weight when running. A sudden tear feels like a kick in the back of the ankle.",
+   "figure": {
+    "src": "data/figures/anatomy/m-calcaneal-tendon.webp",
+    "alt": "The back of the right leg, with the calcaneal tendon in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "id-plantaris",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Plantaris"
+   ],
+   "wrong": [
+    "Popliteus",
+    "Gastrocnemius",
+    "Soleus"
+   ],
+   "explanation": "A small muscle with a very long thin tendon, between the gastrocnemius (taken away here) and soleus. Missing in about one person in ten.",
+   "figure": {
+    "src": "data/figures/anatomy/m-plantaris.webp",
+    "alt": "The back of the right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "id-popliteus",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Popliteus"
+   ],
+   "wrong": [
+    "Plantaris",
+    "Soleus",
+    "Semimembranosus"
+   ],
+   "explanation": "A small muscle in the back of the knee, from the lateral femur to the back of the tibia (the calf muscles and hamstrings are taken away here).",
+   "figure": {
+    "src": "data/figures/anatomy/m-popliteus.webp",
+    "alt": "The back of the right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "popliteus-unlock",
+   "prompt": "Which small muscle at the back of the knee 'unlocks' the straightened knee so it can bend?",
+   "answers": [
+    "Popliteus"
+   ],
+   "wrong": [
+    "Plantaris",
+    "Gastrocnemius",
+    "Semitendinosus"
+   ],
+   "explanation": "When the knee is fully straight it is locked by a slight twist; popliteus untwists it.",
+   "figure": {
+    "src": "data/figures/anatomy/m-popliteus.webp",
+    "alt": "The back of the right leg, with the popliteus in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "id-tibialis-posterior",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Tibialis posterior"
+   ],
+   "wrong": [
+    "Soleus",
+    "Flexor digitorum longus",
+    "Popliteus"
+   ],
+   "explanation": "The deepest calf muscle, between the tibia and fibula, its tendon passing behind the medial malleolus into the sole. Drawn here without the other muscles.",
+   "figure": {
+    "src": "data/figures/anatomy/m-tibialis-posterior.webp",
+    "alt": "The back of the right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "tib-post",
+   "prompt": "Which deep calf muscle turns the sole inwards and holds up the medial arch of the foot?",
+   "answers": [
+    "Tibialis posterior"
+   ],
+   "wrong": [
+    "Tibialis anterior",
+    "Fibularis longus",
+    "Soleus"
+   ],
+   "explanation": "When its tendon fails, the arch slowly falls (adult acquired flatfoot).",
+   "figure": {
+    "src": "data/figures/anatomy/m-tibialis-posterior.webp",
+    "alt": "The back of the right leg, with the tibialis posterior in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "id-tibialis-anterior",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Tibialis anterior"
+   ],
+   "wrong": [
+    "Extensor digitorum longus",
+    "Extensor hallucis longus",
+    "Fibularis longus"
+   ],
+   "explanation": "Beside the shin, from the tibia to the medial cuneiform and the first metatarsal.",
+   "figure": {
+    "src": "data/figures/anatomy/m-tibialis-anterior.webp",
+    "alt": "The right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "foot-drop",
+   "prompt": "Which muscle lifts the foot (dorsiflexion) and turns the sole inwards, so that if it is paralysed the foot drops and the toes catch when walking?",
+   "answers": [
+    "Tibialis anterior"
+   ],
+   "wrong": [
+    "Tibialis posterior",
+    "Gastrocnemius",
+    "Fibularis longus"
+   ],
+   "explanation": "Foot drop is often from injury to the common fibular nerve where it winds round the neck of the fibula.",
+   "figure": {
+    "src": "data/figures/anatomy/m-tibialis-anterior.webp",
+    "alt": "The right leg, with the tibialis anterior in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "id-extensor-digitorum-longus",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Extensor digitorum longus"
+   ],
+   "wrong": [
+    "Tibialis anterior",
+    "Extensor hallucis longus",
+    "Fibularis brevis"
+   ],
+   "explanation": "On the front of the leg, outside the tibialis anterior, with four tendons to the lesser toes.",
+   "figure": {
+    "src": "data/figures/anatomy/m-extensor-digitorum-longus.webp",
+    "alt": "The right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "id-extensor-hallucis-longus",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Extensor hallucis longus"
+   ],
+   "wrong": [
+    "Tibialis anterior",
+    "Extensor digitorum longus",
+    "Fibularis tertius"
+   ],
+   "explanation": "Between the tibialis anterior and extensor digitorum longus, with its tendon to the big toe (hallux).",
+   "figure": {
+    "src": "data/figures/anatomy/m-extensor-hallucis-longus.webp",
+    "alt": "The right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "ehl",
+   "prompt": "Which muscle lifts the big toe?",
+   "answers": [
+    "Extensor hallucis longus"
+   ],
+   "wrong": [
+    "Flexor hallucis longus",
+    "Abductor hallucis",
+    "Tibialis anterior"
+   ],
+   "explanation": "Hallux is the big toe; hallucis means 'of the big toe'. Flexor hallucis longus, at the back, bends it down.",
+   "figure": {
+    "src": "data/figures/anatomy/m-extensor-hallucis-longus.webp",
+    "alt": "The right leg, with the extensor hallucis longus in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "id-fibularis-longus",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Fibularis longus",
+    "Peroneus longus"
+   ],
+   "wrong": [
+    "Fibularis brevis",
+    "Soleus",
+    "Extensor digitorum longus"
+   ],
+   "explanation": "Down the outside of the leg from the head of the fibula. The leg is seen from its outer side.",
+   "figure": {
+    "src": "data/figures/anatomy/m-fibularis-longus.webp",
+    "alt": "The right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "eversion",
+   "prompt": "Which muscles on the outside of the leg turn the sole outwards (eversion)?",
+   "answers": [
+    "Fibularis longus and brevis",
+    "Peroneus longus and brevis",
+    "Fibular muscles"
+   ],
+   "wrong": [
+    "Tibialis anterior and posterior",
+    "Gastrocnemius and soleus",
+    "Extensor digitorum longus and extensor hallucis longus"
+   ],
+   "explanation": "Their tendons pass behind the lateral malleolus. Formerly called the peroneal muscles.",
+   "figure": {
+    "src": "data/figures/anatomy/m-fibularis-longus.webp",
+    "alt": "The right leg, with the fibularis longus in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "id-fibularis-brevis",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Fibularis brevis",
+    "Peroneus brevis"
+   ],
+   "wrong": [
+    "Fibularis longus",
+    "Fibularis tertius",
+    "Extensor digitorum longus"
+   ],
+   "explanation": "Under the fibularis longus (taken away here), to the base of the 5th metatarsal.",
+   "figure": {
+    "src": "data/figures/anatomy/m-fibularis-brevis.webp",
+    "alt": "The right leg, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "fl-sole",
+   "prompt": "The tendon of which muscle crosses the sole of the foot to the base of the first metatarsal, helping to support the arches?",
+   "answers": [
+    "Fibularis longus",
+    "Peroneus longus"
+   ],
+   "wrong": [
+    "Fibularis brevis",
+    "Tibialis anterior",
+    "Flexor digitorum longus"
+   ],
+   "explanation": "With the tibialis anterior on the inside, it forms a stirrup under the foot.",
+   "tags": [
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "fb-fifth",
+   "prompt": "A twisted ankle can pull off the bone where which tendon inserts, on the base of the 5th metatarsal?",
+   "answers": [
+    "Fibularis brevis",
+    "Peroneus brevis"
+   ],
+   "wrong": [
+    "Fibularis longus",
+    "Tibialis posterior",
+    "Extensor digitorum longus"
+   ],
+   "explanation": "An avulsion fracture of the 5th metatarsal, common in a rolled ankle.",
+   "figure": {
+    "src": "data/figures/anatomy/m-fibularis-brevis.webp",
+    "alt": "The right leg, with the fibularis brevis in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "id-abductor-hallucis",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Abductor hallucis"
+   ],
+   "wrong": [
+    "Flexor digitorum brevis",
+    "Flexor hallucis brevis",
+    "Tibialis posterior"
+   ],
+   "explanation": "Along the inner edge of the sole, from the calcaneus to the big toe. The foot is seen from the inside.",
+   "figure": {
+    "src": "data/figures/anatomy/m-abductor-hallucis.webp",
+    "alt": "The right foot, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "id-flexor-digitorum-brevis",
+   "prompt": "Which muscle is highlighted in red?",
+   "answers": [
+    "Flexor digitorum brevis"
+   ],
+   "wrong": [
+    "Flexor digitorum longus",
+    "Abductor hallucis",
+    "Quadratus plantae"
+   ],
+   "explanation": "The middle of the first layer of the sole, from the calcaneus to the four lesser toes. The foot is seen from below.",
+   "figure": {
+    "src": "data/figures/anatomy/m-flexor-digitorum-brevis.webp",
+    "alt": "The right foot, with one muscle in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the muscle",
+    "Leg and foot"
+   ]
+  },
+  {
+   "id": "sole-layers",
+   "prompt": "In how many layers are the muscles of the sole of the foot usually described?",
+   "answers": [
+    "Four",
+    "4"
+   ],
+   "wrong": [
+    "Two",
+    "Three",
+    "Five"
+   ],
+   "explanation": "Abductor hallucis, flexor digitorum brevis and abductor digiti minimi form the first, outermost layer.",
+   "figure": {
+    "src": "data/figures/anatomy/m-flexor-digitorum-brevis.webp",
+    "alt": "The right foot, with the flexor digitorum brevis in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Leg and foot"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Name the muscle",
+   "count": 20,
+   "pass": 80,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Name the muscle"
+   ],
+   "why": "Twenty pictures of the body, each with one muscle or group in red to name."
+  },
+  {
+   "name": "Chapter quiz",
+   "count": 30,
+   "pass": 75,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "end",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Thirty questions from the whole chapter, marked at the end, like an end-of-unit test."
+  },
+  {
+   "name": "Recall without choices",
+   "count": 20,
+   "pass": 75,
+   "pick": "due",
+   "answer": "typed",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Type each answer from memory, starting with the ones due for review. Small typos are forgiven."
+  }
+ ]
+}
