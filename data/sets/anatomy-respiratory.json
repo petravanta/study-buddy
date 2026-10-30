@@ -1,0 +1,1641 @@
+{
+ "id": "anatomy-respiratory",
+ "name": "Respiratory system",
+ "module": "Human anatomy",
+ "description": "The airways and lungs: the nose, pharynx and larynx, the trachea and bronchi, the lobes and coverings of the lungs, how breathing works, gas exchange and its control, and common disorders. Picture questions show the lungs and airways, drawn see-through inside the rib cage, with one part highlighted to name.",
+ "source": {
+  "name": "Written for Study Buddy. Pictures rendered from BodyParts3D (© The Database Center for Life Science, CC BY-SA 2.1 JP).",
+  "url": "https://github.com/petravanta/study-buddy/tree/main/scripts/bodyparts3d"
+ },
+ "updated": "2026-10-30",
+ "questions": [
+  {
+   "id": "resp-job",
+   "prompt": "What are the two main jobs of the respiratory system?",
+   "answers": [
+    "Bringing oxygen in and removing carbon dioxide",
+    "Gas exchange"
+   ],
+   "wrong": [
+    "Making red blood cells and storing iron",
+    "Pumping blood and removing wastes",
+    "Digesting food and absorbing nutrients"
+   ],
+   "explanation": "It also warms and filters the air, makes the sounds of speech and helps keep the blood's pH steady.",
+   "tags": [
+    "Upper airway"
+   ]
+  },
+  {
+   "id": "conducting",
+   "prompt": "Which part of the respiratory tract carries air but takes no part in gas exchange (the 'dead space')?",
+   "answers": [
+    "The conducting zone",
+    "Conducting zone"
+   ],
+   "wrong": [
+    "The respiratory zone",
+    "The alveoli",
+    "The pleural cavity"
+   ],
+   "explanation": "From the nose to the terminal bronchioles. Only the alveoli and the tiny ducts leading to them are the respiratory zone. The dead space is about 150 mL.",
+   "tags": [
+    "Upper airway"
+   ]
+  },
+  {
+   "id": "upper-tract",
+   "prompt": "Which structures make up the upper respiratory tract?",
+   "answers": [
+    "Nose, pharynx and larynx",
+    "Nose, nasal cavity, pharynx and larynx"
+   ],
+   "wrong": [
+    "Trachea, bronchi and lungs",
+    "Pharynx, trachea and bronchi",
+    "Larynx, trachea and alveoli"
+   ],
+   "explanation": "The lower tract is the trachea, bronchi and lungs.",
+   "tags": [
+    "Upper airway"
+   ]
+  },
+  {
+   "id": "nose-job",
+   "prompt": "What do the nasal passages do to the air we breathe in?",
+   "answers": [
+    "Warm, moisten and filter it",
+    "Warm it, wet it and filter it"
+   ],
+   "wrong": [
+    "Cool and dry it",
+    "Add oxygen to it",
+    "Change it from carbon dioxide to oxygen"
+   ],
+   "explanation": "Hairs and sticky mucus catch dust, and a rich blood supply warms the air.",
+   "tags": [
+    "Upper airway"
+   ]
+  },
+  {
+   "id": "conchae",
+   "prompt": "What are the scroll-like bones in the side walls of the nasal cavity, which stir up the air flow, called?",
+   "answers": [
+    "Nasal conchae",
+    "Turbinates",
+    "Conchae"
+   ],
+   "wrong": [
+    "Paranasal sinuses",
+    "Septal cartilages",
+    "Meatuses"
+   ],
+   "explanation": "Superior, middle and inferior. The inferior concha is a separate bone.",
+   "tags": [
+    "Upper airway"
+   ]
+  },
+  {
+   "id": "sinuses",
+   "prompt": "What are the air-filled spaces in the skull bones around the nose called?",
+   "answers": [
+    "Paranasal sinuses",
+    "Sinuses"
+   ],
+   "wrong": [
+    "Conchae",
+    "Meatuses",
+    "Choanae"
+   ],
+   "explanation": "Frontal, maxillary, ethmoid and sphenoid. They lighten the skull, warm the air and add resonance to the voice.",
+   "tags": [
+    "Upper airway"
+   ]
+  },
+  {
+   "id": "pharynx-parts",
+   "prompt": "What are the three parts of the pharynx, from top to bottom?",
+   "answers": [
+    "Nasopharynx, oropharynx, laryngopharynx",
+    "Nasopharynx, oropharynx and laryngopharynx"
+   ],
+   "wrong": [
+    "Oropharynx, nasopharynx, laryngopharynx",
+    "Laryngopharynx, oropharynx, nasopharynx",
+    "Nasopharynx, laryngopharynx, oropharynx"
+   ],
+   "explanation": "Only the nasopharynx carries air alone; the others carry both food and air.",
+   "tags": [
+    "Upper airway"
+   ]
+  },
+  {
+   "id": "eustachian",
+   "prompt": "The auditory (Eustachian) tube joins the middle ear to which part of the throat?",
+   "answers": [
+    "Nasopharynx",
+    "The nasopharynx"
+   ],
+   "wrong": [
+    "Oropharynx",
+    "Laryngopharynx",
+    "Larynx"
+   ],
+   "explanation": "It evens out the air pressure on both sides of the eardrum. Yawning or swallowing opens it, which is why your ears 'pop'.",
+   "tags": [
+    "Upper airway"
+   ]
+  },
+  {
+   "id": "epiglottis",
+   "prompt": "Which flap of cartilage covers the entrance of the larynx during swallowing?",
+   "answers": [
+    "Epiglottis"
+   ],
+   "wrong": [
+    "Uvula",
+    "Vocal fold",
+    "Cricoid cartilage"
+   ],
+   "explanation": "It keeps food and drink from entering the airway.",
+   "tags": [
+    "Upper airway"
+   ]
+  },
+  {
+   "id": "larynx-cartilage",
+   "prompt": "Which is the largest cartilage of the larynx, forming the 'Adam's apple'?",
+   "answers": [
+    "Thyroid cartilage"
+   ],
+   "wrong": [
+    "Cricoid cartilage",
+    "Arytenoid cartilage",
+    "Epiglottis"
+   ],
+   "explanation": "A shield shape, open at the back. It is larger in males because of testosterone at puberty.",
+   "tags": [
+    "Upper airway"
+   ]
+  },
+  {
+   "id": "cricoid",
+   "prompt": "Which cartilage of the larynx forms a complete ring, at the bottom, joining it to the trachea?",
+   "answers": [
+    "Cricoid cartilage",
+    "Cricoid"
+   ],
+   "wrong": [
+    "Thyroid cartilage",
+    "Epiglottis",
+    "Arytenoid cartilage"
+   ],
+   "explanation": "The only complete ring of cartilage in the airway. Cricoid pressure is used to close the oesophagus in emergency anaesthesia.",
+   "tags": [
+    "Upper airway"
+   ]
+  },
+  {
+   "id": "vocal-folds",
+   "prompt": "Which structures in the larynx vibrate to make the voice?",
+   "answers": [
+    "Vocal folds",
+    "Vocal cords"
+   ],
+   "wrong": [
+    "Vestibular folds (false cords)",
+    "Arytenoid cartilages",
+    "The epiglottis"
+   ],
+   "explanation": "Air passing between them makes them vibrate. Tightening them raises the pitch.",
+   "tags": [
+    "Upper airway"
+   ]
+  },
+  {
+   "id": "glottis",
+   "prompt": "What is the opening between the vocal folds called?",
+   "answers": [
+    "Glottis",
+    "Rima glottidis"
+   ],
+   "wrong": [
+    "Epiglottis",
+    "Vestibule",
+    "Laryngeal inlet"
+   ],
+   "explanation": "It narrows when we speak and opens wide in deep breathing.",
+   "tags": [
+    "Upper airway"
+   ]
+  },
+  {
+   "id": "recurrent",
+   "prompt": "Which nerve to the vocal folds can be damaged in thyroid surgery, causing hoarseness?",
+   "answers": [
+    "Recurrent laryngeal nerve"
+   ],
+   "wrong": [
+    "Superior laryngeal nerve",
+    "Hypoglossal nerve",
+    "Phrenic nerve"
+   ],
+   "explanation": "A branch of the vagus nerve. It loops under the aortic arch on the left and under the right subclavian artery on the right.",
+   "tags": [
+    "Upper airway"
+   ]
+  },
+  {
+   "id": "id-trachea",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Trachea",
+    "Windpipe"
+   ],
+   "wrong": [
+    "Oesophagus",
+    "Left main bronchus",
+    "Larynx"
+   ],
+   "explanation": "The tube from the larynx to the carina, held open by C-shaped rings of cartilage.",
+   "figure": {
+    "src": "data/figures/anatomy/r-trachea.webp",
+    "alt": "The lungs and airways inside the rib cage, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Trachea and bronchi"
+   ]
+  },
+  {
+   "id": "trachea-length",
+   "prompt": "About how long is the adult trachea?",
+   "answers": [
+    "About 10 to 12 cm",
+    "10 to 12 cm",
+    "About 11 cm"
+   ],
+   "wrong": [
+    "About 5 cm",
+    "About 20 cm",
+    "About 30 cm"
+   ],
+   "explanation": "It begins at the lower border of the cricoid cartilage (C6) and ends at T4 or T5.",
+   "figure": {
+    "src": "data/figures/anatomy/r-trachea.webp",
+    "alt": "The lungs and airways inside the rib cage, with the trachea in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trachea and bronchi"
+   ]
+  },
+  {
+   "id": "c-rings",
+   "prompt": "The cartilage rings of the trachea are C-shaped, with the gap at the back. Why?",
+   "answers": [
+    "So the oesophagus can bulge into it when swallowing",
+    "So food can pass down the oesophagus behind it"
+   ],
+   "wrong": [
+    "So it can close more easily",
+    "So it can grow longer",
+    "To let blood vessels pass"
+   ],
+   "explanation": "The gap is closed by a smooth muscle, the trachealis, which can narrow the airway, for example in a cough.",
+   "tags": [
+    "Trachea and bronchi"
+   ]
+  },
+  {
+   "id": "trachea-lining",
+   "prompt": "What is the lining of the trachea?",
+   "answers": [
+    "Ciliated pseudostratified columnar epithelium with goblet cells",
+    "Ciliated epithelium with goblet cells"
+   ],
+   "wrong": [
+    "Simple squamous epithelium",
+    "Stratified squamous epithelium",
+    "Simple cuboidal epithelium"
+   ],
+   "explanation": "Mucus from the goblet cells traps dust; cilia sweep it up to the throat to be swallowed (the mucociliary escalator). Smoking paralyses the cilia.",
+   "tags": [
+    "Trachea and bronchi"
+   ]
+  },
+  {
+   "id": "carina",
+   "prompt": "What is the ridge at the bottom of the trachea, where it divides into the two main bronchi, called?",
+   "answers": [
+    "Carina"
+   ],
+   "wrong": [
+    "Hilum",
+    "Glottis",
+    "Cardiac notch"
+   ],
+   "explanation": "It is a very sensitive spot: touching it triggers a violent cough.",
+   "tags": [
+    "Trachea and bronchi"
+   ]
+  },
+  {
+   "id": "id-bronchi",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Bronchi",
+    "Main bronchi",
+    "Bronchial tree",
+    "Bronchus"
+   ],
+   "wrong": [
+    "Trachea",
+    "Bronchioles",
+    "Alveolar ducts"
+   ],
+   "explanation": "The trachea divides at the carina into the right and left main bronchi, which keep branching inside the lungs.",
+   "figure": {
+    "src": "data/figures/anatomy/r-bronchi.webp",
+    "alt": "The lungs and airways inside the rib cage, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Trachea and bronchi"
+   ]
+  },
+  {
+   "id": "id-airways",
+   "prompt": "Which structures are highlighted in red?",
+   "answers": [
+    "Trachea and bronchi",
+    "Trachea and bronchial tree",
+    "Airways"
+   ],
+   "wrong": [
+    "Lungs",
+    "Larynx and pharynx",
+    "Bronchioles and alveoli"
+   ],
+   "explanation": "The tree of tubes carrying air into the lungs.",
+   "figure": {
+    "src": "data/figures/anatomy/r-airways.webp",
+    "alt": "The lungs and airways inside the rib cage, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Trachea and bronchi"
+   ]
+  },
+  {
+   "id": "right-bronchus",
+   "prompt": "Why do swallowed objects usually end up in the right main bronchus rather than the left?",
+   "answers": [
+    "It is wider, shorter and more vertical",
+    "It is wider and more in line with the trachea"
+   ],
+   "wrong": [
+    "It is narrower and longer",
+    "It is closer to the oesophagus",
+    "The left one is blocked by the heart"
+   ],
+   "explanation": "Which is also why a breathing tube pushed in too far goes into the right bronchus.",
+   "figure": {
+    "src": "data/figures/anatomy/r-bronchi.webp",
+    "alt": "The lungs and airways inside the rib cage, with the bronchi in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Trachea and bronchi"
+   ]
+  },
+  {
+   "id": "bronchial-order",
+   "prompt": "Which is the correct order of the airways, from the trachea down to the alveoli?",
+   "answers": [
+    "Trachea, main bronchi, lobar bronchi, segmental bronchi, bronchioles, alveoli"
+   ],
+   "wrong": [
+    "Trachea, bronchioles, main bronchi, lobar bronchi, alveoli",
+    "Trachea, lobar bronchi, main bronchi, bronchioles, alveoli",
+    "Main bronchi, trachea, segmental bronchi, bronchioles, alveoli"
+   ],
+   "explanation": "About 23 divisions in all.",
+   "tags": [
+    "Trachea and bronchi"
+   ]
+  },
+  {
+   "id": "bronchioles",
+   "prompt": "Which airways have no cartilage and are controlled by smooth muscle that narrows in an asthma attack?",
+   "answers": [
+    "Bronchioles"
+   ],
+   "wrong": [
+    "Main bronchi",
+    "Trachea",
+    "Lobar bronchi"
+   ],
+   "explanation": "Their lack of cartilage makes them easy to narrow.",
+   "tags": [
+    "Trachea and bronchi"
+   ]
+  },
+  {
+   "id": "asthma",
+   "prompt": "What happens in the airways during an asthma attack?",
+   "answers": [
+    "The smooth muscle tightens and the lining swells and makes mucus",
+    "Bronchoconstriction and inflammation"
+   ],
+   "wrong": [
+    "The alveoli burst",
+    "The cilia grow faster",
+    "The airways stretch and widen"
+   ],
+   "explanation": "A reliever inhaler, such as salbutamol, relaxes the smooth muscle.",
+   "tags": [
+    "Trachea and bronchi"
+   ]
+  },
+  {
+   "id": "lobar-bronchi",
+   "prompt": "How many lobar bronchi are there in all?",
+   "answers": [
+    "Five",
+    "5"
+   ],
+   "wrong": [
+    "Two",
+    "Three",
+    "Six"
+   ],
+   "explanation": "Three on the right and two on the left, one for each lobe.",
+   "tags": [
+    "Trachea and bronchi"
+   ]
+  },
+  {
+   "id": "id-lungs",
+   "prompt": "Which organs are highlighted in red?",
+   "answers": [
+    "Lungs",
+    "The lungs",
+    "Both lungs"
+   ],
+   "wrong": [
+    "Heart",
+    "Diaphragm",
+    "Bronchi"
+   ],
+   "explanation": "Two cone-shaped organs filling most of the chest, either side of the heart.",
+   "figure": {
+    "src": "data/figures/anatomy/r-lungs.webp",
+    "alt": "The lungs and airways inside the rib cage, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "lung-lobes",
+   "prompt": "How many lobes does each lung have?",
+   "answers": [
+    "Three on the right, two on the left",
+    "Right three, left two"
+   ],
+   "wrong": [
+    "Two on the right, three on the left",
+    "Three on each side",
+    "Two on each side"
+   ],
+   "explanation": "The right lung has upper, middle and lower lobes; the left has only upper and lower, with a notch for the heart.",
+   "figure": {
+    "src": "data/figures/anatomy/r-lungs.webp",
+    "alt": "The lungs and airways inside the rib cage, with both lungs in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "id-upper-lobe-right",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Upper lobe of the right lung",
+    "Right upper lobe",
+    "Superior lobe of the right lung"
+   ],
+   "wrong": [
+    "Middle lobe of the right lung",
+    "Lower lobe of the right lung",
+    "Upper lobe of the left lung"
+   ],
+   "explanation": "The top of the right lung, above the horizontal fissure. Note it is on the left of the picture, as we see the person from the front.",
+   "figure": {
+    "src": "data/figures/anatomy/r-upper-lobe-right.webp",
+    "alt": "The lungs and airways inside the rib cage, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "id-middle-lobe",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Middle lobe of the right lung",
+    "Right middle lobe",
+    "Middle lobe"
+   ],
+   "wrong": [
+    "Upper lobe of the right lung",
+    "Lower lobe of the right lung",
+    "Lingula"
+   ],
+   "explanation": "Only the right lung has one. It lies between the horizontal and oblique fissures, mostly at the front.",
+   "figure": {
+    "src": "data/figures/anatomy/r-middle-lobe.webp",
+    "alt": "The lungs and airways inside the rib cage, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "id-lower-lobe-right",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Lower lobe of the right lung",
+    "Right lower lobe",
+    "Inferior lobe of the right lung"
+   ],
+   "wrong": [
+    "Middle lobe of the right lung",
+    "Upper lobe of the right lung",
+    "Lower lobe of the left lung"
+   ],
+   "explanation": "The largest lobe of the right lung, below the oblique fissure. Seen here from behind, so the right lung is on the right.",
+   "figure": {
+    "src": "data/figures/anatomy/r-lower-lobe-right.webp",
+    "alt": "The lungs and airways seen from behind, with one lobe in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "id-upper-lobe-left",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Upper lobe of the left lung",
+    "Left upper lobe",
+    "Superior lobe of the left lung"
+   ],
+   "wrong": [
+    "Lower lobe of the left lung",
+    "Middle lobe of the right lung",
+    "Upper lobe of the right lung"
+   ],
+   "explanation": "It includes the lingula and the cardiac notch where the heart sits, and is on the right of the picture.",
+   "figure": {
+    "src": "data/figures/anatomy/r-upper-lobe-left.webp",
+    "alt": "The lungs and airways inside the rib cage, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "id-lower-lobe-left",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Lower lobe of the left lung",
+    "Left lower lobe",
+    "Inferior lobe of the left lung"
+   ],
+   "wrong": [
+    "Upper lobe of the left lung",
+    "Lower lobe of the right lung",
+    "Middle lobe of the right lung"
+   ],
+   "explanation": "Below the oblique fissure. Seen here from behind, so the left lung is on the left.",
+   "figure": {
+    "src": "data/figures/anatomy/r-lower-lobe-left.webp",
+    "alt": "The lungs and airways seen from behind, with one lobe in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "id-left-lung",
+   "prompt": "Which organ is highlighted in red?",
+   "answers": [
+    "Left lung"
+   ],
+   "wrong": [
+    "Right lung",
+    "Heart",
+    "Diaphragm"
+   ],
+   "explanation": "Smaller than the right: it has two lobes and a cardiac notch, to leave room for the heart.",
+   "figure": {
+    "src": "data/figures/anatomy/r-left-lung.webp",
+    "alt": "The lungs and airways inside the rib cage, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "id-right-lung",
+   "prompt": "Which organ is highlighted in red?",
+   "answers": [
+    "Right lung"
+   ],
+   "wrong": [
+    "Left lung",
+    "Liver",
+    "Diaphragm"
+   ],
+   "explanation": "Larger than the left, with three lobes, because the heart leans to the left.",
+   "figure": {
+    "src": "data/figures/anatomy/r-right-lung.webp",
+    "alt": "The lungs and airways inside the rib cage, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "fissures",
+   "prompt": "Which two fissures divide the right lung into its three lobes?",
+   "answers": [
+    "Oblique and horizontal fissures",
+    "Horizontal and oblique"
+   ],
+   "wrong": [
+    "Oblique fissure only",
+    "Lateral and medial fissures",
+    "Superior and inferior fissures"
+   ],
+   "explanation": "The left lung has only the oblique fissure.",
+   "tags": [
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "lingula",
+   "prompt": "What is the tongue-shaped projection of the left upper lobe, matching the right middle lobe, called?",
+   "answers": [
+    "Lingula"
+   ],
+   "wrong": [
+    "Cardiac notch",
+    "Hilum",
+    "Apex"
+   ],
+   "tags": [
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "cardiac-notch",
+   "prompt": "What is the indentation on the front edge of the left lung called?",
+   "answers": [
+    "Cardiac notch"
+   ],
+   "wrong": [
+    "Hilum",
+    "Lingula",
+    "Oblique fissure"
+   ],
+   "explanation": "It makes room for the heart.",
+   "tags": [
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "hilum",
+   "prompt": "What is the area on the inner face of each lung where the bronchi, vessels and nerves enter and leave called?",
+   "answers": [
+    "Hilum",
+    "Hilus"
+   ],
+   "wrong": [
+    "Apex",
+    "Carina",
+    "Costal surface"
+   ],
+   "explanation": "Together they form the root of the lung.",
+   "tags": [
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "apex-lung",
+   "prompt": "The apex of each lung extends above which bone?",
+   "answers": [
+    "The first rib",
+    "First rib",
+    "The clavicle"
+   ],
+   "wrong": [
+    "The fifth rib",
+    "The sternum",
+    "The scapula"
+   ],
+   "explanation": "It rises about 2.5 cm above the medial third of the clavicle, so a stab wound at the base of the neck can puncture it.",
+   "tags": [
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "lung-base",
+   "prompt": "The base of each lung rests on which structure?",
+   "answers": [
+    "The diaphragm",
+    "Diaphragm"
+   ],
+   "wrong": [
+    "The liver",
+    "The heart",
+    "The first rib"
+   ],
+   "tags": [
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "lung-segments",
+   "prompt": "How many bronchopulmonary segments does each lung have?",
+   "answers": [
+    "About 10",
+    "Ten",
+    "10"
+   ],
+   "wrong": [
+    "About 5",
+    "About 3",
+    "About 20"
+   ],
+   "explanation": "Each segment has its own segmental bronchus and artery, so a diseased segment can be removed on its own.",
+   "tags": [
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "pleura",
+   "prompt": "What is the double-layered membrane around each lung called?",
+   "answers": [
+    "Pleura"
+   ],
+   "wrong": [
+    "Pericardium",
+    "Peritoneum",
+    "Meninges"
+   ],
+   "explanation": "The visceral pleura covers the lung and the parietal pleura lines the chest wall; between them lies a thin film of fluid.",
+   "tags": [
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "pleural-cavity",
+   "prompt": "What holds the lung against the chest wall so that it expands when the chest does?",
+   "answers": [
+    "The thin film of fluid between the pleural layers",
+    "Pleural fluid",
+    "Surface tension of the pleural fluid"
+   ],
+   "wrong": [
+    "Glue-like connective tissue",
+    "Suction from the trachea",
+    "The ribs pressing on it"
+   ],
+   "explanation": "Like two wet glass plates that slide but don't come apart.",
+   "tags": [
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "pneumothorax",
+   "prompt": "What is air in the pleural cavity, which makes the lung collapse, called?",
+   "answers": [
+    "Pneumothorax"
+   ],
+   "wrong": [
+    "Haemothorax",
+    "Pleural effusion",
+    "Empyema"
+   ],
+   "explanation": "The lung collapses because its elastic recoil is no longer opposed. A tube drain lets the air out.",
+   "tags": [
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "pleural-effusion",
+   "prompt": "What is an excess of fluid in the pleural cavity called?",
+   "answers": [
+    "Pleural effusion"
+   ],
+   "wrong": [
+    "Pneumothorax",
+    "Pulmonary oedema",
+    "Empyema"
+   ],
+   "explanation": "From heart failure, infection or cancer, among others.",
+   "tags": [
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "pleurisy",
+   "prompt": "What is inflammation of the pleura, causing sharp pain when breathing, called?",
+   "answers": [
+    "Pleurisy",
+    "Pleuritis"
+   ],
+   "wrong": [
+    "Pneumonia",
+    "Bronchitis",
+    "Pericarditis"
+   ],
+   "tags": [
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "mediastinum",
+   "prompt": "What is the central part of the chest, between the lungs, containing the heart, trachea and great vessels, called?",
+   "answers": [
+    "Mediastinum"
+   ],
+   "wrong": [
+    "Hilum",
+    "Pleural cavity",
+    "Thoracic inlet"
+   ],
+   "tags": [
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "lung-blood",
+   "prompt": "Which vessels supply the lung tissue itself with oxygen-rich blood?",
+   "answers": [
+    "Bronchial arteries",
+    "The bronchial arteries"
+   ],
+   "wrong": [
+    "Pulmonary arteries",
+    "Pulmonary veins",
+    "Coronary arteries"
+   ],
+   "explanation": "They come from the thoracic aorta. The pulmonary arteries carry blood to the alveoli to pick up oxygen.",
+   "tags": [
+    "Lungs and pleura"
+   ]
+  },
+  {
+   "id": "id-diaphragm",
+   "prompt": "Which part is highlighted in red?",
+   "answers": [
+    "Diaphragm"
+   ],
+   "wrong": [
+    "Intercostal muscles",
+    "Transversus abdominis",
+    "Rib cage"
+   ],
+   "explanation": "The dome-shaped muscle under the lungs. Seen here from the front and a little above.",
+   "figure": {
+    "src": "data/figures/anatomy/r-diaphragm.webp",
+    "alt": "The lungs and rib cage, with the diaphragm in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "diaphragm-inspire",
+   "prompt": "What does the diaphragm do when you breathe in?",
+   "answers": [
+    "It contracts and flattens, moving down",
+    "Contracts and flattens",
+    "It moves down"
+   ],
+   "wrong": [
+    "It relaxes and moves up",
+    "It contracts and moves up",
+    "It does not move"
+   ],
+   "explanation": "That enlarges the chest and the pressure inside falls below that of the air outside, so air flows in.",
+   "figure": {
+    "src": "data/figures/anatomy/r-diaphragm.webp",
+    "alt": "The lungs and airways inside the rib cage, with the diaphragm in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "quiet-breath",
+   "prompt": "Which muscles do most of the work in quiet breathing?",
+   "answers": [
+    "The diaphragm and the external intercostals",
+    "Diaphragm and external intercostals"
+   ],
+   "wrong": [
+    "The abdominal muscles",
+    "The internal intercostals",
+    "The scalenes and sternocleidomastoids"
+   ],
+   "explanation": "Quiet breathing out needs no muscle: the lungs and chest wall recoil like a stretched spring.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "forced-breath",
+   "prompt": "Which muscles pull the ribs down and push the diaphragm up in forced breathing out?",
+   "answers": [
+    "The abdominal muscles and internal intercostals",
+    "Internal intercostals and abdominal muscles"
+   ],
+   "wrong": [
+    "The diaphragm and external intercostals",
+    "The scalenes",
+    "The sternocleidomastoids"
+   ],
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "accessory",
+   "prompt": "Which neck muscles help to lift the ribs in hard breathing in?",
+   "answers": [
+    "Scalenes and sternocleidomastoids",
+    "Sternocleidomastoids and scalenes"
+   ],
+   "wrong": [
+    "Trapezius and latissimus dorsi",
+    "Platysma and omohyoid",
+    "Rhomboids and levator scapulae"
+   ],
+   "explanation": "They are 'accessory muscles of inspiration'. Using them at rest is a sign of respiratory distress.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "boyle",
+   "prompt": "Which gas law explains why air flows into the lungs as the chest expands?",
+   "answers": [
+    "Boyle's law",
+    "Boyle’s law"
+   ],
+   "wrong": [
+    "Charles's law",
+    "Dalton's law",
+    "Henry's law"
+   ],
+   "explanation": "At a constant temperature, when the volume goes up, the pressure goes down.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "tidal-volume",
+   "prompt": "About how much air is breathed in with each quiet breath (tidal volume)?",
+   "answers": [
+    "About 500 mL",
+    "500 mL",
+    "Half a litre"
+   ],
+   "wrong": [
+    "About 50 mL",
+    "About 1.5 litres",
+    "About 5 litres"
+   ],
+   "explanation": "At about 12 breaths a minute, that is about 6 litres a minute.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "vital-capacity",
+   "prompt": "About how much air can a healthy adult breathe out after the deepest possible breath in (vital capacity)?",
+   "answers": [
+    "About 4 to 5 litres",
+    "4 to 5 L",
+    "About 4.5 litres"
+   ],
+   "wrong": [
+    "About 500 mL",
+    "About 1 litre",
+    "About 7 litres"
+   ],
+   "explanation": "Less in women and in smaller people. A spirometer measures it.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "residual-volume",
+   "prompt": "What is the air that stays in the lungs after the strongest breath out called?",
+   "answers": [
+    "Residual volume"
+   ],
+   "wrong": [
+    "Tidal volume",
+    "Dead space",
+    "Vital capacity"
+   ],
+   "explanation": "About 1.2 litres. It stops the alveoli from collapsing completely.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "alveoli",
+   "prompt": "Where does gas exchange between the air and the blood take place?",
+   "answers": [
+    "In the alveoli",
+    "Alveoli"
+   ],
+   "wrong": [
+    "In the bronchi",
+    "In the bronchioles",
+    "In the trachea"
+   ],
+   "explanation": "About 300 million tiny sacs, with a surface of about 70 square metres.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "alveolar-wall",
+   "prompt": "How thick is the barrier between the air in the alveoli and the blood in the capillaries?",
+   "answers": [
+    "About 0.5 micrometres",
+    "Under a micrometre",
+    "A cell or two thick"
+   ],
+   "wrong": [
+    "About 5 millimetres",
+    "About 50 micrometres",
+    "About 1 millimetre"
+   ],
+   "explanation": "The thin alveolar wall (type I cells) and capillary wall fuse, which makes the diffusion very fast.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "type-ii",
+   "prompt": "Which cells of the alveolar wall make surfactant?",
+   "answers": [
+    "Type II alveolar cells",
+    "Type II pneumocytes"
+   ],
+   "wrong": [
+    "Type I alveolar cells",
+    "Alveolar macrophages",
+    "Goblet cells"
+   ],
+   "explanation": "Surfactant cuts the surface tension of the fluid lining the alveoli so they don't collapse.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "surfactant",
+   "prompt": "What does surfactant do?",
+   "answers": [
+    "Lowers the surface tension in the alveoli",
+    "Stops the alveoli collapsing"
+   ],
+   "wrong": [
+    "Makes mucus",
+    "Kills bacteria",
+    "Carries oxygen"
+   ],
+   "explanation": "Premature babies lack it and get respiratory distress syndrome.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "macrophage",
+   "prompt": "Which cells in the alveoli engulf dust and bacteria?",
+   "answers": [
+    "Alveolar macrophages",
+    "Dust cells"
+   ],
+   "wrong": [
+    "Type I cells",
+    "Type II cells",
+    "Goblet cells"
+   ],
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "oxygen-carry",
+   "prompt": "How is most oxygen carried in the blood?",
+   "answers": [
+    "Bound to haemoglobin in red blood cells",
+    "On haemoglobin"
+   ],
+   "wrong": [
+    "Dissolved in plasma",
+    "As bicarbonate",
+    "Bound to albumin"
+   ],
+   "explanation": "About 98.5%; only 1.5% is dissolved in plasma.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "co2-carry",
+   "prompt": "How is most carbon dioxide carried in the blood?",
+   "answers": [
+    "As bicarbonate ions in the plasma",
+    "As bicarbonate"
+   ],
+   "wrong": [
+    "Bound to haemoglobin",
+    "Dissolved in plasma",
+    "As carbon monoxide"
+   ],
+   "explanation": "About 70%. Red cells make it with carbonic anhydrase; the rest is on haemoglobin (about 23%) and dissolved (about 7%).",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "carbon-monoxide",
+   "prompt": "Why is carbon monoxide poisonous?",
+   "answers": [
+    "It binds to haemoglobin much more tightly than oxygen does",
+    "It blocks haemoglobin from carrying oxygen"
+   ],
+   "wrong": [
+    "It dissolves the red cells",
+    "It stops the lungs expanding",
+    "It blocks the airways"
+   ],
+   "explanation": "About 200 times more tightly. The skin may look cherry-red.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "bohr",
+   "prompt": "What does a rise in carbon dioxide or acid do to the way haemoglobin holds oxygen (the Bohr effect)?",
+   "answers": [
+    "It makes it release oxygen more readily",
+    "It lowers its affinity for oxygen"
+   ],
+   "wrong": [
+    "It makes it hold oxygen more tightly",
+    "It has no effect",
+    "It destroys the haemoglobin"
+   ],
+   "explanation": "Working muscles make CO2 and acid, so they get more oxygen.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "resp-centres",
+   "prompt": "Which part of the brain sets the basic rhythm of breathing?",
+   "answers": [
+    "The medulla oblongata",
+    "Medulla oblongata",
+    "Medulla"
+   ],
+   "wrong": [
+    "The cerebellum",
+    "The thalamus",
+    "The cerebral cortex"
+   ],
+   "explanation": "With the pons helping to smooth it. The cortex can override it for a while (holding your breath).",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "chemoreceptor",
+   "prompt": "Which change in the blood is the strongest stimulus to breathe faster?",
+   "answers": [
+    "A rise in carbon dioxide (or fall in pH)",
+    "Raised carbon dioxide",
+    "High CO2"
+   ],
+   "wrong": [
+    "A fall in oxygen",
+    "A rise in blood sugar",
+    "A fall in temperature"
+   ],
+   "explanation": "Central chemoreceptors in the medulla respond to CO2 through the pH of the cerebrospinal fluid. Peripheral ones in the carotid and aortic bodies mainly respond to a fall in oxygen.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "hering-breuer",
+   "prompt": "Stretch receptors in the lungs stop breathing in when the lungs are very full. What is this reflex called?",
+   "answers": [
+    "Hering–Breuer reflex",
+    "Hering-Breuer reflex"
+   ],
+   "wrong": [
+    "Cough reflex",
+    "Gag reflex",
+    "Bainbridge reflex"
+   ],
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "phrenic-nerve",
+   "prompt": "Which nerve supplies the diaphragm?",
+   "answers": [
+    "Phrenic nerve",
+    "Phrenic"
+   ],
+   "wrong": [
+    "Vagus nerve",
+    "Intercostal nerves",
+    "Long thoracic nerve"
+   ],
+   "explanation": "From C3, 4 and 5. A neck injury above that level stops breathing.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "hiccup",
+   "prompt": "What causes a hiccup?",
+   "answers": [
+    "A sudden spasm of the diaphragm with the glottis closing",
+    "A spasm of the diaphragm"
+   ],
+   "wrong": [
+    "A spasm of the epiglottis alone",
+    "Air trapped in the stomach",
+    "A spasm of the intercostal muscles"
+   ],
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "cough",
+   "prompt": "What happens in a cough?",
+   "answers": [
+    "A deep breath in, the glottis closes, then air is blown out explosively",
+    "A deep breath in and a forced breath out against a closed glottis"
+   ],
+   "wrong": [
+    "A slow breath out through the nose",
+    "Air is sucked in through the mouth only",
+    "The diaphragm relaxes and stays relaxed"
+   ],
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "hypoxia",
+   "prompt": "What is a low level of oxygen in the tissues called?",
+   "answers": [
+    "Hypoxia"
+   ],
+   "wrong": [
+    "Hypercapnia",
+    "Anoxia of the blood",
+    "Hyperventilation"
+   ],
+   "explanation": "A raised level of carbon dioxide in the blood is hypercapnia.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "hypercapnia",
+   "prompt": "What is a raised level of carbon dioxide in the blood called?",
+   "answers": [
+    "Hypercapnia"
+   ],
+   "wrong": [
+    "Hypoxia",
+    "Hypoxaemia",
+    "Hypocapnia"
+   ],
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "hyperventilation",
+   "prompt": "Breathing too fast and too deeply washes carbon dioxide out of the blood. What is the effect on blood pH?",
+   "answers": [
+    "It rises (respiratory alkalosis)",
+    "Respiratory alkalosis",
+    "It becomes more alkaline"
+   ],
+   "wrong": [
+    "It falls (respiratory acidosis)",
+    "It does not change",
+    "It becomes neutral"
+   ],
+   "explanation": "A person may feel dizzy and get tingling in the hands.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "copd",
+   "prompt": "What disease, mostly from smoking, combines chronic bronchitis and emphysema, with slowly worsening airflow limitation?",
+   "answers": [
+    "COPD",
+    "Chronic obstructive pulmonary disease"
+   ],
+   "wrong": [
+    "Asthma",
+    "Cystic fibrosis",
+    "Pulmonary fibrosis"
+   ],
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "emphysema",
+   "prompt": "What is the breakdown of the alveolar walls, leaving fewer, larger air spaces, called?",
+   "answers": [
+    "Emphysema"
+   ],
+   "wrong": [
+    "Bronchitis",
+    "Atelectasis",
+    "Pneumonia"
+   ],
+   "explanation": "Gas exchange falls because the surface area does.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "pneumonia",
+   "prompt": "What is infection of the lung tissue, which fills the alveoli with fluid and pus, called?",
+   "answers": [
+    "Pneumonia"
+   ],
+   "wrong": [
+    "Bronchitis",
+    "Pleurisy",
+    "Tuberculosis"
+   ],
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "tb",
+   "prompt": "Which bacterium causes tuberculosis?",
+   "answers": [
+    "Mycobacterium tuberculosis"
+   ],
+   "wrong": [
+    "Streptococcus pneumoniae",
+    "Haemophilus influenzae",
+    "Bordetella pertussis"
+   ],
+   "explanation": "It spreads in droplets and mainly infects the lungs.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "embolism",
+   "prompt": "What is a blood clot lodged in a pulmonary artery called?",
+   "answers": [
+    "Pulmonary embolism"
+   ],
+   "wrong": [
+    "Pulmonary oedema",
+    "Pneumothorax",
+    "Pulmonary hypertension"
+   ],
+   "explanation": "Most clots come from the deep veins of the legs.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "cystic-fibrosis",
+   "prompt": "In cystic fibrosis, a faulty chloride channel makes the airway mucus thick and sticky. Which chromosome carries the gene?",
+   "answers": [
+    "Chromosome 7",
+    "7"
+   ],
+   "wrong": [
+    "Chromosome 1",
+    "Chromosome 11",
+    "Chromosome 21"
+   ],
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "lung-cancer-cause",
+   "prompt": "Which is the leading cause of lung cancer?",
+   "answers": [
+    "Smoking",
+    "Tobacco smoking"
+   ],
+   "wrong": [
+    "Air pollution",
+    "Radon gas",
+    "Asbestos"
+   ],
+   "explanation": "About 85% of cases. Radon is the second most common cause.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "spirometer",
+   "prompt": "What instrument measures the volume of air a person can breathe in and out?",
+   "answers": [
+    "Spirometer"
+   ],
+   "wrong": [
+    "Sphygmomanometer",
+    "Stethoscope",
+    "Oximeter"
+   ],
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "pulse-ox",
+   "prompt": "What does a pulse oximeter on the fingertip measure?",
+   "answers": [
+    "The oxygen saturation of the blood",
+    "Oxygen saturation"
+   ],
+   "wrong": [
+    "The carbon dioxide in the blood",
+    "The blood pressure",
+    "The lung volume"
+   ],
+   "explanation": "Normally 95% or more.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  },
+  {
+   "id": "oxygen-share",
+   "prompt": "About what percentage of the air we breathe in is oxygen?",
+   "answers": [
+    "About 21%",
+    "21%"
+   ],
+   "wrong": [
+    "About 4%",
+    "About 50%",
+    "About 78%"
+   ],
+   "explanation": "Nitrogen makes up 78%. Breathed-out air still has about 16% oxygen, so expired-air resuscitation (mouth to mouth) works.",
+   "tags": [
+    "Breathing and gas exchange"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Name the part",
+   "count": 12,
+   "pass": 80,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Name the part"
+   ],
+   "why": "Twelve pictures of the lungs and airways, each with one part in red to name."
+  },
+  {
+   "name": "Chapter quiz",
+   "count": 30,
+   "pass": 75,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "end",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Thirty questions from the whole chapter, marked at the end, like an end-of-unit test."
+  },
+  {
+   "name": "Recall without choices",
+   "count": 20,
+   "pass": 75,
+   "pick": "due",
+   "answer": "typed",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Type each answer from memory, starting with the ones due for review. Small typos are forgiven."
+  }
+ ]
+}
