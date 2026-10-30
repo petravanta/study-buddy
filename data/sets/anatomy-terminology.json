@@ -1,0 +1,1549 @@
+{
+ "id": "anatomy-terminology",
+ "name": "Anatomical terminology",
+ "module": "Human anatomy",
+ "description": "The language of anatomy: the anatomical position, directions, planes, body regions and cavities, joint movements and the prefixes, suffixes and word roots used to build medical terms. A good first chapter, and a useful reference for every other one.",
+ "source": {
+  "name": "Written for Study Buddy.",
+  "url": "https://github.com/petravanta/study-buddy/tree/main/scripts/bodyparts3d"
+ },
+ "updated": "2026-10-30",
+ "questions": [
+  {
+   "id": "anat-position",
+   "prompt": "Which is the standard anatomical position?",
+   "answers": [
+    "Standing upright, facing forward, arms at the sides with the palms forward",
+    "Upright, facing front, palms forward, feet together"
+   ],
+   "wrong": [
+    "Lying on the back with the palms down",
+    "Standing with the palms facing the thighs and facing sideways",
+    "Sitting with the arms crossed"
+   ],
+   "explanation": "Every direction is described as if the body were in this position, whatever its real position.",
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "anterior",
+   "prompt": "Which term means towards the front of the body?",
+   "answers": [
+    "Anterior (ventral)",
+    "Anterior",
+    "Ventral"
+   ],
+   "wrong": [
+    "Posterior (dorsal)",
+    "Superior",
+    "Medial"
+   ],
+   "explanation": "The navel is anterior to the spine.",
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "posterior",
+   "prompt": "Which term means towards the back of the body?",
+   "answers": [
+    "Posterior (dorsal)",
+    "Posterior",
+    "Dorsal"
+   ],
+   "wrong": [
+    "Anterior (ventral)",
+    "Inferior",
+    "Lateral"
+   ],
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "superior",
+   "prompt": "Which term means above, or towards the head?",
+   "answers": [
+    "Superior (cranial)",
+    "Superior",
+    "Cranial",
+    "Cephalic"
+   ],
+   "wrong": [
+    "Inferior (caudal)",
+    "Proximal",
+    "Anterior"
+   ],
+   "explanation": "The head is superior to the neck.",
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "inferior",
+   "prompt": "Which term means below, or towards the feet?",
+   "answers": [
+    "Inferior (caudal)",
+    "Inferior",
+    "Caudal"
+   ],
+   "wrong": [
+    "Superior (cranial)",
+    "Distal",
+    "Posterior"
+   ],
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "medial",
+   "prompt": "Which term means nearer to the midline of the body?",
+   "answers": [
+    "Medial"
+   ],
+   "wrong": [
+    "Lateral",
+    "Proximal",
+    "Superficial"
+   ],
+   "explanation": "The nose is medial to the ears.",
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "lateral",
+   "prompt": "Which term means farther from the midline of the body?",
+   "answers": [
+    "Lateral"
+   ],
+   "wrong": [
+    "Medial",
+    "Distal",
+    "Deep"
+   ],
+   "explanation": "The ears are lateral to the eyes. In the anatomical position the thumb is the lateral digit of the hand.",
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "proximal",
+   "prompt": "Which term means nearer to the point of attachment of a limb to the trunk?",
+   "answers": [
+    "Proximal"
+   ],
+   "wrong": [
+    "Distal",
+    "Superior",
+    "Medial"
+   ],
+   "explanation": "The elbow is proximal to the wrist.",
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "distal",
+   "prompt": "Which term means farther from the point of attachment of a limb to the trunk?",
+   "answers": [
+    "Distal"
+   ],
+   "wrong": [
+    "Proximal",
+    "Inferior",
+    "Lateral"
+   ],
+   "explanation": "The fingers are distal to the wrist.",
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "superficial",
+   "prompt": "Which term means nearer to the surface of the body?",
+   "answers": [
+    "Superficial"
+   ],
+   "wrong": [
+    "Deep",
+    "Proximal",
+    "Anterior"
+   ],
+   "explanation": "The skin is superficial to the muscles.",
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "deep",
+   "prompt": "Which term means farther from the surface of the body?",
+   "answers": [
+    "Deep"
+   ],
+   "wrong": [
+    "Superficial",
+    "Distal",
+    "Posterior"
+   ],
+   "explanation": "The ribs are deep to the skin.",
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "ipsilateral",
+   "prompt": "What does 'ipsilateral' mean?",
+   "answers": [
+    "On the same side of the body",
+    "Same side"
+   ],
+   "wrong": [
+    "On the opposite side of the body",
+    "On both sides of the body",
+    "In the middle"
+   ],
+   "explanation": "The right hand and the right foot are ipsilateral.",
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "contralateral",
+   "prompt": "What does 'contralateral' mean?",
+   "answers": [
+    "On the opposite side of the body",
+    "Opposite side"
+   ],
+   "wrong": [
+    "On the same side of the body",
+    "On both sides",
+    "Nearer the surface"
+   ],
+   "explanation": "The right arm and the left leg are contralateral.",
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "sagittal",
+   "prompt": "Which plane divides the body into left and right parts?",
+   "answers": [
+    "Sagittal plane",
+    "Sagittal"
+   ],
+   "wrong": [
+    "Coronal plane",
+    "Transverse plane",
+    "Oblique plane"
+   ],
+   "explanation": "A sagittal plane through the midline is the midsagittal (median) plane.",
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "coronal",
+   "prompt": "Which plane divides the body into front (anterior) and back (posterior) parts?",
+   "answers": [
+    "Coronal (frontal) plane",
+    "Coronal plane",
+    "Frontal plane",
+    "Coronal"
+   ],
+   "wrong": [
+    "Sagittal plane",
+    "Transverse plane",
+    "Median plane"
+   ],
+   "explanation": "Named after the crown, as a tiara would sit on the head.",
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "transverse",
+   "prompt": "Which plane divides the body into upper (superior) and lower (inferior) parts?",
+   "answers": [
+    "Transverse (horizontal) plane",
+    "Transverse plane",
+    "Horizontal plane",
+    "Transverse"
+   ],
+   "wrong": [
+    "Sagittal plane",
+    "Coronal plane",
+    "Median plane"
+   ],
+   "explanation": "A CT scan shows transverse slices.",
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "axial-ct",
+   "prompt": "Another name for a cross-section (a transverse slice) is…",
+   "answers": [
+    "Axial section",
+    "Axial",
+    "Cross-section"
+   ],
+   "wrong": [
+    "Sagittal section",
+    "Coronal section",
+    "Longitudinal section"
+   ],
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "prone-supine",
+   "prompt": "What is the difference between prone and supine?",
+   "answers": [
+    "Prone is lying face down; supine is lying face up",
+    "Prone: face down. Supine: face up"
+   ],
+   "wrong": [
+    "Prone is lying face up; supine is lying face down",
+    "Prone is lying on the side",
+    "Supine is standing"
+   ],
+   "explanation": "A memory aid: you can hold a bowl of soup in your supine hand.",
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "palmar",
+   "prompt": "Which terms describe the front and the back of the hand?",
+   "answers": [
+    "Palmar and dorsal",
+    "Palmar (front) and dorsal (back)"
+   ],
+   "wrong": [
+    "Plantar and dorsal",
+    "Anterior and ventral",
+    "Volar and plantar"
+   ],
+   "explanation": "In the foot the sole is plantar and the top is dorsal.",
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "plantar",
+   "prompt": "What is the term for the sole of the foot?",
+   "answers": [
+    "Plantar",
+    "The plantar surface"
+   ],
+   "wrong": [
+    "Palmar",
+    "Dorsal",
+    "Volar"
+   ],
+   "tags": [
+    "Position, planes and directions"
+   ]
+  },
+  {
+   "id": "axial-appendicular",
+   "prompt": "What are the two main divisions of the body?",
+   "answers": [
+    "Axial (head, neck, trunk) and appendicular (limbs)",
+    "Axial and appendicular"
+   ],
+   "wrong": [
+    "Anterior and posterior",
+    "Visceral and somatic",
+    "Superior and inferior"
+   ],
+   "explanation": "The appendicular part includes the girdles.",
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "dorsal-cavity",
+   "prompt": "Which body cavity at the back holds the brain and the spinal cord?",
+   "answers": [
+    "Dorsal cavity",
+    "The dorsal cavity (cranial and spinal cavities)",
+    "Cranial and vertebral cavities"
+   ],
+   "wrong": [
+    "Thoracic cavity",
+    "Abdominopelvic cavity",
+    "Pleural cavity"
+   ],
+   "explanation": "The cranial cavity holds the brain; the vertebral (spinal) cavity holds the cord.",
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "ventral-cavity",
+   "prompt": "What are the two main parts of the ventral body cavity?",
+   "answers": [
+    "Thoracic cavity and abdominopelvic cavity",
+    "Thoracic and abdominopelvic"
+   ],
+   "wrong": [
+    "Cranial and spinal",
+    "Pleural and pericardial",
+    "Abdominal and cranial"
+   ],
+   "explanation": "They are separated by the diaphragm.",
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "mediastinum",
+   "prompt": "What is the central part of the thoracic cavity, between the lungs, called?",
+   "answers": [
+    "Mediastinum",
+    "The mediastinum"
+   ],
+   "wrong": [
+    "Pleural cavity",
+    "Pericardial cavity",
+    "Hilum"
+   ],
+   "explanation": "It holds the heart, great vessels, trachea, oesophagus and thymus.",
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "pleural-cavity",
+   "prompt": "Which cavities surround each of the lungs?",
+   "answers": [
+    "The pleural cavities",
+    "Pleural cavity"
+   ],
+   "wrong": [
+    "The pericardial cavity",
+    "The peritoneal cavity",
+    "The mediastinum"
+   ],
+   "explanation": "A thin film of fluid reduces friction.",
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "pericardial-cavity",
+   "prompt": "Which cavity surrounds the heart?",
+   "answers": [
+    "The pericardial cavity",
+    "Pericardial cavity"
+   ],
+   "wrong": [
+    "The pleural cavity",
+    "The peritoneal cavity",
+    "The mediastinum"
+   ],
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "peritoneum",
+   "prompt": "What is the membrane that lines the abdominal cavity and covers many of its organs?",
+   "answers": [
+    "Peritoneum",
+    "The peritoneum"
+   ],
+   "wrong": [
+    "Pleura",
+    "Pericardium",
+    "Meninges"
+   ],
+   "explanation": "The parietal layer lines the wall; the visceral layer covers the organs.",
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "serous",
+   "prompt": "What are the two layers of a serous membrane called?",
+   "answers": [
+    "Parietal and visceral",
+    "Parietal (wall) and visceral (organ)"
+   ],
+   "wrong": [
+    "Superficial and deep",
+    "Mucous and serous",
+    "Inner and outer cortex"
+   ],
+   "explanation": "With a thin space of fluid between them.",
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "retroperitoneal",
+   "prompt": "Which of these organs is retroperitoneal, lying behind the peritoneum?",
+   "answers": [
+    "Kidney",
+    "The kidneys"
+   ],
+   "wrong": [
+    "Stomach",
+    "Liver",
+    "Spleen"
+   ],
+   "explanation": "Others are the pancreas (mostly), the duodenum (mostly), the aorta and the inferior vena cava.",
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "quadrants",
+   "prompt": "Into how many quadrants is the abdomen commonly divided, and by what?",
+   "answers": [
+    "Four, by a vertical and a horizontal line through the navel",
+    "Four quadrants"
+   ],
+   "wrong": [
+    "Nine, by two vertical and two horizontal lines",
+    "Two, by the midline",
+    "Three, by the ribs"
+   ],
+   "explanation": "Right upper, left upper, right lower and left lower.",
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "liver-quadrant",
+   "prompt": "In which abdominal quadrant is most of the liver?",
+   "answers": [
+    "Right upper quadrant",
+    "RUQ",
+    "Right upper"
+   ],
+   "wrong": [
+    "Left upper quadrant",
+    "Right lower quadrant",
+    "Left lower quadrant"
+   ],
+   "explanation": "The gallbladder is also in the right upper quadrant.",
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "appendix-quadrant",
+   "prompt": "In which abdominal quadrant is the appendix usually found?",
+   "answers": [
+    "Right lower quadrant",
+    "RLQ",
+    "Right lower"
+   ],
+   "wrong": [
+    "Left lower quadrant",
+    "Right upper quadrant",
+    "Left upper quadrant"
+   ],
+   "explanation": "The pain of appendicitis ends up here, at McBurney's point.",
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "spleen-quadrant",
+   "prompt": "In which abdominal quadrant is the spleen?",
+   "answers": [
+    "Left upper quadrant",
+    "LUQ",
+    "Left upper"
+   ],
+   "wrong": [
+    "Right upper quadrant",
+    "Left lower quadrant",
+    "Right lower quadrant"
+   ],
+   "explanation": "With most of the stomach.",
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "nine-regions",
+   "prompt": "Into how many regions is the abdomen divided in the more detailed scheme?",
+   "answers": [
+    "Nine",
+    "9"
+   ],
+   "wrong": [
+    "Four",
+    "Six",
+    "Twelve"
+   ],
+   "explanation": "Right hypochondriac, epigastric, left hypochondriac; right lumbar, umbilical, left lumbar; right iliac (inguinal), hypogastric (pubic), left iliac.",
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "epigastric",
+   "prompt": "Which of the nine regions is directly above the umbilical region, over the stomach?",
+   "answers": [
+    "Epigastric region",
+    "Epigastric",
+    "Epigastrium"
+   ],
+   "wrong": [
+    "Hypogastric region",
+    "Hypochondriac region",
+    "Lumbar region"
+   ],
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "regions-names",
+   "prompt": "What is the name of the region of the arm between the shoulder and the elbow?",
+   "answers": [
+    "Brachium (the arm)",
+    "Brachial region",
+    "Arm",
+    "Brachium"
+   ],
+   "wrong": [
+    "Antebrachium",
+    "Cubital region",
+    "Carpal region"
+   ],
+   "explanation": "The antebrachium is the forearm, between the elbow and the wrist.",
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "antebrachial",
+   "prompt": "What is the name of the region of the forearm?",
+   "answers": [
+    "Antebrachial region",
+    "Antebrachium",
+    "Forearm"
+   ],
+   "wrong": [
+    "Brachial region",
+    "Carpal region",
+    "Cubital region"
+   ],
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "popliteal",
+   "prompt": "Which region is the hollow behind the knee?",
+   "answers": [
+    "Popliteal fossa",
+    "Popliteal region",
+    "Popliteal"
+   ],
+   "wrong": [
+    "Cubital fossa",
+    "Axilla",
+    "Femoral triangle"
+   ],
+   "explanation": "The cubital fossa is the hollow in front of the elbow.",
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "axilla",
+   "prompt": "What is the armpit called in anatomy?",
+   "answers": [
+    "Axilla",
+    "The axilla"
+   ],
+   "wrong": [
+    "Cubital fossa",
+    "Popliteal fossa",
+    "Inguinal region"
+   ],
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "orbital-region",
+   "prompt": "What is the name for the region of the eye?",
+   "answers": [
+    "Orbital region",
+    "Orbital",
+    "Ocular region"
+   ],
+   "wrong": [
+    "Buccal region",
+    "Otic region",
+    "Nasal region"
+   ],
+   "explanation": "The cheek is buccal, the ear region is otic.",
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "cephalic-cervical",
+   "prompt": "What do 'cephalic' and 'cervical' mean?",
+   "answers": [
+    "Of the head and of the neck",
+    "Head and neck"
+   ],
+   "wrong": [
+    "Of the neck and of the chest",
+    "Of the head and of the arm",
+    "Of the heart and of the neck"
+   ],
+   "explanation": "The cervix is also 'the neck' of the uterus.",
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "thoracic-lumbar",
+   "prompt": "Which regions are the chest and the lower back?",
+   "answers": [
+    "Thoracic and lumbar",
+    "Thoracic (chest) and lumbar (loins)"
+   ],
+   "wrong": [
+    "Cervical and sacral",
+    "Abdominal and pelvic",
+    "Pectoral and sacral"
+   ],
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "inguinal",
+   "prompt": "What is the groin called?",
+   "answers": [
+    "Inguinal region",
+    "Inguinal",
+    "Groin"
+   ],
+   "wrong": [
+    "Gluteal region",
+    "Pubic region",
+    "Femoral region"
+   ],
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "gluteal",
+   "prompt": "What is the region of the buttock called?",
+   "answers": [
+    "Gluteal region",
+    "Gluteal"
+   ],
+   "wrong": [
+    "Sacral region",
+    "Inguinal region",
+    "Lumbar region"
+   ],
+   "tags": [
+    "Body regions and cavities"
+   ]
+  },
+  {
+   "id": "prefix-hypo",
+   "prompt": "What does the prefix 'hypo-' mean?",
+   "answers": [
+    "Under, below, too little",
+    "Below or deficient"
+   ],
+   "wrong": [
+    "Over, above, too much",
+    "Around",
+    "Against"
+   ],
+   "explanation": "Hypothermia, hypoglycaemia.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "prefix-hyper",
+   "prompt": "What does the prefix 'hyper-' mean?",
+   "answers": [
+    "Over, above, too much",
+    "Above or excessive"
+   ],
+   "wrong": [
+    "Under, below, too little",
+    "Within",
+    "Without"
+   ],
+   "explanation": "Hypertension, hyperthyroidism.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "prefix-peri",
+   "prompt": "What does the prefix 'peri-' mean?",
+   "answers": [
+    "Around"
+   ],
+   "wrong": [
+    "Within",
+    "Between",
+    "Beside"
+   ],
+   "explanation": "Pericardium: around the heart.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "prefix-endo",
+   "prompt": "What does the prefix 'endo-' mean?",
+   "answers": [
+    "Within, inside"
+   ],
+   "wrong": [
+    "Outside",
+    "Around",
+    "Across"
+   ],
+   "explanation": "Endocardium: inside the heart.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "prefix-epi",
+   "prompt": "What does the prefix 'epi-' mean?",
+   "answers": [
+    "Upon, over",
+    "On top of"
+   ],
+   "wrong": [
+    "Under",
+    "Within",
+    "Between"
+   ],
+   "explanation": "Epidermis: upon the dermis.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "prefix-sub",
+   "prompt": "What does the prefix 'sub-' mean?",
+   "answers": [
+    "Under, below",
+    "Under"
+   ],
+   "wrong": [
+    "Over",
+    "Around",
+    "Between"
+   ],
+   "explanation": "Subcutaneous: under the skin.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "prefix-inter",
+   "prompt": "What does the prefix 'inter-' mean?",
+   "answers": [
+    "Between"
+   ],
+   "wrong": [
+    "Within",
+    "Around",
+    "Above"
+   ],
+   "explanation": "Intercostal muscles lie between the ribs.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "prefix-intra",
+   "prompt": "What does the prefix 'intra-' mean?",
+   "answers": [
+    "Within, inside"
+   ],
+   "wrong": [
+    "Between",
+    "Outside",
+    "Around"
+   ],
+   "explanation": "Intracellular: inside the cell.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "prefix-retro",
+   "prompt": "What does the prefix 'retro-' mean?",
+   "answers": [
+    "Behind, backwards",
+    "Behind"
+   ],
+   "wrong": [
+    "In front",
+    "Under",
+    "Beside"
+   ],
+   "explanation": "Retroperitoneal: behind the peritoneum.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "prefix-para",
+   "prompt": "What does the prefix 'para-' mean?",
+   "answers": [
+    "Beside, near",
+    "Next to"
+   ],
+   "wrong": [
+    "Behind",
+    "Within",
+    "Across"
+   ],
+   "explanation": "Parathyroid glands lie beside the thyroid.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "prefix-brady",
+   "prompt": "What does 'brady-' mean?",
+   "answers": [
+    "Slow"
+   ],
+   "wrong": [
+    "Fast",
+    "Hard",
+    "Weak"
+   ],
+   "explanation": "Bradycardia is a slow heart rate. Tachycardia is a fast one.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "suffix-itis",
+   "prompt": "What does the suffix '-itis' mean?",
+   "answers": [
+    "Inflammation"
+   ],
+   "wrong": [
+    "Removal",
+    "Tumour",
+    "Pain"
+   ],
+   "explanation": "Appendicitis, arthritis.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "suffix-ectomy",
+   "prompt": "What does the suffix '-ectomy' mean?",
+   "answers": [
+    "Surgical removal",
+    "Cutting out"
+   ],
+   "wrong": [
+    "Making an opening",
+    "Inflammation",
+    "Study of"
+   ],
+   "explanation": "Appendectomy.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "suffix-ostomy",
+   "prompt": "What does the suffix '-ostomy' mean?",
+   "answers": [
+    "Making a new opening",
+    "Creating a surgical opening"
+   ],
+   "wrong": [
+    "Removal",
+    "Cutting into",
+    "Repair"
+   ],
+   "explanation": "Colostomy: an opening of the colon on the abdominal wall.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "suffix-otomy",
+   "prompt": "What does the suffix '-otomy' mean?",
+   "answers": [
+    "Cutting into",
+    "Making an incision"
+   ],
+   "wrong": [
+    "Removal",
+    "Repair",
+    "Making an opening"
+   ],
+   "explanation": "Laparotomy.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "suffix-plasty",
+   "prompt": "What does the suffix '-plasty' mean?",
+   "answers": [
+    "Surgical repair or reshaping",
+    "Repair"
+   ],
+   "wrong": [
+    "Removal",
+    "Inflammation",
+    "Pain"
+   ],
+   "explanation": "Rhinoplasty.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "suffix-algia",
+   "prompt": "What does the suffix '-algia' mean?",
+   "answers": [
+    "Pain"
+   ],
+   "wrong": [
+    "Swelling",
+    "Weakness",
+    "Bleeding"
+   ],
+   "explanation": "Neuralgia: nerve pain.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "suffix-oma",
+   "prompt": "What does the suffix '-oma' usually mean?",
+   "answers": [
+    "Tumour, swelling",
+    "A tumour"
+   ],
+   "wrong": [
+    "Inflammation",
+    "Pain",
+    "Disease of"
+   ],
+   "explanation": "Not always cancer: a lipoma is a benign fatty lump.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "suffix-emia",
+   "prompt": "What does the suffix '-aemia' (-emia) refer to?",
+   "answers": [
+    "A condition of the blood",
+    "The blood"
+   ],
+   "wrong": [
+    "The urine",
+    "The bone",
+    "The skin"
+   ],
+   "explanation": "Anaemia, hyperglycaemia.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "suffix-uria",
+   "prompt": "What does the suffix '-uria' refer to?",
+   "answers": [
+    "The urine",
+    "A condition of the urine"
+   ],
+   "wrong": [
+    "The blood",
+    "The bone",
+    "The saliva"
+   ],
+   "explanation": "Haematuria: blood in the urine.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "root-cardio",
+   "prompt": "Which word root refers to the heart?",
+   "answers": [
+    "Cardi(o)-",
+    "Cardio",
+    "Cardi"
+   ],
+   "wrong": [
+    "Hepat(o)-",
+    "Nephr(o)-",
+    "Pulmon(o)-"
+   ],
+   "explanation": "Cardiology.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "root-hepat",
+   "prompt": "Which word root refers to the liver?",
+   "answers": [
+    "Hepat(o)-",
+    "Hepato",
+    "Hepat"
+   ],
+   "wrong": [
+    "Nephr(o)-",
+    "Gastr(o)-",
+    "Cardi(o)-"
+   ],
+   "explanation": "Hepatitis.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "root-nephr",
+   "prompt": "Which word root refers to the kidney?",
+   "answers": [
+    "Nephr(o)-",
+    "Ren(o)-",
+    "Nephro",
+    "Renal"
+   ],
+   "wrong": [
+    "Hepat(o)-",
+    "Cyst(o)-",
+    "Pyel(o)-"
+   ],
+   "explanation": "'Renal' also refers to the kidney.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "root-gastr",
+   "prompt": "Which word root refers to the stomach?",
+   "answers": [
+    "Gastr(o)-",
+    "Gastro",
+    "Gastr"
+   ],
+   "wrong": [
+    "Enter(o)-",
+    "Hepat(o)-",
+    "Col(o)-"
+   ],
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "root-neuro",
+   "prompt": "Which word root refers to the nerve?",
+   "answers": [
+    "Neur(o)-",
+    "Neuro"
+   ],
+   "wrong": [
+    "Myel(o)-",
+    "Cerebr(o)-",
+    "Encephal(o)-"
+   ],
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "root-osteo",
+   "prompt": "Which word root refers to the bone?",
+   "answers": [
+    "Oste(o)-",
+    "Osteo"
+   ],
+   "wrong": [
+    "Arthr(o)-",
+    "Chondr(o)-",
+    "My(o)-"
+   ],
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "root-arthro",
+   "prompt": "Which word root refers to a joint?",
+   "answers": [
+    "Arthr(o)-",
+    "Arthro"
+   ],
+   "wrong": [
+    "Oste(o)-",
+    "Chondr(o)-",
+    "My(o)-"
+   ],
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "root-myo",
+   "prompt": "Which word root refers to muscle?",
+   "answers": [
+    "My(o)-",
+    "Myo"
+   ],
+   "wrong": [
+    "Oste(o)-",
+    "Neur(o)-",
+    "Chondr(o)-"
+   ],
+   "explanation": "Myocardium is the heart muscle.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "root-derm",
+   "prompt": "Which word root refers to the skin?",
+   "answers": [
+    "Derm(a)-",
+    "Dermat(o)-",
+    "Derm",
+    "Dermato"
+   ],
+   "wrong": [
+    "Cutane(o)-",
+    "Hist(o)-",
+    "Cyt(o)-"
+   ],
+   "explanation": "'Cutaneous' also refers to the skin.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "root-pulmo",
+   "prompt": "Which word root refers to the lung?",
+   "answers": [
+    "Pulmon(o)-",
+    "Pneum(o)-",
+    "Pulmo",
+    "Pneumo"
+   ],
+   "wrong": [
+    "Bronch(o)-",
+    "Hepat(o)-",
+    "Cardi(o)-"
+   ],
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "root-haem",
+   "prompt": "Which word root refers to the blood?",
+   "answers": [
+    "Haem(o)-",
+    "Hem(o)-",
+    "Haemo",
+    "Hemo"
+   ],
+   "wrong": [
+    "Hepat(o)-",
+    "Cyt(o)-",
+    "Lymph(o)-"
+   ],
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "root-cyto",
+   "prompt": "Which word root refers to the cell?",
+   "answers": [
+    "Cyt(o)-",
+    "Cyto"
+   ],
+   "wrong": [
+    "Hist(o)-",
+    "Hem(o)-",
+    "Cardi(o)-"
+   ],
+   "explanation": "Histo- refers to tissue.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "anat-foramen",
+   "prompt": "What is a foramen?",
+   "answers": [
+    "A hole in a bone, for a nerve or vessel to pass through",
+    "An opening in a bone"
+   ],
+   "wrong": [
+    "A bump on a bone",
+    "A groove on a bone",
+    "A cavity in a bone filled with air"
+   ],
+   "explanation": "The foramen magnum is the large hole in the occipital bone.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "anat-process",
+   "prompt": "What is a bony process?",
+   "answers": [
+    "A projection from a bone",
+    "A projecting part of a bone"
+   ],
+   "wrong": [
+    "A hole in a bone",
+    "A groove on a bone",
+    "A joint between bones"
+   ],
+   "explanation": "Examples: the spinous process of a vertebra, the mastoid process.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "anat-fossa",
+   "prompt": "What is a fossa?",
+   "answers": [
+    "A shallow depression or hollow",
+    "A hollow"
+   ],
+   "wrong": [
+    "A projection",
+    "A hole through a bone",
+    "A smooth joint surface"
+   ],
+   "explanation": "The popliteal fossa, the temporal fossa.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "anat-sulcus",
+   "prompt": "What is a sulcus (and, in the brain, a fissure)?",
+   "answers": [
+    "A groove",
+    "A furrow or groove"
+   ],
+   "wrong": [
+    "A ridge",
+    "A hole",
+    "A tube"
+   ],
+   "explanation": "Between the gyri of the cerebral cortex.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "anat-tuberosity",
+   "prompt": "What is a tuberosity?",
+   "answers": [
+    "A large rounded projection on a bone, often for a tendon",
+    "A rough raised area"
+   ],
+   "wrong": [
+    "A hollow",
+    "A small hole",
+    "A smooth groove"
+   ],
+   "explanation": "The tibial tuberosity, where the patellar ligament attaches.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "anat-ligament-tendon",
+   "prompt": "What is the difference between a tendon and a ligament?",
+   "answers": [
+    "A tendon joins muscle to bone; a ligament joins bone to bone",
+    "Tendon: muscle to bone. Ligament: bone to bone"
+   ],
+   "wrong": [
+    "A tendon joins bone to bone; a ligament joins muscle to bone",
+    "A tendon joins muscle to muscle",
+    "They are the same"
+   ],
+   "explanation": "Ligaments hold the joints together.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "anat-origin",
+   "prompt": "What is the 'origin' of a muscle?",
+   "answers": [
+    "The attachment that does not move (usually proximal)",
+    "The fixed end"
+   ],
+   "wrong": [
+    "The attachment that moves when the muscle contracts",
+    "The middle of the muscle",
+    "The nerve supply"
+   ],
+   "explanation": "The insertion is the attachment on the moving bone.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "anat-flexion",
+   "prompt": "What is flexion?",
+   "answers": [
+    "Bending, decreasing the angle at a joint",
+    "A decrease in the angle between two bones"
+   ],
+   "wrong": [
+    "Straightening, increasing the angle at a joint",
+    "Turning around a long axis",
+    "Moving away from the midline"
+   ],
+   "explanation": "Extension is the opposite.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "anat-abduction",
+   "prompt": "What is abduction?",
+   "answers": [
+    "Moving a limb away from the midline",
+    "Movement away from the body's midline"
+   ],
+   "wrong": [
+    "Moving a limb towards the midline",
+    "Bending a joint",
+    "Turning a limb inwards"
+   ],
+   "explanation": "Adduction moves the limb towards the midline. A memory aid: an abductor takes it away.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "anat-rotation",
+   "prompt": "What is the difference between pronation and supination of the forearm?",
+   "answers": [
+    "Pronation turns the palm down (backward); supination turns it up (forward)",
+    "Pronation: palm down; supination: palm up"
+   ],
+   "wrong": [
+    "Pronation turns the palm up; supination turns it down",
+    "Pronation bends the elbow; supination straightens it",
+    "Pronation spreads the fingers; supination closes them"
+   ],
+   "explanation": "In the anatomical position the forearm is supinated.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "anat-eversion",
+   "prompt": "What is eversion of the foot?",
+   "answers": [
+    "Turning the sole outwards (laterally)",
+    "Sole turned outwards"
+   ],
+   "wrong": [
+    "Turning the sole inwards (medially)",
+    "Pointing the toes down",
+    "Pulling the toes up"
+   ],
+   "explanation": "Inversion turns it inwards. An inversion injury is the common ankle sprain.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  },
+  {
+   "id": "anat-dorsiflexion",
+   "prompt": "Which movement of the foot pulls the toes up towards the shin?",
+   "answers": [
+    "Dorsiflexion",
+    "Dorsiflexion (dorsiflexing)"
+   ],
+   "wrong": [
+    "Plantar flexion",
+    "Inversion",
+    "Eversion"
+   ],
+   "explanation": "Plantar flexion points the toes down, as in standing on tiptoe.",
+   "tags": [
+    "Word parts and anatomical terms"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Directions and planes",
+   "count": 15,
+   "pass": 80,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Position, planes and directions"
+   ],
+   "why": "Anatomical position, directions and planes of the body."
+  },
+  {
+   "name": "Chapter quiz",
+   "count": 30,
+   "pass": 75,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "end",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Thirty questions from the whole chapter, marked at the end, like an end-of-unit test."
+  },
+  {
+   "name": "Recall without choices",
+   "count": 20,
+   "pass": 75,
+   "pick": "due",
+   "answer": "typed",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Type each answer from memory, starting with the ones due for review. Small typos are forgiven."
+  }
+ ]
+}
