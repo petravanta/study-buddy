@@ -885,3 +885,25 @@ FMA7208	ileum	organ
 FMA76891	mesocolic taenia	organ
 FMA76892	omental taenia	organ
 FMA76893	free taenia	organ
+FMA15571	right ureter	organ
+FMA15572	left ureter	organ
+FMA15629	right adrenal gland	organ
+FMA15630	left adrenal gland	organ
+FMA15900	urinary bladder	organ
+FMA18247	glans penis	organ
+FMA18256	right epididymis	organ
+FMA18257	left epididymis	organ
+FMA19235	right deferent duct	organ
+FMA19236	left deferent duct	organ
+FMA19387	right seminal vesicle	organ
+FMA19388	left seminal vesicle	organ
+FMA19617nsn	corpus spongiosum of penis, nsn	organ
+FMA19618	corpus cavernosum of penis	organ
+FMA19667	urethra	organ
+FMA71194	right lobe of thymus	organ
+FMA71195	left lobe of thymus	organ
+FMA7204	right kidney	organ
+FMA7205	left kidney	organ
+FMA7211	right testis	organ
+FMA7212	left testis	organ
+FMA9600	prostate	organ

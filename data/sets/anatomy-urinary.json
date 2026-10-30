@@ -1,0 +1,1174 @@
+{
+ "id": "anatomy-urinary",
+ "name": "Urinary system",
+ "module": "Human anatomy",
+ "description": "The kidneys, ureters, bladder and urethra: where they lie, how the nephron filters the blood and makes urine, the hormones that control it, and common disorders. Picture questions show the organs, drawn see-through inside the lower trunk, with one part highlighted to name.",
+ "source": {
+  "name": "Written for Study Buddy. Pictures rendered from BodyParts3D (© The Database Center for Life Science, CC BY-SA 2.1 JP).",
+  "url": "https://github.com/petravanta/study-buddy/tree/main/scripts/bodyparts3d"
+ },
+ "updated": "2026-10-30",
+ "questions": [
+  {
+   "id": "urinary-parts",
+   "prompt": "What are the organs of the urinary system?",
+   "answers": [
+    "Two kidneys, two ureters, the bladder and the urethra",
+    "Kidneys, ureters, bladder, urethra"
+   ],
+   "wrong": [
+    "Kidneys, bladder, prostate and urethra",
+    "Kidneys, adrenal glands, bladder and urethra",
+    "Kidneys, liver, bladder and ureters"
+   ],
+   "explanation": "The kidneys make urine; the rest store it and carry it out.",
+   "figure": {
+    "src": "data/figures/anatomy/u-system.webp",
+    "alt": "The kidneys, ureters, bladder and urethra, in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "urinary-functions",
+   "prompt": "Which of these is NOT a main function of the kidneys?",
+   "answers": [
+    "Making bile",
+    "Bile production"
+   ],
+   "wrong": [
+    "Controlling blood volume and pressure",
+    "Removing wastes such as urea",
+    "Balancing the blood's salts and pH"
+   ],
+   "explanation": "The liver makes bile. Kidneys also make erythropoietin and renin, and activate vitamin D.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "id-kidneys",
+   "prompt": "Which organs are highlighted in red?",
+   "answers": [
+    "Kidneys",
+    "The kidneys"
+   ],
+   "wrong": [
+    "Adrenal glands",
+    "Ureters",
+    "Spleen and liver"
+   ],
+   "explanation": "A pair of bean-shaped organs at the back of the abdomen, either side of the spine.",
+   "figure": {
+    "src": "data/figures/anatomy/u-kidneys.webp",
+    "alt": "The kidneys, ureters and bladder inside the lower trunk, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "kidney-size",
+   "prompt": "About how big is a kidney?",
+   "answers": [
+    "About the size of a fist",
+    "About 11 cm long",
+    "A fist"
+   ],
+   "wrong": [
+    "About the size of a golf ball",
+    "About 20 cm long",
+    "About the size of a football"
+   ],
+   "explanation": "About 11 cm long, 6 cm wide and 3 cm thick, and about 150 g.",
+   "figure": {
+    "src": "data/figures/anatomy/u-kidneys.webp",
+    "alt": "The kidneys, ureters and bladder inside the lower trunk, with the kidneys in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "id-right-kidney",
+   "prompt": "Which organ is highlighted in red?",
+   "answers": [
+    "Right kidney"
+   ],
+   "wrong": [
+    "Left kidney",
+    "Right adrenal gland",
+    "Liver"
+   ],
+   "explanation": "It sits a little lower than the left kidney, because the liver pushes on it from above.",
+   "figure": {
+    "src": "data/figures/anatomy/u-right-kidney.webp",
+    "alt": "The kidneys, ureters and bladder inside the lower trunk, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "id-left-kidney",
+   "prompt": "Which organ is highlighted in red?",
+   "answers": [
+    "Left kidney"
+   ],
+   "wrong": [
+    "Right kidney",
+    "Left adrenal gland",
+    "Spleen"
+   ],
+   "explanation": "It lies a little higher than the right, about level with T12 to L3.",
+   "figure": {
+    "src": "data/figures/anatomy/u-left-kidney.webp",
+    "alt": "The kidneys, ureters and bladder inside the lower trunk, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "kidney-level",
+   "prompt": "At about which vertebral levels do the kidneys lie?",
+   "answers": [
+    "T12 to L3"
+   ],
+   "wrong": [
+    "T6 to T9",
+    "L3 to L5",
+    "L5 to S2"
+   ],
+   "explanation": "The lower ribs partly protect them. The right one lies about a centimetre lower than the left.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "retroperitoneal-kidney",
+   "prompt": "Where are the kidneys in relation to the peritoneum?",
+   "answers": [
+    "Behind it (retroperitoneal)",
+    "Retroperitoneal"
+   ],
+   "wrong": [
+    "Inside the peritoneal cavity",
+    "In front of the peritoneum",
+    "Inside the pleural cavity"
+   ],
+   "explanation": "They are held in a cushion of fat, the perirenal fat, and wrapped in renal fascia.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "hilum-kidney",
+   "prompt": "What is the notch on the inner edge of the kidney, where the vessels and ureter enter and leave, called?",
+   "answers": [
+    "Hilum",
+    "Renal hilum",
+    "Hilus"
+   ],
+   "wrong": [
+    "Pelvis",
+    "Calyx",
+    "Sinus"
+   ],
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "cortex-medulla",
+   "prompt": "What are the two main layers of the kidney tissue, from outside in?",
+   "answers": [
+    "Renal cortex and renal medulla",
+    "Cortex and medulla"
+   ],
+   "wrong": [
+    "Medulla and cortex",
+    "Capsule and pelvis",
+    "Pyramids and papillae"
+   ],
+   "explanation": "The medulla is made of cone-shaped renal pyramids, whose tips (papillae) open into the minor calyces.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "renal-pelvis",
+   "prompt": "What is the funnel-shaped space inside the kidney that collects urine and drains it into the ureter called?",
+   "answers": [
+    "Renal pelvis"
+   ],
+   "wrong": [
+    "Renal cortex",
+    "Renal papilla",
+    "Glomerulus"
+   ],
+   "explanation": "The minor calyces join into major calyces, which join into the renal pelvis.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "calyx",
+   "prompt": "Which cup-shaped spaces collect urine from the tips of the renal pyramids?",
+   "answers": [
+    "Calyces",
+    "Minor calyces",
+    "Calices"
+   ],
+   "wrong": [
+    "Glomeruli",
+    "Papillae",
+    "Columns"
+   ],
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "nephron",
+   "prompt": "What is the working unit of the kidney called?",
+   "answers": [
+    "Nephron"
+   ],
+   "wrong": [
+    "Neuron",
+    "Glomerulus",
+    "Renal pyramid"
+   ],
+   "explanation": "About a million in each kidney.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "nephron-parts",
+   "prompt": "What are the main parts of a nephron, in order from the blood?",
+   "answers": [
+    "Renal corpuscle, proximal tubule, loop of Henle, distal tubule",
+    "Glomerulus and Bowman's capsule, proximal convoluted tubule, loop of Henle, distal convoluted tubule"
+   ],
+   "wrong": [
+    "Loop of Henle, renal corpuscle, distal tubule, proximal tubule",
+    "Proximal tubule, renal corpuscle, distal tubule, loop of Henle",
+    "Renal corpuscle, distal tubule, loop of Henle, proximal tubule"
+   ],
+   "explanation": "The collecting duct, which several nephrons empty into, is not part of the nephron itself.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "glomerulus",
+   "prompt": "What is the knot of capillaries where blood is filtered in the kidney called?",
+   "answers": [
+    "Glomerulus"
+   ],
+   "wrong": [
+    "Loop of Henle",
+    "Collecting duct",
+    "Peritubular capillary"
+   ],
+   "explanation": "It sits inside Bowman's capsule, which collects the filtrate.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "gfr",
+   "prompt": "About how much filtrate do the kidneys make each minute (the glomerular filtration rate)?",
+   "answers": [
+    "About 125 mL",
+    "125 mL a minute",
+    "About 180 litres a day"
+   ],
+   "wrong": [
+    "About 1 mL",
+    "About 1 litre",
+    "About 12 mL"
+   ],
+   "explanation": "That is about 180 litres a day. Only about 1.5 litres leaves as urine, as the rest is reabsorbed.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "filtrate-reabsorbed",
+   "prompt": "About what share of the filtrate is reabsorbed?",
+   "answers": [
+    "About 99%",
+    "99%"
+   ],
+   "wrong": [
+    "About 50%",
+    "About 75%",
+    "About 10%"
+   ],
+   "explanation": "Two thirds of it in the proximal tubule alone.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "proximal-job",
+   "prompt": "In which part of the nephron is most of the filtered water, salt and all the glucose reabsorbed?",
+   "answers": [
+    "Proximal convoluted tubule",
+    "Proximal tubule"
+   ],
+   "wrong": [
+    "Loop of Henle",
+    "Distal tubule",
+    "Collecting duct"
+   ],
+   "explanation": "Its cells have a brush border to give a large surface.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "loop-job",
+   "prompt": "What does the loop of Henle make possible?",
+   "answers": [
+    "Concentrating the urine",
+    "It makes concentrated urine"
+   ],
+   "wrong": [
+    "Filtering the blood",
+    "Secreting glucose",
+    "Storing urine"
+   ],
+   "explanation": "It builds a salt gradient in the medulla, which draws water out of the collecting duct.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "adh",
+   "prompt": "Which hormone makes the collecting ducts more permeable to water, so the urine becomes more concentrated?",
+   "answers": [
+    "ADH",
+    "Antidiuretic hormone",
+    "Vasopressin"
+   ],
+   "wrong": [
+    "Aldosterone",
+    "Renin",
+    "Atrial natriuretic peptide"
+   ],
+   "explanation": "Made by the hypothalamus and released from the posterior pituitary.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "aldosterone",
+   "prompt": "Which hormone from the adrenal cortex makes the kidney keep sodium and lose potassium?",
+   "answers": [
+    "Aldosterone"
+   ],
+   "wrong": [
+    "ADH",
+    "Cortisol",
+    "Renin"
+   ],
+   "explanation": "Water follows the sodium, so blood volume and pressure rise.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "renin",
+   "prompt": "Which enzyme released by the kidney when blood pressure falls starts the renin–angiotensin system?",
+   "answers": [
+    "Renin"
+   ],
+   "wrong": [
+    "Aldosterone",
+    "Erythropoietin",
+    "ADH"
+   ],
+   "explanation": "From the juxtaglomerular cells.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "epo",
+   "prompt": "Which hormone, made by the kidney in response to low oxygen, makes the bone marrow produce red blood cells?",
+   "answers": [
+    "Erythropoietin",
+    "EPO"
+   ],
+   "wrong": [
+    "Renin",
+    "Aldosterone",
+    "Thrombopoietin"
+   ],
+   "explanation": "People with kidney failure become anaemic because they don't make enough.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "vitamin-d",
+   "prompt": "The kidney does the last step of activating which vitamin?",
+   "answers": [
+    "Vitamin D"
+   ],
+   "wrong": [
+    "Vitamin A",
+    "Vitamin C",
+    "Vitamin K"
+   ],
+   "explanation": "Into calcitriol, which helps absorb calcium from the gut.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "urea",
+   "prompt": "Which waste, made by the liver from the breakdown of amino acids, is the main nitrogen waste in urine?",
+   "answers": [
+    "Urea"
+   ],
+   "wrong": [
+    "Uric acid",
+    "Creatinine",
+    "Ammonia"
+   ],
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "creatinine",
+   "prompt": "Which waste from muscle is used to estimate how well the kidneys are filtering?",
+   "answers": [
+    "Creatinine"
+   ],
+   "wrong": [
+    "Urea",
+    "Uric acid",
+    "Bilirubin"
+   ],
+   "explanation": "A rising creatinine in the blood means a falling filtration rate.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "urine-colour",
+   "prompt": "What gives urine its yellow colour?",
+   "answers": [
+    "Urochrome (urobilin)",
+    "Urobilin",
+    "Urochrome"
+   ],
+   "wrong": [
+    "Bilirubin",
+    "Haemoglobin",
+    "Creatinine"
+   ],
+   "explanation": "A product of the breakdown of haemoglobin.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "urine-volume",
+   "prompt": "About how much urine does an adult make each day?",
+   "answers": [
+    "About 1 to 2 litres",
+    "1.5 litres",
+    "About 1.5 litres"
+   ],
+   "wrong": [
+    "About 100 mL",
+    "About 5 litres",
+    "About 10 litres"
+   ],
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "glucose-urine",
+   "prompt": "Which disease can cause sugar to spill into the urine, because the filtered glucose is more than the tubules can reabsorb?",
+   "answers": [
+    "Diabetes mellitus",
+    "Diabetes"
+   ],
+   "wrong": [
+    "Diabetes insipidus",
+    "Kidney stones",
+    "Cystitis"
+   ],
+   "explanation": "The glucose draws water with it, so the person passes a lot of urine and gets thirsty.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "diabetes-insipidus",
+   "prompt": "A lack of ADH makes the kidneys pass large amounts of dilute urine. What is the condition called?",
+   "answers": [
+    "Diabetes insipidus"
+   ],
+   "wrong": [
+    "Diabetes mellitus",
+    "Nephritis",
+    "Cystitis"
+   ],
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "dialysis",
+   "prompt": "What treatment filters the blood of a person whose kidneys have failed?",
+   "answers": [
+    "Dialysis",
+    "Haemodialysis",
+    "Hemodialysis"
+   ],
+   "wrong": [
+    "Chemotherapy",
+    "Transfusion",
+    "Angioplasty"
+   ],
+   "explanation": "A transplant is the other option. A transplanted kidney is placed in the pelvis, not in the original position.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "kidney-stone",
+   "prompt": "What are hard lumps of mineral salts that form in the kidney and can block the ureter, causing severe pain, called?",
+   "answers": [
+    "Kidney stones",
+    "Renal calculi",
+    "Calculi"
+   ],
+   "wrong": [
+    "Gallstones",
+    "Bladder polyps",
+    "Cysts"
+   ],
+   "explanation": "The pain (renal colic) goes from the loin down towards the groin.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "pyelonephritis",
+   "prompt": "What is infection of the kidney, usually spread up from the bladder, called?",
+   "answers": [
+    "Pyelonephritis"
+   ],
+   "wrong": [
+    "Cystitis",
+    "Urethritis",
+    "Glomerulonephritis"
+   ],
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "glomerulonephritis",
+   "prompt": "What is inflammation of the filtering units of the kidney called?",
+   "answers": [
+    "Glomerulonephritis"
+   ],
+   "wrong": [
+    "Pyelonephritis",
+    "Cystitis",
+    "Nephrolithiasis"
+   ],
+   "explanation": "Often after an infection, such as a streptococcal throat, or in autoimmune disease.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "renal-artery-flow",
+   "prompt": "About what share of the heart's output goes to the kidneys?",
+   "answers": [
+    "About a fifth (20%)",
+    "About 20%",
+    "A fifth"
+   ],
+   "wrong": [
+    "About 2%",
+    "About 5%",
+    "About 50%"
+   ],
+   "explanation": "Although they're less than 1% of body weight.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "id-renal-arteries",
+   "prompt": "Which vessels are highlighted in red?",
+   "answers": [
+    "Renal arteries",
+    "Renal artery"
+   ],
+   "wrong": [
+    "Renal veins",
+    "Ureters",
+    "Common iliac arteries"
+   ],
+   "explanation": "Short, wide branches of the abdominal aorta at about L1 to L2. The right one passes behind the inferior vena cava.",
+   "figure": {
+    "src": "data/figures/anatomy/u-renal-arteries.webp",
+    "alt": "The kidneys and their vessels, with the renal arteries in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "id-renal-veins",
+   "prompt": "Which vessels are highlighted in red?",
+   "answers": [
+    "Renal veins",
+    "Renal vein"
+   ],
+   "wrong": [
+    "Renal arteries",
+    "Ureters",
+    "Common iliac veins"
+   ],
+   "explanation": "They leave the hilum in front of the arteries and drain into the inferior vena cava. The left one is longer.",
+   "figure": {
+    "src": "data/figures/anatomy/u-renal-veins.webp",
+    "alt": "The kidneys and their vessels, with the renal veins in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "renal-hilum-order",
+   "prompt": "At the hilum of the kidney, which comes first from front to back?",
+   "answers": [
+    "Renal vein, then renal artery, then renal pelvis (ureter)",
+    "Vein, artery, pelvis"
+   ],
+   "wrong": [
+    "Artery, vein, pelvis",
+    "Pelvis, artery, vein",
+    "Artery, pelvis, vein"
+   ],
+   "explanation": "\"VAP\": vein, artery, pelvis.",
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "id-adrenals",
+   "prompt": "Which glands are highlighted in red?",
+   "answers": [
+    "Adrenal glands",
+    "Suprarenal glands",
+    "Adrenal gland"
+   ],
+   "wrong": [
+    "Kidneys",
+    "Spleen",
+    "Pancreas"
+   ],
+   "explanation": "A pair of small glands sitting on top of the kidneys. They belong to the endocrine system, not the urinary system.",
+   "figure": {
+    "src": "data/figures/anatomy/u-adrenals.webp",
+    "alt": "The kidneys and adrenal glands, with the adrenal glands in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "adrenal-parts",
+   "prompt": "What are the two parts of an adrenal gland?",
+   "answers": [
+    "Cortex and medulla",
+    "The adrenal cortex and the adrenal medulla"
+   ],
+   "wrong": [
+    "Capsule and pelvis",
+    "Anterior and posterior lobes",
+    "Head and tail"
+   ],
+   "explanation": "The cortex makes steroid hormones (cortisol and aldosterone); the medulla makes adrenaline.",
+   "figure": {
+    "src": "data/figures/anatomy/u-adrenals.webp",
+    "alt": "The kidneys, ureters and bladder inside the lower trunk, with the adrenal glands in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Organs of the urinary system"
+   ]
+  },
+  {
+   "id": "id-ureters",
+   "prompt": "Which structures are highlighted in red?",
+   "answers": [
+    "Ureters",
+    "Ureter"
+   ],
+   "wrong": [
+    "Urethra",
+    "Renal veins",
+    "Common iliac arteries"
+   ],
+   "explanation": "Two muscular tubes about 25 cm long, taking urine from the kidneys down to the bladder.",
+   "figure": {
+    "src": "data/figures/anatomy/u-ureters.webp",
+    "alt": "The kidneys, ureters and bladder inside the lower trunk, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Ureters, bladder and urethra"
+   ]
+  },
+  {
+   "id": "ureter-flow",
+   "prompt": "How does urine move down the ureters?",
+   "answers": [
+    "By waves of peristalsis",
+    "Peristalsis"
+   ],
+   "wrong": [
+    "By gravity alone",
+    "By the pressure of the blood",
+    "By suction from the bladder"
+   ],
+   "explanation": "Even when a person is lying down or upside down.",
+   "figure": {
+    "src": "data/figures/anatomy/u-ureters.webp",
+    "alt": "The kidneys, ureters and bladder inside the lower trunk, with the ureters in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Ureters, bladder and urethra"
+   ]
+  },
+  {
+   "id": "ureter-narrow",
+   "prompt": "Where do kidney stones most often get stuck in the ureter?",
+   "answers": [
+    "At the narrow points: where it leaves the kidney, crosses the pelvic brim and enters the bladder",
+    "Where it enters the bladder"
+   ],
+   "wrong": [
+    "In the middle of its length",
+    "At the hilum only",
+    "Nowhere: the ureter is wide throughout"
+   ],
+   "explanation": "The three narrowings are the pelviureteric junction, the pelvic brim and the vesicoureteric junction.",
+   "tags": [
+    "Ureters, bladder and urethra"
+   ]
+  },
+  {
+   "id": "ureter-vessel",
+   "prompt": "In the pelvis, the ureter passes beneath which vessel in women (the 'water under the bridge')?",
+   "answers": [
+    "The uterine artery",
+    "Uterine artery"
+   ],
+   "wrong": [
+    "The renal artery",
+    "The internal iliac vein",
+    "The inferior mesenteric artery"
+   ],
+   "explanation": "A danger in hysterectomy, where the ureter can be cut or tied by mistake. In men it passes under the ductus deferens.",
+   "tags": [
+    "Ureters, bladder and urethra"
+   ]
+  },
+  {
+   "id": "id-bladder",
+   "prompt": "Which organ is highlighted in red?",
+   "answers": [
+    "Urinary bladder",
+    "Bladder"
+   ],
+   "wrong": [
+    "Prostate",
+    "Uterus",
+    "Rectum"
+   ],
+   "explanation": "A muscular bag in the pelvis, behind the pubic bones.",
+   "figure": {
+    "src": "data/figures/anatomy/u-bladder.webp",
+    "alt": "The kidneys, ureters and bladder inside the lower trunk, with one part in red",
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Name the part",
+    "Ureters, bladder and urethra"
+   ]
+  },
+  {
+   "id": "bladder-capacity",
+   "prompt": "About how much urine can the adult bladder hold comfortably?",
+   "answers": [
+    "About 500 mL",
+    "400 to 600 mL",
+    "500 mL"
+   ],
+   "wrong": [
+    "About 50 mL",
+    "About 2 litres",
+    "About 5 litres"
+   ],
+   "explanation": "The urge to pass urine starts at about 200 to 300 mL.",
+   "figure": {
+    "src": "data/figures/anatomy/u-bladder.webp",
+    "alt": "The kidneys, ureters and bladder inside the lower trunk, with the bladder in red",
+    "reveal": true,
+    "credit": "BodyParts3D, © The Database Center for Life Science",
+    "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "license": "CC BY-SA 2.1 JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+   },
+   "tags": [
+    "Ureters, bladder and urethra"
+   ]
+  },
+  {
+   "id": "detrusor",
+   "prompt": "What is the smooth muscle of the bladder wall called?",
+   "answers": [
+    "Detrusor muscle",
+    "Detrusor"
+   ],
+   "wrong": [
+    "Trigone",
+    "Internal sphincter",
+    "Levator ani"
+   ],
+   "explanation": "It contracts to empty the bladder.",
+   "tags": [
+    "Ureters, bladder and urethra"
+   ]
+  },
+  {
+   "id": "trigone",
+   "prompt": "What is the smooth triangular area at the base of the bladder, between the two ureters and the urethra, called?",
+   "answers": [
+    "Trigone"
+   ],
+   "wrong": [
+    "Detrusor",
+    "Fundus",
+    "Apex"
+   ],
+   "explanation": "A common site of infection and stones.",
+   "tags": [
+    "Ureters, bladder and urethra"
+   ]
+  },
+  {
+   "id": "rugae-bladder",
+   "prompt": "What are the folds in the lining of an empty bladder called?",
+   "answers": [
+    "Rugae"
+   ],
+   "wrong": [
+    "Villi",
+    "Haustra",
+    "Plicae"
+   ],
+   "explanation": "They flatten as the bladder fills.",
+   "tags": [
+    "Ureters, bladder and urethra"
+   ]
+  },
+  {
+   "id": "urothelium",
+   "prompt": "Which kind of epithelium lines the bladder and ureters and stretches as they fill?",
+   "answers": [
+    "Transitional epithelium (urothelium)",
+    "Transitional epithelium",
+    "Urothelium"
+   ],
+   "wrong": [
+    "Simple squamous epithelium",
+    "Stratified squamous epithelium",
+    "Simple columnar epithelium"
+   ],
+   "tags": [
+    "Ureters, bladder and urethra"
+   ]
+  },
+  {
+   "id": "internal-sphincter",
+   "prompt": "Which sphincter at the bladder neck is made of smooth muscle and is involuntary?",
+   "answers": [
+    "Internal urethral sphincter",
+    "Internal sphincter"
+   ],
+   "wrong": [
+    "External urethral sphincter",
+    "Anal sphincter",
+    "Pyloric sphincter"
+   ],
+   "explanation": "In men it also closes to stop semen going back into the bladder.",
+   "tags": [
+    "Ureters, bladder and urethra"
+   ]
+  },
+  {
+   "id": "external-sphincter",
+   "prompt": "Which sphincter, made of skeletal muscle, lets us hold urine voluntarily?",
+   "answers": [
+    "External urethral sphincter",
+    "External sphincter"
+   ],
+   "wrong": [
+    "Internal urethral sphincter",
+    "Detrusor",
+    "Levator ani"
+   ],
+   "explanation": "Supplied by the pudendal nerve.",
+   "tags": [
+    "Ureters, bladder and urethra"
+   ]
+  },
+  {
+   "id": "micturition",
+   "prompt": "Which part of the nervous system's outflow makes the bladder contract and empties it?",
+   "answers": [
+    "The parasympathetic system (S2 to S4)",
+    "Parasympathetic",
+    "Parasympathetic nerves"
+   ],
+   "wrong": [
+    "The sympathetic system",
+    "The somatic system",
+    "The enteric system"
+   ],
+   "explanation": "Sympathetic nerves relax the detrusor and close the internal sphincter, to let it fill.",
+   "tags": [
+    "Ureters, bladder and urethra"
+   ]
+  },
+  {
+   "id": "micturition-reflex",
+   "prompt": "What word do we use for the passing of urine?",
+   "answers": [
+    "Micturition",
+    "Urination",
+    "Voiding"
+   ],
+   "wrong": [
+    "Defaecation",
+    "Excretion",
+    "Secretion"
+   ],
+   "tags": [
+    "Ureters, bladder and urethra"
+   ]
+  },
+  {
+   "id": "urethra-length",
+   "prompt": "How does the urethra differ between men and women?",
+   "answers": [
+    "It is about 20 cm long in men and about 4 cm in women",
+    "Longer in men, shorter in women"
+   ],
+   "wrong": [
+    "It is longer in women",
+    "It is the same length in both",
+    "Women have two of them"
+   ],
+   "explanation": "The short female urethra is why women get bladder infections more often.",
+   "tags": [
+    "Ureters, bladder and urethra"
+   ]
+  },
+  {
+   "id": "cystitis",
+   "prompt": "What is the inflammation of the bladder, usually from infection, called?",
+   "answers": [
+    "Cystitis"
+   ],
+   "wrong": [
+    "Nephritis",
+    "Urethritis",
+    "Pyelitis"
+   ],
+   "explanation": "Most often from bacteria (usually E. coli) from the bowel.",
+   "tags": [
+    "Ureters, bladder and urethra"
+   ]
+  },
+  {
+   "id": "incontinence",
+   "prompt": "What is the accidental loss of urine called?",
+   "answers": [
+    "Incontinence",
+    "Urinary incontinence"
+   ],
+   "wrong": [
+    "Retention",
+    "Enuresis only",
+    "Oliguria"
+   ],
+   "tags": [
+    "Ureters, bladder and urethra"
+   ]
+  },
+  {
+   "id": "catheter",
+   "prompt": "What is a tube passed through the urethra to drain the bladder called?",
+   "answers": [
+    "Catheter",
+    "Urinary catheter"
+   ],
+   "wrong": [
+    "Stent",
+    "Cannula",
+    "Drain"
+   ],
+   "tags": [
+    "Ureters, bladder and urethra"
+   ]
+  },
+  {
+   "id": "oliguria",
+   "prompt": "What is a urine output below about 400 mL a day called?",
+   "answers": [
+    "Oliguria"
+   ],
+   "wrong": [
+    "Polyuria",
+    "Anuria",
+    "Nocturia"
+   ],
+   "explanation": "Anuria is almost none; polyuria is too much.",
+   "tags": [
+    "Ureters, bladder and urethra"
+   ]
+  },
+  {
+   "id": "prostate-urethra",
+   "prompt": "Which gland surrounds the first part of the male urethra, and can squeeze it when it enlarges?",
+   "answers": [
+    "Prostate",
+    "The prostate gland"
+   ],
+   "wrong": [
+    "Seminal vesicle",
+    "Bulbourethral gland",
+    "Epididymis"
+   ],
+   "explanation": "Benign enlargement of the prostate makes older men pass urine slowly and often.",
+   "tags": [
+    "Ureters, bladder and urethra"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Name the part",
+   "count": 8,
+   "pass": 80,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Name the part"
+   ],
+   "why": "Pictures of the urinary organs, each with one part in red to name."
+  },
+  {
+   "name": "Chapter quiz",
+   "count": 30,
+   "pass": 75,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "end",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Thirty questions from the whole chapter, marked at the end, like an end-of-unit test."
+  },
+  {
+   "name": "Recall without choices",
+   "count": 20,
+   "pass": 75,
+   "pick": "due",
+   "answer": "typed",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "why": "Type each answer from memory, starting with the ones due for review. Small typos are forgiven."
+  }
+ ]
+}
