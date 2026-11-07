@@ -1,0 +1,198 @@
+{
+ "id": "dance-rave",
+ "name": "Rave",
+ "module": "Dance floor basics",
+ "description": "Light on the feet, bouncy and repetitive. Built to last for hours on a crowded floor. Danced to Techno, House, Trance and Hard dance, usually around 124–150 BPM. Each move card has the cues and a beat to count along to: try it, then mark whether you could do it.",
+ "source": {
+  "name": "Written for Study Buddy as a casual primer."
+ },
+ "updated": "2026-11-07",
+ "questions": [
+  {
+   "id": "rave-bounce",
+   "prompt": "Rave bounce: how does it go?",
+   "answers": [
+    "A light, springy bounce through the balls of the feet, with the chest and shoulders loose."
+   ],
+   "steps": [
+    "Weight on the balls of your feet, heels just off the floor",
+    "Bounce through the ankles on each beat, knees soft",
+    "Let the chest pop forward a little with each bounce",
+    "Shoulders loose, hands relaxed at waist height"
+   ],
+   "beat": {
+    "bpm": 132,
+    "counts": "Up on every beat"
+   },
+   "explanation": "Rave floors run for hours. A low-effort bounce is what lets you dance from the first track to the last. Tip: Keep it small, and it'll last all night. Tip: Swap to the knee bounce now and then to rest your calves.",
+   "note": "Watch out for: jumping off the floor on every beat, which tires you out in one track.",
+   "tags": [
+    "How to",
+    "Easy"
+   ]
+  },
+  {
+   "id": "running-man",
+   "prompt": "Running man: how does it go?",
+   "answers": [
+    "Run on the spot: one knee lifts while the standing foot slides back, then they swap."
+   ],
+   "steps": [
+    "Stand on your left foot and lift the right knee",
+    "On the beat, put the right foot down in front while the left foot slides back",
+    "Lift the left knee on the 'and', bringing the foot through",
+    "Put it down in front while the right foot slides back, and repeat"
+   ],
+   "beat": {
+    "bpm": 132,
+    "counts": "Lift on 'and', slide on the beat"
+   },
+   "explanation": "Tip: Practise in socks on a smooth floor so the slide is easy. Tip: Learn it slowly at 100 BPM, then raise the tempo.",
+   "note": "Watch out for: hopping instead of sliding; leaning back: keep the chest a little forward.",
+   "tags": [
+    "How to",
+    "Medium"
+   ]
+  },
+  {
+   "id": "t-step",
+   "prompt": "T-step: how does it go?",
+   "answers": [
+    "The standing foot swivels heel-toe to travel sideways while the other leg kicks out."
+   ],
+   "steps": [
+    "Stand on your left foot with the right knee lifted",
+    "Swivel the left foot: toes out, then heel out, moving you to the left",
+    "At the same time, kick the right foot out to the side on each swivel",
+    "After four swivels, switch legs and travel the other way"
+   ],
+   "beat": {
+    "bpm": 132,
+    "counts": "Swivel on every beat"
+   },
+   "explanation": "Tip: Learn the swivel alone first, holding on to a chair. Tip: Smooth floors and trainers help; grippy boots make it hard.",
+   "note": "Watch out for: travelling too far on a busy floor. Two swivels and back is plenty.",
+   "tags": [
+    "How to",
+    "Tricky"
+   ]
+  },
+  {
+   "id": "arm-wave",
+   "prompt": "Arm wave: how does it go?",
+   "answers": [
+    "A ripple that travels from one hand, through the shoulders, to the other hand."
+   ],
+   "steps": [
+    "Arms out to the sides at shoulder height",
+    "Lift the left wrist, then elbow, then shoulder, one after the other",
+    "Pass it across: right shoulder, right elbow, right wrist",
+    "Each joint drops as the next one rises"
+   ],
+   "beat": {
+    "bpm": 132,
+    "counts": "Across over 4 beats"
+   },
+   "explanation": "Tip: Practise one joint at a time in front of a mirror. Tip: Bring it out on the breakdown, when everyone slows down.",
+   "note": "Watch out for: moving the whole arm at once, so it never ripples.",
+   "tags": [
+    "How to",
+    "Medium"
+   ]
+  },
+  {
+   "id": "rave-bounce-name",
+   "prompt": "Which move is this? A light, springy bounce through the balls of the feet, with the chest and shoulders loose.",
+   "answers": [
+    "Rave bounce"
+   ],
+   "wrong": [
+    "Running man",
+    "T-step",
+    "Arm wave"
+   ],
+   "tags": [
+    "Name the move",
+    "Easy"
+   ]
+  },
+  {
+   "id": "running-man-name",
+   "prompt": "Which move is this? Run on the spot: one knee lifts while the standing foot slides back, then they swap.",
+   "answers": [
+    "Running man"
+   ],
+   "wrong": [
+    "Rave bounce",
+    "T-step",
+    "Arm wave"
+   ],
+   "tags": [
+    "Name the move",
+    "Medium"
+   ]
+  },
+  {
+   "id": "t-step-name",
+   "prompt": "Which move is this? The standing foot swivels heel-toe to travel sideways while the other leg kicks out.",
+   "answers": [
+    "T-step"
+   ],
+   "wrong": [
+    "Rave bounce",
+    "Running man",
+    "Arm wave"
+   ],
+   "tags": [
+    "Name the move",
+    "Tricky"
+   ]
+  },
+  {
+   "id": "arm-wave-name",
+   "prompt": "Which move is this? A ripple that travels from one hand, through the shoulders, to the other hand.",
+   "answers": [
+    "Arm wave"
+   ],
+   "wrong": [
+    "Rave bounce",
+    "Running man",
+    "T-step"
+   ],
+   "tags": [
+    "Name the move",
+    "Medium"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Try the moves",
+   "count": 0,
+   "pass": 0,
+   "pick": "inorder",
+   "answer": "self",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "How to"
+   ],
+   "why": "Read the cues, tap Count along and try the move where you are, then mark whether you could do it."
+  },
+  {
+   "name": "Name the move",
+   "count": 0,
+   "pass": 80,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Name the move"
+   ],
+   "why": "Match a description to its move, so the names stick."
+  }
+ ]
+}

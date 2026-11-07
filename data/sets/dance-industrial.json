@@ -1,0 +1,160 @@
+{
+ "id": "dance-industrial",
+ "name": "Industrial",
+ "module": "Dance floor basics",
+ "description": "Heavy, grounded and percussive. Stomps, marches and punchy arms that hit the beat hard. Danced to EBM, Industrial, Aggrotech and Dark electro, usually around 120–140 BPM. Each move card has the cues and a beat to count along to: try it, then mark whether you could do it.",
+ "source": {
+  "name": "Written for Study Buddy as a casual primer."
+ },
+ "updated": "2026-11-07",
+ "questions": [
+  {
+   "id": "stomp-march",
+   "prompt": "Stomp march: how does it go?",
+   "answers": [
+    "March on the spot, putting each foot down flat and heavy, right on the kick drum."
+   ],
+   "steps": [
+    "Lift your right knee a little and stamp the foot down flat on 1",
+    "Same with the left on 2",
+    "Keep the knees soft as you land, so the stomp goes into the floor and not your joints",
+    "Lean the upper body slightly forward"
+   ],
+   "beat": {
+    "bpm": 128,
+    "counts": "Right on 1 · left on 2 · right on 3 · left on 4"
+   },
+   "explanation": "Tip: Hit harder on 1 than on the other beats. Tip: Wear boots you can stomp in. Barefoot practice at home is fine, just softer.",
+   "note": "Watch out for: landing with a straight leg, which jars the knees.",
+   "tags": [
+    "How to",
+    "Easy"
+   ]
+  },
+  {
+   "id": "ebm-two-step",
+   "prompt": "EBM two-step: how does it go?",
+   "answers": [
+    "One foot steps forward and back on the spot while the arms pump, switching feet every few bars."
+   ],
+   "steps": [
+    "Step your right foot forward and put weight on it (1)",
+    "Step it back to where it started (2)",
+    "Repeat on 3 and 4",
+    "Pump the opposite arm forward and back with the foot, fists loose",
+    "After two or four bars, switch to the left foot"
+   ],
+   "beat": {
+    "bpm": 128,
+    "counts": "1 forward · 2 back · 3 forward · 4 back"
+   },
+   "explanation": "It's the move you see on almost every EBM floor. Once you have it, you can fit in anywhere industrial is playing. Tip: Lean into the forward step a little, as if pushing through a crowd. Tip: Add a small heel stomp on the back step.",
+   "note": "Watch out for: taking big steps, when this move lives in a small square on the floor.",
+   "tags": [
+    "How to",
+    "Medium"
+   ]
+  },
+  {
+   "id": "punch-pull",
+   "prompt": "Punch and pull: how does it go?",
+   "answers": [
+    "Alternate fists punch down or forward on the beat and pull back, like working a machine."
+   ],
+   "steps": [
+    "Fists up at chest height, elbows bent",
+    "Drive the right fist down and forward on 1",
+    "Pull it back sharply on 2",
+    "Left fist on 3, back on 4, while the feet keep the stomp march going"
+   ],
+   "beat": {
+    "bpm": 128,
+    "counts": "Punch on 1 and 3, pull on 2 and 4"
+   },
+   "explanation": "Tip: Keep the punches short and sharp: stopping the movement is what makes it look hard. Tip: Try punching straight up on the big drops.",
+   "note": "Watch out for: straightening the arm all the way, which looks floppy and can hurt someone nearby.",
+   "tags": [
+    "How to",
+    "Medium"
+   ]
+  },
+  {
+   "id": "stomp-march-name",
+   "prompt": "Which move is this? March on the spot, putting each foot down flat and heavy, right on the kick drum.",
+   "answers": [
+    "Stomp march"
+   ],
+   "wrong": [
+    "EBM two-step",
+    "Punch and pull",
+    "Knee bounce"
+   ],
+   "tags": [
+    "Name the move",
+    "Easy"
+   ]
+  },
+  {
+   "id": "ebm-two-step-name",
+   "prompt": "Which move is this? One foot steps forward and back on the spot while the arms pump, switching feet every few bars.",
+   "answers": [
+    "EBM two-step"
+   ],
+   "wrong": [
+    "Stomp march",
+    "Punch and pull",
+    "Knee bounce"
+   ],
+   "tags": [
+    "Name the move",
+    "Medium"
+   ]
+  },
+  {
+   "id": "punch-pull-name",
+   "prompt": "Which move is this? Alternate fists punch down or forward on the beat and pull back, like working a machine.",
+   "answers": [
+    "Punch and pull"
+   ],
+   "wrong": [
+    "Stomp march",
+    "EBM two-step",
+    "Knee bounce"
+   ],
+   "tags": [
+    "Name the move",
+    "Medium"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Try the moves",
+   "count": 0,
+   "pass": 0,
+   "pick": "inorder",
+   "answer": "self",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "How to"
+   ],
+   "why": "Read the cues, tap Count along and try the move where you are, then mark whether you could do it."
+  },
+  {
+   "name": "Name the move",
+   "count": 0,
+   "pass": 80,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Name the move"
+   ],
+   "why": "Match a description to its move, so the names stick."
+  }
+ ]
+}
