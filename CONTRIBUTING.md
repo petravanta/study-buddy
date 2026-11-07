@@ -15,10 +15,11 @@ Built-in question sets are plain JSON files, so you can add one without touching
    - `figure` (optional): a picture the question asks about, `{ "src": "data/figures/<file>.png", "alt": "what it shows" }`. Put the image in `data/figures/` and add it to `APP_SHELL` in `sw.js` too. Add `"reveal": true` for a picture that gives the answer away, so it only shows with the answer. For an image you didn't make, say where it's from and its licence: `credit`, `source` (link), `license` and `licenseUrl`; only use openly licensed or public domain images.
    - `tags` (optional): topics, so practice tests can focus on some of them.
 4. **A chapter of a bigger subject** (like *Human anatomy*) gets `"module": "Human anatomy"`. Chapters of one module are offered together, in `data/sets.json` order.
-5. **Say where it comes from** in `source` (a name and a link) and set `updated` to the day you checked the answers.
-6. **Suggest practice tests** in `tests` that match how the real test works: how many questions, the pass mark as a percentage, and whether it ends early.
-7. **Add the id to `data/sets.json`**, in the order sets should be listed, and to the `APP_SHELL` list in `sw.js` (`data/sets/<id>.json`) so it works offline.
-8. **Open a pull request.** The `Check data` check makes sure the file matches [the schema](data/schema/sets.schema.json) and that ids are unique. To run it yourself:
+5. **How-to questions** (like the *Dance floor basics* moves) can add `steps`, a list of short cues shown as a numbered list with the answer, and `beat`, e.g. `{ "bpm": 128, "counts": "1 forward · 2 back" }` (add `"half": true` for half time), which offers a count-along beat with the answer.
+6. **Say where it comes from** in `source` (a name and a link) and set `updated` to the day you checked the answers.
+7. **Suggest practice tests** in `tests` that match how the real test works: how many questions, the pass mark as a percentage, and whether it ends early.
+8. **Add the id to `data/sets.json`**, in the order sets should be listed, and to the `APP_SHELL` list in `sw.js` (`data/sets/<id>.json`) so it works offline.
+9. **Open a pull request.** The `Check data` check makes sure the file matches [the schema](data/schema/sets.schema.json) and that ids are unique. To run it yourself:
 
    ```sh
    npx ajv-cli@5 validate --spec=draft7 --all-errors -s data/schema/sets.schema.json -d data/sets/<id>.json

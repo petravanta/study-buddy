@@ -173,6 +173,12 @@ nav.tabs .end{margin-left:auto}
 .ans{border-top:1px solid var(--line);padding-top:14px;display:flex;flex-direction:column;gap:8px}
 .ans .one{font-size:19px;font-weight:600}
 .ans ul{margin:0;padding-left:20px}
+.ans ol.steps{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:4px}
+.beat{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.beat .dots{display:flex;gap:6px}
+.beat .dots i{width:11px;height:11px;border-radius:999px;background:var(--sunk);border:1px solid var(--line)}
+.beat .dots i.on{background:var(--accent);border-color:var(--accent)}
+.beat .dots i.soft{opacity:.4}
 .ans .note{font-size:13px;background:var(--lv-learn-bg);color:var(--ink);border-radius:8px;padding:8px 10px}
 .opts{display:grid;gap:8px}
 .opt{text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:var(--r);padding:12px 14px;font-weight:500;display:flex;gap:12px;align-items:baseline}
@@ -799,11 +805,47 @@ function answerBlock(q) {
   if (!q.answers.length) return `<div class="ans"><p class="small muted">Your own answer: ${esc(q.personal ? q.personal.ask : '')}. Not filled in yet.</p></div>`;
   return `<div class="ans">
     ${many ? `<p class="small muted">${need > 1 ? `Any ${need} of these:` : 'Any of these:'}</p><ul>${q.answers.map(a => `<li>${esc(a)}</li>`).join('')}</ul>` : `<p class="one">${esc(q.answers[0])}</p>`}
+    ${q.steps ? `<ol class="steps">${q.steps.map(t => `<li>${esc(t)}</li>`).join('')}</ol>` : ''}
+    ${q.beat ? beatBlock(q.beat) : ''}
     ${q.explanation ? `<p class="small">${esc(q.explanation)}</p>` : ''}
     ${q.note ? `<p class="note">${esc(q.note)}</p>` : ''}
   </div>`;
 }
+// Count-along beat for a question with `beat` (a dance move, say): a click on every beat, louder on 1, softer on the
+// off beats in half time. Clicks are scheduled a little ahead with Web Audio so the tempo stays steady.
+const beat = { ctx: null, timer: 0, n: 0, next: 0, cfg: null };
+function beatBlock(b) {
+  return `<div class="beat"><button class="btn sm" type="button" data-beat="${b.bpm}${b.half ? 'h' : ''}">▶ Count along · ${b.bpm} BPM${b.half ? ', half time' : ''}</button>
+    <span class="dots" aria-hidden="true">${[0, 1, 2, 3].map(i => `<i${b.half && i % 2 ? ' class="soft"' : ''}></i>`).join('')}</span>
+    ${b.counts ? `<span class="small muted">${esc(b.counts)}</span>` : ''}</div>`;
+}
+function beatDots(n) { document.querySelectorAll('.beat .dots').forEach(d => [...d.children].forEach((x, i) => x.classList.toggle('on', i === n))); }
+function beatStop() {
+  clearInterval(beat.timer); beat.timer = 0; beat.cfg = null; beatDots(-1);
+  document.querySelectorAll('[data-beat]').forEach(b => { b.textContent = b.textContent.replace(/^■ Stop/, '▶ Count along'); });
+}
+function beatStart(btn) {
+  const AC = window.AudioContext || window.webkitAudioContext; if (!AC) return toast('This browser can’t play the beat.');
+  const v = btn.dataset.beat, bpm = parseInt(v, 10), half = v.endsWith('h');
+  beatStop();
+  beat.ctx = beat.ctx || new AC(); beat.ctx.resume();
+  beat.cfg = { bpm, half }; beat.n = 0; beat.next = beat.ctx.currentTime + 0.06;
+  const tick = () => {
+    const c = beat.ctx;
+    while (beat.next < c.currentTime + 0.12) {
+      const t = beat.next, n = beat.n, o = c.createOscillator(), g = c.createGain();
+      o.frequency.setValueAtTime(n === 0 ? 150 : 110, t); o.frequency.exponentialRampToValueAtTime(45, t + 0.12);
+      g.gain.setValueAtTime(n === 0 ? 0.9 : half && n % 2 ? 0.2 : 0.55, t); g.gain.exponentialRampToValueAtTime(0.001, t + 0.16);
+      o.connect(g).connect(c.destination); o.start(t); o.stop(t + 0.18);
+      setTimeout(() => beat.cfg && beatDots(n), Math.max(0, (t - c.currentTime) * 1000));
+      beat.n = (n + 1) % 4; beat.next += 60 / bpm;
+    }
+  };
+  beat.timer = setInterval(tick, 25); tick();
+  btn.textContent = btn.textContent.replace(/^▶ Count along/, '■ Stop');
+}
 function renderRun() {
+  if (beat.timer) beatStop();
   const it = run.items[run.i], q = it.q, N = run.items.length, mode = run.cfg.answer, showScore = run.cfg.feedback !== 'end' || mode === 'self';
   const multi = cur() && cur().sets.length > 1;
   const meta = [it.study ? 'New card' : it.review ? 'Review' : '', multi ? it.s.name : '', (q.tags || []).slice(-1)[0]].filter(Boolean).join(' · ');
@@ -1088,7 +1130,7 @@ function editQuestion(s, id) {
       const personal = f.personal.checked ? { ask: f.ask.value.trim() || 'Your answer', hint: f.phint.value.trim() } : null;
       const answers = personal ? [] : lines(f.answers.value);
       if (!f.prompt.value.trim() || (!personal && !answers.length)) return toast('A question needs its text and at least one answer.');
-      const r = cleanQuestion({ id: q ? q.id : uniqueId(s), prompt: f.prompt.value, answers, personal, need: +f.need.value, wrong: lines(f.wrong.value), explanation: f.explanation.value, note: f.note.value, figure: q && q.figure, tags: f.tags.value.split(',') });
+      const r = cleanQuestion({ id: q ? q.id : uniqueId(s), prompt: f.prompt.value, answers, personal, need: +f.need.value, wrong: lines(f.wrong.value), explanation: f.explanation.value, note: f.note.value, figure: q && q.figure, steps: q && q.steps, beat: q && q.beat, tags: f.tags.value.split(',') });
       if (q) s.questions[s.questions.indexOf(q)] = r; else s.questions.push(r);
       touch(s); changed(); setDrawer(s.id);
     };
@@ -1225,6 +1267,9 @@ function cleanQuestion(x) {
   const wrong = arr(x.wrong); if (wrong.length) q.wrong = wrong;
   if (str(x.explanation)) q.explanation = str(x.explanation);
   if (str(x.note)) q.note = str(x.note);
+  const steps = arr(x.steps); if (steps.length) q.steps = steps;
+  const bpm = Math.round(+(x.beat && x.beat.bpm));
+  if (bpm >= 40 && bpm <= 220) { q.beat = { bpm }; if (x.beat.half === true) q.beat.half = true; if (str(x.beat.counts)) q.beat.counts = str(x.beat.counts); }
   const fig = x.figure && typeof x.figure === 'object' ? str(x.figure.src) : '';
   if (/^(data\/[\w./-]+|https:\/\/\S+)$/.test(fig) && !fig.includes('..')) {
     q.figure = { src: fig };
@@ -1598,7 +1643,7 @@ function runAction(a) {
     case 'end': run.stopped = true; return finish();
     case 'again': { const r = run; run = null; if (r.learn) return startLearn(p, r.cfg); const t = r.type && doc.testTypes.find(x => x.id === r.type); return startRun(p, r.cfg, t || null); }
     case 'redoMissed': { const missed = run.items.filter(i => i.ok === false).map(({ s, q, key }) => ({ s, q, key })); run = null; return startRun(p, { ...QUICK, ...(p.quick || {}), feedback: 'each', pick: 'inorder', count: 0 }, null, missed); }
-    case 'close': run = null; return render();
+    case 'close': run = null; beatStop(); return render();
   }
 }
 document.addEventListener('keydown', e => {
@@ -1614,6 +1659,8 @@ document.addEventListener('keydown', e => {
   if (run.phase === 'feedback' && (k === 'enter' || (k === ' ' && !inField))) { e.preventDefault(); return next(); }
 });
 document.addEventListener('click', e => {
+  const bt = e.target.closest('[data-beat]');
+  if (bt) return beat.timer && bt.textContent.startsWith('■') ? beatStop() : beatStart(bt);
   const z = e.target.closest('[data-zoom]');
   if (z) return zoomFigure(z.closest('figure'));
   if (e.target.closest('[data-unzoom]') || e.target.id === 'zoom') unzoom();

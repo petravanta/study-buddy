@@ -1,0 +1,162 @@
+{
+ "id": "dance-goth",
+ "name": "Goth",
+ "module": "Dance floor basics",
+ "description": "Slow, fluid and theatrical. The body sways, the arms tell the story, and the floor is never rushed. A lot of goth tracks run at a normal club tempo, but the dancing sits on every other beat. Moving in half time is what gives it that drifting, unhurried look. Danced to Post-punk, Deathrock, Darkwave and Coldwave, usually around 100–140 BPM. Each move card has the cues and a beat to count along to: try it, then mark whether you could do it.",
+ "source": {
+  "name": "Written for Study Buddy as a casual primer."
+ },
+ "updated": "2026-11-07",
+ "questions": [
+  {
+   "id": "goth-drift",
+   "prompt": "Half-time drift: how does it go?",
+   "answers": [
+    "Slow, gliding steps on every other beat, as if you were walking through water."
+   ],
+   "steps": [
+    "Step slowly to the side, or a little forward, on 1",
+    "Let the other foot follow and settle on 2, no rush",
+    "Step the other way on 3, settle on 4",
+    "Keep the upper body tall and let the head turn slowly with the steps"
+   ],
+   "beat": {
+    "bpm": 120,
+    "half": true,
+    "counts": "Step on 1, hold 2 · step on 3, hold 4"
+   },
+   "explanation": "Dancing in half time is what makes goth dancing look effortless, even at a club tempo. Tip: Roll through the whole foot when you step, heel to toe or toe to heel. Tip: Close your eyes for a few bars to stop yourself rushing.",
+   "note": "Watch out for: stepping on every beat, which turns it into a march.",
+   "tags": [
+    "How to",
+    "Easy"
+   ]
+  },
+  {
+   "id": "cobweb-hands",
+   "prompt": "Cobweb hands: how does it go?",
+   "answers": [
+    "Hands slowly push and part the air in front of you, as if you were clearing away cobwebs."
+   ],
+   "steps": [
+    "Bring both hands up in front of your face, palms out",
+    "Over two beats, sweep one hand slowly out and down to the side",
+    "Over the next two, the other hand follows on its own path",
+    "Let the wrists lead and the fingers trail behind"
+   ],
+   "beat": {
+    "bpm": 120,
+    "half": true,
+    "counts": "One push over two beats"
+   },
+   "explanation": "Tip: Change levels: high above the head, then low by the hips. Tip: Your eyes can follow one hand, which adds a lot of drama for free.",
+   "note": "Watch out for: moving both arms the same way at the same time, which looks mechanical.",
+   "tags": [
+    "How to",
+    "Medium"
+   ]
+  },
+  {
+   "id": "slow-turn",
+   "prompt": "Slow turn: how does it go?",
+   "answers": [
+    "A small, unhurried turn on the spot in tiny steps, with the arms trailing."
+   ],
+   "steps": [
+    "Turn your head and shoulders a little first to start the turn",
+    "Take tiny steps on the spot in that direction, one every two beats",
+    "Finish facing the front after 8 beats",
+    "Let one arm float out behind you as you turn"
+   ],
+   "beat": {
+    "bpm": 120,
+    "half": true,
+    "counts": "A full turn over 8 beats"
+   },
+   "explanation": "Tip: Pick a spot on the wall and find it again at the end, so you don't get dizzy. Tip: Turn the other way next time, so both sides get practice.",
+   "note": "Watch out for: spinning on one foot, which is fast and needs much more space.",
+   "tags": [
+    "How to",
+    "Medium"
+   ]
+  },
+  {
+   "id": "goth-drift-name",
+   "prompt": "Which move is this? Slow, gliding steps on every other beat, as if you were walking through water.",
+   "answers": [
+    "Half-time drift"
+   ],
+   "wrong": [
+    "Cobweb hands",
+    "Slow turn",
+    "Knee bounce"
+   ],
+   "tags": [
+    "Name the move",
+    "Easy"
+   ]
+  },
+  {
+   "id": "cobweb-hands-name",
+   "prompt": "Which move is this? Hands slowly push and part the air in front of you, as if you were clearing away cobwebs.",
+   "answers": [
+    "Cobweb hands"
+   ],
+   "wrong": [
+    "Half-time drift",
+    "Slow turn",
+    "Knee bounce"
+   ],
+   "tags": [
+    "Name the move",
+    "Medium"
+   ]
+  },
+  {
+   "id": "slow-turn-name",
+   "prompt": "Which move is this? A small, unhurried turn on the spot in tiny steps, with the arms trailing.",
+   "answers": [
+    "Slow turn"
+   ],
+   "wrong": [
+    "Half-time drift",
+    "Cobweb hands",
+    "Knee bounce"
+   ],
+   "tags": [
+    "Name the move",
+    "Medium"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Try the moves",
+   "count": 0,
+   "pass": 0,
+   "pick": "inorder",
+   "answer": "self",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "How to"
+   ],
+   "why": "Read the cues, tap Count along and try the move where you are, then mark whether you could do it."
+  },
+  {
+   "name": "Name the move",
+   "count": 0,
+   "pass": 80,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Name the move"
+   ],
+   "why": "Match a description to its move, so the names stick."
+  }
+ ]
+}
