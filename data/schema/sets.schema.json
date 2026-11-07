@@ -137,6 +137,39 @@
           "type": "string",
           "description": "A caution shown with the answer, e.g. that it changes after an election."
         },
+        "steps": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Short, ordered cues shown as a numbered list with the answer, for questions about how to do something (a dance move, say)."
+        },
+        "beat": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "bpm"
+          ],
+          "description": "A count-along beat offered with the answer, for questions about a move done to music.",
+          "properties": {
+            "bpm": {
+              "type": "integer",
+              "minimum": 40,
+              "maximum": 220,
+              "description": "Tempo in beats per minute."
+            },
+            "half": {
+              "type": "boolean",
+              "description": "Half time: accent beats 1 and 3, for styles that move on every other beat."
+            },
+            "counts": {
+              "type": "string",
+              "description": "How the move fits the beat, e.g. “1 step · 2 touch · 3 step · 4 touch”."
+            }
+          }
+        },
         "figure": {
           "type": "object",
           "additionalProperties": false,
