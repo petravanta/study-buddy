@@ -1,0 +1,237 @@
+{
+ "id": "dance-basics",
+ "name": "Floor basics",
+ "module": "Dance floor basics",
+ "description": "Moves that work on any dance floor, to any beat. Start here. Danced to anything with a steady beat, usually around 110–130 BPM. Each move card has the cues and a beat to count along to: try it, then mark whether you could do it.",
+ "source": {
+  "name": "Written for Study Buddy as a casual primer."
+ },
+ "updated": "2026-11-07",
+ "questions": [
+  {
+   "id": "knee-bounce",
+   "prompt": "Knee bounce: how does it go?",
+   "answers": [
+    "Soft knees that dip a little on each beat. Almost every other move sits on top of this."
+   ],
+   "steps": [
+    "Stand with feet hip-width apart, knees soft",
+    "On each beat, let your knees dip a few centimetres",
+    "Come back up between beats, but never lock your knees",
+    "Let your shoulders and head ride along with the bounce"
+   ],
+   "beat": {
+    "bpm": 120,
+    "counts": "Down on every beat"
+   },
+   "explanation": "Feeling the beat in your knees is what makes the rest of your body look like it's dancing to the music rather than next to it. Tip: Find the kick drum first and bounce only on that. Tip: Smaller is cooler: a tiny bounce on time beats a big one off time.",
+   "note": "Watch out for: bouncing up on the beat instead of down; locking the knees between bounces, which makes it look stiff.",
+   "tags": [
+    "How to",
+    "Easy"
+   ]
+  },
+  {
+   "id": "step-touch",
+   "prompt": "Step-touch: how does it go?",
+   "answers": [
+    "Step to one side, bring the other foot in to tap, then go back the other way."
+   ],
+   "steps": [
+    "Step your right foot out to the right (1)",
+    "Bring your left foot in and tap it next to the right (2)",
+    "Step your left foot out to the left (3)",
+    "Tap the right foot next to it (4)"
+   ],
+   "beat": {
+    "bpm": 120,
+    "counts": "1 step · 2 touch · 3 step · 4 touch"
+   },
+   "explanation": "Tip: Keep the knee bounce going underneath. Tip: Once it's automatic, let your shoulders swing the opposite way to your feet.",
+   "note": "Watch out for: stepping too wide, which eats floor space and pulls you off the beat.",
+   "tags": [
+    "How to",
+    "Easy"
+   ]
+  },
+  {
+   "id": "sway",
+   "prompt": "Weight-shift sway: how does it go?",
+   "answers": [
+    "Feet stay put while your weight rolls from one foot to the other, and the hips follow."
+   ],
+   "steps": [
+    "Feet a bit wider than hip-width, knees soft",
+    "Shift your weight over the left foot on 1, so the right heel can lift",
+    "Shift over the right foot on 2",
+    "Let the hips and shoulders follow the weight, not lead it"
+   ],
+   "beat": {
+    "bpm": 120,
+    "counts": "1 left · 2 right"
+   },
+   "explanation": "Tip: Try it at half speed (one shift every two beats) for slow tracks. Tip: This is the move to fall back on when you've lost the beat.",
+   "note": "Watch out for: swinging only the hips while the weight stays in the middle.",
+   "tags": [
+    "How to",
+    "Easy"
+   ]
+  },
+  {
+   "id": "loose-arms",
+   "prompt": "Loose arms: how does it go?",
+   "answers": [
+    "Give your hands somewhere to be: elbows bent, hands around waist to chest height, moving with the body."
+   ],
+   "steps": [
+    "Bend your elbows and bring your hands up to between waist and chest",
+    "Loosen your fists, or make them soft",
+    "Let the hands rise and fall a little with the knee bounce",
+    "Every few bars, change it: one arm swings, or both hands push down on the beat"
+   ],
+   "beat": {
+    "bpm": 120,
+    "counts": "Follow the bounce"
+   },
+   "explanation": "Most people feel awkward because of their arms, not their feet. A default arm position takes that worry away. Tip: Watch the hands of someone whose dancing you like, then borrow one gesture.",
+   "note": "Watch out for: arms hanging straight down, which reads as 'not dancing'; arms flying wide on a crowded floor.",
+   "tags": [
+    "How to",
+    "Easy"
+   ]
+  },
+  {
+   "id": "crowd-footprint",
+   "prompt": "Dancing in a crowd: how does it go?",
+   "answers": [
+    "Keep your moves inside your own footprint, and go bigger only when there's space."
+   ],
+   "steps": [
+    "Before you start, notice how much room you have around you",
+    "On a packed floor, keep feet under your hips and elbows in",
+    "Save spins, kicks and wide arms for when a gap opens",
+    "If you bump someone, a quick smile or hand on the heart is all it takes"
+   ],
+   "beat": {
+    "bpm": 120,
+    "counts": "Any"
+   },
+   "explanation": "Being easy to dance next to is the fastest way to feel welcome on any floor. Tip: Face the DJ or the speakers when it's packed: everyone moves the same way and nobody collides.",
+   "note": "Watch out for: practising a big new move in the middle of a packed floor.",
+   "tags": [
+    "How to",
+    "Easy"
+   ]
+  },
+  {
+   "id": "knee-bounce-name",
+   "prompt": "Which move is this? Soft knees that dip a little on each beat. Almost every other move sits on top of this.",
+   "answers": [
+    "Knee bounce"
+   ],
+   "wrong": [
+    "Step-touch",
+    "Weight-shift sway",
+    "Loose arms"
+   ],
+   "tags": [
+    "Name the move",
+    "Easy"
+   ]
+  },
+  {
+   "id": "step-touch-name",
+   "prompt": "Which move is this? Step to one side, bring the other foot in to tap, then go back the other way.",
+   "answers": [
+    "Step-touch"
+   ],
+   "wrong": [
+    "Knee bounce",
+    "Weight-shift sway",
+    "Loose arms"
+   ],
+   "tags": [
+    "Name the move",
+    "Easy"
+   ]
+  },
+  {
+   "id": "sway-name",
+   "prompt": "Which move is this? Feet stay put while your weight rolls from one foot to the other, and the hips follow.",
+   "answers": [
+    "Weight-shift sway"
+   ],
+   "wrong": [
+    "Knee bounce",
+    "Step-touch",
+    "Loose arms"
+   ],
+   "tags": [
+    "Name the move",
+    "Easy"
+   ]
+  },
+  {
+   "id": "loose-arms-name",
+   "prompt": "Which move is this? Give your hands somewhere to be: elbows bent, hands around waist to chest height, moving with the body.",
+   "answers": [
+    "Loose arms"
+   ],
+   "wrong": [
+    "Knee bounce",
+    "Step-touch",
+    "Weight-shift sway"
+   ],
+   "tags": [
+    "Name the move",
+    "Easy"
+   ]
+  },
+  {
+   "id": "crowd-footprint-name",
+   "prompt": "Which move is this? Keep your moves inside your own footprint, and go bigger only when there's space.",
+   "answers": [
+    "Dancing in a crowd"
+   ],
+   "wrong": [
+    "Knee bounce",
+    "Step-touch",
+    "Weight-shift sway"
+   ],
+   "tags": [
+    "Name the move",
+    "Easy"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "name": "Try the moves",
+   "count": 0,
+   "pass": 0,
+   "pick": "inorder",
+   "answer": "self",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "How to"
+   ],
+   "why": "Read the cues, tap Count along and try the move where you are, then mark whether you could do it."
+  },
+  {
+   "name": "Name the move",
+   "count": 0,
+   "pass": 80,
+   "pick": "random",
+   "answer": "choice",
+   "feedback": "each",
+   "stopEarly": false,
+   "timeLimit": 0,
+   "tags": [
+    "Name the move"
+   ],
+   "why": "Match a description to its move, so the names stick."
+  }
+ ]
+}
