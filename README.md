@@ -78,3 +78,7 @@ The *Dance floor basics* module is a light primer for people who want to feel at
 ## Running it
 
 It is a single static file, `index.html`, with no build step. Serve the folder (`python3 -m http.server`) and open it; the built-in sets load with `fetch()`, so opening the file directly won't show them. GitHub Pages serves it from `main`, root folder.
+
+## License
+
+MIT, see [LICENSE](LICENSE). The anatomy pictures keep their CC BY-SA licence; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
