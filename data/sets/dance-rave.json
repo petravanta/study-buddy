@@ -21,6 +21,7 @@
     "Shoulders loose, hands relaxed at waist height"
    ],
    "beat": {
+    "style": "rave",
     "bpm": 132,
     "counts": "Up on every beat"
    },
@@ -44,6 +45,7 @@
     "Put it down in front while the right foot slides back, and repeat"
    ],
    "beat": {
+    "style": "rave",
     "bpm": 132,
     "counts": "Lift on 'and', slide on the beat"
    },
@@ -67,6 +69,7 @@
     "After four swivels, switch legs and travel the other way"
    ],
    "beat": {
+    "style": "rave",
     "bpm": 132,
     "counts": "Swivel on every beat"
    },
@@ -90,6 +93,7 @@
     "Each joint drops as the next one rises"
    ],
    "beat": {
+    "style": "rave",
     "bpm": 132,
     "counts": "Across over 4 beats"
    },

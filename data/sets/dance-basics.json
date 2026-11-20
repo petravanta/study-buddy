@@ -21,6 +21,7 @@
     "Let your shoulders and head ride along with the bounce"
    ],
    "beat": {
+    "style": "basics",
     "bpm": 120,
     "counts": "Down on every beat"
    },
@@ -44,6 +45,7 @@
     "Tap the right foot next to it (4)"
    ],
    "beat": {
+    "style": "basics",
     "bpm": 120,
     "counts": "1 step · 2 touch · 3 step · 4 touch"
    },
@@ -67,6 +69,7 @@
     "Let the hips and shoulders follow the weight, not lead it"
    ],
    "beat": {
+    "style": "basics",
     "bpm": 120,
     "counts": "1 left · 2 right"
    },
@@ -90,6 +93,7 @@
     "Every few bars, change it: one arm swings, or both hands push down on the beat"
    ],
    "beat": {
+    "style": "basics",
     "bpm": 120,
     "counts": "Follow the bounce"
    },
@@ -113,6 +117,7 @@
     "If you bump someone, a quick smile or hand on the heart is all it takes"
    ],
    "beat": {
+    "style": "basics",
     "bpm": 120,
     "counts": "Any"
    },

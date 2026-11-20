@@ -21,6 +21,7 @@
     "Keep the upper body tall and let the head turn slowly with the steps"
    ],
    "beat": {
+    "style": "goth",
     "bpm": 120,
     "half": true,
     "counts": "Step on 1, hold 2 · step on 3, hold 4"
@@ -45,6 +46,7 @@
     "Let the wrists lead and the fingers trail behind"
    ],
    "beat": {
+    "style": "goth",
     "bpm": 120,
     "half": true,
     "counts": "One push over two beats"
@@ -69,6 +71,7 @@
     "Let one arm float out behind you as you turn"
    ],
    "beat": {
+    "style": "goth",
     "bpm": 120,
     "half": true,
     "counts": "A full turn over 8 beats"
