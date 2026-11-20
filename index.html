@@ -102,6 +102,9 @@ textarea{resize:vertical}
 .drawer .x{position:absolute;top:calc(env(safe-area-inset-top,0px) + 12px);right:max(12px,env(safe-area-inset-right,0px));background:var(--sunk);border:0;border-radius:999px;width:32px;height:32px;font-size:18px;line-height:1}
 @media (max-width:640px){.drawer .x{top:12px}}
 .drawer h2{padding-right:40px}
+.qnav{display:flex;gap:6px;align-items:center;margin-top:-6px}
+.qnav select{flex:1;min-width:0;padding:6px 8px;font-size:14px}
+.qnav .btn{min-width:40px;font-size:18px;line-height:1}
 .drawer ul,.cues{margin:0;padding-left:18px}
 .checks{display:flex;flex-wrap:wrap;gap:6px}
 .checks label{display:inline-flex;align-items:center;gap:5px;font-size:13px;border:1px solid var(--line);border-radius:6px;padding:3px 8px;background:var(--sunk)}
@@ -729,6 +732,7 @@ function renderQuestions(p) {
     <div class="chips">${chip('all', 'All', items.length)}${Object.keys(LEVELS).map(k => chip(k, LEVELS[k].label, c[k])).join('')}</div>
     <section class="panel"><div class="qlist" id="qlist"></div></section>`;
 }
+let qListKeys = [];
 function drawQList(p) {
   const box = $('#qlist');
   if (!box) return;
@@ -739,6 +743,7 @@ function drawQList(p) {
     if (t && !core(it.q.prompt + ' ' + it.q.answers.join(' ')).includes(t)) return false;
     return qFilter.level === 'all' || qstat(it.key).level === qFilter.level;
   });
+  qListKeys = rows.map(it => it.key);
   box.innerHTML = rows.length ? rows.map(it => {
     const st = qstat(it.key);
     return `<button class="qrow" type="button" data-q="${esc(it.key)}"><span><span class="qp">${esc(it.q.prompt)}</span><br><span class="qa">${esc(it.blank ? it.q.personal.ask : it.q.answers.join(' · '))}</span></span>
@@ -920,14 +925,18 @@ function renderResult() {
 }
 
 /* ---------- Drawers ---------- */
-function openDrawer(title, inner, wire) {
-  $('#layer').innerHTML = `<div class="scrim" data-close></div><aside class="drawer" role="dialog" aria-modal="true" aria-label="${esc(title)}"><button class="x" type="button" data-close aria-label="Close">×</button><h2>${esc(title)}</h2>${inner}</aside>`;
+// `swap` replaces what an open drawer shows without sliding it in again (stepping from one question to the next).
+function openDrawer(title, inner, wire, swap) {
+  if (beat.timer && $('#layer [data-beat]')) beatStop();
+  let d = swap && $('#layer .drawer');
+  const html = `<button class="x" type="button" data-close aria-label="Close">×</button><h2>${esc(title)}</h2>${inner}`;
+  if (d) { d.innerHTML = html; d.setAttribute('aria-label', title); d.scrollTop = 0; }
+  else { $('#layer').innerHTML = `<div class="scrim" data-close></div><aside class="drawer" role="dialog" aria-modal="true" aria-label="${esc(title)}">${html}</aside>`; d = $('#layer .drawer'); }
   $('#layer').querySelectorAll('[data-close]').forEach(b => b.onclick = closeDrawer);
-  const d = $('#layer .drawer');
   if (wire) wire(d);
-  const f = d.querySelector('input,textarea,select'); if (f && matchMedia('(pointer:fine)').matches) f.focus();
+  const f = !swap && d.querySelector('input,textarea,select'); if (f && matchMedia('(pointer:fine)').matches) f.focus();
 }
-function closeDrawer() { $('#layer').innerHTML = ''; }
+function closeDrawer() { if (beat.timer && $('#layer [data-beat]')) beatStop(); $('#layer').innerHTML = ''; }
 // A delete button that asks for a second tap
 function wireDelete(btn, label, onDelete) {
   if (!btn) return;
@@ -940,13 +949,16 @@ function wireDelete(btn, label, onDelete) {
 }
 const lines = s => String(s || '').split('\n').map(x => x.trim()).filter(Boolean);
 
-function questionDrawer(key) {
+// One question with its history. `list` is the keys of the list it was opened from (a set, or the Questions tab as
+// filtered), so ‹ › and the picker step through it in place, without going back out to the list.
+function questionDrawer(key, list, swap) {
   const [sid, id] = [key.slice(0, key.lastIndexOf('/')), key.slice(key.lastIndexOf('/') + 1)];
   const s = setById(sid), raw = s && s.questions.find(x => x.id === id);
   if (!raw) return;
+  list = list && list.includes(key) ? list : s.questions.map(x => s.id + '/' + x.id);
   const mine = raw.personal ? myAnswers(key) : null, q = mine && mine.length ? { ...raw, answers: mine } : raw;
   const st = qstat(key), progs = new Map(doc.programmes.map(p => [p.id, p.name]));
-  openDrawer('Question', `<p class="prompt" style="font-size:18px;font-weight:600">${esc(q.prompt)}</p>${figure(q)}${answerBlock(q)}
+  openDrawer('Question', `${qNav(key, list)}<p class="prompt" style="font-size:18px;font-weight:600">${esc(q.prompt)}</p>${figure(q)}${answerBlock(q)}
     <div class="row">${pill(st.level)}${st.n ? `<span class="small">Right ${st.ok} of ${plural(st.n, 'time')}${st.streak > 1 ? `, the last ${st.streak} in a row` : ''}</span>` : '<span class="small muted">Not answered yet</span>'}</div>
     ${st.n ? `<h3>Every answer</h3><div>${st.h.slice().reverse().map(a => `<div class="entry"><div>${esc(fmtWhen(a.at))}<div class="meta">${a.t ? 'Test' : 'Flashcards'} · ${esc(ANSWER_MODES[a.m] || '')}${progs.size > 1 && progs.get(a.p) ? ' · ' + esc(progs.get(a.p)) : ''}${a.g ? ' · “' + esc(a.g) + '”' : ''}</div></div><span class="${a.ok ? 'ok-t' : 'no-t'}">${a.ok ? '✓' : '✗'}</span></div>`).join('')}</div>` : ''}
     <p class="small muted">${esc(s.name)}${(q.tags || []).length ? ' · ' + esc(q.tags.join(' · ')) : ''}</p>
@@ -954,8 +966,33 @@ function questionDrawer(key) {
     <div class="row">${raw.personal ? '<button class="btn" type="button" id="fillQ">Change my answer</button>' : ''}${isBuiltin(s.id) ? '' : '<button class="btn" type="button" id="editQ">Edit question</button>'}</div>`,
     d => {
       const b = d.querySelector('#editQ'); if (b) b.onclick = () => editQuestion(s, raw.id);
-      const f = d.querySelector('#fillQ'); if (f) f.onclick = () => fillDrawer([{ s, q: raw, key }], () => questionDrawer(key));
-    });
+      const f = d.querySelector('#fillQ'); if (f) f.onclick = () => fillDrawer([{ s, q: raw, key }], () => questionDrawer(key, list));
+      wireQNav(d, key, list);
+    }, swap);
+}
+// Previous / next and a picker of every question in the list, above the question
+function qNav(key, list) {
+  if (list.length < 2) return '';
+  const i = list.indexOf(key), sets = [...new Set(list.map(k => k.slice(0, k.lastIndexOf('/'))))];
+  const opt = (k, n) => { const s = setById(k.slice(0, k.lastIndexOf('/'))), q = s && s.questions.find(x => s.id + '/' + x.id === k); return q ? `<option value="${esc(k)}"${k === key ? ' selected' : ''}>${n + 1}. ${esc(q.prompt)}</option>` : ''; };
+  const opts = sets.length > 1
+    ? sets.map(sid => `<optgroup label="${esc((setById(sid) || {}).name || '')}">${list.map((k, n) => k.startsWith(sid + '/') ? opt(k, n) : '').join('')}</optgroup>`).join('')
+    : list.map(opt).join('');
+  return `<div class="qnav"><button class="btn sm" type="button" data-qstep="-1" aria-label="Previous question"${i ? '' : ' disabled'}>‹</button>
+    <label class="sr-only" for="qPick">Go to question</label><select id="qPick">${opts}</select>
+    <button class="btn sm" type="button" data-qstep="1" aria-label="Next question"${i < list.length - 1 ? '' : ' disabled'}>›</button>
+    <span class="small mono muted">${i + 1}/${list.length}</span></div>`;
+}
+function wireQNav(d, key, list) {
+  const go = (k, focus) => { if (!k || k === key) return; questionDrawer(k, list, true); const f = focus && $('#layer ' + focus); if (f && !f.disabled) f.focus(); };
+  const step = n => list[list.indexOf(key) + n];
+  d.querySelectorAll('[data-qstep]').forEach(b => b.onclick = () => go(step(+b.dataset.qstep), `[data-qstep="${b.dataset.qstep}"]`));
+  const pick = d.querySelector('#qPick'); if (pick) pick.onchange = () => go(pick.value, '#qPick');
+  d.qstep = n => go(step(n));
+  // a sideways swipe on a phone steps too (not on the picker, a picture or anything that scrolls sideways)
+  let x0 = null, y0 = 0;
+  d.ontouchstart = e => { const t = e.touches[0]; x0 = e.touches.length === 1 && !e.target.closest('select,figure') ? t.clientX : null; y0 = t.clientY; };
+  d.ontouchend = e => { if (x0 == null) return; const t = e.changedTouches[0], dx = t.clientX - x0, dy = t.clientY - y0; x0 = null; if (Math.abs(dx) > 60 && Math.abs(dx) > 2 * Math.abs(dy)) go(step(dx < 0 ? 1 : -1)); };
 }
 // Questions whose answer depends on the person (their Senators, their state capital): ask for their answers
 function fillDrawer(items, then) {
@@ -1622,7 +1659,7 @@ $('#main').addEventListener('click', e => {
   if (d.start) return newProgDrawer(d.start);
   if (d.test) { const t = doc.testTypes.find(x => x.id === d.test); return t && startRun(p, t, t); }
   if (d.editTest) return testDrawer(p, d.editTest);
-  if (d.q) return questionDrawer(d.q);
+  if (d.q) return questionDrawer(d.q, b.closest('#qlist') ? qListKeys : null);
   if (d.review) return reviewDrawer(d.review);
   if (d.openSet) return setDrawer(d.openSet);
   if (d.share) return shareSet(setById(d.share), p);
@@ -1677,6 +1714,8 @@ function runAction(a) {
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape' && !$('#zoom').hidden) return unzoom();
   if (e.key === 'Escape' && $('#layer').innerHTML) return closeDrawer();
+  const qd = $('#layer .drawer');
+  if (qd && qd.qstep && $('#zoom').hidden && (e.key === 'ArrowLeft' || e.key === 'ArrowRight') && !/^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return qd.qstep(e.key === 'ArrowLeft' ? -1 : 1);
   if (!run || run.done || $('#layer').innerHTML || !$('#zoom').hidden || e.ctrlKey || e.metaKey || e.altKey) return;
   const inField = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName), mode = run.cfg.answer, k = e.key.toLowerCase();
   if (run.phase === 'study' && (k === ' ' || k === 'enter')) { e.preventDefault(); return runAction('studied'); }
