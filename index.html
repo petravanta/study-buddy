@@ -250,6 +250,7 @@ input[type=date]{background:var(--surface);border:1px solid var(--line);border-r
 <div id="layer"></div>
 <div id="zoom" hidden></div>
 <input type="file" id="fileIn" accept=".json,.csv,.tsv,.txt,application/json,text/csv,text/plain" hidden>
+<script src="beat-tracks.js"></script>
 <script>
 'use strict';
 /* Study Buddy. A programme is what you are studying for: some question sets, the practice tests you set up for it and
@@ -812,41 +813,51 @@ function answerBlock(q) {
     ${q.note ? `<p class="note">${esc(q.note)}</p>` : ''}
   </div>`;
 }
-// Count-along beat for a question with `beat` (a dance move, say): a click on every beat, louder on 1, softer on the
-// off beats in half time. Clicks are scheduled a little ahead with Web Audio so the tempo stays steady.
-const beat = { ctx: null, timer: 0, n: 0, next: 0, cfg: null };
+// Count-along beat for a question with `beat` (a dance move, say). A beat with a `style` plays one of that style's
+// backing tracks from beat-tracks.js (or Shuffle picks one each time), otherwise just a click on every beat.
+// The pick per style is per device (studyBuddy.tracks: style -> track number, -1 = Shuffle).
+const beat = { ctx: null, player: null, cfg: null };
+const trackNames = style => window.BeatTracks ? BeatTracks.names(style) : ['Just the click'];
+function trackPick(style) { const p = lsGet('studyBuddy.tracks'); const v = p && p[style]; return Number.isInteger(v) && v < trackNames(style).length ? v : -1; }
+function trackLabel(style) {
+  const pick = trackPick(style), names = trackNames(style), on = beat.cfg && beat.cfg.style === style;
+  return '♫ ' + (pick < 0 ? 'Shuffle' + (on ? ' · ' + names[beat.cfg.track] : '') : names[pick]);
+}
 function beatBlock(b) {
-  return `<div class="beat"><button class="btn sm" type="button" data-beat="${b.bpm}${b.half ? 'h' : ''}">▶ Count along · ${b.bpm} BPM${b.half ? ', half time' : ''}</button>
+  const style = b.style && trackNames(b.style).length > 1 ? b.style : '';
+  return `<div class="beat"><button class="btn sm" type="button" data-beat="${b.bpm}${b.half ? 'h' : ''}" data-style="${esc(style)}">▶ Count along · ${b.bpm} BPM${b.half ? ', half time' : ''}</button>
+    ${style ? `<button class="btn sm ghost" type="button" data-track="${esc(style)}" title="Change the backing track">${esc(trackLabel(style))}</button>` : ''}
     <span class="dots" aria-hidden="true">${[0, 1, 2, 3].map(i => `<i${b.half && i % 2 ? ' class="soft"' : ''}></i>`).join('')}</span>
     ${b.counts ? `<span class="small muted">${esc(b.counts)}</span>` : ''}</div>`;
 }
 function beatDots(n) { document.querySelectorAll('.beat .dots').forEach(d => [...d.children].forEach((x, i) => x.classList.toggle('on', i === n))); }
+function beatLabels() { document.querySelectorAll('[data-track]').forEach(b => { b.textContent = trackLabel(b.dataset.track); }); }
 function beatStop() {
-  clearInterval(beat.timer); beat.timer = 0; beat.cfg = null; beatDots(-1);
+  if (beat.player) beat.player.stop();
+  beat.player = null; beat.cfg = null; beatDots(-1);
   document.querySelectorAll('[data-beat]').forEach(b => { b.textContent = b.textContent.replace(/^■ Stop/, '▶ Count along'); });
+  beatLabels();
 }
 function beatStart(btn) {
-  const AC = window.AudioContext || window.webkitAudioContext; if (!AC) return toast('This browser can’t play the beat.');
-  const v = btn.dataset.beat, bpm = parseInt(v, 10), half = v.endsWith('h');
+  const AC = window.AudioContext || window.webkitAudioContext; if (!AC || !window.BeatTracks) return toast('This browser can’t play the beat.');
+  const v = btn.dataset.beat, bpm = parseInt(v, 10), half = v.endsWith('h'), style = btn.dataset.style || '';
   beatStop();
   beat.ctx = beat.ctx || new AC(); beat.ctx.resume();
-  beat.cfg = { bpm, half }; beat.n = 0; beat.next = beat.ctx.currentTime + 0.06;
-  const tick = () => {
-    const c = beat.ctx;
-    while (beat.next < c.currentTime + 0.12) {
-      const t = beat.next, n = beat.n, o = c.createOscillator(), g = c.createGain();
-      o.frequency.setValueAtTime(n === 0 ? 150 : 110, t); o.frequency.exponentialRampToValueAtTime(45, t + 0.12);
-      g.gain.setValueAtTime(n === 0 ? 0.9 : half && n % 2 ? 0.2 : 0.55, t); g.gain.exponentialRampToValueAtTime(0.001, t + 0.16);
-      o.connect(g).connect(c.destination); o.start(t); o.stop(t + 0.18);
-      setTimeout(() => beat.cfg && beatDots(n), Math.max(0, (t - c.currentTime) * 1000));
-      beat.n = (n + 1) % 4; beat.next += 60 / bpm;
-    }
-  };
-  beat.timer = setInterval(tick, 25); tick();
+  const pick = trackPick(style), track = pick < 0 ? Math.floor(Math.random() * (trackNames(style).length - 1)) : pick;
+  const p = BeatTracks.play(beat.ctx, { style, track, bpm, half, onBeat: (i, t) => setTimeout(() => beat.player === p && beatDots(i), Math.max(0, (t - beat.ctx.currentTime) * 1000)) });
+  beat.player = p; beat.cfg = { style, track };
   btn.textContent = btn.textContent.replace(/^▶ Count along/, '■ Stop');
+  beatLabels();
+}
+// Step to the next backing track (Shuffle, each track, the click) and switch to it straight away if it's playing.
+function beatNext(el) {
+  const style = el.dataset.track, n = trackNames(style).length, p = lsGet('studyBuddy.tracks') || {};
+  p[style] = trackPick(style) + 1 >= n ? -1 : trackPick(style) + 1; lsSet('studyBuddy.tracks', p);
+  const play = el.closest('.beat').querySelector('[data-beat]');
+  if (beat.player && play.textContent.startsWith('■')) beatStart(play); else beatLabels();
 }
 function renderRun() {
-  if (beat.timer) beatStop();
+  if (beat.player) beatStop();
   const it = run.items[run.i], q = it.q, N = run.items.length, mode = run.cfg.answer, showScore = run.cfg.feedback !== 'end' || mode === 'self';
   const multi = cur() && cur().sets.length > 1;
   const meta = [it.study ? 'New card' : it.review ? 'Review' : '', multi ? it.s.name : '', (q.tags || []).slice(-1)[0]].filter(Boolean).join(' · ');
@@ -1270,7 +1281,7 @@ function cleanQuestion(x) {
   if (str(x.note)) q.note = str(x.note);
   const steps = arr(x.steps); if (steps.length) q.steps = steps;
   const bpm = Math.round(+(x.beat && x.beat.bpm));
-  if (bpm >= 40 && bpm <= 220) { q.beat = { bpm }; if (x.beat.half === true) q.beat.half = true; if (str(x.beat.counts)) q.beat.counts = str(x.beat.counts); }
+  if (bpm >= 40 && bpm <= 220) { q.beat = { bpm }; if (x.beat.half === true) q.beat.half = true; if (str(x.beat.counts)) q.beat.counts = str(x.beat.counts); if (/^[a-z]{1,20}$/.test(str(x.beat.style))) q.beat.style = str(x.beat.style); }
   const fig = x.figure && typeof x.figure === 'object' ? str(x.figure.src) : '';
   if (/^(data\/[\w./-]+|https:\/\/\S+)$/.test(fig) && !fig.includes('..')) {
     q.figure = { src: fig };
@@ -1688,7 +1699,9 @@ document.addEventListener('keydown', e => {
 });
 document.addEventListener('click', e => {
   const bt = e.target.closest('[data-beat]');
-  if (bt) return beat.timer && bt.textContent.startsWith('■') ? beatStop() : beatStart(bt);
+  if (bt) return beat.player && bt.textContent.startsWith('■') ? beatStop() : beatStart(bt);
+  const tr = e.target.closest('[data-track]');
+  if (tr) return beatNext(tr);
   const z = e.target.closest('[data-zoom]');
   if (z) return zoomFigure(z.closest('figure'));
   if (e.target.closest('[data-unzoom]') || e.target.id === 'zoom') unzoom();

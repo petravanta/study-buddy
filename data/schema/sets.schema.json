@@ -167,6 +167,11 @@
             "counts": {
               "type": "string",
               "description": "How the move fits the beat, e.g. “1 step · 2 touch · 3 step · 4 touch”."
+            },
+            "style": {
+              "type": "string",
+              "enum": ["basics", "goth", "industrial", "rave"],
+              "description": "Which backing tracks to offer (see beat-tracks.js). Without it the beat is a plain click."
             }
           }
         },

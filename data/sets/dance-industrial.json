@@ -21,6 +21,7 @@
     "Lean the upper body slightly forward"
    ],
    "beat": {
+    "style": "industrial",
     "bpm": 128,
     "counts": "Right on 1 · left on 2 · right on 3 · left on 4"
    },
@@ -45,6 +46,7 @@
     "After two or four bars, switch to the left foot"
    ],
    "beat": {
+    "style": "industrial",
     "bpm": 128,
     "counts": "1 forward · 2 back · 3 forward · 4 back"
    },
@@ -68,6 +70,7 @@
     "Left fist on 3, back on 4, while the feet keep the stomp march going"
    ],
    "beat": {
+    "style": "industrial",
     "bpm": 128,
     "counts": "Punch on 1 and 3, pull on 2 and 4"
    },
